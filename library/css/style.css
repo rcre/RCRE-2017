@@ -525,6 +525,12 @@ p {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig"; }
 
+h1 {
+  font-size: 3em;
+  font-transform: uppercase;
+  color: white;
+  font-weight: 800; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -904,27 +910,23 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, .comment-reply-link, #submit {
-  display: inline-block;
-  position: relative;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.9em;
-  font-size: 34px;
-  line-height: 34px;
-  font-weight: normal;
-  padding: 0 24px;
-  border-radius: 4px;
-  border: 0;
+.blue-btn, .comment-reply-link, #submit, #cta-white, #cta-border {
+  display: block;
+  border: 3px solid #d2db3a;
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding: 10px;
   cursor: pointer;
+  text-decoration: none;
+  margin: 1em auto;
+  max-width: 250px;
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
-  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, #cta-white:hover, #cta-border:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus, #cta-white:focus, #cta-border:focus {
     color: #fff;
     text-decoration: none;
     outline: none; }
-  .blue-btn:active, .comment-reply-link:active, #submit:active {
+  .blue-btn:active, .comment-reply-link:active, #submit:active, #cta-white:active, #cta-border:active {
     top: 1px; }
 
 /*
@@ -938,6 +940,32 @@ and it will create a button dependant on those variables.
     background-color: #66c4c4; }
   .blue-btn:active, .comment-reply-link:active, #submit:active {
     background-color: #63c3c3; }
+
+#cta-white {
+  color: #576571;
+  border-color: #fff;
+  text-transform: uppercase;
+  background-color: #fff;
+  font-weight: 600;
+  transition: 0.5s; }
+  #cta-white:hover, #cta-white:focus {
+    background-color: #66c4c4;
+    border-color: #66c4c4;
+    transition: 0.5s; }
+  #cta-white:active {
+    background-color: #66c4c4; }
+
+#cta-border {
+  color: #fff;
+  border-color: #d2db3a;
+  background-color: #4c5863;
+  text-transform: uppercase;
+  font-weight: 600; }
+  #cta-border:hover, #cta-border:focus {
+    background-color: #606f7d;
+    transition: 0.5s; }
+  #cta-border:active {
+    background-color: #4c5863; }
 
 /******************************************************************
 Site Name:
@@ -1465,6 +1493,9 @@ body {
 .div {
   vertical-align: baseline; }
 
+ol, ul {
+  margin: 0; }
+
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
@@ -1515,7 +1546,7 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #75caca;
+  color: #e6e6e6;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
@@ -1545,7 +1576,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
 h1, .h1 {
   font-size: 2.5em;
-  line-height: 1.333em; }
+  line-height: 1.333em;
+  text-transform: uppercase;
+  font-weight: 600; }
 
 h2, .h2 {
   font-size: 1.75em;
@@ -1568,45 +1601,75 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-.header {
-  background-color: #43505d; }
-  .header #logo {
-    width: 190px;
-    padding: 0.75em 0; }
-  .header .mobile-quick-nav {
-    text-align: right; }
-    .header .mobile-quick-nav img {
+.header #inner-header {
+  border-bottom: 3px solid #fff;
+  height: 63px;
+  position: fixed;
+  width: 100%;
+  background-color: #576571; }
+  .header #inner-header #logo {
+    max-width: 225px;
+    padding-top: 12px;
+    padding-left: 12px; }
+  .header #inner-header #mobile-quick-nav {
+    background-color: #43505d; }
+    .header #inner-header #mobile-quick-nav div {
+      cursor: pointer;
+      text-align: center;
+      padding: 12px;
       width: 60px;
-      height: 60px;
-      background-color: #576571; }
-    .header .mobile-quick-nav a {
-      height: 60px;
-      color: #fff; }
-    .header .mobile-quick-nav #menu-burger {
-      background-color: #d2db3a; }
+      text-align: center;
+      border-right: 1px solid #576571; }
+      .header #inner-header #mobile-quick-nav div b
+      a, .header #inner-header #mobile-quick-nav div img {
+        width: 30px; }
+    .header #inner-header #mobile-quick-nav div#menu-burger {
+      background-color: #d2db3a;
+      border: none; }
 
 /*********************
 NAVIGATION STYLES
 *********************/
-/*
-all navs have a .nav class applied via
-the wp_menu function; this is so we can
-easily write one group of styles for
-the navs on the site so our css is cleaner
-and more scalable.
-*/
+#main-menu {
+  display: none; }
+
+#mobile-menu {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  top: 10;
+  left: 0;
+  background: #43505d;
+  z-index: 999;
+  -webkit-transform: translate3d(-320px, 0, 0);
+  transform: translate3d(-320px, 0, 0);
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
+  #mobile-menu.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
+  #mobile-menu li {
+    border-bottom: 1px solid #303942; }
+  #mobile-menu li:last-child {
+    border-top: 1px solid #c8d0d7;
+    position: absolute;
+    bottom: 110px;
+    width: 100%;
+    text-align: center; }
+
 .nav {
-  display: none;
-  position: absolute;
-  left: -200px;
-  border-bottom: 0;
-  margin: 0;
+  margin-top: 63px;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
-  .nav .active {
-    display: block;
-    left: 0px; }
+  .nav ul {
+    position: relative; }
   .nav li {
     /*
     so you really have to rethink your dropdowns for mobile.
@@ -1616,35 +1679,56 @@ and more scalable.
     http://www.alistapart.com/articles/organizing-mobile/
     */ }
     .nav li a {
-      display: block;
       color: #fff;
-      padding: 0.75em;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
       /*
       remember this is for mobile ONLY, so there's no need
       to even declare hover styles here, you can do it in
       the style.scss file where it's relevant. We want to
       keep this file as small as possible!
       */ }
-    .nav li ul.sub-menu li a,
-    .nav li ul.children li a {
-      text-decoration: none;
-      padding-left: 30px; }
+    .nav li:last-child a {
+      color: #d2db3a; }
+    .nav li ul.sub-menu li,
+    .nav li ul.children li {
+      display: none;
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out; }
+      .nav li ul.sub-menu li a,
+      .nav li ul.children li a {
+        text-decoration: none;
+        padding-left: 30px; }
+      .nav li ul.sub-menu li.active,
+      .nav li ul.children li.active {
+        display: block; }
+      .nav li ul.sub-menu li:last-child,
+      .nav li ul.children li:last-child {
+        bottom: 0; }
 
 /* end .nav */
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-#content {
-  margin-top: 1.5em; }
+#content header {
+  border-bottom: 1px solid #43505d;
+  padding: 1.5em;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #content header .callout {
+    text-align: center; }
+    #content header .callout a {
+      display: block;
+      margin: 0px; }
 
 .hentry {
   background-color: #fff;
-  border-radius: 3px;
-  margin-bottom: 1.5em;
-  border: 1px solid #ccc; }
-  .hentry header {
-    border-bottom: 1px solid #e6e6e6;
-    padding: 1.5em; }
+  margin-bottom: 1.5em; }
   .hentry footer {
     padding: 1.5em;
     border-top: 1px solid #e6e6e6; }
@@ -1655,7 +1739,7 @@ POSTS & CONTENT STYLES
 .single-title,
 .page-title,
 .entry-title {
-  margin: 0; }
+  margin: 40px 0; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -2085,33 +2169,53 @@ you can add resource intensive styles.
   /*********************
   HEADER STYLES
   *********************/
+  #mobile-quick-nav div#menu-burger {
+    display: none; }
+  #mobile-quick-nav div:first-child {
+    display: none; }
+
   /*********************
   NAVIGATION STYLES
   *********************/
+  #main-menu {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #43505d;
+    z-index: 999;
+    -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0); }
+
   .nav {
+    margin-top: 0px;
+    display: block;
     border: 0;
+    text-align: right;
+    float: right;
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */ }
-    .nav ul {
-      background: #323944;
-      margin-top: 0; }
     .nav li {
-      float: left;
-      position: relative;
+      display: inline-block;
       /*
       plan your menus and drop-downs wisely.
       */
       /* showing sub-menus */ }
       .nav li a {
         border-bottom: 0;
+        font-size: 0.75em;
+        padding: 1.5em 0.5em;
+        border-radius: 5px;
         /*
         you can use hover styles here even though this size
         has the possibility of being a mobile device.
         */ }
         .nav li a:hover, .nav li a:focus {
           color: #fff;
-          text-decoration: underline; }
+          text-decoration: none; }
+      .nav li:last-child {
+        display: none; }
       .nav li ul.sub-menu,
       .nav li ul.children {
         margin-top: 0;

@@ -105,6 +105,12 @@ p {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig"; }
 
+h1 {
+  font-size: 3em;
+  font-transform: uppercase;
+  color: white;
+  font-weight: 800; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -258,33 +264,53 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER STYLES
 *********************/
+#mobile-quick-nav div#menu-burger {
+  display: none; }
+#mobile-quick-nav div:first-child {
+  display: none; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
+#main-menu {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #43505d;
+  z-index: 999;
+  -webkit-transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0); }
+
 .nav {
+  margin-top: 0px;
+  display: block;
   border: 0;
+  text-align: right;
+  float: right;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */ }
-  .nav ul {
-    background: #323944;
-    margin-top: 0; }
   .nav li {
-    float: left;
-    position: relative;
+    display: inline-block;
     /*
     plan your menus and drop-downs wisely.
     */
     /* showing sub-menus */ }
     .nav li a {
       border-bottom: 0;
+      font-size: 0.75em;
+      padding: 1.5em 0.5em;
+      border-radius: 5px;
       /*
       you can use hover styles here even though this size
       has the possibility of being a mobile device.
       */ }
       .nav li a:hover, .nav li a:focus {
         color: #fff;
-        text-decoration: underline; }
+        text-decoration: none; }
+    .nav li:last-child {
+      display: none; }
     .nav li ul.sub-menu,
     .nav li ul.children {
       margin-top: 0;
