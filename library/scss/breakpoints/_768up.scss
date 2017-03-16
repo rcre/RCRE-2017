@@ -99,6 +99,9 @@ NAVIGATION STYLES
 			&:hover, &:focus {
 				color: $white;
 				text-decoration: none;
+				background-color: darken($gray, 5%);;
+				//transition: 0.5s;
+				border-bottom: 2px solid $white;
 			}
 		}
 
