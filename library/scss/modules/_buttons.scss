@@ -25,19 +25,15 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 *********************/
 
 %btn {
-  display: inline-block;
-  position: relative;
-  font-family: $sans-serif;
-  text-decoration: none;
-  color: $white;
-  font-size: 0.9em;
-  font-size: 34px;
-  line-height: 34px;
-  font-weight: normal;
-  padding: 0 24px;
-  border-radius: 4px;
-  border: 0;
+  display: block;
+  border: 3px solid $green;
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding: 10px;
   cursor: pointer;
+  text-decoration: none;
+  margin: 1em auto;
+  max-width: 250px;
   @include transition(background-color 0.14s ease-in-out);
 
   // hovering on the btn
@@ -73,3 +69,50 @@ and it will create a button dependant on those variables.
   } // end active
 
 } // end blue button
+
+
+.btn {
+
+}
+
+#cta-white {
+  @extend %btn;
+  color: $gray;
+  border-color: $white;
+  text-transform: uppercase;
+  background-color: $white;
+  font-weight: 600;
+  transition: 0.5s;
+
+  &:hover,
+  &:focus {
+    background-color: darken($blue, 4%);
+    border-color: darken($blue, 4%);
+    transition: 0.5s;
+  } // end hover
+
+  &:active {
+    background-color: darken($blue, 4%);
+  } // end active
+}
+
+#cta-border {
+  @extend %btn;
+  color: $white;
+  border-color: $green;
+  background-color: darken($gray, 5%);
+  text-transform: uppercase;
+  font-weight: 600;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($gray, 4%);
+    transition: 0.5s;
+  } // end hover
+
+  &:active {
+    background-color: darken($gray, 5%);
+  } // end active
+}
+
+
