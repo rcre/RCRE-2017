@@ -12,3 +12,12 @@ be seen on the Desktop.
 .wrap {
   width: 1040px;
 }
+
+.nav {
+	li {
+		// Show "Search Properties" when you have more screen
+		&:last-child {
+			display: inline-block;
+		}
+	}
+}
