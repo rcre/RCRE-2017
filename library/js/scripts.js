@@ -108,6 +108,13 @@ function loadGravatars() {
 /*
  * Put all your regular jQuery in here.
 */
+
+// Mobile Menu Animation
+jQuery('header #inner-header #mobile-quick-nav div#menu-burger').on('click', function() {
+    jQuery('header #inner-header nav#mobile-menu').toggleClass('active');
+});
+
+
 jQuery(document).ready(function($) {
 
   /*
