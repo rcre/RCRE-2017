@@ -22,13 +22,13 @@
 									<p class="byline vcard">
 										<?php printf( __( 'Posted', 'bonestheme').' <time class="updated" datetime="%1$s" itemprop="datePublished">%2$s</time> '.__( 'by',  'bonestheme').' <span class="author">%3$s</span>', get_the_time('Y-m-j'), get_the_time(get_option('date_format')), get_the_author_link( get_the_author_meta( 'ID' ) )); ?>
 									</p>
+			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-								</header> <?php // end article header ?>
+				<section class="entry-content cf" itemprop="articleBody">
+					<?php
+						// the content (pretty self explanatory huh)
+						the_content();
 
-								<section class="entry-content cf" itemprop="articleBody">
-									<?php
-										// the content (pretty self explanatory huh)
-										the_content();
 						/*
 						 * Link Pages is used in case you have posts that are set to break into
 						 * multiple pages. You can remove this if you don't plan on doing that.
@@ -52,22 +52,24 @@
 				
 
 
-								<footer class="article-footer cf">
+				<footer class="article-footer cf">
 
-								</footer>
+				</footer>
 
-								<?php comments_template(); ?>
+				<?php comments_template(); ?>
 
-							</article>
+			</article>
 
-							<?php endwhile; endif; ?>
+			<?php endwhile; endif; ?>
+		
+		<?php get_template_part('library/partials', 'proposalContact'); ?>
 
-						</main>
+		</main>
 
-						<?php get_sidebar(); ?>
+		<?php get_sidebar(); ?>
 
-				</div>
+	</div>
 
-			</div>
+</div>
 
 <?php get_footer(); ?>
