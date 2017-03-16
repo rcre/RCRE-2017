@@ -45,10 +45,6 @@
 		<div id="container">
 
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-				<div id="inner-header" class="wrap cf">
-
-					
 					<a class="m-2of4" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="Call RESOURCE" id="logo"></a>
 					
 					<div class="mobile-quick-nav m-2of4 last-col">
