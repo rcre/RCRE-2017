@@ -177,6 +177,29 @@ NAVIGATION STYLES
 
 } /* end .nav */
 
+
+/*********************
+CONTENT
+*********************/
+
+#content {
+
+	header {
+
+		.callout {
+			text-align: center;
+			margin: 100px auto;
+
+			a {
+				font-size: 0.75em;
+				margin: 0.50em auto;
+				display: block;
+				max-width: 150px;
+			}
+		}
+	}
+}
+
 /*********************
 SIDEBARS & ASIDES
 *********************/
