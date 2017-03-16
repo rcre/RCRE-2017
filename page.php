@@ -3,14 +3,16 @@
 	<div id="content">
 		<?php if (has_post_thumbnail($post->ID)) { ?>
 		<?php $image = wp_get_attachment_url(get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail'); ?>
-		<header class="article-header" style="background-image: url('<?php echo $image; ?>');">
-			<div class="callout m-all t-1of6 d-1of3">
+		
+		<header class="article-header cf" style="background-image: url('<?php echo $image; ?>');">
+			<div class="callout">
 				<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
 
 				<a href="#" id="cta-white" class="btn">Search</a>
 				<a href="#" id="cta-border" class="btn">Find People</a>
 			</div>
 		</header>
+
 		<?php } else { ?> <?php	} ?>
 
 	<div id="inner-content" class="wrap cf">
@@ -22,22 +24,7 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 				<section class="entry-content cf" itemprop="articleBody">
-					<?php
-						// the content (pretty self explanatory huh)
-						the_content();
-
-						/*
-						 * Link Pages is used in case you have posts that are set to break into
-						 * multiple pages. You can remove this if you don't plan on doing that.
-						 *
-						 * Also, breaking content up into multiple pages is a horrible experience,
-						 * so don't do it. While there are SOME edge cases where this is useful, it's
-						 * mostly used for people to get more ad views. It's up to you but if you want
-						 * to do it, you're wrong and I hate you. (Ok, I still love you but just not as much)
-						 *
-						 * http://gizmodo.com/5841121/google-wants-to-help-you-avoid-stupid-annoying-multiple-page-articles
-						 *
-						*/
+					<?php the_content();
 						wp_link_pages( array(
 							'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'bonestheme' ) . '</span>',
 							'after'       => '</div>',
@@ -47,8 +34,6 @@
 					?>
 				</section> <?php // end article section ?>
 				
-
-
 				<footer class="article-footer cf">
 
 				</footer>
