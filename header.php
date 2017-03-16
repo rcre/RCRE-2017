@@ -55,7 +55,10 @@
 					<a href="tel:317-663-6000" role="link"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Activate Menu" id="search"></a>
 
 					<!-- Search Button -->
-					<a href="tel:317-663-6000" role="link"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Search" id="menu-burger"></a>
+					<!-- Open Mobile Menu Button -->
+						<div id="menu-burger" class="m-1of3 t-1of3 d-1of3 last-col">
+							<img aria-hidden aria-label="Open Menu" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-menu-burger.svg" alt="Open Mobile Menu">
+						</div>
 					</div>
 
 					<!-- Top Navigation -->
