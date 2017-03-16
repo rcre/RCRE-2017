@@ -87,10 +87,10 @@ NAVIGATION STYLES
 		display: inline-block;
 
 		a {
-			border-bottom: 0;
-			font-size: 0.75em;
-			padding: 1.5em 0.5em;
-			border-radius: 5px;
+			display: block;
+			font-size: 0.70em;
+			padding: 1.9em 0.5em;
+			//transition: 0.5s;
 
 			/*
 			you can use hover styles here even though this size
