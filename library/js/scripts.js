@@ -114,6 +114,9 @@ jQuery('header #inner-header #mobile-quick-nav div#menu-burger').on('click', fun
     jQuery('header #inner-header ul#menu-mobile-menu').toggleClass('active');
 });
 
+jQuery('#main-menu #menu-main-top-menu').on('click', function() {
+    jQuery('ul#sub-menu').toggleClass('dropdown');
+});
 
 // Mobile Menu Dropdowns
 var acc = document.getElementsByClassName("li");
