@@ -164,11 +164,46 @@ HEADER STYLES
 
 .header {
 
+	#inner-header {
+		border-bottom: 3px solid $white;
+		height: 63px;
+		position: fixed;
+		width: 100%;
+		background-color: $gray;
 
-		a {
-			color: $white;
+		#logo {
+			max-width: 225px;
+			padding-top: 12px;
+			padding-left: 12px;
+		}
+		
+		// Search, Call or Menu
+		#mobile-quick-nav {
+			background-color: $dgray;
+
+			div {
+				cursor: pointer;
+				text-align: center;
+				padding: 12px;
+				width: 60px;
+				text-align: center;
+				border-right: 1px solid $gray;
+				b
+
+				a, img {
+					width: 30px;
+				}
+			}
+
+			div#menu-burger {
+				background-color: $green;
+				border: none;
+			}
 		}
 	}
+}
+	
+
 
 /*********************
 NAVIGATION STYLES
