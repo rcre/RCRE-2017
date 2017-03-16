@@ -88,7 +88,7 @@ LINK STYLES
 *********************/
 
 a, a:visited {
-	color: $link-color;
+	color: $lgray;
 
 	/* on hover */
 	&:hover, &:focus {
@@ -276,7 +276,7 @@ POSTS & CONTENT STYLES
 
 			footer {
 				padding: 1.5em;
-				border-top: 1px solid $light-gray;
+				border-top: 1px solid $lgray;
 
 				p {
 					margin: 0;
@@ -288,7 +288,7 @@ POSTS & CONTENT STYLES
 		.single-title,
 		.page-title,
 		.entry-title {
-			margin: 0;
+			margin: 40px 0;
 		}
 
 		.single-title {}
@@ -365,7 +365,7 @@ POSTS & CONTENT STYLES
 				border-bottom: 1px solid $gray;
 
 				&:nth-child(even) {
-					background-color: $light-gray;
+					background-color: $lgray;
 				}
 			}
 
@@ -379,7 +379,7 @@ POSTS & CONTENT STYLES
 			}
 
 			th {
-				background-color: $light-gray;
+				background-color: $lgray;
 				border-bottom: 1px solid $gray;
 				border-right: 1px solid $gray;
 
@@ -437,7 +437,7 @@ POSTS & CONTENT STYLES
 
 			pre {
 				background: $black;
-				color: $light-gray;
+				color: $lgray;
 				font-size: 0.9em;
 				padding: 1.5em;
 				margin: 0 0 1.5em;
@@ -578,7 +578,7 @@ COMMENT STYLES
 #comments-title {
 	padding: 0.75em;
 	margin: 0;
-	border-top: 1px solid $light-gray;
+	border-top: 1px solid $lgray;
 
 	/* number of comments span */
 	span {}
@@ -605,7 +605,7 @@ COMMENT STYLES
 	clear: both;
 	overflow: hidden;
 	padding: 1.5em;
-	border-bottom: 1px solid $light-gray;
+	border-bottom: 1px solid $lgray;
 
 	.comment-author {
 		padding: 7px;
@@ -699,7 +699,7 @@ COMMENT STYLES
 		background-color: $white;
 	}
 	&.even {
-		background: $light-gray;
+		background: $lgray;
 	}
 	&.parent {}
 	&.comment {}
@@ -769,7 +769,7 @@ COMMENT FORM STYLES
 .comment-respond {
 	@extend .cf;
 	padding: 1.5em;
-	border-top: 1px solid $light-gray;
+	border-top: 1px solid $lgray;
 }
 
 	#reply-title {
@@ -792,7 +792,7 @@ COMMENT FORM STYLES
 
 	.form-allowed-tags {
 		padding: 1.5em;
-		background-color: $light-gray;
+		background-color: $lgray;
 		font-size: 0.9em;
 	}
 
@@ -871,7 +871,7 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	background-color: $black;
-	color: $light-gray;
+	color: $lgray;
 }
 
 	/*
