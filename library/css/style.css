@@ -909,11 +909,10 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   border: 3px solid #d2db3a;
   border-radius: 10px;
   font-size: 1.5em;
-  padding: 10px;
+  padding: 0.25em;
+  margin: 0.25em;
   cursor: pointer;
   text-decoration: none;
-  margin: 1em auto;
-  max-width: 250px;
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
   .blue-btn:hover, .comment-reply-link:hover, #submit:hover, #cta-white:hover, #cta-border:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus, #cta-white:focus, #cta-border:focus {
@@ -1610,7 +1609,7 @@ HEADER STYLES
     .header #inner-header #mobile-quick-nav div {
       cursor: pointer;
       text-align: center;
-      padding: 12px;
+      padding: 0.75em 0.5em;
       width: 60px;
       text-align: center;
       border-right: 1px solid #576571; }
@@ -1666,45 +1665,23 @@ NAVIGATION STYLES
   /* end current highlighters */ }
   .nav ul {
     position: relative; }
-  .nav li {
-    /*
-    so you really have to rethink your dropdowns for mobile.
-    you don't want to have it expand too much because the
-    screen is so small. How you manage your menu should
-    depend on the project. Here's some great info on it:
-    http://www.alistapart.com/articles/organizing-mobile/
-    */ }
-    .nav li a {
-      color: #fff;
+  .nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600; }
+  .nav li:last-child a {
+    color: #d2db3a; }
+  .nav li ul.sub-menu li,
+  .nav li ul.children li {
+    display: none; }
+    .nav li ul.sub-menu li a,
+    .nav li ul.children li a {
       text-decoration: none;
-      text-transform: uppercase;
-      font-weight: 600;
-      /*
-      remember this is for mobile ONLY, so there's no need
-      to even declare hover styles here, you can do it in
-      the style.scss file where it's relevant. We want to
-      keep this file as small as possible!
-      */ }
-    .nav li:last-child a {
-      color: #d2db3a; }
-    .nav li ul.sub-menu li,
-    .nav li ul.children li {
-      display: none;
-      padding: 0 18px;
-      background-color: white;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out; }
-      .nav li ul.sub-menu li a,
-      .nav li ul.children li a {
-        text-decoration: none;
-        padding-left: 30px; }
-      .nav li ul.sub-menu li.active,
-      .nav li ul.children li.active {
-        display: block; }
-      .nav li ul.sub-menu li:last-child,
-      .nav li ul.children li:last-child {
-        bottom: 0; }
+      padding-left: 30px; }
+    .nav li ul.sub-menu li.active,
+    .nav li ul.children li.active {
+      display: block; }
 
 /* end .nav */
 /*********************
@@ -1715,12 +1692,15 @@ POSTS & CONTENT STYLES
   padding: 1.5em;
   text-align: center;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
   #content header .callout {
-    text-align: center; }
+    text-align: center;
+    margin: 70px auto; }
     #content header .callout a {
+      margin: 0.50em auto;
       display: block;
-      margin: 0px; }
+      max-width: 250px; }
 
 .hentry {
   background-color: #fff;
@@ -2188,6 +2168,7 @@ you can add resource intensive styles.
 
   .nav {
     margin-top: 0px;
+    margin-right: 0.5em;
     display: block;
     border: 0;
     text-align: right;
@@ -2197,35 +2178,40 @@ you can add resource intensive styles.
     /* end current highlighters */ }
     .nav li {
       display: inline-block;
-      /*
-      plan your menus and drop-downs wisely.
-      */
       /* showing sub-menus */ }
       .nav li a {
-        border-bottom: 0;
-        font-size: 0.75em;
-        padding: 1.5em 0.5em;
-        border-radius: 5px;
+        display: block;
+        font-size: 0.70em;
+        padding: 1.9em 0.5em;
         /*
         you can use hover styles here even though this size
         has the possibility of being a mobile device.
         */ }
         .nav li a:hover, .nav li a:focus {
           color: #fff;
-          text-decoration: none; }
+          text-decoration: none;
+          background-color: #4c5863;
+          border-bottom: 2px solid #fff; }
       .nav li:last-child {
         display: none; }
       .nav li ul.sub-menu,
       .nav li ul.children {
-        margin-top: 0;
-        border: 1px solid #ccc;
-        border-top: 0;
+        display: none;
         position: absolute;
-        visibility: hidden;
+        left: 0;
+        top: 63;
+        width: 100%;
+        padding: 1em 3em;
         z-index: 8999;
         /* highlight sub-menu current page */ }
+        .nav li ul.sub-menu.dropdown,
+        .nav li ul.children.dropdown {
+          display: block; }
         .nav li ul.sub-menu li,
         .nav li ul.children li {
+          display: inline-block;
+          float: left;
+          width: 20%;
           /*
           if you need to go deeper, go nuts
           just remember deeper menus suck
@@ -2233,11 +2219,9 @@ you can add resource intensive styles.
           */ }
           .nav li ul.sub-menu li a,
           .nav li ul.children li a {
-            padding-left: 10px;
-            border-right: 0;
-            display: block;
-            width: 180px;
-            border-bottom: 1px solid #ccc; }
+            text-align: left;
+            padding: 2em;
+            display: block; }
           .nav li ul.sub-menu li:last-child a,
           .nav li ul.children li:last-child a {
             border-bottom: 0; }
@@ -2250,6 +2234,18 @@ you can add resource intensive styles.
         visibility: visible; }
 
   /* end .nav */
+  /*********************
+  CONTENT
+  *********************/
+  #content header .callout {
+    text-align: center;
+    margin: 100px auto; }
+    #content header .callout a {
+      font-size: 0.75em;
+      margin: 0.50em auto;
+      display: block;
+      max-width: 150px; }
+
   /*********************
   SIDEBARS & ASIDES
   *********************/
@@ -2315,7 +2311,10 @@ you can add resource intensive styles.
   
   ******************************************************************/
   .wrap {
-    width: 1040px; } }
+    width: 1040px; }
+
+  .nav li:last-child {
+    display: inline-block; } }
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.

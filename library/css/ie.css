@@ -281,6 +281,7 @@ NAVIGATION STYLES
 
 .nav {
   margin-top: 0px;
+  margin-right: 0.5em;
   display: block;
   border: 0;
   text-align: right;
@@ -290,35 +291,40 @@ NAVIGATION STYLES
   /* end current highlighters */ }
   .nav li {
     display: inline-block;
-    /*
-    plan your menus and drop-downs wisely.
-    */
     /* showing sub-menus */ }
     .nav li a {
-      border-bottom: 0;
-      font-size: 0.75em;
-      padding: 1.5em 0.5em;
-      border-radius: 5px;
+      display: block;
+      font-size: 0.70em;
+      padding: 1.9em 0.5em;
       /*
       you can use hover styles here even though this size
       has the possibility of being a mobile device.
       */ }
       .nav li a:hover, .nav li a:focus {
         color: #fff;
-        text-decoration: none; }
+        text-decoration: none;
+        background-color: #4c5863;
+        border-bottom: 2px solid #fff; }
     .nav li:last-child {
       display: none; }
     .nav li ul.sub-menu,
     .nav li ul.children {
-      margin-top: 0;
-      border: 1px solid #ccc;
-      border-top: 0;
+      display: none;
       position: absolute;
-      visibility: hidden;
+      left: 0;
+      top: 63;
+      width: 100%;
+      padding: 1em 3em;
       z-index: 8999;
       /* highlight sub-menu current page */ }
+      .nav li ul.sub-menu.dropdown,
+      .nav li ul.children.dropdown {
+        display: block; }
       .nav li ul.sub-menu li,
       .nav li ul.children li {
+        display: inline-block;
+        float: left;
+        width: 20%;
         /*
         if you need to go deeper, go nuts
         just remember deeper menus suck
@@ -326,11 +332,9 @@ NAVIGATION STYLES
         */ }
         .nav li ul.sub-menu li a,
         .nav li ul.children li a {
-          padding-left: 10px;
-          border-right: 0;
-          display: block;
-          width: 180px;
-          border-bottom: 1px solid #ccc; }
+          text-align: left;
+          padding: 2em;
+          display: block; }
         .nav li ul.sub-menu li:last-child a,
         .nav li ul.children li:last-child a {
           border-bottom: 0; }
@@ -343,6 +347,18 @@ NAVIGATION STYLES
       visibility: visible; }
 
 /* end .nav */
+/*********************
+CONTENT
+*********************/
+#content header .callout {
+  text-align: center;
+  margin: 100px auto; }
+  #content header .callout a {
+    font-size: 0.75em;
+    margin: 0.50em auto;
+    display: block;
+    max-width: 150px; }
+
 /*********************
 SIDEBARS & ASIDES
 *********************/
@@ -402,6 +418,9 @@ be seen on the Desktop.
 ******************************************************************/
 .wrap {
   width: 1040px; }
+
+.nav li:last-child {
+  display: inline-block; }
 
 /*
 you can call the larger styles if you want, but there's really no need
