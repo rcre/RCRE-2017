@@ -1,4 +1,9 @@
 <?php get_header(); ?>
+			
+	<div id="content">
+		<?php if (has_post_thumbnail($post->ID)) { ?>
+		<?php $image = wp_get_attachment_url(get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail'); ?>
+		<header class="article-header" style="background-image: url('<?php echo $image; ?>');">
 
 			<div id="content">
 
