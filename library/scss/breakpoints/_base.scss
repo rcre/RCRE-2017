@@ -238,6 +238,11 @@ NAVIGATION STYLES
 	
 	li {
 		border-bottom: 1px solid darken($dgray, 9%);;
+
+		a {
+			display: block;
+			padding: 1.2em;
+		}
 	}
 
 	li:last-child  {
