@@ -49,13 +49,13 @@
 					
 					<div class="mobile-quick-nav m-2of4 last-col">
 					<!-- Call Button -->
-					<!-- Mobile Menu Button -->
-					<a href="tel:317-663-6000" role="link"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Activate Menu" id="search"></a>
-
 						<div class="m-1of3 t-1of3 d-1of3">
 							<a href="tel:317-663-6000" role="link"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE" id="phone"></a>
 						</div>
 					<!-- Search Button -->
+						<div class="m-1of3 t-1of3 d-1of3">
+							<a href="#" role="link"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-search.svg" alt="Activate Menu" id="search"></a>
+						</div>
 					<!-- Open Mobile Menu Button -->
 						<div id="menu-burger" class="m-1of3 t-1of3 d-1of3 last-col">
 							<img aria-hidden aria-label="Open Menu" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-menu-burger.svg" alt="Open Mobile Menu">
