@@ -25,6 +25,14 @@ body {
   	-moz-osx-font-smoothing: grayscale;
 }
 
+.div {
+	vertical-align: baseline;
+}
+
+ol, ul {
+	margin: 0;
+}
+
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
