@@ -55,18 +55,36 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 
+#main-menu {
+	display: block;
+	position: relative;
+    width: 100%;
+    height: auto;
+    background: $dgray;
+    z-index: 999;
+    -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+}
+
 .nav {
+	margin-top: 0px;
+	display: block;
 	border: 0;
+	text-align: right;
+	float: right;
+
 	ul {
-		background:$black;
-		margin-top:0;
+
 	}
+
 	li {
-		float: left;
-		position: relative;
+		display: inline-block;
 
 		a {
 			border-bottom: 0;
+			font-size: 0.75em;
+			padding: 1.5em 0.5em;
+			border-radius: 5px;
 
 			/*
 			you can use hover styles here even though this size
@@ -74,7 +92,7 @@ NAVIGATION STYLES
 			*/
 			&:hover, &:focus {
 				color: $white;
-				text-decoration: underline;
+				text-decoration: none;
 			}
 		}
 
