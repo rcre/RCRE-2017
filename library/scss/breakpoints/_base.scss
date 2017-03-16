@@ -323,7 +323,9 @@ NAVIGATION STYLES
 
 				&:first-child {}
 
-				&:last-child {}
+				&:last-child {
+					bottom: 0;
+				}
 
 			}
 
