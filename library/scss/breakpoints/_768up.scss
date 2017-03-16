@@ -33,7 +33,23 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+#logo {}
+
+// Search, Call or Menu
+#mobile-quick-nav {
+	
+	// Hide the menu burger
+	div#menu-burger {
+		display: none;
+	}
+
+	// Hide the phone button
+	div {
+		&:first-child {
+			display: none;
+		}
+	}
+}
 
 /*********************
 NAVIGATION STYLES
