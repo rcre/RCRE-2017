@@ -525,12 +525,6 @@ p {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig"; }
 
-h1 {
-  font-size: 3em;
-  font-transform: uppercase;
-  color: white;
-  font-weight: 800; }
-
 /******************************************************************
 Site Name:
 Author:
@@ -1576,8 +1570,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
 h1, .h1 {
   font-size: 2.5em;
-  line-height: 1.333em;
-  text-transform: uppercase;
+  font-transform: uppercase;
+  color: #fff;
   font-weight: 600; }
 
 h2, .h2 {
