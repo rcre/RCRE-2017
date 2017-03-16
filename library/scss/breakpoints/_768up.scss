@@ -103,13 +103,13 @@ NAVIGATION STYLES
 		}
 
 		&:first-child {}
+
+		// Don't Show "search Properties on Smaller Screens"
 		&:last-child {
 			display: none;
 		}
 
-		/*
-		plan your menus and drop-downs wisely.
-		*/
+		// Desktop Drop-down Menu
 		ul.sub-menu,
 		ul.children {
 			margin-top: 0;
