@@ -276,6 +276,9 @@ NAVIGATION STYLES
   -webkit-transform: translate3d(0px, 0, 0);
   transform: translate3d(0px, 0, 0); }
 
+#menu-mobile-menu {
+  display: none; }
+
 .nav {
   margin-top: 0px;
   display: block;

@@ -1570,9 +1570,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
 h1, .h1 {
   font-size: 2.5em;
-  font-transform: uppercase;
+  text-transform: uppercase;
   color: #fff;
-  font-weight: 600; }
+  font-weight: 800; }
 
 h2, .h2 {
   font-size: 1.75em;
@@ -1614,8 +1614,7 @@ HEADER STYLES
       width: 60px;
       text-align: center;
       border-right: 1px solid #576571; }
-      .header #inner-header #mobile-quick-nav div b
-      a, .header #inner-header #mobile-quick-nav div img {
+      .header #inner-header #mobile-quick-nav div a, .header #inner-header #mobile-quick-nav div img {
         width: 30px; }
     .header #inner-header #mobile-quick-nav div#menu-burger {
       background-color: #d2db3a;
@@ -1627,7 +1626,7 @@ NAVIGATION STYLES
 #main-menu {
   display: none; }
 
-#mobile-menu {
+#menu-mobile-menu {
   position: fixed;
   width: 250px;
   height: 100%;
@@ -1641,16 +1640,19 @@ NAVIGATION STYLES
   transition: transform 0.4s;
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
-  #mobile-menu.active {
+  #menu-mobile-menu.active {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-transition: -webkit-transform 0.8s;
     transition: transform 0.8s;
     -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
     transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
-  #mobile-menu li {
+  #menu-mobile-menu li {
     border-bottom: 1px solid #303942; }
-  #mobile-menu li:last-child {
+    #menu-mobile-menu li a {
+      display: block;
+      padding: 1.2em; }
+  #menu-mobile-menu li:last-child {
     border-top: 1px solid #c8d0d7;
     position: absolute;
     bottom: 110px;
@@ -2180,6 +2182,9 @@ you can add resource intensive styles.
     z-index: 999;
     -webkit-transform: translate3d(0px, 0, 0);
     transform: translate3d(0px, 0, 0); }
+
+  #menu-mobile-menu {
+    display: none; }
 
   .nav {
     margin-top: 0px;
