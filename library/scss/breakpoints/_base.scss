@@ -349,13 +349,16 @@ POSTS & CONTENT STYLES
 		text-align: center;
 		background-position: center;
 		background-repeat: no-repeat;
+		background-size: cover;
 
 		.callout {
 			text-align: center;
+			margin: 70px auto;
 
 			a {
+				margin: 0.50em auto;
 				display: block;
-				margin: 0px;
+				max-width: 250px;
 			}
 		}
 	}
