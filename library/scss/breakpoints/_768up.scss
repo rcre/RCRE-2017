@@ -115,21 +115,27 @@ NAVIGATION STYLES
 		// Desktop Drop-down Menu
 		ul.sub-menu,
 		ul.children {
-			margin-top: 0;
-			border: 1px solid #ccc;
-			border-top: 0;
+			display: none;
 			position: absolute;
-			visibility: hidden;
+			left: 0;
+			top: 63;
+			width: 100%;
+			padding: 1em 3em;
 			z-index: 8999;
+			
+			&.dropdown {
+				display: block;
+			}
 
 			li {
+				display: inline-block;
+				float: left;
+				width: 20%;
 
 				a {
-					padding-left: 10px;
-					border-right: 0;
+					text-align: left;
+					padding: 2em;
 					display: block;
-					width: 180px;
-					border-bottom: 1px solid #ccc;
 
 					&:hover,
 					&:focus {}
