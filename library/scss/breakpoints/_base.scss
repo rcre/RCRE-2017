@@ -299,8 +299,15 @@ NAVIGATION STYLES
 		ul.children {
 
 			li {
+				display: none;
+				padding: 0 18px;
+			    background-color: white;
+			    max-height: 0;
+			    overflow: hidden;
+			    transition: max-height 0.2s ease-out;
 
 				a {
+					text-decoration: none;
 					padding-left: 30px;
 
 					&:hover,
@@ -308,6 +315,10 @@ NAVIGATION STYLES
 
 					&:link {}
 
+				}
+
+				&.active {
+					display: block;
 				}
 
 				&:first-child {}
