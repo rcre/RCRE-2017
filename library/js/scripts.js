@@ -111,7 +111,7 @@ function loadGravatars() {
 
 // Mobile Menu Animation
 jQuery('header #inner-header #mobile-quick-nav div#menu-burger').on('click', function() {
-    jQuery('header #inner-header nav#mobile-menu').toggleClass('active');
+    jQuery('header #inner-header ul#menu-mobile-menu').toggleClass('active');
 });
 
 
