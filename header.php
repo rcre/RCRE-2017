@@ -79,6 +79,22 @@
 							)); ?>
 					</nav>
 
+				<!-- Mobile Navigation -->
+					<nav id="mobile-menu" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+							<?php wp_nav_menu(array(
+	    					         'container' => false,
+	    					         'container_class' => 'menu cf',
+	    					         'menu' => __( 'The Mobile Menu', 'bonestheme' ),
+	    					         'menu_class' => 'nav top-nav cf',               
+	    					         'theme_location' => 'mobile-nav',                 
+	    					         'before' => '',                                 
+	        			               'after' => '',                                 
+	        			               'link_before' => '',                           
+	        			               'link_after' => '',                             
+	        			               'depth' => 0,                                   
+	    					         'fallback_cb' => ''  
+							)); ?>
+					</nav>
 				</div>
 
 			</header>
