@@ -51,7 +51,7 @@
 						<a href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="Call RESOURCE"></a>
 					</div>
 					
-					<div class="mobile-quick-nav m-2of4 last-col">
+					<div id="mobile-quick-nav" class="last-col">
 					<!-- Call Button -->
 						<div class="m-1of3 t-1of3 d-1of3">
 							<a href="tel:317-663-6000" role="link"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE" id="phone"></a>
