@@ -45,15 +45,6 @@ Author:
 
 Stylesheet: Typography
 
-Need to import a font or set of icons for your site? Drop them in
-here or just use this to establish your typographical grid. Or not.
-Do whatever you want to...GOSH!
-
-Helpful Articles:
-http://trentwalton.com/2012/06/19/fluid-type/
-http://ia.net/blog/responsive-typography-the-basics/
-http://alistapart.com/column/responsive-typography-is-a-physical-discipline
-
 ******************************************************************/
 /*********************
 FONT FACE (IN YOUR FACE)
@@ -75,19 +66,6 @@ FONT FACE (IN YOUR FACE)
       font-weight: normal;
       font-style: normal;
   }
-*/
-/*
-The following is based of Typebase:
-https://github.com/devinhunt/typebase.css
-I've edited it a bit, but it's a nice starting point.
-*/
-/*
- i imported this one in the functions file so bones would look sweet.
- don't forget to remove it for your site.
-*/
-/*
-some nice typographical defaults
-more here: http://www.newnet-soft.com/blog/csstypography
 */
 p {
   -ms-word-wrap: break-word;
@@ -195,13 +173,13 @@ NAVIGATION STYLES
     /* end current highlighters */ }
     .menu ul li {
       /*
-      plan your menus and drop-downs wisely.
-      */ }
+				plan your menus and drop-downs wisely.
+				*/ }
       .menu ul li a {
         /*
-        you can use hover styles here even though this size
-        has the possibility of being a mobile device.
-        */ }
+					you can use hover styles here even though this size
+					has the possibility of being a mobile device.
+					*/ }
 
 /* end .menu */
 /*********************
@@ -260,6 +238,7 @@ HEADER STYLES
 *********************/
 #mobile-quick-nav div#menu-burger {
   display: none; }
+
 #mobile-quick-nav div:first-child {
   display: none; }
 
@@ -295,56 +274,77 @@ NAVIGATION STYLES
     .nav li a {
       display: block;
       font-size: 0.70em;
-      padding: 1.9em 0.5em;
+      padding: 1.8em 0.5em;
       /*
-      you can use hover styles here even though this size
-      has the possibility of being a mobile device.
-      */ }
+			you can use hover styles here even though this size
+			has the possibility of being a mobile device.
+			*/ }
       .nav li a:hover, .nav li a:focus {
         color: #fff;
         text-decoration: none;
         background-color: #4c5863;
-        border-bottom: 2px solid #fff; }
+        border-bottom: 4px solid #fff; }
     .nav li:last-child {
       display: none; }
-    .nav li ul.sub-menu,
-    .nav li ul.children {
+    .nav li ul.sub-menu {
       display: none;
+      visibility: hidden;
       position: absolute;
       left: 0;
+      right: 0;
       top: 63;
-      width: 100%;
-      padding: 1em 3em;
       z-index: 8999;
+      background-color: #4c5863;
+      text-align: center;
+      align-items: center;
+      margin-top: 4px;
       /* highlight sub-menu current page */ }
-      .nav li ul.sub-menu.dropdown,
-      .nav li ul.children.dropdown {
-        display: block; }
-      .nav li ul.sub-menu li,
-      .nav li ul.children li {
+      .nav li ul.sub-menu li {
         display: inline-block;
-        float: left;
-        width: 20%;
-        /*
-        if you need to go deeper, go nuts
-        just remember deeper menus suck
-        for usability. k, bai.
-        */ }
-        .nav li ul.sub-menu li a,
-        .nav li ul.children li a {
+        margin: 0 30px;
+        vertical-align: top; }
+        .nav li ul.sub-menu li a {
+          color: #bfbfbf;
           text-align: left;
           padding: 2em;
-          display: block; }
-        .nav li ul.sub-menu li:last-child a,
-        .nav li ul.children li:last-child a {
+          display: block;
+          border: none;
+          text-decoration: underline; }
+          .nav li ul.sub-menu li a:hover, .nav li ul.sub-menu li a:focus {
+            color: #fff; }
+        .nav li ul.sub-menu li:last-child a {
+          color: #fff;
           border-bottom: 0; }
-        .nav li ul.sub-menu li ul,
-        .nav li ul.children li ul {
-          top: 0;
-          left: 100%; }
+        .nav li ul.sub-menu li ul.sub-menu {
+          display: block;
+          visibility: visible;
+          position: relative; }
+          .nav li ul.sub-menu li ul.sub-menu li {
+            display: block;
+            clear: both;
+            width: auto;
+            text-align: center;
+            margin: 0; }
+          .nav li ul.sub-menu li ul.sub-menu a {
+            color: #bfbfbf;
+            padding: 1em 2em;
+            display: block;
+            border: none;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-weight: 400; }
+            .nav li ul.sub-menu li ul.sub-menu a::before {
+              content: "+ "; }
     .nav li:hover > ul {
       top: auto;
-      visibility: visible; }
+      visibility: visible;
+      display: block; }
+  .nav li.current-menu-item a,
+  .nav li.current_page_item a,
+  .nav li.current_page_ancestor a {
+    background-color: #505d68;
+    transition: 0.5s;
+    border-bottom: 4px solid #fff; }
 
 /* end .nav */
 /*********************
@@ -391,6 +391,12 @@ SIDEBARS & ASIDES
 /* search widget */
 /* text widget */
 /*********************
+FORM STYLES
+*********************/
+form#contact-home {
+  padding-right: 40px; }
+
+/*********************
 FOOTER STYLES
 *********************/
 /*
@@ -400,10 +406,10 @@ mobile. Make sure to double check these!
 */
 .footer-links ul li {
   /*
-  be careful with the depth of your menus.
-  it's very rare to have multi-depth menus in
-  the footer.
-  */ }
+			be careful with the depth of your menus.
+			it's very rare to have multi-depth menus in
+			the footer.
+			*/ }
 
 /* end .footer-links */
 /******************************************************************
