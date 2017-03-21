@@ -258,89 +258,46 @@ textarea {
   /* 2 */ }
 
 /* ==========================================================================
-.................NEW STYLING
+...........................NEW STYLING.....................
 ========================================================================== */
   
-  /* General Form Styles and Sizing */
-  body form#rcre-contact {
-    position: relative;
-    width: 100%;
-    font-family: sans-serif;
+// global input styles
+form {
+  display: block;
+
+  &#contact-home {
+    padding-right: 60px;
   }
 
-  /* Don't show the ugly labels */
-  form#rcre-contact label {
-    display: none;
-  }
-
-  /* General Input Styles */
-  form#rcre-contact input[type="text"], form#rcre-contact input[type="email"], form#rcre-contact input[type="tel"], form#rcre-contact textarea {
-    text-align: left;
-    padding: 8px;
-    margin: 2%;
-    background-color: #51606f;
-    border: 4px solid #617486;
+  input[type="text"], 
+  input[type="email"], 
+  input[type="tel"],
+  textarea {
+    background-color: darken($gray, 5%);
+    border: 3px solid lighten($gray, 5%);
     border-radius: 5px;
-    width: 45.5%;
-    margin: 2%;
-    color: white;
-  }
-  
-  /* Specific Input Sizing */
-  form#rcre-contact input[type="text"], form#rcre-contact input[type="email"], form#rcre-contact input[type="tel"] {
-    width: 45.5%;
-    margin: 2%;
+    color: $lgray;
+    max-width: none;
   }
 
-  /* Specific TextArea Input Sizing */
-  form#rcre-contact textarea {
-    width: 96%;
-    margin: 2%;
+  textarea {
     height: 200px;
   }
-
-  form#rcre-contact input[type="text"]#company {
-    width: 96%;
-    margin: 2%;
-  }
   
-  /* DONT DISPLAY THE WEB SOURCE INFO */
-  form#rcre-contact select {
+  select {
     display: none;
   }
 
-  /* Styling for the submit button */
-  form#rcre-contact input[type="submit"] {
-    background-color: #d2db3a;
-    border: 4px solid #d2db3a;
-    text-align: right;
-    border-radius: 15px;
-    float: right;
-    padding: 3px 20px;
+  label {
     text-transform: uppercase;
-    color: white;
-    transition: .8s;
-    margin: 2%;
+    font-size: 0.75em;
+    font-weight: 700;
+    color: lighten($gray, 15%);
   }
 
-  /* HOVER: Styling for the submit button */
-  form#rcre-contact input[type="submit"]:hover {
-    background-color: #f7ff68;
-    border: 4px solid #f7ff68;
-    transition: .8s;
+  input[type="submit"] {
+    margin-top: 10px;
+    float: right;
   }
 
-  /* CLEARFIX */
-  div.cf {
-    clear: both;
-    content: '';
-  }
-  
-  /* MOBILE STYLES */
-@media only screen and (max-width: 460px) {
-
-  form#rcre-contact input[type="text"], form#rcre-contact input[type="email"], form#rcre-contact input[type="tel"] {
-    width: 96%;
-    margin: 2%;
-  }
 }
