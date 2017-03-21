@@ -89,8 +89,7 @@ NAVIGATION STYLES
 		a {
 			display: block;
 			font-size: 0.70em;
-			padding: 1.9em 0.5em;
-			//transition: 0.5s;
+			padding: 1.8em 0.5em;
 
 			/*
 			you can use hover styles here even though this size
@@ -100,8 +99,7 @@ NAVIGATION STYLES
 				color: $white;
 				text-decoration: none;
 				background-color: darken($gray, 5%);;
-				//transition: 0.5s;
-				border-bottom: 2px solid $white;
+				border-bottom: 4px solid $white;
 			}
 		}
 
@@ -113,32 +111,38 @@ NAVIGATION STYLES
 		}
 
 		// Desktop Drop-down Menu
-		ul.sub-menu,
-		ul.children {
+		ul.sub-menu {
 			display: none;
+			visibility: hidden;
 			position: absolute;
 			left: 0;
+			right: 0;
 			top: 63;
-			width: 100%;
-			padding: 1em 3em;
 			z-index: 8999;
-			
-			&.dropdown {
-				display: block;
-			}
+			background-color: darken($gray, 5%);;
+			text-align: center;
+			align-items: center;
+			margin-top: 4px;
 
 			li {
 				display: inline-block;
-				float: left;
-				width: 20%;
+				margin: 0 30px;
+				vertical-align: top;
+			
 
 				a {
+					color: darken($white, 25%);;
 					text-align: left;
 					padding: 2em;
 					display: block;
+					border: none;
+					text-decoration: underline;
+
 
 					&:hover,
-					&:focus {}
+					&:focus {
+						color: $white;
+					}
 
 					&:link {}
 				}
@@ -148,18 +152,38 @@ NAVIGATION STYLES
 				&:last-child {
 
 					a {
+						color: $white;
 						border-bottom: 0;
 					}
 				}
 
-				/*
-				if you need to go deeper, go nuts
-				just remember deeper menus suck
-				for usability. k, bai.
-				*/
-				ul {
-					top:0;
-					left:100%;
+				ul.sub-menu {
+					display: block;
+					visibility: visible;
+					position: relative;
+
+					li {
+						display: block;
+						clear: both;
+						width: auto;
+						text-align: center;
+						margin: 0;
+					}
+
+					a {
+						color: darken($white, 25%);;
+						padding: 1em 2em;
+						display: block;
+						border: none;
+						text-decoration: none;
+						text-transform: capitalize;
+						font-weight: 400;
+
+						&::before {
+							content: "+ ";
+						}
+					}
+
 				}
 			}
 
@@ -175,6 +199,7 @@ NAVIGATION STYLES
 		&:hover > ul {
 			top: auto;
 			visibility:visible;
+			display: block;
 		}
 
 	} /* end .menu ul li */
@@ -183,7 +208,11 @@ NAVIGATION STYLES
 	li.current-menu-item,
 	li.current_page_item,
 	li.current_page_ancestor {
-		a {}
+		a {
+			background-color: darken($gray, 3%);;
+			transition: 0.5s;
+			border-bottom: 4px solid $white;
+		}
 	}  /* end current highlighters */
 
 } /* end .nav */
