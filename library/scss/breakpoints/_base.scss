@@ -1025,24 +1025,16 @@ FOOTER STYLES
 	color: $lgray;
 }
 
-	/*
-	if you checked out the link above:
-	http://www.alistapart.com/articles/organizing-mobile/
-	you'll want to style the footer nav
-	a bit more in-depth. Remember to keep
-	it simple because you'll have to
-	override these styles for the desktop
-	view.
-	*/
-	.footer-links {
+.footer-links {
 
-		ul {
+	ul {
 
-			li {}
+		li {}
 
-		}
+	}
 
-	} /* end .footer-links */
+}
 
-
-	.copyright {}
+.copyright {
+	font-size: 0.75em;
+}
