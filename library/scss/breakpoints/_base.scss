@@ -953,6 +953,69 @@ SIDEBARS & ASIDES
 	}
 
 /*********************
+CONTENT STYLES
+*********************/
+
+// Broker Page
+#main {
+	float: none;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+aside {
+	padding: 1.5em 1.5em 0;
+
+	img {
+		margin: 0 auto;
+		float: none;
+	}
+}
+
+h1 {
+	color: $gray;
+	font-size: 1.5em;
+	text-align: left;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+.broker-title { 
+	text-align: left;
+	margin: 0;
+}
+
+.center {
+	vertical-align: center;
+	margin-top: 10%;
+}
+
+#content {
+	background-color: white;
+
+
+ header {
+		padding: 1.5em;
+		border: none;
+	}
+}
+
+.service-links {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*********************
+FORM STYLES
+*********************/
+
+form#contact-home {
+	padding: 0;
+}
+
+
+
+/*********************
 FOOTER STYLES
 *********************/
 
