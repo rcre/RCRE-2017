@@ -18,7 +18,7 @@
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
+		<?php // icons & favicons ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-square-dark.png">
 		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
 		<!--[if IE]>
@@ -83,7 +83,7 @@
 							)); ?>
 					</nav>
 
-				<!-- Mobile Navigation -->
+				<!-- Mobile Navigation (I should add a PHP Function to call one of these)-->
 					<nav id="mobile-menu" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 							<?php wp_nav_menu(array(
 	    					         'container' => false,
