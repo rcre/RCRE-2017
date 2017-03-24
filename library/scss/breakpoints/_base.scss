@@ -378,7 +378,7 @@ POSTS & CONTENT STYLES
 
 			a {
 				margin: 0.50em auto;
-				display: block;
+				display: inline;
 				max-width: 250px;
 			}
 		}
@@ -1020,8 +1020,7 @@ aside {
 #content {
 	background-color: white;
 
-
- header {
+	header {
 		border: none;
 	}
 }
