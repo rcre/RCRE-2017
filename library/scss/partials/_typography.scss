@@ -39,17 +39,17 @@ $lato:              'Railway', $sans-serif;
 
 // Paragraph Defaults
 p {
-  -ms-word-wrap: break-word;
-  word-break: break-word; //non-standart css for webkit
-  word-wrap: break-word;
+  -ms-word-wrap: keep-all;
+  word-break: keep-all; //non-standart css for webkit
+  word-wrap: keep-all;
   // cleaning up the ragged lines and breaks
-  -webkit-hyphens: auto;
-     -moz-hyphens: auto;
-          hyphens: auto;
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+          hyphens: none;
   // sets a minimum number of characters before and after the break
-  -webkit-hyphenate-before: 2;
-   -webkit-hyphenate-after: 3;
-           hyphenate-lines: 3;
+  -webkit-hyphenate-before: 5;
+   -webkit-hyphenate-after: 5;
+           hyphenate-lines: 5;
   // enabling fancy ligatures when available
   -webkit-font-feature-settings: "liga", "dlig";
    -moz-font-feature-settings: "liga=1, dlig=1";
