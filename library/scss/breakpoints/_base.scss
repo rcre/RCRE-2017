@@ -1028,6 +1028,33 @@ form#contact-home {
 	padding: 0;
 }
 
+/*********************
+SECTION STYLES
+*********************/
+
+// Section layout for mobile
+section {
+	
+	.topic {
+
+		.slant {
+			display: none;
+		}
+	}
+
+	aside {
+		text-align: left;
+		background-color: white;
+		margin-top: 100px 0px;
+
+		a#cta-border-gray {
+			margin: 0;
+			display: inline;
+		}
+	}
+
+}
+
 
 
 /*********************
