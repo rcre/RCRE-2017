@@ -146,12 +146,16 @@ h2, .h2 {
 }
 
 h3, .h3 {
-	font-size: 1.125em;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
 }
 
 h4, .h4 {
-	font-size: 1.1em;
-	font-weight: 700;
+	font-size: 1.0em;
+	font-weight: 740;
+	color: $gray;
 }
 
 h5, .h5 {
@@ -172,7 +176,8 @@ HEADER STYLES
 		height: 63px;
 		position: fixed;
 		width: 100%;
-		background-color: darken($gray, 5%);;
+		background-color: darken($gray, 5%);
+		z-index: 9999;
 
 		#logo {
 			max-width: 225px;
