@@ -68,15 +68,15 @@ FONT FACE (IN YOUR FACE)
   }
 */
 p {
-  -ms-word-wrap: break-word;
-  word-break: break-word;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  -webkit-hyphenate-before: 2;
-  -webkit-hyphenate-after: 3;
-  hyphenate-lines: 3;
+  -ms-word-wrap: keep-all;
+  word-break: keep-all;
+  word-wrap: keep-all;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  -webkit-hyphenate-before: 5;
+  -webkit-hyphenate-after: 5;
+  hyphenate-lines: 5;
   -webkit-font-feature-settings: "liga", "dlig";
   -moz-font-feature-settings: "liga=1, dlig=1";
   -ms-font-feature-settings: "liga", "dlig";
@@ -292,7 +292,7 @@ NAVIGATION STYLES
       position: absolute;
       left: 0;
       right: 0;
-      top: 63;
+      top: 58;
       z-index: 8999;
       background-color: #4c5863;
       text-align: center;
@@ -347,6 +347,15 @@ NAVIGATION STYLES
     border-bottom: 4px solid #fff; }
 
 /* end .nav */
+/****************************************
+Our Clients Bar
+****************************************/
+.our-clients {
+  background-color: #e6e6e6; }
+  .our-clients img {
+    height: 25px;
+    margin: 10px; }
+
 /*********************
 CONTENT
 *********************/
@@ -391,10 +400,74 @@ SIDEBARS & ASIDES
 /* search widget */
 /* text widget */
 /*********************
+SERVICE STYLES
+*********************/
+.service-grid div {
+  padding: 0; }
+  .service-grid div .m-end {
+    margin-right: 10px; }
+  .service-grid div .d-end {
+    margin-right: 0px; }
+
+.service-grid .service-box img {
+  top: -30px;
+  width: 25%; }
+
+.service-grid .service-box a {
+  display: inline;
+  border-bottom: 1px solid #75caca;
+  font-weight: 700;
+  text-color: #75caca;
+  text-decoration: none; }
+
+.service-grid .service-box p {
+  display: block;
+  padding: 0 25px; }
+
+/*********************
 FORM STYLES
 *********************/
 form#contact-home {
   padding-right: 40px; }
+
+/*********************
+Section STYLES
+*********************/
+#services {
+  background-image: url(../images/bg/header-home.jpg); }
+
+#specialties-and-industries {
+  background-image: url(../images/bg/header-home.jpg); }
+
+section.topic {
+  border-top: 10px solid #e6e6e6;
+  border-bottom: 10px solid #e6e6e6;
+  position: relative;
+  overflow: hidden; }
+  section.topic aside {
+    float: right;
+    margin: 100px 100px 100px auto; }
+    section.topic aside h3 {
+      text-align: left;
+      font-size: 2.5em;
+      margin: 0; }
+
+.slant-right {
+  display: block;
+  position: absolute;
+  height: 500px;
+  overflow: hidden;
+  width: 60%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .slant-right .right {
+    transform: skewx(-20deg);
+    transform-origin: top right; }
+  .slant-right .left {
+    transform: skewy(20deg);
+    transform-origin: top left; }
 
 /*********************
 FOOTER STYLES
@@ -427,6 +500,9 @@ be seen on the Desktop.
 
 .nav li:last-child {
   display: inline-block; }
+
+.service-grid .service-box {
+  padding: 60px 5px; }
 
 /*
 you can call the larger styles if you want, but there's really no need
