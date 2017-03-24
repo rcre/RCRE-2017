@@ -423,6 +423,58 @@ form#contact-home {
 }
 
 /*********************
+Section STYLES
+*********************/
+// Global Backgrounds
+#services {
+	background-image: url(../images/bg/header-home.jpg);
+}
+
+#specialties-and-industries {
+	background-image: url(../images/bg/header-home.jpg);
+}
+
+
+section.topic {
+	border-top: 10px solid $lgray;
+	border-bottom: 10px solid $lgray;
+	position: relative;
+	overflow: hidden;
+
+	aside {
+		float: right;
+		margin: 100px 100px 100px auto;
+
+		h3 {
+			text-align: left;
+			font-size: 2.5em;
+			margin: 0;
+		}
+	}
+}
+
+.slant-right {
+	display: block;
+	position: absolute;
+	height: 500px;
+    overflow: hidden;
+    width: 60%;
+    height: 100%;
+    
+   
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	right {
+		
+	}
+}
+
+ transform: skewx(20deg);
+ transform-origin: top left;
+
+/*********************
 FOOTER STYLES
 *********************/
 
