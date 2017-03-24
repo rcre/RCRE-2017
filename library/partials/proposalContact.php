@@ -40,7 +40,7 @@ Proposal Contact Form */
 			<textarea name="description" tabindex="6" placeholder="How can we help you today?"></textarea>
 		</div>
 		
-		<input id="cta-border" class="btn m-all t-1of2 d-1of3" type="submit" name="submit" value="Let's Get Things Done!">
+		<input id="cta-border-green" type="submit" name="submit" value="Let's Get Things Done!">
 	</form>
 
 	<!-- Search Properties -->
@@ -49,7 +49,7 @@ Proposal Contact Form */
 		<h2>Find a Property</h2>
 		<label for="search">Address or Area of Interest</label>
 		<input name="search" type="text" tabindex="4" placeholder="search"/>
-		<input id="cta-border" type="submit" name="submit" value="Search Properties">
+		<input id="cta-border-green" type="submit" name="submit" value="Search Properties">
 	</form>
 
 	<!-- Recent Case Studies -->
