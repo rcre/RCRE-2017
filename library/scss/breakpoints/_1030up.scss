@@ -21,3 +21,11 @@ be seen on the Desktop.
 		}
 	}
 }
+
+// Make the service boxes more square on desktop
+.service-grid  {
+
+	.service-box {
+		padding: 60px 5px;
+	}
+}
