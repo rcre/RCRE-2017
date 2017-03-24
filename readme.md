@@ -1,37 +1,18 @@
-# Bones
+# RCRE 2017 Theme
 A Lightweight Wordpress Development Theme
 
-Bones is designed to make the life of developers easier. It's built
-using HTML5 & has a strong semantic foundation.
-It's constantly growing so be sure to check back often if you are a
-frequent user. I'm always open to contribution. :)
+This is an ever-evolving theme for RESOURCE Commecial Real Estate, comming to you live from Indianapolis, Indiana.
 
-Designed by Eddie Machado
+Designed by Patrick Hanus 
+@thehsedition
+
+Kicked off with Bones Starter Theme
 http://themble.com/bones
 
-License: WTFPL
-License URI: http://sam.zoy.org/wtfpl/
-Are You Serious? Yes.
-
 #### Special Thanks to:
-Paul Irish & the HTML5 Boilerplate
-Yoast for some WP functions & optimization ideas
-Andrew Rogers for code optimization
-David Dellanave for speed & code optimization
-and several other developers. :)
+Jacob Lamont
+Lex Judge
+John Welch
 
-#### Submit Bugs & or Fixes:
-https://github.com/eddiemachado/bones/issues
-
-To view Release & Update Notes, read the CHANGELOG.md file in the main folder.
-
-For more news and to see why my parents constantly ask me what I'm
-doing with my life, follow me on twitter: @eddiemachado
-
-## Helpful Tools & Links
-
-Yeoman generator to quickly install Bones Wordpress starter theme into your Wordpress theme folder
-by 0dp
-https://github.com/0dp/generator-wp-bones
-
-
+#### Comments?
+Have an idea or some input, I'd be happy to hear you out. Feel free to submit an issue or reach out to me on Twitter @thehsedition
