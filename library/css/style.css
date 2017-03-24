@@ -988,7 +988,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: "Railway", "Railway", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Montserrat", Helvetica, Arial, sans-serif;
   background-color: #576571;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out; }
@@ -1410,7 +1410,6 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Railway", "Railway", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   color: #43505d;
@@ -1508,31 +1507,39 @@ h1, .h1 {
   font-size: 2.5em;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
   color: #fff;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 h3, .h3 {
   font-size: 1.25em;
   text-transform: uppercase;
   font-weight: 700;
-  text-align: center; }
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 h4, .h4 {
   font-size: 1.0em;
   font-weight: 740;
-  color: #576571; }
+  color: #576571;
+  font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
 
 h5, .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
   text-transform: uppercase;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
+
+p {
+  font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
 
 /*********************
 HEADER STYLES
@@ -1640,16 +1647,20 @@ POSTS & CONTENT STYLES
   background-size: cover; }
   #content header .callout {
     text-align: center;
-    margin: 70px auto; }
+    margin: 200px auto; }
+    #content header .callout h1 {
+      font-size: 3em; }
     #content header .callout .subtitle {
+      width: 40%;
       font-weight: 300;
       color: white;
-      font-size: 1.3em;
-      margin: 0;
-      margin-bottom: 45px; }
+      font-size: 1em;
+      margin: 0 auto;
+      margin-bottom: 45px;
+      font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
     #content header .callout a {
       margin: 0.50em auto;
-      display: block;
+      display: inline;
       max-width: 250px; }
 
 .hentry {
@@ -2312,7 +2323,7 @@ CONTENT
 *********************/
   #content header .callout {
     text-align: center;
-    margin: 100px auto; }
+    margin: 200px auto; }
     #content header .callout a {
       font-size: 0.75em;
       margin: 0.50em auto;
@@ -2402,10 +2413,7 @@ Section STYLES
     background-repeat: no-repeat;
     background-size: cover; }
     .slant-right .right {
-      transform: skewx(-20deg);
-      transform-origin: top right; }
-    .slant-right .left {
-      transform: skewy(20deg);
+      transform: skewx(20deg);
       transform-origin: top left; }
   /*********************
 FOOTER STYLES

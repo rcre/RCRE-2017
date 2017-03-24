@@ -232,7 +232,7 @@ function bones_comments( $comment, $args, $depth ) {
 
 // Import Google Fonts
 function bones_fonts() {
-  wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Merriweather:300,400|Raleway:300,400,700');
+  wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Merriweather:300,400|Montserrat:300,700');
 }
 
 add_action('wp_enqueue_scripts', 'bones_fonts');

@@ -16,7 +16,6 @@ GENERAL STYLES
 *********************/
 
 body {
-	font-family: $lato;
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
@@ -135,6 +134,7 @@ h1, .h1 {
   	text-transform: uppercase;
   	color: $white;
   	font-weight: 700;
+  	font-family: $sans-serif;
 }
 
 h2, .h2 {
@@ -143,6 +143,7 @@ h2, .h2 {
 	margin-bottom: 0.375em;
 	color: $white;
 	font-weight: 700;
+	font-family: $sans-serif;
 }
 
 h3, .h3 {
@@ -150,12 +151,14 @@ h3, .h3 {
 	text-transform: uppercase;
 	font-weight: 700;
 	text-align: center;
+	font-family: $sans-serif;
 }
 
 h4, .h4 {
 	font-size: 1.0em;
 	font-weight: 740;
 	color: $gray;
+	font-family: $serif;
 }
 
 h5, .h5 {
@@ -163,8 +166,12 @@ h5, .h5 {
 	line-height: 2.09em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	font-family: $serif;
 }
 
+p {
+	font-family: $serif;
+}
 /*********************
 HEADER STYLES
 *********************/

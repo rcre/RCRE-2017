@@ -361,7 +361,7 @@ CONTENT
 *********************/
 #content header .callout {
   text-align: center;
-  margin: 100px auto; }
+  margin: 200px auto; }
   #content header .callout a {
     font-size: 0.75em;
     margin: 0.50em auto;
@@ -463,10 +463,7 @@ section.topic {
   background-repeat: no-repeat;
   background-size: cover; }
   .slant-right .right {
-    transform: skewx(-20deg);
-    transform-origin: top right; }
-  .slant-right .left {
-    transform: skewy(20deg);
+    transform: skewx(20deg);
     transform-origin: top left; }
 
 /*********************
