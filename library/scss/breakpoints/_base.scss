@@ -1068,7 +1068,62 @@ Our Clients Bar
 	}
 }
 
+/*********************
+SERVICE GRID STYLES
+*********************/
 
+.service-grid {
+
+	div {
+		padding: 0;
+
+		.m-end {
+			margin-right: 0px;	
+		}
+	}
+	
+	.service-box {
+		border: 5px solid $lgray;
+		border-radius: 10px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding: 20px 5px;
+		margin-right: 10px;
+		text-align: center;
+		position: relative;
+		
+		// this tricky guy is centering the images using ablsoute positioning!
+		img {
+			position: absolute;
+			top: -30px;
+			left: 0;
+			right: 0;
+			width: 40%; // The size I want it to be
+			background-color: white; // color just for reference
+			margin: auto; // Necessary for centering
+			padding: 10px;
+		}
+
+		h4 {
+			a {
+				display: inline;
+				border-bottom: 1px solid $dgray;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: $dgray;
+			}
+		}
+
+		a {	
+			display: none; // Don't show description on mobile
+			
+		}
+
+		p {
+			display: none;
+		}
+	}
+}
 
 /*********************
 FOOTER STYLES
