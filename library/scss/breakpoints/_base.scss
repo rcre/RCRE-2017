@@ -346,7 +346,6 @@ POSTS & CONTENT STYLES
 
 	header {
 		border-bottom: 1px solid $dgray;
-		padding: 1.5em;
 		text-align: center;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -391,7 +390,8 @@ POSTS & CONTENT STYLES
 		.single-title,
 		.page-title,
 		.entry-title {
-			margin: 40px 0;
+			baseline: bottom;
+			margin: 40px 0 0 0;
 		}
 
 		.single-title {}
@@ -975,7 +975,6 @@ CONTENT STYLES
 #main {
 	float: none;
 	margin: 0 auto;
-	margin-top: 70px;
 
 	h1 {
 		color: $gray;
@@ -1010,7 +1009,6 @@ aside {
 
 
  header {
-		padding: 1.5em;
 		border: none;
 	}
 }
