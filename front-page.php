@@ -6,8 +6,8 @@
 		
 		<header class="cf" style="background-image: url('<?php echo $image; ?>');">
 			<div class="callout">
-				<h1 class="page-title" itemprop="headline">RESOURCE</h1>
-				<p class="subtitle">Commercial Real Estate</p>
+				<h1 class="page-title" itemprop="headline">Get things done.</h1>
+				<p class="subtitle">Resource helps you buy, lease and sell property, manage your assets and focus on what you love.</br>All without the corporate hoops.</p>
 
 				<a href="#" id="cta-border-green">Contact Us</a>
 				<a href="#" id="cta-border">Search Properties</a>
