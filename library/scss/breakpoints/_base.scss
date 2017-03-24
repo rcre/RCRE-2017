@@ -976,6 +976,14 @@ CONTENT STYLES
 	float: none;
 	margin: 0 auto;
 	margin-top: 70px;
+
+	h1 {
+		color: $gray;
+		font-size: 1.5em;
+		text-align: left;
+		text-transform: capitalize;
+		margin: 0;
+	}
 }
 
 aside {
