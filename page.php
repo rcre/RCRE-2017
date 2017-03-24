@@ -38,8 +38,6 @@
 
 				</footer>
 
-				<?php comments_template(); ?>
-
 			</article>
 
 			<?php endwhile; endif; ?>
