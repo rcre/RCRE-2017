@@ -356,6 +356,14 @@ POSTS & CONTENT STYLES
 			text-align: center;
 			margin: 70px auto;
 
+			.subtitle {
+				font-weight: 300;
+				color: white;
+				font-size: 1.3em;
+				margin: 0;
+				margin-bottom: 45px;
+			}
+
 			a {
 				margin: 0.50em auto;
 				display: block;
@@ -364,6 +372,7 @@ POSTS & CONTENT STYLES
 		}
 	}
 }
+
 		.hentry {
 			background-color: $white;
 			margin-bottom: 1.5em;
