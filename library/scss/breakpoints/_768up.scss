@@ -466,13 +466,13 @@ section.topic {
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	right {
-		
+	.right {
+		transform: skewx(20deg);
+ 		transform-origin: top left;	
 	}
 }
 
- transform: skewx(20deg);
- transform-origin: top left;
+ 
 
 /*********************
 FOOTER STYLES
