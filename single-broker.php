@@ -25,7 +25,7 @@
 
 				<!-- PHP Get the Broker's Title and Industry-->
 					<p class="broker-title">
-						<?php echo types_render_field( "broker-title", array( 'raw' => false) ); ?> // <a id="cta-underline-gray" href="<?php get_term_link( $term ); ?>"><?php echo get_terms( 'specialty' ); ?></a> 
+						<?php echo types_render_field( "broker-title", array( 'raw' => false) ); ?> // <a id="cta-underline-gray" href="<?php get_term_link( $term ); ?>"> <?php echo get_terms('specialty', array( count(1) ) ); ?></a> 
 					</p>
 
 				</header>
@@ -34,7 +34,7 @@
 			<!-- ASIDE: Mainly Broker Contact Information -->
 				<aside class="m-all t-1of3 d-2of7 cf">
 				<!-- PHP: Get the Broker's Picture URL and Industry Name-->
-					<img class="m-1of2 t-all d-all" src="<?php echo types_render_field( "broker-profile-picture", array( 'raw' => true) ); ?>" alt="<?php the_title(); ?>, get(broker_industry)">
+					<img class="m-1of2 t-all d-all" src="<?php echo types_render_field( "broker-profile-picture", array( 'raw' => true)); ?>" alt="<?php the_title(); ?>, get(broker_industry)">
 				
 					<div class="m-1of2 t-all d-all center">
 				<!-- BUTTON: Contact  -->
@@ -43,8 +43,8 @@
 				
 				<!-- BUTTON: View Broker's Listings Button -->
 					<!-- PHP: Link to Broker's Specific Listings -->
-					<a id="cta-border-gray" href="get(broker_listings)">View Listings</a>
-					</div>
+				<!-- 	<a id="cta-border-gray" href="get(broker_listings)">View Listings</a>
+					</div> -->
 
 				<!-- PHP: Broker Contact information -->
 					<div class="m-1of2 service-links">
@@ -60,10 +60,8 @@
 					<!-- PHP: "WHILE" has service, show button for each service -->
 						<!-- BUTTON: Service -->
 							<!-- PHP Link to Broker's Specific Listings -->
-							<a id="cta-underline-gray" href="get(service_url)" class="service">get(service_name)</a>
-
 							<?php 
-								$terms = get_terms( $post->ID, 'specialty' );
+								$terms = get_terms( $post->ID, 'service' );
 						 
 								echo '<ul>';
 						 
