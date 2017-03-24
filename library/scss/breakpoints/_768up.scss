@@ -376,9 +376,47 @@ SIDEBARS & ASIDES
 
 
 /*********************
-FORM STYLES
+SERVICE STYLES
 *********************/
 
+
+.service-grid { 
+
+	div {
+		padding: 0;
+
+		.m-end {
+			margin-right: 10px;	
+		}
+
+		.d-end {
+			margin-right: 0px;	
+		}
+	}
+
+	.service-box {
+		img { 
+			top: -30px;
+			width: 25%;
+		}
+
+		a {
+			display: inline;
+			border-bottom: 1px solid $blue;
+			font-weight: 700;
+			text-color: $blue;
+			text-decoration: none;
+		}
+
+		p {
+			display: block;
+			padding: 0 25px;
+		}
+	}
+}
+/*********************
+FORM STYLES
+*********************/
 
 form#contact-home {
 	padding-right: 40px;
