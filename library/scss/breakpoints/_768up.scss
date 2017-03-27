@@ -441,24 +441,23 @@ form#contact-home {
 Section STYLES
 *********************/
 // Global Backgrounds
+
 #services {
-	background-image: url(../images/bg/header-home.jpg);
+	background-image: url('../images/bg/bg-services.png');
 }
 
 #specialties-and-industries {
-	background-image: url(../images/bg/header-home.jpg);
+	background-image: url('../images/bg/header-home.jpg');
 }
-
 
 section.topic {
 	border-top: 10px solid $lgray;
 	border-bottom: 10px solid $lgray;
-	position: relative;
 	overflow: hidden;
 
 	aside {
 		float: right;
-		margin: 100px 100px 100px auto;
+		margin: 100px 200px 100px auto;
 
 		h3 {
 			text-align: left;
@@ -468,26 +467,36 @@ section.topic {
 	}
 }
 
-.slant-right {
-	display: block;
-	position: absolute;
-	height: 500px;
+.slant {
+	position: relative;
     overflow: hidden;
-    width: 60%;
-    height: 100%;
-    
-   
+    display: block;
+    height: 800px;
     background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	-webkit-transform: skewX(-20deg);
+	transform: skewX(-20deg);
+	-webkit-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right;	
 
-	.right {
-		transform: skewx(20deg);
- 		transform-origin: top left;	
+	::before {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 1200px;
+		height: 800px;
+		-webkit-transform: skewX(20deg);
+		transform: skewX(20deg);
+		-webkit-transform-origin: top right;
+    	-ms-transform-origin: top right;
+    	transform-origin: top right;
+    	background-image: url(../images/bg/bg-services.png);
+    	background-position: top left;
 	}
 }
 
- 
+
 
 /*********************
 FOOTER STYLES

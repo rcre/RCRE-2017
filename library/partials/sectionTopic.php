@@ -10,5 +10,5 @@
 			<a id="cta-border-gray" href="#">View Our Services</a>
 		</aside>
 
-		<div id="services" class="slant right"></div>
+		<div class="slant m-all t-2of3 d-2of3"></div>
 	</section>
