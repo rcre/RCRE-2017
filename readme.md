@@ -1,13 +1,10 @@
 # RCRE 2017 Theme
-A Lightweight Wordpress Development Theme
-
-This is an ever-evolving theme for RESOURCE Commecial Real Estate, comming to you live from Indianapolis, Indiana.
+This is an ever-evolving theme for RESOURCE Commecial Real Estate, coming to you live from Indianapolis, Indiana.
 
 Designed by Patrick Hanus 
 @thehsedition
 
-Kicked off with Bones Starter Theme
-http://themble.com/bones
+Kicked off with Bones Starter Theme - http://themble.com/bones
 
 #### Special Thanks to:
 Jacob Lamont

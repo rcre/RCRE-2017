@@ -55,4 +55,5 @@ temp/
 .svn
 
 *.codekit
+*.codekit3
 *.scssc
