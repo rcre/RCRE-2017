@@ -1495,10 +1495,6 @@ H1, H2, H3, H4, H5 STYLES
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   font-weight: 400;
-  /*
-	if you're going to use webfonts, be sure to check your weights
-	http://css-tricks.com/watch-your-font-weight/
-	*/
   /* removing text decoration from all headline links */ }
   h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
     text-decoration: none; }
@@ -1527,7 +1523,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.0em;
-  font-weight: 740;
+  font-weight: 400;
   color: #576571;
   font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
 
@@ -1540,6 +1536,9 @@ h5, .h5 {
 
 p {
   font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
+
+a {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 /*********************
 HEADER STYLES
@@ -2196,6 +2195,8 @@ come into play. Have fun!
   /*********************
 GENERAL STYLES
 *********************/
+  p {
+    font-size: 0.75em; }
   /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -2239,6 +2240,7 @@ NAVIGATION STYLES
         display: block;
         font-size: 0.70em;
         padding: 1.8em 0.5em;
+        border-bottom: 4px solid transparent;
         /*
 			you can use hover styles here even though this size
 			has the possibility of being a mobile device.
@@ -2252,16 +2254,13 @@ NAVIGATION STYLES
         display: none; }
       .nav li ul.sub-menu {
         display: none;
-        visibility: hidden;
         position: absolute;
         left: 0;
         right: 0;
-        top: 58;
         z-index: 8999;
         background-color: #4c5863;
         text-align: center;
-        align-items: center;
-        margin-top: 4px;
+        padding-bottom: 15px;
         /* highlight sub-menu current page */ }
         .nav li ul.sub-menu li {
           display: inline-block;
@@ -2299,9 +2298,11 @@ NAVIGATION STYLES
               font-weight: 400; }
               .nav li ul.sub-menu li ul.sub-menu a::before {
                 content: "+ "; }
+              .nav li ul.sub-menu li ul.sub-menu a:hover {
+                text-decoration: underline;
+                color: #d9d9d9; }
       .nav li:hover > ul {
         top: auto;
-        visibility: visible;
         display: block; }
     .nav li.current-menu-item a,
     .nav li.current_page_item a,
@@ -2317,7 +2318,10 @@ Our Clients Bar
     background-color: #e6e6e6; }
     .our-clients img {
       height: 25px;
-      margin: 10px; }
+      margin: 20px auto;
+      margin-right: 60px; }
+      .our-clients img:last-child {
+        margin-right: 0px; }
   /*********************
 CONTENT
 *********************/
@@ -2373,8 +2377,12 @@ SERVICE STYLES
     display: inline;
     border-bottom: 1px solid #75caca;
     font-weight: 700;
-    text-color: #75caca;
-    text-decoration: none; }
+    color: #75caca;
+    text-decoration: none;
+    transition: 0.5s; }
+    .service-grid .service-box a:hover {
+      color: #acdfdf;
+      transition: 0.5s; }
   .service-grid .service-box p {
     display: block;
     padding: 0 25px; }
@@ -2387,34 +2395,45 @@ FORM STYLES
 Section STYLES
 *********************/
   #services {
-    background-image: url(../images/bg/header-home.jpg); }
+    background-image: url("../images/bg/bg-services.png"); }
   #specialties-and-industries {
-    background-image: url(../images/bg/header-home.jpg); }
+    background-image: url("../images/bg/header-home.jpg"); }
   section.topic {
     border-top: 10px solid #e6e6e6;
     border-bottom: 10px solid #e6e6e6;
-    position: relative;
     overflow: hidden; }
     section.topic aside {
       float: right;
-      margin: 100px 100px 100px auto; }
+      margin: 100px 200px 100px auto; }
       section.topic aside h3 {
         text-align: left;
         font-size: 2.5em;
         margin: 0; }
-  .slant-right {
-    display: block;
-    position: absolute;
-    height: 500px;
+  .slant {
+    position: relative;
     overflow: hidden;
-    width: 60%;
-    height: 100%;
+    display: block;
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
-    .slant-right .right {
-      transform: skewx(20deg);
-      transform-origin: top left; }
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    -webkit-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right; }
+    .slant ::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 1200px;
+      height: 800px;
+      -webkit-transform: skewX(20deg);
+      transform: skewX(20deg);
+      -webkit-transform-origin: top right;
+      -ms-transform-origin: top right;
+      transform-origin: top right;
+      background-image: url(../images/bg/bg-services.png);
+      background-position: top left; }
   /*********************
 FOOTER STYLES
 *********************/
