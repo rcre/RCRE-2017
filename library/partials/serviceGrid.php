@@ -2,7 +2,6 @@
 // Template: Service Grid
 ?>
 
-
 <section class="service-grid cf">
 	<div class="m-1of2 t-1of3 d-1of3">
 		<div class="service-box">

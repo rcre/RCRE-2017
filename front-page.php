@@ -39,6 +39,7 @@
 			<!-- SECTION 1: Service Grid -->
 				<?php get_template_part('library/partials/serviceGrid'); ?>
 			<!-- SECTION 2: See our Services -->
+			<!-- SECTION 2: See our Services -->
 				<?php get_template_part('library/partials/sectionTopic'); ?>
 			<!-- SECTION 3: See our Specialties and Industries -->
 
