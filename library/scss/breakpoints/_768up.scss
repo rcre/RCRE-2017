@@ -513,16 +513,36 @@ section.topic {
 FOOTER STYLES
 *********************/
 
-/*
-you'll probably need to do quite a bit
-of overriding here if you styled them for
-mobile. Make sure to double check these!
-*/
+p.copyright {
+		display: inline-block;
+	}
+
 .footer-links {
-	ul {
+	display: inline-block;
+	float: right;
+	margin: 6px auto;
+
+	.nav {
+		background: transparent;
+	}
+
+	ul { 
+		margin: 0;
+		padding: 0;
+		
 		li {
+			margin: 0;
+			padding: 0;
+			
 			a {
-				&:hover {}
+				margin: 0;
+				margin-right: 10px;
+				padding: 0;
+				color: $gray;
+
+				&:hover {
+					background: transparent;
+				}
 			}
 			/*
 			be careful with the depth of your menus.
