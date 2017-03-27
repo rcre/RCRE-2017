@@ -237,4 +237,14 @@ function bones_fonts() {
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
 
+// This bad boy is for adding descriptions on some of the nav menu items
+function item_description( $item_output, $item, $depth, $args ) {
+    if ( property_exists($item, 'description') && strlen($item->description) ) {
+        $item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
+    }
+    return $item_output;
+}
+
+add_filter( 'walker_nav_menu_start_el', 'item_description', 10, 4 );
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>

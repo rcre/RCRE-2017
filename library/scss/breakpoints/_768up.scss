@@ -128,8 +128,9 @@ NAVIGATION STYLES
 
 			li {
 				display: inline-block;
-				margin: 0 30px;
+				margin: 0 60px;
 				vertical-align: top;
+				display: relative;
 
 				a {
 					color: darken($white, 25%);;
@@ -138,7 +139,7 @@ NAVIGATION STYLES
 					display: block;
 					border: none;
 					text-decoration: underline;
-
+					text-transform: none;
 
 					&:hover,
 					&:focus {
@@ -148,12 +149,20 @@ NAVIGATION STYLES
 					&:link {}
 				}
 
+				.menu-item-description {
+					width: 200px;
+					position: absolute;
+					text-decoration: none;
+					padding-top: 10px;
+					font-weight: 400;
+				}
+
 				&:first-child {}
 
 				&:last-child {
 
 					a {
-						color: $white;
+						// color: $white;
 						border-bottom: 0;
 					}
 				}
@@ -162,7 +171,7 @@ NAVIGATION STYLES
 					display: block;
 					visibility: visible;
 					position: relative;
-
+					
 					li {
 						display: block;
 						clear: both;
