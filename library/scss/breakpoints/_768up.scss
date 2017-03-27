@@ -19,6 +19,10 @@ GENERAL STYLES
 
 body {}
 
+p {
+	font-size: 0.75em;
+}
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -181,6 +185,11 @@ NAVIGATION STYLES
 
 						&::before {
 							content: "+ ";
+						}
+
+						&:hover {
+							text-decoration: underline;
+							color: darken($white, 15%);;
 						}
 					}
 
@@ -404,8 +413,14 @@ SERVICE STYLES
 			display: inline;
 			border-bottom: 1px solid $blue;
 			font-weight: 700;
-			text-color: $blue;
+			color: $blue;
 			text-decoration: none;
+			transition: 0.5s;
+
+			&:hover {
+				color: lighten( $blue, 15% );
+				transition: 0.5s;
+			}
 		}
 
 		p {
