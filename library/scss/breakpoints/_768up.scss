@@ -94,6 +94,7 @@ NAVIGATION STYLES
 			display: block;
 			font-size: 0.70em;
 			padding: 1.8em 0.5em;
+			border-bottom: 4px solid transparent;
 
 			/*
 			you can use hover styles here even though this size
@@ -102,37 +103,33 @@ NAVIGATION STYLES
 			&:hover, &:focus {
 				color: $white;
 				text-decoration: none;
-				background-color: darken($gray, 5%);;
+				background-color: darken($gray, 5%);
 				border-bottom: 4px solid $white;
 			}
 		}
 
 		&:first-child {}
 
-		// Don't Show "search Properties on Smaller Screens"
+		// Don't Show "Search Properties" on this version
 		&:last-child {
 			display: none;
 		}
 
-		// Desktop Drop-down Menu
+		// Desktop Hover/Drop-down Menu
 		ul.sub-menu {
 			display: none;
-			visibility: hidden;
 			position: absolute;
 			left: 0;
 			right: 0;
-			top: 58;
 			z-index: 8999;
 			background-color: darken($gray, 5%);;
 			text-align: center;
-			align-items: center;
-			margin-top: 4px;
+			padding-bottom: 15px;
 
 			li {
 				display: inline-block;
 				margin: 0 30px;
 				vertical-align: top;
-			
 
 				a {
 					color: darken($white, 25%);;
@@ -207,7 +204,6 @@ NAVIGATION STYLES
 		/* showing sub-menus */
 		&:hover > ul {
 			top: auto;
-			visibility:visible;
 			display: block;
 		}
 
