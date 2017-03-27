@@ -231,7 +231,13 @@ Our Clients Bar
 
 	img {
 		height: 25px;
-		margin: 10px;
+		margin: 20px auto;
+		margin-right: 60px;
+	
+		// Get rid of margin on last client logo
+		&:last-child {
+		margin-right: 0px;
+		}
 	}
 }
 
