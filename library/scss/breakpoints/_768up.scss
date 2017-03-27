@@ -46,6 +46,10 @@ HEADER STYLES
 	div#menu-burger {
 		display: none;
 	}
+	
+	div {
+		padding: 0.70em 0.5em;
+	}
 
 	// Hide the phone button
 	div {
@@ -400,46 +404,6 @@ SERVICE STYLES
 *********************/
 
 
-.service-grid { 
-
-	div {
-		padding: 0;
-
-		.m-end {
-			margin-right: 10px;	
-		}
-
-		.d-end {
-			margin-right: 0px;	
-		}
-	}
-
-	.service-box {
-		img { 
-			top: -30px;
-			width: 25%;
-		}
-
-		a {
-			display: inline;
-			border-bottom: 1px solid $blue;
-			font-weight: 700;
-			color: $blue;
-			text-decoration: none;
-			transition: 0.5s;
-
-			&:hover {
-				color: lighten( $blue, 15% );
-				transition: 0.5s;
-			}
-		}
-
-		p {
-			display: block;
-			padding: 0 25px;
-		}
-	}
-}
 /*********************
 FORM STYLES
 *********************/
@@ -449,63 +413,109 @@ form#contact-home {
 }
 
 /*********************
-Section STYLES
+SECITON STYLES
 *********************/
-// Global Backgrounds
 
-#services {
-	background-image: url('../images/bg/bg-services.png');
-}
+section {
 
-#specialties-and-industries {
-	background-image: url('../images/bg/header-home.jpg');
-}
+	// Begin Topic Section
+	&.topic {
+		border-top: 10px solid $lgray;
+		border-bottom: 10px solid $lgray;
+		overflow: hidden;
 
-section.topic {
-	border-top: 10px solid $lgray;
-	border-bottom: 10px solid $lgray;
-	overflow: hidden;
+		aside {
+			margin-top: 100px;
+			float: right;
 
-	aside {
-		float: right;
-		margin: 100px 200px 100px auto;
+			h3 {
+				text-align: left;
+				font-size: 2.5em;
+				margin: 0;
+			}
 
-		h3 {
-			text-align: left;
-			font-size: 2.5em;
-			margin: 0;
+			p {
+				margin-bottom: 30px;
+			}
 		}
 	}
-}
 
-.slant {
-	position: relative;
-    overflow: hidden;
-    display: block;
-    height: 800px;
-    background-position: center;
-	background-repeat: no-repeat;
-	-webkit-transform: skewX(-20deg);
-	transform: skewX(-20deg);
-	-webkit-transform-origin: top right;
-    -ms-transform-origin: top right;
-    transform-origin: top right;	
+	&.slant {
+	    transform: skewX(-20deg); 
+	    -ms-transform: skewX(-20deg); /* IE 9 */
+	    -webkit-transform: skewX(-20deg); /* Safari and Chrome */
+	    width: 60%; 
+	    height: 520px;
+	    position: relative;
+	    overflow: hidden;
+	    -webkit-transform-origin: top right;
+	    -ms-transform-origin: top right;
+	    transform-origin: top right;
 
-	::before {
-		content: "";
-		display: block;
-		position: absolute;
-		width: 1200px;
-		height: 800px;
-		-webkit-transform: skewX(20deg);
-		transform: skewX(20deg);
-		-webkit-transform-origin: top right;
-    	-ms-transform-origin: top right;
-    	transform-origin: top right;
-    	background-image: url(../images/bg/bg-services.png);
-    	background-position: top left;
+	    &::before {
+	    	content: "";
+		    transform: skewX(20deg);
+		    -ms-transform: skewX(20deg); /* IE 9 */
+		    -webkit-transform: skewX(20deg); /* Safari and Chrome */
+		    background-image: url('../images/bg/bg-services.png'); 
+		    background-repeat: no-repeat; 
+		    background-position: top left;
+		    position: absolute;
+		    -webkit-transform-origin: top right;
+		    -ms-transform-origin: top right;
+		    transform-origin: top right;
+		    width: 2000px; /* something ridiculously big */
+		    height: 2000px; /* something ridiculously big */
+		}
 	}
-}
+	// End of Topic Section
+
+	// Begin Styles for a Service Grid
+	&.service-grid { 
+
+		div {
+			padding: 0;
+
+			.m-end {
+				margin-right: 10px;	
+			}
+
+			.d-end {
+				margin-right: 0px;	
+			}
+		}
+
+		.service-box {
+			img { 
+				top: -30px;
+				width: 25%;
+			}
+
+			a {
+				display: inline;
+				border-bottom: 1px solid $blue;
+				font-weight: 700;
+				color: $blue;
+				text-decoration: none;
+				transition: 0.5s;
+
+				&:hover {
+					color: lighten( $blue, 15% );
+					transition: 0.5s;
+				}
+			}
+
+			p {
+				display: block;
+				padding: 0 25px;
+			}
+		}
+	} // End Service Grid Styles
+
+
+} // End Section Styles
+
+
 
 
 
