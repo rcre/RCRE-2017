@@ -432,6 +432,9 @@ section {
 				text-align: left;
 				font-size: 2.5em;
 				margin: 0;
+				background-color: transparent;
+				padding: 0;
+				color: $gray;
 			}
 
 			p {
@@ -453,7 +456,6 @@ section {
 	    transform: skewX(-20deg); 
 	    -ms-transform: skewX(-20deg); /* IE 9 */
 	    -webkit-transform: skewX(-20deg); /* Safari and Chrome */
-	    // width: 60%; 
 	    height: 520px;
 	    position: relative;
 	    overflow: hidden;
