@@ -39,6 +39,12 @@
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
+	"\/CHANGELOG.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CHANGELOG.html",
+		"oF": 0
+		},
 	"\/CHANGELOG.md": {
 		"cS": 0,
 		"eF": 1,
@@ -148,6 +154,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/library\/css\/login-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/library\/css\/shame.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/library\/css\/shame-min.css",
 		"oF": 0,
 		"oS": 0
 		},

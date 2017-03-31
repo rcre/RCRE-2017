@@ -2026,16 +2026,22 @@ form#contact-home {
 /*********************
 SECTION STYLES
 *********************/
-section .topic .slant {
-  display: none; }
-
-section aside {
-  text-align: left;
-  background-color: white;
-  margin-top: 100px 0px; }
-  section aside a#cta-border-gray {
-    margin: 0;
-    display: inline; }
+section {
+  margin: 20px auto; }
+  section .topic .slant {
+    display: none; }
+  section aside {
+    text-align: left;
+    background-color: white;
+    margin-top: 100px 0px;
+    padding: 0; }
+    section aside h3 {
+      background-color: #576571;
+      padding: 10px;
+      color: #fff; }
+    section aside a#cta-border-gray {
+      margin: 0;
+      display: inline; }
 
 /****************************************
 Our Clients Bar
@@ -2394,20 +2400,24 @@ SECITON STYLES
         margin: 0; }
       section.topic aside p {
         margin-bottom: 30px; }
-  section.slant {
+    section.topic .right {
+      float: right; }
+    section.topic .left {
+      float: left; }
+  section .slant {
     transform: skewX(-20deg);
     -ms-transform: skewX(-20deg);
     /* IE 9 */
     -webkit-transform: skewX(-20deg);
     /* Safari and Chrome */
-    width: 60%;
     height: 520px;
     position: relative;
     overflow: hidden;
     -webkit-transform-origin: top right;
     -ms-transform-origin: top right;
-    transform-origin: top right; }
-    section.slant::before {
+    transform-origin: top right;
+    z-index: 5; }
+    section .slant::before {
       content: "";
       transform: skewX(20deg);
       -ms-transform: skewX(20deg);
@@ -2424,7 +2434,40 @@ SECITON STYLES
       width: 2000px;
       /* something ridiculously big */
       height: 2000px;
-      /* something ridiculously big */ }
+      /* something ridiculously big */
+      z-index: 5; }
+  section .slant-right {
+    transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    /* IE 9 */
+    -webkit-transform: skewX(20deg);
+    /* Safari and Chrome */
+    height: 520px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    z-index: 5; }
+    section .slant-right::before {
+      content: "";
+      transform: skewX(-20deg);
+      -ms-transform: skewX(-20deg);
+      /* IE 9 */
+      -webkit-transform: skewX(-20deg);
+      /* Safari and Chrome */
+      background-image: url("../images/bg/bg-services.png");
+      background-repeat: no-repeat;
+      background-position: top left;
+      position: absolute;
+      -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+      transform-origin: top left;
+      width: 2000px;
+      /* something ridiculously big */
+      height: 2000px;
+      /* something ridiculously big */
+      z-index: 5; }
   section.service-grid div {
     padding: 0; }
     section.service-grid div .m-end {
