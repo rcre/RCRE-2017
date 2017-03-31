@@ -448,7 +448,7 @@ section {
 		}
 	}
 
-	&.slant {
+	.slant {
 	    transform: skewX(-20deg); 
 	    -ms-transform: skewX(-20deg); /* IE 9 */
 	    -webkit-transform: skewX(-20deg); /* Safari and Chrome */
