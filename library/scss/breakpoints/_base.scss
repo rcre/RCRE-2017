@@ -1060,6 +1060,12 @@ section {
 		background-color: white;
 		margin-top: 100px 0px;
 		padding: 0;
+		
+		h3 {
+			background-color: $gray;
+			padding: 10px;
+			color: $white;
+		}
 
 		a#cta-border-gray {
 			margin: 0;
