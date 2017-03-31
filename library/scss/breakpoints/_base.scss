@@ -1046,6 +1046,7 @@ SECTION STYLES
 
 // Section layout for mobile
 section {
+	margin: 20px auto;
 	
 	.topic {
 
@@ -1058,6 +1059,7 @@ section {
 		text-align: left;
 		background-color: white;
 		margin-top: 100px 0px;
+		padding: 0;
 
 		a#cta-border-gray {
 			margin: 0;
