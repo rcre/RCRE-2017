@@ -456,8 +456,7 @@ section .slant {
   overflow: hidden;
   -webkit-transform-origin: top right;
   -ms-transform-origin: top right;
-  transform-origin: top right;
-  z-index: 5; }
+  transform-origin: top right; }
   section .slant::before {
     content: "";
     transform: skewX(20deg);
@@ -475,8 +474,7 @@ section .slant {
     width: 2000px;
     /* something ridiculously big */
     height: 2000px;
-    /* something ridiculously big */
-    z-index: 5; }
+    /* something ridiculously big */ }
 
 section .slant-right {
   transform: skewX(20deg);
@@ -489,8 +487,7 @@ section .slant-right {
   overflow: hidden;
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;
-  transform-origin: top left;
-  z-index: 5; }
+  transform-origin: top left; }
   section .slant-right::before {
     content: "";
     transform: skewX(-20deg);
@@ -508,8 +505,7 @@ section .slant-right {
     width: 2000px;
     /* something ridiculously big */
     height: 2000px;
-    /* something ridiculously big */
-    z-index: 5; }
+    /* something ridiculously big */ }
 
 section.service-grid div {
   padding: 0; }
