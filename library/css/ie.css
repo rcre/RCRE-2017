@@ -437,13 +437,17 @@ section.topic {
     section.topic aside h3 {
       text-align: left;
       font-size: 2.5em;
-      margin: 0; }
+      margin: 0;
+      background-color: transparent;
+      padding: 0;
+      color: #576571; }
     section.topic aside p {
       margin-bottom: 30px; }
   section.topic .right {
     float: right; }
   section.topic .left {
-    float: left; }
+    float: left;
+    padding-left: 0.75em; }
 
 section .slant {
   transform: skewX(-20deg);
