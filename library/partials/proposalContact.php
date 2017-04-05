@@ -48,7 +48,7 @@ Proposal Contact Form */
 	<form id="footer-property-search" class="t-1of2 d-1of2 cf" action="https://" method="POST">
 		<h2>Find a Property</h2>
 		<label for="search">Address or Area of Interest</label>
-		<input name="search" type="text" tabindex="4" placeholder="search"/>
+		<input name="search" type="text" tabindex="7" placeholder="search"/>
 		<input id="cta-border-green" type="submit" name="submit" value="Search Properties">
 	</form>
 
