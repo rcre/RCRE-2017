@@ -480,6 +480,13 @@ probably best not to use it. I mean, were you going to anyway? */
     display: inline-block; }
   body#tinymce.wp-editor template {
     display: none; }
+  body#tinymce.wp-editor .clearfix, body#tinymce.wp-editor .cf {
+    zoom: 1; }
+    body#tinymce.wp-editor .clearfix:before, body#tinymce.wp-editor .clearfix:after, body#tinymce.wp-editor .cf:before, body#tinymce.wp-editor .cf:after {
+      content: "";
+      display: table; }
+    body#tinymce.wp-editor .clearfix:after, body#tinymce.wp-editor .cf:after {
+      clear: both; }
   body#tinymce.wp-editor [hidden] {
     display: none; }
 
