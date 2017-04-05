@@ -183,6 +183,46 @@
 		"oAP": "\/library\/custom-post-type.php",
 		"oF": 0
 		},
+	"\/library\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/library\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/library\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/library\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/library\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
 	"\/library\/images\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 8439,
@@ -291,431 +331,61 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/icons\/icon exports\/icon--12.svg": {
+	"\/library\/images\/icons\/icon-auction-document.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon--12.svg",
+		"oAP": "\/library\/images\/icons\/icon-auction-document.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon exports\/icon--13.svg": {
+	"\/library\/images\/icons\/icon-auction-gavel.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon--13.svg",
+		"oAP": "\/library\/images\/icons\/icon-auction-gavel.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon exports\/icon--24.svg": {
+	"\/library\/images\/icons\/icon-auction-paddle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon--24.svg",
+		"oAP": "\/library\/images\/icons\/icon-auction-paddle.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon exports\/icon--25.svg": {
+	"\/library\/images\/icons\/icon-brokerage-contract.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon--25.svg",
+		"oAP": "\/library\/images\/icons\/icon-brokerage-contract.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon exports\/icon--26.svg": {
+	"\/library\/images\/icons\/icon-brokerage-lease.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon--26.svg",
+		"oAP": "\/library\/images\/icons\/icon-brokerage-lease.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon exports\/icon--28.svg": {
+	"\/library\/images\/icons\/icon-brokerage-sale.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon--28.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon--36.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon--36.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Auction - Document.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Auction - Document.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Auction - Gavel.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Auction - Gavel.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Auction - Paddle.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Auction - Paddle.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Brokerage - Contract.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Brokerage - Contract.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Brokerage - Lease.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Brokerage - Lease.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Brokerage - Sale.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Brokerage - Sale.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Cell Phone.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Cell Phone.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Computer.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Computer.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Industrial - Box Opened.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Industrial - Box Opened.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Industrial - Box.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Industrial - Box.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Industrial - Building.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Industrial - Building.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Industrial - Forklift.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Industrial - Forklift.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Industrial - Hardhat.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Industrial - Hardhat.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Industrial - Life Sciences.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Industrial - Life Sciences.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Industrial - Map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Industrial - Map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Industrial - Truck.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Industrial - Truck.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Investments - Dollar Sign.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Investments - Dollar Sign.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Investments - Graph.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Investments - Graph.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Investments Calculator.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Investments Calculator.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Land - Escavator.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Land - Escavator.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Land - Surveyor.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Land - Surveyor.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Land - Trees 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Land - Trees 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Land - Trees.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Land - Trees.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Office - Corporate.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Office - Corporate.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Office - Education.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Office - Education.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Office - Government.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Office - Government.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Office - Small Business.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Office - Small Business.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_RESOURCE Logo - Line Art.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_RESOURCE Logo - Line Art.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Retail - Building.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Retail - Building.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Retail - Credit Card.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Retail - Credit Card.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Retail - Dining.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Retail - Dining.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Retail - Grocery.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Retail - Grocery.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Retail - Investments Arrows.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Retail - Investments Arrows.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Retail - Merchandise.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Retail - Merchandise.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-_Tablet.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-_Tablet.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/icons\/icon exports\/icon-computer_Computer.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon exports\/icon-computer_Computer.svg",
+		"oAP": "\/library\/images\/icons\/icon-brokerage-sale.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -731,11 +401,211 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/library\/images\/icons\/icon-cell-phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-cell-phone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/library\/images\/icons\/icon-close.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/library\/images\/icons\/icon-close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-computer-research.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-computer-research.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-computer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-computer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-download.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-download.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-football.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-football.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-industrial-box.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-industrial-box.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Industrial-BoxOpened.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Industrial-BoxOpened.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Industrial-Building.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Industrial-Building.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Industrial-Forklift.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Industrial-Forklift.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Industrial-Hardhat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Industrial-Hardhat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Industrial-LifeSciences.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Industrial-LifeSciences.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Industrial-Map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Industrial-Map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Industrial-Truck.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Industrial-Truck.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Investments-DollarSign.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Investments-DollarSign.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Investments-Graph.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Investments-Graph.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-InvestmentsCalculator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-InvestmentsCalculator.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Land-Escavator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Land-Escavator.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Land-Surveyor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Land-Surveyor.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Land-Trees.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Land-Trees.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Land-Trees2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Land-Trees2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -761,6 +631,56 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/library\/images\/icons\/icon-office-buildings.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-office-buildings.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Office-Corporate.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Office-Corporate.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Office-Education.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Office-Education.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Office-Government.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Office-Government.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Office-SmallBusiness.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Office-SmallBusiness.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/library\/images\/icons\/icon-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -771,11 +691,121 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-research.svg": {
+	"\/library\/images\/icons\/icon-plane.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-research.svg",
+		"oAP": "\/library\/images\/icons\/icon-plane.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-property-mgmt-toolbox.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-property-mgmt-toolbox.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-property-mgmt-tools.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-property-mgmt-tools.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-property-mgmt-truck.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-property-mgmt-truck.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-RESOURCE-logo-lines.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-RESOURCE-logo-lines.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Retail-Building.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Retail-Building.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Retail-CreditCard.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Retail-CreditCard.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Retail-Dining.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Retail-Dining.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Retail-Grocery.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Retail-Grocery.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Retail-InvestmentsArrows.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Retail-InvestmentsArrows.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-Retail-Merchandise.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-Retail-Merchandise.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -796,6 +826,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/library\/images\/icons\/icon-search.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icon-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icon-tablet.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -826,6 +866,66 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/library\/images\/icons\/icon-van.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icons-book-knowledge.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icons-book-knowledge.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icons-focused-on-you.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icons-focused-on-you.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icons-handshake.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icons-handshake.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icons-lightbulb-intelligence.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icons-lightbulb-intelligence.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icons-speech-consultation.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icons-speech-consultation.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/icons\/icons-us-map-love-indy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/icons\/icons-us-map-love-indy.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -896,6 +996,26 @@
 		"oAP": "\/library\/images\/nothumb.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/library\/images\/website_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/website_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/website_icon_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/website_icon_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/library\/images\/win8-tile-icon.png": {
 		"ft": 32768,
@@ -1182,6 +1302,188 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/library\/scss\/font-awesome\/_animated.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_animated.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_bordered-pulled.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_bordered-pulled.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_core.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_core.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_fixed-width.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_fixed-width.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_larger.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_larger.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_path.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_path.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_rotated-flipped.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_rotated-flipped.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_screen-reader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_screen-reader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_stacked.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_stacked.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/font-awesome\/font-awesome.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/library\/scss\/css\/font-awesome.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/library\/scss\/ie.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1371,7 +1673,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/library\/css\/shame.css",
 		"oF": 0,
 		"oS": 0,
@@ -1815,7 +2117,7 @@
 	"creationDate": 511372480,
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-hart"
+	"iconImageName": "brackets_gray"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

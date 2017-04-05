@@ -460,8 +460,8 @@ use color variables properly:
 http://sachagreif.com/sass-color-variables/
 */
 /******************************************************************
-Site Name:
-Author:
+Site Name: RESOURCE Commercial Real Estate
+Author: Patrick Hanus
 
 Stylesheet: Typography
 
@@ -469,24 +469,13 @@ Stylesheet: Typography
 /*********************
 FONT FACE (IN YOUR FACE)
 *********************/
-/*  To embed your own fonts, use this syntax
-  and place your fonts inside the
-  library/fonts folder. For more information
-  on embedding fonts, go to:
-  http://www.fontsquirrel.com/
-  Be sure to remove the comment brackets.
-*/
-/*  @font-face {
-      font-family: 'Font Name';
-      src: url('library/fonts/font-name.eot');
-      src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
-             url('library/fonts/font-name.woff') format('woff'),
-             url('library/fonts/font-name.ttf') format('truetype'),
-             url('library/fonts/font-name.svg#font-name') format('svg');
-      font-weight: normal;
-      font-style: normal;
-  }
-*/
+@font-face {
+  font-family: 'font-awesome';
+  src: url("library/fonts/font-awesome.eot");
+  src: url("library/fonts/font-awesome.eot?#iefix") format("embedded-opentype"), url("library/fonts/font-awesome.woff") format("woff"), url("library/fonts/font-awesome.ttf") format("truetype"), url("library/fonts/font-awesome.svg#font-awesome") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 p {
   -ms-word-wrap: keep-all;
   word-break: keep-all;
@@ -2340,14 +2329,16 @@ Our Clients Bar
   /*********************
 CONTENT
 *********************/
-  #content header .callout {
-    text-align: center;
-    margin: 200px auto; }
-    #content header .callout a {
-      font-size: 0.75em;
-      margin: 0.50em auto;
-      display: block;
-      max-width: 150px; }
+  #content {
+    background-color: #576571; }
+    #content header .callout {
+      text-align: center;
+      margin: 200px auto; }
+      #content header .callout a {
+        font-size: 0.75em;
+        margin: 0.50em auto;
+        display: block;
+        max-width: 150px; }
   /*********************
 SIDEBARS & ASIDES
 *********************/
@@ -2390,19 +2381,22 @@ SECITON STYLES
   section.topic {
     border-top: 10px solid #e6e6e6;
     border-bottom: 10px solid #e6e6e6;
-    overflow: hidden; }
+    overflow: hidden;
+    margin: 0; }
     section.topic aside {
       margin-top: 100px;
       float: right; }
       section.topic aside h3 {
         text-align: left;
-        font-size: 2.5em;
+        font-size: 2.2em;
         margin: 0;
         background-color: transparent;
         padding: 0;
         color: #576571; }
       section.topic aside p {
         margin-bottom: 30px; }
+      section.topic aside a {
+        margin-left: 0 !important; }
     section.topic .right {
       float: right; }
     section.topic .left {
@@ -2516,9 +2510,11 @@ FOOTER STYLES
           margin: 0;
           margin-right: 10px;
           padding: 0;
-          color: #576571; }
+          color: #576571;
+          transition: 0.3s; }
           .footer-links ul li a:hover {
-            background: transparent; }
+            background: transparent;
+            transition: 0.3s; }
   /* end .footer-links */ }
 
 /*********************
@@ -2667,3 +2663,6 @@ though, go for it.
   .respond-form,
   nav {
     display: none; } }
+
+.selling-point img {
+  width: 200px; }
