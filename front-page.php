@@ -79,6 +79,7 @@
 					?>
 				</section> <?php // end article section ?>
 				
+
 				<footer class="article-footer cf">
 					<?php get_template_part('library/partials/proposalContact'); ?>
 				</footer>
@@ -87,8 +88,6 @@
 
 			<?php endwhile; endif; ?>
 		
-		
-
 		</main>
 
 	</div>

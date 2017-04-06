@@ -116,62 +116,7 @@ a, a:visited {
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	text-rendering: optimizelegibility;
-	font-weight: 400;
 
-	/* removing text decoration from all headline links */
-	a {
-		text-decoration: none;
-	}
-}
-
-h1, .h1 {
-	font-size: 2.5em;
-  	text-transform: uppercase;
-  	color: $white;
-  	font-weight: 700;
-  	font-family: $sans-serif;
-}
-
-h2, .h2 {
-	font-size: 1.75em;
-	line-height: 1.4em;
-	margin-bottom: 0.375em;
-	color: $white;
-	font-weight: 700;
-	font-family: $sans-serif;
-}
-
-h3, .h3 {
-	font-size: 1.25em;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-align: center;
-	font-family: $sans-serif;
-}
-
-h4, .h4 {
-	font-size: 1.0em;
-	font-weight: 400;
-	color: $gray;
-	font-family: $serif;
-}
-
-h5, .h5 {
-	font-size: 0.846em;
-	line-height: 2.09em;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-family: $serif;
-}
-
-p {
-	font-family: $serif;
-}
- a {
- 	font-family: $sans-serif;
- }
 /*********************
 HEADER STYLES
 *********************/
@@ -415,21 +360,8 @@ POSTS & CONTENT STYLES
 
 		.archive-title {}
 
-		/* want to style individual post classes? Booya! */
-		.post-id {}         /* post by id (i.e. post-3) */
-		.post {}            /* general post style */
-		.page {}            /* general article on a page style */
-		.attachment {}      /* general style on an attatchment */
-		.sticky {}          /* sticky post style */
-		.hentry {}          /* hentry class */
-		.category-slug {}   /* style by category (i.e. category-videos) */
-		.tag-slug {}        /* style by tag (i.e. tag-news) */
+	.archive-title {}
 
-		/* post meta */
-		.byline {
-			color: $meta-gray;
-			font-style: italic;
-			margin: 0;
 
 			time {}
 		}

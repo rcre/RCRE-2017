@@ -261,6 +261,46 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/library\/images\/bg\/pattern-01-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/bg\/pattern-01-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/bg\/pattern-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/bg\/pattern-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/bg\/pattern-02-01-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/bg\/pattern-02-01-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/bg\/pattern-02-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/bg\/pattern-02-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/library\/images\/client-logos\/Coca-Cola.png": {
 		"ft": 32768,
 		"iS": 1924,
@@ -1478,7 +1518,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/library\/scss\/css\/font-awesome.css",
 		"oF": 0,
 		"oS": 0,
@@ -1675,7 +1715,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/library\/css\/shame.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
