@@ -3,8 +3,106 @@
 // -Things that can be consolidated
 // -Things that I am ashamed of, but they work...for now.
 
-.selling-point {
-	img {
-		width: 100px;
+
+// --------------- Homepage Styles ----------------
+
+	.uvp {
+		p {
+			border: 2px solid $blue;
+			padding: 40px;
+			border-radius: 10px;
+			margin: 80px auto;
+			font-size: 1.4em;
+			text-align: center;
+		}
+	}
+
+	.selling-point {
+		text-align: center;
+		padding: 20px 40px;
+
+		img {
+			width: 50px;
+			margin: 0 auto;
+		}
+	}
+
+	#need-help {
+		background-color: $dblue;
+		color: white;
+		text-align: center;
+		padding: 20px;
+		margin: 0;
+
+		p {
+			margin: 20px 100px;
+		}
+
+		.fa-heart {
+			color: $pink;
+		}
+	}
+
+/*********************
+SERVICE GRID STYLES
+*********************/
+
+.service-grid {
+
+	div {
+		padding: 0;
+	}
+	
+	.service-box {
+		border: 5px solid $lgray;
+		border-radius: 10px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding: 20px 5px;
+		margin-right: 10px;
+		text-align: center;
+		position: relative;
+		
+		// this tricky guy is centering the images using ablsoute positioning!
+		img {
+			position: absolute;
+			top: -40px;
+			left: 0;
+			right: 0;
+			width: 40%; // The size I want it to be
+			background-color: white; // color just for reference
+			margin: auto; // Necessary for centering
+			padding: 10px;
+		}
+
+		a {	
+			display: none; // Don't show description on mobile
+			
+		}
+
+		p {
+			display: none;
+		}
+	}
+}
+
+/****************************************
+Our Clients Bar
+****************************************/
+
+.clients-bar {
+	background-color: $lgray;
+}
+
+// ------------- I need to unify font styles -----
+
+// this is for the service panels main title
+h4 {
+	a {
+		display: inline;
+		border-bottom: 1px solid $dgray;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: $dgray;
 	}
 }
