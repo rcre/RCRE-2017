@@ -1,6 +1,6 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
-				<div id="inner-footer" class="wrap cf">
+				<div id="inner-footer" class="pull-l-1of12 pull-r-1of12 cf">
 
 					<nav role="navigation">
 						<?php wp_nav_menu(array(

@@ -3,22 +3,23 @@
 	<!-- This will have the SVG slant -->
 		
 	<!-- This part holds the main content in place in the section -->
-		<aside class="m-all t-1of3 d-1of3 right">
+		<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right">
 			<h3>Services</h3>
 			<p>Your business could be eligible for economic incentives you didn't know existed. This is money local and state governments use to attract growing businesses to their area. At RESOURCE, we help you find every bit of savings you could possibly get.
 			</p>
 			<a id="cta-border-green" href="#">View Our Services</a>
 		</aside>
 
-		<div class="slant"></div>
+		<div class="slant--left"></div>
+
 	</section>
 	
 	<section class="topic cf">
-		<aside class="m-all t-1of3 d-1of3 left">
+		<aside class="m-all t-1of4 d-1of4 pull-r-1of12 left">
 			<h3>Specialties and Industries</h3>
 			<p>Your business could be eligible for economic incentives you didn't know existed. This is money local and state governments use to attract growing businesses to their area. At RESOURCE, we help you find every bit of savings you could possibly get.
 			</p>
 			<a id="cta-border-green" href="#">View Our Specialties</a>
 		</aside>
-		<div class="slant-right"></div>
+		<div class="slant--right"></div>
 	</section>
