@@ -1,14 +1,8 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: RESOURCE Commercial Real Estate
+Author: Patrick Hanus
 
 Stylesheet: Tablet & Small Desktop Stylesheet
-
-Here's where you can start getting into the good stuff.
-This size will work on iPads, other tablets, and desktops.
-So you can start working with more styles, background images,
-and other resources. You'll also notice the grid starts to
-come into play. Have fun!
 
 ******************************************************************/
 
@@ -18,10 +12,6 @@ GENERAL STYLES
 *********************/
 
 body {
-}
-
-p {
-	font-size: 0.75em;
 }
 
 /*********************
@@ -101,10 +91,6 @@ NAVIGATION STYLES
 			padding: 1.8em 0.5em;
 			border-bottom: 4px solid transparent;
 
-			/*
-			you can use hover styles here even though this size
-			has the possibility of being a mobile device.
-			*/
 			&:hover, &:focus {
 				color: $white;
 				text-decoration: none;
@@ -286,126 +272,6 @@ SIDEBARS & ASIDES
 	margin-top: 2.2em;
 }
 
-	.widgettitle {
-		border-bottom: 2px solid #444;
-		margin-bottom: 0.75em;
-	}
-
-	.widget {
-		padding: 0 10px;
-		margin: 2.2em 0;
-
-		ul {
-			li {
-				margin-bottom: 0.75em;
-
-				&:first-child {}
-				&:last-child {}
-				a {}
-				/* deep nesting */
-
-				ul {
-					margin-top: 0.75em;
-					padding-left: 1em;
-				}
-			}
-		}
-	}
-
-
-	/* links widget */
-	.widget_links {}
-	.widget_links ul {}
-	.widget_links ul li {}
-	.widget_links ul li a {}
-
-	/* meta widget */
-	.widget_meta {}
-	.widget_meta ul {}
-	.widget_meta ul li {}
-	.widget_meta ul li a {}
-
-	/* pages widget */
-	.widget_pages {}
-	.widget_pages ul {}
-	.widget_pages ul li {}
-	.widget_pages ul li a {}
-
-	/* recent-posts widget */
-	.widget_recent_entries {}
-	.widget_recent_entries ul {}
-	.widget_recent_entries ul li {}
-	.widget_recent_entries ul li a {}
-
-	/* archives widget */
-	.widget_archive {}
-	.widget_archive ul {}
-	.widget_archive ul li {}
-	.widget_archive ul li a {}
-	.widget_archive select {}
-	.widget_archive option {}
-
-	/* tag-cloud widget */
-	.widget_links {}
-	.widget_links li:after {}
-	.widget_links li:before {}
-	.widget_tag_cloud {}
-	.widget_tag_cloud a {}
-	.widget_tag_cloud a:after {}
-	.widget_tag_cloud a:before {}
-
-	/* calendar widget */
-	.widget_calendar {}
-	#calendar_wrap {}
-	#calendar_wrap th {}
-	#calendar_wrap td {}
-	#wp-calendar tr td {}
-	#wp-calendar caption {}
-	#wp-calendar a {}
-	#wp-calendar #today {}
-	#wp-calendar #prev {}
-	#wp-calendar #next {}
-	#wp-calendar #next a {}
-	#wp-calendar #prev a {}
-
-	/* category widget */
-	.widget_categories {}
-	.widget_categories ul {}
-	.widget_categories ul li {}
-	.widget_categories ul ul.children {}
-	.widget_categories a {}
-	.widget_categories select{}
-	.widget_categories select#cat {}
-	.widget_categories select.postform {}
-	.widget_categories option {}
-	.widget_categories .level-0 {}
-	.widget_categories .level-1 {}
-	.widget_categories .level-2 {}
-	.widget_categories .level-3 {}
-
-	/* recent-comments widget */
-	.recentcomments {}
-	#recentcomments {}
-	#recentcomments li {}
-	#recentcomments li a {}
-	.widget_recent_comments {}
-
-	/* search widget */
-	#searchform {}
-	.widget_search {}
-	.screen-reader-text {}
-
-	/* text widget */
-	.textwidget {}
-	.widget_text {}
-	.textwidget p {}
-
-
-/*********************
-SERVICE STYLES
-*********************/
-
-
 /*********************
 FORM STYLES
 *********************/
@@ -419,16 +285,21 @@ SECITON STYLES
 *********************/
 
 section {
-	// Begin Topic Section
+	.uvp {
+		background-image: url('../images/bg/pattern-01-01.svg');
+		background-size: 10%;
+	}
+
 	&.topic {
 		border-top: 10px solid $lgray;
 		border-bottom: 10px solid $lgray;
 		overflow: hidden;
 		margin: 0;
+		padding: 0;
 
 		aside {
-			margin-top: 100px;
-			float: right;
+			margin-top: 15%;
+			max-width: 350px;
 
 			h3 {
 				text-align: left;
@@ -450,73 +321,72 @@ section {
 
 		.right {
 			float: right;
+			padding-right: 0;
 		}
 
 		.left {
 			float: left;
-			padding-left: 0.75em
+			padding-left: 0.75em;
 		}
 	}
 
 	.slant {
-	    transform: skewX(-20deg); 
-	    -ms-transform: skewX(-20deg); /* IE 9 */
-	    -webkit-transform: skewX(-20deg); /* Safari and Chrome */
-	    height: 520px;
+		height: 720px;
 	    position: relative;
 	    overflow: hidden;
-	    -webkit-transform-origin: top right;
-	    -ms-transform-origin: top right;
-	    transform-origin: top right;
 
-	    &::before {
-	    	content: "";
-		    transform: skewX(20deg);
-		    -ms-transform: skewX(20deg); /* IE 9 */
-		    -webkit-transform: skewX(20deg); /* Safari and Chrome */
-		    background-image: url('../images/bg/bg-services.png'); 
-		    background-repeat: no-repeat; 
-		    background-position: top left;
-		    position: absolute;
-		    -webkit-transform-origin: top right;
-		    -ms-transform-origin: top right;
-		    transform-origin: top right;
-		    width: 2000px; /* something ridiculously big */
-		    height: 2000px; /* something ridiculously big */
-
-		}
-	}
-
-	.slant-right {
-		transform: skewX(20deg); 
-	    -ms-transform: skewX(20deg); /* IE 9 */
-	    -webkit-transform: skewX(20deg); /* Safari and Chrome */
-	    // width: 60%; 
-	    height: 520px;
-	    position: relative;
-	    overflow: hidden;
-	    -webkit-transform-origin: top left;
-	    -ms-transform-origin: top left;
-	    transform-origin: top left;
-
-	    &::before {
-	    	content: "";
-		    transform: skewX(-20deg);
-		    -ms-transform: skewX(-20deg); /* IE 9 */
-		    -webkit-transform: skewX(-20deg); /* Safari and Chrome */
-		    background-image: url('../images/bg/bg-services.png'); 
-		    background-repeat: no-repeat; 
-		    background-position: top left;
-		    position: absolute;
-		    -webkit-transform-origin: top left;
-		    -ms-transform-origin: top left;
-		    transform-origin: top left;
-		    width: 2000px; /* something ridiculously big */
-		    height: 2000px; /* something ridiculously big */
+		&--left {
+			transform: skewX(-20deg); 
+	    	-ms-transform: skewX(-20deg); /* IE 9 */
+	    	-webkit-transform: skewX(-20deg); /* Safari and Chrome */
+	    	-webkit-transform-origin: top right;
+	    	-ms-transform-origin: top right;
+	    	transform-origin: top right;
+			
+			&::before {
+		    	content: "";
+			    transform: skewX(20deg);
+			    -ms-transform: skewX(20deg); /* IE 9 */
+			    -webkit-transform: skewX(20deg); /* Safari and Chrome */
+			    background-image: url('../images/bg/bg-services.png'); 
+			    background-repeat: no-repeat;
+			    background-position: top left;
+			    position: absolute;
+			    -webkit-transform-origin: top right;
+			    -ms-transform-origin: top right;
+			    transform-origin: top right;
+			    width: 2000px;
+			    height: 2000px;
+			}
 
 		}
 
+		&--right {
+			transform: skewX(20deg); 
+	    	-ms-transform: skewX(20deg); /* IE 9 */
+	    	-webkit-transform: skewX(20deg); /* Safari and Chrome */
+	    	-webkit-transform-origin: top left;
+	    	-ms-transform-origin: top left;
+	    	transform-origin: top left;
+
+	    	&::before {
+			    background-image: url('../images/bg/bg-services.png');
+				content: "";
+			    background-repeat: no-repeat; 
+			    background-position: top left;
+			    position: absolute;
+			    width: 1500px;
+			    height: 1500px;
+			    -webkit-transform-origin: top left;
+			    -ms-transform-origin: top left;
+			    transform-origin: top left;
+			    transform: skewX(-20deg);
+			    -ms-transform: skewX(-20deg); /* IE 9 */
+			    -webkit-transform: skewX(-20deg); /* Safari and Chrome */
+			}
+		}
 	}
+
 	// End of Topic Section
 
 	// Begin Styles for a Service Grid
@@ -544,7 +414,7 @@ section {
 				display: inline;
 				border-bottom: 1px solid $blue;
 				font-weight: 700;
-				color: $blue;
+				color: $gray;
 				text-decoration: none;
 				transition: 0.5s;
 
@@ -573,8 +443,8 @@ FOOTER STYLES
 *********************/
 
 p.copyright {
-		display: inline-block;
-	}
+	display: inline-block;
+}
 
 .footer-links {
 	display: inline-block;
