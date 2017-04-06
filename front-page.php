@@ -79,6 +79,11 @@
 					?>
 				</section> <?php // end article section ?>
 				
+				<section id="need-help">
+					<h3>Can’t find what you’re looking for?</h3>
+					<p>We want to ensure we make you life as easy as possible. </br>The best way we can serve you is <a href="#">sending us a message</a> or <a href="#">giving us a call.</a> No hoops.</p>
+					<p>We <i class="fa fa-heart" aria-hidden="true"></i> feedback! Let us know how we can make our site better!</p>
+				</section>
 
 				<footer class="article-footer cf">
 					<?php get_template_part('library/partials/proposalContact'); ?>

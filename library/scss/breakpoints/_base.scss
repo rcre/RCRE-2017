@@ -19,7 +19,6 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
   	box-sizing: border-box;
@@ -307,18 +306,12 @@ POSTS & CONTENT STYLES
 			text-align: center;
 			margin: 200px auto;
 
-			h1 {
-				font-size: 3em;
-			}
-
 			.subtitle {
-				width: 40%;
 				font-weight: 300;
 				color: white;
 				font-size: 1em;
 				margin: 0 auto;
 				margin-bottom: 45px;
-				font-family: $serif;
 			}
 
 			a {
@@ -330,111 +323,122 @@ POSTS & CONTENT STYLES
 	}
 }
 
-		.hentry {
-			background-color: $white;
-			margin-bottom: 1.5em;
+	.hentry {
+		background-color: $white;
+		margin-bottom: 1.5em;
 
-			footer {
-				padding: 1.5em;
-				border-top: 1px solid $lgray;
+		footer {
+			border-top: 1px solid $lgray;
 
-				p {
-					margin: 0;
-				}
+			p {
+				margin: 0;
 			}
-
-		} /* end .hentry */
-
-		.single-title,
-		.page-title,
-		.entry-title {
-			baseline: bottom;
-			margin: 40px 0 0 0;
 		}
+	} /* end .hentry */
 
-		.single-title {}
+	.single-title,
+	.page-title,
+	.entry-title {
+		baseline: bottom;
+		margin: 40px 0 0 0;
+	}
 
-		.page-title {}
+	.single-title {}
 
-		.entry-title {}
+	.page-title {}
 
-		.archive-title {}
+	.entry-title {}
 
 	.archive-title {}
 
+	/* want to style individual post classes? Booya! */
+	.post-id {}         /* post by id (i.e. post-3) */
+	.post {}            /* general post style */
+	.page {}            /* general article on a page style */
+	.attachment {}      /* general style on an attatchment */
+	.sticky {}          /* sticky post style */
+	.hentry {}          /* hentry class */
+	.category-slug {}   /* style by category (i.e. category-videos) */
+	.tag-slug {}        /* style by tag (i.e. tag-news) */
 
-			time {}
+	/* post meta */
+	.byline {
+		color: $meta-gray;
+		font-style: italic;
+		margin: 0;
+
+		time {}
+	}
+
+	/* entry content */
+	.entry-content {
+		padding: 1.5em 1.5em 0;
+
+		p {
+			margin: 0 0 1.5em;
 		}
 
-		/* entry content */
-		.entry-content {
-			padding: 1.5em 1.5em 0;
 
-			p {
-				margin: 0 0 1.5em;
+		ul, ol, table, dl {}
+
+		ul, ol {
+
+			li {}
+
+		}
+
+		ul {
+
+			li {}
+
+		}
+
+		ol {
+
+			li {}
+
+		}
+
+		table {
+			width: 100%;
+			border: 1px solid $gray;
+			margin-bottom: 1.5em;
+
+			caption {
+				margin: 0 0 7px;
+				font-size: 0.75em;
+				color: $meta-gray;
+				text-transform: uppercase;
+				letter-spacing: 1px;
 			}
+		}
 
+		tr {
+			border-bottom: 1px solid $gray;
 
-			ul, ol, table, dl {}
-
-			ul, ol {
-
-				li {}
-
-			}
-
-			ul {
-
-				li {}
-
-			}
-
-			ol {
-
-				li {}
-
-			}
-
-			table {
-				width: 100%;
-				border: 1px solid $gray;
-				margin-bottom: 1.5em;
-
-				caption {
-					margin: 0 0 7px;
-					font-size: 0.75em;
-					color: $meta-gray;
-					text-transform: uppercase;
-					letter-spacing: 1px;
-				}
-			}
-
-			tr {
-				border-bottom: 1px solid $gray;
-
-				&:nth-child(even) {
-					background-color: $lgray;
-				}
-			}
-
-			td {
-				padding: 7px;
-				border-right: 1px solid $gray;
-
-				&:last-child {
-					border-right: 0;
-				}
-			}
-
-			th {
+			&:nth-child(even) {
 				background-color: $lgray;
-				border-bottom: 1px solid $gray;
-				border-right: 1px solid $gray;
-
-				&:last-child {
-					border-right: 0;
-				}
 			}
+		}
+
+		td {
+			padding: 7px;
+			border-right: 1px solid $gray;
+
+			&:last-child {
+				border-right: 0;
+			}
+		}
+
+		th {
+			background-color: $lgray;
+			border-bottom: 1px solid $gray;
+			border-right: 1px solid $gray;
+
+			&:last-child {
+				border-right: 0;
+			}
+		}
 
 			blockquote {
 				margin: 0 0 1.5em 0.75em;
@@ -980,9 +984,9 @@ SECTION STYLES
 // Section layout for mobile
 section {
 	margin: 20px auto;
+	padding: 30px;
 	
 	.topic {
-
 		.slant {
 			display: none;
 		}
@@ -1008,75 +1012,6 @@ section {
 
 }
 
-/****************************************
-Our Clients Bar
-****************************************/
-
-.our-clients {
-	background-color: $lgray;
-
-	img {
-		height: 15px;
-		margin: 5px;
-	}
-}
-
-/*********************
-SERVICE GRID STYLES
-*********************/
-
-.service-grid {
-
-	div {
-		padding: 0;
-
-		.m-end {
-			margin-right: 0px;	
-		}
-	}
-	
-	.service-box {
-		border: 5px solid $lgray;
-		border-radius: 10px;
-		margin-top: 20px;
-		margin-bottom: 10px;
-		padding: 20px 5px;
-		margin-right: 10px;
-		text-align: center;
-		position: relative;
-		
-		// this tricky guy is centering the images using ablsoute positioning!
-		img {
-			position: absolute;
-			top: -30px;
-			left: 0;
-			right: 0;
-			width: 40%; // The size I want it to be
-			background-color: white; // color just for reference
-			margin: auto; // Necessary for centering
-			padding: 10px;
-		}
-
-		h4 {
-			a {
-				display: inline;
-				border-bottom: 1px solid $dgray;
-				font-weight: 700;
-				text-transform: uppercase;
-				color: $dgray;
-			}
-		}
-
-		a {	
-			display: none; // Don't show description on mobile
-			
-		}
-
-		p {
-			display: none;
-		}
-	}
-}
 
 /*********************
 FOOTER STYLES
@@ -1098,4 +1033,5 @@ FOOTER STYLES
 
 .copyright {
 	font-size: 0.75em;
+	font-family: sans-serif;
 }
