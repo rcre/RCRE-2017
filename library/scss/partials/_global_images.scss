@@ -1,13 +1,56 @@
 /* Global Backgrounds */
 
-// These are backgrounds that are dishede up as 
+// These are backgrounds that are dished up as 
 // standards for different industries and 
 // services that we offer
 
-#services {
-	background-image: url('../images/bg/bg-services.png');
-}
+/* --desktop */
 
 #specialties-and-industries {
 	background-image: url('../images/bg/header-home.jpg');
 }
+
+#services {
+	background-image: url('../images/bg/bg-services.png');
+
+	&--brokerage {
+		background-image: url('../images/bg/bg-services.png');
+	}
+
+	&--investment {
+		background-image: url('../images/bg/bg-services.png');
+	}
+
+	&--corporate {
+		background-image: url('../images/bg/bg-services.png');
+	}
+
+	&--management {
+		background-image: url('../images/bg/bg-services.png');
+	}
+}
+
+#specialty {
+
+	&--office {
+		background-image: url('../images/specialties/office/header-office-desktop.jpg');
+	}
+
+	&--retail {
+		background-image: url('../images/specialties/retail/');
+	}
+
+	&--industrial {
+		background-image: url('../images/specialties/industrial/');
+	}
+
+	&--land {
+		background-image: url('../images/specialties/land/');
+	}
+
+	&--multifamily {
+		background-image: url('../images/specialties/multifamily/');
+	}
+}
+
+/* --mobile */
