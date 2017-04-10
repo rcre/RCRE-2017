@@ -267,7 +267,25 @@ them however you see fit.
     margin-right: 16.6666666667%;
   }
 
+  .pull-r-1of4 {
+    margin-left: 25%;
+  }
+
+  .pull-l-1of4 {
+    margin-right: 25%;
+  }
+
+  .right {
+    float: right;
+    padding-right: 0;
+  }
+
+  .left {
+    float: left;
+    padding-left: 0.75em;
+  }
+
+  .center {
+    margin: 0 auto;
+  }
 } // end desktop styles
-
-
-
