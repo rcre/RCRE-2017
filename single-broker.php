@@ -25,8 +25,10 @@
 
 				<!-- PHP Get the Broker's Title and Industry-->
 					<p class="broker-title">
-						<?php echo types_render_field( "broker-title", array( 'raw' => false) ); ?> // <a id="cta-underline-gray" href="<?php get_term_link( $term ); ?>"> <?php echo get_terms('specialty', array( count(1) ) ); ?></a> 
+						<?php echo types_render_field( "broker-title", array( 'raw' => false) ); ?> // <a id="cta-underline-gray" href="<?php get_term_link( $term ); ?>"> <?php echo get_the_term_list( $post->ID, 'specialty', '<p>Spoken languages: </strong>', ', ', '</p>'); ?></a> 
 					</p>
+
+
 
 				</header>
 
