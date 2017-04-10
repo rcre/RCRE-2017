@@ -1,0 +1,41 @@
+/******************************************************************
+Site Name: RESOURCE
+Author: Patrick Hanus
+
+Speciatly Template SASS
+
+******************************************************************/
+
+.panel {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	background-position: center;
+
+	aside {
+		margin-top: 30%;
+		background: transparent;
+	}
+}
+
+#Panel-1 {
+	background-image: url('../images/specialties/office/bg-office-panel-1.jpg');
+}
+
+#Panel-2 {
+	background-image: url('../images/specialties/office/bg-office-panel-2-lines.jpg');
+}
+
+#Panel-3 {
+	background-image: url('../images/specialties/office/bg-office-panel-3.jpg');
+}
+
+// This is the section at the bottom of the page
+.button-service {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-position: center;
+	background-image: url('../images/specialties/office/button-investment-services.jpg');
+	text-align: center;
+}
