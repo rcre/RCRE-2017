@@ -321,16 +321,6 @@ section {
 				margin-left: 0 !important;
 			}
 		}
-
-		.right {
-			float: right;
-			padding-right: 0;
-		}
-
-		.left {
-			float: left;
-			padding-left: 0.75em;
-		}
 	}
 
 	.slant {
@@ -397,14 +387,6 @@ section {
 
 		div {
 			padding: 0;
-
-			.m-end {
-				margin-right: 10px;	
-			}
-
-			.d-end {
-				margin-right: 0px;	
-			}
 		}
 
 		.service-box {
