@@ -2821,7 +2821,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 h1, .h1 {
-  font-size: 2.5em;
+  font-size: 4.5em;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
@@ -2858,6 +2858,9 @@ h5, .h5 {
 p {
   font-family: "Merriweather", Cambria, Times New Roman, Times, serif;
   font-size: 0.75em; }
+
+.header-dark {
+  color: #43505d; }
 
 /******************************************************************
 Site Name:
@@ -3150,7 +3153,19 @@ them however you see fit.
   .pull-r-2of12 {
     margin-left: 16.6666666667%; }
   .pull-l-2of12 {
-    margin-right: 16.6666666667%; } }
+    margin-right: 16.6666666667%; }
+  .pull-r-1of4 {
+    margin-left: 25%; }
+  .pull-l-1of4 {
+    margin-right: 25%; }
+  .right {
+    float: right;
+    padding-right: 0; }
+  .left {
+    float: left;
+    padding-left: 0.75em; }
+  .center {
+    margin: 0 auto; } }
 
 /*********************
 IMPORTING MODULES
@@ -3279,7 +3294,7 @@ and it will create a button dependant on those variables.
     background-color: #4c5863; }
 
 #cta-border-green {
-  color: #d2db3a;
+  color: #fff;
   background-color: none;
   border-color: #d2db3a; }
   #cta-border-green:hover, #cta-border-green:focus {
@@ -3301,6 +3316,27 @@ and it will create a button dependant on those variables.
     transition: 0.5s; }
   #cta-underline-gray:active {
     color: #2b3137; }
+
+.header-link {
+  color: #576571;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #576571;
+  transition: 0.5s; }
+  .header-link:hover {
+    color: #7b8b99;
+    transition: 0.5s; }
+
+.blue-link {
+  font-family: "Merriweather", Cambria, Times New Roman, Times, serif;
+  color: #75caca;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #75caca;
+  transition: 0.5s; }
+  .blue-link:hover {
+    color: #acdfdf;
+    transition: 0.5s; }
 
 /******************************************************************
 Site Name:
@@ -3962,7 +3998,7 @@ POSTS & CONTENT STYLES
   background-size: cover; }
   #content header .callout {
     text-align: center;
-    margin: 200px auto; }
+    margin: 100px auto; }
     #content header .callout .subtitle {
       font-weight: 300;
       color: white;
@@ -3970,17 +4006,13 @@ POSTS & CONTENT STYLES
       margin: 0 auto;
       margin-bottom: 45px; }
     #content header .callout a {
-      margin: 0.50em auto;
-      display: inline;
-      max-width: 250px; }
+      margin: 0.50em 8.333333%; }
 
 .hentry {
   background-color: #fff;
   margin-bottom: 1.5em; }
-  .hentry footer {
-    border-top: 1px solid #e6e6e6; }
-    .hentry footer p {
-      margin: 0; }
+  .hentry footer p {
+    margin: 0; }
 
 /* end .hentry */
 .single-title,
@@ -4312,10 +4344,6 @@ aside {
   text-align: left;
   margin: 0; }
 
-.center {
-  vertical-align: center;
-  margin-top: 10%; }
-
 #content {
   background-color: white; }
   #content header {
@@ -4351,9 +4379,11 @@ section {
       background-color: #576571;
       padding: 10px;
       color: #fff; }
-    section aside a#cta-border-gray {
-      margin: 0;
-      display: inline; }
+    section aside a {
+      margin-top: 10px; }
+    section aside a#cta-border-green {
+      color: #d2db3a;
+      margin-top: 10px; }
 
 /*********************
 FOOTER STYLES
@@ -4519,7 +4549,7 @@ NAVIGATION STYLES
         left: 0;
         right: 0;
         z-index: 8999;
-        background-color: #4c5863;
+        background-color: #414b54;
         text-align: center;
         padding-bottom: 15px;
         /* highlight sub-menu current page */ }
@@ -4596,13 +4626,14 @@ CONTENT
   #content {
     background-color: #576571; }
     #content header .callout {
-      text-align: center;
-      margin: 200px auto; }
-      #content header .callout a {
-        font-size: 0.75em;
-        margin: 0.50em auto;
-        display: block;
-        max-width: 150px; }
+      text-align: center; }
+      #content header .callout .subtitle {
+        margin-right: 15%;
+        margin-left: 15%;
+        font-size: 1.2em;
+        font-weight: 800; }
+      #content header .callout > div {
+        float: none; }
   /*********************
 SIDEBARS & ASIDES
 *********************/
@@ -4639,12 +4670,6 @@ SECITON STYLES
         margin-bottom: 30px; }
       section.topic aside a {
         margin-left: 0 !important; }
-    section.topic .right {
-      float: right;
-      padding-right: 0; }
-    section.topic .left {
-      float: left;
-      padding-left: 0.75em; }
   section .slant {
     height: 720px;
     position: relative;
@@ -4701,26 +4726,19 @@ SECITON STYLES
         /* Safari and Chrome */ }
   section.service-grid div {
     padding: 0; }
-    section.service-grid div .m-end {
-      margin-right: 10px; }
-    section.service-grid div .d-end {
-      margin-right: 0px; }
-  section.service-grid .service-box img {
-    top: -30px;
-    width: 25%; }
-  section.service-grid .service-box a {
-    display: inline;
-    border-bottom: 1px solid #75caca;
-    font-weight: 700;
-    color: #576571;
-    text-decoration: none;
-    transition: 0.5s; }
-    section.service-grid .service-box a:hover {
-      color: #acdfdf;
-      transition: 0.5s; }
-  section.service-grid .service-box p {
-    display: block;
-    padding: 0 25px; }
+  section.service-grid .service-box {
+    margin-top: 60px;
+    min-height: 300px; }
+    section.service-grid .service-box img {
+      top: -60px;
+      width: 25%; }
+    section.service-grid .service-box a {
+      display: inline; }
+    section.service-grid .service-box p {
+      display: block;
+      padding: 0 25px;
+      font-size: 1em;
+      color: #b5bec6; }
   /*********************
 FOOTER STYLES
 *********************/
@@ -4899,6 +4917,71 @@ though, go for it.
   nav {
     display: none; } }
 
+/******************************************************************
+Site Name: RESOURCE
+Author: Patrick Hanus
+
+Speciatly Template SASS
+
+******************************************************************/
+.panel {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center; }
+  .panel aside {
+    margin-top: 30%;
+    background: transparent; }
+
+#Panel-1 {
+  background-image: url("../images/specialties/office/bg-office-panel-1.jpg"); }
+
+#Panel-2 {
+  background-image: url("../images/specialties/office/bg-office-panel-2-lines.jpg"); }
+
+#Panel-3 {
+  background-image: url("../images/specialties/office/bg-office-panel-3.jpg"); }
+
+.button-service {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  background-image: url("../images/specialties/office/button-investment-services.jpg");
+  text-align: center; }
+
+/* Global Backgrounds */
+/* --desktop */
+#specialties-and-industries {
+  background-image: url("../images/bg/header-home.jpg"); }
+
+#services {
+  background-image: url("../images/bg/bg-services.png"); }
+  #services--brokerage {
+    background-image: url("../images/bg/bg-services.png"); }
+  #services--investment {
+    background-image: url("../images/bg/bg-services.png"); }
+  #services--corporate {
+    background-image: url("../images/bg/bg-services.png"); }
+  #services--management {
+    background-image: url("../images/bg/bg-services.png"); }
+
+#specialty--office {
+  background-image: url("../images/specialties/office/header-office-desktop.jpg"); }
+
+#specialty--retail {
+  background-image: url("../images/specialties/retail/"); }
+
+#specialty--industrial {
+  background-image: url("../images/specialties/industrial/"); }
+
+#specialty--land {
+  background-image: url("../images/specialties/land/"); }
+
+#specialty--multifamily {
+  background-image: url("../images/specialties/multifamily/"); }
+
+/* --mobile */
 .uvp p {
   border: 2px solid #75caca;
   padding: 40px;

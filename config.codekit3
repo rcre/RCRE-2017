@@ -7,7 +7,7 @@
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitattributes": {
 		"ft": 8192,
@@ -78,11 +78,12 @@
 	"\/favicon.png": {
 		"ft": 32768,
 		"iS": 996,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/favicon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/footer.php": {
@@ -226,21 +227,23 @@
 	"\/library\/images\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 8439,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/apple-touch-icon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/bg\/bg-services.png": {
 		"ft": 32768,
 		"iS": 1062511,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/bg\/bg-services.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/bg\/header-home.jpg": {
@@ -249,6 +252,7 @@
 		"oA": 0,
 		"oAP": "\/library\/images\/bg\/header-home.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -258,44 +262,15 @@
 		"oA": 0,
 		"oAP": "\/library\/images\/bg\/header-mgmt.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/bg\/pattern-01-01.svg": {
+	"\/library\/images\/bg\/pattern.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/bg\/pattern-01-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/bg\/pattern-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/bg\/pattern-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/bg\/pattern-02-01-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/bg\/pattern-02-01-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/bg\/pattern-02-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/bg\/pattern-02-01.svg",
+		"oAP": "\/library\/images\/bg\/pattern.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -304,71 +279,78 @@
 	"\/library\/images\/client-logos\/Coca-Cola.png": {
 		"ft": 32768,
 		"iS": 1924,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/client-logos\/Coca-Cola.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/client-logos\/eli-lilly.png": {
 		"ft": 32768,
 		"iS": 2222,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/client-logos\/eli-lilly.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/client-logos\/indiana-members.png": {
 		"ft": 32768,
 		"iS": 4292,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/client-logos\/indiana-members.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/client-logos\/omnisource.png": {
 		"ft": 32768,
 		"iS": 2960,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/client-logos\/omnisource.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/client-logos\/PNC.png": {
 		"ft": 32768,
 		"iS": 2482,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/client-logos\/PNC.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/client-logos\/progressive-logo.png": {
 		"ft": 32768,
 		"iS": 1853,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/client-logos\/progressive-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/custom-post-icon.png": {
 		"ft": 32768,
 		"iS": 462,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/custom-post-icon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/icons\/icon-auction-document.svg": {
@@ -974,11 +956,12 @@
 	"\/library\/images\/login-logo.png": {
 		"ft": 32768,
 		"iS": 4805,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/login-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/logos\/logo-rcre-horiz-dark.svg": {
@@ -1014,11 +997,12 @@
 	"\/library\/images\/logos\/logo-rcre-square-dark.png": {
 		"ft": 32768,
 		"iS": 19726,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/logos\/logo-rcre-square-dark.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/nothing.gif": {
@@ -1036,6 +1020,116 @@
 		"oAP": "\/library\/images\/nothumb.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/library\/images\/specialties\/office\/bg-office-panel-1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/bg-office-panel-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/bg-office-panel-2-graph.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/office\/bg-office-panel-2-graph.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/office\/bg-office-panel-2-lines.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/bg-office-panel-2-lines.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/bg-office-panel-3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/bg-office-panel-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/button-brokerage-services.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/button-brokerage-services.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/button-corporate-services.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/button-corporate-services.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/button-investment-services.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/button-investment-services.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/button-property-mgmt.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/button-property-mgmt.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/client-logo-hylant.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/client-logo-hylant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/cs-gti-interior.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/cs-gti-interior.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/header-office-desktop.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/header-office-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/library\/images\/website_icon.svg": {
 		"ft": 2097152,
@@ -1060,11 +1154,12 @@
 	"\/library\/images\/win8-tile-icon.png": {
 		"ft": 32768,
 		"iS": 8048,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/library\/images\/win8-tile-icon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/js\/libs\/modernizr.custom.min.js": {
@@ -1093,6 +1188,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/library\/partials\/content-miniProfile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/content-miniProfile.php",
+		"oF": 0
 		},
 	"\/library\/partials\/proposalContact.php": {
 		"ft": 8192,
@@ -1589,6 +1690,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/library\/scss\/pages\/_specialty.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_specialty.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/library\/scss\/partials\/_functions.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1996,6 +2110,12 @@
 		"oAP": "\/page-custom.php",
 		"oF": 0
 		},
+	"\/page-specialty.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-specialty.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -2089,11 +2209,12 @@
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 450767,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/search.php": {
@@ -3117,6 +3238,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -3941,14 +4066,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -4011,7 +4128,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {

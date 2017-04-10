@@ -2401,7 +2401,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 h1, .h1 {
-  font-size: 2.5em;
+  font-size: 4.5em;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
@@ -2438,6 +2438,9 @@ h5, .h5 {
 p {
   font-family: "Merriweather", Cambria, Times New Roman, Times, serif;
   font-size: 0.75em; }
+
+.header-dark {
+  color: #43505d; }
 
 /******************************************************************
 Site Name:
@@ -2639,7 +2642,7 @@ NAVIGATION STYLES
       left: 0;
       right: 0;
       z-index: 8999;
-      background-color: #4c5863;
+      background-color: #414b54;
       text-align: center;
       padding-bottom: 15px;
       /* highlight sub-menu current page */ }
@@ -2718,13 +2721,14 @@ CONTENT
 #content {
   background-color: #576571; }
   #content header .callout {
-    text-align: center;
-    margin: 200px auto; }
-    #content header .callout a {
-      font-size: 0.75em;
-      margin: 0.50em auto;
-      display: block;
-      max-width: 150px; }
+    text-align: center; }
+    #content header .callout .subtitle {
+      margin-right: 15%;
+      margin-left: 15%;
+      font-size: 1.2em;
+      font-weight: 800; }
+    #content header .callout > div {
+      float: none; }
 
 /*********************
 SIDEBARS & ASIDES
@@ -2765,12 +2769,6 @@ section.topic {
       margin-bottom: 30px; }
     section.topic aside a {
       margin-left: 0 !important; }
-  section.topic .right {
-    float: right;
-    padding-right: 0; }
-  section.topic .left {
-    float: left;
-    padding-left: 0.75em; }
 
 section .slant {
   height: 720px;
@@ -2829,29 +2827,20 @@ section .slant {
 
 section.service-grid div {
   padding: 0; }
-  section.service-grid div .m-end {
-    margin-right: 10px; }
-  section.service-grid div .d-end {
-    margin-right: 0px; }
 
-section.service-grid .service-box img {
-  top: -30px;
-  width: 25%; }
-
-section.service-grid .service-box a {
-  display: inline;
-  border-bottom: 1px solid #75caca;
-  font-weight: 700;
-  color: #576571;
-  text-decoration: none;
-  transition: 0.5s; }
-  section.service-grid .service-box a:hover {
-    color: #acdfdf;
-    transition: 0.5s; }
-
-section.service-grid .service-box p {
-  display: block;
-  padding: 0 25px; }
+section.service-grid .service-box {
+  margin-top: 60px;
+  min-height: 300px; }
+  section.service-grid .service-box img {
+    top: -60px;
+    width: 25%; }
+  section.service-grid .service-box a {
+    display: inline; }
+  section.service-grid .service-box p {
+    display: block;
+    padding: 0 25px;
+    font-size: 1em;
+    color: #b5bec6; }
 
 /*********************
 FOOTER STYLES
