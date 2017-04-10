@@ -5,12 +5,15 @@
 		<?php $image = wp_get_attachment_url(get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail'); ?>
 		
 		<header class="cf" style="background-image: url('<?php echo $image; ?>');">
-			<div class="callout">
-				<h1 class="page-title" itemprop="headline">Get things done.</h1>
-				<p class="subtitle">Resource helps you buy, lease and sell property, manage your assets and focus on what you love.</br>All without the corporate hoops.</p>
-
-				<a href="#" id="cta-border-green">Contact Us</a>
-				<a href="#" id="cta-border">Search Properties</a>
+			<div class="callout cf">
+				<div class="m-all t-1of2 d-1of2 center cf">
+					<h1 class="page-title" itemprop="headline">Get things done.</h1>
+					<p class="subtitle">RESOURCE helps you buy, lease and sell property, manage your assets and focus on what you love.</br>All without the corporate hoops.</p>
+					<div class="header-buttons center cf">
+						<a href="#" id="cta-border-green" class="m-all t-all d-1of3">Contact Us</a>
+						<a href="#" id="cta-solid-white" class="m-all t-all d-1of3">Search Properties</a>
+					</div>
+				</div>
 			</div>
 
 			<div class="our-clients cf">
@@ -34,13 +37,13 @@
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 				
-				<h3>Hello, How Can We Help?</h3>
+				<h2 class="pull-r-1of12 header-dark">Hello, How Can We Help?</h2>
 
 			<!-- SECTION 1: Service Grid -->
 				<?php get_template_part('library/partials/serviceGrid'); ?>
 			
 			<!-- SECTION 2: UVP "Unique Value Proposition" -->
-			<section class="">
+			<section>
 				<div class="pull-l-1of12 pull-r-1of12 cf">
 					<div class="uvp pull-l-1of12 pull-r-1of12">
 						<p>From landlords and tenants to buyers and sellers, we provide consultative commercial real estate solutions focused on building <strong>long-term relationships</strong> with you and <strong>long-term success</strong> for your business.</p>

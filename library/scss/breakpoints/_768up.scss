@@ -252,13 +252,16 @@ CONTENT
 
 		.callout {
 			text-align: center;
-			margin: 200px auto;
 
-			a {
-				font-size: 0.75em;
-				margin: 0.50em auto;
-				display: block;
-				max-width: 150px;
+			.subtitle {
+				margin-right: 15%; 
+				margin-left: 15%;
+				font-size: 1.2em;
+				font-weight: 800;
+			}
+
+			> div {
+				float: none;
 			}
 		}
 	}
