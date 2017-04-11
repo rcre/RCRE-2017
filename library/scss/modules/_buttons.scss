@@ -126,7 +126,7 @@ and it will create a button dependant on those variables.
 
 #cta-border-green {
   @extend %btn;
-  color: $white;
+  color: $green;
   background-color: none;
   border-color: $green;
 
@@ -185,5 +185,58 @@ and it will create a button dependant on those variables.
   &:hover {
     color: lighten( $blue, 15% );
     transition: 0.5s;
+  }
+}
+
+#specialty-button {
+  > a {
+    text-decoration: none;
+    padding: 10px;
+    color: $gray;
+    background-color: none;
+    border: none;
+    border: 5px solid $lgray;
+    font-weight: 600;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    
+    &:hover,
+    &:focus {
+      color: lighten($gray, 20%);
+      transition: 0.5s;
+      background-color: $lgray;
+    } // end hover
+
+    &:active {
+      color: darken($gray, 20%);
+    } // end active
+  }
+}
+
+.green {
+  color: $green;
+}
+
+.broker-title {
+  > a {
+    text-decoration: none;
+    padding-bottom: 3px;
+    color: $gray;
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid $gray;
+    font-weight: 600;
+
+    &:hover,
+    &:focus {
+      color: lighten($gray, 20%);
+      transition: 0.5s;
+    } // end hover
+
+    &:active {
+      color: darken($gray, 20%);
+    } // end active
+
   }
 }
