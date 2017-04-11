@@ -10,87 +10,60 @@
 
 	<div id="inner-content" class="wrap cf">
 
-		<main id="main" class="m-all t-5of7 d-5of8 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+		<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article">
+			<article id="post-<?php the_ID(); ?>" <?php post_class('cf pull-r-1of12 pull-l-1of12'); ?> role="article">
 
 			<!-- HEADER: Broker Name, Title and Industry --> 
-				<header class="profile-header">
-					
-				<!-- Broker's Name is the Title -->
-					<h1><?php the_title(); ?>
-					</h1>
+				<header class="profile-header d-all cf">
+				
+					<!-- Broker's Name is the Title -->
+						<h1><?php the_title(); ?>
+						</h1>
 
-				<!-- PHP Get the Broker's Title and Industry-->
-					<p class="broker-title">
-						<?php echo types_render_field( "broker-title", array( 'raw' => false) ); ?> // <a id="cta-underline-gray" href="<?php get_term_link( $term ); ?>"> <?php echo get_the_term_list( $post->ID, 'specialty', '<p>Spoken languages: </strong>', ', ', '</p>'); ?></a> 
-					</p>
-
-
-
+					<!-- PHP Get the Broker's Title and Industry-->
+						<p class="broker-title">
+							<?php echo types_render_field( "broker-title", array( 'raw' => false) ); ?> // <a id="cta-underline-gray" href="<?php get_term_link( $term ); ?>"> <?php echo get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?></a> 
+						</p>
+				
 				</header>
 
-			
 			<!-- ASIDE: Mainly Broker Contact Information -->
-				<aside class="m-all t-1of3 d-2of7 cf">
+				<aside class="m-all t-1of3 d-1of6 cf">
 				<!-- PHP: Get the Broker's Picture URL and Industry Name-->
-					<img class="m-1of2 t-all d-all" src="<?php echo types_render_field( "broker-profile-picture", array( 'raw' => true)); ?>" alt="<?php the_title(); ?>, get(broker_industry)">
 				
-					<div class="m-1of2 t-all d-all center">
-				<!-- BUTTON: Contact  -->
-					<!-- PHP Link to Broker's Email -->
-					<a id="cta-border-green" href="<?php echo(types_render_field( "broker_email", array( 'raw' => true) )); ?>" class="contact">Contact Broker</a>
+					<div class="m-1of2 t-all d-all">
 				
-				<!-- BUTTON: View Broker's Listings Button -->
-					<!-- PHP: Link to Broker's Specific Listings -->
-				<!-- 	<a id="cta-border-gray" href="get(broker_listings)">View Listings</a>
-					</div> -->
+						<!-- Profile Picture -->
+						<img src="<?php echo types_render_field( "broker-profile-picture", array( 'raw' => true)); ?>" alt=" <?php the_title(); ?><?php get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?> ">
 
-				<!-- PHP: Broker Contact information -->
-					<div class="m-1of2 service-links">
-						<div class="email"><a href="mailto:get(broker_email)"></a></div>
-						<div class="office-phone"><?php echo(types_render_field( "office_phone", array( 'raw' => true) )); ?></div>
-						<div class="mobile-phone"><?php echo(types_render_field( "mobile_phone", array( 'raw' => true) )); ?></div>
-						<div class="license-number"><?php echo(types_render_field( "license_number", array( 'raw' => true) )); ?></div>
-						<div class="v-card"><i class="download"></i><a href="<?php echo(types_render_field( "broker_vcard", array( 'raw' => true) )); ?>">Download vCard</a></div>
+						<!-- BUTTON: Contact -> PHP Link to Broker's Email -->
+						<a id="cta-border-green" class="green" href="<?php echo(types_render_field( "broker_email", array( 'raw' => true) )); ?>">Contact Broker</a>
+					
+					</div> 
+				
+					<!-- PHP: Broker Contact information -->
+					<div class="m-1of2 t-all d-all">
+
+						<!-- Contact information -->
+						<div class="email"><a href="<?php echo types_render_field( "broker-email-address", array( 'raw' => true) ); ?>"><?php echo types_render_field( "broker-email-address", array( 'raw' => false) ); ?></a></div>
+						<div class="broker-office-phone"><strong>Phone:</strong> <?php echo types_render_field( "broker-office-phone", array( 'raw' => false) ); ?></div>
+						<div class="broker-mobile-phone"><strong>Mobile:</strong> <?php echo types_render_field( "broker-cell-phone", array( 'raw' => false) ); ?></div>
+						<div class="license-number"><strong>License :</strong> <?php echo types_render_field( "license-number", array( 'raw' => true) ); ?></div>
+						
+						<!-- Link to vcard -->
+						<div class="v-card"><a href="<?php echo(types_render_field( "broker_vcard", array( 'raw' => true) )); ?>">Download vCard</a> <i class="fa fa-download"></i></div>
+
+						<!-- Services -->
+						<?php echo get_the_term_list( $post->ID, 'service', '<p id="specialty-button"></strong>', '</br> ', '</p>'); ?></a>
 					</div>
 				
-				<!-- BUTTON: Services the Broker Offers -->
-					<div class="m-1of2 service-links">
-					<!-- PHP: "WHILE" has service, show button for each service -->
-						<!-- BUTTON: Service -->
-							<!-- PHP Link to Broker's Specific Listings -->
-							<?php 
-								$terms = get_terms( $post->ID, 'service' );
-						 
-								echo '<ul>';
-						 
-								foreach ( $terms as $term ) {
-						 
-						    	// The $term is an object, so we don't need to specify the $taxonomy.
-						    	$term_link = get_term_link( $term );
-						    
-						    	// If there was an error, continue to the next term.
-						    	if ( is_wp_error( $term_link ) ) {
-						        	continue;
-						    	}
-						 
-						    // We successfully got a link. Print it out.
-						    echo '<li><a href="' . esc_url( $term_link ) . '">' . $term->name . '</a></li>';
-						}
-						 
-						echo '</ul>';
-
-						?>
-					<!-- PHP End "WHILE" -->
-					</div>
 				</aside>
 			
 			<!-- SECTION: Broker's Bio, Past Work, and Related Case Studies -->
-				<section class="m-all t-2of3 d-5of7 entry-content cf">
-
+				<section class="entry-content pull-r-1of12 t-2of3 d-2of3 cf">
 				<!-- The Content will just be the biography -->
 					<?php the_content();
 
