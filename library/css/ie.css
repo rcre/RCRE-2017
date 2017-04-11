@@ -2718,17 +2718,15 @@ Our Clients Bar
 /*********************
 CONTENT
 *********************/
-#content {
-  background-color: #576571; }
-  #content header .callout {
-    text-align: center; }
-    #content header .callout .subtitle {
-      margin-right: 15%;
-      margin-left: 15%;
-      font-size: 1.2em;
-      font-weight: 800; }
-    #content header .callout > div {
-      float: none; }
+#content header .callout {
+  text-align: center; }
+  #content header .callout .subtitle {
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 1.2em;
+    font-weight: 800; }
+  #content header .callout > div {
+    float: none; }
 
 /*********************
 SIDEBARS & ASIDES

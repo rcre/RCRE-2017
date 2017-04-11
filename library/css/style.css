@@ -3294,7 +3294,7 @@ and it will create a button dependant on those variables.
     background-color: #4c5863; }
 
 #cta-border-green {
-  color: #fff;
+  color: #d2db3a;
   background-color: none;
   border-color: #d2db3a; }
   #cta-border-green:hover, #cta-border-green:focus {
@@ -3337,6 +3337,41 @@ and it will create a button dependant on those variables.
   .blue-link:hover {
     color: #acdfdf;
     transition: 0.5s; }
+
+#specialty-button > a {
+  text-decoration: none;
+  padding: 10px;
+  color: #576571;
+  background-color: none;
+  border: none;
+  border: 5px solid #e6e6e6;
+  font-weight: 600;
+  border-radius: 15px;
+  display: block;
+  text-align: center; }
+  #specialty-button > a:hover, #specialty-button > a:focus {
+    color: #8998a5;
+    transition: 0.5s;
+    background-color: #e6e6e6; }
+  #specialty-button > a:active {
+    color: #2b3137; }
+
+.green {
+  color: #d2db3a; }
+
+.broker-title > a {
+  text-decoration: none;
+  padding-bottom: 3px;
+  color: #576571;
+  background-color: none;
+  border: none;
+  border-bottom: 1px solid #576571;
+  font-weight: 600; }
+  .broker-title > a:hover, .broker-title > a:focus {
+    color: #8998a5;
+    transition: 0.5s; }
+  .broker-title > a:active {
+    color: #2b3137; }
 
 /******************************************************************
 Site Name:
@@ -3816,7 +3851,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  margin: 0; }
+  margin: 0;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 .div {
   vertical-align: baseline; }
@@ -3875,7 +3911,7 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #e6e6e6;
+  color: #576571;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
@@ -3990,23 +4026,33 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-#content header {
-  border-bottom: 1px solid #43505d;
-  text-align: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  #content header .callout {
+#content {
+  padding-left: 25px;
+  padding-right: 25px; }
+  #content #main {
+    margin-top: 10px; }
+  #content header {
+    border-bottom: 1px solid #43505d;
     text-align: center;
-    margin: 100px auto; }
-    #content header .callout .subtitle {
-      font-weight: 300;
-      color: white;
-      font-size: 1em;
-      margin: 0 auto;
-      margin-bottom: 45px; }
-    #content header .callout a {
-      margin: 0.50em 8.333333%; }
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    #content header .callout {
+      text-align: center;
+      margin: 60px auto; }
+      #content header .callout .header-buttons {
+        padding: 0 20%; }
+      #content header .callout .page-title {
+        line-height: 1em; }
+      #content header .callout .subtitle {
+        font-weight: 300;
+        color: white;
+        font-size: 1em;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        padding: 0 10%; }
+      #content header .callout a {
+        margin: 0.50em 0; }
 
 .hentry {
   background-color: #fff;
@@ -4322,41 +4368,6 @@ SIDEBARS & ASIDES
   margin-bottom: 1.5em; }
 
 /*********************
-CONTENT STYLES
-*********************/
-#main {
-  float: none;
-  margin: 0 auto; }
-  #main h1 {
-    color: #576571;
-    font-size: 1.5em;
-    text-align: left;
-    text-transform: capitalize;
-    margin: 0; }
-
-aside {
-  padding: 1.5em 1.5em 0; }
-  aside img {
-    margin: 0 auto;
-    float: none; }
-
-.broker-title {
-  text-align: left;
-  margin: 0; }
-
-#content {
-  background-color: white; }
-  #content header {
-    border: none; }
-
-.service-links {
-  text-align: center;
-  margin-top: 10px; }
-
-.article-footer {
-  background-color: #43505d; }
-
-/*********************
 FORM STYLES
 *********************/
 form#contact-home {
@@ -4623,17 +4634,15 @@ Our Clients Bar
   /*********************
 CONTENT
 *********************/
-  #content {
-    background-color: #576571; }
-    #content header .callout {
-      text-align: center; }
-      #content header .callout .subtitle {
-        margin-right: 15%;
-        margin-left: 15%;
-        font-size: 1.2em;
-        font-weight: 800; }
-      #content header .callout > div {
-        float: none; }
+  #content header .callout {
+    text-align: center; }
+    #content header .callout .subtitle {
+      margin-right: 15%;
+      margin-left: 15%;
+      font-size: 1.2em;
+      font-weight: 800; }
+    #content header .callout > div {
+      float: none; }
   /*********************
 SIDEBARS & ASIDES
 *********************/
@@ -4916,6 +4925,61 @@ though, go for it.
   .respond-form,
   nav {
     display: none; } }
+
+/******************************************************************
+Site Name: RESOURCE
+Author: Patrick Hanus
+
+Broker Template SASS
+
+******************************************************************/
+#main {
+  float: none;
+  margin: 0 auto;
+  margin-top: 60px; }
+  #main h1 {
+    color: #43505d;
+    font-size: 2em;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 0; }
+  #main h3 {
+    text-align: left; }
+
+.profile-header {
+  margin-top: 80px;
+  margin-bottom: 40px; }
+
+.v-card {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center; }
+
+.entry-content {
+  padding: 0;
+  margin-top: 0; }
+
+aside {
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 20px; }
+  asidediv {
+    margin: 10px auto; }
+  aside img {
+    margin: 0 auto;
+    float: none; }
+
+.broker-title {
+  text-align: left; }
+
+#content {
+  background-color: white;
+  padding: 0; }
+  #content header {
+    border: none; }
+
+.article-footer {
+  background-color: #43505d; }
 
 /******************************************************************
 Site Name: RESOURCE
