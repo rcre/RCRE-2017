@@ -295,6 +295,12 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
+	padding-left: 25px;
+	padding-right: 25px;
+
+	#main {
+		margin-top: 10px;
+	}
 
 	header {
 		border-bottom: 1px solid $dgray;
@@ -305,7 +311,15 @@ POSTS & CONTENT STYLES
 
 		.callout {
 			text-align: center;
-			margin: 100px auto;
+			margin: 60px auto;
+
+			.header-buttons {
+				padding: 0 20%;
+			}
+
+			.page-title {
+				line-height: 1em;
+			}
 
 			.subtitle {
 				font-weight: 300;
@@ -313,10 +327,11 @@ POSTS & CONTENT STYLES
 				font-size: 1em;
 				margin: 0 auto;
 				margin-bottom: 45px;
+				padding: 0 10%;
 			}
 
 			a {
-				margin: 0.50em 8.333333%;
+				margin: 0.50em 0;
 			}
 		}
 	}
