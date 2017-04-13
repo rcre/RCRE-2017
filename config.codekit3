@@ -1189,12 +1189,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/library\/partials\/content-miniProfile.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/library\/partials\/content-miniProfile.php",
-		"oF": 0
-		},
 	"\/library\/partials\/proposalContact.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -1420,6 +1414,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/library\/scss\/css\/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/breakpoints\/_comments.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_comments.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1686,6 +1693,45 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/library\/scss\/css\/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/modules\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/modules\/_ourClientsBar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_ourClientsBar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/modules\/_serviceGrid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_serviceGrid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2169,6 +2215,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/post-formats\/format-link.php",
+		"oF": 0
+		},
+	"\/post-formats\/format-miniProfile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/post-formats\/format-miniProfile.php",
 		"oF": 0
 		},
 	"\/post-formats\/format-quote.php": {

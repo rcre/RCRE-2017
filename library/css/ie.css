@@ -2401,7 +2401,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 h1, .h1 {
-  font-size: 4.5em;
+  font-size: 3.5em;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
@@ -2437,10 +2437,16 @@ h5, .h5 {
 
 p {
   font-family: "Merriweather", Cambria, Times New Roman, Times, serif;
-  font-size: 0.75em; }
+  font-size: 0.90em; }
 
 .header-dark {
   color: #43505d; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
 
 /******************************************************************
 Site Name:
@@ -2578,22 +2584,18 @@ Stylesheet: Tablet & Small Desktop Stylesheet
 
 ******************************************************************/
 /*********************
-GENERAL STYLES
-*********************/
-/*********************
-LAYOUT & GRID STYLES
-*********************/
-/*********************
 HEADER STYLES
 *********************/
 #mobile-quick-nav div#menu-burger {
   display: none; }
 
-#mobile-quick-nav div {
-  padding: 0.70em 0.5em; }
-
 #mobile-quick-nav div:first-child {
   display: none; }
+
+.callout .header-buttons {
+  margin: 70px; }
+  .callout .header-buttons a {
+    margin: 5%; }
 
 /*********************
 NAVIGATION STYLES
@@ -2703,48 +2705,11 @@ NAVIGATION STYLES
     border-bottom: 4px solid #fff; }
 
 /* end .nav */
-/****************************************
-Our Clients Bar
-****************************************/
-.our-clients {
-  background-color: #e6e6e6; }
-  .our-clients img {
-    height: 25px;
-    margin: 20px auto;
-    margin-right: 60px; }
-    .our-clients img:last-child {
-      margin-right: 0px; }
-
-/*********************
-CONTENT
-*********************/
-#content header .callout {
-  text-align: center; }
-  #content header .callout .subtitle {
-    margin-right: 15%;
-    margin-left: 15%;
-    font-size: 1.2em;
-    font-weight: 800; }
-  #content header .callout > div {
-    float: none; }
-
-/*********************
-SIDEBARS & ASIDES
-*********************/
-.sidebar {
-  margin-top: 2.2em; }
-
-/*********************
-FORM STYLES
-*********************/
-form#contact-home {
-  padding-right: 40px; }
-
 /*********************
 SECITON STYLES
 *********************/
 section .uvp {
-  background-image: url("../images/bg/pattern-01-01.svg");
+  background-image: url("../images/bg/pattern.svg");
   background-size: 10%; }
 
 section.topic {
@@ -2823,22 +2788,8 @@ section .slant {
       -webkit-transform: skewX(-20deg);
       /* Safari and Chrome */ }
 
-section.service-grid div {
-  padding: 0; }
-
-section.service-grid .service-box {
-  margin-top: 60px;
-  min-height: 300px; }
-  section.service-grid .service-box img {
-    top: -60px;
-    width: 25%; }
-  section.service-grid .service-box a {
-    display: inline; }
-  section.service-grid .service-box p {
-    display: block;
-    padding: 0 25px;
-    font-size: 1em;
-    color: #b5bec6; }
+.proposal-contact {
+  margin: 40px auto; }
 
 /*********************
 FOOTER STYLES
@@ -2857,12 +2808,7 @@ p.copyright {
     padding: 0; }
     .footer-links ul li {
       margin: 0;
-      padding: 0;
-      /*
-			be careful with the depth of your menus.
-			it's very rare to have multi-depth menus in
-			the footer.
-			*/ }
+      padding: 0; }
       .footer-links ul li a {
         margin: 0;
         margin-right: 10px;

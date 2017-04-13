@@ -2163,7 +2163,7 @@ probably best not to use it. I mean, were you going to anyway? */
       text-decoration: none;
       font-family: "Montserrat", Helvetica, Arial, sans-serif; }
   body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1 {
-    font-size: 4.5em;
+    font-size: 3.5em;
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
@@ -2194,9 +2194,13 @@ probably best not to use it. I mean, were you going to anyway? */
     font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
   body#tinymce.wp-editor p {
     font-family: "Merriweather", Cambria, Times New Roman, Times, serif;
-    font-size: 0.75em; }
+    font-size: 0.90em; }
   body#tinymce.wp-editor .header-dark {
     color: #43505d; }
+  body#tinymce.wp-editor .text-left {
+    text-align: left; }
+  body#tinymce.wp-editor .text-center {
+    text-align: center; }
   body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
     color: #75caca;
     /* on hover */
