@@ -1,0 +1,114 @@
+/******************************************************************
+module/navigation
+******************************************************************/
+
+#main-menu {
+	display: none;
+}
+
+#menu-mobile-menu {
+	position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 10;
+    left: 0;
+    background: $dgray;
+    z-index: 999;
+    -webkit-transform: translate3d(-320px, 0, 0);
+    transform: translate3d(-320px, 0, 0);
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	
+	&.active {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	    -webkit-transition: -webkit-transform 0.8s;
+	    transition: transform 0.8s;
+	    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	}
+	
+	li {
+		border-bottom: 1px solid darken($dgray, 9%);;
+
+		a {
+			display: block;
+			padding: 1.2em;
+		}
+	}
+
+	li:last-child  {
+		border-top: 1px solid lighten($dgray, 50%);;
+		position: absolute;
+		bottom: 110px;
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+.nav {
+	margin-top: 63px;
+	background-color: darken($gray, 5%);;
+	
+	ul {
+		position: relative;
+	}
+
+	li {
+		
+		a {
+			color: $white;	
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 600;
+
+			&:hover, &:focus {
+
+			}
+		}
+
+		&:first-child {
+
+		}
+		
+		// Make "Search Properties" Green
+		&:last-child {
+			a {
+				color: $green;
+			}
+		}
+
+		ul.sub-menu,
+		ul.children {
+			
+			// Hide Children Options by Default on Mobile
+			li {
+				display: none;
+
+				a {
+					text-decoration: none;
+					padding-left: 30px;
+
+					&:hover,
+					&:focus {}
+
+					&:link {}
+
+				}
+
+				&.active {
+					display: block;
+				}
+
+				&:first-child {}
+				
+				&:last-child {
+				}
+
+			}
+		}
+	} /* end .menu li */
+} /* end .nav */

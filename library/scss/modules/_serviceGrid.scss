@@ -1,0 +1,28 @@
+// Begin Styles for a Service Grid
+	.service-grid { 
+
+		div {
+			padding: 0;
+		}
+
+		.service-box {
+			margin-top: 60px;
+			min-height: 300px;
+
+			img { 
+				top: -60px;
+				width: 25%;
+			}
+
+			a {
+				display: inline;
+			}
+
+			p {
+				display: block;
+				padding: 0 25px;
+				font-size: 1em;
+				color: lighten($gray, 35%);
+			}
+		}
+	} // End Service Grid Styles
