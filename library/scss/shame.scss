@@ -18,7 +18,7 @@
 	}
 
 	.selling-point {
-		text-align: center;
+		// text-align: center;
 		padding: 20px 40px;
 
 		img {
@@ -28,15 +28,11 @@
 	}
 
 	#need-help {
+		margin: 0px;
 		background-color: $dblue;
 		color: white;
 		text-align: center;
-		padding: 20px;
-		margin: 0;
-
-		p {
-			margin: 20px 100px;
-		}
+		padding: 20px 0;
 
 		.fa-heart {
 			color: $pink;
@@ -48,10 +44,6 @@ SERVICE GRID STYLES
 *********************/
 
 .service-grid {
-
-	div {
-		padding: 0;
-	}
 	
 	.service-box {
 		border: 5px solid $lgray;
@@ -62,36 +54,7 @@ SERVICE GRID STYLES
 		margin-right: 10px;
 		text-align: center;
 		position: relative;
-		
-		// this tricky guy is centering the images using ablsoute positioning!
-		img {
-			position: absolute;
-			top: -40px;
-			left: 0;
-			right: 0;
-			width: 40%; // The size I want it to be
-			background-color: white; // color just for reference
-			margin: auto; // Necessary for centering
-			padding: 10px;
-		}
-
-		a {	
-			display: none; // Don't show description on mobile
-			
-		}
-
-		p {
-			display: none;
-		}
 	}
-}
-
-/****************************************
-Our Clients Bar
-****************************************/
-
-.clients-bar {
-	background-color: $lgray;
 }
 
 // ------------- I need to unify font styles -----

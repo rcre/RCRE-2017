@@ -3,7 +3,7 @@
 ?>
 
 <section class="service-grid cf">
-	<div class="pull-l-1of12 pull-r-1of12">
+	<div class="pull-l-1of12 pull-r-1of12 m-padding">
 		<div class="m-1of2 t-1of3 d-1of3">
 			<div class="service-box">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-sale.svg" alt="">

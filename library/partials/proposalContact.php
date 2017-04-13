@@ -3,7 +3,7 @@
 Proposal Contact Form */
 ?>
 
-<section class="proposal-contact cf">
+<section class="m-padding proposal-contact cf">
 	<!-- Contact Form -->
 	<div class="pull-r-1of12 pull-l-1of12">
 		<form id="contact-home" class="t-1of2 d-1of2 cf" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
@@ -45,7 +45,7 @@ Proposal Contact Form */
 		
 		<!-- Search Properties -->
 		
-		<form id="footer-property-search" class="t-1of2 d-1of2 cf" action="https://" method="POST">
+		<form id="footer-property-search" class="t-1of2 pull-r-1of12 d-5of12 cf" action="https://" method="POST">
 			<h2>Find a Property</h2>
 			<label for="search">Address or Area of Interest</label>
 			<input name="search" type="text" tabindex="7" placeholder="search"/>
@@ -53,6 +53,9 @@ Proposal Contact Form */
 		</form>
 
 		<!-- Recent Case Studies -->
-		<h2>Recent Case Studies</h2>
+		<div class="t-1of2 pull-r-1of12 d-5of12 cf">
+			<h2>Recent Case Studies</h2>
+		</div>
+		
 	</div>
 </section>

@@ -8,27 +8,8 @@ Stylesheet: Tablet & Small Desktop Stylesheet
 
 
 /*********************
-GENERAL STYLES
-*********************/
-
-body {
-}
-
-/*********************
-LAYOUT & GRID STYLES
-*********************/
-
-.wrap {
-	// width: 760px;
-}
-
-/*********************
 HEADER STYLES
 *********************/
-
-.header {}
-
-#logo {}
 
 // Search, Call or Menu
 #mobile-quick-nav {
@@ -36,10 +17,6 @@ HEADER STYLES
 	// Hide the menu burger
 	div#menu-burger {
 		display: none;
-	}
-	
-	div {
-		padding: 0.70em 0.5em;
 	}
 
 	// Hide the phone button
@@ -50,6 +27,16 @@ HEADER STYLES
 	}
 }
 
+.callout {
+
+		.header-buttons {
+			margin: 70px;
+
+			a {
+				margin: 5%;
+			}
+		}
+	}
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -222,73 +209,14 @@ NAVIGATION STYLES
 
 } /* end .nav */
 
-/****************************************
-Our Clients Bar
-****************************************/
-
-.our-clients {
-	background-color: $lgray;
-
-	img {
-		height: 25px;
-		margin: 20px auto;
-		margin-right: 60px;
-	
-		// Get rid of margin on last client logo
-		&:last-child {
-		margin-right: 0px;
-		}
-	}
-}
-
-/*********************
-CONTENT
-*********************/
-
-#content {
-
-	header {
-
-		.callout {
-			text-align: center;
-
-			.subtitle {
-				margin-right: 15%; 
-				margin-left: 15%;
-				font-size: 1.2em;
-				font-weight: 800;
-			}
-
-			> div {
-				float: none;
-			}
-		}
-	}
-}
-
-/*********************
-SIDEBARS & ASIDES
-*********************/
-
-.sidebar {
-	margin-top: 2.2em;
-}
-
-/*********************
-FORM STYLES
-*********************/
-
-form#contact-home {
-	padding-right: 40px;
-}
-
 /*********************
 SECITON STYLES
 *********************/
 
 section {
+	
 	.uvp {
-		background-image: url('../images/bg/pattern-01-01.svg');
+		background-image: url('../images/bg/pattern.svg');
 		background-size: 10%;
 	}
 
@@ -381,41 +309,11 @@ section {
 
 	// End of Topic Section
 
-	// Begin Styles for a Service Grid
-	&.service-grid { 
-
-		div {
-			padding: 0;
-		}
-
-		.service-box {
-			margin-top: 60px;
-			min-height: 300px;
-
-			img { 
-				top: -60px;
-				width: 25%;
-			}
-
-			a {
-				display: inline;
-			}
-
-			p {
-				display: block;
-				padding: 0 25px;
-				font-size: 1em;
-				color: lighten($gray, 35%);
-			}
-		}
-	} // End Service Grid Styles
-
-
 } // End Section Styles
 
-
-
-
+.proposal-contact {
+		margin: 40px auto;
+	}
 
 /*********************
 FOOTER STYLES
@@ -454,12 +352,6 @@ p.copyright {
 					transition: 0.3s;
 				}
 			}
-			/*
-			be careful with the depth of your menus.
-			it's very rare to have multi-depth menus in
-			the footer.
-			*/
-			ul {}
 		}
 	}
 } /* end .footer-links */

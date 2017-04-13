@@ -1,19 +1,6 @@
 <?php get_header(); ?>
 			
 	<div id="content">
-		<?php if (has_post_thumbnail($post->ID)) { ?>
-		<?php $image = wp_get_attachment_url(get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail'); ?>
-		
-		<header class="article-header cf" style="background-image: url('<?php echo $image; ?>');">
-			<div class="callout">
-				<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
-
-				<a href="#" id="cta-white" class="btn">Search</a>
-				<a href="#" id="cta-border" class="btn">Find People</a>
-			</div>
-		</header>
-
-		<?php } else { ?> <?php	} ?>
 
 	<div id="inner-content" class="wrap cf">
 
@@ -36,14 +23,14 @@
 				
 				<footer class="article-footer cf">
 
+				<?php get_template_part('library/partials/proposalContact'); ?>
+
 				</footer>
 
 			</article>
 
 			<?php endwhile; endif; ?>
-		
-		<?php get_template_part('library/partials/proposalContact'); ?>
-
+	
 		</main>
 
 	</div>
