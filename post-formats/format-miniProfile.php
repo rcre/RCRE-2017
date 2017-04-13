@@ -1,8 +1,4 @@
-<?php
-/**
- * The template part for displaying a Mini-Profile
- */
-?>
+
 
 <div id="<?php echo types_render_field( "broker-name", array( 'raw' => true)); ?> ?>" class="employee d-1of6 t-1of4 m-1of2">
 	
