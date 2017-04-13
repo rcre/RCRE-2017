@@ -247,4 +247,6 @@ function item_description( $item_output, $item, $depth, $args ) {
 
 add_filter( 'walker_nav_menu_start_el', 'item_description', 10, 4 );
 
+add_theme_support( 'post-formats', 'miniProfile' );
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>
