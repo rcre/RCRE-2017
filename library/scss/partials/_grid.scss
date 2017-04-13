@@ -37,14 +37,13 @@ over your project's layout.
   padding-right: 0 !important;
 }
 
-
-/*
-Mobile Grid Styles
-These are the widths for the mobile grid.
-There are four types, but you can add or customize
-them however you see fit.
-*/
 @media (max-width: 767px) {
+  
+  // Global Mobile Padding
+  .m-padding {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 
   .m-all {
     @include grid-col;
@@ -132,6 +131,14 @@ them however you see fit.
   .t-4of5 {
     @include grid-col;
     width: 80%;
+  }
+
+   .pull-r-1of12 {
+    margin-left: 8.33%;
+  }
+
+  .pull-l-1of12 {
+    margin-right: 8.33%;
   }
 
 } // end tablet
@@ -248,6 +255,11 @@ them however you see fit.
   .d-1of12 {
     @include grid-col;
     width: 8.33%;
+  }
+
+  .d-5of12 {
+    @include grid-col;
+    width: 41.6666666666667%;
   }
 
   // Margin Settings
