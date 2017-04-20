@@ -3041,7 +3041,13 @@ over your project's layout.
   .pull-r-1of12 {
     margin-left: 8.33%; }
   .pull-l-1of12 {
-    margin-right: 8.33%; } }
+    margin-right: 8.33%; }
+  .right {
+    float: right;
+    padding-right: 0; }
+  .left {
+    float: left;
+    padding-left: 0.75em; } }
 
 /* Landscape to small desktop */
 @media (min-width: 1030px) {
@@ -3150,6 +3156,10 @@ over your project's layout.
     margin-left: 25%; }
   .pull-l-1of4 {
     margin-right: 25%; }
+  .pull-r-1of7 {
+    float: left;
+    padding-right: 0.75em;
+    margin-left: 14.2857142857%; }
   .right {
     float: right;
     padding-right: 0; }
@@ -3305,14 +3315,18 @@ and it will create a button dependant on those variables.
     color: #2b3137; }
 
 .header-link {
-  color: #576571;
-  text-decoration: none;
-  padding-bottom: 3px;
-  border-bottom: 1px solid #576571;
-  transition: 0.5s; }
-  .header-link:hover {
-    color: #7b8b99;
-    transition: 0.5s; }
+  display: inline-block; }
+  .header-link > a {
+    color: #576571;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #576571;
+    transition: 0.5s;
+    line-height: 2.5em; }
+    .header-link > a:hover {
+      color: #75caca;
+      transition: 0.5s;
+      border-bottom: 1px solid #75caca; }
 
 .blue-link {
   font-family: "Merriweather", Cambria, Times New Roman, Times, serif;
@@ -3359,6 +3373,26 @@ and it will create a button dependant on those variables.
     transition: 0.5s; }
   .broker-title > a:active {
     color: #2b3137; }
+
+.tag-post-type {
+  color: white;
+  background-color: #d2db3a;
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: 0.8s; }
+
+.tag-post-type {
+  color: white;
+  background-color: #d2db3a;
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: 0.8s; }
 
 /******************************************************************
 Site Name:
@@ -3850,9 +3884,15 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative; }
+
+#page-header {
   padding-top: 200px;
   padding-bottom: 150px; }
+
+.header-home {
+  background-image: url("../images/bg/header-home.jpg");
+  background-repeat: no-repeat; }
 
 #inner-header {
   top: 0;
@@ -4111,12 +4151,13 @@ MODULE IMPORTS
 module/ourClientsBar
 ******************************************************************/
 .our-clients {
-  background-color: #e6e6e6; }
+  background-color: #e6e6e6;
+  text-align: center; }
   .our-clients h2 {
     margin: 0;
     background-color: #d9d9d9; }
   .our-clients img {
-    padding: 1%;
+    padding: 2%;
     vertical-align: center; }
 
 .service-grid div {
@@ -4135,6 +4176,93 @@ module/ourClientsBar
     padding: 0 25px;
     font-size: 1em;
     color: #b5bec6; }
+
+/*********************
+PAGE IMPORTS
+**********************/
+/******************************************************************
+Site Name: RESOURCE
+Author: Patrick Hanus
+
+Broker Template SASS
+
+******************************************************************/
+.cs-h1 {
+  font-size: 5em;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 0;
+  text-shadow: 0.5px 0.5px 30px #43505d; }
+
+.cs-header {
+  margin-bottom: 50px;
+  background-color: #e6e6e6;
+  text-align: left;
+  background-size: cover; }
+  .cs-header::after {
+    content: '';
+    background-color: #43505d;
+    opacity: 30%; }
+
+aside img {
+  width: 100%;
+  margin: 25px 0;
+  margin-bottom: 0px; }
+
+.case-study-icon {
+  border: 5px solid #e6e6e6;
+  border-radius: 5px;
+  margin: 5%; }
+
+.download-icon {
+  background-image: url("../images/icons/icon-download.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 10px;
+  right: 0; }
+
+.cs-subtitle {
+  margin-top: 0; }
+
+section {
+  padding: 60px 0; }
+
+.client-logo {
+  width: 100%;
+  display: block;
+  padding: 30px; }
+
+.quick-facts {
+  border: 2px solid #75caca;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1em; }
+
+.client-quote {
+  position: relative;
+  border: 2px solid #75caca;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2em; }
+  .client-quote > p::before {
+    content: '"'; }
+  .client-quote > p::after {
+    content: '"'; }
+
+.client-quote-person {
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+  font-size: 0.4em; }
+  .client-quote-person p {
+    margin: 0; }
 
 /*********************
 FOOTER STYLES
@@ -4280,12 +4408,11 @@ NAVIGATION STYLES
         display: block;
         font-size: 0.70em;
         padding: 1.8em 0.5em;
-        border-bottom: 4px solid transparent; }
+        border-bottom: 5px solid transparent; }
         .nav li a:hover, .nav li a:focus {
           color: #fff;
           text-decoration: none;
-          background-color: #4c5863;
-          border-bottom: 4px solid #fff; }
+          border-bottom: 5px solid #fff; }
       .nav li:last-child {
         display: none; }
       .nav li ul.sub-menu {
@@ -4300,7 +4427,7 @@ NAVIGATION STYLES
         /* highlight sub-menu current page */ }
         .nav li ul.sub-menu li {
           display: inline-block;
-          margin: 0 60px;
+          margin: 0 5%;
           vertical-align: top;
           display: relative; }
           .nav li ul.sub-menu li a {
@@ -4309,10 +4436,11 @@ NAVIGATION STYLES
             padding: 2em;
             display: block;
             border: none;
-            text-decoration: underline;
+            text-decoration: none;
             text-transform: none; }
             .nav li ul.sub-menu li a:hover, .nav li ul.sub-menu li a:focus {
-              color: #fff; }
+              color: #fff;
+              text-decoration: underline; }
           .nav li ul.sub-menu li .menu-item-description {
             width: 200px;
             position: absolute;
@@ -4326,7 +4454,6 @@ NAVIGATION STYLES
             visibility: visible;
             position: relative; }
             .nav li ul.sub-menu li ul.sub-menu li {
-              display: block;
               clear: both;
               width: auto;
               text-align: center;
@@ -4350,10 +4477,13 @@ NAVIGATION STYLES
     .nav li.current-menu-item a,
     .nav li.current_page_item a,
     .nav li.current_page_ancestor a {
-      background-color: #505d68;
       transition: 0.5s;
-      border-bottom: 4px solid #fff; }
+      border-bottom: 5px solid #fff; }
   /* end .nav */
+  #menu-item-137 ul {
+    padding-bottom: 100px; }
+  #menu-item-137 .menu-item-description {
+    width: 50px; }
   /*********************
 SECITON STYLES
 *********************/
@@ -4606,26 +4736,32 @@ Author: Patrick Hanus
 Broker Template SASS
 
 ******************************************************************/
-.h1-profile {
+.type-broker .h1-profile {
   color: #43505d;
-  font-size: 2em;
+  font-size: 3em;
   text-align: left;
   text-transform: capitalize;
   margin: 0; }
 
-.profile-info {
-  font-size: 0.8em;
+.type-broker .profile-info {
+  font-size: 1em;
   text-align: center; }
 
-aside > div {
+.type-broker aside > div {
   margin-bottom: 25px; }
 
-aside img {
+.type-broker aside img {
   width: 100%; }
 
-.profile-header {
+.type-broker .profile-header {
   margin-top: 80px;
   margin-bottom: 40px; }
+
+.employee {
+  text-align: center; }
+
+.broker-profile-picture {
+  width: 100%; }
 
 /******************************************************************
 Site Name: RESOURCE
@@ -4637,17 +4773,20 @@ Speciatly Template SASS
 .panel {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 800px;
   background-position: center; }
   .panel aside {
     margin-top: 30%;
     background: transparent; }
+  .panel .aside-top {
+    margin-top: 0; }
 
 #Panel-1 {
   background-image: url("../images/specialties/office/bg-office-panel-1.jpg"); }
 
 #Panel-2 {
-  background-image: url("../images/specialties/office/bg-office-panel-2-lines.jpg"); }
+  background-image: url("../images/specialties/office/bg-office-panel-2-lines.jpg");
+  position: relative; }
 
 #Panel-3 {
   background-image: url("../images/specialties/office/bg-office-panel-3.jpg"); }
@@ -4658,7 +4797,19 @@ Speciatly Template SASS
   height: 300px;
   background-position: center;
   background-image: url("../images/specialties/office/button-investment-services.jpg");
-  text-align: center; }
+  text-align: center;
+  position: relative; }
+  .button-service a {
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    display: block; }
+
+.research-chart {
+  position: absolute;
+  bottom: 0;
+  right: -80px;
+  float: right; }
 
 /* Global Backgrounds */
 /* --desktop */
