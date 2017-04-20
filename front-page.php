@@ -3,8 +3,8 @@
 	<div id="content">
 
 		<div class="our-clients cf">
-			<div class="m-padding d-margin cf">
-				<h2 class="text-center">We've worked with some of the best in the business.</h2>
+			<h2 class="text-center">We've worked with some of the best in the business.</h2>
+			<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/Coca-Cola.png" alt="Coca-Cola">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/eli-lilly.png" alt="eli-lilly">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/indiana-members.png" alt="indiana-members">
