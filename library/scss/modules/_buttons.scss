@@ -162,15 +162,21 @@ and it will create a button dependant on those variables.
 }
 
 .header-link {
-  color: $gray;
-  text-decoration: none;
-  padding-bottom: 3px;
-  border-bottom: 1px solid $gray;
-  transition: 0.5s;
+  display: inline-block;
 
-  &:hover {
-    color: lighten( $gray, 15% );
+  > a {
+    color: $gray;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid $gray;
     transition: 0.5s;
+    line-height: 2.5em;
+
+    &:hover {
+      color: $blue;
+      transition: 0.5s;
+      border-bottom: 1px solid $blue;
+    }
   }
 }
 
@@ -239,4 +245,28 @@ and it will create a button dependant on those variables.
     } // end active
 
   }
+}
+
+// Tag Buttons
+
+.tag-post-type {
+  color: white;
+  background-color: $green;
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: 0.8s;
+}
+
+.tag-post-type {
+  color: white;
+  background-color: $green;
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: 0.8s;
 }
