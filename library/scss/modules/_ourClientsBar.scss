@@ -4,6 +4,7 @@ module/ourClientsBar
 
 .our-clients {
 	background-color: $lgray;
+	text-align: center;
 	
 	h2 {
 		margin: 0;
@@ -11,9 +12,7 @@ module/ourClientsBar
 	}
 
 	img {
-		padding: 1%;
-		//max-width: 80px;
-		//margin: 1%;
+		padding: 2%;
 		vertical-align: center;
 	}
 }
