@@ -76,13 +76,13 @@ NAVIGATION STYLES
 			display: block;
 			font-size: 0.70em;
 			padding: 1.8em 0.5em;
-			border-bottom: 4px solid transparent;
+			border-bottom: 5px solid transparent;
 
 			&:hover, &:focus {
 				color: $white;
 				text-decoration: none;
-				background-color: darken($gray, 5%);
-				border-bottom: 4px solid $white;
+				// background-color: darken($gray, 5%);
+				border-bottom: 5px solid $white;
 			}
 		}
 
@@ -106,7 +106,7 @@ NAVIGATION STYLES
 
 			li {
 				display: inline-block;
-				margin: 0 60px;
+				margin: 0 5%;
 				vertical-align: top;
 				display: relative;
 
@@ -116,12 +116,13 @@ NAVIGATION STYLES
 					padding: 2em;
 					display: block;
 					border: none;
-					text-decoration: underline;
+					text-decoration: none;
 					text-transform: none;
 
 					&:hover,
 					&:focus {
 						color: $white;
+						text-decoration: underline;
 					}
 
 					&:link {}
@@ -151,7 +152,7 @@ NAVIGATION STYLES
 					position: relative;
 					
 					li {
-						display: block;
+						// display: block;
 						clear: both;
 						width: auto;
 						text-align: center;
@@ -201,13 +202,24 @@ NAVIGATION STYLES
 	li.current_page_item,
 	li.current_page_ancestor {
 		a {
-			background-color: darken($gray, 3%);;
+			// background-color: darken($gray, 3%);;
 			transition: 0.5s;
-			border-bottom: 4px solid $white;
+			border-bottom: 5px solid $white;
 		}
 	}  /* end current highlighters */
 
 } /* end .nav */
+
+// navigation hacks 
+#menu-item-137 {
+	ul {
+		padding-bottom: 100px;
+	}
+
+	.menu-item-description {
+		width: 50px;
+	}
+}
 
 /*********************
 SECITON STYLES
