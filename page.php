@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 			
-	<div id="content">
+<div id="content">
 
 	<div id="inner-content" class="wrap cf">
 
@@ -10,7 +10,7 @@
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-				<section class="entry-content cf" itemprop="articleBody">
+				<section class="pull-r-1of12 pull-l-1of12 entry-content cf" itemprop="articleBody">
 					<?php the_content();
 						wp_link_pages( array(
 							'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'bonestheme' ) . '</span>',

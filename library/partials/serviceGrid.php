@@ -35,7 +35,7 @@
 			<div class="service-box m-end">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-cash.svg" alt="">
 				<h4><a class="header-link" href="#">Invest</a></h4>
-				<p>Ranging from student housing to senior living, expand and secure your investment portfolio. Worry free.</p>
+				<p>Ranging from student housing to senior living, expand and secure your investment portfolio.</p>
 				<a class="blue-link" href="#">Quick Link</a>
 			</div>
 		</div>

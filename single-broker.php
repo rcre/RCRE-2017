@@ -4,6 +4,8 @@
 */
 ?>
 
+
+
 <?php get_header(); ?>
 
 <div id="content">
@@ -25,7 +27,7 @@
 
 					<!-- PHP Get the Broker's Title and Industry-->
 						<div class="text-left">
-							<?php echo types_render_field( "broker-title", array( 'raw' => false) ); ?> // <a id="cta-underline-gray" href="<?php get_term_link( $term ); ?>"> <?php echo get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?></a> 
+							<?php echo types_render_field( "broker-title", array( 'raw' => false) ); ?> // <div class="header-link"> <?php echo get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?></div> 
 						</div>
 				
 				</header>
@@ -37,7 +39,7 @@
 					<div class="m-1of2 t-all d-all">
 				
 						<!-- Profile Picture -->
-						<img src="<?php echo types_render_field( "broker-profile-picture", array( 'raw' => true)); ?>" alt=" <?php the_title(); ?><?php get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?> ">
+						<img class="broker-profile-picture" src="<?php echo types_render_field( "broker-profile-picture", array( 'raw' => true)); ?>" alt=" <?php the_title(); ?><?php get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?> ">
 
 						<!-- BUTTON: Contact -> PHP Link to Broker's Email -->
 						<a id="cta-border-green" class="green" href="<?php echo(types_render_field( "broker_email", array( 'raw' => true) )); ?>">Contact</a>
@@ -48,13 +50,13 @@
 					<div class="profile-info m-1of2 t-all d-all">
 
 						<!-- Contact information -->
-						<div class="email"><a href="<?php echo types_render_field( "broker-email-address", array( 'raw' => true) ); ?>"><?php echo types_render_field( "broker-email-address", array( 'raw' => false) ); ?></a></div>
+						<div class="header-link email"><?php echo types_render_field( "broker-email-address", array( 'raw' => false) ); ?></div>
 						<div class="broker-office-phone"><strong>Phone:</strong> <?php echo types_render_field( "broker-office-phone", array( 'raw' => false) ); ?></div>
 						<div class="broker-mobile-phone"><strong>Mobile:</strong> <?php echo types_render_field( "broker-cell-phone", array( 'raw' => false) ); ?></div>
 						<div class="license-number"><strong>License:</strong> <?php echo types_render_field( "license-number", array( 'raw' => true) ); ?></div>
 						
 						<!-- Link to vcard -->
-						<div class="v-card"><a href="<?php echo(types_render_field( "broker_vcard", array( 'raw' => true) )); ?>">Download vCard</a> <i class="fa fa-download"></i></div>
+						<div class="header-link download-icon-dark v-card"><a href="<?php echo(types_render_field( "broker_vcard", array( 'raw' => true) )); ?>">Download vCard</a></div>
 
 						<!-- Services -->
 						<?php echo get_the_term_list( $post->ID, 'service', '<p id="specialty-button"></strong>', '</br> ', '</p>'); ?></a>
@@ -76,9 +78,23 @@
 					?>
 				</section> <!-- end article section -->
 
-				<footer class="article-footer">
-					<p class="tags"><?php echo get_the_term_list( get_the_ID(), 'custom_tag', '<span class="tags-title">' . __( 'Custom Tags:', 'bonestheme' ) . '</span> ', ', ' ) ?></p>
-				</footer>
+			<!-- SECTION: Related Case Studies -->
+				<section id="case-study" class="cf">
+					<h3>Case Studies</h3>
+					
+					<?php $child_posts = types_child_posts("case-study"); 
+					foreach ($child_posts as $child_post) { ?>
+					
+					<?php // Grab the link to the case study ?>
+					<a href="">
+					<?php // Grab the image to the case study ?>
+					<div class="case-study d-1of6 m-1of2">
+						<?php echo types_render_field( "client-logo", array( "id"=> "$child_post->ID", "size" => "thumbnail" ));  ?>	
+					</div>
+					</a>
+
+					<?php } ?>
+				</section>
 
 			</article>
 
