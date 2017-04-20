@@ -5,34 +5,45 @@ Author: Patrick Hanus
 Broker Template SASS
 
 ******************************************************************/
-.h1-profile {
-	color: $dgray;
-	font-size: 2em;
-	text-align: left;
-	text-transform: capitalize;
-	margin: 0;
-}
 
-.profile-info {
-	font-size: 0.8em;
-	text-align: center
-}
-
-aside {
-
-	> div {
-		margin-bottom: 25px;
+.type-broker {
+	.h1-profile {
+		color: $dgray;
+		font-size: 3em;
+		text-align: left;
+		text-transform: capitalize;
+		margin: 0;
 	}
 
-	img {
-		width: 100%;
+	.profile-info {
+		font-size: 1em;
+		text-align: center
+	}
+
+	aside {
+
+		> div {
+			margin-bottom: 25px;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	// Specific to broker/staff
+	.profile-header {
+		margin-top: 80px;
+		margin-bottom: 40px;
 	}
 }
 
-// Specific to broker/staff
-.profile-header {
-	margin-top: 80px;
-	margin-bottom: 40px;
+// Post View
+.employee {
+	text-align: center;
 }
 
+.broker-profile-picture {
+	width: 100%;
+}
 
