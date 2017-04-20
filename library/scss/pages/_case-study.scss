@@ -1,0 +1,113 @@
+/******************************************************************
+Site Name: RESOURCE
+Author: Patrick Hanus
+
+Broker Template SASS
+
+******************************************************************/
+
+.cs-h1 {
+	font-size: 5em;
+	text-align: left;
+	text-transform: capitalize;
+	margin: 0;
+	text-shadow: 0.5px 0.5px 30px $dgray; 
+}
+
+.cs-header {
+	margin-bottom: 50px;
+	background-color: $lgray;
+	text-align: left;
+	background-size: cover;
+
+	&::after {
+		content: '';
+		background-color: $dgray;
+		opacity: 30%;
+	}
+}
+
+aside {
+		img {
+			width: 100%;
+			margin: 25px 0;
+			margin-bottom: 0px;
+		}
+	}
+
+.case-study-icon {
+	border: 5px solid $lgray;
+	border-radius: 5px;
+	margin: 5%;
+}
+
+.download-icon {
+	background-image: url('../images/icons/icon-download.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+
+.cs-subtitle {
+	margin-top: 0;
+}
+
+section {
+	padding: 60px 0;
+}
+
+.client-logo {
+	width: 100%;
+	display: block;
+	padding: 30px;
+}
+
+.quick-facts {
+	border: 2px solid $blue;
+	padding: 40px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 1em;
+}
+
+.client-quote {
+	position: relative;
+	border: 2px solid $blue;
+	padding: 40px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 2em;
+
+	> p {
+		&::before {
+			content:'"'
+		}
+
+		&::after {
+			content:'"'
+		}
+	}
+}
+
+.client-quote-person {
+	position: absolute;
+	right: 30px;
+	bottom: 10px;
+	font-size: 0.4em;
+
+	p {
+		margin: 0;
+	}
+}
+
+
+
+
+
+
