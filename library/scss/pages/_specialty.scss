@@ -9,13 +9,18 @@ Speciatly Template SASS
 .panel {
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 600px;
+	height: 800px;
 	background-position: center;
 
 	aside {
 		margin-top: 30%;
 		background: transparent;
 	}
+
+	.aside-top {
+			margin-top: 0;
+		}
+
 }
 
 #Panel-1 {
@@ -24,6 +29,7 @@ Speciatly Template SASS
 
 #Panel-2 {
 	background-image: url('../images/specialties/office/bg-office-panel-2-lines.jpg');
+	position: relative;
 }
 
 #Panel-3 {
@@ -38,4 +44,28 @@ Speciatly Template SASS
 	background-position: center;
 	background-image: url('../images/specialties/office/button-investment-services.jpg');
 	text-align: center;
+	position: relative;
+
+	a {
+		position: absolute;
+		top: 50%;
+		right: 25%;
+		display: block;
+	}
 }
+
+.research-chart {
+	position: absolute;
+	bottom: 0;
+	right: -80px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
