@@ -11,12 +11,12 @@
 		<?php // force Internet Explorer to use the latest rendering engine available ?>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<title><?php wp_title(''); ?></title>
-
-		<?php // mobile meta (hooray!) ?>
+		<title>RESOURCE | <?php the_title(); ?></title>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+		<meta name="keywords" content="real estate, resource, cre, commercial real estate, lease, office space, industrial, business, research, consulting, owner, occupier, sales,leasing, corporate services, property management, facilities management, project management, mortgage banking, appraisal, development, investment management">
 		
 		<?php // Safari Pinned tab ?>
 		<link rel="mask-icon" href="library/images/website_icon_1.svg" color="#d2db3a">
@@ -31,6 +31,37 @@
 		<meta name="msapplication-TileColor" content="#d2db3a">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-square-dark.png">
             <meta name="theme-color" content="#d2db3a">
+		
+		<?php // Enriched Google Cards ?>
+		<script type="application/ld+json"> {
+			"@context":"http://schema.org",
+			"@type":"realEstateAgency",
+			"url":"https://rcre.com/",
+			"sameAs":["https://www.facebook.com/RESOURCEcre/",
+					  "https://www.instagram.com/resourcecre/",
+					  "https://www.linkedin.com/company/resource-commercial-real-estate",
+					  "https://plus.google.com/u/0/b/104233585404626040656/+ResourceCommercialRealEstateIndianapolis",
+					  "https://www.youtube.com/channel/UCpdLW5fmfNOKV4JYr2-0-w",
+					  "https://www.pinterest.com/resourcecre",
+					  "https://twitter.com/resourcecre"],
+		    "@id":"#organization",
+		    "name":"RESOURCE Commercial Real Estate",
+		    "logo":"http://RCRE.com/wp-content/uploads/2016/02/RESOURCE-Commercial-Real-Estate-logo-01-01.jpg",
+			"address" : {
+				"@type": "PostalAddress",
+				"addressLocality": "Indianapolis", 
+				"addressRegion": "IN", 
+				"postalCode": "46240", 
+				"streetAddress": "9339 Priority Way West Drive" },
+			"email":"info@rcre.com",
+			"telephone":"3176636000",
+			"openingHours": [ 
+				"Mo-Fri 8:00-17:00"],
+			"Headquarters":"Indianapolis",
+			"President":"Kevin H. Abrams",
+			"Founded":"2005"
+		}
+		</script>
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
@@ -142,7 +173,6 @@
 							<a href="#" id="cta-solid-white" class="m-all t-all d-2of5">Find Properties</a>
 						</div>
 					</div>
-
 				</div>
 					
 				</header>
