@@ -141,6 +141,16 @@ over your project's layout.
     margin-right: 8.33%;
   }
 
+   .right {
+    float: right;
+    padding-right: 0;
+  }
+
+  .left {
+    float: left;
+    padding-left: 0.75em;
+  }
+
 } // end tablet
 
 /* Landscape to small desktop */
@@ -285,6 +295,11 @@ over your project's layout.
 
   .pull-l-1of4 {
     margin-right: 25%;
+  }
+
+  .pull-r-1of7 {
+    @include grid-col;
+    margin-left: 14.2857142857%;
   }
 
   .right {
