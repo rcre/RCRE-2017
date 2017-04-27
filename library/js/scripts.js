@@ -43,7 +43,6 @@ var waitForFinalEvent = (function () {
 // how long to wait before deciding the resize has stopped, in ms. Around 50-100 should work ok.
 var timeToWaitForLast = 100;
 
-
 /*
  * Here's an example so you can see how we're using the above function
  *
@@ -55,13 +54,13 @@ var timeToWaitForLast = 100;
  * If we want to only do it on a certain page, we can setup checks so we do it
  * as efficient as possible.
  *
- * if( typeof is_home === "undefined" ) var is_home = $('body').hasClass('home');
+ * if( typeof is_home === "undefined" ) var is_home = jQuery('body').hasClass('home');
  *
  * This once checks to see if you're on the home page based on the body class
  * We can then use that check to perform actions on the home page only
  *
  * When the window is resized, we perform this function
- * $(window).resize(function () {
+ * jQuery(window).resize(function () {
  *
  *    // if we're on the home page, we wait the set amount (in function above) then fire the function
  *    if( is_home ) { waitForFinalEvent( function() {
@@ -109,34 +108,87 @@ function loadGravatars() {
  * Put all your regular jQuery in here.
 */
 
-// Mobile Menu Animation
-jQuery('header #inner-header #mobile-quick-nav div#menu-burger').on('click', function() {
-    jQuery('header #inner-header ul#menu-mobile-menu').toggleClass('active');
-});
+/*************************
+ * Service Tab Block
+**************************/
 
-// Mobile Menu Dropdowns
-var acc = document.getElementsByClassName("li");
-var i;
+  function serviceTabs() {
+  // tabbed content
+    // http://www.entheosweb.com/tutorials/css/tabs.asp
+    $(".tab_content").hide();
+    $(".tab_content:first").show();
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  }
+  /* if in tab mode */
+  $("ul.tabs li").click(function() {
+  
+    $(".tab_content").hide();
+    var activeTab = $(this).attr("rel"); 
+    $("#"+activeTab).fadeIn();    
+  
+    $("ul.tabs li").removeClass("active");
+    $(this).addClass("active");
+
+    $(".tab_drawer_heading").removeClass("d_active");
+    $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+  });
+
+  /* if in drawer mode */
+  $(".tab_drawer_heading").click(function() {
+      
+      $(".tab_content").hide();
+      var d_activeTab = $(this).attr("rel"); 
+      $("#"+d_activeTab).fadeIn();
+    
+    $(".tab_drawer_heading").removeClass("d_active");
+      $(this).addClass("d_active");
+    
+    $("ul.tabs li").removeClass("active");
+    $("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
+    });
+  
+  /* Extra class "tab_last" to add border to right side of last tab */
+  $('ul.tabs li').last().addClass("tab_last");
 }
 
-jQuery(document).ready(function($) {
+/*************************
+ * Mobile Menu Slide
+**************************/
+
+function mobileMenu() {
+  $('header #inner-header #mobile-quick-nav div#menu-burger').on('click', function() {
+      $('header #inner-header ul#menu-mobile-menu').toggleClass('active');
+  });
+}
+/*************************
+ * Mobile Dropdowns
+**************************/
+  function mobileDropdowns() {
+    var acc = document.getElementsByClassName("li");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      };
+    }
+  }
+
+$(document).ready(function() {
 
   /*
    * Let's fire off the gravatar function
    * You can remove this if you don't need it
   */
   loadGravatars();
+  serviceTabs();
+  mobileDropdowns();
+  mobileMenu();
 
 
 }); /* end of as page load scripts */

@@ -16,12 +16,11 @@
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 					
-				<!-- Panel 1, the header is the same, the text is dynamic -->
 					<section id="Panel-1" class="panel cf">
 						<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right">
 							<h2 class="header-dark">Workflow Experience</h2>
-							<p><?php // Specialty ?>
-								Navigate the entire process of locating  office space that suits your needs, or possibly disposing of space that no longer is viable for you.
+							<p>
+								<?php // PHP "specialty-description" goes here ?>
 							</p>
 						</aside>
 					</section>
@@ -30,7 +29,9 @@
 						<aside class="m-all t-1of4 d-1of4 pull-r-1of12 left aside-top">
 							<h2 class="header-dark"><?php the_title(); ?> Market Experience</h2>
 							<p>Every market is different. Our team-based service model and extensive research, uncovers all options in the office marketplace.</p>
+
 							<a href="<?php // Most Recent Report ?>" id="cta-underline-gray">Read the 2016 <?php the_title(); ?> Research Report</a>
+
 						</aside>
 						<div class="research-chart t-1of2 d-4of5 m-all"><img src="<?php echo get_template_directory_uri(); ?>/library/images/specialties/office/bg-office-panel-2-graph.svg" alt=""></div>
 					</section>
@@ -38,7 +39,7 @@
 					<section id="Panel-3" class="panel cf">
 						<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right aside-top">
 							<h2 class="header-dark">A Network of Collaboration</h2>
-							<p><?php // Specialty ?>
+							<p>
 								Need something extra for your business? No problem. At RESOURCE, You get small business personalization with corporate reach.
 							</p>
 						</aside>
@@ -46,7 +47,9 @@
 
 				<!-- This is a PHP partial -->
 					<section id="Services">
-						
+						<div class="pull-r-1of12 pull-l-1of12 cf">
+							<?php get_template_part( 'post-formats/content-serviceDropdown' ); ?>
+						</div>
 					</section>
 					
 				<!-- This is a wp loop for team memebers-->

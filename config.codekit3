@@ -1736,6 +1736,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/library\/scss\/modules\/_serviceTabs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_serviceTabs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/library\/scss\/pages\/_broker.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2210,6 +2223,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/post-formats\/content-serviceButton.php",
+		"oF": 0
+		},
+	"\/post-formats\/content-serviceDropdown.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/post-formats\/content-serviceDropdown.php",
 		"oF": 0
 		},
 	"\/post-formats\/format-aside.php": {
