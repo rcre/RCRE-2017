@@ -1,15 +1,6 @@
 /*
  * Bones Scripts File
  * Author: Eddie Machado
- *
- * This file should contain any js scripts you want to add to the site.
- * Instead of calling it in the header or throwing it inside wp_head()
- * this file will be called automatically in the footer so as not to
- * slow the page load.
- *
- * There are a lot of example functions and tools in here. If you don't
- * need any of it, just remove it. They are meant to be helpers and are
- * not required. It's your world baby, you can do whatever you want.
 */
 
 
@@ -24,7 +15,6 @@ function updateViewportDimensions() {
 }
 // setting the viewport width
 var viewport = updateViewportDimensions();
-
 
 /*
  * Throttle Resize-triggered Events
@@ -115,39 +105,39 @@ function loadGravatars() {
   function serviceTabs() {
   // tabbed content
     // http://www.entheosweb.com/tutorials/css/tabs.asp
-    $(".tab_content").hide();
-    $(".tab_content:first").show();
+    jQuery(".tab_content").hide();
+    jQuery(".tab_content:first").show();
 
   /* if in tab mode */
-  $("ul.tabs li").click(function() {
+  jQuery("ul.tabs li").click(function() {
   
-    $(".tab_content").hide();
-    var activeTab = $(this).attr("rel"); 
-    $("#"+activeTab).fadeIn();    
+    jQuery(".tab_content").hide();
+    var activeTab = jQuery(this).attr("rel"); 
+    jQuery("#"+activeTab).fadeIn();    
   
-    $("ul.tabs li").removeClass("active");
-    $(this).addClass("active");
+    jQuery("ul.tabs li").removeClass("active");
+    jQuery(this).addClass("active");
 
-    $(".tab_drawer_heading").removeClass("d_active");
-    $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+    jQuery(".tab_drawer_heading").removeClass("d_active");
+    jQuery(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
   });
 
   /* if in drawer mode */
-  $(".tab_drawer_heading").click(function() {
+  jQuery(".tab_drawer_heading").click(function() {
       
-      $(".tab_content").hide();
-      var d_activeTab = $(this).attr("rel"); 
-      $("#"+d_activeTab).fadeIn();
+      jQuery(".tab_content").hide();
+      var d_activeTab = jQuery(this).attr("rel"); 
+      jQuery("#"+d_activeTab).fadeIn();
     
-    $(".tab_drawer_heading").removeClass("d_active");
-      $(this).addClass("d_active");
+    jQuery(".tab_drawer_heading").removeClass("d_active");
+      jQuery(this).addClass("d_active");
     
-    $("ul.tabs li").removeClass("active");
-    $("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
+    jQuery("ul.tabs li").removeClass("active");
+    jQuery("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
     });
   
   /* Extra class "tab_last" to add border to right side of last tab */
-  $('ul.tabs li').last().addClass("tab_last");
+  jQuery('ul.tabs li').last().addClass("tab_last");
 }
 
 /*************************
@@ -155,8 +145,8 @@ function loadGravatars() {
 **************************/
 
 function mobileMenu() {
-  $('header #inner-header #mobile-quick-nav div#menu-burger').on('click', function() {
-      $('header #inner-header ul#menu-mobile-menu').toggleClass('active');
+  jQuery('#menu-burger').on('click', function() {
+      jQuery('#menu-mobile-menu').toggleClass('active');
   });
 }
 /*************************
@@ -179,7 +169,7 @@ function mobileMenu() {
     }
   }
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
 
   /*
    * Let's fire off the gravatar function

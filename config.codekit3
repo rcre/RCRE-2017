@@ -2237,54 +2237,6 @@
 		"oAP": "\/post-formats\/format-aside.php",
 		"oF": 0
 		},
-	"\/post-formats\/format-audio.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/post-formats\/format-audio.php",
-		"oF": 0
-		},
-	"\/post-formats\/format-chat.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/post-formats\/format-chat.php",
-		"oF": 0
-		},
-	"\/post-formats\/format-gallery.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/post-formats\/format-gallery.php",
-		"oF": 0
-		},
-	"\/post-formats\/format-image.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/post-formats\/format-image.php",
-		"oF": 0
-		},
-	"\/post-formats\/format-link.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/post-formats\/format-link.php",
-		"oF": 0
-		},
-	"\/post-formats\/format-quote.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/post-formats\/format-quote.php",
-		"oF": 0
-		},
-	"\/post-formats\/format-status.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/post-formats\/format-status.php",
-		"oF": 0
-		},
-	"\/post-formats\/format-video.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/post-formats\/format-video.php",
-		"oF": 0
-		},
 	"\/post-formats\/format.php": {
 		"ft": 8192,
 		"oA": 0,

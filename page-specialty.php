@@ -20,7 +20,7 @@
 						<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right">
 							<h2 class="header-dark">Workflow Experience</h2>
 							<p>
-								<?php // PHP "specialty-description" goes here ?>
+								<?php echo types_render_field( "specialty-description", array( 'raw' => false)); ?>
 							</p>
 						</aside>
 					</section>

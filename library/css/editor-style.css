@@ -2182,8 +2182,8 @@ probably best not to use it. I mean, were you going to anyway? */
     text-align: center;
     font-family: "Montserrat", Helvetica, Arial, sans-serif; }
   body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4 {
-    font-size: 1.0em;
-    font-weight: 400;
+    font-size: 1.25em;
+    font-weight: 700;
     color: #576571;
     font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
   body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {

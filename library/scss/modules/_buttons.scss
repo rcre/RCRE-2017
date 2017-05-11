@@ -161,6 +161,26 @@ and it will create a button dependant on those variables.
   } // end active
 }
 
+#cta-underline-white {
+  text-decoration: none;
+  padding-bottom: 3px;
+  color: $white;
+  background-color: none;
+  border: none;
+  border-bottom: 1px solid $white;
+  font-weight: 600;
+  
+  &:hover,
+  &:focus {
+    color: lighten($blue, 20%);
+    transition: 0.5s;
+  } // end hover
+
+  &:active {
+    color: darken($white, 20%);
+  } // end active
+}
+
 .header-link {
   display: inline-block;
 

@@ -2824,8 +2824,8 @@ h3, .h3 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 h4, .h4 {
-  font-size: 1.0em;
-  font-weight: 400;
+  font-size: 1.25em;
+  font-weight: 700;
   color: #576571;
   font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
 
@@ -3313,6 +3313,20 @@ and it will create a button dependant on those variables.
     transition: 0.5s; }
   #cta-underline-gray:active {
     color: #2b3137; }
+
+#cta-underline-white {
+  text-decoration: none;
+  padding-bottom: 3px;
+  color: #fff;
+  background-color: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-weight: 600; }
+  #cta-underline-white:hover, #cta-underline-white:focus {
+    color: #bfe6e6;
+    transition: 0.5s; }
+  #cta-underline-white:active {
+    color: #cccccc; }
 
 .header-link {
   display: inline-block; }
@@ -4192,28 +4206,25 @@ ul.tabs {
     border-radius: 5px;
     transition: 0.5s; }
     ul.tabs li:hover {
-      background-color: #e6e6e6;
+      background-color: white;
       color: #333;
       transition: 0.5s; }
     ul.tabs li.active {
       background-color: #e6e6e6;
       color: #333;
-      border-bottom: 1px solid #fff;
       display: block; }
-
-.tab_last {
-  border-right: 1px solid #333; }
 
 .tab_container {
   border-top: none;
   overflow: auto;
-  text-align: center;
-  height: 500px; }
+  text-align: center; }
 
 .tab_content {
-  margin: 0 auto;
+  margin: 80px auto;
   width: 50%;
   display: none; }
+  .tab_content img {
+    width: 100px; }
 
 .tab_drawer_heading {
   display: none; }
