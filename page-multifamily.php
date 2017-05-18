@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Specialty
+ Template Name: Multifamily
 */
 ?>
 

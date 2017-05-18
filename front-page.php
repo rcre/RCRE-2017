@@ -47,7 +47,7 @@
 				</section>
 
 
-				<h2 class="header-dark text-center">Hello, How Can We Help?</h2>
+				<h2 class="header-dark text-center">Everything you need. All in one Place.</h2>
 				<!-- SECTION 1: Service Grid -->
 					<?php get_template_part('library/partials/serviceGrid'); ?>
 
@@ -70,7 +70,7 @@
 					
 					<section id="need-help">
 						<div class="m-padding">
-							<h3>Can’t find what you’re looking for?</h3>
+							<h2>Can’t find what you’re looking for?</h2>
 							<p>We want to ensure we make you life as easy as possible. </br>The best way we can serve you is <a id="cta-underline-white" href="#">sending us a message</a> or <a id="cta-underline-white" href="#">giving us a call.</a> No hoops.</p>
 							<p>We <i class="fa fa-heart" aria-hidden="true"></i> feedback! Let us know how we can make our site better!</p>
 						</div>

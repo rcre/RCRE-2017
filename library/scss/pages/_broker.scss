@@ -1,9 +1,5 @@
 /******************************************************************
-Site Name: RESOURCE
-Author: Patrick Hanus
-
-Broker Template SASS
-
+Broker Page Styles
 ******************************************************************/
 
 .type-broker {
@@ -41,9 +37,15 @@ Broker Template SASS
 // Post View
 .employee {
 	text-align: center;
+	display: inline-block;
+
+	&:last-child {
+		clear: both;
+	}
 }
 
 .broker-profile-picture {
+	padding: 20px;
 	width: 100%;
 }
 

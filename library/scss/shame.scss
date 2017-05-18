@@ -56,16 +56,3 @@ SERVICE GRID STYLES
 		position: relative;
 	}
 }
-
-// ------------- I need to unify font styles -----
-
-// this is for the service panels main title
-h4 {
-	a {
-		display: inline;
-		border-bottom: 1px solid $dgray;
-		font-weight: 700;
-		text-transform: uppercase;
-		color: $dgray;
-	}
-}

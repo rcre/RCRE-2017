@@ -145,8 +145,8 @@ function loadGravatars() {
 **************************/
 
 function mobileMenu() {
-  jQuery('#menu-burger').on('click', function() {
-      jQuery('#menu-mobile-menu').toggleClass('active');
+  jQuery('#menu-burger').on("click", function() {
+      jQuery("div#menu-mobile-menu").toggleClass("active");
   });
 }
 /*************************

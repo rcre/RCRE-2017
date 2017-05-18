@@ -1,9 +1,5 @@
 /******************************************************************
-Site Name:
-Author:
-
-Stylesheet: Base Mobile Stylesheet
-
+Base Mobile Stylesheet
 ******************************************************************/
 
 body {
@@ -46,15 +42,15 @@ header {
 	position: relative;
 }
 
-	#page-header {
-		padding-top: 200px;
-		padding-bottom: 150px;
-	}
+#page-header {
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
 
-	.header-home {
-		background-image: url('../images/bg/header-home.jpg');
-		background-repeat: no-repeat;
-	}
+.header-home {
+	background-image: url('../images/bg/header-home.jpg');
+	background-repeat: no-repeat;
+}
 
 #inner-header {
 	top: 0;
@@ -82,17 +78,16 @@ header {
 		padding: 0.71em 0.5em;
 		width: 60px;
 		text-align: center;
-		border-right: 1px solid $gray;
 
 		a, img {
 			width: 30px;
 		}
 	}
+}
 
-	div#menu-burger {
-		background-color: $green;
-		border: none;
-	}
+#menu-burger {
+	background-color: $green;
+	border: none;
 }
 
 .callout {
@@ -112,7 +107,8 @@ header {
 	}
 
 	.subtitle {
-		font-weight: 300;
+		font-weight: 400;
+		font-size: 1em;
 		color: white;
 		margin: 0 auto;
 		padding: 0 10%;
@@ -354,7 +350,7 @@ SECTION STYLES
 	background-repeat: repeat;
 
 	h1, p {
-		color: $gray !important;
+		color: $gray;
 	}
 }
 
@@ -369,19 +365,18 @@ section {
 	aside {
 		text-align: left;
 		background-color: white;
-		margin-top: 100px 0px;
+		margin-top: 0px;
 		padding: 0;
-		
-		h3 {
-			background-color: $gray;
-			padding: 10px;
-			color: $white;
-		}
 		
 		a {
 			margin-top: 10px;
 		}
 	}
+}
+
+.panel {
+	height: auto;
+	background: none;
 }
 
 
@@ -397,6 +392,10 @@ MODULE IMPORTS
 PAGE IMPORTS
 **********************/
 @import "../pages/case-study";
+@import "../pages/broker";
+@import "../pages/specialty";
+@import "../partials/global_images";
+@import "../shame";
 
 /*********************
 FOOTER STYLES

@@ -30,7 +30,8 @@
 			</article>
 
 			<?php endwhile; endif; ?>
-	
+		
+		<?php wd_contact_form_maker(1); ?>
 		</main>
 
 	</div>

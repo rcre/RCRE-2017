@@ -1,7 +1,5 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-
 				<div id="inner-footer" class="m-padding pull-l-1of12 pull-r-1of12 cf">
-
 					<nav role="navigation">
 						<?php wp_nav_menu(array(
     					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
@@ -20,8 +18,6 @@
 
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> RESOURCE Commercial Real Estate</p>
 				</div>
-
-
 			</footer>
 
 		</div>

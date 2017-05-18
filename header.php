@@ -102,7 +102,7 @@
 						<nav id="main-menu" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 								<?php wp_nav_menu(array(
 		    					         'container' => false,                           // remove nav container
-		    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+		    					         'container_class' => 'cf',                 // class of container (should you choose to use it)
 		    					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
 		    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
 		    					         'theme_location' => 'main-nav',                 // where it's located in the theme
@@ -130,7 +130,7 @@
 				</div>
 			</header>
 
-		<?php if( is_home() ) { ?>
+		<?php if(is_front_page()) { ?>
 
 			<!-- Frontpage Header -->
 			<header id="page-header" class="header-home" role="banner" itemscope itemtype="http://schema.org/WPHeader">

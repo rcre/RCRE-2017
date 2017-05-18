@@ -10,31 +10,11 @@ Stylesheet: Typography
 
 // font stacks
 $sans-serif:        "Montserrat", Helvetica, Arial, sans-serif;
-$serif:             "Merriweather", Cambria, Times New Roman, Times, serif;
+$serif:             "Montserrat", Cambria, Times New Roman, Times, serif;
 
 // I can remove this:
 $lato:              'Montserrat', $sans-serif;
 
-// Paragraph Defaults
-p {
-  -ms-word-wrap: keep-all;
-  word-break: keep-all; //non-standart css for webkit
-  word-wrap: keep-all;
-  // cleaning up the ragged lines and breaks
-  -webkit-hyphens: none;
-     -moz-hyphens: none;
-          hyphens: none;
-  // sets a minimum number of characters before and after the break
-  -webkit-hyphenate-before: 5;
-   -webkit-hyphenate-after: 5;
-           hyphenate-lines: 5;
-  // enabling fancy ligatures when available
-  -webkit-font-feature-settings: "liga", "dlig";
-   -moz-font-feature-settings: "liga=1, dlig=1";
-      -ms-font-feature-settings: "liga", "dlig";
-       -o-font-feature-settings: "liga", "dlig";
-          font-feature-settings: "liga", "dlig";
-}
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
@@ -58,18 +38,30 @@ h1, .h1 {
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
-  margin-bottom: 0.375em;
   color: $white;
   font-weight: 700;
   font-family: $sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h3, .h3 {
-  font-size: 1.25em;
   text-transform: uppercase;
   font-weight: 700;
-  text-align: center;
   font-family: $sans-serif;
+  text-align: left;
+  font-size: 2.2em;
+  background-color: transparent;
+  color: $blue;
+  margin: 0;
+  padding: 0;
+
+  .--mobile {
+    background-color: $gray;
+    padding: 10px;
+    color: $white;
+  }
+
 }
 
 h4, .h4 {
@@ -77,6 +69,16 @@ h4, .h4 {
   font-weight: 700;
   color: $gray;
   font-family: $serif;
+  margin: 0;
+  padding: 0;
+
+  a {
+    display: inline;
+    border-bottom: 1px solid $dgray;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $dgray;
+  }
 }
 
 h5, .h5 {
@@ -85,22 +87,53 @@ h5, .h5 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: $serif;
+  margin: 0;
+  padding: 0;
 }
 
 // General Paragraph Styles
 p {
   font-family: $serif;
   font-size: 0.90em;
+  -ms-word-wrap: keep-all;
+  word-break: keep-all; //non-standart css for webkit
+  word-wrap: keep-all;
+  // cleaning up the ragged lines and breaks
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+          hyphens: none;
+  // sets a minimum number of characters before and after the break
+  -webkit-hyphenate-before: 5;
+   -webkit-hyphenate-after: 5;
+           hyphenate-lines: 5;
+  // enabling fancy ligatures when available
+  -webkit-font-feature-settings: "liga", "dlig";
+   -moz-font-feature-settings: "liga=1, dlig=1";
+      -ms-font-feature-settings: "liga", "dlig";
+       -o-font-feature-settings: "liga", "dlig";
+          font-feature-settings: "liga", "dlig";
 }
+
+/************ Style Blocks ************/
 
 .header-dark {
   color: $dgray;
 }
 
-// global toolbox
+.text-right {
+  text-align: right;
+}
+
 .text-left {
-    text-align: left;
-  }
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
+
+
+
+
+
+

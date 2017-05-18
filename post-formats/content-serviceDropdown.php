@@ -1,9 +1,10 @@
+<h3>RESOURCE Services</h3>
 <ul class="tabs d-1of2 m-all">
-  <li class="active" rel="tab1"><h3>Auction Services</h3></li>
-  <li rel="tab2"><h3>Occupier Representation</h3></li>
-  <li rel="tab3"><h3>Advisory and Consultation</h3></li>
-  <li rel="tab4"><h3>Owner Representation</h3></li>
-  <li rel="tab5"><h3>Development</h3></li>
+  <li class="active" rel="tab1"><h2 class="header-dark">Auction Services</h2></li>
+  <li rel="tab2"><h2 class="header-dark">Occupier Representation</h2></li>
+  <li rel="tab3"><h2 class="header-dark">Advisory and Consultation</h2></li>
+  <li rel="tab4"><h2 class="header-dark">Owner Representation</h2></li>
+  <li rel="tab5"><h2 class="header-dark">Development</h2></li>
 </ul>
 
 <div class="tab_container d-1of2 m-all">

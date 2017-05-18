@@ -227,6 +227,7 @@ Stylesheet: Typography
   /* Deprecated as of 4.4.0 */
   /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
+  /************ Style Blocks ************/
   /******************************************************************
 Site Name:
 Author:
@@ -2140,21 +2141,6 @@ probably best not to use it. I mean, were you going to anyway? */
     margin: 0;
     overflow: visible;
     clip: auto; }
-  body#tinymce.wp-editor p {
-    -ms-word-wrap: keep-all;
-    word-break: keep-all;
-    word-wrap: keep-all;
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    hyphens: none;
-    -webkit-hyphenate-before: 5;
-    -webkit-hyphenate-after: 5;
-    hyphenate-lines: 5;
-    -webkit-font-feature-settings: "liga", "dlig";
-    -moz-font-feature-settings: "liga=1, dlig=1";
-    -ms-font-feature-settings: "liga", "dlig";
-    -o-font-feature-settings: "liga", "dlig";
-    font-feature-settings: "liga", "dlig"; }
   body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4, body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
     text-rendering: optimizelegibility;
     font-weight: 400;
@@ -2171,32 +2157,67 @@ probably best not to use it. I mean, were you going to anyway? */
   body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2 {
     font-size: 1.75em;
     line-height: 1.4em;
-    margin-bottom: 0.375em;
     color: #fff;
     font-weight: 700;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0; }
   body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3 {
-    font-size: 1.25em;
     text-transform: uppercase;
     font-weight: 700;
-    text-align: center;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 2.2em;
+    background-color: transparent;
+    color: #75caca;
+    margin: 0;
+    padding: 0; }
+    body#tinymce.wp-editor h3 .--mobile, body#tinymce.wp-editor .h3 .--mobile {
+      background-color: #576571;
+      padding: 10px;
+      color: #fff; }
   body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4 {
     font-size: 1.25em;
     font-weight: 700;
     color: #576571;
-    font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
+    font-family: "Montserrat", Cambria, Times New Roman, Times, serif;
+    margin: 0;
+    padding: 0; }
+    body#tinymce.wp-editor h4 a, body#tinymce.wp-editor .h4 a {
+      display: inline;
+      border-bottom: 1px solid #43505d;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #43505d; }
   body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
     font-size: 0.846em;
     line-height: 2.09em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Merriweather", Cambria, Times New Roman, Times, serif; }
+    font-family: "Montserrat", Cambria, Times New Roman, Times, serif;
+    margin: 0;
+    padding: 0; }
   body#tinymce.wp-editor p {
-    font-family: "Merriweather", Cambria, Times New Roman, Times, serif;
-    font-size: 0.90em; }
+    font-family: "Montserrat", Cambria, Times New Roman, Times, serif;
+    font-size: 0.90em;
+    -ms-word-wrap: keep-all;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+    -webkit-hyphenate-before: 5;
+    -webkit-hyphenate-after: 5;
+    hyphenate-lines: 5;
+    -webkit-font-feature-settings: "liga", "dlig";
+    -moz-font-feature-settings: "liga=1, dlig=1";
+    -ms-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig"; }
   body#tinymce.wp-editor .header-dark {
     color: #43505d; }
+  body#tinymce.wp-editor .text-right {
+    text-align: right; }
   body#tinymce.wp-editor .text-left {
     text-align: left; }
   body#tinymce.wp-editor .text-center {

@@ -1353,32 +1353,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/library\/scss\/breakpoints\/_1240up.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_1240up.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/library\/scss\/breakpoints\/_2x.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_2x.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/library\/scss\/breakpoints\/_481up.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1414,19 +1388,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/library\/scss\/css\/_base.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/library\/scss\/breakpoints\/_comments.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_comments.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1680,6 +1641,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/library\/scss\/css\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/library\/scss\/modules\/_comments.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_comments.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2195,10 +2169,34 @@
 		"oAP": "\/page-custom.php",
 		"oF": 0
 		},
-	"\/page-specialty.php": {
+	"\/page-industrial.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/page-specialty.php",
+		"oAP": "\/page-industrial.php",
+		"oF": 0
+		},
+	"\/page-land.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-land.php",
+		"oF": 0
+		},
+	"\/page-multifamily.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-multifamily.php",
+		"oF": 0
+		},
+	"\/page-office.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-office.php",
+		"oF": 0
+		},
+	"\/page-retail.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-retail.php",
 		"oF": 0
 		},
 	"\/page.php": {
