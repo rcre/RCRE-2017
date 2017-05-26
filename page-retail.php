@@ -1,9 +1,3 @@
-<?php
-/*
- Template Name: Retail
-*/
-?>
-
 <?php get_header(); ?>
 			
 	<div id="content">

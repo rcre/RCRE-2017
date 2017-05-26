@@ -1,9 +1,3 @@
-<?php
-/*
- Template Name: Land
-*/
-?>
-
 <?php get_header(); ?>
 			
 	<div id="content">

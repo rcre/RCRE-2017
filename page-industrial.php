@@ -1,9 +1,3 @@
-<?php
-/*
- Template Name: Industrial
-*/
-?>
-
 <?php get_header(); ?>
 			
 	<div id="content">

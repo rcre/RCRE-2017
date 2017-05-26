@@ -1,9 +1,3 @@
-<?php
-/*
- Template Name: Office
-*/
-?>
-
 <?php get_header(); ?>
 			
 	<div id="content">
@@ -61,7 +55,7 @@
 							<?php // This will loop through brokers who are a part of this specialty
 							$args = array(
 								'post_type' => array('broker') ,
-								'Specialty' => get_queried_object_id(),
+								'Specialty' => 'office',
 								'orderby' => 'DESC',							
 							);
 

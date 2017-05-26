@@ -235,17 +235,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/library\/images\/bg\/bg-services.png": {
-		"ft": 32768,
-		"iS": 1062511,
-		"oA": 0,
-		"oAP": "\/library\/images\/bg\/bg-services.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/library\/images\/bg\/header-home.jpg": {
 		"ft": 16384,
 		"iS": 95644,
@@ -275,6 +264,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/library\/images\/bg\/section-services.png": {
+		"ft": 32768,
+		"iS": 1062511,
+		"oA": 0,
+		"oAP": "\/library\/images\/bg\/section-services.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/library\/images\/client-logos\/Coca-Cola.png": {
 		"ft": 32768,
@@ -1021,86 +1021,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/library\/images\/specialties\/office\/bg-office-panel-1.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/bg-office-panel-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/library\/images\/specialties\/office\/bg-office-panel-2-graph.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/office\/bg-office-panel-2-graph.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/specialties\/office\/bg-office-panel-2-lines.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/bg-office-panel-2-lines.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/library\/images\/specialties\/office\/bg-office-panel-3.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/bg-office-panel-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/library\/images\/specialties\/office\/button-brokerage-services.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/button-brokerage-services.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/library\/images\/specialties\/office\/button-corporate-services.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/button-corporate-services.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/library\/images\/specialties\/office\/button-investment-services.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/button-investment-services.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/library\/images\/specialties\/office\/button-property-mgmt.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/button-property-mgmt.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/library\/images\/specialties\/office\/client-logo-hylant.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -1121,11 +1041,151 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/specialties\/office\/header-office-desktop.jpg": {
+	"\/library\/images\/specialties\/office\/section-contact.jpg": {
+		"ft": 16384,
+		"iS": 208714,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/section-contact.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/service-brokerage-button.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/header-office-desktop.jpg",
+		"oAP": "\/library\/images\/specialties\/office\/service-brokerage-button.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/service-investment-button.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/service-investment-button.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/service-property-mgmt-button.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/service-property-mgmt-button.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/services-corporate-button.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/services-corporate-button.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/specialty-industrial-header.jpg": {
+		"ft": 16384,
+		"iS": 494859,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/specialty-industrial-panel-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-panel-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/office\/specialty-industrial-panel-2-graph.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-panel-2-graph.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/office\/specialty-industrial-panel-2-lines.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-panel-2-lines.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/office\/specialty-industrial-panel-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-panel-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/office\/specialty-office-header.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-office-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/specialty-office-panel-1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-office-panel-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/specialty-office-panel-2-graph.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-office-panel-2-graph.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/office\/specialty-office-panel-2-lines.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-office-panel-2-lines.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/office\/specialty-office-panel-3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/specialty-office-panel-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2197,6 +2257,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-retail.php",
+		"oF": 0
+		},
+	"\/page-service.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-service.php",
 		"oF": 0
 		},
 	"\/page.php": {
