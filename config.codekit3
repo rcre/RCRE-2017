@@ -1005,21 +1005,375 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/library\/images\/nothing.gif": {
-		"ft": 4194304,
-		"iS": 1140,
+	"\/library\/images\/section-contact.jpg": {
+		"ft": 16384,
+		"iS": 208714,
 		"oA": 0,
-		"oAP": "\/library\/images\/nothing.gif",
+		"oAP": "\/library\/images\/section-contact.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/library\/images\/nothumb.gif": {
-		"ft": 4194304,
-		"iS": 1161,
+	"\/library\/images\/services\/brokerage\/service-brokerage-button.jpg": {
+		"ft": 16384,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/nothumb.gif",
+		"oAP": "\/library\/images\/services\/brokerage\/service-brokerage-button.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/services\/brokerage\/service-brokerage-multimarket.jpg": {
+		"ft": 16384,
+		"iS": 1404649,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/brokerage\/service-brokerage-multimarket.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/brokerage\/service-brokerage-occupancy.jpg": {
+		"ft": 16384,
+		"iS": 504018,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/brokerage\/service-brokerage-occupancy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/brokerage\/service-brokerage-portfolio-lease-administration.jpg": {
+		"ft": 16384,
+		"iS": 1543644,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/brokerage\/service-brokerage-portfolio-lease-administration.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/investments\/mobile-service-investments-capital-advisors.jpg": {
+		"ft": 16384,
+		"iS": 196148,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/investments\/mobile-service-investments-capital-advisors.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/investments\/mobile-service-investments-multifamily.jpg": {
+		"ft": 16384,
+		"iS": 200856,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/investments\/mobile-service-investments-multifamily.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/investments\/mobile-service-investments-netlease.jpg": {
+		"ft": 16384,
+		"iS": 376862,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/investments\/mobile-service-investments-netlease.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/investments\/service-investment-button.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/investments\/service-investment-button.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/investments\/service-investments-capital-advisors.jpg": {
+		"ft": 16384,
+		"iS": 603625,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/investments\/service-investments-capital-advisors.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/investments\/service-investments-header.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/investments\/service-investments-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/investments\/service-investments-multifamily.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/investments\/service-investments-multifamily.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/investments\/service-investments-net-lease.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/investments\/service-investments-net-lease.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/project-mgmt\/services-project-mgmt-button.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/project-mgmt\/services-project-mgmt-button.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-asset-management.jpg": {
+		"ft": 16384,
+		"iS": 130313,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-asset-management.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-facility-management.jpg": {
+		"ft": 16384,
+		"iS": 227987,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-facility-management.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-header.jpg": {
+		"ft": 16384,
+		"iS": 248008,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-maintainance-services.jpg": {
+		"ft": 16384,
+		"iS": 119976,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-maintainance-services.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-property-management.jpg": {
+		"ft": 16384,
+		"iS": 122834,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-property-management.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-asset-management.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-asset-management.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-facility-management.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-facility-management.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-header.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-maintainance-services.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-maintainance-services.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-property-management.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-property-management.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/industrial\/cs-gti-interior.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/industrial\/cs-gti-interior.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/industrial\/specialty-industrial-header.jpg": {
+		"ft": 16384,
+		"iS": 494859,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/industrial\/specialty-industrial-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/land\/specialty-land-header.jpg": {
+		"ft": 16384,
+		"iS": 374867,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/land\/specialty-land-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/land\/specialty-land-panel-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/land\/specialty-land-panel-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/multifamily\/industries\/apartments.jpg": {
+		"ft": 16384,
+		"iS": 137293,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/apartments.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/multifamily\/industries\/hotels.jpg": {
+		"ft": 16384,
+		"iS": 146468,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/hotels.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/multifamily\/industries\/resorts.jpg": {
+		"ft": 16384,
+		"iS": 135370,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/resorts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/multifamily\/industries\/self-storage.jpg": {
+		"ft": 16384,
+		"iS": 177914,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/self-storage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/multifamily\/industries\/senior-living.jpg": {
+		"ft": 16384,
+		"iS": 158652,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/senior-living.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/multifamily\/industries\/student-housing.jpg": {
+		"ft": 16384,
+		"iS": 242479,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/student-housing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/multifamily\/specialty-multifamily-header.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/multifamily\/specialty-multifamily-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/multifamily\/specialty-multifamily-panel-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/multifamily\/specialty-multifamily-panel-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/library\/images\/specialties\/office\/client-logo-hylant.jpg": {
 		"ft": 16384,
@@ -1031,115 +1385,65 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/specialties\/office\/cs-gti-interior.jpg": {
+	"\/library\/images\/specialties\/office\/industries\/corporate.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 146555,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/cs-gti-interior.jpg",
+		"oAP": "\/library\/images\/specialties\/office\/industries\/corporate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/specialties\/office\/section-contact.jpg": {
+	"\/library\/images\/specialties\/office\/industries\/education.jpg": {
 		"ft": 16384,
-		"iS": 208714,
+		"iS": 68907,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/section-contact.jpg",
+		"oAP": "\/library\/images\/specialties\/office\/industries\/education.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/specialties\/office\/service-brokerage-button.jpg": {
+	"\/library\/images\/specialties\/office\/industries\/government.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 74353,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/service-brokerage-button.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/library\/images\/specialties\/office\/service-investment-button.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/service-investment-button.jpg",
+		"oAP": "\/library\/images\/specialties\/office\/industries\/government.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/specialties\/office\/service-property-mgmt-button.jpg": {
+	"\/library\/images\/specialties\/office\/industries\/healthcare.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 106859,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/service-property-mgmt-button.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/library\/images\/specialties\/office\/services-corporate-button.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/services-corporate-button.jpg",
+		"oAP": "\/library\/images\/specialties\/office\/industries\/healthcare.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/specialties\/office\/specialty-industrial-header.jpg": {
+	"\/library\/images\/specialties\/office\/industries\/lawfirm.jpg": {
 		"ft": 16384,
-		"iS": 494859,
+		"iS": 188681,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-header.jpg",
+		"oAP": "\/library\/images\/specialties\/office\/industries\/lawfirm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/specialties\/office\/specialty-industrial-panel-1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-panel-1.svg",
+	"\/library\/images\/specialties\/office\/industries\/small-business.jpg": {
+		"ft": 16384,
+		"iS": 131962,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/office\/industries\/small-business.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/specialties\/office\/specialty-industrial-panel-2-graph.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-panel-2-graph.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/specialties\/office\/specialty-industrial-panel-2-lines.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-panel-2-lines.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/specialties\/office\/specialty-industrial-panel-3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-industrial-panel-3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"q": 100
 		},
 	"\/library\/images\/specialties\/office\/specialty-office-header.jpg": {
 		"ft": 16384,
@@ -1191,21 +1495,121 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/library\/images\/website_icon.svg": {
+	"\/library\/images\/specialties\/retail\/industries\/convienience.jpg": {
+		"ft": 16384,
+		"iS": 89716,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/retail\/industries\/convienience.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/retail\/industries\/grocery.jpg": {
+		"ft": 16384,
+		"iS": 79100,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/retail\/industries\/grocery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/retail\/industries\/merchandise.jpg": {
+		"ft": 16384,
+		"iS": 197456,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/retail\/industries\/merchandise.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/retail\/industries\/restaurant.jpg": {
+		"ft": 16384,
+		"iS": 133001,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/retail\/industries\/restaurant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/retail\/industries\/shopping.jpg": {
+		"ft": 16384,
+		"iS": 79241,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/retail\/industries\/shopping.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/retail\/industries\/small-business.jpg": {
+		"ft": 16384,
+		"iS": 182172,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/retail\/industries\/small-business.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/retail\/specialty-retail-header.jpg": {
+		"ft": 16384,
+		"iS": 495320,
+		"oA": 0,
+		"oAP": "\/library\/images\/specialties\/retail\/specialty-retail-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/website_icon.svg",
+		"oAP": "\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/website_icon_1.svg": {
+	"\/library\/images\/specialties\/specialty-panel-2-graph.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/website_icon_1.svg",
+		"oAP": "\/library\/images\/specialties\/specialty-panel-2-graph.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/specialty-panel-2-lines.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/specialty-panel-2-lines.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialties\/specialty-panel-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialties\/specialty-panel-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/specialty-land-panel-1_Industrial - Panel 1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/library\/images\/specialty-land-panel-1_Industrial - Panel 1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1253,6 +1657,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/library\/partials\/proposalContact.php",
+		"oF": 0
+		},
+	"\/library\/partials\/sectionCaseStudy.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/sectionCaseStudy.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionTopic.php": {
