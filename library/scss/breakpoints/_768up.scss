@@ -1,11 +1,6 @@
 /******************************************************************
-Site Name: RESOURCE Commercial Real Estate
-Author: Patrick Hanus
-
-Stylesheet: Tablet & Small Desktop Stylesheet
-
+Stylesheet: 768px and up - Tablet & Small Desktop Stylesheet
 ******************************************************************/
-
 
 /*********************
 HEADER STYLES
@@ -29,14 +24,14 @@ HEADER STYLES
 
 .callout {
 
-		.header-buttons {
-			margin: 70px;
+	.header-buttons {
+		margin: 70px;
 
-			a {
-				margin: 5%;
-			}
+		a {
+			margin: 5%;
 		}
 	}
+}
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -61,10 +56,6 @@ NAVIGATION STYLES
 	border: 0;
 	text-align: right;
 	float: right;
-
-	ul {
-
-	}
 
 	li {
 
@@ -217,7 +208,7 @@ NAVIGATION STYLES
 }
 
 /*********************
-SECITON STYLES
+SECTION STYLES
 *********************/
 
 section {
@@ -266,7 +257,7 @@ section {
 			    transform: skewX(20deg);
 			    -ms-transform: skewX(20deg); /* IE 9 */
 			    -webkit-transform: skewX(20deg); /* Safari and Chrome */
-			    background-image: url('../images/bg/bg-services.png'); 
+			    background-image: url('../images/bg/section-services.png'); 
 			    background-repeat: no-repeat;
 			    background-position: top left;
 			    position: absolute;
@@ -288,7 +279,7 @@ section {
 	    	transform-origin: top left;
 
 	    	&::before {
-			    background-image: url('../images/bg/bg-services.png');
+			    background-image: url('../images/bg/section-services.png');
 				content: "";
 			    background-repeat: no-repeat; 
 			    background-position: top left;
@@ -319,13 +310,13 @@ FOOTER STYLES
 
 p.copyright {
 	display: inline-block;
-	margin: 6px auto;
+	margin: 10px auto;
 }
 
 .footer-links {
 	display: inline-block;
 	float: right;
-	margin: 6px auto;
+	margin: 10px auto;
 
 	.nav {
 		background: transparent;
@@ -338,6 +329,10 @@ p.copyright {
 		li {
 			margin: 0;
 			padding: 0;
+
+			&:hover, &:focus {
+				background-color: $dgray;
+			}
 			
 			a {
 				margin: 0;
