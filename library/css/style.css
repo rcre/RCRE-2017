@@ -2987,6 +2987,11 @@ over your project's layout.
   padding-right: 0 !important; }
 
 @media (max-width: 767px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto); }
   .m-padding {
     margin-left: 25px;
     margin-right: 25px; }
@@ -3018,6 +3023,11 @@ over your project's layout.
 
 /* Portrait tablet to landscape */
 @media (min-width: 768px) and (max-width: 1029px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto); }
   .t-all {
     float: left;
     padding-right: 0.75em;
@@ -3072,6 +3082,11 @@ over your project's layout.
 
 /* Landscape to small desktop */
 @media (min-width: 1030px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto); }
   .d-all {
     float: left;
     padding-right: 0.75em;
@@ -3190,6 +3205,10 @@ over your project's layout.
   .center {
     margin: 0 auto; } }
 
+.pad {
+  margin-left: 8.33%;
+  margin-right: 8.33%; }
+
 /*********************
 IMPORTING MODULES
 *********************/
@@ -3248,7 +3267,7 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, #cta-solid-white, #cta-border, #cta-border-gray, #cta-border-green {
+.blue-btn, #cta-solid-white, #cta-border, #cta-border-gray, #cta-border-green, .cta-border-green {
   display: block;
   border: 2px solid;
   border-radius: 10px;
@@ -3259,11 +3278,11 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   font-weight: 600;
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
-  .blue-btn:hover, #cta-solid-white:hover, #cta-border:hover, #cta-border-gray:hover, #cta-border-green:hover, .blue-btn:focus, #cta-solid-white:focus, #cta-border:focus, #cta-border-gray:focus, #cta-border-green:focus {
+  .blue-btn:hover, #cta-solid-white:hover, #cta-border:hover, #cta-border-gray:hover, #cta-border-green:hover, .cta-border-green:hover, .blue-btn:focus, #cta-solid-white:focus, #cta-border:focus, #cta-border-gray:focus, #cta-border-green:focus, .cta-border-green:focus {
     color: #fff;
     text-decoration: none;
     outline: none; }
-  .blue-btn:active, #cta-solid-white:active, #cta-border:active, #cta-border-gray:active, #cta-border-green:active {
+  .blue-btn:active, #cta-solid-white:active, #cta-border:active, #cta-border-gray:active, #cta-border-green:active, .cta-border-green:active {
     top: 1px; }
 
 /*
@@ -3321,13 +3340,23 @@ and it will create a button dependant on those variables.
   #cta-border-green:active {
     background-color: #cbd527; }
 
+.cta-border-green {
+  color: #d2db3a;
+  background-color: none;
+  border-color: #d2db3a; }
+  .cta-border-green:hover, .cta-border-green:focus {
+    background-color: #d4dd43;
+    transition: 0.5s; }
+  .cta-border-green:active {
+    background-color: #cbd527; }
+
 #cta-underline-gray {
   text-decoration: none;
   padding-bottom: 3px;
-  color: #576571;
+  color: #75caca;
   background-color: none;
   border: none;
-  border-bottom: 1px solid #576571;
+  border-bottom: 1px solid #75caca;
   font-weight: 600; }
   #cta-underline-gray:hover, #cta-underline-gray:focus {
     color: #8998a5;
@@ -3876,6 +3905,19 @@ form {
     margin-top: 10px;
     float: right;
     background-color: transparent; }
+  form input[type="submit"]:disabled {
+    margin-top: 10px;
+    float: right;
+    background-color: transparent;
+    cursor: not-allowed;
+    border-color: #576571;
+    color: #576571; }
+    form input[type="submit"]:disabled:hover {
+      border-color: #576571;
+      color: #576571; }
+  form .g-recaptcha {
+    margin-top: 20px;
+    margin-bottom: 10px; }
 
 /*********************
 BASE (MOBILE) SIZE
@@ -3900,11 +3942,20 @@ ol,
 ul {
   margin: 0; }
 
+h3, .h3 {
+  font-size: 1.5em; }
+
+h4, .h4 {
+  font-size: 0.9em; }
+
+h5, .h5 {
+  font-size: 0.8em; }
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 100%;
+  width: 90%;
   margin: 0 auto; }
 
 /*********************
@@ -4050,106 +4101,6 @@ POSTS & CONTENT STYLES
     margin: 0; }
 
 /* end .hentry */
-.single-title,
-.page-title,
-.entry-title {
-  baseline: bottom;
-  margin: 40px 0 0 0; }
-
-/* post meta */
-.byline {
-  color: #9fa6b4;
-  font-style: italic;
-  margin: 0; }
-
-/* entry content */
-.entry-content {
-  padding: 0;
-  /*
-			image alignment on a screen this size may be
-			a bit difficult. It's set to start aligning
-			and floating images at the next breakpoint,
-			but it's up to you. Feel free to change it up.
-			*/ }
-  .entry-content p {
-    margin: 0 0 1.5em; }
-  .entry-content table {
-    width: 100%;
-    border: 1px solid #576571;
-    margin-bottom: 1.5em; }
-    .entry-content table caption {
-      margin: 0 0 7px;
-      font-size: 0.75em;
-      color: #9fa6b4;
-      text-transform: uppercase;
-      letter-spacing: 1px; }
-  .entry-content tr {
-    border-bottom: 1px solid #576571; }
-    .entry-content tr:nth-child(even) {
-      background-color: #e6e6e6; }
-  .entry-content td {
-    padding: 7px;
-    border-right: 1px solid #576571; }
-    .entry-content td:last-child {
-      border-right: 0; }
-  .entry-content th {
-    background-color: #e6e6e6;
-    border-bottom: 1px solid #576571;
-    border-right: 1px solid #576571; }
-    .entry-content th:last-child {
-      border-right: 0; }
-  .entry-content blockquote {
-    margin: 0 0 1.5em 0.75em;
-    padding: 0 0 0 0.75em;
-    border-left: 3px solid #75caca;
-    font-style: italic;
-    color: #9fa6b4; }
-  .entry-content dd {
-    margin-left: 0;
-    font-size: 0.9em;
-    color: #787878;
-    margin-bottom: 1.5em; }
-  .entry-content img {
-    margin: 0 0 1.5em 0;
-    max-width: 100%;
-    height: auto; }
-  .entry-content .size-auto,
-  .entry-content .size-full,
-  .entry-content .size-large,
-  .entry-content .size-medium,
-  .entry-content .size-thumbnail {
-    max-width: 100%;
-    height: auto; }
-  .entry-content pre {
-    background: #323944;
-    color: #e6e6e6;
-    font-size: 0.9em;
-    padding: 1.5em;
-    margin: 0 0 1.5em;
-    border-radius: 3px; }
-
-/* end .entry-content */
-.wp-caption {
-  max-width: 100%;
-  background: #eee;
-  padding: 5px;
-  /* images inside wp-caption */ }
-  .wp-caption img {
-    max-width: 100%;
-    margin-bottom: 0;
-    width: 100%; }
-  .wp-caption p.wp-caption-text {
-    font-size: 0.85em;
-    margin: 4px 0 7px;
-    text-align: center; }
-
-/* end .wp-caption */
-/* image gallery styles */
-/* end .gallery */
-/* gallery caption styles */
-.tags {
-  margin: 0; }
-
 /*********************
 SECTION STYLES
 *********************/
@@ -4189,7 +4140,9 @@ module/ourClientsBar
     background-color: #d9d9d9; }
   .our-clients img {
     padding: 2%;
-    vertical-align: center; }
+    vertical-align: center;
+    max-height: 100px;
+    width: auto; }
 
 .service-grid div {
   padding: 0; }
@@ -4214,20 +4167,21 @@ ul.tabs {
   list-style: none;
   float: left; }
   ul.tabs li {
-    margin: 0;
+    margin: 5px 0;
     cursor: pointer;
     padding: 20px;
     line-height: 30px;
     overflow: hidden;
     position: relative;
     border-radius: 5px;
-    transition: 0.5s; }
+    transition: 0.5s;
+    background-color: #e6e6e6; }
     ul.tabs li:hover {
-      background-color: white;
+      background-color: #f3f3f3;
       color: #333;
       transition: 0.5s; }
     ul.tabs li.active {
-      background-color: #e6e6e6;
+      background-color: #f3f3f3;
       color: #333;
       display: block; }
 
@@ -4238,7 +4192,7 @@ ul.tabs {
 
 .tab_content {
   margin: 80px auto;
-  width: 50%;
+  width: 70%;
   display: none; }
   .tab_content img {
     width: 100px; }
@@ -4301,7 +4255,20 @@ aside img {
 .case-study-icon {
   border: 5px solid #e6e6e6;
   border-radius: 5px;
-  margin: 5%; }
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  vertical-align: center;
+  position: relative;
+  transition: 0.5s; }
+  .case-study-icon:hover {
+    border: 5px solid #75caca;
+    transition: 0.5s; }
+  .case-study-icon img {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 80%; }
 
 .download-icon {
   background-image: url("../images/icons/icon-download.svg");
@@ -4440,33 +4407,48 @@ Speciatly Page Styles
 #specialties-and-industries {
   background-image: url("../images/bg/header-home.jpg"); }
 
-#services {
-  background-image: url("../images/bg/bg-services.png"); }
-  #services--brokerage {
-    background-image: url("../images/bg/bg-services.png"); }
-  #services--investment {
-    background-image: url("../images/bg/bg-services.png"); }
-  #services--corporate {
-    background-image: url("../images/bg/bg-services.png"); }
-  #services--management {
-    background-image: url("../images/bg/bg-services.png"); }
+header#service {
+  background-image: url("../images/service/brokerage/service-brokerage-header.png");
+  padding-top: 150px;
+  padding-bottom: 50px; }
+  header#service--brokerage {
+    background-image: url("../images/service/brokerage/service-brokerage-header.png"); }
+  header#service--investments {
+    background-image: url("../images/service/investments/service-investments-header.png"); }
+  header#service--contruction {
+    background-image: url("../images/service/construction/service-construction-header.png"); }
+  header#service--management {
+    background-image: url("../images/service/management/service-management-header.png"); }
+  header#service--valuation {
+    background-image: url("../images/service/valuation/service-valuation-header.png"); }
+  header#service--incentives {
+    background-image: url("../images/service/incentives/service-incentives-header.png"); }
+  header#service--capital-advisors {
+    background-image: url("../images/service/capital-advisors/service-capital-advisors-header.png"); }
+  header#service--owner-rep {
+    background-image: url("../images/service/owner-rep/service-owner-rep-header.png"); }
+  header#service--occupier-rep {
+    background-image: url("../images/service/occupier-rep/service-occupier-rep-header.png"); }
 
 #specialty--office {
-  background-image: url("../images/specialties/office/header-office-desktop.jpg"); }
+  background-image: url("../images/specialties/office/speciatly-office-header.jpg"); }
 
 #specialty--retail {
-  background-image: url("../images/specialties/retail/"); }
+  background-image: url("../images/specialties/retail/speciatly-retail-header.jpg"); }
 
 #specialty--industrial {
-  background-image: url("../images/specialties/industrial/"); }
+  background-image: url("../images/specialties/industrial/speciatly-industrial-header.jpg"); }
 
 #specialty--land {
-  background-image: url("../images/specialties/land/"); }
+  background-image: url("../images/specialties/land/speciatly-land-header.jpg"); }
 
 #specialty--multifamily {
-  background-image: url("../images/specialties/multifamily/"); }
+  background-image: url("../images/specialties/multifamily/speciatly-multifamily-header.jpg"); }
 
 /* --mobile */
+/******************
+MODULE: SERVICE DESCRIPTION
+******************/
 .uvp p {
   border: 2px solid #75caca;
   padding: 40px;
@@ -4490,9 +4472,9 @@ Speciatly Page Styles
   #need-help .fa-heart {
     color: #f01d4f; }
 
-/*********************
-SERVICE GRID STYLES
-*********************/
+/***********
+MODULE: SERVICE GRID
+***********/
 .service-grid .service-box {
   border: 5px solid #e6e6e6;
   border-radius: 10px;
@@ -4513,7 +4495,11 @@ footer {
 
 .footer-links ul li {
   padding: 10px 5px;
-  border-bottom: 2px solid #43505d; }
+  border-bottom: 2px solid #43505d;
+  transition: .5s; }
+  .footer-links ul li:hover, .footer-links ul li:focus {
+    background-color: #576571;
+    transition: .5s; }
 
 .copyright {
   font-size: 0.75em;
@@ -4599,11 +4585,7 @@ TABLET & SMALLER LAPTOPS
 *********************/
 @media only screen and (min-width: 768px) {
   /******************************************************************
-Site Name: RESOURCE Commercial Real Estate
-Author: Patrick Hanus
-
-Stylesheet: Tablet & Small Desktop Stylesheet
-
+Stylesheet: 768px and up - Tablet & Small Desktop Stylesheet
 ******************************************************************/
   /*********************
 HEADER STYLES
@@ -4721,7 +4703,7 @@ NAVIGATION STYLES
   #menu-item-137 .menu-item-description {
     width: 50px; }
   /*********************
-SECITON STYLES
+SECTION STYLES
 *********************/
   section .uvp {
     background-image: url("../images/bg/pattern.svg");
@@ -4759,7 +4741,7 @@ SECITON STYLES
         /* IE 9 */
         -webkit-transform: skewX(20deg);
         /* Safari and Chrome */
-        background-image: url("../images/bg/bg-services.png");
+        background-image: url("../images/bg/section-services.png");
         background-repeat: no-repeat;
         background-position: top left;
         position: absolute;
@@ -4778,7 +4760,7 @@ SECITON STYLES
       -ms-transform-origin: top left;
       transform-origin: top left; }
       section .slant--right::before {
-        background-image: url("../images/bg/bg-services.png");
+        background-image: url("../images/bg/section-services.png");
         content: "";
         background-repeat: no-repeat;
         background-position: top left;
@@ -4800,11 +4782,11 @@ FOOTER STYLES
 *********************/
   p.copyright {
     display: inline-block;
-    margin: 6px auto; }
+    margin: 10px auto; }
   .footer-links {
     display: inline-block;
     float: right;
-    margin: 6px auto; }
+    margin: 10px auto; }
     .footer-links .nav {
       background: transparent; }
     .footer-links ul {
@@ -4813,6 +4795,8 @@ FOOTER STYLES
       .footer-links ul li {
         margin: 0;
         padding: 0; }
+        .footer-links ul li:hover, .footer-links ul li:focus {
+          background-color: #43505d; }
         .footer-links ul li a {
           margin: 0;
           margin-right: 10px;
@@ -4838,6 +4822,8 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+  .wrap {
+    width: 1240px; }
   .nav li:last-child {
     display: inline-block; }
   .service-grid .service-box {

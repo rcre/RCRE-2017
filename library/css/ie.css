@@ -2598,11 +2598,7 @@ do they need tweaking?
 */
 /* end .footer-links */
 /******************************************************************
-Site Name: RESOURCE Commercial Real Estate
-Author: Patrick Hanus
-
-Stylesheet: Tablet & Small Desktop Stylesheet
-
+Stylesheet: 768px and up - Tablet & Small Desktop Stylesheet
 ******************************************************************/
 /*********************
 HEADER STYLES
@@ -2728,7 +2724,7 @@ NAVIGATION STYLES
   width: 50px; }
 
 /*********************
-SECITON STYLES
+SECTION STYLES
 *********************/
 section .uvp {
   background-image: url("../images/bg/pattern.svg");
@@ -2768,7 +2764,7 @@ section .slant {
       /* IE 9 */
       -webkit-transform: skewX(20deg);
       /* Safari and Chrome */
-      background-image: url("../images/bg/bg-services.png");
+      background-image: url("../images/bg/section-services.png");
       background-repeat: no-repeat;
       background-position: top left;
       position: absolute;
@@ -2787,7 +2783,7 @@ section .slant {
     -ms-transform-origin: top left;
     transform-origin: top left; }
     section .slant--right::before {
-      background-image: url("../images/bg/bg-services.png");
+      background-image: url("../images/bg/section-services.png");
       content: "";
       background-repeat: no-repeat;
       background-position: top left;
@@ -2811,12 +2807,12 @@ FOOTER STYLES
 *********************/
 p.copyright {
   display: inline-block;
-  margin: 6px auto; }
+  margin: 10px auto; }
 
 .footer-links {
   display: inline-block;
   float: right;
-  margin: 6px auto; }
+  margin: 10px auto; }
   .footer-links .nav {
     background: transparent; }
   .footer-links ul {
@@ -2825,6 +2821,8 @@ p.copyright {
     .footer-links ul li {
       margin: 0;
       padding: 0; }
+      .footer-links ul li:hover, .footer-links ul li:focus {
+        background-color: #43505d; }
       .footer-links ul li a {
         margin: 0;
         margin-right: 10px;
@@ -2846,6 +2844,9 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+.wrap {
+  width: 1240px; }
+
 .nav li:last-child {
   display: inline-block; }
 
