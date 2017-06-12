@@ -35,10 +35,30 @@ aside {
 		}
 	}
 
+
+
+// Case Study Icon that has the logo inside of it
 .case-study-icon {
 	border: 5px solid $lgray;
 	border-radius: 5px;
-	margin: 5%;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	vertical-align: center;
+	position: relative;
+	transition: $trans;
+
+	&:hover {
+		border: 5px solid $blue;
+		transition: $trans;
+	}
+
+	img {
+		position: absolute;
+		top: 35%;
+		left: 10%;
+		width: 80%;
+	}
 }
 
 .download-icon {
