@@ -3,9 +3,11 @@
 // -Things that can be consolidated
 // -Things that I am ashamed of, but they work...for now.
 
+/******************
+MODULE: SERVICE DESCRIPTION
+******************/
 
-// --------------- Homepage Styles ----------------
-
+// Main Idea with three sub-ideas
 	.uvp {
 		p {
 			border: 2px solid $blue;
@@ -27,6 +29,7 @@
 		}
 	}
 
+// Full-width callout strip
 	#need-help {
 		margin: 0px;
 		background-color: $dblue;
@@ -39,12 +42,14 @@
 		}
 	}
 
-/*********************
-SERVICE GRID STYLES
-*********************/
+/***********
+MODULE: SERVICE GRID
+***********/
 
+// Grid of services
 .service-grid {
 	
+	// Individual service item
 	.service-box {
 		border: 5px solid $lgray;
 		border-radius: 10px;
