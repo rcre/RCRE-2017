@@ -9,7 +9,7 @@
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-
+			
 				<section class="pull-r-1of12 pull-l-1of12 entry-content cf" itemprop="articleBody">
 					<?php the_content();
 						wp_link_pages( array(
