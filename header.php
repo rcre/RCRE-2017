@@ -32,6 +32,13 @@
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-square-dark.png">
             <meta name="theme-color" content="#d2db3a">
 		
+		<?php // Google reCaptcha API ?>
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+		<script>
+ 			function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500);
+		</script>
+
+		 
 		<?php // Enriched Google Cards ?>
 		<script type="application/ld+json"> {
 			"@context":"http://schema.org",
@@ -58,14 +65,14 @@
 			"openingHours": [ 
 				"Mo-Fri 8:00-17:00"],
 			"Headquarters":"Indianapolis",
-			"President":"Kevin H. Abrams",
+			"President":"Kevin H. Adams",
 			"Founded":"2005"
 		}
+
 		</script>
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-		
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
 
