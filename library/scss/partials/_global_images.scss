@@ -10,46 +10,68 @@
 	background-image: url('../images/bg/header-home.jpg');
 }
 
-#services {
-	background-image: url('../images/bg/bg-services.png');
+header#service {
+	background-image: url('../images/service/brokerage/service-brokerage-header.png');
+	padding-top: 150px;
+	padding-bottom: 50px;
 
 	&--brokerage {
-		background-image: url('../images/bg/bg-services.png');
+		background-image: url('../images/service/brokerage/service-brokerage-header.png');
 	}
 
-	&--investment {
-		background-image: url('../images/bg/bg-services.png');
+	&--investments {
+		background-image: url('../images/service/investments/service-investments-header.png');
 	}
 
-	&--corporate {
-		background-image: url('../images/bg/bg-services.png');
+	&--contruction {
+		background-image: url('../images/service/construction/service-construction-header.png');
 	}
 
 	&--management {
-		background-image: url('../images/bg/bg-services.png');
+		background-image: url('../images/service/management/service-management-header.png');
+	}
+
+	&--valuation {
+		background-image: url('../images/service/valuation/service-valuation-header.png');
+	}
+
+	&--incentives {
+		background-image: url('../images/service/incentives/service-incentives-header.png');
+	}
+
+	&--capital-advisors {
+		background-image: url('../images/service/capital-advisors/service-capital-advisors-header.png');
+	}
+
+	&--owner-rep {
+		background-image: url('../images/service/owner-rep/service-owner-rep-header.png');
+	}
+
+	&--occupier-rep {
+		background-image: url('../images/service/occupier-rep/service-occupier-rep-header.png');
 	}
 }
 
 #specialty {
 
 	&--office {
-		background-image: url('../images/specialties/office/header-office-desktop.jpg');
+		background-image: url('../images/specialties/office/speciatly-office-header.jpg');
 	}
 
 	&--retail {
-		background-image: url('../images/specialties/retail/');
+		background-image: url('../images/specialties/retail/speciatly-retail-header.jpg');
 	}
 
 	&--industrial {
-		background-image: url('../images/specialties/industrial/');
+		background-image: url('../images/specialties/industrial/speciatly-industrial-header.jpg');
 	}
 
 	&--land {
-		background-image: url('../images/specialties/land/');
+		background-image: url('../images/specialties/land/speciatly-land-header.jpg');
 	}
 
 	&--multifamily {
-		background-image: url('../images/specialties/multifamily/');
+		background-image: url('../images/specialties/multifamily/speciatly-multifamily-header.jpg');
 	}
 }
 
