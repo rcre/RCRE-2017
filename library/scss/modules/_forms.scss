@@ -297,4 +297,22 @@ form {
     background-color: transparent;
   }
 
+  input[type="submit"]:disabled {
+    margin-top: 10px;
+    float: right;
+    background-color: transparent;
+    cursor: not-allowed;
+    border-color: $gray;
+    color: $gray;
+
+    &:hover {
+      border-color: $gray;
+      color: $gray;
+    }
+  }
+
+  .g-recaptcha {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 }

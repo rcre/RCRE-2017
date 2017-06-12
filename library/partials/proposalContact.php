@@ -7,9 +7,12 @@ Proposal Contact Form */
 	<!-- Contact Form -->
 	<div class="pull-r-1of12 pull-l-1of12 cf">
 		<form id="contact-home" class="t-1of2 d-1of2 cf" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+		<input type=hidden name='captcha_settings' value='{"keyname":"rcre_website_2017","theme":"dark","fallback":"true","orgId":"00D15000000NClj","ts":""}'>
+		<input type=hidden name="oid" value="00D15000000NClj">
+		<input type=hidden name="retURL" value="http://">
+
 		<h2>Let's Get Started!</h2>
-			<input type=hidden name="oid" value="00D15000000NClj">
-			<input type=hidden name="retURL" value="http://">
 			<div class="m-all t-1of2 d-1of2">
 				<label for="first_name">First Name</label>
 				<input  id="first_name" name="first_name" tabindex="1" placeholder="First Name*" type="text" required="required" />
@@ -34,13 +37,18 @@ Proposal Contact Form */
 			<select id="lead_source" name="lead_source">
 			<option value="Web"></option>
 			</select>
+	
 
 			<div class="m-all t-all d-all">
 				<label for="description">How Can We Help?</label>
 				<textarea name="description" tabindex="6" placeholder="How can we help you today?"></textarea>
 			</div>
 			
-			<input id="cta-border-green" type="submit" name="submit" value="Let's Get Things Done!">
+			<div class="m-all t-all d-all">
+				<div class="g-recaptcha" data-sitekey="6LcbpyQUAAAAAKAjUdQypF-uVsjGbdR7VLD09QiK" callback="recaptcha_callback"></div>
+			</div>
+
+			<input disabled="disabled" id="contact_submit" class="cta-border-green" type="submit" name="submit" value="Let's Get Things Done!">
 		</form>
 		
 		<!-- Search Properties -->

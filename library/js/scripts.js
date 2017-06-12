@@ -169,6 +169,13 @@ function mobileMenu() {
     }
   }
 
+/*************************
+ * Mobile Dropdowns
+**************************/
+function recaptcha_callback() {
+jQuery('#contact_submit').removeAttr('disabled');
+}       
+
 jQuery(document).ready(function() {
 
   /*
@@ -179,6 +186,5 @@ jQuery(document).ready(function() {
   serviceTabs();
   mobileDropdowns();
   mobileMenu();
-
 
 }); /* end of as page load scripts */
