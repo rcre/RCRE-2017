@@ -141,13 +141,30 @@ and it will create a button dependant on those variables.
   } // end active
 }
 
+.cta-border-green {
+  @extend %btn;
+  color: $green;
+  background-color: none;
+  border-color: $green;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($green, 2%);
+    transition: 0.5s;
+  } // end hover
+
+  &:active {
+    background-color: darken($green, 5%);
+  } // end active
+}
+
 #cta-underline-gray {
   text-decoration: none;
   padding-bottom: 3px;
-  color: $gray;
+  color: $blue;
   background-color: none;
   border: none;
-  border-bottom: 1px solid $gray;
+  border-bottom: 1px solid $blue;
   font-weight: 600;
   
   &:hover,
