@@ -27,7 +27,7 @@
 							<a href="<?php // Most Recent Report ?>" id="cta-underline-gray">Read the 2016 <?php the_title(); ?> Research Report</a>
 
 						</aside>
-						<div class="research-chart t-1of2 d-4of5 m-all"><img src="<?php echo get_template_directory_uri(); ?>/library/images/specialties/office/bg-office-panel-2-graph.svg" alt=""></div>
+						<div class="research-chart t-1of2 d-4of5 m-all"><img src="<?php echo get_template_directory_uri(); ?>/library/images/specialties/specialty-panel-2-graph.svg" alt=""></div>
 					</section>
 					
 					<section id="Panel-3" class="panel cf">
