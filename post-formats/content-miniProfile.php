@@ -8,7 +8,8 @@
 		<?php // Get the link to broker's picture and get alt text ?>
 		<img class="broker-profile-picture" src="<?php echo types_render_field( "broker-profile-picture", array( 'raw' => true)); ?>" alt="<?php echo the_title(); ?>">
 		
-		<?php // Get the broker's name ?>
+		<?php 
+			// Get the broker's name ?>
 		<h4><?php echo the_title(); ?></h4>
 
 		<?php // Get broker's title ?>
