@@ -139,70 +139,19 @@
 				</div>
 			</header>
 
-		<?php if(is_front_page()) { ?>
-
-			<!-- Frontpage Header -->
-			<header id="page-header" class="header-home" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-				<!-- Callout Section for the Home Page-->
-				<div class="callout cf">
-					<div class="m-all t-1of2 d-1of2 center cf">
-						<h1 class="page-title" itemprop="headline">Get Things Done.</h1>
-						<p class="subtitle">RESOURCE helps you buy, lease and sell property, manage your assets and focus on what you love.</br>All without the corporate hoops.</p>
-						
-						<div class="header-buttons cf">
-							<a href="#" id="cta-border-green" class="m-all t-all d-2of5">Contact Us</a>
-							<a href="#" id="cta-solid-white" class="m-all t-all d-2of5">Search Properties</a>
-						</div>
-					</div>
-				</div>
-			</header>
+		<?php if ( is_front_page() ) { 
+			// Header only for the home page
+			get_template_part('library/partials/header-home');
 			
-		<?php } elseif (is_page()) { ?>
-		
+		} elseif ( is_page() || is_archive() ) {
+			// Header for all other pages
+			get_template_part('library/partials/header-default');
 
-		<!-- Page, Post and other Headers -->
-			<?php if (has_post_thumbnail($post->ID)) { ?>
-			<?php $image = wp_get_attachment_url(get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail'); ?>
+		} elseif ( is_single() ) { 
+			// Header for individual blog posts, case studies, and research reports
+			get_template_part('library/partials/header-post');
 
-				<header id="page-header" style="background-image: url('<?php echo $image; ?>');" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-				<!-- If no Picture, load the default BG -->
-				<?php } else { ?> 
-				<header id="page-header" class="default-bg" role="banner" itemscope itemtype="http://schema.org/WPHeader"> 
-				<?php	} ?>
-					
-				<!-- Callout Section for the Average Page-->
-				<div class="callout cf">
-					<div class="m-all t-1of2 d-1of2 center cf">
-						<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
-						<p class="subtitle">RESOURCE helps you buy, lease and sell property, manage your assets and focus on what you love.</br>All without the corporate hoops.</p>
-						
-						<div class="header-buttons cf">
-							<a href="#" id="cta-border-green" class="m-all t-all d-2of5">View Brokers</a>
-							<a href="#" id="cta-solid-white" class="m-all t-all d-2of5">Find Properties</a>
-						</div>
-					</div>
-				</div>
-					
-				</header>
-
-			<?php } elseif (is_single()) { ?>
-
-			
-			<?php } else  { ?>
-
-			<!-- Case Studies and Blog Post Headers -->
-				<header id="page-header" class="cs-header" style="background-image: url('<?php echo types_render_field( "header-image", array( 'raw' => true)); ?>');" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-				<!-- Callout Section for the Average Page-->
-					<div class="m-all t-all d-all cf">
-						<div class="m-all pull-r-1of12 pull-l-1of12 t-1of2 d-1of2 cf">
-							<div class="tag-post-type">Case Study</div>
-							<h1 class="cs-h1"><?php the_title(); ?></h1>
-							<p class="cs-subtitle">Catchy Comment about success</p>
-						</div>
-						<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( 'raw' => true)); ?>"></a>
-					</div>
-				</header>
-		<?php } ?>
+		} else {
+			get_template_part('library/partials/header-default');
+		} ?>
 			
