@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 			
 	<div id="content">
-
+		
+	<?php // Bar that shows the past clients we have worked with ?>
 		<div class="our-clients cf">
 			<h2 class="text-center">We've worked with some of the best in the business.</h2>
 			<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
@@ -22,7 +23,7 @@
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 					
-				<!-- SECTION 2: UVP "Unique Value Proposition" -->
+			<?php // Company UVP and introduction o why we are different ?>
 				<section class="m-padding">
 					<div class="pull-l-1of12 pull-r-1of12 cf">
 						<div class="uvp pull-l-1of12 pull-r-1of12">
@@ -47,45 +48,33 @@
 				</section>
 
 
-				<h2 class="header-dark text-center">Everything you need. All in one Place.</h2>
-				<!-- SECTION 1: Service Grid -->
-					<?php get_template_part('library/partials/serviceGrid'); ?>
+				
+			<?php // Service grid that directs the user where they need to go ?>
+				<?php get_template_part('library/partials/sectionServiceGrid'); ?>
 
-				<!-- SECTION 2: See our Services -->
-					<?php get_template_part('library/partials/sectionTopic'); ?>
-				<!-- SECTION 3: See our Specialties and Industries -->
+			<?php // Get the Three Topics for the Home Page ?>
+				<?php get_template_part('library/partials/sectionTopic'); ?>
+				<?php get_template_part('library/partials/sectionCaseStudy'); ?>
 
-					<section class="entry-content cf" itemprop="articleBody">
-						<?php 
+			<?php // Ask the user if they are having trouble finding things ?>
+				<section id="need-help">
+					<div class="m-padding">
+						<h2>Can’t find what you’re looking for?</h2>
+						<p>We want to ensure we make your life as easy as possible. </br>The best way we can serve you is <a id="cta-underline-white" href="#">sending us a message</a> or <a id="cta-underline-white" href="#">giving us a call.</a> No hoops.</p>
+						<p>We <i class="fa fa-heart" aria-hidden="true"></i> feedback! Let us know how we can make our site better!</p>
+					</div>
+				</section>
 
-						the_content();
-							wp_link_pages( array(
-								'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'bonestheme' ) . '</span>',
-								'after'       => '</div>',
-								'link_before' => '<span>',
-								'link_after'  => '</span>',
-							) );
-						?>
-					</section> <?php // end article section ?>
-					
-					<section id="need-help">
-						<div class="m-padding">
-							<h2>Can’t find what you’re looking for?</h2>
-							<p>We want to ensure we make you life as easy as possible. </br>The best way we can serve you is <a id="cta-underline-white" href="#">sending us a message</a> or <a id="cta-underline-white" href="#">giving us a call.</a> No hoops.</p>
-							<p>We <i class="fa fa-heart" aria-hidden="true"></i> feedback! Let us know how we can make our site better!</p>
-						</div>
-					</section>
-
-					<footer class="cf">
-						<?php get_template_part('library/partials/proposalContact'); ?>
-					</footer>
+				<footer class="cf">
+					<?php get_template_part('library/partials/sectionContact'); ?>
+				</footer>
 
 				</article>
 
 				<?php endwhile; endif; ?>
 			
 			</main>
-		</div>
-	</div>
+		</div><?php // End inner-content ?>
+	</div><?php // End content ?>
 
 <?php get_footer(); ?>
