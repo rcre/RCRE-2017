@@ -38,8 +38,9 @@
 				</div>
 			</section>
 
+		<?php get_template_part('library/partials/sectionSpecialties'); ?>
 
-		<?php // Service that come with using RESOURCE ?>
+		<?php // Services that come with using RESOURCE ?>
 			<h2 class="header-dark text-center">Everything you need. All in one Place.</h2>
 			<!-- This is a PHP partial -->
 			<section class="cf">
@@ -47,34 +48,10 @@
 					<?php get_template_part( 'post-formats/content-serviceDropdown' ); ?>
 				</div>
 			</section>
-
+			
+			
 		<!-- This is a wp loop for team memebers-->
-			<section id="SpecialtyTeam cf">
-			<h2 class="header-dark">The <?php the_title(); ?> Team</h2>
-				
-				<div class="pull-r-1of12 pull-l-1of12 grid">
-
-				
-					<?php // This will loop through brokers who are a part of this specialty
-					$args = array(
-						'post_type' => array('broker') ,
-						'service' => 'owner-representation',
-						'orderby' => 'DESC',							
-					);
-
-					$custom_posts = new WP_Query( $args );
-					
-					// Start the Loop.
-					while ( $custom_posts->have_posts() ) : $custom_posts->the_post();
-						
-						// Put the broker information in the mini-profile template
-						get_template_part( 'post-formats/content-miniProfile', get_post_type() );
-						
-					// End the loop.
-					endwhile; ?>
-
-				</div>
-			</section>
+			<?php get_template_part('library/partials/sectionTeam'); ?>
 
 		<?php // Related Case Studies (In a partial) ?>
 			<?php get_template_part('library/partials/sectionCaseStudy'); ?>
@@ -83,7 +60,7 @@
 			<footer class="article-footer cf">
 
 				<?php // Salesforce Contact Form (In a partial) ?>
-					<?php get_template_part('library/partials/proposalContact'); ?>
+					<?php get_template_part('library/partials/sectionContact'); ?>
 
 			</footer>
 

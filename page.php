@@ -10,6 +10,8 @@
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 			
+				<?php get_template_part('post-formats/content-section'); ?>
+
 				<section class="pull-r-1of12 pull-l-1of12 entry-content cf" itemprop="articleBody">
 					<?php the_content();
 						wp_link_pages( array(
@@ -23,19 +25,15 @@
 				
 				<footer class="article-footer cf">
 
-				<?php get_template_part('library/partials/proposalContact'); ?>
+				<?php get_template_part('library/partials/sectionContact'); ?>
 
 				</footer>
 
 			</article>
 
 			<?php endwhile; endif; ?>
-		
-		<?php wd_contact_form_maker(1); ?>
 		</main>
-
 	</div>
-
 </div>
 
 <?php get_footer(); ?>
