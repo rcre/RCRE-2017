@@ -1,9 +1,10 @@
-<!-- This will have the background image -->
+<?php // SECTION Shows a Topic ?>
+
 	<section class="topic cf">
 	<!-- This will have the SVG slant -->
 		
 	<!-- This part holds the main content in place in the section -->
-		<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right">
+		<aside class="m-all t-1of4 d-1of4 pull-l-1of12 pull-r-1of12 right">
 			<h3>Services</h3>
 			<div class="m-padding">
 			<p>Your business could be eligible for economic incentives you didn't know existed. This is money local and state governments use to attract growing businesses to their area. At RESOURCE, we help you find every bit of savings you could possibly get.
@@ -12,12 +13,12 @@
 			</div>
 		</aside>
 
-		<div class="slant slant--left"></div>
+		<div class="slant slant--right"></div>
 
 	</section>
 	
 	<section class="topic cf">
-		<aside class="m-all t-1of4 d-1of4 pull-r-1of12 left">
+		<aside class="m-all t-1of4 d-1of4 pull-r-1of12 pull-l-1of12 left">
 			<h3>Specialties and Industries</h3>
 			<div class="m-padding">
 			<p>Get the funding you need for acquisition, development or refinancing. RESOURCE provides debt and equity solutions for any type of real estate project.
@@ -26,17 +27,6 @@
 			<a id="cta-border-gray" href="#">Meet Our Brokers</a>
 			</div>
 		</aside>
-		<div class="slant slant--right"></div>
-	</section>
-
-	<section class="topic cf">
-		<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right">
-			<h3>Case Studies</h3>
-			<div class="m-padding">
-			<p>A no-hoops approach gets you a long way. When you do good work, it speaks for itself. Here are just a few of those real stories that we want to share with you.
-			</p>
-			<a id="cta-border-green" href="#">Read the Case Studies</a>
-			</div>
-		</aside>
 		<div class="slant slant--left"></div>
 	</section>
+
