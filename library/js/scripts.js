@@ -146,7 +146,7 @@ function loadGravatars() {
 
 function mobileMenu() {
   jQuery('#menu-burger').on("click", function() {
-      jQuery("div#menu-mobile-menu").toggleClass("active");
+      jQuery("#menu-mobile-menu").toggleClass("active");
   });
 }
 /*************************
@@ -178,11 +178,6 @@ jQuery('#contact_submit').removeAttr('disabled');
 
 jQuery(document).ready(function() {
 
-  /*
-   * Let's fire off the gravatar function
-   * You can remove this if you don't need it
-  */
-  loadGravatars();
   serviceTabs();
   mobileDropdowns();
   mobileMenu();
