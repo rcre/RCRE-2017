@@ -1,7 +1,4 @@
-<?php
-/*
-Proposal Contact Form */
-?>
+<?php // SECTION Contact Form ?>
 
 <section class="m-padding proposal-contact cf">
 	<!-- Contact Form -->
