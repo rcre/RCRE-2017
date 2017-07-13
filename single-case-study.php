@@ -110,12 +110,12 @@ client-quote
 					?>
 				</section> <!-- end article section -->
 
-				<footer class="article-footer">
-					<p class="tags"><?php echo get_the_term_list( get_the_ID(), 'custom_tag', '<span class="tags-title">' . __( 'Custom Tags:', 'bonestheme' ) . '</span> ', ', ' ) ?></p>
-				</footer>
-
 			</article>
 
+			<footer class="cf">
+					<?php get_template_part('library/partials/sectionContact'); ?>
+				</footer>
+				
 			<?php endwhile; ?>
 
 			<?php else : ?>

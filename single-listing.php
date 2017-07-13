@@ -2,13 +2,26 @@
 
 			<div id="content">
 
-				<div id="inner-content" class="m-padding pull-l-1of12 pull-r-1of12 cf">
+				<div id="inner-content" class="wrap cf">
 
-					<main id="main" class="pull-l-1of12 pull-r-1of12 m-all t-2of3 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+					<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 							<?php
+								/*
+								 * Ah, post formats. Nature's greatest mystery (aside from the sloth).
+								 *
+								 * So this function will bring in the needed template file depending on what the post
+								 * format is. The different post formats are located in the post-formats folder.
+								 *
+								 *
+								 * REMEMBER TO ALWAYS HAVE A DEFAULT ONE NAMED "format.php" FOR POSTS THAT AREN'T
+								 * A SPECIFIC POST FORMAT.
+								 *
+								 * If you want to remove post formats, just delete the post-formats folder and
+								 * replace the function below with the contents of the "format.php" file.
+								*/
 								get_template_part( 'post-formats/format', get_post_format() );
 							?>
 
