@@ -2,6 +2,10 @@
 Stylesheet: 768px and up - Tablet & Small Desktop Stylesheet
 ******************************************************************/
 
+
+.wrap {
+	width: 100%;
+}
 /*********************
 HEADER STYLES
 *********************/
@@ -10,7 +14,7 @@ HEADER STYLES
 #mobile-quick-nav {
 	
 	// Hide the menu burger
-	div#menu-burger {
+	#menu-burger {
 		display: none;
 	}
 
@@ -57,13 +61,18 @@ NAVIGATION STYLES
 	text-align: right;
 	float: right;
 
-	li {
+	> li {
+		transition: $trans;
 
 		a {
+			color: darken($white, 15%);
 			display: block;
 			font-size: 0.70em;
-			padding: 1.8em 0.5em;
+			padding: 1.8em 1.5em;
 			border-bottom: 4px solid transparent;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 600;
 
 			&:hover, &:focus {
 				color: $white;
@@ -72,7 +81,10 @@ NAVIGATION STYLES
 			}
 		}
 
-		&:first-child {}
+		&:hover, &:focus {
+				background-color: lighten($gray, 2%);
+				transition: $trans;
+			}
 
 		// Don't Show "Search Properties" on this version
 		&:last-child {
@@ -86,12 +98,12 @@ NAVIGATION STYLES
 			left: 0;
 			right: 0;
 			z-index: 8999;
-			background-color: rgba(67, 80, 93,.95);
+			background-color: $dgray;
 			text-align: center;
 			padding-bottom: 15px;
 
 			li {
-				display: block;
+				display: inline-block;
 				margin: 0 5%;
 				vertical-align: top;
 				position: relative;
@@ -113,7 +125,8 @@ NAVIGATION STYLES
 
 					&:link {}
 				}
-
+				
+				// Descriptions for the Owner/Occupier Options
 				.menu-item-description {
 					width: 200px;
 					position: absolute;
@@ -178,7 +191,7 @@ NAVIGATION STYLES
 		/* showing sub-menus */
 		&:hover > ul {
 			top: auto;
-			display: flex;
+			display: block;
 		}
 
 	} /* end .menu ul li */
@@ -226,7 +239,7 @@ section {
 		padding: 0;
 
 		aside {
-			margin-top: 15%;
+			margin-top: 13%;
 			max-width: 350px;
 
 			p {
@@ -244,7 +257,7 @@ section {
 	    position: relative;
 	    overflow: hidden;
 
-		&--left {
+		&--right {
 			transform: skewX(-20deg); 
 	    	-ms-transform: skewX(-20deg); /* IE 9 */
 	    	-webkit-transform: skewX(-20deg); /* Safari and Chrome */
@@ -270,7 +283,7 @@ section {
 
 		}
 
-		&--right {
+		&--left {
 			transform: skewX(20deg); 
 	    	-ms-transform: skewX(20deg); /* IE 9 */
 	    	-webkit-transform: skewX(20deg); /* Safari and Chrome */
@@ -303,6 +316,46 @@ section {
 .proposal-contact {
 		margin: 40px auto;
 	}
+
+
+// MODULE Learn More Tabs
+ul.tabs {
+	display: block;
+
+	li {
+		margin: 5px 0;
+		cursor: pointer;
+		padding: 20px;
+		line-height: 30px;
+		overflow: hidden;
+		position: relative;
+		border-radius: 5px;
+		transition: 0.5s;
+		background-color: $lgray;
+
+		&:hover {
+			background-color: lighten($lgray, 5%);
+			color: #333;
+			transition: 0.5s;
+		}
+
+		&.active {
+			background-color: lighten($lgray, 5%);
+			color: #333;
+			display: block;
+		}
+	}
+}
+
+.tab_container {
+	border-top: none;
+	overflow: auto;
+  	text-align: center;
+}
+
+.tab_drawer_heading { 
+	display: none; 
+}
 
 /*********************
 FOOTER STYLES

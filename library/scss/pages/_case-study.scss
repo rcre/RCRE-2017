@@ -1,13 +1,9 @@
 /******************************************************************
-Site Name: RESOURCE
-Author: Patrick Hanus
-
-Broker Template SASS
-
+PATRIAL CASE STUDY
 ******************************************************************/
 
 .cs-h1 {
-	font-size: 5em;
+	font-size: 3em;
 	text-align: left;
 	text-transform: capitalize;
 	margin: 0;
@@ -15,7 +11,7 @@ Broker Template SASS
 }
 
 .cs-header {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	background-color: $lgray;
 	text-align: left;
 	background-size: cover;
@@ -29,24 +25,26 @@ Broker Template SASS
 
 aside {
 		img {
-			width: 100%;
-			margin: 25px 0;
-			margin-bottom: 0px;
+			// width: 100%; This was interfering with the broker page
+			// margin: 25px 0;
+			// margin-bottom: 0px;
 		}
 	}
 
-
-
 // Case Study Icon that has the logo inside of it
+.case-study-box {
+	
+}
+
 .case-study-icon {
+	display: inline-flex;
+	flex-direction: row;
 	border: 5px solid $lgray;
 	border-radius: 5px;
-	width: 200px;
-	height: 200px;
 	text-align: center;
-	vertical-align: center;
-	position: relative;
 	transition: $trans;
+	margin: 10px 10px 0 0;
+	height: 100px;
 
 	&:hover {
 		border: 5px solid $blue;
@@ -54,10 +52,9 @@ aside {
 	}
 
 	img {
-		position: absolute;
-		top: 35%;
-		left: 10%;
-		width: 80%;
+		flex-grow: 1;
+		align-self: center;
+		max-width: 90px;
 	}
 }
 

@@ -1,0 +1,172 @@
+/******************
+MODULE: SERVICE DESCRIPTION
+******************/
+
+	// Main Idea with three sub-ideas
+	.uvp {
+		p {
+			border: 2px solid $blue;
+			padding: 40px;
+			border-radius: 10px;
+			margin: 80px auto;
+			font-size: 1.4em;
+			text-align: center;
+		}
+	}
+
+	.selling-point {
+		// text-align: center;
+		padding: 20px 40px;
+
+		img {
+			width: 50px;
+			margin: 0 auto;
+		}
+	}
+
+/******************
+MODULE: Full-width Callout Strip
+******************/
+
+	// Main section that stretches accross the entire screen
+	#need-help {
+		margin: 0px;
+		background-color: $dblue;
+		color: white;
+		text-align: center;
+		padding: 20px 0;
+		
+		// Font awesome heart that needs to be pink
+		.fa-heart {
+			color: $pink;
+		}
+	}
+
+/***********
+MODULE: SERVICE GRID
+***********/
+
+	// Grid section, I should $revisit and make this a css grid section
+	.service-grid { 
+		
+		// remove any padding
+		div {
+			padding: 0;
+		}
+			
+		// Individual Boxes
+		.service-box {
+			margin-top: 60px;
+			border: 5px solid $lgray;
+			border-radius: 10px;
+			margin-bottom: 10px;
+			padding: 20px 5px;
+			margin-right: 10px;
+			text-align: center;
+			position: relative;
+			
+			// Attempt to center the images later $revisit
+			img { 
+				top: -60px;
+				width: 25%;
+			}
+
+			a {
+				display: inline;
+			}
+
+			p {
+				display: block;
+				padding: 0 25px;
+				font-size: 1em;
+				color: lighten($gray, 35%);
+			}
+		}
+	} // End Service Grid Styles
+
+/***********
+MODULE: OUR CLIENTS
+***********/
+	
+	// This I could $revisit and make a flexbox thing, for even heights
+	// Background that stretches across the screen
+	.our-clients {
+		background-color: $lgray;
+		text-align: center;
+		
+		// Header above the logos
+		h2 {
+			margin: 0;
+			background-color: darken($lgray, 5%);
+			font-size: 1.5em;
+		}
+
+		// Client logos
+		img {
+			padding: 2%;
+			vertical-align: center;
+			max-height: 60px;
+			width: auto;
+		}
+	}
+
+/***********
+MODULE: LEARN MORE TABS
+***********/
+
+// MODULE: LEARN MORE TABS
+.tabs {
+	display: none;
+}
+
+.tab_content {
+	margin: 80px auto;
+	width: 70%;
+	display: none;
+
+	img{
+		width: 100px;
+	}
+}
+
+.tab_drawer_heading {
+	background-color: lighten($lgray, 10%);
+	color: $gray;
+	margin: 0;
+	padding: 35px 20px;
+	display: block;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.d_active {
+	background-color: $lgray;
+	color: #fff;
+}
+
+
+/***********
+MODULE: Specialties
+***********/
+
+#Specialties {
+	text-align: center;
+	margin-bottom: 50px;
+
+	div {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		padding: 20px;
+		border: 5px solid white;
+		border-radius: 10px;
+		color: white;
+		font-weight: 800;
+	}
+}
+

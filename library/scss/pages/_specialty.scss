@@ -9,27 +9,32 @@ Speciatly Page Styles
 	background-position: center;
 
 	aside {
-		margin-top: 30%;
 		background: transparent;
 	}
 
-	.aside-top {
-		margin-top: 0;
+	.captionTop {
+		margin-top: 100px;
+	}
+
+	.captionBottom {
+		margin-top: 30%;;
 	}
 
 }
 
 #Panel-1 {
-	background-image: url('../images/specialties/office/bg-office-panel-1.jpg');
+	
 }
 
 #Panel-2 {
-	background-image: url('../images/specialties/office/bg-office-panel-2-lines.jpg');
+	background-image: url('../images/specialties/office/specialty-office-panel-2-lines.jpg');
 	position: relative;
+	overflow: hidden;
 }
 
 #Panel-3 {
-	background-image: url('../images/specialties/office/bg-office-panel-3.jpg');
+	background-image: url('../images/specialties/office/specialty-office-panel-3.jpg');
+	margin-bottom: 50px;
 }
 
 // This is the section at the bottom of the page
@@ -56,14 +61,6 @@ Speciatly Page Styles
 	right: -80px;
 	float: right;
 }
-
-
-#Services {
-	background-image: url('../images/bg/pattern.svg');
-	background-size: 10%;
-}
-
-
 
 
 

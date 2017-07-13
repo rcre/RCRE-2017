@@ -50,21 +50,31 @@ HEADER STYLES
 *********************/
 
 header {
-	text-align: center;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	position: relative;
 }
 
 #page-header {
+	text-align: center;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 50px;
+	width: 100%;
+	height: 500px;
+	height: 90vh;
 }
 
-.header-home {
-	background-image: url('../images/bg/header-home.jpg');
+#single-header {
+	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	width: 100%;
+	height: 2
+	00px;
+	height: 40vh;
 }
 
 #inner-header {
@@ -152,7 +162,7 @@ POSTS & CONTENT STYLES
 
 	.hentry {
 		background-color: $white;
-		margin-bottom: 1.5em;
+		margin-bottom: 0.5em;
 
 		footer {
 			p {
@@ -204,24 +214,6 @@ section {
 	background: none;
 }
 
-
-/*********************
-MODULE IMPORTS
-**********************/
-
-@import "../modules/ourClientsBar";
-@import "../modules/serviceGrid";
-@import "../modules/serviceTabs";
-
-/*********************
-PAGE IMPORTS
-**********************/
-@import "../pages/case-study";
-@import "../pages/broker";
-@import "../pages/specialty";
-@import "../partials/global_images";
-@import "../shame";
-
 /*********************
 FOOTER STYLES
 *********************/
@@ -243,6 +235,20 @@ footer {
 			&:hover, &:focus {
 				background-color: $gray;
 				transition: .5s;
+			}
+			
+			a {
+				display: block;
+				padding: 1.2em;
+				color: $white;	
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 600;
+
+				// &:hover, &:focus {
+				// 	background-color: lighten($gray, 2%);
+				// 	transition: $trans;
+				// }
 			}
 		}
 	}

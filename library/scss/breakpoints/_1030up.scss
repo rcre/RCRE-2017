@@ -10,14 +10,20 @@ be seen on the Desktop.
 ******************************************************************/
 
 .wrap {
-  width: 1240px;
+  // width: 1240px;
 }
 
 .nav {
-	li {
+	> li {
 		// Show "Search Properties" when you have more screen
 		&:last-child {
 			display: inline-block;
+
+			a {
+				
+				color: $green;
+			}
+			
 		}
 	}
 }

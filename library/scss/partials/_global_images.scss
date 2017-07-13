@@ -52,27 +52,71 @@ header#service {
 	}
 }
 
-#specialty {
+.specialty {
 
-	&--office {
-		background-image: url('../images/specialties/office/speciatly-office-header.jpg');
+	&--Office {
+		background-image: url('../images/specialties/office/specialty-office-header.jpg');
 	}
 
-	&--retail {
-		background-image: url('../images/specialties/retail/speciatly-retail-header.jpg');
+	&--Retail {
+		background-image: url('../images/specialties/retail/specialty-retail-header.jpg');
 	}
 
-	&--industrial {
-		background-image: url('../images/specialties/industrial/speciatly-industrial-header.jpg');
+	&--Industrial {
+		background-image: url('../images/specialties/industrial/specialty-industrial-header.jpg');
 	}
 
-	&--land {
-		background-image: url('../images/specialties/land/speciatly-land-header.jpg');
+	&--Land {
+		background-image: url('../images/specialties/land/specialty-land-header.jpg');
 	}
 
-	&--multifamily {
-		background-image: url('../images/specialties/multifamily/speciatly-multifamily-header.jpg');
+	&--Multifamily {
+		background-image: url('../images/specialties/multifamily/specialty-multifamily-header.jpg');
 	}
 }
 
+.specialty-drawing {
+
+	&--Office {
+		background-image: url('../images/specialties/office/specialty-office-panel-1.svg');
+	}
+
+	&--Retail {
+		background-image: url('../images/specialties/retail/specialty-retail-panel-1.svg');
+	}
+
+	&--Industrial {
+		background-image: url('../images/specialties/industrial/specialty-industrial-panel-1.svg');
+	}
+
+	&--Land {
+		background-image: url('../images/specialties/land/specialty-land-panel-1.svg');
+	}
+
+	&--Multifamily {
+		background-image: url('../images/specialties/multifamily/specialty-multifamily-panel-1.svg');
+	}
+}
+
+.page {
+	&--Home {
+		background-image: url('../images/home-desktop.jpg');
+	}
+
+	&--Blog {
+		background-image: url('../images/specialties/retail/specialty-retail-panel-1.svg');
+	}
+
+	&--About {
+		background-image: url('../images/specialties/industrial/specialty-industrial-panel-1.svg');
+	}
+
+	&--Land {
+		background-image: url('../images/specialties/land/specialty-land-panel-1.svg');
+	}
+
+	&--Multifamily {
+		background-image: url('../images/specialties/multifamily/specialty-multifamily-panel-1.svg');
+	}
+}
 /* --mobile */

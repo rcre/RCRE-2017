@@ -13,7 +13,17 @@ Broker Page Styles
 
 	.profile-info {
 		font-size: 1em;
-		text-align: center
+		text-align: center;
+
+		div {
+			padding: 2px 0;
+
+			a {
+				padding-top: 3px;
+				color: $gray;
+				text-decoration: none;
+			}
+		}
 	}
 
 	aside {
@@ -42,10 +52,13 @@ Broker Page Styles
 	&:last-child {
 		clear: both;
 	}
+
+	a {
+		font-size: 0.8em;
+	}
 }
 
 .broker-profile-picture {
-	padding: 20px;
 	width: 100%;
 }
 

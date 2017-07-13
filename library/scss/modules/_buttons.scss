@@ -1,27 +1,11 @@
 /******************************************************************
-Site Name:
-Author:
-
 Stylesheet: Button Styles
-
-Buttons are a pretty important part of your site's style, so it's
-important to have a consistent baseline for them. Use this stylesheet
-to create all kinds of buttons.
-
-Helpful Links:
-http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
-
 ******************************************************************/
 
 /*********************
 BUTTON DEFAULTS
-We're gonna use a placeholder selector here
-so we can use common styles. We then use this
-to load up the defaults in all our buttons.
-
 Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
-
 *********************/
 
 %btn {
@@ -161,20 +145,22 @@ and it will create a button dependant on those variables.
 #cta-underline-gray {
   text-decoration: none;
   padding-bottom: 3px;
-  color: $blue;
+  color: lighten($gray, 15%);
   background-color: none;
   border: none;
-  border-bottom: 1px solid $blue;
+  border-bottom: 1px solid lighten($gray, 15%);
   font-weight: 600;
   
   &:hover,
   &:focus {
     color: lighten($gray, 20%);
+    border-bottom-color: lighten($gray, 20%);
     transition: 0.5s;
   } // end hover
 
   &:active {
     color: darken($gray, 20%);
+    border-bottom-color: darken($gray, 20%);
   } // end active
 }
 
@@ -207,7 +193,6 @@ and it will create a button dependant on those variables.
     padding-bottom: 3px;
     border-bottom: 1px solid $gray;
     transition: 0.5s;
-    line-height: 2.5em;
 
     &:hover {
       color: $blue;
@@ -286,24 +271,29 @@ and it will create a button dependant on those variables.
 
 // Tag Buttons
 
-.tag-post-type {
+.tag {
   color: white;
-  background-color: $green;
   padding: 5px;
   border-radius: 3px;
   display: inline-block;
   font-weight: 600;
   text-transform: capitalize;
   transition: 0.8s;
-}
 
-.tag-post-type {
-  color: white;
-  background-color: $green;
-  padding: 5px;
-  border-radius: 3px;
-  display: inline-block;
-  font-weight: 600;
-  text-transform: capitalize;
-  transition: 0.8s;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  &--service {
+    background-color: $gray;
+  }
+
+  &--specialty {
+    background-color: $blue;
+  }
+
+  &--post-type {
+    background-color: $green;
+  }
 }
