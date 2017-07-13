@@ -2600,10 +2600,13 @@ do they need tweaking?
 /******************************************************************
 Stylesheet: 768px and up - Tablet & Small Desktop Stylesheet
 ******************************************************************/
+.wrap {
+  width: 100%; }
+
 /*********************
 HEADER STYLES
 *********************/
-#mobile-quick-nav div#menu-burger {
+#mobile-quick-nav #menu-burger {
   display: none; }
 
 #mobile-quick-nav div:first-child {
@@ -2637,35 +2640,43 @@ NAVIGATION STYLES
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */ }
-  .nav li {
+  .nav > li {
+    transition: 0.5s;
     /* showing sub-menus */ }
-    .nav li a {
+    .nav > li a {
+      color: #d9d9d9;
       display: block;
       font-size: 0.70em;
-      padding: 1.8em 0.5em;
-      border-bottom: 4px solid transparent; }
-      .nav li a:hover, .nav li a:focus {
+      padding: 1.8em 1.5em;
+      border-bottom: 4px solid transparent;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600; }
+      .nav > li a:hover, .nav > li a:focus {
         color: #fff;
         text-decoration: none;
         border-bottom: 4px solid #fff; }
-    .nav li:last-child {
+    .nav > li:hover, .nav > li:focus {
+      background-color: #5b6a77;
+      transition: 0.5s; }
+    .nav > li:last-child {
       display: none; }
-    .nav li ul.sub-menu {
+    .nav > li ul.sub-menu {
       display: none;
       position: absolute;
       left: 0;
       right: 0;
       z-index: 8999;
-      background-color: rgba(67, 80, 93, 0.95);
+      background-color: #43505d;
       text-align: center;
       padding-bottom: 15px;
       /* highlight sub-menu current page */ }
-      .nav li ul.sub-menu li {
-        display: block;
+      .nav > li ul.sub-menu li {
+        display: inline-block;
         margin: 0 5%;
         vertical-align: top;
         position: relative; }
-        .nav li ul.sub-menu li a {
+        .nav > li ul.sub-menu li a {
           color: #bfbfbf;
           text-align: left;
           padding: 2em;
@@ -2673,28 +2684,28 @@ NAVIGATION STYLES
           border: none;
           text-decoration: none;
           text-transform: none; }
-          .nav li ul.sub-menu li a:hover, .nav li ul.sub-menu li a:focus {
+          .nav > li ul.sub-menu li a:hover, .nav > li ul.sub-menu li a:focus {
             color: #fff;
             text-decoration: underline; }
-        .nav li ul.sub-menu li .menu-item-description {
+        .nav > li ul.sub-menu li .menu-item-description {
           width: 200px;
           position: absolute;
           text-decoration: none;
           padding-top: 10px;
           font-weight: 400; }
-        .nav li ul.sub-menu li:last-child a {
+        .nav > li ul.sub-menu li:last-child a {
           border-bottom: 0; }
-        .nav li ul.sub-menu li ul.sub-menu {
+        .nav > li ul.sub-menu li ul.sub-menu {
           display: block;
           visibility: visible;
           position: relative; }
-          .nav li ul.sub-menu li ul.sub-menu li {
+          .nav > li ul.sub-menu li ul.sub-menu li {
             display: block;
             clear: both;
             width: auto;
             text-align: center;
             margin: 0; }
-          .nav li ul.sub-menu li ul.sub-menu a {
+          .nav > li ul.sub-menu li ul.sub-menu a {
             color: #bfbfbf;
             padding: 1em 2em;
             display: block;
@@ -2702,14 +2713,14 @@ NAVIGATION STYLES
             text-decoration: none;
             text-transform: capitalize;
             font-weight: 400; }
-            .nav li ul.sub-menu li ul.sub-menu a::before {
+            .nav > li ul.sub-menu li ul.sub-menu a::before {
               content: "+ "; }
-            .nav li ul.sub-menu li ul.sub-menu a:hover {
+            .nav > li ul.sub-menu li ul.sub-menu a:hover {
               text-decoration: underline;
               color: #d9d9d9; }
-    .nav li:hover > ul {
+    .nav > li:hover > ul {
       top: auto;
-      display: flex; }
+      display: block; }
   .nav li.current-menu-item a,
   .nav li.current_page_item a,
   .nav li.current_page_ancestor a {
@@ -2737,7 +2748,7 @@ section.topic {
   margin: 0;
   padding: 0; }
   section.topic aside {
-    margin-top: 15%;
+    margin-top: 13%;
     max-width: 350px; }
     section.topic aside p {
       margin-bottom: 30px; }
@@ -2748,7 +2759,7 @@ section .slant {
   height: 720px;
   position: relative;
   overflow: hidden; }
-  section .slant--left {
+  section .slant--right {
     transform: skewX(-20deg);
     -ms-transform: skewX(-20deg);
     /* IE 9 */
@@ -2757,7 +2768,7 @@ section .slant {
     -webkit-transform-origin: top right;
     -ms-transform-origin: top right;
     transform-origin: top right; }
-    section .slant--left::before {
+    section .slant--right::before {
       content: "";
       transform: skewX(20deg);
       -ms-transform: skewX(20deg);
@@ -2773,7 +2784,7 @@ section .slant {
       transform-origin: top right;
       width: 2000px;
       height: 2000px; }
-  section .slant--right {
+  section .slant--left {
     transform: skewX(20deg);
     -ms-transform: skewX(20deg);
     /* IE 9 */
@@ -2782,7 +2793,7 @@ section .slant {
     -webkit-transform-origin: top left;
     -ms-transform-origin: top left;
     transform-origin: top left; }
-    section .slant--right::before {
+    section .slant--left::before {
       background-image: url("../images/bg/section-services.png");
       content: "";
       background-repeat: no-repeat;
@@ -2801,6 +2812,35 @@ section .slant {
 
 .proposal-contact {
   margin: 40px auto; }
+
+ul.tabs {
+  display: block; }
+  ul.tabs li {
+    margin: 5px 0;
+    cursor: pointer;
+    padding: 20px;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: #e6e6e6; }
+    ul.tabs li:hover {
+      background-color: #f3f3f3;
+      color: #333;
+      transition: 0.5s; }
+    ul.tabs li.active {
+      background-color: #f3f3f3;
+      color: #333;
+      display: block; }
+
+.tab_container {
+  border-top: none;
+  overflow: auto;
+  text-align: center; }
+
+.tab_drawer_heading {
+  display: none; }
 
 /*********************
 FOOTER STYLES
@@ -2844,11 +2884,10 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
-.wrap {
-  width: 1240px; }
-
-.nav li:last-child {
+.nav > li:last-child {
   display: inline-block; }
+  .nav > li:last-child a {
+    color: #d2db3a; }
 
 .service-grid .service-box {
   padding: 60px 5px; }

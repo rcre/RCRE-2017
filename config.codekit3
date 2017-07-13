@@ -7,7 +7,7 @@
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.gitattributes": {
 		"ft": 8192,
@@ -31,6 +31,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/archive-custom_type.php",
+		"oF": 0
+		},
+	"\/archive-research-report.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/archive-research-report.php",
 		"oF": 0
 		},
 	"\/archive.php": {
@@ -224,17 +230,6 @@
 		"oAP": "\/library\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
-	"\/library\/images\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 8439,
-		"oA": 0,
-		"oAP": "\/library\/images\/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/library\/images\/bg\/header-home.jpg": {
 		"ft": 16384,
 		"iS": 95644,
@@ -351,6 +346,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/home-desktop.jpg": {
+		"ft": 16384,
+		"iS": 489822,
+		"oA": 0,
+		"oAP": "\/library\/images\/home-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/library\/images\/icons\/icon-auction-document.svg": {
@@ -953,11 +958,22 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/login-logo.png": {
+	"\/library\/images\/logos\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 8439,
+		"oA": 0,
+		"oAP": "\/library\/images\/logos\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/login-logo.png": {
 		"ft": 32768,
 		"iS": 4805,
 		"oA": 0,
-		"oAP": "\/library\/images\/login-logo.png",
+		"oAP": "\/library\/images\/logos\/login-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1005,14 +1021,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/library\/images\/section-contact.jpg": {
-		"ft": 16384,
-		"iS": 208714,
+	"\/library\/images\/logos\/win8-tile-icon.png": {
+		"ft": 32768,
+		"iS": 8048,
 		"oA": 0,
-		"oAP": "\/library\/images\/section-contact.jpg",
+		"oAP": "\/library\/images\/logos\/win8-tile-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/brokerage\/service-brokerage-button.jpg": {
@@ -1605,27 +1622,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/specialty-land-panel-1_Industrial - Panel 1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/library\/images\/specialty-land-panel-1_Industrial - Panel 1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/win8-tile-icon.png": {
-		"ft": 32768,
-		"iS": 8048,
-		"oA": 0,
-		"oAP": "\/library\/images\/win8-tile-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/library\/js\/libs\/modernizr.custom.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1653,10 +1649,28 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/library\/partials\/proposalContact.php": {
+	"\/library\/partials\/header-default.php": {
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/library\/partials\/proposalContact.php",
+		"oA": 2,
+		"oAP": "\/library\/partials\/header-default.php",
+		"oF": 0
+		},
+	"\/library\/partials\/header-home.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/header-home.php",
+		"oF": 0
+		},
+	"\/library\/partials\/header-none.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/header-none.php",
+		"oF": 0
+		},
+	"\/library\/partials\/header-post.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/header-post.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionCaseStudy.php": {
@@ -1665,16 +1679,34 @@
 		"oAP": "\/library\/partials\/sectionCaseStudy.php",
 		"oF": 0
 		},
+	"\/library\/partials\/sectionContact.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/library\/partials\/sectionContact.php",
+		"oF": 0
+		},
+	"\/library\/partials\/sectionServiceGrid.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/sectionServiceGrid.php",
+		"oF": 0
+		},
+	"\/library\/partials\/sectionSpecialties.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/sectionSpecialties.php",
+		"oF": 0
+		},
+	"\/library\/partials\/sectionTeam.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/sectionTeam.php",
+		"oF": 0
+		},
 	"\/library\/partials\/sectionTopic.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/library\/partials\/sectionTopic.php",
-		"oF": 0
-		},
-	"\/library\/partials\/serviceGrid.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/library\/partials\/serviceGrid.php",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
@@ -2115,19 +2147,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/library\/scss\/modules\/_comments.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_comments.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/library\/scss\/modules\/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2141,6 +2160,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/library\/scss\/modules\/_modules.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_modules.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/library\/scss\/modules\/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2150,45 +2182,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/library\/scss\/css\/_navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/library\/scss\/modules\/_ourClientsBar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_ourClientsBar.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/library\/scss\/modules\/_serviceGrid.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_serviceGrid.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/library\/scss\/modules\/_serviceTabs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_serviceTabs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2346,19 +2339,6 @@
 		"oA": 1,
 		"oAP": "\/library\/scss\/css\/_variables.css",
 		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/library\/scss\/shame.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/library\/css\/shame.css",
-		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2633,52 +2613,28 @@
 		"oAP": "\/library\/translation\/zh_CN.po",
 		"oF": 0
 		},
-	"\/page-custom.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-custom.php",
-		"oF": 0
-		},
-	"\/page-industrial.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-industrial.php",
-		"oF": 0
-		},
-	"\/page-land.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-land.php",
-		"oF": 0
-		},
-	"\/page-multifamily.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-multifamily.php",
-		"oF": 0
-		},
-	"\/page-office.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-office.php",
-		"oF": 0
-		},
-	"\/page-retail.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-retail.php",
-		"oF": 0
-		},
 	"\/page-service.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-service.php",
 		"oF": 0
 		},
+	"\/page-specialty.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-specialty.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page.php",
+		"oF": 0
+		},
+	"\/post-formats\/content-blog-post.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/post-formats\/content-blog-post.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-caseStudies.php": {
@@ -2691,6 +2647,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/post-formats\/content-miniProfile.php",
+		"oF": 0
+		},
+	"\/post-formats\/content-section.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/post-formats\/content-section.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-serviceButton.php": {
@@ -2782,10 +2744,10 @@
 		"oAP": "\/single-case-study.php",
 		"oF": 0
 		},
-	"\/single-custom_type.php": {
+	"\/single-listing.php": {
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/single-custom_type.php",
+		"oA": 2,
+		"oAP": "\/single-listing.php",
 		"oF": 0
 		},
 	"\/single.php": {
@@ -4755,6 +4717,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
