@@ -151,6 +151,10 @@
 			// Header for individual blog posts, case studies, and research reports
 			get_template_part('library/partials/header-post');
 
+		} elseif ( is_single('listing') ) {
+			// Header for individual blog posts, case studies, and research reports
+			get_template_part('library/partials/header-listing');
+
 		} else {
 			get_template_part('library/partials/header-default');
 		} ?>

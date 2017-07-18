@@ -1,12 +1,5 @@
-<!-- VERSION 3: Case Studies and Blog Post Headers -->
-	<?php 
-
-	if (has_post_thumbnail($page->ID)) 
-		$image = wp_get_attachment_url(get_post_thumbnail_id( $page->ID ), 'single-post-thumbnail'); 
-	?>
-
-
-	<div id="single-header" class="cs-header" <?php if (has_post_thumbnail($page->ID)) { ?>style="background-image: url('<?php echo $image; ?>'); background-repeat: no-repeat; background-size: cover;"<?php } ?> role="banner" itemscope itemtype="http://schema.org/WPHeader">
+<!-- VERSION 5: Listings -->
+<div id="single-header" class="cs-header" style="background-image: url('<?php echo(types_render_field( "main-property-picture", array( 'raw' => true) ));  ?>'); background-repeat: no-repeat; background-size: cover;" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 	<!-- Callout Section for the Average Page-->
 		<div class="m-padding m-all t-all d-all cf">
@@ -27,6 +20,14 @@
 				<?php echo types_render_field( "tagline", array( 'raw' => true)); ?>
 				</p>
 			</div>
+
+			<p>Square Footage</p>
+			<?php // Square Footage SF ?>
+
+			<p>Lease Rate</p>
+			<?php // Price SF ?>
+
 			<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( 'raw' => true)); ?>"></a>
 		</div>
 	</div>
+
