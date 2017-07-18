@@ -12,7 +12,7 @@ sidebars, comments, etc.
 require_once( 'library/bones.php' );
 
 // CUSTOMIZE THE WORDPRESS ADMIN (off by default)
-// require_once( 'library/admin.php' );
+require_once( 'library/admin.php' );
 
 /*********************
 LAUNCH BONES
@@ -26,10 +26,6 @@ function bones_ahoy() {
 
   // let's get language support going, if you need it
   load_theme_textdomain( 'bonestheme', get_template_directory() . '/library/translation' );
-
-  // USE THIS TEMPLATE TO CREATE CUSTOM POST TYPES EASILY
-  require_once( 'library/custom-post-type.php' );
-
   // launching operation cleanup
   add_action( 'init', 'bones_head_cleanup' );
   // A better title
@@ -232,7 +228,7 @@ function bones_comments( $comment, $args, $depth ) {
 
 // Import Google Fonts
 function bones_fonts() {
-  wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Merriweather:300,400|Montserrat:300,700');
+  wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Montserrat:300,700');
 }
 
 add_action('wp_enqueue_scripts', 'bones_fonts');

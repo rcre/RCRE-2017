@@ -22,6 +22,8 @@
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+
+				
 					
 			<?php // Company UVP and introduction o why we are different ?>
 				<section class="m-padding">
@@ -48,15 +50,11 @@
 				</section>
 
 
-				
-			<?php // Service grid that directs the user where they need to go ?>
-				<?php get_template_part('library/partials/sectionServiceGrid'); ?>
-
-			<?php // Get the Three Topics for the Home Page ?>
-				<?php get_template_part('library/partials/sectionTopic'); ?>
-				<?php get_template_part('library/partials/sectionCaseStudy'); ?>
-
-			<?php // Ask the user if they are having trouble finding things ?>
+	<?php 
+		get_template_part('library/partials/sectionServiceGrid');
+		get_template_part('post-formats/content-section');
+		get_template_part('library/partials/sectionCaseStudy');
+	?>
 				<section id="need-help">
 					<div class="m-padding">
 						<h2>Can’t find what you’re looking for?</h2>
