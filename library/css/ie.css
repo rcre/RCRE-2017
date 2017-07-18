@@ -2746,10 +2746,22 @@ section.topic {
   border-bottom: 10px solid #e6e6e6;
   overflow: hidden;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  position: relative; }
   section.topic aside {
-    margin-top: 13%;
-    max-width: 350px; }
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+    top: 175px; }
+    section.topic aside.right {
+      right: 0;
+      left: auto; }
+    section.topic aside .left {
+      left: 0;
+      right: auto; }
     section.topic aside p {
       margin-bottom: 30px; }
     section.topic aside a {
@@ -2758,8 +2770,10 @@ section.topic {
 section .slant {
   height: 720px;
   position: relative;
-  overflow: hidden; }
-  section .slant--right {
+  overflow: hidden;
+  z-index: 1;
+  width: 80%; }
+  section .slant--left {
     transform: skewX(-20deg);
     -ms-transform: skewX(-20deg);
     /* IE 9 */
@@ -2767,24 +2781,10 @@ section .slant {
     /* Safari and Chrome */
     -webkit-transform-origin: top right;
     -ms-transform-origin: top right;
-    transform-origin: top right; }
-    section .slant--right::before {
-      content: "";
-      transform: skewX(20deg);
-      -ms-transform: skewX(20deg);
-      /* IE 9 */
-      -webkit-transform: skewX(20deg);
-      /* Safari and Chrome */
-      background-image: url("../images/bg/section-services.png");
-      background-repeat: no-repeat;
-      background-position: top left;
-      position: absolute;
-      -webkit-transform-origin: top right;
-      -ms-transform-origin: top right;
-      transform-origin: top right;
-      width: 2000px;
-      height: 2000px; }
-  section .slant--left {
+    transform-origin: top right;
+    background-color: white;
+    float: left; }
+  section .slant--right {
     transform: skewX(20deg);
     -ms-transform: skewX(20deg);
     /* IE 9 */
@@ -2792,23 +2792,9 @@ section .slant {
     /* Safari and Chrome */
     -webkit-transform-origin: top left;
     -ms-transform-origin: top left;
-    transform-origin: top left; }
-    section .slant--left::before {
-      background-image: url("../images/bg/section-services.png");
-      content: "";
-      background-repeat: no-repeat;
-      background-position: top left;
-      position: absolute;
-      width: 1500px;
-      height: 1500px;
-      -webkit-transform-origin: top left;
-      -ms-transform-origin: top left;
-      transform-origin: top left;
-      transform: skewX(-20deg);
-      -ms-transform: skewX(-20deg);
-      /* IE 9 */
-      -webkit-transform: skewX(-20deg);
-      /* Safari and Chrome */ }
+    transform-origin: top left;
+    background-color: white;
+    float: right; }
 
 .proposal-contact {
   margin: 40px auto; }
@@ -2846,7 +2832,6 @@ ul.tabs {
 FOOTER STYLES
 *********************/
 p.copyright {
-  display: inline-block;
   margin: 10px auto; }
 
 .footer-links {
@@ -2891,6 +2876,9 @@ be seen on the Desktop.
 
 .service-grid .service-box {
   padding: 60px 5px; }
+
+section .slant {
+  width: 60%; }
 
 /*
 you can call the larger styles if you want, but there's really no need

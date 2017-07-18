@@ -12,6 +12,9 @@ For more info, check out the codex:
 http://codex.wordpress.org/Creating_Admin_Themes
 
 ******************************************************************/
+body.login {
+  background: url(../images/home-desktop.jpg) no-repeat center; }
+
 /* the form box */
 /*
 This is the Wordpress logo in the admin area.
@@ -19,8 +22,9 @@ You'll have to load your own images and mess
 with the width and height.
 */
 .login h1 a {
-  background: url(../images/login-logo.png) no-repeat top center;
+  background: url(../images/logos/login-logo.png) no-repeat top center;
   /* make sure to replace this! */
+  background-size: contain;
   width: 326px;
   height: 67px;
   text-indent: -9999px;
@@ -33,12 +37,12 @@ form {
   padding: 26px 24px 46px;
   font-weight: normal;
   background: white;
-  border: 1px solid #E5E5E5;
-  border-radius: 3px;
+  border: 3px solid #E5E5E5;
+  border-radius: 5px;
   box-shadow: none; }
 
 body form .input {
-  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+  font-family: "Monserratt",sans-serif;
   font-weight: 200;
   font-size: 24px;
   width: 97%;
@@ -47,7 +51,7 @@ body form .input {
   margin-right: 6px;
   margin-bottom: 16px;
   border: 1px solid #E5E5E5;
-  background: #FBFBFB;
+  background: #E5E5E5;
   outline: none;
   box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2); }
 
@@ -61,5 +65,5 @@ retina login logo
 */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   .login h1 a {
-    background: url(../images/login-logo@2x.png) no-repeat top center;
-    /* make sure to replace this! */ } }
+    background: url(../images/logos/login-logo.png) no-repeat top center cover;
+    background-size: contain; } }

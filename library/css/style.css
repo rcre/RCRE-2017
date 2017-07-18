@@ -3209,6 +3209,10 @@ over your project's layout.
   margin-left: 8.33%;
   margin-right: 8.33%; }
 
+.pad-top {
+  margin-top: 4.33%;
+  margin-bottom: 4.33%; }
+
 /*********************
 IMPORTING MODULES
 *********************/
@@ -3484,7 +3488,7 @@ textarea,
   padding: 0 12px;
   margin-bottom: 14px;
   font-size: 1em;
-  color: #43505d;
+  color: #576571;
   border-radius: 3px;
   vertical-align: middle;
   box-shadow: none;
@@ -4124,7 +4128,7 @@ header {
   .callout .page-title {
     line-height: 1.2em; }
   .callout .subtitle {
-    font-weight: 400;
+    font-weight: 800;
     font-size: 1em;
     color: white;
     margin: 0 auto;
@@ -4215,6 +4219,10 @@ POSTS & CONTENT STYLES
     margin: 0; }
 
 /* end .hentry */
+.entry-content {
+  margin-right: 16.6666666667%;
+  margin-left: 16.6666666667%; }
+
 /*********************
 SECTION STYLES
 *********************/
@@ -4225,16 +4233,19 @@ SECTION STYLES
   .default-bg h1, .default-bg p {
     color: #576571; }
 
-section .topic .slant {
-  display: none; }
-
-section aside {
-  text-align: left;
-  background-color: white;
-  margin-top: 0px;
+section {
   padding: 0; }
-  section aside a {
-    margin-top: 10px; }
+  section .topic .slant {
+    display: none; }
+  section aside {
+    text-align: left;
+    background-color: white;
+    margin-top: 0px;
+    padding: 0;
+    bottom: 0;
+    top: auto; }
+    section aside a {
+      margin-top: 10px; }
 
 .panel {
   height: auto;
@@ -4264,8 +4275,7 @@ footer {
     font-weight: 600; }
 
 .copyright {
-  font-size: 0.75em;
-  font-family: sans-serif; }
+  font-size: 0.75em; }
 
 /*********************
 PAGE IMPORTS
@@ -4278,13 +4288,11 @@ PATRIAL CASE STUDY
   text-align: left;
   text-transform: capitalize;
   margin: 0;
-  text-shadow: 0.5px 0.5px 30px #43505d; }
+  color: #43505d; }
 
 .cs-header {
   margin-bottom: 20px;
-  background-color: #e6e6e6;
-  text-align: left;
-  background-size: cover; }
+  text-align: left; }
   .cs-header::after {
     content: '';
     background-color: #43505d;
@@ -4321,9 +4329,6 @@ PATRIAL CASE STUDY
 
 .cs-subtitle {
   margin-top: 0; }
-
-section {
-  padding: 60px 0; }
 
 .client-logo {
   width: 100%;
@@ -4389,7 +4394,8 @@ Broker Page Styles
 
 .employee {
   text-align: center;
-  display: inline-block; }
+  display: inline-block;
+  padding: 10px; }
   .employee:last-child {
     clear: both; }
   .employee a {
@@ -4514,6 +4520,17 @@ header#service {
 
 .page--Multifamily {
   background-image: url("../images/specialties/multifamily/specialty-multifamily-panel-1.svg"); }
+
+.page--Case-Studies {
+  background-image: url("../images/Case-Studies-desktop.jpg"); }
+
+body.post-type-archive-research-report #page-header {
+  background-image: url("../images/research-desktop.jpg"); }
+
+#single-header {
+  background-image: url("../images/bg/pattern.svg");
+  background-size: 10%;
+  background-repeat: repeat; }
 
 /* --mobile */
 /*********************
@@ -4734,10 +4751,22 @@ SECTION STYLES
     border-bottom: 10px solid #e6e6e6;
     overflow: hidden;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    position: relative; }
     section.topic aside {
-      margin-top: 13%;
-      max-width: 350px; }
+      position: absolute;
+      z-index: 3;
+      width: 30%;
+      top: 175px; }
+      section.topic aside.right {
+        right: 0;
+        left: auto; }
+      section.topic aside .left {
+        left: 0;
+        right: auto; }
       section.topic aside p {
         margin-bottom: 30px; }
       section.topic aside a {
@@ -4745,8 +4774,10 @@ SECTION STYLES
   section .slant {
     height: 720px;
     position: relative;
-    overflow: hidden; }
-    section .slant--right {
+    overflow: hidden;
+    z-index: 1;
+    width: 80%; }
+    section .slant--left {
       transform: skewX(-20deg);
       -ms-transform: skewX(-20deg);
       /* IE 9 */
@@ -4754,24 +4785,10 @@ SECTION STYLES
       /* Safari and Chrome */
       -webkit-transform-origin: top right;
       -ms-transform-origin: top right;
-      transform-origin: top right; }
-      section .slant--right::before {
-        content: "";
-        transform: skewX(20deg);
-        -ms-transform: skewX(20deg);
-        /* IE 9 */
-        -webkit-transform: skewX(20deg);
-        /* Safari and Chrome */
-        background-image: url("../images/bg/section-services.png");
-        background-repeat: no-repeat;
-        background-position: top left;
-        position: absolute;
-        -webkit-transform-origin: top right;
-        -ms-transform-origin: top right;
-        transform-origin: top right;
-        width: 2000px;
-        height: 2000px; }
-    section .slant--left {
+      transform-origin: top right;
+      background-color: white;
+      float: left; }
+    section .slant--right {
       transform: skewX(20deg);
       -ms-transform: skewX(20deg);
       /* IE 9 */
@@ -4779,23 +4796,9 @@ SECTION STYLES
       /* Safari and Chrome */
       -webkit-transform-origin: top left;
       -ms-transform-origin: top left;
-      transform-origin: top left; }
-      section .slant--left::before {
-        background-image: url("../images/bg/section-services.png");
-        content: "";
-        background-repeat: no-repeat;
-        background-position: top left;
-        position: absolute;
-        width: 1500px;
-        height: 1500px;
-        -webkit-transform-origin: top left;
-        -ms-transform-origin: top left;
-        transform-origin: top left;
-        transform: skewX(-20deg);
-        -ms-transform: skewX(-20deg);
-        /* IE 9 */
-        -webkit-transform: skewX(-20deg);
-        /* Safari and Chrome */ }
+      transform-origin: top left;
+      background-color: white;
+      float: right; }
   .proposal-contact {
     margin: 40px auto; }
   ul.tabs {
@@ -4828,7 +4831,6 @@ SECTION STYLES
 FOOTER STYLES
 *********************/
   p.copyright {
-    display: inline-block;
     margin: 10px auto; }
   .footer-links {
     display: inline-block;
@@ -4874,7 +4876,9 @@ be seen on the Desktop.
     .nav > li:last-child a {
       color: #d2db3a; }
   .service-grid .service-box {
-    padding: 60px 5px; } }
+    padding: 60px 5px; }
+  section .slant {
+    width: 60%; } }
 
 /*********************
 PRINT STYLESHEET
