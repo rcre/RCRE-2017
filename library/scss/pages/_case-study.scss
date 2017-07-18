@@ -7,14 +7,13 @@ PATRIAL CASE STUDY
 	text-align: left;
 	text-transform: capitalize;
 	margin: 0;
-	text-shadow: 0.5px 0.5px 30px $dgray; 
+	color: $text-color;
+	//text-shadow: 0.5px 0.5px 30px $dgray; 
 }
 
 .cs-header {
 	margin-bottom: 20px;
-	background-color: $lgray;
 	text-align: left;
-	background-size: cover;
 
 	&::after {
 		content: '';
@@ -73,10 +72,6 @@ aside {
 
 .cs-subtitle {
 	margin-top: 0;
-}
-
-section {
-	padding: 60px 0;
 }
 
 .client-logo {

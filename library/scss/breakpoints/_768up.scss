@@ -237,10 +237,26 @@ section {
 		overflow: hidden;
 		margin: 0;
 		padding: 0;
+	    background-repeat: no-repeat;
+	    background-position: top left;
+	    background-size: cover;
+	    position: relative;
 
 		aside {
-			margin-top: 13%;
-			max-width: 350px;
+			position: absolute;
+			z-index: 3;
+			width: 30%;
+			top: 175px;
+
+			&.right {
+				right: 0;
+				left: auto;
+			}
+
+			.left {
+				left: 0;
+				right: auto;
+			}
 
 			p {
 				margin-bottom: 30px;
@@ -256,56 +272,30 @@ section {
 		height: 720px;
 	    position: relative;
 	    overflow: hidden;
+	    z-index: 1;
+	    width: 80%;
+	    
 
-		&--right {
+		&--left {
 			transform: skewX(-20deg); 
 	    	-ms-transform: skewX(-20deg); /* IE 9 */
 	    	-webkit-transform: skewX(-20deg); /* Safari and Chrome */
 	    	-webkit-transform-origin: top right;
 	    	-ms-transform-origin: top right;
 	    	transform-origin: top right;
-			
-			&::before {
-		    	content: "";
-			    transform: skewX(20deg);
-			    -ms-transform: skewX(20deg); /* IE 9 */
-			    -webkit-transform: skewX(20deg); /* Safari and Chrome */
-			    background-image: url('../images/bg/section-services.png'); 
-			    background-repeat: no-repeat;
-			    background-position: top left;
-			    position: absolute;
-			    -webkit-transform-origin: top right;
-			    -ms-transform-origin: top right;
-			    transform-origin: top right;
-			    width: 2000px;
-			    height: 2000px;
-			}
-
+	    	background-color: white;
+	    	float: left;
 		}
 
-		&--left {
+		&--right {
 			transform: skewX(20deg); 
 	    	-ms-transform: skewX(20deg); /* IE 9 */
 	    	-webkit-transform: skewX(20deg); /* Safari and Chrome */
 	    	-webkit-transform-origin: top left;
 	    	-ms-transform-origin: top left;
 	    	transform-origin: top left;
-
-	    	&::before {
-			    background-image: url('../images/bg/section-services.png');
-				content: "";
-			    background-repeat: no-repeat; 
-			    background-position: top left;
-			    position: absolute;
-			    width: 1500px;
-			    height: 1500px;
-			    -webkit-transform-origin: top left;
-			    -ms-transform-origin: top left;
-			    transform-origin: top left;
-			    transform: skewX(-20deg);
-			    -ms-transform: skewX(-20deg); /* IE 9 */
-			    -webkit-transform: skewX(-20deg); /* Safari and Chrome */
-			}
+	    	background-color: white;
+	    	float: right;
 		}
 	}
 
@@ -362,7 +352,7 @@ FOOTER STYLES
 *********************/
 
 p.copyright {
-	display: inline-block;
+	//display: inline-block;
 	margin: 10px auto;
 }
 

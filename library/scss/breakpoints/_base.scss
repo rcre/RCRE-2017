@@ -132,7 +132,7 @@ header {
 	}
 
 	.subtitle {
-		font-weight: 400;
+		font-weight: 800;
 		font-size: 1em;
 		color: white;
 		margin: 0 auto;
@@ -160,18 +160,21 @@ POSTS & CONTENT STYLES
 	}
 }
 
-	.hentry {
-		background-color: $white;
-		margin-bottom: 0.5em;
+.hentry {
+	background-color: $white;
+	margin-bottom: 0.5em;
 
-		footer {
-			p {
-				margin: 0;
-			}
+	footer {
+		p {
+			margin: 0;
 		}
-	} /* end .hentry */
+	}
+} /* end .hentry */
 
-	
+.entry-content {
+	margin-right: 16.6666666667%;
+	margin-left: 16.6666666667%;
+}
 
 /*********************
 SECTION STYLES
@@ -189,9 +192,11 @@ SECTION STYLES
 }
 
 section {
-	
+	// Don't show the slant on mobile
+	padding: 0;
+
 	.topic {
-		// Don't show the slant on mobile
+	
 		.slant {
 			display: none;
 		}
@@ -202,6 +207,8 @@ section {
 		background-color: white;
 		margin-top: 0px;
 		padding: 0;
+		bottom: 0;
+		top: auto;
 		
 		a {
 			margin-top: 10px;
@@ -256,5 +263,4 @@ footer {
 
 .copyright {
 	font-size: 0.75em;
-	font-family: sans-serif;
 }

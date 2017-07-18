@@ -118,5 +118,19 @@ header#service {
 	&--Multifamily {
 		background-image: url('../images/specialties/multifamily/specialty-multifamily-panel-1.svg');
 	}
+
+	&--Case-Studies {
+		background-image: url('../images/Case-Studies-desktop.jpg');
+	}
+}
+
+body.post-type-archive-research-report #page-header {
+	background-image: url('../images/research-desktop.jpg');
+}
+
+#single-header {
+	background-image: url('../images/bg/pattern.svg');
+	background-size: 10%;
+	background-repeat: repeat;
 }
 /* --mobile */
