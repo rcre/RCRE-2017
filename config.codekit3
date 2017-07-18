@@ -27,12 +27,6 @@
 		"oAP": "\/404.php",
 		"oF": 0
 		},
-	"\/archive-custom_type.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/archive-custom_type.php",
-		"oF": 0
-		},
 	"\/archive-research-report.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -68,12 +62,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/comments.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/comments.php",
-		"oF": 0
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
@@ -184,12 +172,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/library\/custom-post-type.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/library\/custom-post-type.php",
-		"oF": 0
-		},
 	"\/library\/fonts\/fontawesome-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -269,6 +251,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/case-studies-desktop.jpg": {
+		"ft": 16384,
+		"iS": 965102,
+		"oA": 0,
+		"oAP": "\/library\/images\/case-studies-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/library\/images\/client-logos\/Coca-Cola.png": {
@@ -1032,6 +1024,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/library\/images\/research-desktop.jpg": {
+		"ft": 16384,
+		"iS": 293849,
+		"oA": 0,
+		"oAP": "\/library\/images\/research-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/library\/images\/services\/brokerage\/service-brokerage-button.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -1661,6 +1663,12 @@
 		"oAP": "\/library\/partials\/header-home.php",
 		"oF": 0
 		},
+	"\/library\/partials\/header-listing.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/header-listing.php",
+		"oF": 0
+		},
 	"\/library\/partials\/header-none.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1685,6 +1693,18 @@
 		"oAP": "\/library\/partials\/sectionContact.php",
 		"oF": 0
 		},
+	"\/library\/partials\/sectionMailChimp.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/sectionMailChimp.php",
+		"oF": 0
+		},
+	"\/library\/partials\/sectionMailChimpSmall.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/library\/partials\/sectionMailChimpSmall.php",
+		"oF": 0
+		},
 	"\/library\/partials\/sectionServiceGrid.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1701,12 +1721,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/library\/partials\/sectionTeam.php",
-		"oF": 0
-		},
-	"\/library\/partials\/sectionTopic.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/library\/partials\/sectionTopic.php",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
@@ -2732,16 +2746,16 @@
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
-	"\/single-broker.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/single-broker.php",
-		"oF": 0
-		},
 	"\/single-case-study.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/single-case-study.php",
+		"oF": 0
+		},
+	"\/single-employee.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single-employee.php",
 		"oF": 0
 		},
 	"\/single-listing.php": {
@@ -2765,12 +2779,6 @@
 		"oAP": "\/style-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/taxonomy-custom_cat.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/taxonomy-custom_cat.php",
-		"oF": 0
 		}
 	},
 "hooks": [

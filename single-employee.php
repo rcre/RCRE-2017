@@ -25,7 +25,7 @@
 
 					<!-- PHP Get the Broker's Title and Industry-->
 						<div class="text-left">
-							<?php echo types_render_field( "broker-title", array( 'raw' => false) ); ?> // <div class="header-link"> <?php echo get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?></div> 
+							<?php echo types_render_field( "profile-title", array( 'raw' => false) ); ?> // <div class="header-link"> <?php echo get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?></div> 
 						</div>
 				
 				</header>
@@ -37,7 +37,7 @@
 					<div class="m-1of2 t-all d-all">
 				
 						<!-- Profile Picture -->
-						<img class="broker-profile-picture" src="<?php echo types_render_field( "broker-profile-picture", array( 'raw' => true)); ?>" alt=" <?php the_title(); ?><?php get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?> ">
+						<img class="profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'raw' => true)); ?>" alt=" <?php the_title(); ?><?php get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?> ">
 
 						<!-- BUTTON: Contact -> PHP Link to Broker's Email -->
 						<a id="cta-border-green" class="green" href="mailto:<?php echo(types_render_field( "broker-email-address", array( 'raw' => true) )); ?>">Contact</a>
@@ -48,7 +48,7 @@
 					<div class="profile-info m-1of2 t-all d-all">
 
 						<!-- Contact information -->
-						<div class="header-link email"><?php echo types_render_field( "broker-email-address", array( 'raw' => false) ); ?></div>
+						<div class="header-link email"><?php echo types_render_field( "profile-email-address", array( 'raw' => false) ); ?></div>
 						
 						<div class="broker-office-phone">
 							<a href="tel:<?php echo types_render_field( "broker-office-phone", array( 'raw' => false) ); ?>" role="telephone"><strong>Phone:</strong> <?php echo types_render_field( "broker-office-phone", array( 'raw' => false) ); ?>
@@ -56,7 +56,7 @@
 						</div>
 						
 						<div class="broker-cell-phone">
-							<a href="tel:<?php echo types_render_field( "broker-office-phone", array( 'raw' => false) ); ?>" role="telephone"><strong>Cell:</strong> <?php echo types_render_field( "broker-cell-phone", array( 'raw' => false) ); ?>
+							<a href="tel:<?php echo types_render_field( "profile-office-phone", array( 'raw' => false) ); ?>" role="telephone"><strong>Cell:</strong> <?php echo types_render_field( "profile-cell-phone", array( 'raw' => false) ); ?>
 							</a>
 						</div>
 						
@@ -77,13 +77,19 @@
 				<div class="entry-content pull-r-1of12 t-7of12 d-2of3 cf">
 				<!-- The Content will just be the biography -->
 					<h3>Quick Look</h3>
-					<p><?php echo types_render_field( "broker-quick-description", array( 'raw' => true) ); ?></p>
+					<p><?php echo types_render_field( "profile-quick-description", array( 'raw' => true) ); ?></p>
+
+					<h3>Duties</h3>
+					<p><?php echo types_render_field( "profile-duties", array( 'raw' => true) ); ?></p>
 
 					<h3>History</h3>
-					<p><?php echo types_render_field( "broker-history", array( 'raw' => true) ); ?></p>
+					<p><?php echo types_render_field( "profile-history", array( 'raw' => true) ); ?></p>
+
+					<h3>Personal</h3>
+					<p><?php echo types_render_field( "profile-personal", array( 'raw' => true) ); ?></p>
 					
 					<h3>Past Clients</h3>
-					<p><?php echo types_render_field( "past-client", array( "separator" => " | ") ); ?></p>
+					<p><?php echo types_render_field( "profile-past-client", array( "separator" => " | ") ); ?></p>
 
 					<?php the_content();
 

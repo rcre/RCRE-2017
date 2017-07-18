@@ -17,14 +17,14 @@
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 					
 					<section id="Panel-1" class="specialty-drawing--<?php the_title(); ?> panel cf">
-						<aside class="caption<?php echo types_render_field( "illustration-caption"); ?> m-all t-1of4 d-1of4 pull-l-1of12 right">
+						<aside class="caption<?php echo types_render_field( "illustration-caption", array("output" => 'raw') ); ?> m-all t-1of4 d-1of4 pull-l-1of12 right">
 							<h2 class="header-dark"><?php the_title(); ?> Workflow Experience</h2>
 							<p><?php echo types_render_field( "specialty-point-1"); ?></p>
 						</aside>
 					</section>
 					
 					<section id="Panel-2" class="panel cf">
-						<aside class="m-all t-1of4 d-1of4 pull-r-1of12 left aside-top">
+						<aside class="m-all t-1of4 d-1of4 pull-r-1of12 left captionTop">
 							<h2 class="header-dark"><?php the_title(); ?> Market Experience</h2>
 							<p><?php echo types_render_field( "specialty-point-2"); ?></p>
 
@@ -35,7 +35,7 @@
 					</section>
 					
 					<section id="Panel-3" class="panel cf">
-						<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right aside-top">
+						<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right captionTop">
 							<h2 class="header-dark">A Network of Collaboration</h2>
 							<p><?php echo types_render_field( "specialty-point-3"); ?></p>
 						</aside>

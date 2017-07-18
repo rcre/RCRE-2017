@@ -112,6 +112,8 @@ client-quote
 
 			</article>
 
+			<?php get_template_part('library/partials/sectionMailChimpSmall'); ?>
+
 			<footer class="cf">
 					<?php get_template_part('library/partials/sectionContact'); ?>
 				</footer>

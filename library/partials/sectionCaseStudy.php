@@ -1,6 +1,6 @@
 <?php // This SECTION shows case studies, with no real ryhme or reason ?>
 
-<section class="topic cf">
+<section class="topic cf page--Case-Studies">
 		<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right">
 			<h3>Case Studies</h3>
 			<div class="m-padding">
