@@ -8,7 +8,7 @@
 			
 	<div id="content">
 
-		<div id="inner-content" class="wrap cf">
+		<div id="inner-content" class="cf">
 
 			<main id="main" class="m-all t-all d-10of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
@@ -16,15 +16,15 @@
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 					
-					<section id="Panel-1" class="specialty-drawing--<?php the_title(); ?> panel cf">
-						<aside class="caption<?php echo types_render_field( "illustration-caption", array("output" => 'raw') ); ?> m-all t-1of4 d-1of4 pull-l-1of12 right">
+					<section id="Panel-1" class="specialty-drawing--<?php the_title(); ?> panel cf m-padding">
+						<aside class="caption<?php echo types_render_field( "illustration-caption" , array ( "output" => 'raw' ) ); ?> m-all t-1of4 d-1of4 pull-l-1of12 right">
 							<h2 class="header-dark"><?php the_title(); ?> Workflow Experience</h2>
 							<p><?php echo types_render_field( "specialty-point-1"); ?></p>
 						</aside>
 					</section>
 					
-					<section id="Panel-2" class="panel cf">
-						<aside class="m-all t-1of4 d-1of4 pull-r-1of12 left captionTop">
+					<section id="Panel-2" class="panel cf m-padding">
+						<aside class="m-all t-1of4 d-1of4 pull-r-1of12 left caption-top">
 							<h2 class="header-dark"><?php the_title(); ?> Market Experience</h2>
 							<p><?php echo types_render_field( "specialty-point-2"); ?></p>
 
@@ -34,8 +34,8 @@
 						<div class="research-chart t-1of2 d-3of5 m-all"><img src="<?php echo get_template_directory_uri(); ?>/library/images/specialties/office/specialty-office-panel-2-graph.svg" alt=""></div>
 					</section>
 					
-					<section id="Panel-3" class="panel cf">
-						<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right captionTop">
+					<section id="Panel-3" class="panel cf m-padding">
+						<aside class="m-all t-1of4 d-1of4 pull-l-1of12 right caption-top">
 							<h2 class="header-dark">A Network of Collaboration</h2>
 							<p><?php echo types_render_field( "specialty-point-3"); ?></p>
 						</aside>
@@ -50,7 +50,10 @@
 					</section>
 					
 				<!-- This is a wp loop for team memebers-->
+				<section id="SpecialtyTeam" class="pull-r-1of12 pull-l-1of12 cf pad-top m-padding">
+					<h2 class="header-dark pad-top">The <?php the_title(); ?> Team</h2>
 					<?php get_template_part('library/partials/sectionTeam'); ?>
+				</section>
 
 				<!-- This is a wp loop for Case Studies-->
 					<?php get_template_part('library/partials/sectionCaseStudy'); ?>

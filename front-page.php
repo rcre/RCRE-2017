@@ -15,7 +15,7 @@
 			</div>
 		</div>
 
-		<div id="inner-content" class="wrap cf">
+		<div id="inner-content" class="cf">
 
 			<main id="main" class="m-all t-all d-10of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
@@ -26,9 +26,9 @@
 				
 					
 			<?php // Company UVP and introduction o why we are different ?>
-				<section class="m-padding">
+				<section class="pad-top">
 					<div class="pull-l-1of12 pull-r-1of12 cf">
-						<div class="uvp pull-l-1of12 pull-r-1of12">
+						<div class="uvp">
 							<p>From landlords and tenants to buyers and sellers, we provide consultative commercial real estate solutions focused on building <strong>long-term relationships</strong> with you and <strong>long-term success</strong> for your business.</p>
 						</div>
 						<div class="selling-point m-all t-1of3 d-1of3">
@@ -44,7 +44,7 @@
 						<div class="selling-point m-all t-1of3 d-1of3 right">
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icons-focused-on-you.svg" alt="Real Estate Knowledge">
 							<h5>Free to focus on you.</h5>
-							<p>We don’t answer to stockholders. We aren’t an oversized corporation that only cares about boosting their numbers. We care about your numbers.</p>
+							<p>We don&#39;t answer to stockholders. We aren&#39;t an oversized corporation that only cares about boosting their numbers. We care about your numbers.</p>
 						</div>
 					</div>
 				</section>
@@ -56,9 +56,9 @@
 		get_template_part('library/partials/sectionCaseStudy');
 	?>
 				<section id="need-help">
-					<div class="m-padding">
-						<h2>Can’t find what you’re looking for?</h2>
-						<p>We want to ensure we make your life as easy as possible. </br>The best way we can serve you is <a id="cta-underline-white" href="#">sending us a message</a> or <a id="cta-underline-white" href="#">giving us a call.</a> No hoops.</p>
+					<div class="wrap">
+						<h2>Can&#39;t find what you&#39;re looking for?</h2>
+						<p>We want to ensure we make your life as easy as possible. </br>The best way we can serve you is <a id="cta-underline-white" href="https://www.getfeedback.com/r/TXPTw5oV">sending us a message</a> or <a id="cta-underline-white" href="tel:317-663-6000" role="telephone">giving us a call.</a> No hoops.</p>
 						<p>We <i class="fa fa-heart" aria-hidden="true"></i> feedback! Let us know how we can make our site better!</p>
 					</div>
 				</section>

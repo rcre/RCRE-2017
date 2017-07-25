@@ -2,28 +2,24 @@
 Broker Page Styles
 ******************************************************************/
 
-.type-broker {
-	.h1-profile {
-		color: $dgray;
-		font-size: 3em;
-		text-align: left;
-		text-transform: capitalize;
-		margin: 0;
-	}
+.type-employee {
 
 	.profile-info {
 		font-size: 1em;
-		text-align: center;
+		text-align: left;
 
 		div {
 			padding: 2px 0;
 
 			a {
 				padding-top: 3px;
-				color: $gray;
 				text-decoration: none;
 			}
 		}
+	}
+
+	h3 {
+		margin-top: 30px;
 	}
 
 	aside {
@@ -39,11 +35,36 @@ Broker Page Styles
 
 	// Specific to broker/staff
 	.profile-header {
-		margin-top: 80px;
 		margin-bottom: 40px;
+		padding-top: 20px;
+		text-align: left;
+
+		h1 {
+			margin: 20px 0 0px 0;
+		}
+
+		a {
+			font-size: 1em;
+		}
 	}
 }
 
+.profile-content {
+	margin-top: 0;
+
+	h3:first-child {
+		margin-top: 0;
+	}
+}
+
+.license-number {
+	font-size: 0.8em;
+	color: $gray;
+}
+
+.v-card {
+	margin-bottom: 5px;
+}
 // Post View
 .employee {
 	text-align: center;

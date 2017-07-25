@@ -1,6 +1,6 @@
 <?php // SECTION Contact Form ?>
 
-<section class="m-padding proposal-contact cf">
+<section id="contactUs" class="m-padding proposal-contact cf">
 	<!-- Contact Form -->
 	<div class="pull-r-1of12 pull-l-1of12 cf">
 		<form id="contact-home" class="t-1of2 d-1of2 cf" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">

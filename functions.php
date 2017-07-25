@@ -245,4 +245,77 @@ add_filter( 'walker_nav_menu_start_el', 'item_description', 10, 4 );
 
 add_theme_support( 'post-formats', 'miniProfile' );
 
+
+// Function to show children on parent pages
+function has_children() {
+  global $post;
+  $pages = get_pages('child_of=' . $post->ID);
+  
+  return count($pages);
+}
+
+function is_top_level() {
+  global $post, $wpdb;
+  $current_page = $wpdb->get_var("SELECT post_parent FROM $wpdb->posts WHERE ID = " . $post->ID);
+  return $current_page;
+}
+
+/*
+  Redirect Archives to Pages
+  i.e. retail taxonomy => retail page
+*/
+
+add_action( 'template_redirect', 'my_redirect_term_to_post' );
+
+function my_redirect_term_to_post() {
+  global $wp_query;
+
+  if ( is_tax() ) {
+    $term = $wp_query->get_queried_object();
+
+    if ( 'specialty' == $term->taxonomy ) {
+      $post_id = my_get_post_id_by_slug( $term->slug, 'page' );
+
+      if ( !empty( $post_id ) )
+        wp_redirect( get_permalink( $post_id ), 301 );
+    }
+
+    if ( 'service' == $term->taxonomy ) {
+      $post_id = my_get_post_id_by_slug( $term->slug, 'page' );
+
+      if ( !empty( $post_id ) )
+        wp_redirect( get_permalink( $post_id ), 301 );
+    }
+
+  }
+}
+
+function my_get_post_id_by_slug( $slug, $post_type ) {
+  global $wpdb;
+
+  $slug = rawurlencode( urldecode( $slug ) );
+  $slug = sanitize_title( basename( $slug ) );
+
+  $post_id = $wpdb->get_var( $wpdb->prepare( "SELECT ID FROM $wpdb->posts WHERE post_name = %s AND post_type = %s", $slug, $post_type ) );
+
+  if ( is_array( $post_id ) )
+    return $post_id[0];
+  elseif ( !empty( $post_id ) );
+    return $post_id;
+
+  return false;
+}
+
+// For Using Featured Images as header images
+global $bannerimg;
+
+// For grabbing the post type from a page
+global $custom_post_type;
+
+// This shortens the excerpt link
+function custom_excerpt_length( $length ) {
+  return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>

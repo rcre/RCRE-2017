@@ -37,7 +37,7 @@
 		
 		<?php // Google reCaptcha code ?>
 		<!-- <script>
- 			function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500);
+ 			
 		</script> -->
 
 		 
@@ -139,23 +139,66 @@
 				</div>
 			</header>
 
-		<?php if ( is_front_page() ) { 
-			// Header only for the home page
-			get_template_part('library/partials/header-home');
+		<?php 
+
+			if ( has_post_thumbnail() ) {
+				// $bannerimg = wp_get_attachment_url( get_post_thumbnail_id( $page->ID ), 'single-post-thumbnail' ); 
+				$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+			} else {
+				$bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
+			}
+
+ 			// $obj = get_queried_object();
+ 			// $custom_post_type = $obj->post_type;
+
+			if( get_post_type() == "employee" || is_404() ) {
+				// Header for individual blog posts, case studies, and research reports
+				get_template_part('library/partials/header-none');
+
+			} elseif ( is_single() ) { ?>
+			<!-- Header for Single.php -->
+			<div id="single-header" style="background-image: url('<?php echo $bannerimg; ?>'); background-repeat: no-repeat; background-size: cover;" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+
+					<div class="m-padding cf">
+						<div class="m-all pull-r-1of12 pull-l-1of12 t-1of2 d-11of12 cf">
+							
+							<div class="tag blue">
+							<?php echo get_the_term_list( $post->ID, 'specialty', '', '', ''); ?>
+							</div>
+
+							<?php if ( is_tax('service') ) { ?>
+								<div class="tag gray">
+							<?php echo get_the_term_list( $post->ID, 'service', '', '', ''); ?>
+							</div>
+							<?php } ?>
+							
+							<h1 class="cs-h1"><?php the_title(); ?></h1>
+							<p class="subtitle">
+							<?php echo types_render_field( "tagline", array( 'raw' => true)); ?>
+							</p>
+						</div>
+						<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( 'raw' => true)); ?>" alt="Download the PDF"></a>
+					</div>
+				</div>
+
+			<?php } elseif ( is_single() ) {
+				// Get header based on post type
+	 			get_template_part('library/partials/header', get_post_type() );
 			
-		} elseif ( is_page() || is_archive() ) {
-			// Header for all other pages
-			get_template_part('library/partials/header-default');
-
-		} elseif ( is_single() ) { 
-			// Header for individual blog posts, case studies, and research reports
-			get_template_part('library/partials/header-post');
-
-		} elseif ( is_single('listing') ) {
-			// Header for individual blog posts, case studies, and research reports
-			get_template_part('library/partials/header-listing');
-
-		} else {
-			get_template_part('library/partials/header-default');
-		} ?>
-			
+			} else { ?>
+			<!-- Header for all other pages -->
+				<div id="page-header" style="background-image: url('<?php echo $bannerimg; ?>');" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+					<div class="callout cf">
+						<div class="m-all t-1of2 d-1of2 center cf">
+							<h1 class="page-title" itemprop="headline">
+								<?php the_title(); ?>
+							</h1>
+							<p class="subtitle"><?php echo types_render_field( "tagline", array( 'raw' => true)); ?></p>
+							<div class="header-buttons cf">
+								<a href="<?php echo esc_url( the_permalink() ); ?>" id="cta-border-green">Read More...</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			<?php } ?>
+				

@@ -75,10 +75,17 @@ header#service {
 	}
 }
 
+
+	
 .specialty-drawing {
 
 	&--Office {
 		background-image: url('../images/specialties/office/specialty-office-panel-1.svg');
+		
+		@media (max-width: 767px) {
+			background: transparent;
+			height: auto;
+		}
 	}
 
 	&--Retail {
@@ -87,6 +94,10 @@ header#service {
 
 	&--Industrial {
 		background-image: url('../images/specialties/industrial/specialty-industrial-panel-1.svg');
+		@media (max-width: 767px) {
+			background: transparent;
+			height: auto;
+		}
 	}
 
 	&--Land {
@@ -98,9 +109,14 @@ header#service {
 	}
 }
 
+
+
+
+
 .page {
 	&--Home {
 		background-image: url('../images/home-desktop.jpg');
+		padding-top: 80px;
 	}
 
 	&--Blog {
@@ -121,6 +137,10 @@ header#service {
 
 	&--Case-Studies {
 		background-image: url('../images/Case-Studies-desktop.jpg');
+		@media (max-width: 767px) {
+			background: transparent;
+			height: auto;
+		}
 	}
 }
 
@@ -128,9 +148,11 @@ body.post-type-archive-research-report #page-header {
 	background-image: url('../images/research-desktop.jpg');
 }
 
-#single-header {
+.header-pattern {
 	background-image: url('../images/bg/pattern.svg');
 	background-size: 10%;
 	background-repeat: repeat;
+	background-position: center;
 }
+
 /* --mobile */

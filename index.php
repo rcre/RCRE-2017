@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 
+<!-- This is where the blog posts are shown -->
+
 			<div id="content">
 
-				<div id="inner-content" class="wrap cf">
+				<div id="inner-content" class="cf">
 
 					<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
@@ -13,7 +15,7 @@
 								<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						
 									
-										<?php get_template_part( 'post-formats/content-blog-post', get_post_type() ); ?>
+										<?php get_template_part( 'post-formats/content-post', get_post_type() ); ?>
 									
 								
 								<?php endwhile; ?>

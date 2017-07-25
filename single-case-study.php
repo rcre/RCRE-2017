@@ -17,98 +17,93 @@ header-image
 before-image
 after-image
 client-quote
+client-quote-person
+client-quote-title
 -->
 <?php get_header(); ?>
 
 <div id="content">
 
-	<div id="inner-content" class="wrap cf">
+	<div id="inner-content" class="cf">
 
 		<main id="main" class="cf m-padding" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class('cf pull-r-1of12 pull-l-1of12'); ?> role="article">
+			
+			<section class="cs-section cf">
+				<div class="d-1of3 t-all m-all">
+					<h4>Services Included:</h4>
+					<div class="profile-info m-1of2 t-all d-all">
+						<!-- Services -->
+						<?php echo get_the_term_list( $post->ID, 'service', '', '</br>', ''); ?></a>
+					</div>
+				</div>
 
-			<section class="challenge cf">
+				<div class="quick-facts d-2of3 t-all m-all">
+					
+					<div class="case-study-icon left">
+						<?php echo types_render_field( "client-logo", array( "size" => "thumbnail" ));  ?>	
+					</div>
+					<h3 class="right">Company Quick Facts</h3>
+					<p class="right"><?php echo types_render_field( "client-quick-facts", array( "separator" => " | ", 'raw' => true )); ?></p>
+				</div>
+			</section>
+
+			<section class="cs-section cf">
 				<div class="d-1of3 t-1of3 m-all">
+					<div class="cs-icon">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-brokerage-contract.svg" alt="Challenge">
+					</div>
+				</div>
+				<aside class="d-2of3 t-2of3 m-all">
 					<h3>Challenge</h3>
 					<p><?php echo types_render_field( "1-challenge", array( 'raw' => true)); ?></p>
-				</div>
-
-				<div class="quick-facts d-1of3 right m-all">
-					<img class="client-logo" src="<?php echo types_render_field( "client-logo", array( 'raw' => true)); ?>" alt="">
-					<h3>Company Quick Facts</h3>
-					<p><?php echo types_render_field( "client-quick-facts", array( "separator" => " | ", 'raw' => true )); ?></p>
-				</div>
+				</aside>
 			</section>
 
-			<section class="solution cf">
-				<div class="d-1of3 t-1of3 m-all right">
-				<h3>Solution</h3>
-				<p><?php echo types_render_field( "2-strategy", array( 'raw' => true)); ?></p>
-				</div>
-			</section>
-				
-			<section class="results cf">
+			<section class="cs-section cf">
 				<div class="d-1of3 t-1of3 m-all">
-				<h3>Results</h3>
-				<p><?php echo types_render_field( "3-results", array( 'raw' => true)); ?></p>
-				</div>
-			</section>
-			
-			<!-- ASIDE: Mainly Broker Contact Information -->
-				<aside class="m-all t-1of3 d-1of7">
-				<!-- PHP: Get the Broker's Picture URL and Industry Name-->
-					<?php 
-						// Get the ID of the parent post, which belongs to the "Broker" post type
-							$broker_id = wpcf_pr_post_get_belongs( get_the_ID(), 'broker' );
-						// Get all the parent (broker) post data
-							$broker_post = get_post( $broker_id );
-						// Get the title of the parent (broker) post
-							$broker_name = $broker_post->post_title;
-						// Get the contents of the parent (broker) post
-							$broker_content = $broker_post->post_content;
-						?>
-
-					<div class="m-1of2 t-all d-all">
-						<!-- Profile Picture -->
-						<img src="<?php echo types_render_field( "broker-profile-picture", array( 'post_id' => $broker_id, 'raw' => true, 'size' => 'thumbnail')); ?>" alt="<?php echo $broker_name; ?>">
-
-						<h3><?php echo $broker_name; ?></h3>
-
-						<!-- BUTTON: Contact -> PHP Link to Broker's Email -->
-						<a id="cta-border-green" class="green" href="<?php echo(types_render_field( "broker_email", array( $broker_id, 'raw' => true, 'size' => 'thumbnail') )); ?>">Contact</a>
-					</div> 
-				
-				<!-- PHP: Case Study's related broker's contact information -->
-					<div class="profile-info m-1of2 t-all d-all">
-
-						<!-- Services -->
-						<?php echo get_the_term_list( $post->ID, 'service', '<p id="specialty-button"></strong>', '</br> ', '</p>'); ?></a>
+					<div class="cs-icon">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-computer-research.svg" alt="Challenge">
 					</div>
+				</div>
+				<aside class="d-2of3 t-2of3 m-all">
+				
+					<h3>Solution</h3>
+					<p><?php echo types_render_field( "2-strategy", array( 'raw' => true)); ?></p>
+				</aside>
+			</section>
+				
+			<section class="cs-section cf">
+				<div class="d-1of3 t-1of3 m-all">
+					<div class="cs-icon">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icons-lightbulb-intelligence.svg" alt="Challenge">
+					</div>
+				</div>
+
+				<aside class="d-2of3 t-2of3 m-all">
+					<h3>Results</h3>
+					<p><?php echo types_render_field( "3-results", array( 'raw' => true)); ?></p>
+				</aside>
+			</section>
+
+
+			<section class="cs-section cf">
+			<!-- ASIDE: Mainly Broker Contact Information -->
+				<aside class="m-all t-1of3 d-1of6 cf">
+				<!-- PHP: Get the Broker's Picture URL and Industry Name-->
+					<?php get_template_part('post-formats/author' , get_post_type() ); ?>
 				</aside>
 
-				<div class="client-quote m-all t-2of3 d-5of7 pull-r-1of7"><?php echo types_render_field( "client-quote", array( 'before' => '<span>&ldquo;</span>', 'raw' => false)); ?>
+				<div class="client-quote m-all t-2of3 d-3of4 right"><i><?php echo types_render_field( "client-quote", array( 'before' => '<span>&ldquo;</span>', 'raw' => true)); ?></i>
 					<div class="client-quote-person">
-						<p><strong>Patrick Hanus, President</strong></p>
-						<p>Coca-cola Company, USA</p>
+						<p><strong><?php echo types_render_field( "client-quote-person", array( 'raw' => true)); ?></strong></p>
+						<p><?php echo types_render_field( "client-quote-title", array( 'raw' => true)); ?>, <?php the_title(); ?></p>
 					</div>
 				</div>
-
-			<!-- SECTION: Broker's Bio, Past Work, and Related Case Studies -->
-				<div class="entry-content pull-r-1of12 t-all d-all cf">
-				<!-- The Content will just be the biography -->
-					<?php the_content();
-
-						wp_link_pages( array(
-							'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'bonestheme' ) . '</span>',
-							'after'       => '</div>',
-							'link_before' => '<span>',
-							'link_after'  => '</span>',
-						) );
-					?>
-				</section> <!-- end article section -->
+			</section>
 
 			</article>
 
@@ -117,8 +112,8 @@ client-quote
 			<footer class="cf">
 					<?php get_template_part('library/partials/sectionContact'); ?>
 				</footer>
-				
 			<?php endwhile; ?>
+
 
 			<?php else : ?>
 
@@ -135,7 +130,6 @@ client-quote
 					</article>
 
 			<?php endif; ?>
-
 		</main>
 	</div>
 </div>

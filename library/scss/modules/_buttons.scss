@@ -128,7 +128,7 @@ and it will create a button dependant on those variables.
 .cta-border-green {
   @extend %btn;
   color: $green;
-  background-color: none;
+  background-color: transparent;
   border-color: $green;
 
   &:hover,
@@ -216,24 +216,24 @@ and it will create a button dependant on those variables.
   }
 }
 
-#specialty-button {
-  > a {
+.specialty-buttons {
+ a {
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     color: $gray;
     background-color: none;
-    border: none;
-    border: 5px solid $lgray;
+    border: 3px solid $lgray;
     font-weight: 600;
-    border-radius: 15px;
+    border-radius: 10px;
     display: block;
     text-align: center;
+    margin-bottom: 5px;
     
     &:hover,
     &:focus {
       color: lighten($gray, 20%);
       transition: 0.5s;
-      background-color: $lgray;
+      background-color: $green;
     } // end hover
 
     &:active {
@@ -272,28 +272,42 @@ and it will create a button dependant on those variables.
 // Tag Buttons
 
 .tag {
-  color: white;
-  padding: 5px;
-  border-radius: 3px;
-  display: inline-block;
-  font-weight: 600;
-  text-transform: capitalize;
-  transition: 0.8s;
 
   a {
-    color: white;
     text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.8s;
+    background-color: $lgray;
   }
+}
 
-  &--service {
-    background-color: $gray;
+.red {
+  a:hover {
+    background-color: $pink;
   }
+}
 
-  &--specialty {
+.green {
+  a:hover {
+    background-color: $green;
+  }
+}
+
+.blue {
+  a:hover {
     background-color: $blue;
   }
+}
 
-  &--post-type {
-    background-color: $green;
+.gray {
+  a:hover {
+    background-color: $gray;
+    color: $lgray;
   }
 }

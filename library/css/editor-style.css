@@ -2216,6 +2216,8 @@ probably best not to use it. I mean, were you going to anyway? */
     font-feature-settings: "liga", "dlig"; }
   body#tinymce.wp-editor .header-dark {
     color: #43505d; }
+  body#tinymce.wp-editor .header-light {
+    color: #fff; }
   body#tinymce.wp-editor .text-right {
     text-align: right; }
   body#tinymce.wp-editor .text-left {

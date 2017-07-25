@@ -8,58 +8,54 @@
 
 <div id="content">
 
-	<div id="inner-content" class="wrap cf">
+	<div id="inner-content" class="cf">
 
-		<main id="main" class="m-all pull-l-1of12 pull-r-1of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+		<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-				<?php
-					/*
-					 * Ah, post formats. Nature's greatest mystery (aside from the sloth).
-					 *
-					 * So this function will bring in the needed template file depending on what the post
-					 * format is. The different post formats are located in the post-formats folder.
-					 *
-					 *
-					 * REMEMBER TO ALWAYS HAVE A DEFAULT ONE NAMED "format.php" FOR POSTS THAT AREN'T A SPECIFIC POST FORMAT.
-					 *
-					 * If you want to remove post formats, just delete the post-formats folder and
-					 * replace the function below with the contents of the "format.php" file.
-					*/
-					get_template_part( 'post-formats/format', get_post_format() );
-				?>
+			<section class="topic cf">
+				<div class="pull-l-1of12 pull-r-1of12 pad-top cf">
+					<div class="m-all t-1of2 d-1of2 cf">
+						<h2 class="header-dark"><?php echo(types_render_field( "flyer-headline", array( 'raw' => true) )); ?></h2>
 
+						<p><?php echo(types_render_field( "listing-description", array( 'raw' => true) )); ?></p>
 
-				<img class="d-1of2" src="<?php echo(types_render_field( "main-property-picture", array( 'raw' => true) )); ?>" alt="<?php echo(types_render_field( "address", array( 'raw' => true) )); ?>">
+						<h2 class="header-dark">Property Details</h2>
 
-				<div class="d-1of2">
-					<h3><?php echo(types_render_field( "flyer-headline", array( 'raw' => true) )); ?></h3>
+						<ul><?php echo(types_render_field( "listing-features", array( 'raw' => false ) )); ?></ul>
+					</div>
+				
+					<div class="m-all t-1of2 d-1of2 cf">
+						<iframe src="https://snazzymaps.com/embed/3893" width="100%" height="400px"></iframe>
 
-			<?php // Listing Address linked to Google maps ?>
-					<a href="<?php echo(types_render_field( "google-maps-url", array( 'raw' => true) )); ?>" id="cta-underline-gray"><?php echo(types_render_field( "address", array( 'raw' => true) )); ?></a>
+						<p class="m-1of2 t-1of2 d-1of2"><a href="<?php echo(types_render_field( "property-flyer", array( 'raw' => true) )); ?>" class="cta-border-green">Download Property Flyer</a>
+						</p>
 
-			<?php // Download Property Flyer Icon ?>
-					<p>
-						<a href="<?php echo(types_render_field( "property-flyer", array( 'raw' => true) )); ?>" class="cta-border-green">Download Property Flyer</a>
-					</p>
-
-			<?php // Description of Listing ?>
-					<p><?php echo(types_render_field( "listing-description", array( 'raw' => true) )); ?></p>
+						<p class="m-1of2 t-1of2 d-1of2"><a href="<?php echo(types_render_field( "google-maps-url", array( 'raw' => true) )); ?>" class="cta-border-green">View on Google Maps</a>
+						</p>
+					</div>
 				</div>
-			
-			<?php // Google Maps Url ?>
-				<p><?php echo(types_render_field( "google-maps-url", array( 'raw' => true) )); ?></p>
-			
-			<?php // Google Maps Embed Code ?>
-				<div class="d-1of2">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12299.971397709642!2d-86.0427619234867!3d39.82147580676871!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe195d89557631425!2sKingston+Square+Apartments!5e0!3m2!1sen!2sus!4v1500325373394" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
+			</section>
 
-				<p><?php echo(types_render_field( "listing-features", array( 'raw' => true) )); ?></p>
+			<section class="topic cf">
+				<div class="pull-l-1of12 pull-r-1of12 pad-top cf">
+
+				<h3 class="pad-top">Propery Pictures</h3>
+
+				<img class="m-1of2 t-1of2 d-1of2" src="<?php echo(types_render_field( "main-property-picture", array( 'raw' => true) )); ?>" alt="<?php echo(types_render_field( "address", array( 'raw' => true) )); ?>">
 			
-			<?php // Brokers who are on the listing ?>
-				<?php // Call Parent Post (Can I have more than one Parent post?) ?>
+				<?php // Brokers who are on the listing ?>
+					<?php // Call Parent Post (Can I have more than one Parent post?) ?>
+				</div>
+			</section>
+
+			<section class="topic cf">
+				<div class="pull-l-1of12 pull-r-1of12 pad-top cf">
+				<h3>Listing Broker</h3>
+
+				</div>
+			</section>
 
 			<?php endwhile; ?>
 
@@ -82,6 +78,7 @@
 		</main>
 
 		<footer class="article-footer cf">
+			<?php get_template_part('library/partials/sectionMailChimpSmall'); ?>
 				<?php get_template_part('library/partials/sectionContact'); ?>
 			</footer>
 

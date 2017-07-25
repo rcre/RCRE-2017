@@ -93,11 +93,6 @@ function loadGravatars() {
 	}
 } // end function
 
-
-/*
- * Put all your regular jQuery in here.
-*/
-
 /*************************
  * Service Tab Block
 **************************/
@@ -170,10 +165,16 @@ function mobileMenu() {
   }
 
 /*************************
- * Mobile Dropdowns
+ * Google Recaptcha
 **************************/
+
+function timestamp() { 
+  var response = document.getElementById("g-recaptcha-response"); 
+  if (response === null || response.value.trim() === "") {
+    var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500);
+
 function recaptcha_callback() {
-jQuery('#contact_submit').removeAttr('disabled');
+  jQuery('#contact_submit').removeAttr('disabled');
 }       
 
 jQuery(document).ready(function() {

@@ -2861,6 +2861,9 @@ p {
 .header-dark {
   color: #43505d; }
 
+.header-light {
+  color: #fff; }
+
 .text-right {
   text-align: right; }
 
@@ -3181,9 +3184,9 @@ over your project's layout.
     padding-right: 0.75em;
     width: 41.6666666666667%; }
   .pull-r-1of12 {
-    margin-left: 8.33%; }
+    margin-left: 12.33%; }
   .pull-l-1of12 {
-    margin-right: 8.33%; }
+    margin-right: 12.33%; }
   .pull-r-2of12 {
     margin-left: 16.6666666667%; }
   .pull-l-2of12 {
@@ -3330,7 +3333,7 @@ and it will create a button dependant on those variables.
 
 .cta-border-green {
   color: #d2db3a;
-  background-color: none;
+  background-color: transparent;
   border-color: #d2db3a; }
   .cta-border-green:hover, .cta-border-green:focus {
     background-color: #d4dd43;
@@ -3392,22 +3395,22 @@ and it will create a button dependant on those variables.
     color: #acdfdf;
     transition: 0.5s; }
 
-#specialty-button > a {
+.specialty-buttons a {
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
   color: #576571;
   background-color: none;
-  border: none;
-  border: 5px solid #e6e6e6;
+  border: 3px solid #e6e6e6;
   font-weight: 600;
-  border-radius: 15px;
+  border-radius: 10px;
   display: block;
-  text-align: center; }
-  #specialty-button > a:hover, #specialty-button > a:focus {
+  text-align: center;
+  margin-bottom: 5px; }
+  .specialty-buttons a:hover, .specialty-buttons a:focus {
     color: #8998a5;
     transition: 0.5s;
-    background-color: #e6e6e6; }
-  #specialty-button > a:active {
+    background-color: #d2db3a; }
+  .specialty-buttons a:active {
     color: #2b3137; }
 
 .green {
@@ -3427,23 +3430,30 @@ and it will create a button dependant on those variables.
   .broker-title > a:active {
     color: #2b3137; }
 
-.tag {
-  color: white;
+.tag a {
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 5px;
   padding: 5px;
   border-radius: 3px;
   display: inline-block;
   font-weight: 600;
   text-transform: capitalize;
-  transition: 0.8s; }
-  .tag a {
-    color: white;
-    text-decoration: none; }
-  .tag--service {
-    background-color: #576571; }
-  .tag--specialty {
-    background-color: #75caca; }
-  .tag--post-type {
-    background-color: #d2db3a; }
+  transition: 0.8s;
+  background-color: #e6e6e6; }
+
+.red a:hover {
+  background-color: #f01d4f; }
+
+.green a:hover {
+  background-color: #d2db3a; }
+
+.blue a:hover {
+  background-color: #75caca; }
+
+.gray a:hover {
+  background-color: #576571;
+  color: #e6e6e6; }
 
 /******************************************************************
 Site Name:
@@ -3906,19 +3916,23 @@ form {
     margin-top: 20px;
     margin-bottom: 10px; }
 
+#searchform {
+  width: 50%;
+  margin: 0 auto; }
+
 /******************
 MODULE: SERVICE DESCRIPTION
 ******************/
 .uvp p {
   border: 2px solid #75caca;
-  padding: 40px;
+  padding: 20px;
   border-radius: 10px;
-  margin: 80px auto;
-  font-size: 1.4em;
-  text-align: center; }
+  margin: 40px auto;
+  text-align: center;
+  font-size: 1.8em; }
 
 .selling-point {
-  padding: 20px 40px; }
+  padding: 20px 10px; }
   .selling-point img {
     width: 50px;
     margin: 0 auto; }
@@ -3931,7 +3945,7 @@ MODULE: Full-width Callout Strip
   background-color: #1589ab;
   color: white;
   text-align: center;
-  padding: 20px 0; }
+  padding: 40px 0; }
   #need-help .fa-heart {
     color: #f01d4f; }
 
@@ -3942,24 +3956,34 @@ MODULE: SERVICE GRID
   padding: 0; }
 
 .service-grid .service-box {
-  margin-top: 60px;
+  margin: 10px 10px 10px 0px;
   border: 5px solid #e6e6e6;
   border-radius: 10px;
-  margin-bottom: 10px;
-  padding: 20px 5px;
-  margin-right: 10px;
+  padding: 20px 0px;
   text-align: center;
   position: relative; }
+  @media only screen and (min-width: 481px) {
+    .service-grid .service-box {
+      margin-top: 60px; } }
   .service-grid .service-box img {
     top: -60px;
     width: 25%; }
-  .service-grid .service-box a {
-    display: inline; }
+  .service-grid .service-box h4 {
+    max-width: 300px;
+    margin: 0 auto; }
+  .service-grid .service-box > a {
+    display: none; }
+    @media only screen and (min-width: 481px) {
+      .service-grid .service-box > a {
+        display: inline; } }
   .service-grid .service-box p {
-    display: block;
+    display: none;
     padding: 0 25px;
-    font-size: 1em;
-    color: #b5bec6; }
+    color: #b5bec6;
+    min-height: 85px; }
+    @media only screen and (min-width: 481px) {
+      .service-grid .service-box p {
+        display: block; } }
 
 /***********
 MODULE: OUR CLIENTS
@@ -4047,6 +4071,9 @@ ol,
 ul {
   margin: 0; }
 
+h1, .h1 {
+  font-size: 1.5em; }
+
 h3, .h3 {
   font-size: 1.5em; }
 
@@ -4055,6 +4082,14 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 0.8em; }
+
+p {
+  font-size: 1.2em; }
+
+a {
+  color: #576571; }
+  a:hover {
+    color: #75caca; }
 
 /*********************
 LAYOUT & GRID STYLES
@@ -4074,26 +4109,38 @@ header {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 150px;
+  padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
   height: 500px;
-  height: 90vh; }
+  height: 50vh; }
+  #page-header.header-home {
+    height: 80vh; }
 
 #single-header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 160px;
+  padding-bottom: 10px;
   width: 100%;
-  height: 2 00px;
-  height: 40vh; }
+  height: auto;
+  margin-bottom: 20px;
+  text-align: left; }
+
+#listing-header {
+  background-image: url("../images/bg/pattern.svg");
+  background-size: 10%;
+  background-repeat: repeat;
+  background-position: center;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: auto; }
 
 #inner-header {
   top: 0;
   border-bottom: 3px solid #fff;
-  height: 63px;
   position: fixed;
   width: 100%;
   background-color: #4c5863;
@@ -4120,22 +4167,25 @@ header {
 
 .callout {
   display: block;
-  text-align: center; }
+  text-align: center;
+  margin: 40px 0; }
   .callout .header-buttons {
-    margin: 70px; }
+    margin: 40px; }
     .callout .header-buttons a {
       margin: 5% 0; }
   .callout .page-title {
     line-height: 1.2em; }
-  .callout .subtitle {
-    font-weight: 800;
-    font-size: 1em;
-    color: white;
-    margin: 0 auto;
-    padding: 0 10%; }
   .callout > div {
     float: none;
     margin: 0 auto; }
+
+.subtitle {
+  font-weight: 500;
+  font-size: 1.5em;
+  color: white;
+  margin: 0 auto;
+  padding: 5px;
+  text-shadow: 5px 1px 10px rgba(50, 57, 68, 0.5); }
 
 /******************************************************************
 module/navigation
@@ -4210,7 +4260,12 @@ POSTS & CONTENT STYLES
 #content {
   background-color: white; }
   #content #main {
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-bottom: 0.5em; }
+
+iframe {
+  border: 5px solid #e6e6e6;
+  border-radius: 5px; }
 
 .hentry {
   background-color: #fff;
@@ -4220,8 +4275,8 @@ POSTS & CONTENT STYLES
 
 /* end .hentry */
 .entry-content {
-  margin-right: 16.6666666667%;
-  margin-left: 16.6666666667%; }
+  margin-right: 0;
+  margin-left: 0; }
 
 /*********************
 SECTION STYLES
@@ -4234,12 +4289,16 @@ SECTION STYLES
     color: #576571; }
 
 section {
-  padding: 0; }
-  section .topic .slant {
-    display: none; }
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+  section .topic {
+    background-image: transparent; }
+    section .topic .slant {
+      display: none; }
   section aside {
-    text-align: left;
     background-color: white;
+    text-align: left;
     margin-top: 0px;
     padding: 0;
     bottom: 0;
@@ -4288,15 +4347,24 @@ PATRIAL CASE STUDY
   text-align: left;
   text-transform: capitalize;
   margin: 0;
-  color: #43505d; }
+  text-shadow: 5px 1px 10px rgba(50, 57, 68, 0.5); }
 
-.cs-header {
-  margin-bottom: 20px;
-  text-align: left; }
-  .cs-header::after {
-    content: '';
-    background-color: #43505d;
-    opacity: 30%; }
+.cs-section {
+  margin: 50px auto; }
+  .cs-section aside {
+    margin: 30px 0; }
+
+.cs-icon {
+  background-image: url("../images/bg/pattern.svg");
+  background-size: 30%;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(50, 57, 68, 0.2);
+  margin: 20px; }
+  .cs-icon img {
+    width: 33%;
+    margin: 33% 0; }
 
 .case-study-icon {
   display: inline-flex;
@@ -4305,7 +4373,6 @@ PATRIAL CASE STUDY
   border-radius: 5px;
   text-align: center;
   transition: 0.5s;
-  margin: 10px 10px 0 0;
   height: 100px; }
   .case-study-icon:hover {
     border: 5px solid #75caca;
@@ -4322,17 +4389,14 @@ PATRIAL CASE STUDY
   width: 30px;
   height: 30px;
   float: right;
-  margin-bottom: 0;
-  position: absolute;
-  bottom: 10px;
-  right: 0; }
+  margin-bottom: 30px; }
 
 .cs-subtitle {
   margin-top: 0; }
 
 .client-logo {
-  width: 100%;
-  display: block;
+  width: 20px;
+  display: inline-block;
   padding: 30px; }
 
 .quick-facts {
@@ -4343,54 +4407,75 @@ PATRIAL CASE STUDY
   font-size: 1em; }
 
 .client-quote {
+  margin: 30px 0;
   position: relative;
   border: 2px solid #75caca;
-  padding: 40px;
+  padding: 50px 40px;
   border-radius: 10px;
-  text-align: center;
-  font-size: 2em; }
+  text-align: center; }
   .client-quote > p::before {
-    content: '"'; }
+    content: '"';
+    font-size: 2em;
+    line-height: 0.5em;
+    color: #576571;
+    font-family: Times; }
   .client-quote > p::after {
-    content: '"'; }
+    content: '"';
+    font-size: 2em;
+    line-height: 0.5em;
+    color: #576571;
+    font-family: Times; }
 
 .client-quote-person {
   position: absolute;
   right: 30px;
   bottom: 10px;
-  font-size: 0.4em; }
+  font-size: 0.8em;
+  text-align: right; }
   .client-quote-person p {
     margin: 0; }
 
 /******************************************************************
 Broker Page Styles
 ******************************************************************/
-.type-broker .h1-profile {
-  color: #43505d;
-  font-size: 3em;
-  text-align: left;
-  text-transform: capitalize;
-  margin: 0; }
-
-.type-broker .profile-info {
+.type-employee .profile-info {
   font-size: 1em;
-  text-align: center; }
-  .type-broker .profile-info div {
+  text-align: left; }
+  .type-employee .profile-info div {
     padding: 2px 0; }
-    .type-broker .profile-info div a {
+    .type-employee .profile-info div a {
       padding-top: 3px;
-      color: #576571;
       text-decoration: none; }
 
-.type-broker aside > div {
+.type-employee h3 {
+  margin-top: 30px; }
+
+.type-employee aside > div {
   margin-bottom: 25px; }
 
-.type-broker aside img {
+.type-employee aside img {
   width: 100%; }
 
-.type-broker .profile-header {
-  margin-top: 80px;
-  margin-bottom: 40px; }
+.type-employee .profile-header {
+  margin-bottom: 40px;
+  padding-top: 20px;
+  text-align: left; }
+  .type-employee .profile-header h1 {
+    margin: 20px 0 0px 0; }
+  .type-employee .profile-header a {
+    font-size: 1em; }
+
+.profile-content {
+  margin-top: 0; }
+  .profile-content h3:first-child {
+    margin-top: 0; }
+
+.license-number {
+  font-size: 0.8em;
+  color: #576571; }
+
+.v-card {
+  margin-bottom: 5px; }
 
 .employee {
   text-align: center;
@@ -4410,23 +4495,49 @@ Speciatly Page Styles
 .panel {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 700px;
   background-position: center; }
   .panel aside {
     background: transparent; }
-  .panel .captionTop {
+  .panel .caption-top {
     margin-top: 100px; }
-  .panel .captionBottom {
+  .panel .caption-bottom {
     margin-top: 30%; }
+  @media (max-width: 767px) {
+    .panel .caption-top {
+      margin-top: 40px; }
+    .panel .caption-bottom {
+      margin-top: 40px; } }
+
+#Panel-1 {
+  margin-top: 0; }
+  @media (max-width: 767px) {
+    #Panel-1 {
+      height: auto;
+      background-position: top center;
+      background-size: 100%;
+      padding-top: 150px; }
+      #Panel-1 aside {
+        background-color: white; } }
 
 #Panel-2 {
-  background-image: url("../images/specialties/office/specialty-office-panel-2-lines.jpg");
+  background-image: url("../images/specialties/specialty-panel-2-lines.svg");
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: 0; }
+  @media (max-width: 767px) {
+    #Panel-2 {
+      background: transparent;
+      height: auto; } }
 
 #Panel-3 {
-  background-image: url("../images/specialties/office/specialty-office-panel-3.jpg");
-  margin-bottom: 50px; }
+  background-image: url("../images/specialties/specialty-panel-3.svg");
+  margin-bottom: 50px;
+  margin-top: 0; }
+  @media (max-width: 767px) {
+    #Panel-3 {
+      background: transparent;
+      height: auto; } }
 
 .button-service {
   background-size: cover;
@@ -4447,6 +4558,9 @@ Speciatly Page Styles
   bottom: 0;
   right: -80px;
   float: right; }
+  @media (max-width: 767px) {
+    .research-chart {
+      display: none; } }
 
 /* Global Backgrounds */
 /* --desktop */
@@ -4493,12 +4607,20 @@ header#service {
 
 .specialty-drawing--Office {
   background-image: url("../images/specialties/office/specialty-office-panel-1.svg"); }
+  @media (max-width: 767px) {
+    .specialty-drawing--Office {
+      background: transparent;
+      height: auto; } }
 
 .specialty-drawing--Retail {
   background-image: url("../images/specialties/retail/specialty-retail-panel-1.svg"); }
 
 .specialty-drawing--Industrial {
   background-image: url("../images/specialties/industrial/specialty-industrial-panel-1.svg"); }
+  @media (max-width: 767px) {
+    .specialty-drawing--Industrial {
+      background: transparent;
+      height: auto; } }
 
 .specialty-drawing--Land {
   background-image: url("../images/specialties/land/specialty-land-panel-1.svg"); }
@@ -4507,7 +4629,8 @@ header#service {
   background-image: url("../images/specialties/multifamily/specialty-multifamily-panel-1.svg"); }
 
 .page--Home {
-  background-image: url("../images/home-desktop.jpg"); }
+  background-image: url("../images/home-desktop.jpg");
+  padding-top: 80px; }
 
 .page--Blog {
   background-image: url("../images/specialties/retail/specialty-retail-panel-1.svg"); }
@@ -4523,14 +4646,19 @@ header#service {
 
 .page--Case-Studies {
   background-image: url("../images/Case-Studies-desktop.jpg"); }
+  @media (max-width: 767px) {
+    .page--Case-Studies {
+      background: transparent;
+      height: auto; } }
 
 body.post-type-archive-research-report #page-header {
   background-image: url("../images/research-desktop.jpg"); }
 
-#single-header {
+.header-pattern {
   background-image: url("../images/bg/pattern.svg");
   background-size: 10%;
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  background-position: center; }
 
 /* --mobile */
 /*********************
@@ -4584,6 +4712,8 @@ POSTS & CONTENT STYLES
 *********************/
   /* entry content */
   .entry-content {
+    margin-right: 10.66666667%;
+    margin-left: 10.66666667%;
     /* at this larger size, we can start to align images */ }
     .entry-content .alignleft, .entry-content img.alignleft {
       margin-right: 1.5em;
@@ -4617,6 +4747,20 @@ Stylesheet: 768px and up - Tablet & Small Desktop Stylesheet
 ******************************************************************/
   .wrap {
     width: 100%; }
+  h1, .h1 {
+    font-size: 3em; }
+  h2, .h2 {
+    font-size: 2em; }
+  h3, .h3 {
+    font-size: 1.5em; }
+  h4, .h4 {
+    font-size: 0.9em; }
+  h5, .h5 {
+    font-size: 0.8em; }
+  p {
+    font-size: 0.9em; }
+  #page-header {
+    height: 70vh; }
   /*********************
 HEADER STYLES
 *********************/
@@ -4625,7 +4769,7 @@ HEADER STYLES
   #mobile-quick-nav div:first-child {
     display: none; }
   .callout .header-buttons {
-    margin: 70px; }
+    margin: 50px; }
     .callout .header-buttons a {
       margin: 5%; }
   /*********************
@@ -4743,6 +4887,9 @@ NAVIGATION STYLES
   /*********************
 SECTION STYLES
 *********************/
+  .entry-content {
+    margin-right: 10.66666667%;
+    margin-left: 10.66666667%; }
   section .uvp {
     background-image: url("../images/bg/pattern.svg");
     background-size: 10%; }
@@ -4757,6 +4904,7 @@ SECTION STYLES
     background-size: cover;
     position: relative; }
     section.topic aside {
+      background-color: transparent;
       position: absolute;
       z-index: 3;
       width: 30%;
@@ -4830,8 +4978,11 @@ SECTION STYLES
   /*********************
 FOOTER STYLES
 *********************/
+  .address {
+    margin: 7px auto;
+    display: inline-block; }
   p.copyright {
-    margin: 10px auto; }
+    margin: 2px auto; }
   .footer-links {
     display: inline-block;
     float: right;
@@ -4876,9 +5027,12 @@ be seen on the Desktop.
     .nav > li:last-child a {
       color: #d2db3a; }
   .service-grid .service-box {
-    padding: 60px 5px; }
+    padding: 40px 0px; }
   section .slant {
-    width: 60%; } }
+    width: 60%; }
+  .entry-content {
+    margin-right: 12.66666667%;
+    margin-left: 12.66666667%; } }
 
 /*********************
 PRINT STYLESHEET

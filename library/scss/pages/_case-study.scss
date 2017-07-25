@@ -7,29 +7,31 @@ PATRIAL CASE STUDY
 	text-align: left;
 	text-transform: capitalize;
 	margin: 0;
-	color: $text-color;
-	//text-shadow: 0.5px 0.5px 30px $dgray; 
+	text-shadow: 5px 1px 10px rgba( $black, 0.5);
 }
 
-.cs-header {
-	margin-bottom: 20px;
-	text-align: left;
-
-	&::after {
-		content: '';
-		background-color: $dgray;
-		opacity: 30%;
+.cs-section {
+	margin: 50px auto;
+	
+	aside {
+		margin: 30px 0;
 	}
 }
 
-aside {
-		img {
-			// width: 100%; This was interfering with the broker page
-			// margin: 25px 0;
-			// margin-bottom: 0px;
-		}
-	}
+.cs-icon {
+	background-image: url('../images/bg/pattern.svg');
+	background-size: 30%;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px rgba( $black, 0.2);
+	margin: 20px;
 
+	img {
+		width: 33%;
+		margin: 33% 0;
+	}
+}
 // Case Study Icon that has the logo inside of it
 .case-study-box {
 	
@@ -42,7 +44,6 @@ aside {
 	border-radius: 5px;
 	text-align: center;
 	transition: $trans;
-	margin: 10px 10px 0 0;
 	height: 100px;
 
 	&:hover {
@@ -64,10 +65,7 @@ aside {
 	width: 30px;
 	height: 30px;
 	float: right;
-	margin-bottom: 0;
-	position: absolute;
-	bottom: 10px;
-	right: 0;
+	margin-bottom: 30px;
 }
 
 .cs-subtitle {
@@ -75,8 +73,8 @@ aside {
 }
 
 .client-logo {
-	width: 100%;
-	display: block;
+	width: 20px;
+	display: inline-block;
 	padding: 30px;
 }
 
@@ -89,20 +87,29 @@ aside {
 }
 
 .client-quote {
+	margin: 30px 0;
 	position: relative;
 	border: 2px solid $blue;
-	padding: 40px;
+	padding: 50px 40px;
 	border-radius: 10px;
 	text-align: center;
-	font-size: 2em;
+
 
 	> p {
 		&::before {
-			content:'"'
+			content:'"';
+			font-size: 2em;
+			line-height: 0.5em;
+			color: $gray;
+			font-family: Times;
 		}
 
 		&::after {
-			content:'"'
+			content:'"';
+			font-size: 2em;
+			line-height: 0.5em;
+			color: $gray;
+			font-family: Times;
 		}
 	}
 }
@@ -111,7 +118,8 @@ aside {
 	position: absolute;
 	right: 30px;
 	bottom: 10px;
-	font-size: 0.4em;
+	font-size: 0.8em;
+	text-align: right;
 
 	p {
 		margin: 0;

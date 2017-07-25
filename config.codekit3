@@ -12,37 +12,31 @@
 	"\/.gitattributes": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/.gitattributes",
+		"oAP": "\/build\/.gitattributes",
 		"oF": 0
 		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/.gitignore",
+		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
 	"\/404.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/404.php",
-		"oF": 0
-		},
-	"\/archive-research-report.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/archive-research-report.php",
+		"oAP": "\/build\/404.php",
 		"oF": 0
 		},
 	"\/archive.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/archive.php",
+		"oAP": "\/build\/archive.php",
 		"oF": 0
 		},
 	"\/CHANGELOG.html": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/CHANGELOG.html",
+		"oA": 1,
+		"oAP": "\/build\/CHANGELOG.html",
 		"oF": 0
 		},
 	"\/CHANGELOG.md": {
@@ -54,7 +48,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/CHANGELOG.html",
+		"oAP": "\/build\/CHANGELOG.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -66,60 +60,60 @@
 	"\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/favicon.ico",
+		"oAP": "\/build\/favicon.ico",
 		"oF": 0
 		},
 	"\/favicon.png": {
 		"ft": 32768,
 		"iS": 996,
 		"oA": 0,
-		"oAP": "\/favicon.png",
+		"oAP": "\/build\/favicon.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"\/footer.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/footer.php",
+		"oAP": "\/build\/footer.php",
 		"oF": 0
 		},
 	"\/front-page.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/front-page.php",
+		"oAP": "\/build\/front-page.php",
 		"oF": 0
 		},
 	"\/functions.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/functions.php",
+		"oAP": "\/build\/functions.php",
 		"oF": 0
 		},
 	"\/header.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/header.php",
+		"oAP": "\/build\/header.php",
 		"oF": 0
 		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.php",
+		"oAP": "\/build\/index.php",
 		"oF": 0
 		},
 	"\/library\/admin.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/library\/admin.php",
+		"oAP": "\/build\/library\/admin.php",
 		"oF": 0
 		},
 	"\/library\/bones.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/library\/bones.php",
+		"oAP": "\/build\/library\/bones.php",
 		"oF": 0
 		},
 	"\/library\/css\/editor-style.css": {
@@ -128,7 +122,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/css\/editor-style-min.css",
+		"oAP": "\/build\/library\/css\/editor-style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -138,7 +132,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/css\/ie-min.css",
+		"oAP": "\/build\/library\/css\/ie-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -148,7 +142,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/css\/login-min.css",
+		"oAP": "\/build\/library\/css\/login-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -158,7 +152,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/shame-min.css",
+		"oAP": "\/build\/library\/css\/shame-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -168,21 +162,21 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/css\/style-min.css",
+		"oAP": "\/build\/library\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/fonts\/fontawesome-webfont.eot",
+		"oAP": "\/build\/library\/fonts\/fontawesome-webfont.eot",
 		"oF": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/fonts\/fontawesome-webfont.svg",
+		"oAP": "\/build\/library\/fonts\/fontawesome-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -191,52 +185,52 @@
 	"\/library\/fonts\/fontawesome-webfont.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/fonts\/fontawesome-webfont.ttf",
+		"oAP": "\/build\/library\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/fonts\/fontawesome-webfont.woff",
+		"oAP": "\/build\/library\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/fonts\/fontawesome-webfont.woff2",
+		"oAP": "\/build\/library\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/library\/fonts\/FontAwesome.otf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/fonts\/FontAwesome.otf",
+		"oAP": "\/build\/library\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
 	"\/library\/images\/bg\/header-home.jpg": {
 		"ft": 16384,
 		"iS": 95644,
 		"oA": 0,
-		"oAP": "\/library\/images\/bg\/header-home.jpg",
+		"oAP": "\/build\/library\/images\/bg\/header-home.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/bg\/header-mgmt.jpg": {
 		"ft": 16384,
 		"iS": 45559,
 		"oA": 0,
-		"oAP": "\/library\/images\/bg\/header-mgmt.jpg",
+		"oAP": "\/build\/library\/images\/bg\/header-mgmt.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/bg\/pattern.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/bg\/pattern.svg",
+		"oAP": "\/build\/library\/images\/bg\/pattern.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -246,10 +240,10 @@
 		"ft": 32768,
 		"iS": 1062511,
 		"oA": 0,
-		"oAP": "\/library\/images\/bg\/section-services.png",
+		"oAP": "\/build\/library\/images\/bg\/section-services.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -257,20 +251,31 @@
 		"ft": 16384,
 		"iS": 965102,
 		"oA": 0,
-		"oAP": "\/library\/images\/case-studies-desktop.jpg",
+		"oAP": "\/build\/library\/images\/case-studies-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/client-logos\/case-studies-desktop.png": {
+		"ft": 32768,
+		"iS": 16792,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/client-logos\/case-studies-desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/library\/images\/client-logos\/Coca-Cola.png": {
 		"ft": 32768,
 		"iS": 1924,
 		"oA": 0,
-		"oAP": "\/library\/images\/client-logos\/Coca-Cola.png",
+		"oAP": "\/build\/library\/images\/client-logos\/Coca-Cola.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -278,10 +283,10 @@
 		"ft": 32768,
 		"iS": 2222,
 		"oA": 0,
-		"oAP": "\/library\/images\/client-logos\/eli-lilly.png",
+		"oAP": "\/build\/library\/images\/client-logos\/eli-lilly.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -289,10 +294,10 @@
 		"ft": 32768,
 		"iS": 4292,
 		"oA": 0,
-		"oAP": "\/library\/images\/client-logos\/indiana-members.png",
+		"oAP": "\/build\/library\/images\/client-logos\/indiana-members.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -300,10 +305,10 @@
 		"ft": 32768,
 		"iS": 2960,
 		"oA": 0,
-		"oAP": "\/library\/images\/client-logos\/omnisource.png",
+		"oAP": "\/build\/library\/images\/client-logos\/omnisource.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -311,10 +316,10 @@
 		"ft": 32768,
 		"iS": 2482,
 		"oA": 0,
-		"oAP": "\/library\/images\/client-logos\/PNC.png",
+		"oAP": "\/build\/library\/images\/client-logos\/PNC.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -322,10 +327,10 @@
 		"ft": 32768,
 		"iS": 1853,
 		"oA": 0,
-		"oAP": "\/library\/images\/client-logos\/progressive-logo.png",
+		"oAP": "\/build\/library\/images\/client-logos\/progressive-logo.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -333,10 +338,10 @@
 		"ft": 32768,
 		"iS": 462,
 		"oA": 0,
-		"oAP": "\/library\/images\/custom-post-icon.png",
+		"oAP": "\/build\/library\/images\/custom-post-icon.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -344,17 +349,17 @@
 		"ft": 16384,
 		"iS": 489822,
 		"oA": 0,
-		"oAP": "\/library\/images\/home-desktop.jpg",
+		"oAP": "\/build\/library\/images\/home-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/icons\/icon-auction-document.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-auction-document.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-auction-document.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -364,7 +369,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-auction-gavel.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-auction-gavel.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -374,7 +379,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-auction-paddle.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-auction-paddle.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -384,7 +389,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-brokerage-contract.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-brokerage-contract.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -394,7 +399,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-brokerage-lease.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-brokerage-lease.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -404,7 +409,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-brokerage-sale.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-brokerage-sale.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -414,7 +419,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-cash.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-cash.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -424,7 +429,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-cell-phone.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-cell-phone.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -434,7 +439,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-close.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-close.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -444,7 +449,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-computer-research.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-computer-research.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -454,7 +459,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-computer.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-computer.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -464,7 +469,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-download.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-download.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -474,7 +479,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-football.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-football.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -484,7 +489,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-industrial-box.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-industrial-box.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -494,7 +499,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Industrial-BoxOpened.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-BoxOpened.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -504,7 +509,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Industrial-Building.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Building.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -514,7 +519,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Industrial-Forklift.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Forklift.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -524,7 +529,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Industrial-Hardhat.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Hardhat.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -534,7 +539,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Industrial-LifeSciences.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-LifeSciences.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -544,7 +549,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Industrial-Map.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -554,7 +559,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Industrial-Truck.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Truck.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -564,7 +569,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Investments-DollarSign.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Investments-DollarSign.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -574,7 +579,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Investments-Graph.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Investments-Graph.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -584,7 +589,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-InvestmentsCalculator.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-InvestmentsCalculator.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -594,7 +599,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Land-Escavator.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Land-Escavator.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -604,7 +609,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Land-Surveyor.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Land-Surveyor.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -614,7 +619,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Land-Trees.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Land-Trees.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -624,7 +629,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Land-Trees2.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Land-Trees2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -634,7 +639,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-lease.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-lease.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -644,7 +649,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-menu-burger.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-menu-burger.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -654,7 +659,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-office-buildings.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-office-buildings.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -664,7 +669,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Office-Corporate.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Office-Corporate.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -674,7 +679,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Office-Education.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Office-Education.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -684,7 +689,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Office-Government.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Office-Government.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -694,7 +699,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Office-SmallBusiness.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Office-SmallBusiness.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -704,7 +709,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-phone.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-phone.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -714,7 +719,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-plane.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-plane.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -724,7 +729,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -734,7 +739,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-property-mgmt-toolbox.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-property-mgmt-toolbox.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -744,7 +749,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-property-mgmt-tools.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-property-mgmt-tools.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -754,7 +759,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-property-mgmt-truck.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-property-mgmt-truck.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -764,7 +769,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-RESOURCE-logo-lines.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-RESOURCE-logo-lines.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -774,7 +779,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Retail-Building.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Retail-Building.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -784,7 +789,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Retail-CreditCard.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Retail-CreditCard.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -794,7 +799,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Retail-Dining.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Retail-Dining.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -804,7 +809,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Retail-Grocery.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Retail-Grocery.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -814,7 +819,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Retail-InvestmentsArrows.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Retail-InvestmentsArrows.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -824,7 +829,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-Retail-Merchandise.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-Retail-Merchandise.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -834,7 +839,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-sale.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-sale.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -844,7 +849,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-search.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-search.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -854,7 +859,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-tablet.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-tablet.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -864,7 +869,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-tick-bad.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-tick-bad.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -874,7 +879,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-tick-good.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-tick-good.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -884,7 +889,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icon-van.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-van.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -894,7 +899,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icons-book-knowledge.svg",
+		"oAP": "\/build\/library\/images\/icons\/icons-book-knowledge.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -904,7 +909,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icons-focused-on-you.svg",
+		"oAP": "\/build\/library\/images\/icons\/icons-focused-on-you.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -914,7 +919,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icons-handshake.svg",
+		"oAP": "\/build\/library\/images\/icons\/icons-handshake.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -924,7 +929,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icons-lightbulb-intelligence.svg",
+		"oAP": "\/build\/library\/images\/icons\/icons-lightbulb-intelligence.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -934,7 +939,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icons-speech-consultation.svg",
+		"oAP": "\/build\/library\/images\/icons\/icons-speech-consultation.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -944,7 +949,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/icons\/icons-us-map-love-indy.svg",
+		"oAP": "\/build\/library\/images\/icons\/icons-us-map-love-indy.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -954,10 +959,10 @@
 		"ft": 32768,
 		"iS": 8439,
 		"oA": 0,
-		"oAP": "\/library\/images\/logos\/apple-touch-icon.png",
+		"oAP": "\/build\/library\/images\/logos\/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -965,10 +970,10 @@
 		"ft": 32768,
 		"iS": 4805,
 		"oA": 0,
-		"oAP": "\/library\/images\/logos\/login-logo.png",
+		"oAP": "\/build\/library\/images\/logos\/login-logo.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -976,7 +981,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/logos\/logo-rcre-horiz-dark.svg",
+		"oAP": "\/build\/library\/images\/logos\/logo-rcre-horiz-dark.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -986,7 +991,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/logos\/logo-rcre-horiz-light.svg",
+		"oAP": "\/build\/library\/images\/logos\/logo-rcre-horiz-light.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -996,7 +1001,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/logos\/logo-rcre-safari-icon.svg",
+		"oAP": "\/build\/library\/images\/logos\/logo-rcre-safari-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1006,10 +1011,10 @@
 		"ft": 32768,
 		"iS": 19726,
 		"oA": 0,
-		"oAP": "\/library\/images\/logos\/logo-rcre-square-dark.png",
+		"oAP": "\/build\/library\/images\/logos\/logo-rcre-square-dark.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1017,10 +1022,10 @@
 		"ft": 32768,
 		"iS": 8048,
 		"oA": 0,
-		"oAP": "\/library\/images\/logos\/win8-tile-icon.png",
+		"oAP": "\/build\/library\/images\/logos\/win8-tile-icon.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1028,17 +1033,17 @@
 		"ft": 16384,
 		"iS": 293849,
 		"oA": 0,
-		"oAP": "\/library\/images\/research-desktop.jpg",
+		"oAP": "\/build\/library\/images\/research-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/brokerage\/service-brokerage-button.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/brokerage\/service-brokerage-button.jpg",
+		"oAP": "\/build\/library\/images\/services\/brokerage\/service-brokerage-button.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1048,247 +1053,247 @@
 		"ft": 16384,
 		"iS": 1404649,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/brokerage\/service-brokerage-multimarket.jpg",
+		"oAP": "\/build\/library\/images\/services\/brokerage\/service-brokerage-multimarket.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/brokerage\/service-brokerage-occupancy.jpg": {
 		"ft": 16384,
 		"iS": 504018,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/brokerage\/service-brokerage-occupancy.jpg",
+		"oAP": "\/build\/library\/images\/services\/brokerage\/service-brokerage-occupancy.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/brokerage\/service-brokerage-portfolio-lease-administration.jpg": {
 		"ft": 16384,
 		"iS": 1543644,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/brokerage\/service-brokerage-portfolio-lease-administration.jpg",
+		"oAP": "\/build\/library\/images\/services\/brokerage\/service-brokerage-portfolio-lease-administration.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/investments\/mobile-service-investments-capital-advisors.jpg": {
 		"ft": 16384,
 		"iS": 196148,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/investments\/mobile-service-investments-capital-advisors.jpg",
+		"oAP": "\/build\/library\/images\/services\/investments\/mobile-service-investments-capital-advisors.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/investments\/mobile-service-investments-multifamily.jpg": {
 		"ft": 16384,
 		"iS": 200856,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/investments\/mobile-service-investments-multifamily.jpg",
+		"oAP": "\/build\/library\/images\/services\/investments\/mobile-service-investments-multifamily.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/investments\/mobile-service-investments-netlease.jpg": {
 		"ft": 16384,
 		"iS": 376862,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/investments\/mobile-service-investments-netlease.jpg",
+		"oAP": "\/build\/library\/images\/services\/investments\/mobile-service-investments-netlease.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/investments\/service-investment-button.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/investments\/service-investment-button.jpg",
+		"oAP": "\/build\/library\/images\/services\/investments\/service-investment-button.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/investments\/service-investments-capital-advisors.jpg": {
 		"ft": 16384,
 		"iS": 603625,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/investments\/service-investments-capital-advisors.jpg",
+		"oAP": "\/build\/library\/images\/services\/investments\/service-investments-capital-advisors.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/investments\/service-investments-header.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/investments\/service-investments-header.jpg",
+		"oAP": "\/build\/library\/images\/services\/investments\/service-investments-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/investments\/service-investments-multifamily.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/investments\/service-investments-multifamily.jpg",
+		"oAP": "\/build\/library\/images\/services\/investments\/service-investments-multifamily.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/investments\/service-investments-net-lease.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/investments\/service-investments-net-lease.jpg",
+		"oAP": "\/build\/library\/images\/services\/investments\/service-investments-net-lease.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/project-mgmt\/services-project-mgmt-button.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/project-mgmt\/services-project-mgmt-button.jpg",
+		"oAP": "\/build\/library\/images\/services\/project-mgmt\/services-project-mgmt-button.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-asset-management.jpg": {
 		"ft": 16384,
 		"iS": 130313,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-asset-management.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-asset-management.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-facility-management.jpg": {
 		"ft": 16384,
 		"iS": 227987,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-facility-management.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-facility-management.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-header.jpg": {
 		"ft": 16384,
 		"iS": 248008,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-header.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-maintainance-services.jpg": {
 		"ft": 16384,
 		"iS": 119976,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-maintainance-services.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-maintainance-services.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-property-management.jpg": {
 		"ft": 16384,
 		"iS": 122834,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-property-management.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-property-management.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-asset-management.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-asset-management.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/service-property-mgmt-asset-management.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-facility-management.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-facility-management.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/service-property-mgmt-facility-management.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-header.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-header.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/service-property-mgmt-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-maintainance-services.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-maintainance-services.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/service-property-mgmt-maintainance-services.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-property-management.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/services\/property-mgmt\/service-property-mgmt-property-management.jpg",
+		"oAP": "\/build\/library\/images\/services\/property-mgmt\/service-property-mgmt-property-management.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/industrial\/cs-gti-interior.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/industrial\/cs-gti-interior.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/industrial\/cs-gti-interior.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/industrial\/specialty-industrial-header.jpg": {
 		"ft": 16384,
 		"iS": 494859,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/industrial\/specialty-industrial-header.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/industrial\/specialty-industrial-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg",
+		"oAP": "\/build\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1298,17 +1303,17 @@
 		"ft": 16384,
 		"iS": 374867,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/land\/specialty-land-header.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/land\/specialty-land-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/land\/specialty-land-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/land\/specialty-land-panel-1.svg",
+		"oAP": "\/build\/library\/images\/specialties\/land\/specialty-land-panel-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1318,77 +1323,77 @@
 		"ft": 16384,
 		"iS": 137293,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/apartments.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/multifamily\/industries\/apartments.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/multifamily\/industries\/hotels.jpg": {
 		"ft": 16384,
 		"iS": 146468,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/hotels.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/multifamily\/industries\/hotels.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/multifamily\/industries\/resorts.jpg": {
 		"ft": 16384,
 		"iS": 135370,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/resorts.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/multifamily\/industries\/resorts.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/multifamily\/industries\/self-storage.jpg": {
 		"ft": 16384,
 		"iS": 177914,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/self-storage.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/multifamily\/industries\/self-storage.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/multifamily\/industries\/senior-living.jpg": {
 		"ft": 16384,
 		"iS": 158652,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/senior-living.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/multifamily\/industries\/senior-living.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/multifamily\/industries\/student-housing.jpg": {
 		"ft": 16384,
 		"iS": 242479,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/multifamily\/industries\/student-housing.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/multifamily\/industries\/student-housing.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/multifamily\/specialty-multifamily-header.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/multifamily\/specialty-multifamily-header.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/multifamily\/specialty-multifamily-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/multifamily\/specialty-multifamily-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/multifamily\/specialty-multifamily-panel-1.svg",
+		"oAP": "\/build\/library\/images\/specialties\/multifamily\/specialty-multifamily-panel-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1398,97 +1403,107 @@
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/client-logo-hylant.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/client-logo-hylant.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/office\/industries\/corporate.jpg": {
 		"ft": 16384,
 		"iS": 146555,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/industries\/corporate.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/industries\/corporate.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/office\/industries\/education.jpg": {
 		"ft": 16384,
 		"iS": 68907,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/industries\/education.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/industries\/education.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/office\/industries\/government.jpg": {
 		"ft": 16384,
 		"iS": 74353,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/industries\/government.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/industries\/government.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/office\/industries\/healthcare.jpg": {
 		"ft": 16384,
 		"iS": 106859,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/industries\/healthcare.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/industries\/healthcare.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/office\/industries\/lawfirm.jpg": {
 		"ft": 16384,
 		"iS": 188681,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/industries\/lawfirm.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/industries\/lawfirm.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/office\/industries\/small-business.jpg": {
 		"ft": 16384,
 		"iS": 131962,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/industries\/small-business.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/industries\/small-business.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/office\/specialty-office-header.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-office-header.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/specialty-office-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/office\/specialty-office-panel-1.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-office-panel-1.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/specialty-office-panel-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
+	"\/library\/images\/specialties\/office\/specialty-office-panel-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/library\/images\/specialties\/office\/specialty-office-panel-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/library\/images\/specialties\/office\/specialty-office-panel-2-graph.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-office-panel-2-graph.svg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/specialty-office-panel-2-graph.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1498,7 +1513,7 @@
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-office-panel-2-lines.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/specialty-office-panel-2-lines.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1508,87 +1523,87 @@
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/office\/specialty-office-panel-3.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/office\/specialty-office-panel-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/retail\/industries\/convienience.jpg": {
 		"ft": 16384,
 		"iS": 89716,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/retail\/industries\/convienience.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/retail\/industries\/convienience.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/retail\/industries\/grocery.jpg": {
 		"ft": 16384,
 		"iS": 79100,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/retail\/industries\/grocery.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/retail\/industries\/grocery.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/retail\/industries\/merchandise.jpg": {
 		"ft": 16384,
 		"iS": 197456,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/retail\/industries\/merchandise.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/retail\/industries\/merchandise.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/retail\/industries\/restaurant.jpg": {
 		"ft": 16384,
 		"iS": 133001,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/retail\/industries\/restaurant.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/retail\/industries\/restaurant.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/retail\/industries\/shopping.jpg": {
 		"ft": 16384,
 		"iS": 79241,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/retail\/industries\/shopping.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/retail\/industries\/shopping.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/retail\/industries\/small-business.jpg": {
 		"ft": 16384,
 		"iS": 182172,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/retail\/industries\/small-business.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/retail\/industries\/small-business.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/retail\/specialty-retail-header.jpg": {
 		"ft": 16384,
 		"iS": 495320,
 		"oA": 0,
-		"oAP": "\/library\/images\/specialties\/retail\/specialty-retail-header.jpg",
+		"oAP": "\/build\/library\/images\/specialties\/retail\/specialty-retail-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg",
+		"oAP": "\/build\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1598,7 +1613,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/specialty-panel-2-graph.svg",
+		"oAP": "\/build\/library\/images\/specialties\/specialty-panel-2-graph.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1608,7 +1623,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/specialty-panel-2-lines.svg",
+		"oAP": "\/build\/library\/images\/specialties\/specialty-panel-2-lines.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1618,7 +1633,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/library\/images\/specialties\/specialty-panel-3.svg",
+		"oAP": "\/build\/library\/images\/specialties\/specialty-panel-3.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1628,7 +1643,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/library\/js\/libs\/min\/modernizr.custom.min-min.js",
+		"oAP": "\/build\/library\/js\/libs\/min\/modernizr.custom.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1637,7 +1652,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/library\/js\/min\/min\/scripts-min-min.js",
+		"oAP": "\/build\/library\/js\/min\/min\/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1646,7 +1661,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/library\/js\/min\/scripts-min.js",
+		"oAP": "\/build\/library\/js\/min\/scripts-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1654,193 +1669,187 @@
 	"\/library\/partials\/header-default.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/header-default.php",
+		"oAP": "\/build\/library\/partials\/header-default.php",
 		"oF": 0
 		},
 	"\/library\/partials\/header-home.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/header-home.php",
+		"oAP": "\/build\/library\/partials\/header-home.php",
 		"oF": 0
 		},
 	"\/library\/partials\/header-listing.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/header-listing.php",
-		"oF": 0
-		},
-	"\/library\/partials\/header-none.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/library\/partials\/header-none.php",
+		"oAP": "\/build\/library\/partials\/header-listing.php",
 		"oF": 0
 		},
 	"\/library\/partials\/header-post.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/header-post.php",
+		"oAP": "\/build\/library\/partials\/header-post.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionCaseStudy.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/sectionCaseStudy.php",
+		"oAP": "\/build\/library\/partials\/sectionCaseStudy.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionContact.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/library\/partials\/sectionContact.php",
+		"oAP": "\/build\/library\/partials\/sectionContact.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionMailChimp.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/sectionMailChimp.php",
+		"oAP": "\/build\/library\/partials\/sectionMailChimp.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionMailChimpSmall.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/sectionMailChimpSmall.php",
+		"oAP": "\/build\/library\/partials\/sectionMailChimpSmall.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionServiceGrid.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/sectionServiceGrid.php",
+		"oAP": "\/build\/library\/partials\/sectionServiceGrid.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionSpecialties.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/sectionSpecialties.php",
+		"oAP": "\/build\/library\/partials\/sectionSpecialties.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionTeam.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/partials\/sectionTeam.php",
+		"oAP": "\/build\/library\/partials\/sectionTeam.php",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_buttons.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_buttons.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_forms.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_forms.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_forms.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/editor-style.scssc": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/editor-style.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/editor-style.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/ie.scssc": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/ie.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/ie.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/style.scssc": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/style.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/style.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1030up.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1030up.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1030up.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1240up.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1240up.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1240up.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_2x.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_2x.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_2x.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_481up.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_481up.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_481up.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_768up.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_768up.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_768up.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_base.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_base.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_base.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_functions.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_functions.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_functions.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_grid.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_grid.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_grid.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_ie_grid.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_ie_grid.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_ie_grid.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_mixins.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_mixins.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_normalize.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_normalize.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_normalize.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_print.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_print.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_print.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_typography.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_typography.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_typography.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_variables.scssc": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_variables.scssc",
+		"oAP": "\/build\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_variables.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/admin.scss": {
@@ -1851,7 +1860,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/admin.css",
+		"oAP": "\/build\/library\/css\/admin.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1864,7 +1873,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_1030up.css",
+		"oAP": "\/build\/library\/scss\/css\/_1030up.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1877,7 +1886,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_481up.css",
+		"oAP": "\/build\/library\/scss\/css\/_481up.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1890,7 +1899,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_768up.css",
+		"oAP": "\/build\/library\/scss\/css\/_768up.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1903,7 +1912,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_base.css",
+		"oAP": "\/build\/library\/scss\/css\/_base.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1911,7 +1920,7 @@
 	"\/library\/scss\/config.rb": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/scss\/config.rb",
+		"oAP": "\/build\/library\/scss\/config.rb",
 		"oF": 0
 		},
 	"\/library\/scss\/editor-style.scss": {
@@ -1922,7 +1931,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/editor-style.css",
+		"oAP": "\/build\/library\/css\/editor-style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1935,7 +1944,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_animated.css",
+		"oAP": "\/build\/library\/scss\/css\/_animated.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1948,7 +1957,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_bordered-pulled.css",
+		"oAP": "\/build\/library\/scss\/css\/_bordered-pulled.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1961,7 +1970,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_core.css",
+		"oAP": "\/build\/library\/scss\/css\/_core.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1974,7 +1983,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_fixed-width.css",
+		"oAP": "\/build\/library\/scss\/css\/_fixed-width.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1987,7 +1996,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_icons.css",
+		"oAP": "\/build\/library\/scss\/css\/_icons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2000,7 +2009,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_larger.css",
+		"oAP": "\/build\/library\/scss\/css\/_larger.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2013,7 +2022,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_list.css",
+		"oAP": "\/build\/library\/scss\/css\/_list.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2026,7 +2035,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_mixins.css",
+		"oAP": "\/build\/library\/scss\/css\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2039,7 +2048,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_path.css",
+		"oAP": "\/build\/library\/scss\/css\/_path.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2052,7 +2061,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_rotated-flipped.css",
+		"oAP": "\/build\/library\/scss\/css\/_rotated-flipped.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2065,7 +2074,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_screen-reader.css",
+		"oAP": "\/build\/library\/scss\/css\/_screen-reader.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2078,7 +2087,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_stacked.css",
+		"oAP": "\/build\/library\/scss\/css\/_stacked.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2091,7 +2100,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_variables.css",
+		"oAP": "\/build\/library\/scss\/css\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2104,7 +2113,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/font-awesome.css",
+		"oAP": "\/build\/library\/scss\/css\/font-awesome.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2117,7 +2126,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/ie.css",
+		"oAP": "\/build\/library\/css\/ie.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2130,7 +2139,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/login.css",
+		"oAP": "\/build\/library\/css\/login.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2143,7 +2152,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_alerts.css",
+		"oAP": "\/build\/library\/scss\/css\/_alerts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2156,7 +2165,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_buttons.css",
+		"oAP": "\/build\/library\/scss\/css\/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2169,7 +2178,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_forms.css",
+		"oAP": "\/build\/library\/scss\/css\/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2182,7 +2191,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_modules.css",
+		"oAP": "\/build\/library\/scss\/css\/_modules.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
@@ -2195,7 +2204,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_navigation.css",
+		"oAP": "\/build\/library\/scss\/css\/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2208,7 +2217,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_broker.css",
+		"oAP": "\/build\/library\/scss\/css\/_broker.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2221,7 +2230,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_case-study.css",
+		"oAP": "\/build\/library\/scss\/css\/_case-study.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2234,7 +2243,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_specialty.css",
+		"oAP": "\/build\/library\/scss\/css\/_specialty.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2247,7 +2256,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_functions.css",
+		"oAP": "\/build\/library\/scss\/css\/_functions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2260,7 +2269,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_global_images.css",
+		"oAP": "\/build\/library\/scss\/css\/_global_images.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2273,7 +2282,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_grid.css",
+		"oAP": "\/build\/library\/scss\/css\/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2286,7 +2295,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_ie_grid.css",
+		"oAP": "\/build\/library\/scss\/css\/_ie_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2299,7 +2308,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_mixins.css",
+		"oAP": "\/build\/library\/scss\/css\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2312,7 +2321,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_normalize.css",
+		"oAP": "\/build\/library\/scss\/css\/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2325,7 +2334,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_print.css",
+		"oAP": "\/build\/library\/scss\/css\/_print.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2338,7 +2347,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_typography.css",
+		"oAP": "\/build\/library\/scss\/css\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2351,7 +2360,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/library\/scss\/css\/_variables.css",
+		"oAP": "\/build\/library\/scss\/css\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2364,7 +2373,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/style.css",
+		"oAP": "\/build\/library\/css\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2372,193 +2381,193 @@
 	"\/library\/translation\/da_DK.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/da_DK.mo",
+		"oAP": "\/build\/library\/translation\/da_DK.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/da_DK.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/da_DK.po",
+		"oAP": "\/build\/library\/translation\/da_DK.po",
 		"oF": 0
 		},
 	"\/library\/translation\/de_DE.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/de_DE.mo",
+		"oAP": "\/build\/library\/translation\/de_DE.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/de_DE.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/de_DE.po",
+		"oAP": "\/build\/library\/translation\/de_DE.po",
 		"oF": 0
 		},
 	"\/library\/translation\/default.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/default.mo",
+		"oAP": "\/build\/library\/translation\/default.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/default.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/default.po",
+		"oAP": "\/build\/library\/translation\/default.po",
 		"oF": 0
 		},
 	"\/library\/translation\/es_ES.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/es_ES.mo",
+		"oAP": "\/build\/library\/translation\/es_ES.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/es_ES.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/es_ES.po",
+		"oAP": "\/build\/library\/translation\/es_ES.po",
 		"oF": 0
 		},
 	"\/library\/translation\/fi_FI.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/fi_FI.mo",
+		"oAP": "\/build\/library\/translation\/fi_FI.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/fi_FI.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/fi_FI.po",
+		"oAP": "\/build\/library\/translation\/fi_FI.po",
 		"oF": 0
 		},
 	"\/library\/translation\/fr_FR.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/fr_FR.mo",
+		"oAP": "\/build\/library\/translation\/fr_FR.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/fr_FR.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/fr_FR.po",
+		"oAP": "\/build\/library\/translation\/fr_FR.po",
 		"oF": 0
 		},
 	"\/library\/translation\/he_IL.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/he_IL.mo",
+		"oAP": "\/build\/library\/translation\/he_IL.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/he_IL.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/he_IL.po",
+		"oAP": "\/build\/library\/translation\/he_IL.po",
 		"oF": 0
 		},
 	"\/library\/translation\/hr.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/hr.mo",
+		"oAP": "\/build\/library\/translation\/hr.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/hr.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/hr.po",
+		"oAP": "\/build\/library\/translation\/hr.po",
 		"oF": 0
 		},
 	"\/library\/translation\/hu_HU.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/hu_HU.mo",
+		"oAP": "\/build\/library\/translation\/hu_HU.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/hu_HU.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/hu_HU.po",
+		"oAP": "\/build\/library\/translation\/hu_HU.po",
 		"oF": 0
 		},
 	"\/library\/translation\/it_IT.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/it_IT.mo",
+		"oAP": "\/build\/library\/translation\/it_IT.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/it_IT.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/it_IT.po",
+		"oAP": "\/build\/library\/translation\/it_IT.po",
 		"oF": 0
 		},
 	"\/library\/translation\/ja.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/ja.mo",
+		"oAP": "\/build\/library\/translation\/ja.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/ja.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/ja.po",
+		"oAP": "\/build\/library\/translation\/ja.po",
 		"oF": 0
 		},
 	"\/library\/translation\/lt_LT.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/lt_LT.mo",
+		"oAP": "\/build\/library\/translation\/lt_LT.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/lt_LT.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/lt_LT.po",
+		"oAP": "\/build\/library\/translation\/lt_LT.po",
 		"oF": 0
 		},
 	"\/library\/translation\/nb_NO.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/nb_NO.mo",
+		"oAP": "\/build\/library\/translation\/nb_NO.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/nb_NO.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/nb_NO.po",
+		"oAP": "\/build\/library\/translation\/nb_NO.po",
 		"oF": 0
 		},
 	"\/library\/translation\/nl_NL.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/nl_NL.mo",
+		"oAP": "\/build\/library\/translation\/nl_NL.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/nl_NL.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/nl_NL.po",
+		"oAP": "\/build\/library\/translation\/nl_NL.po",
 		"oF": 0
 		},
 	"\/library\/translation\/pl_PL.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/pl_PL.mo",
+		"oAP": "\/build\/library\/translation\/pl_PL.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/pl_PL.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/pl_PL.po",
+		"oAP": "\/build\/library\/translation\/pl_PL.po",
 		"oF": 0
 		},
 	"\/library\/translation\/pt_PT.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/pt_PT.mo",
+		"oAP": "\/build\/library\/translation\/pt_PT.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/pt_PT.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/pt_PT.po",
+		"oAP": "\/build\/library\/translation\/pt_PT.po",
 		"oF": 0
 		},
 	"\/library\/translation\/README.md": {
@@ -2570,7 +2579,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/library\/translation\/README.html",
+		"oAP": "\/build\/library\/translation\/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -2582,121 +2591,139 @@
 	"\/library\/translation\/ro_RO.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/ro_RO.mo",
+		"oAP": "\/build\/library\/translation\/ro_RO.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/ro_RO.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/ro_RO.po",
+		"oAP": "\/build\/library\/translation\/ro_RO.po",
 		"oF": 0
 		},
 	"\/library\/translation\/ru_RU.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/ru_RU.mo",
+		"oAP": "\/build\/library\/translation\/ru_RU.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/ru_RU.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/ru_RU.po",
+		"oAP": "\/build\/library\/translation\/ru_RU.po",
 		"oF": 0
 		},
 	"\/library\/translation\/sv_SE.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/sv_SE.mo",
+		"oAP": "\/build\/library\/translation\/sv_SE.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/sv_SE.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/sv_SE.po",
+		"oAP": "\/build\/library\/translation\/sv_SE.po",
 		"oF": 0
 		},
 	"\/library\/translation\/zh_CN.mo": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/zh_CN.mo",
+		"oAP": "\/build\/library\/translation\/zh_CN.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/zh_CN.po": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/library\/translation\/zh_CN.po",
+		"oAP": "\/build\/library\/translation\/zh_CN.po",
 		"oF": 0
 		},
 	"\/page-service.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/page-service.php",
+		"oAP": "\/build\/page-service.php",
 		"oF": 0
 		},
 	"\/page-specialty.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/page-specialty.php",
+		"oAP": "\/build\/page-specialty.php",
+		"oF": 0
+		},
+	"\/page-team.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/page-team.php",
 		"oF": 0
 		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page.php",
+		"oAP": "\/build\/page.php",
 		"oF": 0
 		},
-	"\/post-formats\/content-blog-post.php": {
+	"\/post-formats\/author-case-study.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/post-formats\/content-blog-post.php",
+		"oAP": "\/build\/post-formats\/author-case-study.php",
 		"oF": 0
 		},
-	"\/post-formats\/content-caseStudies.php": {
+	"\/post-formats\/author-single.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/post-formats\/content-caseStudies.php",
+		"oAP": "\/build\/post-formats\/author-single.php",
 		"oF": 0
 		},
-	"\/post-formats\/content-miniProfile.php": {
+	"\/post-formats\/content-case-study.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/post-formats\/content-miniProfile.php",
+		"oAP": "\/build\/post-formats\/content-case-study.php",
+		"oF": 0
+		},
+	"\/post-formats\/content-employee.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/post-formats\/content-employee.php",
+		"oF": 0
+		},
+	"\/post-formats\/content-post.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/post-formats\/content-post.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-section.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/post-formats\/content-section.php",
+		"oAP": "\/build\/post-formats\/content-section.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-serviceButton.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/post-formats\/content-serviceButton.php",
+		"oAP": "\/build\/post-formats\/content-serviceButton.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-serviceDropdown.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/post-formats\/content-serviceDropdown.php",
+		"oAP": "\/build\/post-formats\/content-serviceDropdown.php",
 		"oF": 0
 		},
 	"\/post-formats\/format-aside.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/post-formats\/format-aside.php",
+		"oAP": "\/build\/post-formats\/format-aside.php",
 		"oF": 0
 		},
 	"\/post-formats\/format.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/post-formats\/format.php",
+		"oAP": "\/build\/post-formats\/format.php",
 		"oF": 0
 		},
 	"\/readme.html": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/readme.html",
+		"oA": 1,
+		"oAP": "\/build\/readme.html",
 		"oF": 0
 		},
 	"\/readme.md": {
@@ -2708,7 +2735,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/readme.html",
+		"oAP": "\/build\/readme.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -2721,53 +2748,53 @@
 		"ft": 32768,
 		"iS": 450767,
 		"oA": 0,
-		"oAP": "\/screenshot.png",
+		"oAP": "\/build\/screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"\/search.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/search.php",
+		"oAP": "\/build\/search.php",
 		"oF": 0
 		},
 	"\/searchform.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/searchform.php",
+		"oAP": "\/build\/searchform.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sidebar.php",
+		"oAP": "\/build\/sidebar.php",
 		"oF": 0
 		},
 	"\/single-case-study.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/single-case-study.php",
+		"oAP": "\/build\/single-case-study.php",
 		"oF": 0
 		},
 	"\/single-employee.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/single-employee.php",
+		"oAP": "\/build\/single-employee.php",
 		"oF": 0
 		},
 	"\/single-listing.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/single-listing.php",
+		"oAP": "\/build\/single-listing.php",
 		"oF": 0
 		},
 	"\/single.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/single.php",
+		"oAP": "\/build\/single.php",
 		"oF": 0
 		},
 	"\/style.css": {
@@ -2776,7 +2803,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style-min.css",
+		"oAP": "\/build\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		}
@@ -2787,9 +2814,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 511372480,
-	"displayValue": "RCRE-2017",
+	"displayValue": "rcre-2017",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray"
+	"iconImageName": "brackets_gray",
+	"lastBuiltDate": 522694838
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3044,7 +3072,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -4897,7 +4925,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/build"
 	},
 "settingsFileVersion": "3"
 }

@@ -1,23 +1,59 @@
-<?php // Dynamic Version ?>
-
-
-
 <?php
-	// Using the Types function to load the contents of child posts and then starting a custom loop to output them
-	$child_posts = types_child_posts("section"); // Load the contents of related posts in the array
-	foreach ($child_posts as $child_post) { // Loop through each of the child post in the array
-	?>
-		<section style="background-image: url('<?php echo types_render_field( "section-image", array( "id"=> "$child_post->ID", "output" => "raw" )); ?>');" class="topic cf">
 
-			<aside class="m-all pull-l-1of12 pull-r-1of12 <?php echo types_render_field( "section-align", array( "id"=> "$child_post->ID", "output" => "raw" )); ?>">
-				<h3><?php echo $child_post->post_title; ?></h3>
-				<div class="m-padding">
-					<p><?php echo types_render_field( "section-description", array( "id"=> "$child_post->ID" )); ?>
-					</p>
-				</div>
-			</aside>
+	global $style;
+	$style = 0; 
+	//echo '<ul>';
+	$base_args = array(
+    'hierarchical' => 0
+  );
+  if (has_children()) {
+    $args = array(
+      'child_of' => $post->ID,
+      'parent' => $post->ID
+    );
+  } else {
+    if (is_top_level()) {
+      $args = array(
+        'child_of' => $post->post_parent,
+        'parent' => $post->post_parent
+      );
+    } else {
+      $args = array(
+        'parent' => 0
+      );
+    }
+  }
+  
+  $args = array_merge($base_args, $args);
+  $pages = get_pages($args);
 
-			<div class="slant slant--<?php echo types_render_field( "section-align", array( "id"=> "$child_post->ID", "output" => "raw" )); ?>">
+  foreach ($pages as $page) { 
+		$thumb_id = get_post_thumbnail_id($page->ID);
+		$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
+		$thumb_url = $thumb_url_array[0]; 
+		$style++;
+
+		if($style % 2 == 0){
+		    $imgClass = 'left';
+		    $descClass = 'right';
+		} else {
+		    $imgClass = 'right';
+		    $descClass = 'left';
+		}
+?>
+
+	<section style="background-image: url('<?php echo $thumb_url; ?>');" class="topic cf">
+
+		<aside class="m-all t-1of3 pull-l-1of12 pull-r-1of12 <?php echo $imgClass; ?>">
+			<h3><?php echo $page->post_title; ?></h3>
+			<div class="m-padding">
+				<p><?php echo types_render_field( "excerpt", array( "id"=> "$page->ID" )); ?>
+				</p>
+				<a href="<?php echo get_permalink("$page->ID"); ?>" class="cta-border-green"><?php echo types_render_field( "tagline", array( "id"=> "$page->ID" )); ?></a>
 			</div>
-		</section>
-<?php } ?> 
+		</aside>
+
+		<div class="slant slant--<?php echo $imgClass; ?>"></div>
+	</section>
+
+<?php } wp_reset_postdata(); ?>

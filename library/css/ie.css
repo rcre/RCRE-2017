@@ -2460,6 +2460,9 @@ p {
 .header-dark {
   color: #43505d; }
 
+.header-light {
+  color: #fff; }
+
 .text-right {
   text-align: right; }
 
@@ -2573,6 +2576,8 @@ POSTS & CONTENT STYLES
 *********************/
 /* entry content */
 .entry-content {
+  margin-right: 10.66666667%;
+  margin-left: 10.66666667%;
   /* at this larger size, we can start to align images */ }
   .entry-content .alignleft, .entry-content img.alignleft {
     margin-right: 1.5em;
@@ -2603,6 +2608,27 @@ Stylesheet: 768px and up - Tablet & Small Desktop Stylesheet
 .wrap {
   width: 100%; }
 
+h1, .h1 {
+  font-size: 3em; }
+
+h2, .h2 {
+  font-size: 2em; }
+
+h3, .h3 {
+  font-size: 1.5em; }
+
+h4, .h4 {
+  font-size: 0.9em; }
+
+h5, .h5 {
+  font-size: 0.8em; }
+
+p {
+  font-size: 0.9em; }
+
+#page-header {
+  height: 70vh; }
+
 /*********************
 HEADER STYLES
 *********************/
@@ -2613,7 +2639,7 @@ HEADER STYLES
   display: none; }
 
 .callout .header-buttons {
-  margin: 70px; }
+  margin: 50px; }
   .callout .header-buttons a {
     margin: 5%; }
 
@@ -2737,6 +2763,10 @@ NAVIGATION STYLES
 /*********************
 SECTION STYLES
 *********************/
+.entry-content {
+  margin-right: 10.66666667%;
+  margin-left: 10.66666667%; }
+
 section .uvp {
   background-image: url("../images/bg/pattern.svg");
   background-size: 10%; }
@@ -2752,6 +2782,7 @@ section.topic {
   background-size: cover;
   position: relative; }
   section.topic aside {
+    background-color: transparent;
     position: absolute;
     z-index: 3;
     width: 30%;
@@ -2831,8 +2862,12 @@ ul.tabs {
 /*********************
 FOOTER STYLES
 *********************/
+.address {
+  margin: 7px auto;
+  display: inline-block; }
+
 p.copyright {
-  margin: 10px auto; }
+  margin: 2px auto; }
 
 .footer-links {
   display: inline-block;
@@ -2875,10 +2910,14 @@ be seen on the Desktop.
     color: #d2db3a; }
 
 .service-grid .service-box {
-  padding: 60px 5px; }
+  padding: 40px 0px; }
 
 section .slant {
   width: 60%; }
+
+.entry-content {
+  margin-right: 12.66666667%;
+  margin-left: 12.66666667%; }
 
 /*
 you can call the larger styles if you want, but there's really no need

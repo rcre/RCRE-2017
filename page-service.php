@@ -8,7 +8,7 @@
 			
 <div id="content">
 
-	<div id="inner-content" class="wrap cf">
+	<div id="inner-content" class="cf">
 
 		<main id="main" class="m-all t-all d-10of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
@@ -20,7 +20,7 @@
 		<?php // This is the main description of the service and what it provides ?>
 			<section class="m-padding">
 				<div class="pull-l-1of12 pull-r-1of12 cf">
-					<div class="uvp pull-l-1of12 pull-r-1of12">
+					<div class="uvp">
 						<p><?php echo(types_render_field( "service-main-description", array( 'raw' => true) )); ?></p>
 					</div>
 					<div class="selling-point m-all t-1of3 d-1of3">
@@ -51,8 +51,11 @@
 			
 			
 		<!-- This is a wp loop for team memebers-->
-			<?php get_template_part('library/partials/sectionTeam'); ?>
-
+			<section id="SpecialtyTeam" class="pull-r-1of12 pull-l-1of12 cf pad-top m-padding">
+				<h2 class="header-dark pad-top">The <?php the_title(); ?> Team</h2>
+				<?php get_template_part('library/partials/sectionTeam'); ?>
+			</section>
+			
 		<?php // Related Case Studies (In a partial) ?>
 			<?php get_template_part('library/partials/sectionCaseStudy'); ?>
 

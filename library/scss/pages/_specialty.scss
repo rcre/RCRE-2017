@@ -5,36 +5,71 @@ Speciatly Page Styles
 .panel {
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 800px;
+	height: 700px;
 	background-position: center;
 
 	aside {
 		background: transparent;
 	}
 
-	.captionTop {
+	.caption-top {
 		margin-top: 100px;
 	}
 
-	.captionBottom {
+	.caption-bottom {
 		margin-top: 30%;;
+	}
+
+	@media (max-width: 767px) {
+
+		.caption-top {
+		margin-top: 40px;
+		}
+
+		.caption-bottom {
+			margin-top: 40px;
+		}
 	}
 
 }
 
 #Panel-1 {
-	
+	margin-top: 0;
+
+	@media (max-width: 767px) {
+		height: auto;
+		background-position: top center;
+		background-size: 100%;
+		padding-top: 150px;
+
+		aside {
+			background-color: white;
+		}
+	}
+
 }
 
 #Panel-2 {
-	background-image: url('../images/specialties/office/specialty-office-panel-2-lines.jpg');
+	background-image: url('../images/specialties/specialty-panel-2-lines.svg');
 	position: relative;
 	overflow: hidden;
+	margin-top: 0;
+
+	@media (max-width: 767px) {
+			background: transparent;
+			height: auto;
+		}
 }
 
 #Panel-3 {
-	background-image: url('../images/specialties/office/specialty-office-panel-3.jpg');
+	background-image: url('../images/specialties/specialty-panel-3.svg');
 	margin-bottom: 50px;
+	margin-top: 0;
+
+	@media (max-width: 767px) {
+			background: transparent;
+			height: auto;
+		}
 }
 
 // This is the section at the bottom of the page
@@ -60,6 +95,10 @@ Speciatly Page Styles
 	bottom: 0;
 	right: -80px;
 	float: right;
+
+	@media (max-width: 767px) {
+			display: none;
+		}
 }
 
 

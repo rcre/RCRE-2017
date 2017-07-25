@@ -6,6 +6,42 @@ Stylesheet: 768px and up - Tablet & Small Desktop Stylesheet
 .wrap {
 	width: 100%;
 }
+
+// Desktop Font Sizes
+
+h1, .h1 {
+	font-size: 3em;
+}
+
+h2, .h2 {
+	font-size: 2em;
+}
+
+h3, .h3 {
+	font-size: 1.5em;
+}
+
+h4, .h4 {
+	font-size: 0.9em;
+}
+
+h5, .h5 {
+	font-size: 0.8em;
+}
+
+p {
+	font-size: 0.9em;
+}
+
+#page-header {
+	height: 70vh;
+}
+
+#page-header.page--Home {
+	.callout {
+		//padding-top: 80px;
+	}
+}
 /*********************
 HEADER STYLES
 *********************/
@@ -29,7 +65,7 @@ HEADER STYLES
 .callout {
 
 	.header-buttons {
-		margin: 70px;
+		margin: 50px;
 
 		a {
 			margin: 5%;
@@ -224,6 +260,11 @@ NAVIGATION STYLES
 SECTION STYLES
 *********************/
 
+.entry-content {
+	margin-right: 10.66666667%;
+	margin-left: 10.66666667%;
+}
+
 section {
 	
 	.uvp {
@@ -243,6 +284,7 @@ section {
 	    position: relative;
 
 		aside {
+			background-color: transparent;
 			position: absolute;
 			z-index: 3;
 			width: 30%;
@@ -351,9 +393,14 @@ ul.tabs {
 FOOTER STYLES
 *********************/
 
+.address {
+ margin: 7px auto;
+ display: inline-block;
+}
+
 p.copyright {
 	//display: inline-block;
-	margin: 10px auto;
+	margin: 2px auto;
 }
 
 .footer-links {

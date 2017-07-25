@@ -6,17 +6,17 @@ MODULE: SERVICE DESCRIPTION
 	.uvp {
 		p {
 			border: 2px solid $blue;
-			padding: 40px;
+			padding: 20px;
 			border-radius: 10px;
-			margin: 80px auto;
-			font-size: 1.4em;
+			margin: 40px auto;
 			text-align: center;
+			font-size: 1.8em;
 		}
 	}
 
 	.selling-point {
 		// text-align: center;
-		padding: 20px 40px;
+		padding: 20px 10px;
 
 		img {
 			width: 50px;
@@ -34,7 +34,7 @@ MODULE: Full-width Callout Strip
 		background-color: $dblue;
 		color: white;
 		text-align: center;
-		padding: 20px 0;
+		padding: 40px 0;
 		
 		// Font awesome heart that needs to be pink
 		.fa-heart {
@@ -56,30 +56,45 @@ MODULE: SERVICE GRID
 			
 		// Individual Boxes
 		.service-box {
-			margin-top: 60px;
+			margin: 10px 10px 10px 0px;
 			border: 5px solid $lgray;
 			border-radius: 10px;
-			margin-bottom: 10px;
-			padding: 20px 5px;
-			margin-right: 10px;
+			padding: 20px 0px;
 			text-align: center;
 			position: relative;
 			
+
+			@media only screen and (min-width: 481px) {
+				margin-top: 60px;
+			}
 			// Attempt to center the images later $revisit
 			img { 
 				top: -60px;
 				width: 25%;
 			}
+			
+			h4 {
+				max-width: 300px;
+				margin: 0 auto;
+			}
 
-			a {
-				display: inline;
+			> a {
+				display: none;
+
+				@media only screen and (min-width: 481px) {
+					display: inline;
+				}
 			}
 
 			p {
-				display: block;
+				display: none;
 				padding: 0 25px;
-				font-size: 1em;
 				color: lighten($gray, 35%);
+				min-height: 85px;
+
+				@media only screen and (min-width: 481px) {
+					display: block;
+				}
 			}
 		}
 	} // End Service Grid Styles

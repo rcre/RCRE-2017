@@ -1,11 +1,14 @@
 /******************************************************************
-Theme Name: RCRE-2017
+Theme Name: rcre-2017
 Theme URI: http://rcre.com/marketing
-Description: This site was built using the Bones Development Theme. For more information about Bones or to view documentation, you can visit the <a href="https://github.com/eddiemachado/bones/issues" title="Bones Issues">Bones Issues</a> page on Github. You'll want to customize this for your clients with your own information.
-Author: Your Name Here
-Author URI: http://www.yoururlhere.com
+Text Domain: RESOURCE;
+Description: This site was built for RESOURCE Commercial Real Estate
+Author: Patrick Hanus
+Author URI: https://rcre.com
+Theme URI: https://rcre.com
+License URI: https://rcre.com
 Version: 1.7
-Tags: fluid-layout, responsive-layout, accessibility-ready, translation-ready, microformats, rtl-language-support
+Tags: accessibility-ready, translation-ready, microformats, rtl-language-support
 
 ---------------------------------------------------------------
 
@@ -21,3 +24,6 @@ Great work, Theme Check (eye roll)
 .sticky {}          /* DO NOT EDIT THIS */
 .gallery-caption {} /* THESE ARE USELESS */
 .bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */
+.wp-caption {}
+.wp-caption-text {}
+.screen-reader-text{}
