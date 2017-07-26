@@ -15,6 +15,9 @@
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		
+		<meta name="description" content="RESOURCE helps you buy, lease and sell property, manage your assets and focus on what you love. All without the corporate hoops.">
 
 		<meta name="keywords" content="real estate, resource, cre, commercial real estate, lease, office space, industrial, business, research, consulting, owner, occupier, sales,leasing, corporate services, property management, facilities management, project management, mortgage banking, appraisal, development, investment management">
 		
@@ -34,13 +37,7 @@
 		
 		<?php // Google reCaptcha API ?>
 		<script src="https://www.google.com/recaptcha/api.js"></script>
-		
-		<?php // Google reCaptcha code ?>
-		<!-- <script>
- 			
-		</script> -->
 
-		 
 		<?php // Enriched Google Cards ?>
 		<script type="application/ld+json"> {
 			"@context":"http://schema.org",
@@ -76,11 +73,13 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
-		<?php // end of wordpress head ?>
 
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
+	 <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
 		<div id="container">
 
@@ -89,17 +88,17 @@
 				<div id="inner-header" class="cf">
 					<!-- Main Site logo -->
 					<div id="logo" class="m-1of2 t-1of3 d-1of3">
-						<a href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="Call RESOURCE"></a>
+						<a href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
 					</div>
 					
 					<div id="mobile-quick-nav" class="last-col">
 					<!-- Call Button -->
 						<div class="m-1of3 t-1of3 d-1of3">
-							<a href="tel:317-663-6000" role="telephone"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE" id="phone"></a>
+							<a  href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
 						</div>
 					<!-- Search Button -->
 						<div class="m-1of3 t-1of3 d-1of3">
-							<a href="#" role="search"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-search.svg" alt="Activate Menu" id="search"></a>
+							<a  href="#" role="search"><img id="search" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-search.svg" alt="Search rcre.com"></a>
 						</div>
 					<!-- Open Mobile Menu Button -->
 						<div id="menu-burger" class="m-1of3 t-1of3 d-1of3">
@@ -141,17 +140,17 @@
 
 		<?php 
 
+
 			if ( has_post_thumbnail() ) {
-				// $bannerimg = wp_get_attachment_url( get_post_thumbnail_id( $page->ID ), 'single-post-thumbnail' ); 
 				$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 			} else {
 				$bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
 			}
-
- 			// $obj = get_queried_object();
- 			// $custom_post_type = $obj->post_type;
-
-			if( get_post_type() == "employee" || is_404() ) {
+			
+			if ( is_front_page() ) {
+				get_template_part( 'library/partials/header-home' );
+			
+			} elseif( get_post_type() == "employee" || is_404() ) {
 				// Header for individual blog posts, case studies, and research reports
 				get_template_part('library/partials/header-none');
 

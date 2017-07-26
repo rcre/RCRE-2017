@@ -133,7 +133,7 @@
 							<?php 
 								foreach ($child_posts as $child_post) { ?>
 									<?php // Grab the link to the case study ?>
-									<a href="<?php echo $child_post->post_title; ?>">
+									<a href="<?php echo esc_url( get_permalink( $child_post->ID ) ); ?>">
 									<?php // Grab the image to the case study ?>
 									<div class="case-study-icon">
 										<?php echo types_render_field( "client-logo", array( "id"=> "$child_post->ID", "size" => "thumbnail" ));  ?>	

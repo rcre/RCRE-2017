@@ -10,7 +10,7 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/eli-lilly.png" alt="eli-lilly">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/indiana-members.png" alt="indiana-members">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/omnisource.png" alt="omnisource">
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/pnc.png" alt="pnc">
+				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/PNC.png" alt="pnc">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/Coca-Cola.png" alt="Coca-Cola">
 			</div>
 		</div>
