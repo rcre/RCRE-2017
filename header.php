@@ -33,10 +33,16 @@
 		<?php // or, set /favicon.ico for IE10 win ?>
 		<meta name="msapplication-TileColor" content="#d2db3a">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-square-dark.png">
-            <meta name="theme-color" content="#d2db3a">
+        <meta name="theme-color" content="#d2db3a">
 		
-		<?php // Google reCaptcha API ?>
-		<script src="https://www.google.com/recaptcha/api.js"></script>
+		
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<script>
+       		function onSubmit(token) {
+        		document.getElementById('contact-home').submit();
+        		document.getElementById('contact_submit').removeAttr('disabled');
+       		}
+     	</script>
 
 		<?php // Enriched Google Cards ?>
 		<script type="application/ld+json"> {

@@ -41,11 +41,11 @@
 				<textarea name="description" tabindex="6"></textarea>
 			</div>
 			
-			<div class="m-all t-all d-all">
-				<div class="g-recaptcha" data-sitekey="6LcbpyQUAAAAAKAjUdQypF-uVsjGbdR7VLD09QiK" callback="recaptcha_callback"></div>
-			</div>
+			<!-- <div class="m-all t-all d-all">
+				<div class="g-recaptcha" data-theme="dark" data-sitekey="" data-callback="recaptcha_callback"></div>
+			</div> -->
 
-			<input disabled="disabled" id="contact_submit" class="cta-border-green" type="submit" name="submit" value="Let's Get Things Done!">
+			<input data-sitekey="6LfDkyoUAAAAAGEX2gRJ2WFe3hWVPz-YSQn7rHNv" data-callback='onSubmit' id="contact_submit" disabled="disabled"  class="g-recaptcha cta-border-green" type="submit" name="submit" value="Let's Get Things Done!">
 		</form>
 		
 		<!-- Search Properties -->
