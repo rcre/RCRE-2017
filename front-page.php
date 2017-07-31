@@ -11,7 +11,6 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/indiana-members.png" alt="indiana-members">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/omnisource.png" alt="omnisource">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/PNC.png" alt="pnc">
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/Coca-Cola.png" alt="Coca-Cola">
 			</div>
 		</div>
 
@@ -24,8 +23,6 @@
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 				
-					
-			<?php // Company UVP and introduction o why we are different ?>
 				<section class="pad-top">
 					<div class="pull-l-1of12 pull-r-1of12 cf">
 						<div class="uvp">
@@ -34,7 +31,7 @@
 						<div class="selling-point m-all t-1of3 d-1of3">
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icons-book-knowledge.svg" alt="Real Estate Knowledge">
 							<h5>A wealth of knowledge.</h5>
-							<p>With over 600 years of combined experience, our team of experts provides you with the latest relevant data, marketing strategies and support you deserve.</p>
+							<p>With over 600 years of combined experience, our team of experts provides you with the latest data, marketing strategies and support you deserve.</p>
 						</div>
 						<div class="selling-point m-all t-1of3 d-1of3">
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icons-us-map-love-indy.svg" alt="Real Estate Knowledge">
@@ -44,7 +41,7 @@
 						<div class="selling-point m-all t-1of3 d-1of3 right">
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icons-focused-on-you.svg" alt="Real Estate Knowledge">
 							<h5>Free to focus on you.</h5>
-							<p>We don&#39;t answer to stockholders. We aren&#39;t an oversized corporation that only cares about boosting their numbers. We care about your numbers.</p>
+							<p>We don&#39;t answer to stockholders. We aren&#39;t an oversized corporation that only cares about boosting our numbers. We care about your numbers.</p>
 						</div>
 					</div>
 				</section>

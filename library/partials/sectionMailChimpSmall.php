@@ -5,7 +5,7 @@
 	
 	<div class="m-padding">
 		<h2>Know the market before your competition.</h2>
-		<p>Get the latest commercial real estate news, research reports, <br>drone tours, and much more with our RESOURCE newsletter. Free and delivered straignt to your inbox.</p>
+		<p>Get the latest commercial real estate news, research reports, <br>drone tours, and much more with the RESOURCE newsletter. Free and delivered straight to your inbox.</p>
 	</div>
 
 	<div id="mc_embed_signup" class="m-padding">

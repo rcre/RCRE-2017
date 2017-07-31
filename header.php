@@ -21,28 +21,34 @@
 
 		<meta name="keywords" content="real estate, resource, cre, commercial real estate, lease, office space, industrial, business, research, consulting, owner, occupier, sales,leasing, corporate services, property management, facilities management, project management, mortgage banking, appraisal, development, investment management">
 		
+
 		<?php // Safari Pinned tab ?>
 		<link rel="mask-icon" href="library/images/website_icon_1.svg" color="#d2db3a">
 
 		<?php // icons & favicons ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-square-dark.png">
 		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#75caca">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#75caca">
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<![endif]-->
-		<?php // or, set /favicon.ico for IE10 win ?>
-		<meta name="msapplication-TileColor" content="#d2db3a">
-		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-square-dark.png">
-        <meta name="theme-color" content="#d2db3a">
 		
-		
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-		<script>
-       		function onSubmit(token) {
-        		document.getElementById('contact-home').submit();
-        		document.getElementById('contact_submit').removeAttr('disabled');
-       		}
-     	</script>
 
 		<?php // Enriched Google Cards ?>
 		<script type="application/ld+json"> {
@@ -92,7 +98,6 @@
 			<header role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 				<div id="inner-header" class="cf">
-					<!-- Main Site logo -->
 					<div id="logo" class="m-1of2 t-1of3 d-1of3">
 						<a href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
 					</div>
@@ -103,9 +108,9 @@
 							<a  href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
 						</div>
 					<!-- Search Button -->
-						<div class="m-1of3 t-1of3 d-1of3">
-							<a  href="#" role="search"><img id="search" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-search.svg" alt="Search rcre.com"></a>
-						</div>
+						<!-- <div class="m-1of3 t-1of3 d-1of3">
+							<a  href="#" role="search"><img id="search" src="<?php //echo get_template_directory_uri(); ?>/library/images/icons/icon-search.svg" alt="Search rcre.com"></a>
+						</div> -->
 					<!-- Open Mobile Menu Button -->
 						<div id="menu-burger" class="m-1of3 t-1of3 d-1of3">
 							<img aria-hidden aria-label="Open Menu" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-menu-burger.svg" alt="Open Mobile Menu">
@@ -156,9 +161,12 @@
 			if ( is_front_page() ) {
 				get_template_part( 'library/partials/header-home' );
 			
-			} elseif( get_post_type() == "employee" || is_404() ) {
+			} elseif( get_post_type() == "employee") {
 				// Header for individual blog posts, case studies, and research reports
 				get_template_part('library/partials/header-none');
+
+			} elseif( is_404() ) {
+				get_template_part('library/partials/header-404');
 
 			} elseif ( is_single() ) { ?>
 			<!-- Header for Single.php -->
@@ -199,9 +207,6 @@
 								<?php the_title(); ?>
 							</h1>
 							<p class="subtitle"><?php echo types_render_field( "tagline", array( 'raw' => true)); ?></p>
-							<div class="header-buttons cf">
-								<a href="<?php echo esc_url( the_permalink() ); ?>" id="cta-border-green">Read More...</a>
-							</div>
 						</div>
 					</div>
 				</div>

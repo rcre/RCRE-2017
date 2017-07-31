@@ -27,7 +27,7 @@
 		'post_type' => 'employee',
 		'post_status' => 'publish',
 		'posts_per_page' => 50,
-		'orderby' => 'ASC',
+		'order' => 'DESC',
 		'tax_query' => array(
 			    array(
 			        'taxonomy' => $tax,

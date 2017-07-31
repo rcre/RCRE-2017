@@ -23,7 +23,7 @@
 						<a class="m-1of3 t-1of3 d-1of3 pad-top" href="<?php echo esc_url( get_permalink() ); ?>">
 					<?php // Grab the image to the case study ?>
 						<div class="case-study-icon">
-							<?php echo types_render_field( "client-logo" );  ?>	
+							<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">	
 						</div>
 						</a>
 

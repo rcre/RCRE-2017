@@ -27,11 +27,11 @@
 						<div class=>
 							<?php echo types_render_field( "profile-title", array( 'raw' => false) ); ?> 
 	
-							<?php if ( has_term( '' , 'specialty') || has_term( '' , 'service') ) { ?>
+							<?php if ( has_term( '' , 'specialty') && has_term( '' , 'service') ) { ?>
 
 								// <div class="header-link"> <?php echo get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?></div> 
 								
-								<?php } ?>
+							<?php } ?>
 							
 						</div>
 				

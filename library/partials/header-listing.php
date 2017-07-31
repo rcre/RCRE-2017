@@ -37,7 +37,7 @@
 					$<?php echo(types_render_field( "lease-rate", array( 'raw' => true) )); ?>.00/SF
 			</div>
 
-			<a class="m-1of2 download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( 'raw' => true)); ?>"></a>
+			<a class="m-1of2 download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( 'raw' => true)); ?>"></a>
 		</div>
 	</div>
 </div>

@@ -1,3 +1,8 @@
+<?php 
+/*
+ Template Name: Service Template
+*/
+ ?>
 <?php get_header(); ?>
 			
 <div id="content">
