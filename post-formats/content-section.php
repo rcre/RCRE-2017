@@ -46,8 +46,8 @@
 
 		<section style="background-image: url('<?php echo $thumb_url; ?>');" class="topic cf">
 
-			<aside class="m-all t-1of3 pull-l-1of12 pull-r-1of12 <?php echo $imgClass; ?>">
-				<h3><?php echo $page->post_title; ?></h3>
+			<aside class="m-all t-1of3 d-1of3 pull-l-1of12 pull-r-1of12 <?php echo $imgClass; ?>">
+				<h3 class="m-padding"><?php echo $page->post_title; ?></h3>
 				<div class="m-padding">
 					<p><?php echo types_render_field( "excerpt", array( "id"=> "$page->ID" )); ?>
 					</p>

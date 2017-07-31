@@ -1,4 +1,4 @@
-<aside class="m-all t-all d-all">
+<section id="authorSingle" class="m-all t-all d-all">
 <!-- PHP: Get the Broker's Picture URL and Industry Name-->
 	<?php 
 		// Get the ID of the parent post, which belongs to the "Employee" post type
