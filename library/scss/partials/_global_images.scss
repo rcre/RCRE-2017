@@ -81,11 +81,6 @@ header#service {
 
 	&--Office {
 		background-image: url('../images/specialties/office/specialty-office-panel-1.svg');
-		
-		@media (max-width: 767px) {
-			background: transparent;
-			height: auto;
-		}
 	}
 
 	&--Retail {
@@ -94,10 +89,6 @@ header#service {
 
 	&--Industrial {
 		background-image: url('../images/specialties/industrial/specialty-industrial-panel-1.svg');
-		@media (max-width: 767px) {
-			background: transparent;
-			height: auto;
-		}
 	}
 
 	&--Land {
@@ -108,10 +99,6 @@ header#service {
 		background-image: url('../images/specialties/multifamily/specialty-multifamily-panel-1.svg');
 	}
 }
-
-
-
-
 
 .page {
 	&--Home {
@@ -136,7 +123,7 @@ header#service {
 	}
 
 	&--Case-Studies {
-		background-image: url('../images/Case-Studies-desktop.jpg');
+		background-image: url('../images/case-studies-desktop.jpg');
 		@media (max-width: 767px) {
 			background: transparent;
 			height: auto;

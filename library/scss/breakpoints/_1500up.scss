@@ -27,32 +27,19 @@ p {
 				
 				color: $green;
 			}
-			
 		}
 	}
 }
 
-#page-header {
-	height: 80vh;
-}
-
-.callout {
-	margin: 100px 0;
-
-	.header-buttons {
-		margin: 60px;
-
-		a {
-			margin: 5%;
-		}
-	}
+#page-header { 
+	height: 100vh;
 }
 
 // Make the service boxes more square on desktop
 .service-grid  {
 
 	.service-box {
-		padding: 40px 0px;
+		padding: 20% 0 0 0;
 	}
 }
 

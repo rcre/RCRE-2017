@@ -136,7 +136,12 @@ p {
   text-align: center;
 }
 
-
+a {
+  color: $gray;
+  &:hover {
+    color: $blue;
+  }
+}
 
 
 

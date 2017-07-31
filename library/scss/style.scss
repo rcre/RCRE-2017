@@ -66,6 +66,16 @@ DESKTOP
 } // end of media query
 
 /*********************
+HUGE SCREEN
+*********************/
+@media only screen and (min-width: 1500px) {
+
+	// styles in 1030up.scss
+	@import "breakpoints/1500up";
+
+} // end of media query
+
+/*********************
 PRINT STYLESHEET
 *********************/
 @media print {

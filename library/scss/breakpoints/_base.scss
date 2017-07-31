@@ -44,14 +44,6 @@ p {
 	font-size: 1.2em;
 }
 
-a {
-	color: $gray;
-
-	&:hover {
-		color: $blue;
-	}
-}
-
 /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -212,8 +204,13 @@ iframe {
 } /* end .hentry */
 
 .entry-content {
-	margin-right: 0;
-	margin-left: 0;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+section#authorSingle {
+	border-top: 3px solid $lgray;
+	padding-top: 60px;
 }
 
 /*********************
