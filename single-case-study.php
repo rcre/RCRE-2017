@@ -103,6 +103,8 @@ client-quote-title
 						<p><?php echo types_render_field( "client-quote-title", array( 'raw' => true)); ?>, <?php the_title(); ?></p>
 					</div>
 				</div>
+
+				<p class="d-all m-all t-all"><strong>Note:</strong> We have several professionals with substantial client transactional experience prior to joining RESOURCE Commercial, which is included above.</p>
 			</section>
 
 			</article>
@@ -110,6 +112,7 @@ client-quote-title
 			<?php get_template_part('library/partials/sectionMailChimpSmall'); ?>
 
 			<footer class="cf">
+
 					<?php get_template_part('library/partials/sectionContact'); ?>
 				</footer>
 			<?php endwhile; ?>
