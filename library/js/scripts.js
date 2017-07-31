@@ -21,17 +21,17 @@ var viewport = updateViewportDimensions();
  * Wrap your actions in this function to throttle the frequency of firing them off, for better performance, esp. on mobile.
  * ( source: http://stackoverflow.com/questions/2854407/javascript-jquery-window-resize-how-to-fire-after-the-resize-is-completed )
 */
-var waitForFinalEvent = (function () {
-	var timers = {};
-	return function (callback, ms, uniqueId) {
-		if (!uniqueId) { uniqueId = "Don't call this twice without a uniqueId"; }
-		if (timers[uniqueId]) { clearTimeout (timers[uniqueId]); }
-		timers[uniqueId] = setTimeout(callback, ms);
-	};
-})();
+// var waitForFinalEvent = (function () {
+// 	var timers = {};
+// 	return function (callback, ms, uniqueId) {
+// 		if (!uniqueId) { uniqueId = "Don't call this twice without a uniqueId"; }
+// 		if (timers[uniqueId]) { clearTimeout (timers[uniqueId]); }
+// 		timers[uniqueId] = setTimeout(callback, ms);
+// 	};
+// })();
 
 // how long to wait before deciding the resize has stopped, in ms. Around 50-100 should work ok.
-var timeToWaitForLast = 100;
+// var timeToWaitForLast = 100;
 
 /*
  * Here's an example so you can see how we're using the above function
@@ -171,11 +171,18 @@ function mobileMenu() {
 function timestamp() { 
   var response = document.getElementById("g-recaptcha-response"); 
   if (response === null || response.value.trim() === "") {
-    var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500);
+    var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
+    elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); 
+  } 
+} 
+
+setInterval(timestamp, 500); 
+
 
 function recaptcha_callback() {
   jQuery('#contact_submit').removeAttr('disabled');
 }       
+
 
 jQuery(document).ready(function() {
 
