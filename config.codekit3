@@ -2956,12 +2956,6 @@
 		"oAP": "\/build\/page-specialty.php",
 		"oF": 1
 		},
-	"\/page-team.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/page-team.php",
-		"oF": 1
-		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3153,7 +3147,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 523220826
+	"lastBuiltDate": 523286873
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
