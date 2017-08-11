@@ -9,8 +9,8 @@
 			</p>
 			
 			<div class="header-buttons cf">
-				<a href="#contactUS" id="cta-border-green" class="m-all t-all d-2of5">Visit the home page ></a>
-				<a href="" id="cta-solid-white" class="m-all t-all d-2of5">Watch a video</a>
+				<a href="<?php echo site_url(); ?>" id="cta-border-green" class="m-all t-all d-2of5">Visit the home page ></a>
+				<a href="https://vimeo.com/resourcecre" id="cta-solid-white" class="m-all t-all d-2of5">Watch a video</a>
 			</div>
 		</div>
 	</div>

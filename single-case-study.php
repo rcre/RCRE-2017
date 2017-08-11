@@ -4,29 +4,13 @@
 */
 ?>
 
-<!-- 
-client-logo
-client-quick-facts
-date-completed
-downloadable-pdf
-1-challenge
-2-solution
-3-results
-numbers-to-rememeber
-header-image
-before-image
-after-image
-client-quote
-client-quote-person
-client-quote-title
--->
 <?php get_header(); ?>
 
 <div id="content">
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf m-padding" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+		<main id="main" class="cf m-padding" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -44,7 +28,7 @@ client-quote-title
 				<div class="quick-facts d-2of3 t-all m-all">
 					
 					<div class="case-study-icon left">
-						<?php echo types_render_field( "client-logo", array( "size" => "thumbnail" ));  ?>	
+						<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">	
 					</div>
 					<h3 class="right">Company Quick Facts</h3>
 					<p class="right"><?php echo types_render_field( "client-quick-facts", array( "separator" => " | ", 'raw' => true )); ?></p>
@@ -97,12 +81,16 @@ client-quote-title
 					<?php get_template_part('post-formats/author' , get_post_type() ); ?>
 				</aside>
 
-				<div class="client-quote m-all t-2of3 d-3of4 right"><i><?php echo types_render_field( "client-quote", array( 'before' => '<span>&ldquo;</span>', 'raw' => true)); ?></i>
-					<div class="client-quote-person">
-						<p><strong><?php echo types_render_field( "client-quote-person", array( 'raw' => true)); ?></strong></p>
-						<p><?php echo types_render_field( "client-quote-title", array( 'raw' => true)); ?>, <?php the_title(); ?></p>
+				<?php if ( types_render_field( "client-quote" ) != null ) { ?>
+					<div class="client-quote m-all t-2of3 d-3of4 right"><i><?php echo types_render_field( "client-quote", array( 'before' => '<span>&ldquo;</span>', 'raw' => true)); ?></i>
+						<div class="client-quote-person">
+							<p><strong><?php echo types_render_field( "client-quote-person", array( 'raw' => true)); ?></strong></p>
+							<p><?php echo types_render_field( "client-quote-title", array( 'raw' => true)); ?>, <?php the_title(); ?></p>
+						</div>
 					</div>
-				</div>
+				<?php } ?>
+
+				
 
 				<p class="d-all m-all t-all"><strong>Note:</strong> We have several professionals with substantial client transactional experience prior to joining RESOURCE Commercial, which is included above.</p>
 			</section>

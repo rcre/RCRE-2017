@@ -231,6 +231,12 @@
 		"oAP": "\/build\/archive.php",
 		"oF": 1
 		},
+	"\/BingSiteAuth.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/BingSiteAuth.xml",
+		"oF": 0
+		},
 	"\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -476,11 +482,11 @@
 		"opt": 1,
 		"q": 85
 		},
-	"\/library\/images\/client-logos\/case-studies-desktop.png": {
+	"\/library\/images\/client-logos\/client-logo-klc-realty.png": {
 		"ft": 32768,
 		"iS": 16792,
 		"oA": 0,
-		"oAP": "\/build\/library\/images\/client-logos\/case-studies-desktop.png",
+		"oAP": "\/build\/library\/images\/client-logos\/client-logo-klc-realty.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -552,6 +558,17 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 85
+		},
+	"\/library\/images\/client-logos\/sprites.png": {
+		"ft": 32768,
+		"iS": 32597,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/client-logos\/sprites.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/library\/images\/custom-post-icon.png": {
 		"ft": 32768,
@@ -2612,7 +2629,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/build\/library\/css\/style.css",
-		"oF": 0,
+		"oF": 2,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2956,6 +2973,18 @@
 		"oAP": "\/build\/page-specialty.php",
 		"oF": 1
 		},
+	"\/page-team.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/page-team.php",
+		"oF": 0
+		},
+	"\/page-wernke-team.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/page-wernke-team.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2991,6 +3020,18 @@
 		"oA": 2,
 		"oAP": "\/build\/post-formats\/content-employee.php",
 		"oF": 1
+		},
+	"\/post-formats\/content-listing-closed.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/post-formats\/content-listing-closed.php",
+		"oF": 0
+		},
+	"\/post-formats\/content-listing.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/post-formats\/content-listing.php",
+		"oF": 0
 		},
 	"\/post-formats\/content-post.php": {
 		"ft": 8192,
@@ -3147,7 +3188,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 523286873
+	"lastBuiltDate": 524152617
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

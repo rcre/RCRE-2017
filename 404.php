@@ -4,7 +4,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+		<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 			<article id="post-not-found" class="hentry cf">
 

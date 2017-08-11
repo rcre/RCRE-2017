@@ -10,7 +10,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf m-padding" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+		<main id="main" class="cf m-padding" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -110,10 +110,12 @@
 
 					<h3>History</h3>
 					<p><?php echo types_render_field( "profile-history", array( 'raw' => true) ); ?></p>
-
+				
+				<?php if ( types_render_field( "profile-personal" ) != null ) { ?>
 					<h3>Personal</h3>
 					<p><?php echo types_render_field( "profile-personal", array( 'raw' => true) ); ?></p>
-					
+				<?php } ?>
+
 				<?php if ( types_render_field( "profile-past-client" ) != null ) { ?>
 					<h3>Past Clients</h3>
 					<p><?php echo types_render_field( "profile-past-client", array( "separator" => " | ") ); ?></p>
@@ -126,7 +128,7 @@
 					
 					if ( $child_posts != null ) { ?>
 						
-						<h3>Case Studies</h3>
+						<h3>Relevant Experience</h3>
 							
 						<div class="grid">
 							
@@ -136,7 +138,7 @@
 									<a href="<?php echo esc_url( get_permalink( $child_post->ID ) ); ?>">
 									<?php // Grab the image to the case study ?>
 									<div class="case-study-icon">
-										<?php echo types_render_field( "client-logo", array( "id"=> "$child_post->ID", "size" => "thumbnail" ));  ?>	
+										<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">
 									</div>
 									</a>
 							<?php } wp_reset_postdata(); ?>

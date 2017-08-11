@@ -10,8 +10,8 @@
 				<p><?php echo types_render_field( "section-description", array( "id" => "$child_post->ID" )); ?>
 				</p>
 				
-				<?php if ( types_render_field( "button-link" ) != null ) { ?>
-					<a href="<?php echo types_render_field( "button-link", array( "id" => "$child_post->ID" )); ?>" class="cta-border-green"><?php echo $child_post->post_title; ?></a>
+				<?php if ( types_render_field( "button-link", array( "id" => "$child_post->ID" ) ) != null ) { ?>
+					<a href="<?php echo types_render_field( "button-link", array( "id" => "$child_post->ID" , 'raw' => true )); ?>" class="cta-border-green"><?php echo $child_post->post_title; ?></a>
 				<?php } ?>
 			</div>
 		</aside>

@@ -21,6 +21,13 @@
 				<?php echo types_render_field( "tagline", array( 'raw' => true)); ?>
 				</p>
 			</div>
-			<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( 'raw' => true)); ?>" alt="Download the PDF"></a>
+
+			<?php if ( types_render_field( "report-pdf" ) != null ) { ?>
+					<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( 'raw' => true)); ?>" alt="Download the PDF"></a>
+				<?php } ?>
+
+			<?php if ( types_render_field( "downloadable-pdf" ) != null ) { ?>
+					<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( 'raw' => true)); ?>" alt="Download the PDF"></a>
+				<?php } ?>
 		</div>
 	</div>

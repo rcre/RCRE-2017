@@ -5,7 +5,7 @@
 	<div class="pull-r-1of12 pull-l-1of12 cf">
 		<form id="contact-home" class="t-1of2 d-1of2 cf" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-		<input type=hidden name='captcha_settings' value='{"keyname":"rcre_website_2017","theme":"dark","fallback":"true","orgId":"00D15000000NClj","ts":""}'>
+		<input type=hidden name='captcha_settings' value='{"theme":"dark","fallback":"true","ts":""}'>
 		<input type=hidden name="oid" value="00D15000000NClj">
 		<input type=hidden name="retURL" value="<?php echo site_url().'/thank-you'; ?>">
 
@@ -50,6 +50,8 @@
 		</form>
 		
 	<?php 
+		// ***** This was disabled until I can get a search feature put together. *****
+
 		// <form id="footer-property-search" class="t-1of3 pull-r-1of12 d-1of3 cf" action="https://" method="POST">
 		// 	<h2>Find a Property</h2>
 		// 	<label for="search">Address or Area of Interest</label>

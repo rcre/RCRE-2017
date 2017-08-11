@@ -89,7 +89,6 @@ MODULE: SERVICE GRID
 			p {
 				display: none;
 				padding: 0 25px;
-				color: lighten($gray, 35%);
 				min-height: 85px;
 
 				@media only screen and (min-width: 481px) {
@@ -164,9 +163,8 @@ MODULE: LEARN MORE TABS
 	color: #fff;
 }
 
-
 /***********
-MODULE: Specialties
+MODULE: Specialty Overview
 ***********/
 
 #Specialties {
@@ -182,6 +180,56 @@ MODULE: Specialties
 		border-radius: 10px;
 		color: white;
 		font-weight: 800;
+	}
+}
+
+/***********
+MODULE: Listing Post format
+***********/
+
+.listing-box {
+	margin: 10px 10px 10px 0px;
+	border: 5px solid $lgray;
+	border-radius: 10px;
+	padding: 0px 0px;
+	text-align: left;
+	position: relative;
+	font-size: 0.8em;
+
+	&:hover {
+		border: 5px solid $blue;
+   		transition: 0.5s;
+	}
+
+	div.tag, a {
+		display: inline-block;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+
+	.listing-info {
+		padding: 5px 0px 0px 10px;
+	}
+
+	h4 {
+		font-size: 0.9em;
+	}
+}
+
+.listing-post-details {
+	vertical-align: bottom;
+	margin-bottom: 0px;
+
+	h4 {
+		font-size: 0.5em;
+	}
+}
+
+.listing-image {
+	
+	img {
+		width: 100px;
+		height: 100px;
 	}
 }
 

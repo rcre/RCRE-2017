@@ -10,7 +10,8 @@
 
 		<?php // force Internet Explorer to use the latest rendering engine available ?>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+		<meta name="msvalidate.01" content="DF45D5729702D2192315938E6E10F5DD" />
+		
 		<title>RESOURCE | <?php the_title(); ?></title>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
@@ -23,27 +24,27 @@
 		
 
 		<?php // Safari Pinned tab ?>
-		<link rel="mask-icon" href="library/images/website_icon_1.svg" color="#d2db3a">
+		<link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/website_icon_1.svg" color="#d2db3a">
 
 		<?php // icons & favicons ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-square-dark.png">
 		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
-		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/manifest.json">
+		<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="<?php echo get_template_directory_uri(); ?>/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/favicon-16x16.png">
+		<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/manifest.json">
 		<meta name="msapplication-TileColor" content="#75caca">
-		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/ms-icon-144x144.png">
 		<meta name="theme-color" content="#75caca">
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
@@ -53,7 +54,7 @@
 		<?php // Enriched Google Cards ?>
 		<script type="application/ld+json"> {
 			"@context":"http://schema.org",
-			"@type":"realEstateAgency",
+			"@type":"organization",
 			"url":"https://rcre.com/",
 			"sameAs":["https://www.facebook.com/RESOURCEcre/",
 					  "https://www.instagram.com/resourcecre/",
@@ -64,7 +65,7 @@
 					  "https://twitter.com/resourcecre"],
 		    "@id":"#organization",
 		    "name":"RESOURCE Commercial Real Estate",
-		    "logo":"http://RCRE.com/wp-content/uploads/2016/02/RESOURCE-Commercial-Real-Estate-logo-01-01.jpg",
+		    "logo":"http://rcre.com/wp-content/uploads/2016/02/RESOURCE-Commercial-Real-Estate-logo-01-01.jpg",
 			"address" : {
 				"@type": "PostalAddress",
 				"addressLocality": "Indianapolis", 
@@ -99,7 +100,7 @@
 
 				<div id="inner-header" class="cf">
 					<div id="logo" class="m-1of2 t-1of3 d-1of3">
-						<a href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
+						<a href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
 					</div>
 					
 					<div id="mobile-quick-nav" class="last-col">

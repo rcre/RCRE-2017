@@ -24,7 +24,7 @@
 
 	<div class="m-all t-2of3 d-4of5 cf">
 		<h2 class="header-dark header-link"><a href="<?php echo esc_url( get_permalink( $broker_id ) ); ?>"><?php echo $broker_name; ?></a></h2>
-		<h5><?php echo types_render_field( "role-title", array( 'post_id' => $broker_id, 'raw' => true ) ); ?></h5>
+		<h5><?php echo types_render_field( "profile-role-title", array( 'post_id' => $broker_id, 'raw' => true ) ); ?></h5>
 		<p><?php echo $broker_excerpt; ?></p>
 
 		

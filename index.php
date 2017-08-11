@@ -6,7 +6,7 @@
 
 				<div id="inner-content" class="cf">
 
-					<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+					<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 						<h1 class="archive-title h2"><?php post_type_archive_title(); ?></h1>
 							

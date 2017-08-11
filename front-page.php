@@ -4,23 +4,25 @@
 		
 	<?php // Bar that shows the past clients we have worked with ?>
 		<div class="our-clients cf">
-			<h2 class="text-center">We've worked with some of the best in the business.</h2>
 			<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/Coca-Cola.png" alt="Coca-Cola">
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/eli-lilly.png" alt="eli-lilly">
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/indiana-members.png" alt="indiana-members">
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/omnisource.png" alt="omnisource">
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/client-logos/PNC.png" alt="pnc">
+				<ul>
+					<li class="Coca-Cola"><span>Coca-Cola</span></li>
+					<li class="eli-lilly"><span>PNC Bank</span></li>
+					<li class="indiana-members"><span>Omnisource</span></li>
+					<li class="omnisource"><span>Hylant</span></li>
+					<li class="PNC"><span>Indiana Members</span></li>
+					<li class="progressive"><span>Lilly</span></li>
+				</ul>
 			</div>
 		</div>
 
 		<div id="inner-content" class="cf">
 
-			<main id="main" class="m-all t-all d-10of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+			<main id="main" class="m-all t-all d-10of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/WebPage">
 
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/LocalBusinessPosting">
 
 				
 				<section class="pad-top">

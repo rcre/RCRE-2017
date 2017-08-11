@@ -8,7 +8,7 @@
 			<p class="subtitle"><?php echo types_render_field( "tagline", array( 'raw' => true)); ?></p>
 			
 			<div class="header-buttons cf">
-				<a href="/#contactUS" id="cta-border-green" class="m-all t-all d-2of5">Contact Us</a>
+				<a href="/#contactUs" id="cta-border-green" class="m-all t-all d-2of5">Contact Us</a>
 				<a href="<?php echo site_url().'/search-properties'; ?>" id="cta-solid-white" class="m-all t-all d-2of5">Search Properties</a>
 			</div>
 		</div>
