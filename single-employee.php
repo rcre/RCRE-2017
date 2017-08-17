@@ -29,7 +29,7 @@
 	
 							<?php if ( has_term( '' , 'specialty') && has_term( '' , 'service') ) { ?>
 
-								// <div class="header-link"> <?php echo get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?></div> 
+								//&nbsp;<div class="header-link"> <?php echo get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?></div> 
 								
 							<?php } ?>
 							
@@ -65,7 +65,7 @@
 							<?php if ( types_render_field( "profile-cell-phone" ) != 0 ) { ?>
 
 								<div class="broker-cell-phone">
-									<a href="tel:<?php echo types_render_field( "profile-office-phone", array( 'raw' => false) ); ?>" role="telephone"><strong>Cell:</strong> <?php echo types_render_field( "profile-cell-phone", array( 'raw' => false) ); ?>
+									<a href="tel:<?php echo types_render_field( "profile-cell-phone", array( 'raw' => false) ); ?>" role="telephone"><strong>Cell:</strong> <?php echo types_render_field( "profile-cell-phone", array( 'raw' => false) ); ?>
 								</a>
 								</div>
 
@@ -138,7 +138,7 @@
 									<a href="<?php echo esc_url( get_permalink( $child_post->ID ) ); ?>">
 									<?php // Grab the image to the case study ?>
 									<div class="case-study-icon">
-										<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">
+										<img src="<?php echo types_render_field( "client-logo", array( "raw" => true, "id" => "$child_post->ID" ) ); ?>" alt="Client Logo">
 									</div>
 									</a>
 							<?php } wp_reset_postdata(); ?>

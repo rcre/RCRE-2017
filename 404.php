@@ -9,8 +9,8 @@
 			<article id="post-not-found" class="hentry cf">
 
 				<section class="topic search">
-
-						<p><?php get_search_form(); ?></p>
+				
+						<p><?php // get_search_form(); ?></p>
 
 				</section>
 

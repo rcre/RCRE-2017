@@ -164,6 +164,28 @@ and it will create a button dependant on those variables.
   } // end active
 }
 
+.cta-underline-gray {
+  text-decoration: none;
+  padding-bottom: 3px;
+  color: lighten($gray, 15%);
+  background-color: none;
+  border: none;
+  border-bottom: 1px solid lighten($gray, 15%);
+  font-weight: 600;
+  
+  &:hover,
+  &:focus {
+    color: lighten($gray, 20%);
+    border-bottom-color: lighten($gray, 20%);
+    transition: 0.5s;
+  } // end hover
+
+  &:active {
+    color: darken($gray, 20%);
+    border-bottom-color: darken($gray, 20%);
+  } // end active
+}
+
 #cta-underline-white {
   text-decoration: none;
   padding-bottom: 3px;

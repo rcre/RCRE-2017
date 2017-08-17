@@ -27,7 +27,7 @@
 						<p><?php echo(types_render_field( "listing-description", array( 'raw' => true) )); ?></p>
 
 						<?php if ( types_render_field( "listing-features" ) != null ) { ?>
-							<h2 class="header-dark">Property Details</h2>
+							<h2 class="header-dark">Property Features</h2>
 
 							<ul><?php echo(types_render_field( "listing-features", array( 'raw' => false ) )); ?></ul>
 						<?php } ?>
@@ -51,16 +51,13 @@
 				<h3 class="pad-top">Property Pictures</h3>
 
 				<img class="m-1of2 t-1of2 d-1of2" src="<?php echo(types_render_field( "main-property-picture", array( 'raw' => true) )); ?>" alt="<?php echo(types_render_field( "address", array( 'raw' => true) )); ?>">
-			
-				<?php // Brokers who are on the listing ?>
-					<?php // Call Parent Post (Can I have more than one Parent post?) ?>
 				</div>
 			</section>
 
 			<section class="topic cf">
 				<div class="pull-l-1of12 pull-r-1of12 pad-top cf">
 				<h3>Listing Broker</h3>
-					<?php get_template_part('post-formats/author-single' ) ?>
+					<?php get_template_part('post-formats/author-single' ); ?>
 				</div>
 			</section>
 

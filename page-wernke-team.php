@@ -62,7 +62,7 @@
 							    array(
 							        'taxonomy' => 'listing-type',
 							        'field' => 'slug',
-							        'terms' => 'pending',
+							        'terms' => 'under-contract',
 			    				)
 							)
 						); ?>

@@ -49,7 +49,11 @@
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<![endif]-->
-		
+
+		<!-- Snazzy Maps stuff -->
+		<link rel="stylesheet" href="../bower_components/snazzy-info-window/dist/snazzy-info-window.min.css">
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVyvyZSwaa7p6T0z0eIYDLeSb2YNauVs8"></script>
+		<script src="../bower_components/snazzy-info-window/dist/snazzy-info-window.min.js"></script>
 
 		<?php // Enriched Google Cards ?>
 		<script type="application/ld+json"> {

@@ -237,6 +237,106 @@
 		"oAP": "\/build\/BingSiteAuth.xml",
 		"oF": 0
 		},
+	"\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/build\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/snazzy-info-window\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/snazzy-info-window\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/_settings.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css.map",
+		"oF": 0
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js.map",
+		"oF": 0
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -1938,11 +2038,23 @@
 		"oAP": "\/build\/library\/partials\/sectionCaseStudy.php",
 		"oF": 1
 		},
+	"\/library\/partials\/sectionContact-Industrial.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/library\/partials\/sectionContact-Industrial.php",
+		"oF": 0
+		},
 	"\/library\/partials\/sectionContact.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/library\/partials\/sectionContact.php",
 		"oF": 1
+		},
+	"\/library\/partials\/sectionListingMap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/library\/partials\/sectionListingMap.php",
+		"oF": 0
 		},
 	"\/library\/partials\/sectionMailChimp.php": {
 		"ft": 8192,
@@ -3188,7 +3300,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 524152617
+	"lastBuiltDate": 524524442
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
