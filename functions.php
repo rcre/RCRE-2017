@@ -318,4 +318,31 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+
+
+/************* SORT LISTINGS BY DATE *********************/
+
+// adding some code to adjust the view queries from Types/Views
+//   - specifically we needed today's date
+ 
+add_filter('wpv_filter_query', 'my_custom_query', 12, 2);
+// 12 to make sure it occurs after the custom field filter.
+ 
+// this function is to put in today's date - when a string of "today" is passed
+//  note:  we also use GMT since time is stored that way in db
+function my_custom_query($query, $view_settings) {
+ 
+    if (is_array($query['meta_query'])) {
+        foreach($query['meta_query'] as $i => $meta_query) {
+            if ($meta_query['key'] == 'wpcf-date') {
+                if ($meta_query['value'] == 'today') {
+                    $meta_query['value'] = strtotime("today GMT");
+                    $query['meta_query'][$i] = $meta_query;
+                }
+            }
+        }
+    }
+ 
+    return $query;
+} ?>
 /* DON'T DELETE THIS CLOSING TAG */ ?>

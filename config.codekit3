@@ -3079,6 +3079,12 @@
 		"oAP": "\/build\/page-service.php",
 		"oF": 1
 		},
+	"\/page-specialty-no-case-studies.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/page-specialty-no-case-studies.php",
+		"oF": 0
+		},
 	"\/page-specialty.php": {
 		"ft": 8192,
 		"oA": 2,
