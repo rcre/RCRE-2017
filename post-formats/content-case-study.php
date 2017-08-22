@@ -6,3 +6,5 @@
 		<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">	
 	</div>
 	</a>
+
+<?php // I removed: "id"=> "$child_post->ID", from the client logo array, becuase it was calling a child and than was ?>

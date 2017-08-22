@@ -80,123 +80,31 @@
 				 	<section class="pull-r-1of12 pull-l-1of12 m-padding cf">
 						
 						<h3>Closed</h3>
-
-					<!-- Closed 2017 -->
 						<div class="cf">
-							
-							<?php 
-								$args = array(
-									'post_type' => 'listing',
-									'post_status' => 'publish',
-									'posts_per_page' => 25,
-									'meta_key'=>'wpcf-closed-date', 
-									'orderby' => 'meta_value', 
-									'order'=>'DESC'
-									'tax_query' => array(
-									    array(
-									        'taxonomy' => 'listing-type',
-									        'field' => 'slug',
-									        'terms' => 'closed',
-					    				)
-									)
-								); ?>
-							
-								<?php $closed_listings = new WP_Query( $args ); 
-										
-									while ( $closed_listings ->have_posts() ) : $closed_listings ->the_post(); ?>
-										
-										<?php get_template_part( 'post-formats/content-listing-closed' ); ?>
-										
-									<?php endwhile;  wp_reset_postdata(); ?>
-						</div>
-	
-
-					<!-- Closed 2016 -->
-						<div class="cf">
-							
-							<?php 
-								$args = array(
-									'post_type' => 'listing',
-									'post_status' => 'publish',
-									'posts_per_page' => 25,
-									'order' => 'ASC',
-									'tax_query' => array(
-									    array(
-									        'taxonomy' => 'listing-type',
-									        'field' => 'slug',
-									        'terms' => 'closed',
-					    				)
-									)
-								); ?>
-							
-								<?php $closed_listings = new WP_Query( $args ); 
-										
-									while ( $closed_listings ->have_posts() ) : $closed_listings ->the_post(); ?>
-										
-										<?php get_template_part( 'post-formats/content-listing-closed' ); ?>
-										
-									<?php endwhile;  wp_reset_postdata(); ?>
-						</div>
-
-					<!-- Closed 2015 -->
-						<div class="cf">
-							
-							<?php 
-								$args = array(
-									'post_type' => 'listing',
-									'post_status' => 'publish',
-									'posts_per_page' => 25,
-									'meta_key'=>'wpcf-closed-date', 
-									'orderby' => 'meta_value', 
-									'order'=>'DESC',
-									'tax_query' => array(
-									    array(
-									        'taxonomy' => 'listing-type',
-									        'field' => 'slug',
-									        'terms' => 'closed',
-					    				)
-									)
-								); ?>
-							
-								<?php $closed_listings = new WP_Query( $args ); 
-										
-									while ( $closed_listings ->have_posts() ) : $closed_listings ->the_post(); ?>
-										
-										<?php get_template_part( 'post-formats/content-listing-closed' ); ?>
-										
-									<?php endwhile;  wp_reset_postdata(); ?>
-						</div>
 					
-					<!-- Closed 2014 -->
-						
-						<div class="cf">
-							
-							<?php 
-								$args = array(
-									'post_type' => 'listing',
-									'post_status' => 'publish',
-									'posts_per_page' => 25,
-									'meta_key'=>'wpcf-closed-date', 
-									'orderby' => 'meta_value', 
-									'order'=>'DESC',
-									'tax_query' => array(
-									    array(
-									        'taxonomy' => 'listing-type',
-									        'field' => 'slug',
-									        'terms' => 'closed',
-					    				)
-									)
-								); ?>
-							
-								<?php $closed_listings = new WP_Query( $args ); 
-										
-									while ( $closed_listings ->have_posts() ) : $closed_listings ->the_post(); ?>
-										
-										<?php get_template_part( 'post-formats/content-listing-closed' ); ?>
-										
-									<?php endwhile;  wp_reset_postdata(); ?>
+					<?php 
+						$args = array(
+							'post_type' => 'listing',
+							'post_status' => 'publish',
+							'posts_per_page' => 25,
+							'order' => 'ASC',
+							'tax_query' => array(
+							    array(
+							        'taxonomy' => 'listing-type',
+							        'field' => 'slug',
+							        'terms' => 'closed',
+			    				)
+							)
+						); ?>
+					
+						<?php $closed_listings = new WP_Query( $args ); 
+								
+							while ( $closed_listings ->have_posts() ) : $closed_listings ->the_post(); ?>
+								
+								<?php get_template_part( 'post-formats/content-listing-closed' ); ?>
+								
+							<?php endwhile;  wp_reset_postdata(); ?>
 						</div>
-
 				 	</section>
 				
 			</article>
@@ -206,36 +114,12 @@
 			<footer class="cf">
 				<?php get_template_part('library/partials/sectionContact'); ?>
 			</footer>
-		</main>		
+		</main>
+
+		
+				
+				
 	</div>
 </div>
 
 <?php get_footer(); ?>
-
-
-
-
-<?php 
-
-
-
-for each $years as $year
-	Display “Closed $year”
-	for each $years-properties as $year-pro
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ?>
