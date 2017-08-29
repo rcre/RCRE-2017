@@ -10,7 +10,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf m-padding" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" class="cf m-padding" role="main" itemprop="employee" itemscope itemtype="http://schema.org/Person">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -20,11 +20,11 @@
 				<header class="profile-header m-all t-all d-all cf">
 						<a class="back-button" href="<?php echo site_url().'/about/team'; ?>"><h5>&larr;Back to Team</h5></a>
 					<!-- Broker's Name is the Title -->
-						<h1 class="header-dark"><?php the_title(); ?>
+						<h1 itemprop="name" class="header-dark"><?php the_title(); ?>
 						</h1>
 
 					<!-- PHP Get the Broker's Title and Industry-->
-						<div class=>
+						<div itemprop="jobTitle">
 							<?php echo types_render_field( "profile-title", array( 'raw' => false) ); ?> 
 	
 							<?php if ( has_term( '' , 'specialty') && has_term( '' , 'service') ) { ?>
@@ -44,7 +44,7 @@
 					<div class="m-1of2 t-all d-all">
 				
 						<!-- Profile Picture -->
-						<img class="broker-profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'raw' => true)); ?>" alt=" <?php the_title(); ?><?php get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?> ">
+						<img  class="broker-profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'raw' => true)); ?>" itemprop="image" alt=" <?php the_title(); ?><?php get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?> ">
 
 						<!-- BUTTON: Contact -> PHP Link to Broker's Email -->
 						<a id="cta-border-green" class="green" href="mailto:<?php echo(types_render_field( "broker-email-address", array( 'raw' => true) )); ?>">Contact</a>
@@ -55,10 +55,10 @@
 					<div class="profile-info m-1of2 t-all d-all">
 						
 							<!-- Contact information -->
-							<div class="header-link email"><?php echo types_render_field( "profile-email-address", array( 'raw' => false) ); ?></div>
+							<div itemprop="email" class="header-link email"><?php echo types_render_field( "profile-email-address", array( 'raw' => false) ); ?></div>
 							
 							<div class="broker-office-phone">
-								<a href="tel:<?php echo types_render_field( "profile-office-phone", array( 'raw' => false) ); ?>" role="telephone"><strong>Phone:</strong> <?php echo types_render_field( "profile-office-phone", array( 'raw' => false) ); ?>
+								<a href="tel:<?php echo types_render_field( "profile-office-phone", array( 'raw' => false) ); ?>" role="telephone"><strong>Phone:</strong> <span itemprop="telephone"><?php echo types_render_field( "profile-office-phone", array( 'raw' => false) ); ?></span>
 								</a>
 							</div>
 							

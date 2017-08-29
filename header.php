@@ -50,25 +50,25 @@
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<![endif]-->
 
-		<!-- Snazzy Maps stuff -->
-		<link rel="stylesheet" href="../bower_components/snazzy-info-window/dist/snazzy-info-window.min.css">
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVyvyZSwaa7p6T0z0eIYDLeSb2YNauVs8"></script>
-		<script src="../bower_components/snazzy-info-window/dist/snazzy-info-window.min.js"></script>
-
 		<?php // Enriched Google Cards ?>
 		<script type="application/ld+json"> {
 			"@context":"http://schema.org",
 			"@type":"organization",
+			"name":"RESOURCE Commercial Real Estate",
 			"url":"https://rcre.com/",
+			"contactPoint": {
+			    "@type": "ContactPoint",
+			    "telephone": "+1-317-663-6000",
+			    "contactType": "Customer service"
+			  }
 			"sameAs":["https://www.facebook.com/RESOURCEcre/",
 					  "https://www.instagram.com/resourcecre/",
 					  "https://www.linkedin.com/company/resource-commercial-real-estate",
 					  "https://plus.google.com/u/0/b/104233585404626040656/+ResourceCommercialRealEstateIndianapolis",
 					  "https://www.youtube.com/channel/UCpdLW5fmfNOKV4JYr2-0-w",
 					  "https://www.pinterest.com/resourcecre",
+					  "https://vimeo.com/resourcecre",
 					  "https://twitter.com/resourcecre"],
-		    "@id":"#organization",
-		    "name":"RESOURCE Commercial Real Estate",
 		    "logo":"http://rcre.com/wp-content/uploads/2016/02/RESOURCE-Commercial-Real-Estate-logo-01-01.jpg",
 			"address" : {
 				"@type": "PostalAddress",
@@ -76,13 +76,10 @@
 				"addressRegion": "IN", 
 				"postalCode": "46240", 
 				"streetAddress": "9339 Priority Way West Drive" },
+			"department"
 			"email":"info@rcre.com",
 			"telephone":"3176636000",
-			"openingHours": [ 
-				"Mo-Fri 8:00-17:00"],
-			"Headquarters":"Indianapolis",
-			"President":"Kevin H. Adams",
-			"Founded":"2005"
+			"foundingDate":"2005"
 		}
 
 		</script>
@@ -104,13 +101,13 @@
 
 				<div id="inner-header" class="cf">
 					<div id="logo" class="m-1of2 t-1of3 d-1of3">
-						<a href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
+						<a itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
 					</div>
 					
 					<div id="mobile-quick-nav" class="last-col">
 					<!-- Call Button -->
 						<div class="m-1of3 t-1of3 d-1of3">
-							<a  href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
+							<a itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
 						</div>
 					<!-- Search Button -->
 						<!-- <div class="m-1of3 t-1of3 d-1of3">

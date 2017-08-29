@@ -10,7 +10,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" class="cf" role="main" itemscope itemtype="http://schema.org/Product">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -24,7 +24,7 @@
 							<h2>Property Description</h2>
 						<?php } ?>
 
-						<p><?php echo(types_render_field( "listing-description", array( 'raw' => true) )); ?></p>
+						<p itemprop="description"><?php echo(types_render_field( "listing-description", array( 'raw' => true) )); ?></p>
 
 						<?php if ( types_render_field( "listing-features" ) != null ) { ?>
 							<h2 class="header-dark">Property Features</h2>
@@ -50,13 +50,13 @@
 
 				<h3 class="pad-top">Property Pictures</h3>
 
-				<img class="m-1of2 t-1of2 d-1of2" src="<?php echo(types_render_field( "main-property-picture", array( 'raw' => true) )); ?>" alt="<?php echo(types_render_field( "address", array( 'raw' => true) )); ?>">
+				<img class="m-1of2 t-1of2 d-1of2" src="<?php echo(types_render_field( "main-property-picture", array( 'raw' => true) )); ?>" itemprop="image" alt="<?php echo(types_render_field( "address", array( 'raw' => true) )); ?>">
 				</div>
 			</section>
 
 			<section class="topic cf">
 				<div class="pull-l-1of12 pull-r-1of12 pad-top cf">
-				<h3>Listing Broker</h3>
+				<h3>Broker</h3>
 					<?php get_template_part('post-formats/author-single' ); ?>
 				</div>
 			</section>

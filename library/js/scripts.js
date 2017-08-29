@@ -184,6 +184,40 @@ function recaptcha_callback() {
 }       
 
 
+/*************************
+ * Contact Form
+**************************/
+
+$(document).ready(function() {
+  var contactForm = $("#contact-home");
+  //We set our own custom submit function
+  contactForm.on("submit", function(e) {
+    //Prevent the default behavior of a form
+    e.preventDefault();
+    //Get the values from the form
+    var first_name = $("#first_name").val();
+    var last_name = $("#last_name").val();
+    var email = $("#email").val();
+    var description = $("#description").val();
+    var phone = $("#phone").val();
+    //Our AJAX POST
+    $.ajax({
+      type: "POST",
+      url: "mail.php",
+      data: {
+        name: name,
+        email: email,
+        message: message,
+        //THIS WILL TELL THE FORM IF THE USER IS CAPTCHA VERIFIED.
+        captcha: grecaptcha.getResponse()
+      },
+      success: function() {
+        console.log("OUR FORM SUBMITTED CORRECTLY");
+      }
+    });
+  });
+});
+
 jQuery(document).ready(function() {
 
   serviceTabs();

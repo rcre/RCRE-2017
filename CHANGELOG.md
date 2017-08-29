@@ -7,6 +7,15 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.04 */
+-Add PHP server side verification for the Contact form
+-Added Clearbit Script for User visiting tracking w/ Google Analytics
+-Removed Snazzy Maps (will be added in version 2.0)
+-Fixed and added some of the JSON for structured data
+-Fixed labels for schema on individual pages
+-Added Social Media in the footer
+-Created a page for the Marketing Team
+
 /* 1.03 */
 -comment out search form (For now)
 -Added Snazzy Maps Bower components

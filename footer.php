@@ -16,12 +16,25 @@
 						)); ?>
 					</nav>
 					
-					<div class="address">
-						<p class="source-org copyright">&copy; <?php echo date('Y'); ?> RESOURCE Commercial Real Estate</p>
-						<p class="source-org copyright">9339 West Priority Way Drive, Suite 120</p>
-						<p class="source-org copyright">Indianapolis, IN, 46240</p>
+
+					<div itemscope itemtype="http://schema.org/PostalAddress" class="address">
+						<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <span itemprop="name">RESOURCE Commercial Real Estate</span></p>
+						<p itemprop="streetAddress" class="source-org copyright">
+							<span itemprop="streetAddress">9339 West Priority Way Drive, Suite 120</span><br>
+      						<span itemprop="addressLocality">Indianapolis,</span>,
+      						<span itemprop="addressRegion">IN,</span>
+      						<span itemprop="postalCode">46240</span>
+						</p>
 					</div>
-					
+
+					<div itemscope itemtype="http://schema.org/Organization" class="social m-all">
+						<link itemprop="url" href="https://rcre.com">
+						<a itemprop="sameAs" href="https://www.facebook.com/RESOURCEcre/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a itemprop="sameAs" href="https://www.instagram.com/resourcecre/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a itemprop="sameAs" href="https://twitter.com/resourcecre"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a itemprop="sameAs" href="https://www.linkedin.com/company/resource-commercial-real-estate"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a itemprop="sameAs" href="https://vimeo.com/resourcecre"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+					</div>
 				</div>
 			</footer>
 
@@ -37,9 +50,27 @@
 
 		  ga('create', 'UA-74181107-1', 'auto');
 		  ga('send', 'pageview');
-
 		</script>
 		
+		<script>
+		  ga('require', 'Clearbit', {
+		    mapping: {
+		      companyName:           'dimension1',
+		      companyEmployeesRange: 'dimension2',
+		      companyTags:           'dimension3',
+		      companyTech:           'dimension4',
+		      companySubIndustry:    'dimension5',
+		      companyIndustry:       'dimension6',
+		      companyIndustryGroup:  'dimension7',
+		      companySector:         'dimension8',
+		      companyType:           'dimension9',
+		      companyDomain:         'dimension10'
+		    }
+		  });
+		</script>
+
+		<script async src="https://ga.clearbit.com/v1/ga.js?authorization=pk_a2a28d2ae8d00ce6a7ed4150c794ad70"></script>
+
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
 	</body>

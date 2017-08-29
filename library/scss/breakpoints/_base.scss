@@ -269,6 +269,10 @@ footer {
 	clear: both;
 	background-color: $dgray;
 	color: $lgray;
+
+	.social {
+		display: inline-block;
+	}
 }
 
 .footer-links {

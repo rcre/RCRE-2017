@@ -1,4 +1,4 @@
-<section id="authorSingle" class="m-all t-all d-all">
+<section id="authorSingle" class="m-all t-all d-all" itemprop="author" itemscope itemtype="http://schema.org/Person">
 <!-- PHP: Get the Broker's Picture URL and Industry Name-->
 	<?php 
 		// Get the ID of the parent post, which belongs to the "Employee" post type
@@ -14,20 +14,16 @@
 		?>
 
 	<div class="m-1of2 t-1of3 d-1of5">
-		<!-- Profile Picture -->
-		<img class="broker-profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>" alt="<?php echo $broker_name; ?>">
-		<a id="cta-border-green" class="green" href="mailto:<?php echo types_render_field( "profile-email-address", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>">Contact</a>
-
-		<!-- BUTTON: Contact -> PHP Link to Broker's Email -->
+		<img class="broker-profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>" itemprop="image" alt="<?php echo $broker_name; ?>">
 		
+		<a id="cta-border-green" class="green" href="mailto:<?php echo types_render_field( "profile-email-address", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>">Contact</a>
 	</div> 
 
 	<div class="m-all t-2of3 d-4of5 cf">
-		<h2 class="header-dark header-link"><a href="<?php echo esc_url( get_permalink( $broker_id ) ); ?>"><?php echo $broker_name; ?></a></h2>
+		<h2 class="header-dark header-link"><a href="<?php echo esc_url( get_permalink( $broker_id ) ); ?>"><span itemprop="name"><?php echo $broker_name; ?></span></a></h2>
 		<h5><?php echo types_render_field( "profile-role-title", array( 'post_id' => $broker_id, 'raw' => true ) ); ?></h5>
-		<p><?php echo $broker_excerpt; ?></p>
-
 		
+		<p itempop="description"><?php echo $broker_excerpt; ?></p>
 
 		<div class="tag gray">
 			<?php echo get_the_term_list( $broker_id, 'service', '', '', ''); ?>

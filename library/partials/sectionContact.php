@@ -2,12 +2,18 @@
 
 <section id="contactUs" class="m-padding proposal-contact cf">
 	<!-- Contact Form -->
-	<div class="pull-r-1of12 pull-l-1of12 cf">
-		<form id="contact-home" class="t-1of2 d-1of2 cf" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-		<input type=hidden name='captcha_settings' value='{"theme":"dark","fallback":"true","ts":""}'>
+	<?php 
+		$salesforce = "https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8";
+		$destination = site_url().'/thank-you';
+		$siteKey = "6LcbpyQUAAAAAKAjUdQypF-uVsjGbdR7VLD09QiK";
+	 ?>
+
+	<div class="pull-r-1of12 pull-l-1of12 cf">
+		<form id="contact-home" class="t-1of2 d-1of2 cf" action="<?php echo $salesforce; ?>" method="POST">
+
 		<input type=hidden name="oid" value="00D15000000NClj">
-		<input type=hidden name="retURL" value="<?php echo site_url().'/thank-you'; ?>">
+		<input type=hidden name="retURL" value="<?php echo $destination; ?>">
 
 		<h2>Let's Get Started!</h2>
 			<div class="m-all t-1of2 d-1of2">
@@ -24,41 +30,25 @@
 			</div>
 			<div class="m-all t-1of2 d-1of2 last-col">
 				<label for="phone">Phone</label>
-				<input  id="phone" name="phone" tabindex="4" type="tel" />
+				<input id="phone" name="phone" tabindex="4" type="tel" />
 			</div>
-			<div class="m-all t-all d-all">
-				<label for="company">Company</label>
-				<input  id="company" name="company" tabindex="5" type="text" />
-			</div>
-			
-			<select id="lead_source" name="lead_source">
-			<option value="Web"></option>
-			</select>
-	
 
 			<div class="m-all t-all d-all">
 				<label for="description">How Can We Help?</label>
-				<textarea name="description" tabindex="6"></textarea>
+				<textarea id="description" name="description" tabindex="6"></textarea>
 			</div>
-			
+
+			<input type="hidden" name="lead_source" value="Web">
+			<input type="hidden" id="00N1500000ImKf9" maxlength="255" name="00N1500000ImKf9" size="20" type="text" value="<?php echo get_the_title(); ?>" /><br>
+
 			<div class="m-all t-all d-all">
-				<div class="g-recaptcha" data-sitekey="6LcbpyQUAAAAAKAjUdQypF-uVsjGbdR7VLD09QiK" data-callback="recaptcha_callback"></div>
+				<div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>" data-callback="recaptcha_callback"></div>
+				<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=<?php echo $lang;?>"></script>
 			</div>
 
 			<input id="contact_submit" disabled="disabled" class="g-recaptcha cta-border-green" type="submit" name="submit" value="Let's Get Things Done!">
 			
 		</form>
-		
-	<?php 
-		// ***** This was disabled until I can get a search feature put together. *****
-
-		// <form id="footer-property-search" class="t-1of3 pull-r-1of12 d-1of3 cf" action="https://" method="POST">
-		// 	<h2>Find a Property</h2>
-		// 	<label for="search">Address or Area of Interest</label>
-		// 	<input name="search" type="text" tabindex="7"/>
-		// 	<input id="cta-border-green" type="submit" name="submit" value="Search Properties">
-		// </form>
-	?>
 		
 	</div>
 </section>

@@ -7,7 +7,7 @@
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/.gitattributes": {
 		"ft": 8192,
@@ -286,6 +286,7 @@
 		},
 	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.js",
@@ -311,6 +312,7 @@
 		},
 	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/build\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js",
@@ -841,31 +843,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Industrial-Building.svg": {
+	"\/library\/images\/icons\/icon-industrial-building.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Building.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-industrial-building.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Industrial-Forklift.svg": {
+	"\/library\/images\/icons\/icon-industrial-forklift.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Forklift.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-industrial-forklift.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Industrial-Hardhat.svg": {
+	"\/library\/images\/icons\/icon-industrial-hardhat.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Hardhat.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-industrial-hardhat.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -881,21 +883,21 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Industrial-Map.svg": {
+	"\/library\/images\/icons\/icon-industrial-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Map.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-industrial-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Industrial-Truck.svg": {
+	"\/library\/images\/icons\/icon-industrial-truck.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Industrial-Truck.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-industrial-truck.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -921,31 +923,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Investments-Graph.svg": {
+	"\/library\/images\/icons\/icon-investments-graph.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Investments-Graph.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-investments-graph.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Land-Escavator.svg": {
+	"\/library\/images\/icons\/icon-land-escavator.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Land-Escavator.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-land-escavator.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Land-Surveyor.svg": {
+	"\/library\/images\/icons\/icon-land-surveyor.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Land-Surveyor.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-land-surveyor.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -961,11 +963,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Land-Trees.svg": {
+	"\/library\/images\/icons\/icon-land-trees.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Land-Trees.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-land-trees.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1001,31 +1003,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Office-Corporate.svg": {
+	"\/library\/images\/icons\/icon-office-corporate.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Office-Corporate.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-office-corporate.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Office-Education.svg": {
+	"\/library\/images\/icons\/icon-office-education.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Office-Education.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-office-education.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Office-Government.svg": {
+	"\/library\/images\/icons\/icon-office-government.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Office-Government.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-office-government.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1101,71 +1103,71 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-RESOURCE-logo-lines.svg": {
+	"\/library\/images\/icons\/icon-resource-logo-lines.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-RESOURCE-logo-lines.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-resource-logo-lines.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Retail-Building.svg": {
+	"\/library\/images\/icons\/icon-retail-Building.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Retail-Building.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-retail-Building.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Retail-CreditCard.svg": {
+	"\/library\/images\/icons\/icon-retail-CreditCard.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Retail-CreditCard.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-retail-CreditCard.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Retail-Dining.svg": {
+	"\/library\/images\/icons\/icon-retail-Dining.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Retail-Dining.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-retail-Dining.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Retail-Grocery.svg": {
+	"\/library\/images\/icons\/icon-retail-Grocery.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Retail-Grocery.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-retail-Grocery.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Retail-InvestmentsArrows.svg": {
+	"\/library\/images\/icons\/icon-retail-investmentsArrows.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Retail-InvestmentsArrows.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-retail-investmentsArrows.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-Retail-Merchandise.svg": {
+	"\/library\/images\/icons\/icon-retail-Merchandise.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/library\/images\/icons\/icon-Retail-Merchandise.svg",
+		"oAP": "\/build\/library\/images\/icons\/icon-retail-Merchandise.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1977,6 +1979,7 @@
 		},
 	"\/library\/js\/libs\/modernizr.custom.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/library\/js\/libs\/min\/modernizr.custom.min-min.js",
@@ -1986,6 +1989,7 @@
 		},
 	"\/library\/js\/min\/scripts-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/library\/js\/min\/min\/scripts-min-min.js",
@@ -1995,6 +1999,7 @@
 		},
 	"\/library\/js\/scripts.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/library\/js\/min\/scripts-min.js",
@@ -2032,17 +2037,17 @@
 		"oAP": "\/build\/library\/partials\/header-post.php",
 		"oF": 1
 		},
+	"\/library\/partials\/mail.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/library\/partials\/mail.php",
+		"oF": 0
+		},
 	"\/library\/partials\/sectionCaseStudy.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/library\/partials\/sectionCaseStudy.php",
 		"oF": 1
-		},
-	"\/library\/partials\/sectionContact-Industrial.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/library\/partials\/sectionContact-Industrial.php",
-		"oF": 0
 		},
 	"\/library\/partials\/sectionContact.php": {
 		"ft": 8192,
@@ -3067,6 +3072,12 @@
 		"oAP": "\/build\/page-case-studies.php",
 		"oF": 0
 		},
+	"\/page-marketing.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/page-marketing.php",
+		"oF": 0
+		},
 	"\/page-research.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3704,6 +3715,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -3711,6 +3726,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -3808,6 +3827,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -3827,6 +3850,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -3955,6 +3982,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -4500,6 +4531,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -4568,6 +4603,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -4607,6 +4646,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -5240,6 +5283,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

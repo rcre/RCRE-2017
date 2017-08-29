@@ -26,7 +26,7 @@
 
 			<div class="callout cf">
 				
-				<h1 class="header-dark"><?php the_title(); ?></h1>
+				<h1 itemprop="name" class="header-dark"><?php the_title(); ?></h1>
 				<a id="cta-underline-gray" class="h5" href="<?php echo(types_render_field( "google-maps-url", array( 'raw' => true) )); ?>" ><?php echo(types_render_field( "address", array( 'raw' => true) )); ?></a>
 			</div>
 
@@ -35,7 +35,8 @@
 						<div class="d-1of2 t-1of2 m-1of2">
 							<?php if ( types_render_field( "square-footage" ) != null ) { ?>
 								<h4>Square Footage</h4>
-								<?php echo types_render_field( "square-footage", array( 'raw' => true) ); ?>
+
+								<span ></span><?php echo types_render_field( "square-footage", array( 'raw' => true) ); ?>
 							<?php } ?>
 						</div>
 					<?php } ?>
@@ -44,15 +45,16 @@
 						<div class="d-1of2 t-1of2 m-1of2">
 							<?php if ( types_render_field( "units" ) != null ) { ?>
 								<h4>Units</h4>
-								<?php echo types_render_field( "units", array( 'raw' => true) ); ?>
+								<span itemprop="units"></span><?php echo types_render_field( "units", array( 'raw' => true) ); ?>
 							<?php } ?>
 						</div>
 					<?php } ?>
 
-					<div class="d-1of2 t-1of2 m-1of2">
+					<div class="d-1of2 t-1of2 m-1of2" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 						<?php if ( types_render_field( "lease-rate" ) != null ) { ?>
 							<h4>Lease Price</h4>
-							<?php echo types_render_field( "lease-rate", array( 'raw' => true) ); ?>
+							<meta itemprop="priceCurrency" content="USD" />
+							<span itemprop="price"></span><?php echo types_render_field( "lease-rate", array( 'raw' => true) ); ?>
 						<?php } ?>
 					</div>
 			</div>
