@@ -27,204 +27,6 @@
 		"oAP": "\/build\/404.php",
 		"oF": 1
 		},
-	"\/android-icon-144x144.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/android-icon-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/android-icon-192x192.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/android-icon-192x192.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/android-icon-36x36.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/android-icon-36x36.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/android-icon-48x48.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/android-icon-48x48.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/android-icon-72x72.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/android-icon-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/android-icon-96x96.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/android-icon-96x96.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-114x114.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-114x114.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-120x120.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-120x120.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-144x144.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-152x152.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-152x152.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-180x180.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-180x180.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-57x57.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-57x57.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-60x60.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-60x60.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-72x72.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-76x76.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-76x76.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon-precomposed.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon-precomposed.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-icon.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/apple-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 3959,
-		"oA": 0,
-		"oAP": "\/build\/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/archive.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1293,6 +1095,193 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/library\/images\/logos\/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/android-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/android-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/android-icon-36x36.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/android-icon-48x48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/android-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/android-icon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/apple-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/library\/images\/logos\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 8439,
@@ -1355,6 +1344,50 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 85
+		},
+	"\/library\/images\/logos\/ms-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/ms-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/ms-icon-150x150.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/ms-icon-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/ms-icon-310x310.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/ms-icon-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/ms-icon-70x70.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/library\/images\/logos\/ms-icon-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/library\/images\/logos\/win8-tile-icon.png": {
 		"ft": 32768,
@@ -2054,6 +2087,12 @@
 		"oA": 2,
 		"oAP": "\/build\/library\/partials\/sectionContact.php",
 		"oF": 1
+		},
+	"\/library\/partials\/sectionCustomContact.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/library\/partials\/sectionCustomContact.php",
+		"oF": 0
 		},
 	"\/library\/partials\/sectionListingMap.php": {
 		"ft": 8192,
@@ -3016,50 +3055,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/ms-icon-144x144.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/ms-icon-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/ms-icon-150x150.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/ms-icon-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/ms-icon-310x310.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/ms-icon-310x310.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/ms-icon-70x70.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/build\/ms-icon-70x70.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/page-blank.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3089,6 +3084,12 @@
 		"oA": 2,
 		"oAP": "\/build\/page-service.php",
 		"oF": 1
+		},
+	"\/page-specialty-no-cs.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/page-specialty-no-cs.php",
+		"oF": 0
 		},
 	"\/page-specialty.php": {
 		"ft": 8192,
@@ -3257,6 +3258,12 @@
 		"oAP": "\/build\/single-employee.php",
 		"oF": 1
 		},
+	"\/single-landing-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/single-landing-page.php",
+		"oF": 0
+		},
 	"\/single-listing.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3278,28 +3285,6 @@
 		"oAP": "\/build\/style.css",
 		"oF": 3,
 		"oS": 0
-		},
-	"\/tile-wide.png": {
-		"ft": 32768,
-		"iS": 1854,
-		"oA": 0,
-		"oAP": "\/build\/tile-wide.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tile.png": {
-		"ft": 32768,
-		"iS": 3482,
-		"oA": 0,
-		"oAP": "\/build\/tile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		}
 	},
 "hooks": [
@@ -3311,7 +3296,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 524524442
+	"lastBuiltDate": 525727207
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -1,6 +1,6 @@
 <!-- VERSION 5: Listings -->
 
-<div id="listing-header" class="cs-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+<div id="listing-header" class="cs-header" role="banner">
 	
 	<div class="pull-r-1of12 pull-l-1of12 m-padding">
 
@@ -36,7 +36,7 @@
 							<?php if ( types_render_field( "square-footage" ) != null ) { ?>
 								<h4>Square Footage</h4>
 
-								<span ></span><?php echo types_render_field( "square-footage", array( 'raw' => true) ); ?>
+								<span></span><?php echo types_render_field( "square-footage", array( 'raw' => true) ); ?>
 							<?php } ?>
 						</div>
 					<?php } ?>
@@ -45,7 +45,7 @@
 						<div class="d-1of2 t-1of2 m-1of2">
 							<?php if ( types_render_field( "units" ) != null ) { ?>
 								<h4>Units</h4>
-								<span itemprop="units"></span><?php echo types_render_field( "units", array( 'raw' => true) ); ?>
+								<span itemprop="units"><?php echo types_render_field( "units", array( 'raw' => true) ); ?></span>
 							<?php } ?>
 						</div>
 					<?php } ?>
@@ -54,7 +54,7 @@
 						<?php if ( types_render_field( "lease-rate" ) != null ) { ?>
 							<h4>Lease Price</h4>
 							<meta itemprop="priceCurrency" content="USD" />
-							<span itemprop="price"></span><?php echo types_render_field( "lease-rate", array( 'raw' => true) ); ?>
+							<span itemprop="price"><?php echo types_render_field( "lease-rate", array( 'raw' => true) ); ?></span>
 						<?php } ?>
 					</div>
 			</div>

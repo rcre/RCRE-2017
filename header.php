@@ -21,7 +21,6 @@
 		<meta name="description" content="RESOURCE helps you buy, lease and sell property, manage your assets and focus on what you love. All without the corporate hoops.">
 
 		<meta name="keywords" content="real estate, resource, cre, commercial real estate, lease, office space, industrial, business, research, consulting, owner, occupier, sales,leasing, corporate services, property management, facilities management, project management, mortgage banking, appraisal, development, investment management">
-		
 
 		<?php // Safari Pinned tab ?>
 		<link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/website_icon_1.svg" color="#d2db3a">
@@ -60,7 +59,7 @@
 			    "@type": "ContactPoint",
 			    "telephone": "+1-317-663-6000",
 			    "contactType": "Customer service"
-			  }
+			  },
 			"sameAs":["https://www.facebook.com/RESOURCEcre/",
 					  "https://www.instagram.com/resourcecre/",
 					  "https://www.linkedin.com/company/resource-commercial-real-estate",
@@ -100,7 +99,7 @@
 			<header role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 				<div id="inner-header" class="cf">
-					<div id="logo" class="m-1of2 t-1of3 d-1of3">
+					<div id="logo" class="m-1of2 t-1of3 d-1of3" itemscope itemtype="organization" >
 						<a itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
 					</div>
 					

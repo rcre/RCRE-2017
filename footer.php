@@ -20,8 +20,8 @@
 					<div itemscope itemtype="http://schema.org/PostalAddress" class="address">
 						<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <span itemprop="name">RESOURCE Commercial Real Estate</span></p>
 						<p itemprop="streetAddress" class="source-org copyright">
-							<span itemprop="streetAddress">9339 West Priority Way Drive, Suite 120</span><br>
-      						<span itemprop="addressLocality">Indianapolis,</span>,
+							<span itemprop="streetAddress">9339 Priority Way West Drive, Suite 120</span><br>
+      						<span itemprop="addressLocality">Indianapolis,</span>
       						<span itemprop="addressRegion">IN,</span>
       						<span itemprop="postalCode">46240</span>
 						</p>

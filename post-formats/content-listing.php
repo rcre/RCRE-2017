@@ -16,6 +16,15 @@
 				<div class="tag red">
 					<?php // echo get_the_term_list( '', 'listing-type', '', '', ''); ?>
 				</div> -->
+
+				<?php
+					if( taxonomy_exists( 'specialty' ) ) {
+  						$terms_as_text = get_the_term_list( $post->ID, 'specialty', '', '', '' ) ; ?>
+						
+						<div class="tag blue">
+							<?php echo strip_tags($terms_as_text); ?>
+						</div>
+					<?php } ?>
 				
 				<div class="listing-post-details cf">
 					
@@ -41,6 +50,13 @@
 						<?php if ( types_render_field( "lease-rate" ) != null ) { ?>
 							<h4>Lease Price</h4>
 							<?php echo types_render_field( "lease-rate", array( 'raw' => true) ); ?>
+						<?php } ?>
+					</div>
+
+					<div class="d-1of2 t-1of2 m-1of2">
+						<?php if ( types_render_field( "sale-price" ) != null ) { ?>
+							<h4>Sale Price</h4>
+							<?php echo types_render_field( "sale-price", array( 'raw' => true) ); ?>
 						<?php } ?>
 					</div>
 				</div>

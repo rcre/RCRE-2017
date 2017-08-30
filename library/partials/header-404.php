@@ -4,7 +4,7 @@
 	<div class="callout cf">
 		<div class="m-all t-1of2 d-1of2 center cf">
 			<h1 class="page-title" itemprop="headline">Whoops!</h1>
-			<p class="subtitle">
+			<p class="subtitle" itemprop="description">
 				Sorry, but we weren't able to find the page you were looking for.
 			</p>
 			

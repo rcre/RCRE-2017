@@ -6,6 +6,15 @@ Designed by Patrick Hanus
 
 Kicked off with Bones Starter Theme - http://themble.com/bones
 
+## Core Features
+
+- Blog
+- Case Studies
+- Research Reports
+- Property Listings
+- Employee Profiles
+
+
 #### Special Thanks to:
 Jacob Lamont
 Lex Judge

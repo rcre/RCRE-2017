@@ -7,14 +7,22 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.05 */
+-consolidated logos and icons into folder
+-deleted tile pngs
+-removed Case Studies from Multifamily Page
+-Enabled more than 50 Closed listings on the Wernke Team’s page
+-Fixed address on the home page
+-Added sale price to the listing post view
+
 /* 1.04 */
--Add PHP server side verification for the Contact form
--Added Clearbit Script for User visiting tracking w/ Google Analytics
--Removed Snazzy Maps (will be added in version 2.0)
--Fixed and added some of the JSON for structured data
--Fixed labels for schema on individual pages
--Added Social Media in the footer
--Created a page for the Marketing Team
+- Add PHP server side verification for the Contact form
+- Added Clearbit Script for User visiting tracking w/ Google Analytics
+- Removed Snazzy Maps (will be added in version 2.0)
+- Fixed and added some of the JSON for structured data
+- Fixed labels for schema on individual pages
+- Added Social Media in the footer
+- Created a page for the Marketing Team
 
 /* 1.03 */
 -comment out search form (For now)

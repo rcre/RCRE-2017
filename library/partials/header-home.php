@@ -1,6 +1,6 @@
 <!-- VERSION 1: Frontpage Header -->
 
-<div id="page-header" class="header-home page--Home" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+<div id="page-header" class="header-home page--Home" role="banner">
 	<!-- Callout Section for the Home Page-->
 	<div class="callout cf">
 		<div class="m-all t-1of2 d-1of2 center cf">
