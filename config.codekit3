@@ -147,12 +147,6 @@
 		"oAP": "\/build\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/CHANGELOG.html": {
 		"ft": 8192,
 		"oA": 1,
@@ -2130,6 +2124,12 @@
 		"oAP": "\/build\/library\/partials\/sectionTeam.php",
 		"oF": 1
 		},
+	"\/library\/partials\/sectionUVP.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/library\/partials\/sectionUVP.php",
+		"oF": 0
+		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -3296,7 +3296,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 525727207
+	"lastBuiltDate": 525818605
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -170,7 +170,7 @@
 				get_template_part('library/partials/header-404');
 
 			} elseif ( is_single() ) { ?>
-			<!-- Header for Single.php -->
+			<!-- Header for Single.php and works on listing pages-->
 			<div id="single-header" style="background-image: url('<?php echo $bannerimg; ?>'); background-repeat: no-repeat; background-size: cover;" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 					<div class="m-padding cf">
@@ -191,7 +191,13 @@
 							<?php echo types_render_field( "tagline", array( 'raw' => true)); ?>
 							</p>
 						</div>
-						<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( 'raw' => true)); ?>" alt="Download the PDF"></a>
+						<?php if ( types_render_field( "report-pdf" ) != null ) { ?>
+							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( $post->ID, 'raw' => true ) ); ?>" alt="Download the PDF"></a>
+						<?php } ?>
+
+						<?php if ( types_render_field( "downloadable-pdf" ) != null ) { ?>
+							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( $post->ID, 'raw' => true)); ?>" alt="Download the PDF"></a>
+						<?php } ?>
 					</div>
 				</div>
 

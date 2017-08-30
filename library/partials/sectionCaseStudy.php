@@ -8,27 +8,28 @@
 				</p>
 				<a id="cta-border-green" href="/case-studies">Read the Case Studies</a>
 					<div class="cf">
-					<?php // This will loop through brokers who are a part of this specialty
+						<?php // This will loop through brokers who are a part of this specialty
+						
+						$args = array(
+							'post_type' => array('case-study'),
+							'showposts' => 3,							
+						);
+						
+						$custom_posts = new WP_Query( $args );
 					
-					$args = array(
-						'post_type' => array('case-study'),
-						'showposts' => 3,							
-					);
-					
-					$custom_posts = new WP_Query( $args );
-				
-					// Start the Loop.
-					while ( $custom_posts->have_posts() ) : $custom_posts->the_post(); ?>
+						// Start the Loop.
+						while ( $custom_posts->have_posts() ) : $custom_posts->the_post(); ?>
 
-						<a class="m-1of3 t-1of3 d-1of3 pad-top" href="<?php echo esc_url( get_permalink() ); ?>">
-					<?php // Grab the image to the case study ?>
-						<div class="case-study-icon">
-							<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">	
-						</div>
-						</a>
+							<a class="m-1of3 t-1of3 d-1of3 pad-top" href="<?php echo esc_url( get_permalink() ); ?>">
+						<?php // Grab the image to the case study ?>
+							<div class="case-study-icon">
+								<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">	
+							</div>
+							</a>
 
-					<?php endwhile; ?>
-					
+						<?php endwhile; 
+							wp_reset_postdata();
+						?>
 					</div>
 			</div>
 		</aside>

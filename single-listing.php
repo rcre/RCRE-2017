@@ -21,7 +21,7 @@
 						<?php if ( types_render_field( "flyer-headline" ) != null ) { ?>
 							<h2 class="header-dark"><?php echo(types_render_field( "flyer-headline", array( 'raw' => true) )); ?></h2>
 						<?php } else { ?>
-							<h2>Property Description</h2>
+							<h2 class="header-dark">Property Description</h2>
 						<?php } ?>
 
 						<p itemprop="description"><?php echo(types_render_field( "listing-description", array( 'raw' => true) )); ?></p>
@@ -33,8 +33,7 @@
 						<?php } ?>
 					</div>
 				
-					<div class="m-all t-1of2 d-1of2 cf">
-						<!-- <iframe src="https://snazzymaps.com/embed/3893" width="100%" height="400px"></iframe> -->
+					<div class="m-all t-1of2 d-1of2 pad-top cf">
 
 						<p class="m-1of2 t-1of2 d-1of2"><a href="<?php echo(types_render_field( "property-flyer", array( 'raw' => true) )); ?>" class="cta-border-green" target="_blank">Download Property Flyer</a>
 						</p>

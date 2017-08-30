@@ -7,6 +7,15 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.06 */
+-Added Twitter Conversion JS
+-Fixed a problem on listings where the Property Description was white
+-Deleted some residual snazzy maps code
+-Fixed the duplication on the Teams pages
+-Consolidated the UVP section into a partial
+-Fixed a problem where pdfs weren’t downloading in the header
+-Fixed a JS error that was thrown due to a timer/timestamp
+
 /* 1.05 */
 -consolidated logos and icons into folder
 -deleted tile pngs

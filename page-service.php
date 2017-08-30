@@ -16,27 +16,7 @@
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/LocalBusinessPosting">
 
-
-		<?php // This is the main description of the service and what it provides ?>
-			<section class="m-padding">
-				<div class="pull-l-1of12 pull-r-1of12 cf">
-					<div class="uvp">
-						<p><?php echo(types_render_field( "service-main-description", array( 'raw' => true) )); ?></p>
-					</div>
-					<div class="selling-point m-all t-1of3 d-1of3">
-						<h5><?php echo(types_render_field( "feature-1-headline", array( 'raw' => true) )); ?></h5>
-						<p><?php echo(types_render_field( "feature-1", array( 'raw' => true) )); ?></p>
-					</div>
-					<div class="selling-point m-all t-1of3 d-1of3">
-						<h5><?php echo(types_render_field( "feature-2-headline", array( 'raw' => true) )); ?></h5>
-						<p><?php echo(types_render_field( "feature-2", array( 'raw' => true) )); ?></p>
-					</div>
-					<div class="selling-point m-all t-1of3 d-1of3 right">
-						<h5><?php echo(types_render_field( "feature-3-headline", array( 'raw' => true) )); ?></h5>
-						<p><?php echo(types_render_field( "feature-3", array( 'raw' => true) )); ?></p>
-					</div>
-				</div>
-			</section>
+		<?php get_template_part('library/partials/sectionUVP'); ?>
 
 		<?php get_template_part('library/partials/sectionSpecialties'); ?>
 

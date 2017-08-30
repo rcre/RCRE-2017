@@ -1,9 +1,6 @@
 <?php // SECTION The Team ?>
 
-<?php // I need to make this show team-members based on the page it's on ?>
-
 <div class="grid">
-
 
 <?php // This will loop through brokers who are a part of this specialty
 
