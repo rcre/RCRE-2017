@@ -1,5 +1,6 @@
+<!-- Child Section -->
 	<?php 
-		$child_posts = types_child_posts("section"); // Load the contents of related posts in the array
+		$child_posts = types_child_posts( "section" ); // Load the contents of related posts in the array
 		foreach ($child_posts as $child_post) {  ?>
 
 	<section style="background-image: url('<?php echo types_render_field( "section-image", array( "id"=> "$child_post->ID" , 'raw' => true ) ); ?>');" class="topic cf">

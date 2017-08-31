@@ -108,10 +108,7 @@
 						<div class="m-1of3 t-1of3 d-1of3">
 							<a itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
 						</div>
-					<!-- Search Button -->
-						<!-- <div class="m-1of3 t-1of3 d-1of3">
-							<a  href="#" role="search"><img id="search" src="<?php //echo get_template_directory_uri(); ?>/library/images/icons/icon-search.svg" alt="Search rcre.com"></a>
-						</div> -->
+						
 					<!-- Open Mobile Menu Button -->
 						<div id="menu-burger" class="m-1of3 t-1of3 d-1of3">
 							<img aria-hidden aria-label="Open Menu" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-menu-burger.svg" alt="Open Mobile Menu">
@@ -193,9 +190,9 @@
 						</div>
 						<?php if ( types_render_field( "report-pdf" ) != null ) { ?>
 							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( $post->ID, 'raw' => true ) ); ?>" alt="Download the PDF"></a>
-						<?php } ?>
+						<?php } 
 
-						<?php if ( types_render_field( "downloadable-pdf" ) != null ) { ?>
+						if ( types_render_field( "downloadable-pdf" ) != null ) { ?>
 							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( $post->ID, 'raw' => true)); ?>" alt="Download the PDF"></a>
 						<?php } ?>
 					</div>

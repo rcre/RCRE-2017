@@ -14,12 +14,14 @@
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/LocalBusinessPosting">
-				<?php get_template_part('post-formats/content-section'); ?>
+				<?php get_template_part('post-formats/content-childSection'); ?>
 			</article>
 
 				<footer class="cf">
 					<?php get_template_part('library/partials/sectionContact'); ?>
 				</footer>
+
+			<?php endwhile; endif; ?>
 		</main>	
 	</div>
 </div>

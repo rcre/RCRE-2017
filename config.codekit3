@@ -147,6 +147,12 @@
 		"oAP": "\/build\/browserconfig.xml",
 		"oF": 0
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/CHANGELOG.html": {
 		"ft": 8192,
 		"oA": 1,

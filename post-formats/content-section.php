@@ -24,7 +24,7 @@
     }
   }
   
-  if (has_children()) {
+  if ( has_children() ) {
 
 	  $args = array_merge($base_args, $args);
 	  $pages = get_pages($args);
