@@ -27,7 +27,7 @@
 						</p>
 					</div>
 
-					<div itemscope itemtype="http://schema.org/Organization" class="social m-all">
+					<div itemscope itemtype="http://schema.org/Organization" class="footer-links social m-all">
 						<link itemprop="url" href="https://rcre.com">
 						<a itemprop="sameAs" href="https://www.facebook.com/RESOURCEcre/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						<a itemprop="sameAs" href="https://www.instagram.com/resourcecre/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -39,8 +39,6 @@
 			</footer>
 
 		</div>
-
-		<script async src="https://www.google.com/recaptcha/api.js"  defer></script>
 
 		<!-- Twitter universal website tag code -->
 		<script>
@@ -63,25 +61,6 @@
 		  ga('send', 'pageview');
 		</script>
 		
-		<script>
-		  ga('require', 'Clearbit', {
-		    mapping: {
-		      companyName:           'dimension1',
-		      companyEmployeesRange: 'dimension2',
-		      companyTags:           'dimension3',
-		      companyTech:           'dimension4',
-		      companySubIndustry:    'dimension5',
-		      companyIndustry:       'dimension6',
-		      companyIndustryGroup:  'dimension7',
-		      companySector:         'dimension8',
-		      companyType:           'dimension9',
-		      companyDomain:         'dimension10'
-		    }
-		  });
-		</script>
-
-		<script async src="https://ga.clearbit.com/v1/ga.js?authorization=pk_a2a28d2ae8d00ce6a7ed4150c794ad70"></script>
-
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
 	</body>

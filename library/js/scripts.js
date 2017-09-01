@@ -168,57 +168,16 @@ function mobileMenu() {
  * Google Recaptcha
 **************************/
 
-// 8/30/17 - I disabled this because it kept throwing an error where it didn't know what to do with the time value.
-
-// function timestamp() { 
-//   var response = document.getElementById("g-recaptcha-response"); 
-//   if (response === null || response.value.trim() === "") {
-//     var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
-//     elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); 
-//   } 
-// } 
-
-// setInterval(timestamp, 500); 
-
-
 function recaptcha_callback() {
-  jQuery('#contact_submit').removeAttr('disabled');
+    if (grecaptcha.getResponse() == "") {
+  } else {
+      jQuery('#contact_submit').removeAttr('disabled');
+  }
 }       
-
 
 /*************************
  * Contact Form
 **************************/
-
-$(document).ready(function() {
-  var contactForm = $("#contact-home");
-  //We set our own custom submit function
-  contactForm.on("submit", function(e) {
-    //Prevent the default behavior of a form
-    e.preventDefault();
-    //Get the values from the form
-    var first_name = $("#first_name").val();
-    var last_name = $("#last_name").val();
-    var email = $("#email").val();
-    var description = $("#description").val();
-    var phone = $("#phone").val();
-    //Our AJAX POST
-    $.ajax({
-      type: "POST",
-      url: "mail.php",
-      data: {
-        name: name,
-        email: email,
-        message: message,
-        //THIS WILL TELL THE FORM IF THE USER IS CAPTCHA VERIFIED.
-        captcha: grecaptcha.getResponse()
-      },
-      success: function() {
-        console.log("OUR FORM SUBMITTED CORRECTLY");
-      }
-    });
-  });
-});
 
 jQuery(document).ready(function() {
 

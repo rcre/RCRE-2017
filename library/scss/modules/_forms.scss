@@ -281,7 +281,11 @@ form {
   }
   
   select {
-    display: none;
+    max-width: none;
+  }
+
+  option {
+    color: $lgray;
   }
 
   label {

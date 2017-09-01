@@ -15,12 +15,19 @@ Author: Patrick Hanus
 
 *******************************************************************
 
-/* 1.06 */
+/* 1.08 */
+
+- Removed Cleabit Integration
+- Fixed Styles on footer social links
+- Created a new contact form that actually validate reCaptcha correctly
+- Added some new fields to the main contact form
+- Bumped up the size of UVP text on desktop
+
+/* 1.07 */
 
 - Deleted residual search button feature
 - Fixed UVP callout
 - Fixed a problem on page-team.php where I deleted the <?php endwhile; endif; ?> accidentally 
-- 
 
 /* 1.06 */
 

@@ -272,6 +272,13 @@ footer {
 
 	.social {
 		display: inline-block;
+		margin: 20px 10px;
+		text-align: center;
+
+		.fa {
+			margin: 10px;
+			font-size: 2em;
+		}
 	}
 }
 

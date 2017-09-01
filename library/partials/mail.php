@@ -1,20 +1,26 @@
 <?php
-	$first_name=stripslashes($_POST["first_name"]);
-	$last_name=stripslashes($_POST["last_name"]);
-	$phone=stripslashes($_POST["phone"]);
-	$email=stripslashes($_POST["email"]);
-	$message=stripslashes($_POST["description"]);
-
-	$secret="6LcbpyQUAAAAAJIV-lpFzJc0EddNPJJUcNWzQn9b";
-	$response=$_POST["captcha"];
-
-	$verify=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secret}&response={$response}");
+	$sender_name = stripslashes($_POST["sender_name"]);
+	$sender_email = stripslashes($_POST["sender_email"]);
+	$sender_message = stripslashes($_POST["sender_message"]);
+	$response = $_POST["g-recaptcha-response"];
+	$url = 'https://www.google.com/recaptcha/api/siteverify';
+	$data = array(
+		'secret' => '6LcbpyQUAAAAAJIV-lpFzJc0EddNPJJUcNWzQn9b',
+		'response' => $_POST["g-recaptcha-response"]
+	);
+	$options = array(
+		'http' => array (
+			'method' => 'POST',
+			'content' => http_build_query($data)
+		)
+	);
+	
+	$context  = stream_context_create($options);
+	$verify = file_get_contents($url, false, $context);
 	$captcha_success=json_decode($verify);
-	
-	if ($captcha_success->success==false) {
-	  //This user was not verified by recaptcha.
-	
-	} else if ($captcha_success->success==true) {
-	  //This user is verified by recaptcha
-	}
+		if ($captcha_success->success==false) {
+			echo "<p>You are a bot! Go away!</p>";
+		} else if ($captcha_success->success==true) {
+			echo "<p>You are not not a bot!</p>";
+		}
 ?>
