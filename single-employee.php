@@ -8,7 +8,7 @@
 
 <div id="content">
 
-	<div id="inner-content" class="cf">
+	<div id="inner-content" class="cf" itemscope itemtype="http://schema.org/Organization">
 
 		<main id="main" class="cf m-padding" role="main" itemprop="employee" itemscope itemtype="http://schema.org/Person">
 
@@ -32,7 +32,6 @@
 								//&nbsp;<div class="header-link"> <?php echo get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?></div> 
 								
 							<?php } ?>
-							
 						</div>
 				
 				</header>
@@ -194,7 +193,7 @@
 
 			<?php else : ?>
 
-					<article id="post-not-found" class="hentry cf">
+					<article id="post-not-found" class="cf">
 						<header class="article-header">
 							<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
 						</header>

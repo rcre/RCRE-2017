@@ -18,8 +18,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
-		<meta name="description" content="RESOURCE helps you buy, lease and sell property, manage your assets and focus on what you love. All without the corporate hoops.">
-
 		<meta name="keywords" content="real estate, resource, cre, commercial real estate, lease, office space, industrial, business, research, consulting, owner, occupier, sales,leasing, corporate services, property management, facilities management, project management, mortgage banking, appraisal, development, investment management">
 
 		<?php // Safari Pinned tab ?>
@@ -55,6 +53,7 @@
 			"@type":"organization",
 			"name":"RESOURCE Commercial Real Estate",
 			"url":"https://rcre.com/",
+			"logo":"https://rcre.com/wp-content/uploads/2017/09/social-media-icon.jpg",
 			"contactPoint": {
 			    "@type": "ContactPoint",
 			    "telephone": "+1-317-663-6000",
@@ -75,7 +74,6 @@
 				"addressRegion": "IN", 
 				"postalCode": "46240", 
 				"streetAddress": "9339 Priority Way West Drive" },
-			"department"
 			"email":"info@rcre.com",
 			"telephone":"3176636000",
 			"foundingDate":"2005"
@@ -88,7 +86,7 @@
 		<?php wp_head(); ?>
 
 		<!-- Salesforce Contact For ReCaptcha -->
-		<script src="https://www.google.com/recaptcha/api.js"></script>
+		<script async defer src="https://www.google.com/recaptcha/api.js"></script>
 		<script>
 		 function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
 		</script>
@@ -97,17 +95,17 @@
 
 	</head>
 
-	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
+	<body <?php body_class(); ?>">
 	 <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
 		<div id="container">
 
-			<header role="banner" itemscope itemtype="http://schema.org/WPHeader">
+			<header role="banner">
 
 				<div id="inner-header" class="cf">
-					<div id="logo" class="m-1of2 t-1of3 d-1of3" itemscope itemtype="organization" >
+					<div id="logo" class="m-1of2 t-1of3 d-1of3" itemscope itemtype="http://schema.org/Organization">
 						<a itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
 					</div>
 					
@@ -156,8 +154,6 @@
 			</header>
 
 		<?php 
-
-
 			if ( has_post_thumbnail() ) {
 				$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 			} else {
