@@ -9,13 +9,6 @@
 			<input type=hidden name="oid" value="00D15000000NClj">
 			<input type=hidden name="retURL" value="http://rcre.dev">
 
-			<!--  ----------------------------------------------------------------------  -->
-			<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-			<!--  these lines if you wish to test in debug mode.                          -->
-			 <input type="hidden" name="debug" value=1>                             
-			 <input type="hidden" name="debugEmail" value="patrick.hanus@rcre.com">   
-			<!--  ----------------------------------------------------------------------  -->
-
 			<div class="m-all t-1of2 d-1of2">
 				<label for="first_name">First Name</label>
 				<input  id="first_name" name="first_name" tabindex="1" type="text" required />

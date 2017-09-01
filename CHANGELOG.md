@@ -15,6 +15,14 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.09 */
+
+- Removed if/else from submit enable JS
+- Removed debug mode from contact form
+- Changed Select values back to white
+
+Also, Patrick is stupid.
+
 /* 1.08 */
 
 - Removed Cleabit Integration

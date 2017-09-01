@@ -169,10 +169,7 @@ function mobileMenu() {
 **************************/
 
 function recaptcha_callback() {
-    if (grecaptcha.getResponse() == "") {
-  } else {
       jQuery('#contact_submit').removeAttr('disabled');
-  }
 }       
 
 /*************************
