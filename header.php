@@ -197,11 +197,11 @@
 							</p>
 						</div>
 						<?php if ( types_render_field( "report-pdf" ) != null ) { ?>
-							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( $post->ID, 'raw' => true ) ); ?>" alt="Download the PDF"></a>
+							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( $post->ID, 'raw' => true ) ); ?>" alt="Download the PDF" target="_blank"></a>
 						<?php } 
 
 						if ( types_render_field( "downloadable-pdf" ) != null ) { ?>
-							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( $post->ID, 'raw' => true)); ?>" alt="Download the PDF"></a>
+							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( $post->ID, 'raw' => true)); ?>" alt="Download the PDF" target="_blank"></a>
 						<?php } ?>
 					</div>
 				</div>

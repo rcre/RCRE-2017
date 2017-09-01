@@ -408,10 +408,20 @@ p.copyright {
 	margin: 2px auto;
 }
 
+footer {
+	.social {
+		margin: 0;
+		text-align: right;
+
+		.fa {
+			font-size: 1.2em;
+		}
+	}
+}
+
 .footer-links {
 	display: inline-block;
-	float: right;
-	margin: 10px auto;
+	margin: 10px auto 0 auto;
 
 	.nav {
 		background: transparent;

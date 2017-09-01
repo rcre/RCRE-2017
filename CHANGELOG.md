@@ -15,6 +15,21 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.10 */
+
+* New feature where wernke’s closed listings are sorted by year!
+
+- Fixed alignment and layout for the social buttons in the footer
+- Removed unused code for Inserting Itemprop into li items in functions.php
+- Fixed tab index problems in the contact form
+- Added Contact form header back in
+- Fixed issue where team was not sorting alphabetically
+- Added tag buttons to plain text property type labels
+- Changed the layout sizing for property cards
+- Added broker title to author partial
+- Added profile link to case study author title
+- Resolved Research report download button should open in a new tab, not the current one
+
 /* 1.09 */
 
 - Removed if/else from submit enable JS

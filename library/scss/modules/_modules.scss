@@ -226,6 +226,7 @@ MODULE: Listing Post format
 }
 
 .listing-image {
+	overflow: hidden; // So the image stay's within it's  bounds
 	
 	img {
 		width: 100px;

@@ -1,6 +1,14 @@
 <!-- VERSION 5: Listings -->
 
-<div id="listing-header" class="cs-header" role="banner">
+<?php 
+	if ( has_post_thumbnail() ) {
+		$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+	} else {
+		$bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
+	} 
+?>
+
+<div id="listing-header" class="cs-header" role="banner" style="background-image: url('<?php echo $bannerimg; ?>'); background-repeat: no-repeat; background-size: cover;" itemscope itemtype="http://schema.org/WPHeader">
 	
 	<div class="pull-r-1of12 pull-l-1of12 m-padding">
 
@@ -24,19 +32,18 @@
 		<!-- Callout Section for the Average Page-->
 		<div class="cf">
 
-			<div class="callout cf">
+			<div class="cf">
 				
-				<h1 itemprop="name" class="header-dark"><?php the_title(); ?></h1>
+				<h1 itemprop="name"><?php the_title(); ?></h1>
 				<a id="cta-underline-gray" class="h5" href="<?php echo(types_render_field( "google-maps-url", array( 'raw' => true) )); ?>" ><?php echo(types_render_field( "address", array( 'raw' => true) )); ?></a>
 			</div>
 
 			<div class="m-1of2 t-1of3 d-1of6 left pad-top">
 				<?php if ( has_term( 'retail' , 'specialty') && has_term( 'office' , 'service') ) { ?>
-						<div class="d-1of2 t-1of2 m-1of2">
+						<div class="d-1of2 t-1of2 m-1of2 white">
 							<?php if ( types_render_field( "square-footage" ) != null ) { ?>
 								<h4>Square Footage</h4>
-
-								<span></span><?php echo types_render_field( "square-footage", array( 'raw' => true) ); ?>
+								<span><?php echo types_render_field( "square-footage", array( 'raw' => true) ); ?></span>
 							<?php } ?>
 						</div>
 					<?php } ?>
@@ -59,7 +66,7 @@
 					</div>
 			</div>
 
-			<a class="m-1of2 download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( 'raw' => true)); ?>"></a>
+			<a class="m-1of2 download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( 'raw' => true)); ?>" target="_blank"></a>
 		</div>
 	</div>
 </div>

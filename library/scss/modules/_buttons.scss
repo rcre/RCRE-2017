@@ -291,7 +291,40 @@ and it will create a button dependant on those variables.
   }
 }
 
-// Tag Buttons
+// Tags for when you want to show taxonamies without links
+
+.tag-no-link {
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: 0.8s;
+  background-color: $lgray;
+
+  .red:hover {
+    background-color: $pink;
+  }
+  
+  .green:hover {
+    background-color: $green;
+  }
+
+  .blue:hover {
+    background-color: $blue;
+    color: white;
+  }
+  
+  .gray:hover {
+    background-color: $gray;
+    color: $lgray;
+  }
+}
+
+// Tags for when you display taxonomy links
 
 .tag {
 

@@ -1,23 +1,7 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 				<div id="inner-footer" class="m-padding pull-l-1of12 pull-r-1of12 cf">
-					<nav role="navigation">
-						<?php wp_nav_menu(array(
-	    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
-	    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
-	    					'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
-	    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
-	    					'theme_location' => 'footer-links',             // where it's located in the theme
-	    					'before' => '',                                 // before the menu
-	    					'after' => '',                                  // after the menu
-	    					'link_before' => '',                            // before each link
-	    					'link_after' => '',                             // after each link
-	    					'depth' => 0,                                   // limit the depth of the nav
-	    					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
-						)); ?>
-					</nav>
 					
-
-					<div itemscope itemtype="http://schema.org/PostalAddress" class="address">
+					<div itemscope itemtype="http://schema.org/PostalAddress" class="address left">
 						<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <span itemprop="name">RESOURCE Commercial Real Estate</span></p>
 						<p itemprop="streetAddress" class="source-org copyright">
 							<span itemprop="streetAddress">9339 Priority Way West Drive, Suite 120</span><br>
@@ -27,13 +11,31 @@
 						</p>
 					</div>
 
-					<div itemscope itemtype="http://schema.org/Organization" class="footer-links social m-all">
-						<link itemprop="url" href="https://rcre.com">
-						<a itemprop="sameAs" href="https://www.facebook.com/RESOURCEcre/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						<a itemprop="sameAs" href="https://www.instagram.com/resourcecre/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-						<a itemprop="sameAs" href="https://twitter.com/resourcecre"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						<a itemprop="sameAs" href="https://www.linkedin.com/company/resource-commercial-real-estate"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-						<a itemprop="sameAs" href="https://vimeo.com/resourcecre"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+					<div class="right">
+						<nav role="navigation">
+							<?php wp_nav_menu(array(
+		    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
+		    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
+		    					'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
+		    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
+		    					'theme_location' => 'footer-links',             // where it's located in the theme
+		    					'before' => '',                                 // before the menu
+		    					'after' => '',                                  // after the menu
+		    					'link_before' => '',                            // before each link
+		    					'link_after' => '',                             // after each link
+		    					'depth' => 0,                                   // limit the depth of the nav
+		    					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
+							)); ?>
+						</nav>
+
+						<div itemscope itemtype="http://schema.org/Organization" class="social m-all">
+							<link itemprop="url" href="https://rcre.com">
+							<a itemprop="sameAs" href="https://www.facebook.com/RESOURCEcre/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a itemprop="sameAs" href="https://www.instagram.com/resourcecre/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a itemprop="sameAs" href="https://twitter.com/resourcecre"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a itemprop="sameAs" href="https://www.linkedin.com/company/resource-commercial-real-estate"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							<a itemprop="sameAs" href="https://vimeo.com/resourcecre"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+						</div>
 					</div>
 				</div>
 			</footer>

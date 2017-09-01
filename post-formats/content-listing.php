@@ -1,13 +1,15 @@
 <div class="m-all t-1of2 d-1of3">
 
 		<div class="listing-box cf">
-			<div class="listing-image d-1of3 t-1of3 m-1of3">
+		<div class="d-1of4 t-1of3 m-1of4">
+			<div class="listing-image">
 				<?php echo types_render_field( "main-property-picture", array( 'size' => 'thumbnail' )); ?>
 			</div>
+		</div>
+			<div class="listing-info d-3of4 t-2of3 m-3of4 cf ">
 
-			<div class="listing-info d-2of3 t-2of3 m-2of3">
 				
-				<a href="<?php echo esc_url( get_post_permalink() ); ?>"><h4><?php echo the_title(); ?></h4></a>
+				<a class="m-all" href="<?php echo esc_url( get_post_permalink() ); ?>"><h4><?php echo the_title(); ?></h4></a>
 
 				<!-- <div class="tag blue">
 					<?php // echo get_the_term_list( '', 'specialty', '', '', ''); ?>
@@ -19,14 +21,25 @@
 
 				<?php
 					if( taxonomy_exists( 'specialty' ) ) {
-  						$terms_as_text = get_the_term_list( $post->ID, 'specialty', '', '', '' ) ; ?>
+  						$term_as_texts = get_the_term_list( $post->ID, 'specialty', '', '', '' ) ; ?>
+  						
+							<div class="tag blue">
+								<?php echo $term_as_texts; ?>
+							</div>
 						
-						<div class="tag blue">
-							<?php echo strip_tags($terms_as_text); ?>
-						</div>
+					<?php } ?>
+
+				<?php
+					if( taxonomy_exists( 'listing-type' ) ) {
+  						$term_as_texts = get_the_term_list( $post->ID, 'listing-type', '', '&nbsp;', '' ) ; ?>
+  						
+							<div class="tag red">
+								<?php echo $term_as_texts; ?>
+							</div>
+						
 					<?php } ?>
 				
-				<div class="listing-post-details cf">
+				<div class="listing-post-details pad-top cf">
 					
 					<?php if ( has_term( 'retail' , 'specialty') && has_term( 'office' , 'service') ) { ?>
 						<div class="d-1of2 t-1of2 m-1of2">

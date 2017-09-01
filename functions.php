@@ -318,17 +318,4 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
-/*
-  Insert itemprop into <li> items
-*/
-
-// function add_menu_atts( $atts, $item, $args ) {
-//   $atts['itemprop'] = 'url';
-//   return $atts;
-// }
-
-// li itemprop="name"
-// a itemprop="url"
-// add_filter( 'nav_menu_link_attributes', 'add_menu_atts', 10, 3 );
-
 /* DON'T DELETE THIS CLOSING TAG */ ?>

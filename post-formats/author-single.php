@@ -1,5 +1,5 @@
 <section id="authorSingle" class="m-all t-all d-all" itemprop="author" itemscope itemtype="http://schema.org/Person">
-<!-- PHP: Get the Broker's Picture URL and Industry Name-->
+	
 	<?php 
 		// Get the ID of the parent post, which belongs to the "Employee" post type
 			$broker_id = wpcf_pr_post_get_belongs( get_the_ID(), 'employee' );
@@ -20,8 +20,9 @@
 	</div> 
 
 	<div class="m-all t-2of3 d-4of5 cf">
-		<h2 class="header-dark header-link"><a href="<?php echo esc_url( get_permalink( $broker_id ) ); ?>"><span itemprop="name"><?php echo $broker_name; ?></span></a></h2>
-		<h5><?php echo types_render_field( "profile-role-title", array( 'post_id' => $broker_id, 'raw' => true ) ); ?></h5>
+		<h3 class="header-dark header-link"><a href="<?php echo esc_url( get_permalink( $broker_id ) ); ?>"><span itemprop="name"><?php echo $broker_name; ?></span></a></h3>
+		
+		<h5><?php echo types_render_field( "profile-title", array( 'post_id' => $broker_id, 'raw' => true ) ); ?></h5>
 		
 		<p itempop="description"><?php echo $broker_excerpt; ?></p>
 
@@ -31,9 +32,7 @@
 
 		<div class="tag blue">
 			<?php echo get_the_term_list( $broker_id, 'specialty', '', '', ''); ?>
-		</div>
-		
+		</div>	
+	</div>
 
-<!-- PHP: Case Study's related broker's contact information -->
-			
-</aside>
+</section>

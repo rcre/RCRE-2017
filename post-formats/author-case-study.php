@@ -14,7 +14,8 @@
 	<!-- Profile Picture -->
 	<img class="broker-profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $parent_id, 'raw' => true )); ?>" alt="<?php echo $parent_name; ?>">
 
-	<h4><?php echo $parent_name; ?></h4>
+	<h4 class="header-dark header-link"><a href="<?php echo esc_url( get_permalink( $parent_id ) ); ?>"><span itemprop="name"><?php echo $parent_name; ?></span></a></h4>
+
 	<h5><?php echo types_render_field( "profile-title", array( 'post_id' => $parent_id , 'raw' => true ) ); ?></h5>
 
 	<!-- BUTTON: Contact -> PHP Link to Broker's Email -->

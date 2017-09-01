@@ -47,7 +47,7 @@
 			<section class="topic cf">
 				<div class="pull-l-1of12 pull-r-1of12 pad-top cf">
 
-				<h3 class="pad-top">Property Pictures</h3>
+				<h3 class="pad-top">Property Picture</h3>
 
 				<img class="m-1of2 t-1of2 d-1of2" src="<?php echo(types_render_field( "main-property-picture", array( 'raw' => true) )); ?>" itemprop="image" alt="<?php echo(types_render_field( "address", array( 'raw' => true) )); ?>">
 				</div>
