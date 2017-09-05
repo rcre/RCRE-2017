@@ -172,6 +172,8 @@ function recaptcha_callback() {
       jQuery('#contact_submit').removeAttr('disabled');
 }       
 
+document.getElementById('oid').value = '00D15000000NClj';
+
 /*************************
  * Contact Form
 **************************/

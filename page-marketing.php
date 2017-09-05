@@ -1,3 +1,9 @@
+<?php 
+/*
+ Template Name: Team Template
+*/
+ ?>
+
 <?php get_header(); ?>
 			
 <div id="content">
@@ -9,7 +15,7 @@
 			<?php get_template_part('library/partials/sectionUVP'); ?>
 
 			<section id="SpecialtyTeam" class="pull-r-1of12 pull-l-1of12 cf pad-top m-padding">
-				<h2 class="header-dark pad-top">The Marketing Team</h2>
+				<h2 class="header-dark pad-top"><?php the_title(); ?></h2>
 				<?php get_template_part('library/partials/sectionTeam'); ?>
 			</section>
 
@@ -26,11 +32,7 @@
 			<footer class="cf">
 				<?php get_template_part('library/partials/sectionContact'); ?>
 			</footer>
-		</main>
-
-		
-				
-				
+		</main>	
 	</div>
 </div>
 

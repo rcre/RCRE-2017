@@ -7,15 +7,26 @@ Author: Patrick Hanus
 
 ## Vesioning
 
-0.01 - Quick fixes and emergency problems (~ As Requested)
+> 0.01 - Quick fixes and emergency problems (~ As Requested)
 
-0.10 - Major fixes and adding minor features (~ Weekly)
+> 0.10 - Major fixes and adding minor features (~ Weekly)
 
-1.00 - Major Enhancements and Features are added (~ Monthly)
+> 1.00 - Major Enhancements and Features are added (~ Monthly)
 
 *******************************************************************
 
-/* 1.10 */
+/* 1.1.1 */
+
+- Converted salesforce oid to JS
+- Added the form ID to the contact form
+- Changed some layout things on the listing view
+- Made some tweaks to the way listings are output inside the divs
+- Deleted the “hentry” spec
+- Created a new template for team pages
+- Disabled “Our Clients” bar on Mobile
+- Fixed a bug where case study icon border was collapsing
+
+/* 1.1.0 */
 
 * New feature where wernke’s closed listings are sorted by year!
 
@@ -30,7 +41,7 @@ Author: Patrick Hanus
 - Added profile link to case study author title
 - Resolved Research report download button should open in a new tab, not the current one
 
-/* 1.09 */
+/* 1.0.9 */
 
 - Removed if/else from submit enable JS
 - Removed debug mode from contact form
@@ -38,7 +49,7 @@ Author: Patrick Hanus
 
 Also, Patrick is stupid.
 
-/* 1.08 */
+/* 1.0.8 */
 
 - Removed Cleabit Integration
 - Fixed Styles on footer social links
@@ -46,13 +57,13 @@ Also, Patrick is stupid.
 - Added some new fields to the main contact form
 - Bumped up the size of UVP text on desktop
 
-/* 1.07 */
+/* 1.0.7 */
 
 - Deleted residual search button feature
 - Fixed UVP callout
 - Fixed a problem on page-team.php where I deleted the <?php endwhile; endif; ?> accidentally 
 
-/* 1.06 */
+/* 1.0.6 */
 
 - Added Twitter Conversion JS
 - Fixed a problem on listings where the Property Description was white
@@ -62,7 +73,7 @@ Also, Patrick is stupid.
 - Fixed a problem where pdfs weren’t downloading in the header
 - Fixed a JS error that was thrown due to a timer/timestamp
 
-/* 1.05 */
+/* 1.0.5 */
 
 - consolidated logos and icons into folder
 - deleted tile pngs
@@ -71,7 +82,7 @@ Also, Patrick is stupid.
 - Fixed address on the home page
 - Added sale price to the listing post view
 
-/* 1.04 */
+/* 1.0.4 */
 
 - Add PHP server side verification for the Contact form
 - Added Clearbit Script for User visiting tracking w/ Google Analytics
@@ -81,7 +92,7 @@ Also, Patrick is stupid.
 - Added Social Media in the footer
 - Created a page for the Marketing Team
 
-/* 1.03 */
+/* 1.0.3 */
 
 - comment out search form (For now)
 - Added Snazzy Maps Bower components
@@ -95,7 +106,7 @@ Also, Patrick is stupid.
 - fixed the format of client logos for broker profiles
 - added a class for “.cta-underline-gray”
 
-/* 1.02 */
+/* 1.0.2 */
 
 - Added Bing Webmaster tools verification
 - Changed some default http://schema.org/ declarations
@@ -109,7 +120,7 @@ Also, Patrick is stupid.
 - Fixed the problem where the home page was showing up weird on smaller screens
 - Fixed a problem where case studies were showing up weird on the employee page
 
-/* 1.01 */
+/* 1.0.1 */
 
 - Fixed some typos
 - Layout changes
@@ -118,6 +129,6 @@ Also, Patrick is stupid.
 - font size changes
 - added bottom margin to the broker profile pic
 
-/* 1.00 */
+/* 1.0.0 */
 
 - First version of the new RESOURCE website

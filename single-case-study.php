@@ -27,10 +27,12 @@
 
 				<div class="quick-facts d-2of3 t-all m-all">
 					
-					<div class="case-study-icon left">
+					<div class="case-study-icon">
 						<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">	
 					</div>
+
 					<h3 class="right">Company Quick Facts</h3>
+					<p><?php the_title(); ?></p>
 					<p class="right"><?php echo types_render_field( "client-quick-facts", array( "separator" => " | ", 'raw' => true )); ?></p>
 				</div>
 			</section>

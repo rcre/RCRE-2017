@@ -3,12 +3,12 @@
 
 	<div class="pull-r-1of12 pull-l-1of12 cf">
 
-		<form class="t-1of2 d-1of2 cf" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+		<form id="contact-home" class="t-1of2 d-1of2 cf" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 		<h2>Let's Get Started!</h2>
 
 			<input type=hidden name='captcha_settings' value='{"keyname":"rcre_website_2016","fallback":"true","orgId":"00D15000000NClj","ts":""}'>
-			<input type=hidden name="oid" value="00D15000000NClj">
+			<input id="oid" type=hidden name="oid" value="">
 			<input type=hidden name="retURL" value="https://rcre.com/thank-you">
 
 			<div class="m-all t-1of2 d-1of2">
@@ -40,7 +40,7 @@
 			<div class="m-all t-1of2 d-1of2">
 				<label for="company">Who are you?</label>
 				<select id="00N1500000HgSot" name="00N1500000HgSot" tabindex="6" title="Client_type">
-				<option value="">--None--</option>
+				<option value="">--Select--</option>
 				<option value="Landlord">Landlord</option>
 				<option value="Occupier">Occupier</option>
 				<option value="Investor">Investor</option>
@@ -52,7 +52,7 @@
 			<div class="m-all t-1of2 d-1of2 last-col">
 				<label for="company">Industry</label>
 				<select  id="00N1500000HfSlG" name="00N1500000HfSlG" tabindex="7" title="Commercial Industry">
-				<option value="">--None--</option>
+				<option value="">--Select--</option>
 				<option value="Office">Office</option>
 				<option value="Industrial">Industrial</option>
 				<option value="Land">Land</option>

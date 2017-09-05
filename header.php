@@ -18,10 +18,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
-		<meta name="keywords" content="real estate, resource, cre, commercial real estate, lease, office space, industrial, business, research, consulting, owner, occupier, sales,leasing, corporate services, property management, facilities management, project management, mortgage banking, appraisal, development, investment management">
+		<meta name="keywords" content="<?php the_title(); ?>">
 
 		<?php // Safari Pinned tab ?>
-		<link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/website_icon_1.svg" color="#d2db3a">
+		<link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/website_icon_1.svg" color="#75caca">
 
 		<?php // icons & favicons ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-square-dark.png">
@@ -67,7 +67,6 @@
 					  "https://www.pinterest.com/resourcecre",
 					  "https://vimeo.com/resourcecre",
 					  "https://twitter.com/resourcecre"],
-		    "logo":"http://rcre.com/wp-content/uploads/2016/02/RESOURCE-Commercial-Real-Estate-logo-01-01.jpg",
 			"address" : {
 				"@type": "PostalAddress",
 				"addressLocality": "Indianapolis", 
@@ -91,8 +90,6 @@
 		 function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
 		</script>
 		<!-- end Salesforce Contact For ReCaptcha -->
-
-
 	</head>
 
 	<body <?php body_class(); ?>">

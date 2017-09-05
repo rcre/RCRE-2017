@@ -45,6 +45,7 @@ PATRIAL CASE STUDY
 	text-align: center;
 	transition: $trans;
 	height: 100px;
+	width: 100px; // prevents the collapse of the border on SVGs
 
 	&:hover {
 		border: 5px solid $blue;

@@ -104,7 +104,7 @@
 						   		$year_variable = '';
 								
 							while ( $closed_listings ->have_posts() ) : $closed_listings ->the_post();
-
+								echo '<div class="cf">';
 								// Load the custom_date meta field
 					    		$custom_date = get_post_meta( get_the_ID(), 'wpcf-closed-date', true );
 					    		
@@ -116,14 +116,18 @@
 							     * display the year value if the two dates differs
 							     */
 							    if ( $year_variable !== $post_year ) {
-							        echo '<div class="last-col cf"><h4>' . $post_year . '</h4><hr>';
+							    	// If the year is different than the post year output the closing div to the year
+							    	// Also output the new year title and a horizontal line
+							        echo '</div><h4>' . $post_year . '</h4><hr>';
 
+							        // Output the listing as a post
 							    	get_template_part( 'post-formats/content-listing-closed' );
 
 								    // Update the $year_variable value
 								    $year_variable = $post_year;
 
 								} else {
+									// If year does equal post year, just output the listing as a post
 									get_template_part( 'post-formats/content-listing-closed' );
 								}
 					
@@ -131,6 +135,7 @@
 								?>
 
 							<?php endwhile;   ?>
+							</div> <?php // This is the closing div for the last year section ?>
 						</div>
 				 	</section>
 				
