@@ -2076,6 +2076,12 @@
 		"oAP": "\/build\/library\/partials\/mail.php",
 		"oF": 0
 		},
+	"\/library\/partials\/sectionCareers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/library\/partials\/sectionCareers.php",
+		"oF": 0
+		},
 	"\/library\/partials\/sectionCaseStudy.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2796,7 +2802,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/library\/css\/style.css",
+		"oAP": "\/library\/css\/style.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
@@ -3308,7 +3314,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 525992920
+	"lastBuiltDate": 526337421
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4698,7 +4704,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/rcre.dev",
+	"externalServerAddress": "https:\/\/rcre-090517.dev",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

@@ -23,14 +23,14 @@ though, go for it.
     text-decoration: underline;
 
     // show links on printed pages
-    &:after {
-      content: " (" attr(href) ")";
-    }
+    // &:after {
+    //   content: " (" attr(href) ")";
+    // }
 
     // show title too
-    abbr[title]:after {
-      content: " (" attr(title) ")";
-    }
+  //   abbr[title]:after {
+  //     content: " (" attr(title) ")";
+  //   }
   }
 
   .ir a:after,

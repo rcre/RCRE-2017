@@ -15,6 +15,19 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.3.0 */
+
+- Add titles to a tags for when people hover over links
+- Created a partial for the careers page grid
+- Fixed the problem where text was aligning right on the contact form
+- Changed the wernke “closed” section from 50 listings to 100 listings
+- Fixed a setting where links were showing up on print verions of the site
+- Reset global header margins and paddings, becuase they were all over the place
+- Fixed a problem with how the UVP styles were showing up
+- Fixed the mobile overflow of the "Our Clients" section
+- Took out the requirement for phone pattern, it wasn't working on the mobile version
+- 
+
 /* 1.1.1 */
 
 - Converted salesforce oid to JS

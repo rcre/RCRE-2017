@@ -4,18 +4,18 @@ MODULE: SERVICE DESCRIPTION
 
 	// Main Idea with three sub-ideas
 	.uvp {
+
+		padding: 0px 10px;
+
 		p {
 			border: 2px solid $blue;
 			padding: 20px;
 			border-radius: 10px;
-			margin: 10px;
 			text-align: center;
-			margin: 10px;
 		}
 	}
 
 	.selling-point {
-		// text-align: center;
 		padding: 20px 10px;
 
 		img {
@@ -105,10 +105,10 @@ MODULE: OUR CLIENTS
 	.our-clients {
 		background-color: $lgray;
 		text-align: center;
-		display: block;
+		display: none;
 
-		@media only screen and (min-width: 481px) {
-			display: none;
+		@media only screen and (min-width: 900px) {
+			display: block;
 		}
 
 	ul {

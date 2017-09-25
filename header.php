@@ -103,13 +103,13 @@
 
 				<div id="inner-header" class="cf">
 					<div id="logo" class="m-1of2 t-1of3 d-1of3" itemscope itemtype="http://schema.org/Organization">
-						<a itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
+						<a title="Go to RESOURCE Homepage" itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
 					</div>
 					
 					<div id="mobile-quick-nav" class="last-col">
 					<!-- Call Button -->
 						<div class="m-1of3 t-1of3 d-1of3">
-							<a itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
+							<a title="Call RESOURCE" itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
 						</div>
 						
 					<!-- Open Mobile Menu Button -->
@@ -190,11 +190,11 @@
 							</p>
 						</div>
 						<?php if ( types_render_field( "report-pdf" ) != null ) { ?>
-							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( $post->ID, 'raw' => true ) ); ?>" alt="Download the PDF" target="_blank"></a>
+							<a title="Download Print-friendly Version" class="download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( $post->ID, 'raw' => true ) ); ?>" alt="Download the PDF" target="_blank"></a>
 						<?php } 
 
 						if ( types_render_field( "downloadable-pdf" ) != null ) { ?>
-							<a class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( $post->ID, 'raw' => true)); ?>" alt="Download the PDF" target="_blank"></a>
+							<a title="Download the PDF" class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( $post->ID, 'raw' => true)); ?>" alt="Download the PDF" target="_blank"></a>
 						<?php } ?>
 					</div>
 				</div>

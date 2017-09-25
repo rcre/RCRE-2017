@@ -46,8 +46,8 @@
 			</footer>
 
 		</div>
-
-		<!-- Twitter universal website tag code -->
+		
+	<?php // Twitter universal website tag code ?>
 		<script>
 			!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
 			},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
@@ -56,8 +56,8 @@
 			twq('init','ny24l');
 			twq('track','PageView');
 		</script>
-		<!-- End Twitter universal website tag code -->
 
+	<?php // Google Analytics Script ?>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

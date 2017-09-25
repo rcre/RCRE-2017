@@ -63,7 +63,6 @@ HEADER STYLES
 }
 
 .callout {
-	margin: 140px 0;
 
 	.header-buttons {
 		margin: 30px;
@@ -269,10 +268,12 @@ SECTION STYLES
 section {
 	
 	.uvp {
-		background-image: url('../images/bg/pattern.svg');
-		background-size: 10%;
+		
+		padding: 0;
 
 		p {
+			background-image: url('../images/bg/pattern.svg');
+			background-size: 10%;
 			font-size: 2em;
 		}
 	}

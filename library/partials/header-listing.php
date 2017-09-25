@@ -66,7 +66,7 @@
 					</div>
 			</div>
 
-			<a class="m-1of2 download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( 'raw' => true)); ?>" target="_blank"></a>
+			<a title="Download the PDF" class="m-1of2 download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( 'raw' => true)); ?>" target="_blank"></a>
 		</div>
 	</div>
 </div>

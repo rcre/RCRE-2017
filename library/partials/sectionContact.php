@@ -28,7 +28,7 @@
 
 			<div class="m-all t-1of2 d-1of2 last-col">
 				<label for="phone">Phone</label>
-				<input id="phone" name="phone" tabindex="4" type="tel" placeholder="xxx-xxx-xxxx" pattern="^\d{3}-\d{3}-\d{4}$" required />
+				<input id="phone" name="phone" tabindex="4" type="tel" required />
 			</div>
 
 			<label for="company">Company</label>
