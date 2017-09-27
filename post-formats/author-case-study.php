@@ -10,14 +10,11 @@
 		$parent_content = $parent_post->post_content;
 	?>
 
-<div class="employee m-1of2 t-all d-all">
+<div class="m-1of2 t-all d-all">
 	<!-- Profile Picture -->
-	<img class="broker-profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $parent_id, 'raw' => true )); ?>" alt="<?php echo $parent_name; ?>">
+	<img class="cs-broker-pic" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $parent_id, 'raw' => true )); ?>" alt="<?php echo $parent_name; ?>">
 
 	<h4 class="header-dark header-link"><a href="<?php echo esc_url( get_permalink( $parent_id ) ); ?>"><span itemprop="name"><?php echo $parent_name; ?></span></a></h4>
 
-	<h5><?php echo types_render_field( "profile-title", array( 'post_id' => $parent_id , 'raw' => true ) ); ?></h5>
-
-	<!-- BUTTON: Contact -> PHP Link to Broker's Email -->
-	<a id="cta-border-green" class="green" href="mailto:<?php echo types_render_field( "profile-email-address", array( 'post_id' => $parent_id , 'raw' => true ) ); ?>">Contact</a>
+	<p><?php echo types_render_field( "profile-title", array( 'post_id' => $parent_id , 'raw' => true ) ); ?></p>
 </div> 

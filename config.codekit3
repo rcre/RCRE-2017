@@ -147,12 +147,6 @@
 		"oAP": "\/build\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/CHANGELOG.html": {
 		"ft": 8192,
 		"oA": 1,
@@ -3314,7 +3308,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 526337421
+	"lastBuiltDate": 528211197
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4704,7 +4698,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "https:\/\/rcre-090517.dev",
+	"externalServerAddress": "http:\/\/rcre.dev",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

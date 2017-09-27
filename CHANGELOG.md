@@ -26,7 +26,6 @@ Author: Patrick Hanus
 - Fixed a problem with how the UVP styles were showing up
 - Fixed the mobile overflow of the "Our Clients" section
 - Took out the requirement for phone pattern, it wasn't working on the mobile version
-- 
 
 /* 1.1.1 */
 

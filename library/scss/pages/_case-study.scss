@@ -11,30 +11,27 @@ PATRIAL CASE STUDY
 }
 
 .cs-section {
-	margin: 50px auto;
-	
+	margin: 20px auto;
+	padding-left: 20px;
+
 	aside {
-		margin: 30px 0;
+		float: right;
 	}
 }
 
-.cs-icon {
-	background-image: url('../images/bg/pattern.svg');
-	background-size: 30%;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 10px;
-	box-shadow: 5px 5px 20px rgba( $black, 0.2);
-	margin: 20px;
+.cs-aside {
 
-	img {
-		width: 33%;
-		margin: 33% 0;
+	aside {
+		margin-bottom: 40px;
 	}
+
+	p {
+		font-size: 0.8em;
+	}	
 }
-// Case Study Icon that has the logo inside of it
-.case-study-box {
-	
+
+.cs-broker-pic {
+	width: 100px;
 }
 
 .case-study-icon {
@@ -73,33 +70,30 @@ PATRIAL CASE STUDY
 	margin-top: 0;
 }
 
+.cs-logo-on-page {
+	float: left;
+	padding-right: 25px;
+}
+
 .client-logo {
 	width: 20px;
 	display: inline-block;
 	padding: 30px;
 }
 
-.quick-facts {
-	border: 2px solid $blue;
-	padding: 40px;
-	border-radius: 10px;
-	text-align: center;
-	font-size: 1em;
-}
-
 .client-quote {
+	font-size: 1em;
 	margin: 30px 0;
-	position: relative;
 	border: 2px solid $blue;
-	padding: 50px 40px;
+	padding: 10px;
 	border-radius: 10px;
-	text-align: center;
+	text-align: left;
 
 
 	> p {
 		&::before {
 			content:'"';
-			font-size: 2em;
+			font-size: 4em;
 			line-height: 0.5em;
 			color: $gray;
 			font-family: Times;
@@ -107,7 +101,7 @@ PATRIAL CASE STUDY
 
 		&::after {
 			content:'"';
-			font-size: 2em;
+			font-size: 4em;
 			line-height: 0.5em;
 			color: $gray;
 			font-family: Times;
@@ -116,9 +110,6 @@ PATRIAL CASE STUDY
 }
 
 .client-quote-person {
-	position: absolute;
-	right: 30px;
-	bottom: 10px;
 	font-size: 0.8em;
 	text-align: right;
 

@@ -172,6 +172,7 @@
 			<div id="single-header" style="background-image: url('<?php echo $bannerimg; ?>'); background-repeat: no-repeat; background-size: cover;" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 					<div class="m-padding cf">
+						
 						<div class="m-all pull-r-1of12 pull-l-1of12 t-1of2 d-11of12 cf">
 							
 							<div class="tag blue">
@@ -188,7 +189,9 @@
 							<p class="subtitle">
 							<?php echo types_render_field( "tagline", array( 'raw' => true)); ?>
 							</p>
+
 						</div>
+
 						<?php if ( types_render_field( "report-pdf" ) != null ) { ?>
 							<a title="Download Print-friendly Version" class="download-icon pull-l-1of12" href="<?php echo types_render_field( "report-pdf", array( $post->ID, 'raw' => true ) ); ?>" alt="Download the PDF" target="_blank"></a>
 						<?php } 
