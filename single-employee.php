@@ -50,10 +50,9 @@
 					
 					</div> 
 				
-					<!-- PHP: Broker Contact information -->
+					<?php  // PHP: Broker Contact information ?>
 					<div class="profile-info m-1of2 t-all d-all">
-						
-							<!-- Contact information -->
+							
 							<div itemprop="email" class="header-link email"><?php echo types_render_field( "profile-email-address", array( 'raw' => false) ); ?></div>
 							
 							<div class="broker-office-phone">
@@ -80,9 +79,22 @@
 							<!-- Link to vcard -->
 							<div class="header-link download-icon-dark v-card">
 								<a href="<?php echo(types_render_field( "profile-vcard", array( 'raw' => true) )); ?>">Download vCard</a>
-							</div>
-						
-
+							</div><br>
+							
+							<?php if ( types_render_field( "profile-twitter-url" ) != null ) { ?>
+								<div class="header-link">
+									<a title="Go to the Twitter page" itemprop="sameAs" href="<?php echo types_render_field( "profile-twitter-url", array( 'raw' => true) ); ?>"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+								</div>
+								
+							<?php } ?>
+							
+							<?php if ( types_render_field( "profile-linkedin-url" ) != null ) { ?>
+								<div class="header-link">
+									<a title="Go to the Linkedin page" itemprop="sameAs" href="<?php echo types_render_field( "profile-linkedin-url", array( 'raw' => true) ); ?>"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
+								</div>
+								
+							<?php } ?>
+							
 							<div class="tag gray">
 								<?php echo get_the_term_list( '', 'service', '', '', ''); ?>
 							</div>

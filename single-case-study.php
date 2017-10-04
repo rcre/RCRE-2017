@@ -26,26 +26,33 @@
 			<h4>Services Provided</h4>
 			<div class="header-link"><?php echo get_the_term_list( $post->ID, 'service', '', '</br>', ''); ?></a></div>
 		</aside>
+
+		<?php if ( types_render_field( "client-quick-facts" ) != null ) { ?>
+			<aside>
+				<h4>Company Quick Facts</h4>
+				<p>+ <?php echo types_render_field( "client-quick-facts", array( "separator" => " </br>+ ", 'raw' => true )); ?></p>
+			</aside>
+		<?php } ?>
+
+
+
+		<?php if ( types_render_field( "numbers-to-remember" ) != null ) { ?>
+			<aside>
+				<h4>Statistics</h4>
+				<p>+ <?php echo types_render_field( "numbers-to-remember", array( "separator" => " </br>+ ", 'raw' => true )); ?></p>
+			</aside>
+		<?php } ?>
 			
-		<aside>
-			<h4>Company Quick Facts</h4>
-			<p>+ <?php echo types_render_field( "client-quick-facts", array( "separator" => " </br>+ ", 'raw' => true )); ?></p>
-		</aside>
-			
-		<aside>
-			<h4>Statistics</h4>
-			<p>+ <?php echo types_render_field( "client-quick-facts", array( "separator" => " </br>+ ", 'raw' => true )); ?></p>
-		</aside>
-			
-		<!-- Client Quote -->
-			<?php if ( types_render_field( "client-quote" ) != null ) { ?>
-				<div class="client-quote"><i><?php echo types_render_field( "client-quote", array( 'before' => '<span>&ldquo;</span>', 'raw' => true)); ?></i>
-					<div class="client-quote-person">
-						<p><strong><?php echo types_render_field( "client-quote-person", array( 'raw' => true)); ?></strong></p>
-						<p><?php echo types_render_field( "client-quote-title", array( 'raw' => true)); ?>, <?php the_title(); ?></p>
-					</div>
+
+		<?php if ( types_render_field( "client-quote" ) != null ) { ?>
+			<div class="client-quote"><i><?php echo types_render_field( "client-quote", array( 'before' => '<span>&ldquo;</span>', 'raw' => true)); ?></i>
+				<div class="client-quote-person">
+					<p><strong><?php echo types_render_field( "client-quote-person", array( 'raw' => true)); ?></strong></p>
+					<p><?php echo types_render_field( "client-quote-title", array( 'raw' => true)); ?>, <?php the_title(); ?></p>
 				</div>
-			<?php } ?>
+			</div>
+		<?php } ?>
+		
 	</section>
 
 	<div class="t-2of3 d-3of4">

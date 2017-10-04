@@ -41,7 +41,7 @@
 		
 		<div class="m-1of2 t-1of3 d-1of3">
 			<div class="service-box" itemscope itemtype="http://schema.org/Service">
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icons-speech-consultation.svg" alt="Get real estate advice at RESOURCE">
+				<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-speech-consultation.svg" alt="Get real estate advice at RESOURCE">
 				<h4><a itemprop="name" class="header-link" href="tel:317-663-6000">Get Advice</a></h4>
 				<p itemprop="description">Don&#39;t burden yourself! Let an expert help you get you what you need. No strings attached.</p>
 				<a itemprop="url" class="blue-link" href="tel:317-663-6000" role="telephone">Give us a Call</a>

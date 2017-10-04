@@ -11,18 +11,16 @@
 
 	<div class="pull-r-1of12 pull-l-1of12 cf">
 
-		<aside id="serviceLanding t-1of2 d-1of2 cf">
-			<h2 itemprop="name"><?php get_the_title(); ?></h2>
-			<div itemprop="image">icon</div>
+		<div id="serviceLanding" class="t-1of2 d-1of2 cf">
+			<h2 itemprop="name">Let's Get Started!</h2>
 			<p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore illo accusantium labore tenetur, voluptas ipsa est maiores accusamus temporibus, eligendi voluptatibus, aspernatur quo incidunt explicabo deserunt ratione ut alias odio?</p>
-		</aside>
+		</div>
 
 		<form id="contact-home" class="t-1of2 d-1of2 cf" action="<?php echo $salesforce; ?>" method="POST">
 
 		<input type=hidden name="oid" value="00D15000000NClj">
 		<input type=hidden name="retURL" value="<?php echo $destination; ?>">
 
-		<h2>Let's Get Started!</h2>
 			<div class="m-all t-1of2 d-1of2">
 				<label for="first_name">First Name</label>
 				<input  id="first_name" name="first_name" tabindex="1" type="text" required="required" />

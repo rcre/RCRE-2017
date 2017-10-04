@@ -6,7 +6,7 @@
 			<div class="m-padding">
 				<p>A no-hoops approach gets you a long way. When you do good work, it speaks for itself. Here are just a few of those real stories that we want to share with you.
 				</p>
-				<a title="Go to All Case Studies" id="cta-border-green" href="/case-studies">Read the Case Studies</a>
+				<a title="Go to All Case Studies" class="cta-border-green btn-minify" href="/case-studies">Read the Case Studies</a>
 					<div class="cf">
 						<?php // This will loop through brokers who are a part of this specialty
 						

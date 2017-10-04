@@ -17,6 +17,7 @@ MODULE: SERVICE DESCRIPTION
 
 	.selling-point {
 		padding: 20px 10px;
+		height: 360px; // Prevents the float flow from getting messed up
 
 		img {
 			width: 50px;
@@ -294,3 +295,13 @@ MODULE: Listing Post format
 	}
 }
 
+/***********
+MODULE: Service Landing Page
+***********/
+
+#serviceLanding {
+	p {
+		padding: 20px 60px 0 0;
+	}
+	
+}

@@ -15,6 +15,25 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.3.1 */
+
+- fixed links to icons
+- renamed some icons to be consistent
+- added new icons for careers
+- cleaned up button classes, and fixed in html accordingly
+- tested and added to the new contact form, for landing pages
+- Cleaned up header.php and split up the custom headers again
+- Added the button to the blog header
+- Added section on careers page, showing things we offer
+- Fixed header layouts throughout
+- Fixed a layout issue in the footer social icons
+- Added social icons to employee profile page
+- Deleted some extraneous style classes from case-study partial
+- Fixed layout of team pages
+- Added a shadow to all H1 tags
+- Added google map feature to listing page
+- Changed some of the case study things
+
 /* 1.3.0 */
 
 - Add titles to a tags for when people hover over links

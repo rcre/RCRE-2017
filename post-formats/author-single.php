@@ -16,7 +16,7 @@
 	<div class="m-1of2 t-1of3 d-1of5">
 		<img class="broker-profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>" itemprop="image" alt="<?php echo $broker_name; ?>">
 		
-		<a id="cta-border-green" class="green" href="mailto:<?php echo types_render_field( "profile-email-address", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>">Contact</a>
+		<a class="cta-border-green" href="mailto:<?php echo types_render_field( "profile-email-address", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>">Contact</a>
 	</div> 
 
 	<div class="m-all t-2of3 d-4of5 cf">

@@ -72,6 +72,8 @@ header {
 
 #single-header {
 	text-align: left;
+	padding-top: 90px;
+	padding-bottom: 20px;
 }
 
 #listing-header {
@@ -247,7 +249,7 @@ footer {
 	color: $lgray;
 
 	.social {
-		display: inline-block;
+		//display: inline-block;
 		margin: 20px 10px 20px 0;
 		text-align: center;
 

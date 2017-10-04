@@ -1,4 +1,4 @@
-<!-- VERSION 1: Frontpage Header -->
+<!-- Header 3 - Frontpage Header -->
 <div id="page-header" class="page--Home" role="banner">
 	<!-- Callout Section for the Home Page-->
 	<div class="callout cf">

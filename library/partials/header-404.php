@@ -1,4 +1,4 @@
-<!-- Error 404 -->
+<!-- Header 1 - Error 404 -->
 <div id="page-header" class="page--Home" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 	<!-- Callout Section for the Home Page-->
 	<div class="callout cf">

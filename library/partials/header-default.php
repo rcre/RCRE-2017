@@ -1,4 +1,4 @@
-<!-- VERSION 2: Page, Post and other Headers -->
+<!-- Header 2 - Page, Post and other Headers -->
 <div id="page-header" style="background-image: url('<?php echo $bannerimg; ?>');" role="banner">
 
 	<!-- Callout Section for the Average Page-->

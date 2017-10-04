@@ -37,14 +37,14 @@ over your project's layout.
   padding-right: 0 !important;
 }
 
-@media (max-width: 767px) {
-
-  .grid {
+.grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr) ) ;
     grid-gap: 20px;
     grid-auto-rows: minmax(100px, auto);
   }
+
+@media (max-width: 767px) {
   
   // Global Mobile Padding
   .m-padding {
@@ -88,13 +88,6 @@ over your project's layout.
 
 /* Portrait tablet to landscape */
 @media (min-width: 768px) and (max-width: 1029px) {
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows: minmax(100px, auto);
-  }
 
   .t-all {
     @include grid-col;
@@ -169,13 +162,6 @@ over your project's layout.
 
 /* Landscape to small desktop */
 @media (min-width: 1030px) {
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows: minmax(100px, auto);
-  }
 
   .d-all  {
     @include grid-col;

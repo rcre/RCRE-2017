@@ -1,4 +1,14 @@
-<!-- VERSION 3: Case Studies and Blog Post Headers -->
+<!-- Header 5 - Case Studies and Blog Post Headers -->
+
+	<?php 
+
+	if ( has_post_thumbnail() ) {
+				$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+			} else {
+				$bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
+			}
+
+	 ?>
 
 	<div id="single-header" class="cs-header" style="background-image: url('<?php echo $bannerimg; ?>'); background-repeat: no-repeat; background-size: cover;" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
@@ -7,7 +17,7 @@
 			<div class="m-all pull-r-1of12 pull-l-1of12 t-1of2 d-11of12 cf">
 				
 				<div class="tag blue">
-				<?php echo get_the_term_list( $post->ID, 'specialty', '', 'x', ''); ?>
+				<?php echo get_the_term_list( $post->ID, 'specialty', '', '', ''); ?>
 				</div>
 
 				<?php if ( is_tax('service') ) { ?>
@@ -17,7 +27,7 @@
 				<?php } ?>
 				
 				<h1 class="cs-h1"><?php the_title(); ?></h1>
-				<p class="cs-subtitle">
+				<p class="subtitle">
 				<?php echo types_render_field( "tagline", array( 'raw' => true)); ?>
 				</p>
 			</div>
