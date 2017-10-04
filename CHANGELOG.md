@@ -7,13 +7,18 @@ Author: Patrick Hanus
 
 ## Vesioning
 
-> 0.01 - Quick fixes and emergency problems (~ As Requested)
+> 0.0.1 - Quick fixes and emergency problems (~ As Requested)
 
-> 0.10 - Major fixes and adding minor features (~ Weekly)
+> 0.1.0 - Major fixes and adding minor features (~ Weekly)
 
-> 1.00 - Major Enhancements and Features are added (~ Monthly)
+> 1.0.0 - Major Enhancements and Features are added (~ Monthly)
 
 *******************************************************************
+
+/* 1.3.2 */
+
+- Home header buttons had the wrong class so was missing styles
+- Changed the header height to be auto, becuase I don't think it should be "vh"
 
 /* 1.3.1 */
 

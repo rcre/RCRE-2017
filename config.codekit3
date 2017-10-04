@@ -147,12 +147,6 @@
 		"oAP": "\/build\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/CHANGELOG.html": {
 		"ft": 8192,
 		"oA": 1,
@@ -501,7 +495,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-auction-document.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -511,7 +505,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-auction-gavel.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -521,7 +515,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-auction-paddle.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -541,7 +535,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-book-knowledge.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -561,7 +555,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-brokerage-contract.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -571,7 +565,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-brokerage-lease.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -581,7 +575,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-brokerage-sale.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -591,7 +585,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-cash.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -601,7 +595,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-cell-phone.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -611,7 +605,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-close.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -631,7 +625,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-computer-research.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -641,7 +635,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-computer.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -651,7 +645,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-download.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -661,7 +655,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-focused-on-you.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -671,7 +665,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-football.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -691,7 +685,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-handshake.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -721,7 +715,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-industrial-box-opened.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -731,7 +725,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-industrial-box.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -741,7 +735,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-industrial-building.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -751,7 +745,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-industrial-forklift.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -761,7 +755,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-industrial-hardhat.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -771,7 +765,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-industrial-life-sciences.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -781,7 +775,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-industrial-map.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -791,7 +785,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-industrial-truck.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -801,7 +795,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-investments-calculator.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -811,7 +805,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-investments-dollar-sign.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -821,7 +815,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-investments-graph.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -831,7 +825,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-land-escavator.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -841,7 +835,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-land-surveyor.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -851,7 +845,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-land-trees-v2.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -861,7 +855,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-land-trees.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -871,7 +865,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-lease.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -881,7 +875,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-lightbulb-intelligence.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -891,7 +885,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-menu-burger.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -921,7 +915,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-office-buildings.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -931,7 +925,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-office-corporate.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -941,7 +935,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-office-education.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -951,7 +945,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-office-government.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -961,7 +955,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-office-small-business.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -971,7 +965,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-phone.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -981,7 +975,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-plane.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1001,7 +995,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1011,7 +1005,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-property-mgmt-toolbox.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1021,7 +1015,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-property-mgmt-tools.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1031,7 +1025,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-property-mgmt-truck.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1041,7 +1035,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-resource-logo-lines.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1061,7 +1055,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-retail-credit-card.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1091,7 +1085,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-retail-investments-arrows.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1111,7 +1105,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-sale.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1131,7 +1125,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-search.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1141,7 +1135,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-speech-consultation.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1161,7 +1155,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-tablet.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1171,7 +1165,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-tick-bad.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1181,7 +1175,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-tick-good.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1191,7 +1185,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-us-map-love-indy.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1201,7 +1195,7 @@
 		"oA": 0,
 		"oAP": "\/build\/library\/images\/icons\/icon-van.svg",
 		"oF": 1,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -2906,7 +2900,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/style.css",
+		"oAP": "\/build\/library\/css\/style.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
@@ -3424,7 +3418,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 528732313
+	"lastBuiltDate": 528827481
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
