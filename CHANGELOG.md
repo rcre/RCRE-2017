@@ -15,6 +15,11 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.3.3 */
+
+- Fixed some codekit config stuff
+- Fixed some icons that were not showing up on the career page
+
 /* 1.3.2 */
 
 - Home header buttons had the wrong class so was missing styles
