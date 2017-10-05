@@ -13,7 +13,7 @@
 				
 					if ( types_render_field( "report-pdf" ) != null ) { ?>
 						<div class="pad-top cf">
-							<a id="cta-border-green" class=" d-1of2 green" href="<?php echo types_render_field( "report-pdf", array( 'raw' => true ) ); ?>" target="_blank">Download the report</a>
+							<a class="cta-border-green btn-minify" href="<?php echo types_render_field( "report-pdf", array( 'raw' => true ) ); ?>" target="_blank">Download the report</a>
 						</div>
 					<?php } 
 					

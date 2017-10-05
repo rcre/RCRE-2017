@@ -1,6 +1,6 @@
 <?php // SECTION The Team ?>
 
-<div class="grid">
+<div class="team-grid">
 
 <?php // This will loop through brokers who are a part of this specialty
 

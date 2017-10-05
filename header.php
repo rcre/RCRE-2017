@@ -22,30 +22,18 @@
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
 		<meta name="keywords" content="<?php the_title(); ?>">
-
-		<?php // Safari Pinned tab ?>
-		<link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/website_icon_1.svg" color="#75caca">
-
+		
 		<?php // icons & favicons ?>
-		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-square-dark.png">
-		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
-		<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="<?php echo get_template_directory_uri(); ?>/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/favicon-16x16.png">
-		<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/manifest.json">
-		<meta name="msapplication-TileColor" content="#75caca">
-		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/ms-icon-144x144.png">
-		<meta name="theme-color" content="#75caca">
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="/library/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/library/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/library/favicons/favicon-16x16.png">
+		<link rel="manifest" href="/library/favicons/manifest.json">
+		<link rel="mask-icon" href="/library/favicons/safari-pinned-tab.svg" color="#75caca">
+		<link rel="shortcut icon" href="/library/favicons/favicon.ico">
+		<meta name="msapplication-config" content="/library/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<![endif]-->

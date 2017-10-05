@@ -47,7 +47,8 @@
 
 		</div>
 		
-		<script src="<?php echo get_template_directory_uri(); ?>/library/js/parallax.js"></script>
+		<?php // all js scripts are loaded in library/bones.php ?>
+		<?php wp_footer(); ?>
 
 		<script>
 			var scene = document.getElementById('scene');
@@ -74,8 +75,5 @@
 		  ga('create', 'UA-74181107-1', 'auto');
 		  ga('send', 'pageview');
 		</script>
-		
-		<?php // all js scripts are loaded in library/bones.php ?>
-		<?php wp_footer(); ?>
 	</body>
 </html>

@@ -15,6 +15,22 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.4.0 */
+
+- fixed some padding on the front page
+- Moved all our grid items to css grid, rather than floats
+- updated things to the new RESOURCE logo, favicon included
+- Changed the width of the header callout
+- Added a read-time icon on the front-end
+- Added a helper class for adding header margins back in
+- Added a hover on our service grid and took out extra links
+- Cleaned up some extraneous styles
+- Added block quote styles
+- Added upload resume feature to the careers page
+- Increased Wernke Listings from 100 to 150
+- Cleaned up the look of blog posts and research posts
+- fixed a button for downloading the research report
+
 /* 1.3.3 */
 
 - Fixed some codekit config stuff

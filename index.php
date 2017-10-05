@@ -10,8 +10,8 @@
 
 						<h1 class="archive-title h2"><?php post_type_archive_title(); ?></h1>
 							
-							<section class="service-grid">
-								<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
+							<section class="pull-l-1of12 pull-r-1of12 m-padding">
+								<div class="selling-point-grid">
 								<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						
 									

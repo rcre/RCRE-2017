@@ -116,9 +116,9 @@ header {
 	z-index: 9999;
 
 	#logo {
-		max-width: 225px;
-		padding-top: 12px;
-		padding-left: 12px;
+		max-width: 300px;
+		padding-top: 18px;
+		padding-left: 18px;
 	}
 }
 
@@ -213,6 +213,11 @@ iframe {
 .entry-content {
 	margin-right: 5%;
 	margin-left: 5%;
+
+	img {
+		border-radius: 10px;
+		margin: 20px 0;
+	}
 }
 
 section#authorSingle {

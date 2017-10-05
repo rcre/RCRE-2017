@@ -5,8 +5,6 @@ MODULE: SERVICE DESCRIPTION
 	// Main Idea with three sub-ideas
 	.uvp {
 
-		padding: 0px 10px;
-
 		p {
 			border: 2px solid $blue;
 			padding: 20px;
@@ -16,8 +14,6 @@ MODULE: SERVICE DESCRIPTION
 	}
 
 	.selling-point {
-		padding: 20px 10px;
-		height: 300px; // Prevents the float flow from getting messed up
 
 		img {
 			width: 50px;
@@ -48,56 +44,29 @@ MODULE: SERVICE GRID
 ***********/
 
 	// Grid section, I should $revisit and make this a css grid section
-	.service-grid { 
-		
-		// remove any padding
-		div {
-			padding: 0;
-		}
+
 			
-		// Individual Boxes
-		.service-box {
-			margin: 10px 10px 10px 0px;
-			border: 5px solid $lgray;
-			border-radius: 10px;
-			padding: 20px 0px;
-			text-align: center;
-			position: relative;
-			
+// Individual Boxes
+.service-box {
+	border: 5px solid $lgray;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	transition: 1.0s;
 
-			@media only screen and (min-width: 481px) {
-				margin-top: 60px;
-			}
-			// Attempt to center the images later $revisit
-			img { 
-				top: -60px;
-				width: 25%;
-			}
-			
-			h4 {
-				max-width: 300px;
-				margin: 0 auto;
-			}
+	&:hover, &:focus {
+		box-shadow: 1px 1px 35px rgba( $black, 0.3);
+		transition: 0.5s;
+	}
+	
+	// Attempt to center the images later $revisit
+	img {
+		top: -10px;
+		width: 25%;
+	}
+}
 
-			> a {
-				display: none;
-
-				@media only screen and (min-width: 481px) {
-					display: inline;
-				}
-			}
-
-			p {
-				display: none;
-				padding: 0 25px;
-				min-height: 85px;
-
-				@media only screen and (min-width: 481px) {
-					display: block;
-				}
-			}
-		}
-	} // End Service Grid Styles
 
 /***********
 MODULE: OUR CLIENTS
@@ -303,5 +272,11 @@ MODULE: Service Landing Page
 	p {
 		padding: 20px 60px 0 0;
 	}
-	
+}
+
+/***********
+MODULE: Careers Upload Widget
+***********/
+iframe #box-upload-widget-iframe-39ke2c7v2eo #mod-upload-widget-1 main {
+	height: 200px !important;
 }

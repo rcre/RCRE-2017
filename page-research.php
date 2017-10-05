@@ -11,11 +11,12 @@
 
 		<h1 class="archive-title h2"><?php post_type_archive_title(); ?></h1>
 			
-			<section class="service-grid">
+			<section class="pull-l-1of12 pull-r-1of12 m-padding">
 
-				<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
+				<h2 class="header-dark header-margin">Read the Latest Reports</h2>
+				
+				<div class="selling-point-grid">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-				<h2 class="header-dark">Read the Latest Reports</h2>
 				
 
 				<?php 

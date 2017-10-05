@@ -115,6 +115,19 @@ p {
           font-feature-settings: "liga", "dlig";
 }
 
+blockquote {
+  border: 2px solid $blue;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-image: url('../images/bg/pattern.svg');
+  background-size: 30%;
+  background-repeat: repeat;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 0;
+}
+
 /************ Style Blocks ************/
 
 .listing-details {
@@ -131,6 +144,10 @@ p {
 
 .header-light {
   color: $white;
+}
+
+.header-margin {
+  margin: 30px 0;
 }
 
 .text-right {
@@ -151,7 +168,3 @@ a {
     color: $blue;
   }
 }
-
-
-
-

@@ -9,42 +9,8 @@ be seen on the Desktop.
 
 ******************************************************************/
 
-.wrap {
-  // width: 1240px;
-}
-
-p {
-	font-size: 1.1em;	
-}
-
 .nav {
 	> li {
-		// Show "Search Properties" when you have more screen
-		&:last-child {
-			display: inline-block;
-
-			a {
-				
-				color: $green;
-			}
-		}
+		font-size: 1.3em;
 	}
-}
-
-
-// Make the service boxes more square on desktop
-.service-grid  {
-
-	.service-box {
-		padding: 20% 0 0 0;
-	}
-}
-
-section .slant {
-	width: 60%;
-}
-
-.entry-content {
-	// margin-right: 12.66666667%;
-	// margin-left: 12.66666667%;
 }

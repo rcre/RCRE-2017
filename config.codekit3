@@ -72,7 +72,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/_settings.scss",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -135,9 +135,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.scss",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -318,6 +318,102 @@
 		"oAP": "\/..\/rcre-2017-theme\/library\/css\/style.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/library\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 4892,
+		"oA": 0,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/favicons\/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 13361,
+		"oA": 0,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 4597,
+		"oA": 0,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/library\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 998,
+		"oA": 0,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1587,
+		"oA": 0,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/library\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/library\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4122,
+		"oA": 0,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.eot": {
 		"ft": 8192,
@@ -502,9 +598,9 @@
 	"\/library\/images\/icons\/icon-auction-document.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-auction-document.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-auction-document.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -512,9 +608,9 @@
 	"\/library\/images\/icons\/icon-auction-gavel.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-auction-gavel.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-auction-gavel.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -522,9 +618,9 @@
 	"\/library\/images\/icons\/icon-auction-paddle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-auction-paddle.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-auction-paddle.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -532,9 +628,9 @@
 	"\/library\/images\/icons\/icon-balloon.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-balloon.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -542,9 +638,9 @@
 	"\/library\/images\/icons\/icon-book-knowledge.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-book-knowledge.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-book-knowledge.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -552,9 +648,9 @@
 	"\/library\/images\/icons\/icon-book.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-book.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -562,9 +658,9 @@
 	"\/library\/images\/icons\/icon-brokerage-contract.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-brokerage-contract.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-brokerage-contract.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -572,9 +668,9 @@
 	"\/library\/images\/icons\/icon-brokerage-lease.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-brokerage-lease.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-brokerage-lease.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -582,9 +678,9 @@
 	"\/library\/images\/icons\/icon-brokerage-sale.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-brokerage-sale.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-brokerage-sale.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -592,9 +688,9 @@
 	"\/library\/images\/icons\/icon-cash.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-cash.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-cash.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -602,9 +698,9 @@
 	"\/library\/images\/icons\/icon-cell-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-cell-phone.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-cell-phone.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -612,9 +708,9 @@
 	"\/library\/images\/icons\/icon-close.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-close.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-close.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -622,9 +718,9 @@
 	"\/library\/images\/icons\/icon-coffee-cup.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-coffee-cup.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-coffee-cup.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -632,9 +728,9 @@
 	"\/library\/images\/icons\/icon-computer-research.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-computer-research.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-computer-research.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -642,9 +738,9 @@
 	"\/library\/images\/icons\/icon-computer.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-computer.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-computer.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -652,9 +748,9 @@
 	"\/library\/images\/icons\/icon-download.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-download.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-download.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -662,9 +758,9 @@
 	"\/library\/images\/icons\/icon-focused-on-you.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-focused-on-you.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-focused-on-you.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -672,9 +768,9 @@
 	"\/library\/images\/icons\/icon-football.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-football.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-football.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -682,9 +778,9 @@
 	"\/library\/images\/icons\/icon-fruit.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-fruit.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -692,9 +788,9 @@
 	"\/library\/images\/icons\/icon-handshake.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-handshake.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-handshake.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -702,9 +798,9 @@
 	"\/library\/images\/icons\/icon-heart.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-heart.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -712,9 +808,9 @@
 	"\/library\/images\/icons\/icon-indiana-with-heart.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-indiana-with-heart.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-indiana-with-heart.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -722,9 +818,9 @@
 	"\/library\/images\/icons\/icon-industrial-box-opened.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-box-opened.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-box-opened.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -732,9 +828,9 @@
 	"\/library\/images\/icons\/icon-industrial-box.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-box.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-box.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -742,9 +838,9 @@
 	"\/library\/images\/icons\/icon-industrial-building.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-building.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-building.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -752,9 +848,9 @@
 	"\/library\/images\/icons\/icon-industrial-forklift.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-forklift.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-forklift.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -762,9 +858,9 @@
 	"\/library\/images\/icons\/icon-industrial-hardhat.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-hardhat.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-hardhat.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -772,9 +868,9 @@
 	"\/library\/images\/icons\/icon-industrial-life-sciences.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-life-sciences.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-life-sciences.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -782,9 +878,9 @@
 	"\/library\/images\/icons\/icon-industrial-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-map.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-map.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -792,9 +888,9 @@
 	"\/library\/images\/icons\/icon-industrial-truck.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-truck.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-industrial-truck.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -802,9 +898,9 @@
 	"\/library\/images\/icons\/icon-investments-calculator.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-investments-calculator.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-investments-calculator.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -812,9 +908,9 @@
 	"\/library\/images\/icons\/icon-investments-dollar-sign.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-investments-dollar-sign.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-investments-dollar-sign.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -822,9 +918,9 @@
 	"\/library\/images\/icons\/icon-investments-graph.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-investments-graph.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-investments-graph.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -832,9 +928,9 @@
 	"\/library\/images\/icons\/icon-land-escavator.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-land-escavator.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-land-escavator.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -842,9 +938,9 @@
 	"\/library\/images\/icons\/icon-land-surveyor.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-land-surveyor.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-land-surveyor.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -852,9 +948,9 @@
 	"\/library\/images\/icons\/icon-land-trees-v2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-land-trees-v2.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-land-trees-v2.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -862,9 +958,9 @@
 	"\/library\/images\/icons\/icon-land-trees.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-land-trees.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-land-trees.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -872,9 +968,9 @@
 	"\/library\/images\/icons\/icon-lease.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-lease.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-lease.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -882,9 +978,9 @@
 	"\/library\/images\/icons\/icon-lightbulb-intelligence.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-lightbulb-intelligence.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-lightbulb-intelligence.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -892,9 +988,9 @@
 	"\/library\/images\/icons\/icon-menu-burger.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-menu-burger.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-menu-burger.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -902,9 +998,9 @@
 	"\/library\/images\/icons\/icon-mini-skyline.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-mini-skyline.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-mini-skyline.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -922,9 +1018,9 @@
 	"\/library\/images\/icons\/icon-office-buildings.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-office-buildings.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-office-buildings.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -932,9 +1028,9 @@
 	"\/library\/images\/icons\/icon-office-corporate.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-office-corporate.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-office-corporate.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -942,9 +1038,9 @@
 	"\/library\/images\/icons\/icon-office-education.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-office-education.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-office-education.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -952,9 +1048,9 @@
 	"\/library\/images\/icons\/icon-office-government.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-office-government.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-office-government.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -962,9 +1058,9 @@
 	"\/library\/images\/icons\/icon-office-small-business.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-office-small-business.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-office-small-business.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -972,9 +1068,9 @@
 	"\/library\/images\/icons\/icon-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-phone.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-phone.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -982,9 +1078,9 @@
 	"\/library\/images\/icons\/icon-plane.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-plane.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-plane.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1002,9 +1098,9 @@
 	"\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1012,9 +1108,9 @@
 	"\/library\/images\/icons\/icon-property-mgmt-toolbox.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-property-mgmt-toolbox.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-property-mgmt-toolbox.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1022,9 +1118,9 @@
 	"\/library\/images\/icons\/icon-property-mgmt-tools.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-property-mgmt-tools.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-property-mgmt-tools.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1032,9 +1128,9 @@
 	"\/library\/images\/icons\/icon-property-mgmt-truck.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-property-mgmt-truck.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-property-mgmt-truck.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1042,9 +1138,9 @@
 	"\/library\/images\/icons\/icon-resource-logo-lines.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-resource-logo-lines.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-resource-logo-lines.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1052,9 +1148,9 @@
 	"\/library\/images\/icons\/icon-retail-Building.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Building.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Building.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1062,9 +1158,9 @@
 	"\/library\/images\/icons\/icon-retail-credit-card.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-retail-credit-card.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-credit-card.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1072,9 +1168,9 @@
 	"\/library\/images\/icons\/icon-retail-Dining.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Dining.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Dining.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1082,9 +1178,9 @@
 	"\/library\/images\/icons\/icon-retail-Grocery.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Grocery.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Grocery.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1092,9 +1188,9 @@
 	"\/library\/images\/icons\/icon-retail-investments-arrows.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-retail-investments-arrows.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-investments-arrows.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1102,9 +1198,9 @@
 	"\/library\/images\/icons\/icon-retail-Merchandise.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Merchandise.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Merchandise.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1112,9 +1208,9 @@
 	"\/library\/images\/icons\/icon-sale.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-sale.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-sale.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1132,9 +1228,9 @@
 	"\/library\/images\/icons\/icon-search.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-search.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-search.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1142,9 +1238,9 @@
 	"\/library\/images\/icons\/icon-speech-consultation.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-speech-consultation.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-speech-consultation.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1152,9 +1248,9 @@
 	"\/library\/images\/icons\/icon-sprouting-plant.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-sprouting-plant.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-sprouting-plant.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1162,9 +1258,9 @@
 	"\/library\/images\/icons\/icon-tablet.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-tablet.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-tablet.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1172,9 +1268,9 @@
 	"\/library\/images\/icons\/icon-tick-bad.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-tick-bad.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-tick-bad.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1182,9 +1278,9 @@
 	"\/library\/images\/icons\/icon-tick-good.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-tick-good.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-tick-good.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1192,9 +1288,9 @@
 	"\/library\/images\/icons\/icon-us-map-love-indy.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-us-map-love-indy.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-us-map-love-indy.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -1202,9 +1298,9 @@
 	"\/library\/images\/icons\/icon-van.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/images\/icons\/icon-van.svg",
-		"oF": 3,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-van.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -2087,9 +2183,9 @@
 	"\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -2097,9 +2193,9 @@
 	"\/library\/images\/specialties\/specialty-panel-2-graph.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/images\/specialties\/specialty-panel-2-graph.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -2107,9 +2203,9 @@
 	"\/library\/images\/specialties\/specialty-panel-2-lines.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/images\/specialties\/specialty-panel-2-lines.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -2117,9 +2213,9 @@
 	"\/library\/images\/specialties\/specialty-panel-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/images\/specialties\/specialty-panel-3.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -2384,8 +2480,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/css\/admin.css",
-		"oF": 0,
+		"oAP": "\/library\/css\/admin.css",
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2468,8 +2564,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/css\/editor-style.css",
-		"oF": 0,
+		"oAP": "\/library\/css\/editor-style.css",
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2663,8 +2759,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/css\/ie.css",
-		"oF": 0,
+		"oAP": "\/library\/css\/ie.css",
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2676,8 +2772,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/css\/login.css",
-		"oF": 0,
+		"oAP": "\/library\/css\/login.css",
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2923,8 +3019,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/rcre-2017-theme\/rcre-2017-theme\/library\/css\/style.css",
-		"oF": 0,
+		"oAP": "\/library\/css\/style.css",
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -3441,7 +3537,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 528865358
+	"lastBuiltDate": 528866969
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -5581,7 +5677,8 @@
 			"flagValue": 80
 			}
 		},
-	"uglifyReservedNamesString": "$"
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": "..\/rcre-2017-theme"
 	},
 "settingsFileVersion": "3"
 }

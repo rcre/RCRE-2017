@@ -1,7 +1,7 @@
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
-<section id="need-help" class="">
+<section id="need-help">
 	
 	<div class="m-padding">
 		<h2>Know the market before your competition.</h2>

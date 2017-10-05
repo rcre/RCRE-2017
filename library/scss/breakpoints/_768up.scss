@@ -33,12 +33,21 @@ p {
 	font-size: 0.9em;
 }
 
+blockquote {
+	width: 150%;
+    margin: 50px -25%;
+}
 
 /*********************
 HEADER STYLES
 *********************/
 
-// Search, Call or Menu
+#inner-header #logo {
+	max-width: 250px;
+	padding-top: 15px;
+	padding-left: 13px;
+}
+
 #mobile-quick-nav {
 	
 	// Hide the menu burger
@@ -131,8 +140,9 @@ NAVIGATION STYLES
 			padding-bottom: 15px;
 
 			li {
+				text-transform: uppercase;
 				display: inline-block;
-				margin: 0 5%;
+				margin: 0 4%;
 				vertical-align: top;
 				position: relative;
 
@@ -143,7 +153,6 @@ NAVIGATION STYLES
 					display: block;
 					border: none;
 					text-decoration: none;
-					text-transform: none;
 
 					&:hover,
 					&:focus {
@@ -161,6 +170,7 @@ NAVIGATION STYLES
 					text-decoration: none;
 					padding-top: 10px;
 					font-weight: 400;
+					text-transform: none;
 				}
 
 				&:first-child {}

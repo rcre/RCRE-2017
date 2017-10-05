@@ -87,7 +87,7 @@
 								$args = array(
 									'post_type' => 'listing',
 									'post_status' => 'publish',
-									'posts_per_page' => 100,
+									'posts_per_page' => 150,
 									'order' => 'DESC',
 									'orderby' => 'meta_value',
 									'meta_key'  => 'wpcf-closed-date',

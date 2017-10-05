@@ -13,7 +13,7 @@ if ( has_post_thumbnail() ) {
 		<div class="header header-default"	data-depth="0.10" style="background-image: url('<?php echo $bannerimg; ?>');" role="banner" itemscope itemtype="http://schema.org/WPHeader"></div>
 
 		<div data-depth="0.30" class="callout cf">
-			<div class="m-all t-1of2 d-1of2 center cf">
+			<div class="m-all t-2of3 d-4of7 center cf">
 				<h1 class="page-title text-center" itemprop="headline">
 					<?php the_title(); ?>
 				</h1>

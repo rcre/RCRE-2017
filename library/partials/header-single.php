@@ -26,10 +26,17 @@
 				</div>
 				<?php } ?>
 				
-				<h1 class="cs-h1"><?php the_title(); ?></h1>
+				<h1><?php the_title(); ?></h1>
+				
 				<p class="subtitle">
 				<?php echo types_render_field( "tagline", array( 'raw' => true)); ?>
 				</p>
+
+				<?php if ( types_render_field( "read-time" ) == null ) { ?>
+					<div class="time-to-read"><?php echo types_render_field( "read-time", array( $post->ID, 'raw' => true)); ?><h5>4 Minute Read</h5></div>
+				<?php } ?>
+
+
 			</div>
 
 			<?php if ( types_render_field( "report-pdf" ) != null ) { ?>
@@ -39,5 +46,7 @@
 			<?php if ( types_render_field( "downloadable-pdf" ) != null ) { ?>
 					<a title="Download the PDF" class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( $post->ID, 'raw' => true)); ?>" alt="Download the PDF" target="_blank"></a>
 				<?php } ?>
+
+			
 		</div>
 	</div>
