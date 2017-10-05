@@ -98,7 +98,7 @@ header#service {
 
 .page {
 	&--Home {
-		background-image: url('../images/home-desktop.jpg');
+		background-image: url('../images/home-desktop.jpg') !important;
 	}
 
 	&--Blog {

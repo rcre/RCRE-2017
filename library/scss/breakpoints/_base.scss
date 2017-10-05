@@ -25,7 +25,7 @@ ol, ul {
 // Mobile Font Sizes
 
 h1, .h1 {
-	font-size: 1.5em;
+	font-size: 2.1em;
 }
 
 h3, .h3 {
@@ -61,13 +61,36 @@ header {
 	position: relative;
 }
 
-#page-header {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center bottom;
-	padding-top: 140px;
-	width: 100%;
-	text-align: center;
+#scene {
+	overflow: hidden;
+}
+
+
+.header {
+	background: no-repeat 50% 80%;
+	position: absolute;
+	height: 650px;
+	display: block;
+	width: 120%;
+    left: -5% !important;
+    top: -5% !important;
+    bottom: -15px;
+    text-align: center;
+
+	&:after {
+	    background-color:  rgba(0, 0, 0, 0.22);
+	    position: absolute;
+	    display: block;
+	    content: "";
+	    height: 700px;
+	    width: 110%;
+    	left: -5%;
+    	top: -5%;	
+    }
+}
+
+.header-default {
+	height: 450px;
 }
 
 #single-header {
@@ -121,7 +144,10 @@ header {
 }
 
 .callout {
+	padding: 100px 20px 20px 20px;
 	display: block;
+	width: 100%;
+    text-align: center;
 
 	.header-buttons {
 		margin: 40px;
@@ -158,10 +184,11 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
+	z-index: 5;
 	background-color: white;
 	
 	#main {
-		margin-top: 10px;
+		// margin-top: 10px; Why was this margin here?
 		margin-bottom: 0.5em;
 	}
 }

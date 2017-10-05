@@ -47,6 +47,17 @@
 
 		</div>
 		
+		<script src="<?php echo get_template_directory_uri(); ?>/library/js/parallax.min.js"></script>
+
+		<script>
+
+		// Nothing new here...it's all in the CSS!
+		// And don't forget to activate the pointerEvents option
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+
+		</script>
+
 	<?php // Twitter universal website tag code ?>
 		<script>
 			!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
