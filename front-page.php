@@ -3,6 +3,9 @@
 	<div id="content">
 		
 	<?php // Bar that shows the past clients we have worked with ?>
+
+	<div class="section-pllx">
+		<div class="layer-pllx pllx-base">
 		<div class="our-clients cf">
 			<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
 				<ul>
@@ -47,7 +50,8 @@
 						</div>
 					</div>
 				</section>
-
+		</div><!-- end layer-pllx -->
+	</div><!-- end section-pllx -->
 
 	<?php 
 		get_template_part('library/partials/sectionServiceGrid');

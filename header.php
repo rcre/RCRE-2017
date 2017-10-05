@@ -15,7 +15,10 @@
 		<title>RESOURCE | <?php the_title(); ?></title>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
+		<!-- Behavioral Meta Data -->
+  		<meta name="apple-mobile-web-app-capable" content="yes">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
 		<meta name="keywords" content="<?php the_title(); ?>">
@@ -97,7 +100,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-		<div id="container">
+		<div id="container" class="parallax">
 
 			<header role="banner">
 
@@ -172,22 +175,7 @@
 			} elseif ( is_single() ) {
 				get_template_part('library/partials/header-single');
 
-			} else { ?>
-			<!-- Header 6 - Header for all other pages -->
-				<div id="page-header" style="background-image: url('<?php echo $bannerimg; ?>');" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-					<div class="callout cf">
-						<div class="m-all t-1of2 d-1of2 center cf">
-							<h1 class="page-title" itemprop="headline">
-								<?php the_title(); ?>
-							</h1>
-							<p class="subtitle"><?php echo types_render_field( "tagline", array( 'raw' => true)); ?></p>
-							
-							<?php if ( is_home() ) { ?>
-								<a title="Read More" class="cta-border-green btn-minify" href="<?php echo esc_url( get_permalink( ) ); ?>">Read More</a>
-							<?php } ?>
-							
-						</div>
-					</div>
-				</div>
-			<?php } ?>
+			} else {
+				get_template_part('library/partials/header-default');
+			} ?>
 				

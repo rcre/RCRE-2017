@@ -2144,6 +2144,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/library\/js\/parallax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/rcre-2017-theme\/library\/js\/min\/parallax.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/library\/js\/scripts-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2873,6 +2883,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/library\/scss\/partials\/_parallax.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/rcre-2017-theme\/library\/scss\/css\/_parallax.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/library\/scss\/partials\/_print.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2920,7 +2943,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/rcre-2017-theme\/library\/css\/style.css",
+		"oAP": "\/library\/css\/style.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
