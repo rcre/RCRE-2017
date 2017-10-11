@@ -140,10 +140,12 @@ blockquote {
 
 .header-dark {
   color: $dgray;
+  text-shadow: none;
 }
 
-.header-light {
-  color: $white;
+a.header-light {
+  color: $white !important;
+  border-color: white !important;
 }
 
 .header-margin {

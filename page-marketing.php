@@ -29,9 +29,6 @@
 
 		<?php endwhile; endif; ?>
 
-			<footer class="cf">
-				<?php get_template_part('library/partials/sectionContact'); ?>
-			</footer>
 		</main>	
 	</div>
 </div>

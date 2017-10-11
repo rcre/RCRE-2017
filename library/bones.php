@@ -136,9 +136,8 @@ function bones_scripts_and_styles() {
 		and your site will load faster.
 		*/
 		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'scripts' );
 		wp_enqueue_script( 'parallax' );
-
+		wp_enqueue_script( 'scripts' );
 	}
 }
 

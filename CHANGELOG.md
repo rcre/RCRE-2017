@@ -15,6 +15,26 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+
+
+/* 1.5.0 */
+
+- Moved all footer scripts from the footer to the scripts.js file
+- Moved the timestamp function from the header to the scripts.js file
+- Changed the order of the scripts that are enqued, parallax first
+- Added if statements to the JS to avoid errors if the ID doesn’t exist
+- Updated the Error 404 header to match the main header
+- Changed the address url to be white on listing pages
+- Added padding the employee page header
+- Added a grid for case studies, fixing a layout issue on the employee pg
+- Removed the drop shadow on dark headers
+- Removed the contact form on the footer of team pages
+- fixed a problem where white margins were showing up on contact forms
+- Changed the wording on the blog service card on the homepage.
+- Case Studies now show up on the correct/relevant pages
+- Added CSS Grid functionality to the Case Study archive page
+- Increased number of Wernke Team closed listings
+
 /* 1.4.0 */
 
 - fixed some padding on the front page

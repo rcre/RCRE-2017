@@ -47,33 +47,7 @@
 
 		</div>
 		
-		<?php // all js scripts are loaded in library/bones.php ?>
+		<?php // all js scripts are loaded by the library/bones.php ?>
 		<?php wp_footer(); ?>
-
-		<script>
-			var scene = document.getElementById('scene');
-			var parallax = new Parallax(scene);
-		</script>
-
-	<?php // Twitter universal website tag code ?>
-		<script>
-			!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-			},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-			a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-			// Insert Twitter Pixel ID and Standard Event data below
-			twq('init','ny24l');
-			twq('track','PageView');
-		</script>
-
-	<?php // Google Analytics Script ?>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-74181107-1', 'auto');
-		  ga('send', 'pageview');
-		</script>
 	</body>
 </html>

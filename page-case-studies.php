@@ -7,13 +7,13 @@
 
 		<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
-		<section class="pad-top">
-					<div class="pull-l-1of12 pull-r-1of12 cf">
-						<div class="uvp">
-						<?php echo types_render_field( "excerpt" ); ?>
-						</div>
-					</div>
-				</section>
+		<section class="pad-top m-padding">
+			<div class="pull-l-1of12 pull-r-1of12 cf">
+				<div class="uvp">
+				<?php echo types_render_field( "excerpt" ); ?>
+				</div>
+			</div>
+		</section>
 
 		<h1 class="archive-title h2"><?php post_type_archive_title(); ?></h1>
 			
@@ -23,6 +23,7 @@
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<h2 class="header-dark">Read the Latest Case Studies</h2>
 				
+				<section class="case-study-grid">
 
 				<?php 
 					$args = array(
@@ -36,28 +37,31 @@
 					   //var_dump($custom_team); // debugging only
 					    while ( $custom_team->have_posts() ) : $custom_team->the_post(); ?>
 						
-						<div class="m-1of3 t-1of3 d-1of3 pad-top">
-							
-							<a href="<?php echo esc_url( get_permalink() ); ?>">
-								<div class="case-study-icon">
-								<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">	
+						
+							<div class="pad-top">
+								
+								<a href="<?php echo esc_url( get_permalink() ); ?>">
+									<div class="case-study-icon">
+									<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="Client Logo">	
+									</div>
+								</a>
+
+								<div class="tag gray pad-top">
+									<?php echo get_the_term_list( '', 'service', '', '', ''); ?>
 								</div>
-							</a>
 
-							<div class="tag gray pad-top">
-								<?php echo get_the_term_list( '', 'service', '', '', ''); ?>
+								<div class="tag blue pad-top">
+									<?php echo get_the_term_list( '', 'specialty', '', '', ''); ?>
+								</div>
 							</div>
-
-							<div class="tag blue pad-top">
-								<?php echo get_the_term_list( '', 'specialty', '', '', ''); ?>
-							</div>
-						</div>
+						
 
 						<?php // End the loop.
 						endwhile; 
 
 						wp_reset_postdata();
 					?>
+				</section>
 
 					<?php endwhile; ?>
 				</div>

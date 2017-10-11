@@ -8,11 +8,34 @@
 				</p>
 				<a title="Go to All Case Studies" class="cta-border-green btn-minify" href="/case-studies">Read the Case Studies</a>
 					<div class="cf">
-						<?php // This will loop through brokers who are a part of this specialty
+						<?php // This will loop through case studies that are relevant to the page things are on.
 						
+						global $post;
+						$post_slug=$post->post_name; // this is for testing, I might use this to grab the page slug
+
+						if ( has_term( '', 'specialty' )) {
+							$custom_taxterms = wp_get_object_terms( $post->ID, 'specialty', array('fields' => 'slugs'));
+							$tax = 'specialty';
+						
+						} elseif ( has_term( '', 'service' ) ) {
+							$custom_taxterms = wp_get_object_terms( $post->ID, 'service', array('fields' => 'slugs'));
+							$tax = 'service';
+						
+						} elseif ( has_term( '', 'teams' ) ) {
+							$custom_taxterms = wp_get_object_terms( $post->ID, 'teams', array('fields' => 'slugs'));
+							$tax = 'teams';
+						}
+
 						$args = array(
 							'post_type' => array('case-study'),
-							'showposts' => 3,							
+							'showposts' => 3,
+							'tax_query' => array(
+							    array(
+							        'taxonomy' => $tax,
+							        'field' => 'slug',
+							        'terms' => $custom_taxterms
+							    )
+							)						
 						);
 						
 						$custom_posts = new WP_Query( $args );

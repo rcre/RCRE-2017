@@ -2480,8 +2480,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/admin.css",
-		"oF": 3,
+		"oAP": "-theme\/library\/css\/admin.css",
+		"oF": 7,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2564,8 +2564,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/editor-style.css",
-		"oF": 3,
+		"oAP": "-theme\/library\/css\/editor-style.css",
+		"oF": 7,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2759,8 +2759,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/ie.css",
-		"oF": 3,
+		"oAP": "-theme\/library\/css\/ie.css",
+		"oF": 7,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2772,8 +2772,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/login.css",
-		"oF": 3,
+		"oAP": "-theme\/library\/css\/login.css",
+		"oF": 7,
 		"oS": 3,
 		"uL": 1
 		},
@@ -3019,8 +3019,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/library\/css\/style.css",
-		"oF": 3,
+		"oAP": "-theme\/library\/css\/style.css",
+		"oF": 7,
 		"oS": 3,
 		"uL": 1
 		},
@@ -3537,7 +3537,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 528866969
+	"lastBuiltDate": 529422327
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

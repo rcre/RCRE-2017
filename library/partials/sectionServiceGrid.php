@@ -37,7 +37,7 @@
 			<div class="service-box" itemscope itemtype="http://schema.org/Service">
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-computer.svg" alt="Learn more from our blog">
 				<h4><a itemprop="url" itemprop="name" class="header-link" href="<?php echo site_url().'/blog'; ?>">Learn</a></h4>
-				<p itemprop="description">What good is knowledge if you don&#39;t share? We compiled a database of info, free for you.</p>
+				<p itemprop="description">What good is knowledge if you don&#39;t share? Check out some of the latest blog posts.</p>
 			</div>
 		</div>
 	</div>

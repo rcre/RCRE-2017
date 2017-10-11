@@ -60,7 +60,7 @@
 
 	<?php } } else { ?>
 
-		<section class="pull-l-1of12 pull-r-1of12 m-all cf">
+		<section class="pull-l-1of12 pull-r-1of12 m-padding cf">
 			<?php the_content(); ?>
 		</section>
 		

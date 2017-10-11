@@ -10,7 +10,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf" role="main" itemscope itemtype="http://schema.org/Product">
+		<main id="main" class="cf m-padding" role="main" itemscope itemtype="http://schema.org/Product">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -24,7 +24,7 @@
 						  height="350"
 						  frameborder="0"
 						  src="https://www.google.com/maps?key=AIzaSyAVyvyZSwaa7p6T0z0eIYDLeSb2YNauVs8
-						    &q=<?php echo(types_render_field( "address", array( 'raw' => true) )); ?>&maptype=satellite&output=embed" allowfullscreen>
+						    &q=<?php echo(types_render_field( "address", array( 'raw' => true) )); ?>+<?php echo(types_render_field( "city", array( 'raw' => true) )); ?>+<?php echo(types_render_field( "state", array( 'raw' => true) )); ?>&maptype=satellite&output=embed" allowfullscreen>
 							</iframe>
 						</div>
 						
@@ -49,7 +49,7 @@
 						<?php if ( types_render_field( "listing-features" ) != null ) { ?>
 							<h2 class="header-dark">Property Features</h2>
 
-							<ul><?php echo(types_render_field( "listing-features", array( 'raw' => false ) )); ?></ul>
+							<?php echo ( types_render_field( "listing-features", array( 'raw' => false ) )); ?>
 						<?php } ?>
 					</div>
 				
@@ -95,8 +95,8 @@
 
 		<footer class="article-footer cf">
 			<?php get_template_part('library/partials/sectionMailChimpSmall'); ?>
-				<?php get_template_part('library/partials/sectionContact'); ?>
-			</footer>
+			<?php get_template_part('library/partials/sectionContact'); ?>
+		</footer>
 
 	</div>
 

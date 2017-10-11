@@ -37,7 +37,7 @@
 				<h1 itemprop="name"><?php the_title(); ?></h1>
 				
 				<div class="header-link">
-					<a href="<?php echo(types_render_field( "google-maps-url", array( 'raw' => true) )); ?>" ><?php echo(types_render_field( "address", array( 'raw' => true) )); ?></a>
+					<a class="header-light" href="<?php echo(types_render_field( "google-maps-url", array( 'raw' => true) )); ?>" ><?php echo(types_render_field( "address", array( 'raw' => true) )); ?></a>
 				</div>
 				
 			</div>

@@ -6,7 +6,7 @@
 
 		<main id="main" class="m-all t-all cf" role="main" itemscope itemprop="department" itemtype="http://schema.org/LocalBusiness">
 
-			<section id="SpecialtyTeam" class="pull-r-1of12 pull-l-1of12 cf pad-top m-padding">
+			<section id="SpecialtyTeam" class="pull-r-1of12 pull-l-1of12 cf m-padding pad-top">
 					<h2 class="header-dark pad-top">The Wernke Team</h2>
 					<?php get_template_part('library/partials/sectionTeam'); ?>
 				</section>
@@ -87,7 +87,7 @@
 								$args = array(
 									'post_type' => 'listing',
 									'post_status' => 'publish',
-									'posts_per_page' => 150,
+									'posts_per_page' => 200,
 									'order' => 'DESC',
 									'orderby' => 'meta_value',
 									'meta_key'  => 'wpcf-closed-date',
@@ -142,13 +142,12 @@
 			</article>
 
 		<?php endwhile; endif; ?>
-
-			<footer class="cf">
-				<?php get_template_part('library/partials/sectionContact'); ?>
-			</footer>
+			
 		</main>
 
-		
+		<footer class="cf">
+				<?php get_template_part('library/partials/sectionContact'); ?>
+			</footer>
 				
 				
 	</div>

@@ -16,14 +16,13 @@
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class('cf pull-r-1of12 pull-l-1of12'); ?> role="article">
 
-			<!-- HEADER: Broker Name, Title and Industry --> 
 				<header class="profile-header m-all t-all d-all cf">
+
 						<a class="back-button" href="<?php echo site_url().'/about/team'; ?>"><h5>&larr;Back to Team</h5></a>
-					<!-- Broker's Name is the Title -->
+
 						<h1 itemprop="name" class="header-dark"><?php the_title(); ?>
 						</h1>
 
-					<!-- PHP Get the Broker's Title and Industry-->
 						<div itemprop="jobTitle">
 							<?php echo types_render_field( "profile-title", array( 'raw' => false) ); ?> 
 	
@@ -33,21 +32,16 @@
 								
 							<?php } ?>
 						</div>
-				
 				</header>
 
-			<!-- ASIDE: Mainly Broker Contact Information -->
-				<aside class="m-all t-1of3 d-1of5 cf">
-				<!-- PHP: Get the Broker's Picture URL and Industry Name-->
+				<aside class="m-all t-1of4 d-1of5 cf">
 				
 					<div class="m-1of2 t-all d-all">
 				
-						<!-- Profile Picture -->
 						<img  class="broker-profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'raw' => true)); ?>" itemprop="image" alt=" <?php the_title(); ?><?php get_the_term_list( $post->ID, 'specialty', '', ', ', ''); ?> ">
 
 						<!-- BUTTON: Contact -> PHP Link to Broker's Email -->
-						<a id="cta-border-green" class="green" href="mailto:<?php echo(types_render_field( "broker-email-address", array( 'raw' => true) )); ?>">Contact</a>
-					
+						<a class="cta-border-green" href="mailto:<?php echo(types_render_field( "broker-email-address", array( 'raw' => true) )); ?>">Contact</a>
 					</div> 
 				
 					<?php  // PHP: Broker Contact information ?>
@@ -95,26 +89,21 @@
 								
 							<?php } ?>
 							
-							<div class="tag gray">
-								<?php echo get_the_term_list( '', 'service', '', '', ''); ?>
+							<div class="pad-top">
+								<div class="tag gray">
+									<?php echo get_the_term_list( '', 'service', '', '', ''); ?>
+								</div>
+
+								<div class="tag blue">
+									<?php echo get_the_term_list( '', 'specialty', '', '', ''); ?>
+								</div>
 							</div>
-
-							<div class="tag blue">
-								<?php echo get_the_term_list( '', 'specialty', '', '', ''); ?>
-							</div>
-					
-
-						
+							
 					</div>
-				<!-- Services -->
-					<div class="m-all t-all d-all">
-						
-					</div>
-
 				</aside>
 			
 			<!-- SECTION: Broker's Bio, Past Work, and Related Case Studies -->
-				<section class="profile-content text-left m-all pull-r-1of12 t-7of12 d-2of3 cf">
+				<section class="profile-content text-left m-all t-1of2 d-2of3 pull-r-1of12 cf">
 				<!-- The Content will just be the biography -->
 					<h3>Duties</h3>
 					<p><?php echo types_render_field( "profile-duties", array( 'raw' => true) ); ?></p>
@@ -141,7 +130,7 @@
 						
 						<h3>Relevant Experience</h3>
 							
-						<div class="grid">
+						<div class="case-study-grid pad-top">
 							
 							<?php 
 								foreach ($child_posts as $child_post) { ?>

@@ -282,6 +282,10 @@ footer {
 	background-color: $dgray;
 	color: $lgray;
 
+	&.footer {
+		border-top: 5px solid white;
+	}
+
 	.social {
 		//display: inline-block;
 		margin: 20px 10px 20px 0;
@@ -293,6 +297,8 @@ footer {
 		}
 	}
 }
+
+
 
 .footer-links {
 
