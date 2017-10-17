@@ -18,16 +18,13 @@
 				<div class="pull-l-1of12 pull-r-1of12 pad-top cf">
 					
 					<div class="m-all t-1of2 d-1of2 cf">
-						<div class="center">
-							<iframe
-						  width="100%"
-						  height="350"
-						  frameborder="0"
-						  src="https://www.google.com/maps?key=AIzaSyAVyvyZSwaa7p6T0z0eIYDLeSb2YNauVs8
-						    &q=<?php echo(types_render_field( "address", array( 'raw' => true) )); ?>+<?php echo(types_render_field( "city", array( 'raw' => true) )); ?>+<?php echo(types_render_field( "state", array( 'raw' => true) )); ?>&maptype=satellite&output=embed" allowfullscreen>
-							</iframe>
-						</div>
-						
+						<?php if ( types_render_field( "flyer-headline" ) != null ) { ?>
+							<h2 class="header-dark"><?php echo(types_render_field( "flyer-headline", array( 'raw' => true) )); ?></h2>
+						<?php } else { ?>
+							<h2 class="header-dark">Property Description</h2>
+						<?php } ?>
+
+						<p itemprop="description"><?php echo(types_render_field( "listing-description", array( 'raw' => true) )); ?></p>
 
 						<a href="<?php echo(types_render_field( "property-flyer", array( 'raw' => true) )); ?>" class="cta-border-green btn-minify" target="_blank">Download Property Flyer</a>
 						
@@ -36,15 +33,8 @@
 						
 					</div>
 
-					<div class="m-all t-1of2 d-1of2 cf">
+					<div class="m-all t-1of2 d-5of12 right cf">
 						
-						<?php if ( types_render_field( "flyer-headline" ) != null ) { ?>
-							<h2 class="header-dark"><?php echo(types_render_field( "flyer-headline", array( 'raw' => true) )); ?></h2>
-						<?php } else { ?>
-							<h2 class="header-dark">Property Description</h2>
-						<?php } ?>
-
-						<p itemprop="description"><?php echo(types_render_field( "listing-description", array( 'raw' => true) )); ?></p>
 
 						<?php if ( types_render_field( "listing-features" ) != null ) { ?>
 							<h2 class="header-dark">Property Features</h2>

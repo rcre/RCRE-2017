@@ -33,7 +33,7 @@
 				</p>
 
 				<?php if ( types_render_field( "read-time" ) == null ) { ?>
-					<div class="time-to-read"><?php echo types_render_field( "read-time", array( $post->ID, 'raw' => true)); ?><h5>4 Minute Read</h5></div>
+					<div class="tag-no-link"><i class="fa fa-bookmark-o" aria-hidden="true"></i> <?php echo types_render_field( "read-time", array( $post->ID, 'raw' => true)); ?> Minute Read </div>
 				<?php } ?>
 
 

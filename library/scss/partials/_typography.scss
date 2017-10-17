@@ -128,6 +128,16 @@ blockquote {
   margin: 0;
 }
 
+.blue-bullets {
+  margin-top: 15px;
+  
+  li:before {
+    content: "+";
+    color: $blue;
+    font-weight: 700;
+  }
+}
+
 /************ Style Blocks ************/
 
 .listing-details {

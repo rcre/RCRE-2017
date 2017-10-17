@@ -138,6 +138,10 @@
 							</div> <?php // This is the closing div for the last year section ?>
 						</div>
 				 	</section>
+
+				 	<section class="cs-section cf">
+					<p class="d-all m-all t-all"><strong>Note:</strong> Additional past projects are available upon request.</p>
+				</section>
 				
 			</article>
 

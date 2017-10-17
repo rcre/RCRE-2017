@@ -16,6 +16,15 @@ Author: Patrick Hanus
 *******************************************************************
 
 
+/* 1.5.1 */
+
+- Removed listings page map
+- Changed the layout a bit for the listings page
+- Added the header darken on the listings page and adjusted padding
+- Converted client lists to a bulleted list
+- Added a line of text on the  bottom of the 
+- Added shadow to case study icon
+- Added an icon to the “4 mins to read” section
 
 /* 1.5.0 */
 

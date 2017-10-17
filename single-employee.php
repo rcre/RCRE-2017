@@ -118,7 +118,7 @@
 
 				<?php if ( types_render_field( "profile-past-client" ) != null ) { ?>
 					<h3>Past Clients</h3>
-					<p><?php echo types_render_field( "profile-past-client", array( "separator" => " | ") ); ?></p>
+					<ul class="blue-bullets"><li> <?php echo types_render_field( "profile-past-client", array( "separator" => " <li> ") ); ?></ul>
 				<?php } ?>
 					
 					

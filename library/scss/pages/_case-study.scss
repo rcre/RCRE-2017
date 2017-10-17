@@ -19,7 +19,11 @@ PATRIAL CASE STUDY
 
 	p {
 		font-size: 0.8em;
-	}	
+	}
+
+	.header-link{
+		display: block;
+	}
 }
 
 .cs-broker-pic {
@@ -32,13 +36,14 @@ PATRIAL CASE STUDY
 	border: 5px solid $lgray;
 	border-radius: 5px;
 	text-align: center;
-	transition: $trans;
+	transition: 1.0s;
 	height: 100px;
 	width: 100px; // prevents the collapse of the border on SVGs
 
-	&:hover {
-		border: 5px solid $blue;
+	&:hover, &:focus {
+		box-shadow: 1px 1px 15px rgba( $black, 0.2);
 		transition: $trans;
+		border-color: darken($lgray, 5%);
 	}
 
 	img {

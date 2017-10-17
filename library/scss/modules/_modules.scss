@@ -57,7 +57,8 @@ MODULE: SERVICE GRID
 
 	&:hover, &:focus {
 		box-shadow: 1px 1px 35px rgba( $black, 0.3);
-		transition: 0.5s;
+		transition: $trans;
+		border-color: darken($lgray, 5%);
 	}
 	
 	// Attempt to center the images later $revisit

@@ -104,6 +104,21 @@ header {
 	background-image: url('../images/bg/pattern.svg');
 	background-size: 10%;
 	background-repeat: repeat;
+	position: relative;
+	z-index: -5;
+	padding-top: 100px;
+
+	&:after {
+	    background-color:  rgba(0, 0, 0, 0.22);
+	    position: absolute;
+	    display: block;
+	    content: "";
+	    height: 700px;
+	    width: 100%;
+    	left: 0;
+    	top: 0;
+    	z-index: -4;
+    }
 }
 
 #inner-header {
@@ -148,7 +163,6 @@ header {
 	padding: 100px 20px 20px 20px;
 	display: block;
 	width: 100%;
-    text-align: center;
     z-index: 5;
 
 	.header-buttons {
@@ -196,8 +210,8 @@ POSTS & CONTENT STYLES
 }
 
 iframe {
-	border: 5px solid $lgray;
-	border-radius: 5px;
+	// border: 5px solid $lgray;
+	// border-radius: 5px;
 }
 .hentry {
 	background-color: $white;
