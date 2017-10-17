@@ -47,100 +47,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/snazzy-info-window\/.bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/.bower.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/snazzy-info-window\/bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/bower.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/snazzy-info-window\/dist\/_settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/_settings.scss",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css.map": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css.map",
-		"oF": 1
-		},
-	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js.map": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js.map",
-		"oF": 1
-		},
-	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.scss",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -2280,12 +2186,6 @@
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/header-single.php",
 		"oF": 1
 		},
-	"\/library\/partials\/mail.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/mail.php",
-		"oF": 0
-		},
 	"\/library\/partials\/sectionCareers.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2303,24 +2203,6 @@
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionContact.php",
 		"oF": 0
-		},
-	"\/library\/partials\/sectionCustomContact.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionCustomContact.php",
-		"oF": 0
-		},
-	"\/library\/partials\/sectionListingMap.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionListingMap.php",
-		"oF": 0
-		},
-	"\/library\/partials\/sectionMailChimp.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionMailChimp.php",
-		"oF": 1
 		},
 	"\/library\/partials\/sectionMailChimpSmall.php": {
 		"ft": 8192,
