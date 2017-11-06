@@ -15,6 +15,16 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+/* 1.6.0 */
+
+- Added styles for dropdown mobile menu
+- Added JS for new mobile menu
+- Added description to careers page resume uploader
+- Fixed header background to span the whole screen
+- Deleted unnecessary styles in 481up scss
+- Re-centered callout text
+- Deleted Mobile menu slide function
+- Added the “made with heart” in the footer
 
 /* 1.5.1 */
 

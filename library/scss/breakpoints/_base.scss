@@ -67,7 +67,8 @@ header {
 
 
 .header {
-	background: no-repeat 50% 80%;
+	background-size: cover; // Fixed the size issue, but may have bugs
+	background-repeat: no-repeat;
 	position: absolute;
 	height: 650px;
 	display: block;
@@ -124,11 +125,10 @@ header {
 #inner-header {
 	top: 0;
 	border-bottom: 3px solid $white;
-	// height: 63px;
 	position: fixed;
 	width: 100%;
 	background-color: darken($gray, 5%);
-	z-index: 9999;
+	z-index: 100;
 
 	#logo {
 		max-width: 300px;
@@ -147,6 +147,7 @@ header {
 		padding: 0.71em 0.5em;
 		width: 60px;
 		text-align: center;
+		margin-right: 63px;
 
 		a, img {
 			width: 30px;

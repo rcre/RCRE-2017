@@ -99,15 +99,10 @@
 						<div class="m-1of3 t-1of3 d-1of3">
 							<a title="Call RESOURCE" itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
 						</div>
-						
-					<!-- Open Mobile Menu Button -->
-						<div id="menu-burger" class="m-1of3 t-1of3 d-1of3">
-							<img aria-hidden aria-label="Open Menu" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-menu-burger.svg" alt="Open Mobile Menu">
-						</div>
 					</div>
 
 					<!-- Top Navigation -->
-						<nav id="main-menu" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 								<?php wp_nav_menu(array(
 		    					         'container' => false,                           // remove nav container
 		    					         'container_class' => 'cf',                 // class of container (should you choose to use it)
@@ -116,23 +111,6 @@
 		    					         'theme_location' => 'main-nav',                 // where it's located in the theme
 		        			             'depth' => 0,                                   // limit the depth of the nav
 		    					         'fallback_cb' => ''                            // fallback function (if there is one)
-								)); ?>
-						</nav>
-
-					<!-- Mobile Navigation (I should add a PHP Function to call one of these)-->
-						<nav id="mobile-menu" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-								<?php wp_nav_menu(array(
-		    					         'container' => false,
-		    					         'container_class' => 'menu cf',
-		    					         'menu' => __( 'The Mobile Menu', 'bonestheme' ),
-		    					         'menu_class' => 'nav top-nav cf',               
-		    					         'theme_location' => 'mobile-nav',                 
-		    					         'before' => '',                                 
-		        			               'after' => '',                                 
-		        			               'link_before' => '',                           
-		        			               'link_after' => '',                             
-		        			               'depth' => 0,                                   
-		    					         'fallback_cb' => ''  
 								)); ?>
 						</nav>
 				</div>

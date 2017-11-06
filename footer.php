@@ -7,7 +7,7 @@
 							<span itemprop="streetAddress">9339 Priority Way West Drive, Suite 120</span><br>
       						<span itemprop="addressLocality">Indianapolis,</span>
       						<span itemprop="addressRegion">IN,</span>
-      						<span itemprop="postalCode">46240</span>
+      						<span itemprop="postalCode">46240</span><br>
 						</p>
 					</div>
 

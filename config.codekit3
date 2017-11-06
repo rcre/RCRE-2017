@@ -7,33 +7,38 @@
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/.gitattributes": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/.gitattributes",
 		"oF": 1
 		},
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/.gitignore",
 		"oF": 1
 		},
 	"\/404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/404.php",
 		"oF": 1
 		},
 	"\/archive.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/archive.php",
 		"oF": 1
 		},
 	"\/BingSiteAuth.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/BingSiteAuth.xml",
@@ -48,22 +53,24 @@
 		"oS": 1
 		},
 	"\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/CHANGELOG.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/CHANGELOG.html",
 		"oF": 0
 		},
 	"\/CHANGELOG.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -78,6 +85,7 @@
 		"uCM": 0
 		},
 	"\/crossdomain.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/crossdomain.xml",
@@ -117,6 +125,7 @@
 		"q": 100
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/favicon.ico",
@@ -134,42 +143,49 @@
 		"q": 100
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/footer.php",
 		"oF": 1
 		},
 	"\/front-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/front-page.php",
 		"oF": 1
 		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/functions.php",
 		"oF": 1
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/header.php",
 		"oF": 1
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/index.php",
 		"oF": 1
 		},
 	"\/library\/admin.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/admin.php",
 		"oF": 1
 		},
 	"\/library\/bones.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/bones.php",
@@ -215,6 +231,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/library\/css\/meanmenu.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/..\/rcre-2017-theme\/library\/css\/meanmenu.min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/library\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -259,6 +285,7 @@
 		"q": 100
 		},
 	"\/library\/favicons\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/browserconfig.xml",
@@ -287,6 +314,7 @@
 		"q": 100
 		},
 	"\/library\/favicons\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/favicons\/favicon.ico",
@@ -322,6 +350,7 @@
 		"prP": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/fonts\/fontawesome-webfont.eot",
@@ -338,24 +367,28 @@
 		"prP": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/library\/fonts\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/fonts\/FontAwesome.otf",
@@ -1051,13 +1084,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-retail-Building.svg": {
+	"\/library\/images\/icons\/icon-retail-building.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Building.svg",
-		"oF": 2,
-		"opt": 1,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-building.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1071,23 +1104,23 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-retail-Dining.svg": {
+	"\/library\/images\/icons\/icon-retail-dining.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Dining.svg",
-		"oF": 2,
-		"opt": 1,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-dining.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-retail-Grocery.svg": {
+	"\/library\/images\/icons\/icon-retail-grocery.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Grocery.svg",
-		"oF": 2,
-		"opt": 1,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-grocery.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1101,13 +1134,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/icons\/icon-retail-Merchandise.svg": {
+	"\/library\/images\/icons\/icon-retail-merchandise.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-Merchandise.svg",
-		"oF": 2,
-		"opt": 1,
+		"oAP": "\/..\/rcre-2017-theme\/library\/images\/icons\/icon-retail-merchandise.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -2157,198 +2190,231 @@
 		"tS": 0
 		},
 	"\/library\/partials\/header-404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/header-404.php",
 		"oF": 0
 		},
 	"\/library\/partials\/header-default.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/header-default.php",
 		"oF": 1
 		},
 	"\/library\/partials\/header-home.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/header-home.php",
 		"oF": 1
 		},
 	"\/library\/partials\/header-listing.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/header-listing.php",
 		"oF": 1
 		},
 	"\/library\/partials\/header-single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/header-single.php",
 		"oF": 1
 		},
 	"\/library\/partials\/sectionCareers.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionCareers.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionCaseStudy.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionCaseStudy.php",
 		"oF": 1
 		},
 	"\/library\/partials\/sectionContact.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionContact.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionMailChimpSmall.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionMailChimpSmall.php",
 		"oF": 1
 		},
 	"\/library\/partials\/sectionServiceGrid.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionServiceGrid.php",
 		"oF": 1
 		},
 	"\/library\/partials\/sectionSpecialties.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionSpecialties.php",
 		"oF": 1
 		},
 	"\/library\/partials\/sectionTeam.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionTeam.php",
 		"oF": 1
 		},
 	"\/library\/partials\/sectionUVP.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/sectionUVP.php",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_buttons.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_forms.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_forms.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/editor-style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/editor-style.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/ie.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/ie.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/style.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1030up.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1030up.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1240up.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1240up.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_2x.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_2x.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_481up.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_481up.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_768up.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_768up.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_base.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_functions.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_functions.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_grid.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_ie_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_ie_grid.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_mixins.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_normalize.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_normalize.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_print.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_print.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_typography.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_variables.scssc",
@@ -2433,6 +2499,7 @@
 		"uL": 1
 		},
 	"\/library\/scss\/config.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/library\/scss\/config.rb",
@@ -2907,202 +2974,234 @@
 		"uL": 1
 		},
 	"\/library\/translation\/da_DK.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/da_DK.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/da_DK.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/da_DK.po",
 		"oF": 0
 		},
 	"\/library\/translation\/de_DE.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/de_DE.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/de_DE.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/de_DE.po",
 		"oF": 0
 		},
 	"\/library\/translation\/default.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/default.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/default.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/default.po",
 		"oF": 0
 		},
 	"\/library\/translation\/es_ES.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/es_ES.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/es_ES.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/es_ES.po",
 		"oF": 0
 		},
 	"\/library\/translation\/fi_FI.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/fi_FI.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/fi_FI.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/fi_FI.po",
 		"oF": 0
 		},
 	"\/library\/translation\/fr_FR.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/fr_FR.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/fr_FR.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/fr_FR.po",
 		"oF": 0
 		},
 	"\/library\/translation\/he_IL.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/he_IL.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/he_IL.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/he_IL.po",
 		"oF": 0
 		},
 	"\/library\/translation\/hr.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/hr.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/hr.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/hr.po",
 		"oF": 0
 		},
 	"\/library\/translation\/hu_HU.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/hu_HU.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/hu_HU.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/hu_HU.po",
 		"oF": 0
 		},
 	"\/library\/translation\/it_IT.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/it_IT.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/it_IT.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/it_IT.po",
 		"oF": 0
 		},
 	"\/library\/translation\/ja.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/ja.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/ja.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/ja.po",
 		"oF": 0
 		},
 	"\/library\/translation\/lt_LT.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/lt_LT.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/lt_LT.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/lt_LT.po",
 		"oF": 0
 		},
 	"\/library\/translation\/nb_NO.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/nb_NO.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/nb_NO.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/nb_NO.po",
 		"oF": 0
 		},
 	"\/library\/translation\/nl_NL.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/nl_NL.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/nl_NL.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/nl_NL.po",
 		"oF": 0
 		},
 	"\/library\/translation\/pl_PL.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/pl_PL.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/pl_PL.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/pl_PL.po",
 		"oF": 0
 		},
 	"\/library\/translation\/pt_PT.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/pt_PT.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/pt_PT.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/pt_PT.po",
 		"oF": 0
 		},
 	"\/library\/translation\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3117,48 +3216,56 @@
 		"uCM": 0
 		},
 	"\/library\/translation\/ro_RO.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/ro_RO.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/ro_RO.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/ro_RO.po",
 		"oF": 0
 		},
 	"\/library\/translation\/ru_RU.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/ru_RU.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/ru_RU.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/ru_RU.po",
 		"oF": 0
 		},
 	"\/library\/translation\/sv_SE.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/sv_SE.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/sv_SE.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/sv_SE.po",
 		"oF": 0
 		},
 	"\/library\/translation\/zh_CN.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/zh_CN.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/zh_CN.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/translation\/zh_CN.po",
@@ -3173,160 +3280,185 @@
 		"oS": 1
 		},
 	"\/page-blank.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-blank.php",
 		"oF": 0
 		},
 	"\/page-careers.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-careers.php",
 		"oF": 0
 		},
 	"\/page-case-studies.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-case-studies.php",
 		"oF": 0
 		},
 	"\/page-marketing.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-marketing.php",
 		"oF": 0
 		},
 	"\/page-research.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-research.php",
 		"oF": 0
 		},
 	"\/page-service.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-service.php",
 		"oF": 1
 		},
 	"\/page-specialty-no-cs.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-specialty-no-cs.php",
 		"oF": 0
 		},
 	"\/page-specialty.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-specialty.php",
 		"oF": 1
 		},
 	"\/page-team.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-team.php",
 		"oF": 0
 		},
 	"\/page-wernke-team.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page-wernke-team.php",
 		"oF": 0
 		},
 	"\/page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/page.php",
 		"oF": 1
 		},
 	"\/post-formats\/author-case-study.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/author-case-study.php",
 		"oF": 1
 		},
 	"\/post-formats\/author-single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/author-single.php",
 		"oF": 1
 		},
 	"\/post-formats\/content-case-study.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/content-case-study.php",
 		"oF": 1
 		},
 	"\/post-formats\/content-childSection.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/content-childSection.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-employee.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/content-employee.php",
 		"oF": 1
 		},
 	"\/post-formats\/content-listing-closed.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/content-listing-closed.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-listing.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/content-listing.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-post.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/content-post.php",
 		"oF": 1
 		},
 	"\/post-formats\/content-section.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/content-section.php",
 		"oF": 1
 		},
 	"\/post-formats\/content-serviceButton.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/content-serviceButton.php",
 		"oF": 1
 		},
 	"\/post-formats\/content-serviceDropdown.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/content-serviceDropdown.php",
 		"oF": 1
 		},
 	"\/post-formats\/format-aside.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/format-aside.php",
 		"oF": 1
 		},
 	"\/post-formats\/format.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/post-formats\/format.php",
 		"oF": 1
 		},
 	"\/readme.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/..\/rcre-2017-theme\/readme.html",
 		"oF": 0
 		},
 	"\/readme.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3352,48 +3484,56 @@
 		"q": 75
 		},
 	"\/search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/search.php",
 		"oF": 1
 		},
 	"\/searchform.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/searchform.php",
 		"oF": 1
 		},
 	"\/sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/sidebar.php",
 		"oF": 1
 		},
 	"\/single-case-study.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/single-case-study.php",
 		"oF": 1
 		},
 	"\/single-employee.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/single-employee.php",
 		"oF": 1
 		},
 	"\/single-landing-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/single-landing-page.php",
 		"oF": 0
 		},
 	"\/single-listing.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/single-listing.php",
 		"oF": 1
 		},
 	"\/single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/single.php",
@@ -3419,7 +3559,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 529422327
+	"lastBuiltDate": 529950415
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3955,6 +4095,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -4019,9 +4163,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -4051,6 +4195,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -4060,14 +4208,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -5171,7 +5311,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -5204,6 +5345,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -5245,7 +5387,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -5277,13 +5420,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -5292,7 +5435,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -5312,7 +5456,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -5340,7 +5485,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

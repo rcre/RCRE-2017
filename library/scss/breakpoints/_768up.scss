@@ -79,17 +79,12 @@ NAVIGATION STYLES
 
 #main-menu {
 	display: block;
-	position: relative;
-    background: $dgray;
-    z-index: 999;
-    -webkit-transform: translate3d(0px, 0, 0);
-    transform: translate3d(0px, 0, 0);
-    margin: 0;
-}
-
-// Don't Show mobile Menu on Bigger Screens
-#menu-mobile-menu {
-	display: none;
+	// position: relative;
+ //    background: $dgray;
+ //    z-index: 999;
+ //    -webkit-transform: translate3d(0px, 0, 0);
+ //    transform: translate3d(0px, 0, 0);
+ //    margin: 0;
 }
 
 .nav {
@@ -255,6 +250,7 @@ NAVIGATION STYLES
 
 	.menu-item-description {
 		width: 50px;
+		display: block;
 	}
 }
 
