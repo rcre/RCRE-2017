@@ -435,28 +435,11 @@ function recaptcha_callback() {
  * Stuff from the footer
 **************************/
 
-// Parallaxe activation script
-
+// Parallax activation script that kicks in on pages that #
   if( jQuery("#scene").length !== 0 ) {
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
   }
-
-
-// timestamp for Recaptcha form
-
-if( jQuery("#g-recaptcha-response").length !== 0 ) {
-  function timestamp() {
-     var response = document.getElementById("g-recaptcha-response");
-     if (response == null || response.value.trim() == "") {
-         var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
-         elems["ts"] = JSON.stringify(new Date().getTime());
-         document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems);
-     }
-  }
-
-  setInterval(timestamp, 500);
-}
 
 // Google analytics
   (function(i, s, o, g, r, a, m) {

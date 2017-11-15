@@ -78,6 +78,19 @@
 		<!-- Salesforce Contact For ReCaptcha -->
 		<script async defer src="https://www.google.com/recaptcha/api.js"></script>
 		<!-- end Salesforce Contact For ReCaptcha -->
+
+		<script>
+			// timestamp for Recaptcha form
+				  function timestamp() {
+				     var response = document.getElementById("g-recaptcha-response");
+				     if (response == null || response.value.trim() == "") {
+				         var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
+				         elems["ts"] = JSON.stringify(new Date().getTime());
+				         document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems);
+				     }
+				  }
+				  setInterval(timestamp, 500);
+		</script>
 	</head>
 
 	<body <?php body_class(); ?>">

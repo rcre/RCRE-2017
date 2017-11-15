@@ -37,16 +37,22 @@ over your project's layout.
   padding-right: 0 !important;
 }
 
+
+// Note to self: Auto-fit and auto-fill are two separate things and behave differently
 .selling-point-grid {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) );
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
   grid-gap: 40px;
   grid-auto-rows: minmax(50px, auto);
+
+  align-content: space-between;
+  justify-content: space-around;
 }
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr) ) ;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr) ) ;
   grid-gap: 20px;
   grid-auto-rows: minmax(100px, auto);
 }

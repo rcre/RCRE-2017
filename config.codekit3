@@ -7,7 +7,7 @@
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -532,7 +532,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"q": 100
 		},
 	"\/library\/images\/icons\/icon-auction-document.svg": {
 		"ft": 2097152,
@@ -2208,7 +2208,7 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/rcre-2017-theme\/library\/partials\/header-home.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/header-listing.php": {
 		"cB": 0,
@@ -3559,7 +3559,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 529950415
+	"lastBuiltDate": 532471417
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
