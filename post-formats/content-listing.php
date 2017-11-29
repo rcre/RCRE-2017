@@ -10,34 +10,28 @@
 
 				
 				<a class="m-all" href="<?php echo esc_url( get_post_permalink() ); ?>"><h4><?php echo the_title(); ?></h4></a>
+				
+				<div class="tag-no-link">
+					<?php 
+						if( taxonomy_exists( 'specialty' ) ) {
 
-				<!-- <div class="tag blue">
-					<?php // echo get_the_term_list( '', 'specialty', '', '', ''); ?>
+							echo strip_tags (
+						    	get_the_term_list( get_the_ID(), 'specialty', '','' )
+							);
+
+						} ?>
 				</div>
 
-				<div class="tag red">
-					<?php // echo get_the_term_list( '', 'listing-type', '', '', ''); ?>
-				</div> -->
+				<div class="tag-no-link">
+					<?php 
+						if( taxonomy_exists( 'listing-type' ) ) {
 
-				<?php
-					if( taxonomy_exists( 'specialty' ) ) {
-  						$term_as_texts = get_the_term_list( $post->ID, 'specialty', '', '', '' ) ; ?>
-  						
-							<div class="tag blue">
-								<?php echo $term_as_texts; ?>
-							</div>
-						
-					<?php } ?>
+							echo strip_tags (
+						    	get_the_term_list( get_the_ID(), 'listing-type', '','' )
+							);
 
-				<?php
-					if( taxonomy_exists( 'listing-type' ) ) {
-  						$term_as_texts = get_the_term_list( $post->ID, 'listing-type', '', '&nbsp;', '' ) ; ?>
-  						
-							<div class="tag red">
-								<?php echo $term_as_texts; ?>
-							</div>
-						
-					<?php } ?>
+						} ?>
+				</div>
 				
 				<div class="listing-post-details pad-top cf">
 					
