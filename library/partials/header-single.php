@@ -30,9 +30,14 @@
 				
 				<p class="subtitle">
 				<?php echo types_render_field( "tagline", array( 'raw' => true)); ?>
+					
+				<?php if ( types_render_field( "full-time" ) != null ) {
+					echo types_render_field( "full-time", array( 'raw' => true));
+				} ?>
+				
 				</p>
 
-				<?php if ( types_render_field( "read-time" ) == null ) { ?>
+				<?php if ( types_render_field( "read-time" ) != null ) { ?>
 					<div class="tag-no-link"><i class="fa fa-bookmark-o" aria-hidden="true"></i> <?php echo types_render_field( "time-to-read", array( $post->ID, 'raw' => true)); ?> Minute Read</div>
 				<?php } ?>
 
@@ -45,6 +50,10 @@
 
 			<?php if ( types_render_field( "downloadable-pdf" ) != null ) { ?>
 					<a title="Download the PDF" class="download-icon pull-l-1of12" href="<?php echo types_render_field( "downloadable-pdf", array( $post->ID, 'raw' => true)); ?>" alt="Download the PDF" target="_blank"></a>
+				<?php } ?>
+
+				<?php if ( types_render_field( "job-pdf" ) != null ) { ?>
+					<a title="Download the PDF" class="download-icon pull-l-1of12" href="<?php echo types_render_field( "job-pdf", array( $post->ID, 'raw' => true ) ); ?>" alt="Download the PDF" target="_blank"></a>
 				<?php } ?>
 
 			

@@ -3504,6 +3504,13 @@
 		"oAP": "\/..\/rcre-2017-theme\/sidebar.php",
 		"oF": 1
 		},
+	"\/single-career.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/rcre-2017-theme\/single-career.php",
+		"oF": 0
+		},
 	"\/single-case-study.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3559,7 +3566,7 @@
 	"displayValue": "RCRE-2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 532541110
+	"lastBuiltDate": 534373280
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -11,18 +11,47 @@
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
 					<?php
 						get_template_part( 'library/partials/sectionCareers' ); 
+					?>
+
+					<section>
+						<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
+						<h2 class="header-dark text-center">Open Positions</h2>
+						<div class="pad-top">
+					
+					<?php 
+						$args = array(
+						'post_type' => 'career',
+						'post_status' => 'publish',
+						'posts_per_page' => 50,
+						'orderby' => 'ASC',
+						);
+
+					    $custom_team = new WP_Query( $args );
+					   //var_dump($custom_team); // debugging only
+					    while ( $custom_team->have_posts() ) : $custom_team->the_post(); ?>
+						
+						<div class="pad-top">
+							<div class="header-link">
+								<a href="<?php echo esc_url( get_permalink() ); ?>">
+									<?php echo the_title(); ?>
+								</a>
+							</div>
+						</div>
+
+						<?php // End the loop.
+						endwhile; 
+
+						wp_reset_postdata();
+					?>
+					</div>
+					</div>
+					</section>
+
+
+					<?php
 						get_template_part( 'post-formats/content-childSection' );
 						get_template_part( 'post-formats/content-section' ); 
 					?>
-					<section>
-						<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
-						<h2 class="header-dark text-center">Interested in Starting a Conversation?</h2>
-						<p class="text-center">Upload your resume and we'll be in touch. Please include a coverletter explaining why you want to be a part of RESOURCE and the type of role you'd love to play here.</p>
-			
-						<script src="https://resourcedealvault.app.box.com/upload-widget/embed.js?folderID=39978049300&title=Submit%20Resume&isDescriptionFieldShown=1&isEmailRequired=1&width=385&height=220&token=kit3msmk6h5qv2nphbtovqa96gb740pu" type="text/javascript"></script>
-					</div>
-					</section>
-					
 
 				</article>
 
