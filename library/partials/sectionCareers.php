@@ -6,7 +6,7 @@
 		<div class="selling-point">
 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-coffee-cup.svg" alt="Coffee Icon">
 			<h5>Unlimited Coffee.</h5>
-			<p>The lifeblood of American business place, we have fresh-brewed coffee every morning from the local Copper Moon Cafe. (It’s recommended to keep your coffee intake limited to 3 cups per day.)</p>
+			<p>The lifeblood of American business place, we have fresh-brewed coffee every morning from the local Copper Moon Cafe. (It&#39;s recommended to keep your coffee intake limited to 3 cups per day.)</p>
 		</div>
 
 		<div class="selling-point">
@@ -18,7 +18,7 @@
 		<div class="selling-point">
 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-computer.svg" alt="Tech and tools icon">
 			<h5>Cool Tools.</h5>
-			<p>Get your own laptop, the Microsoft Office 365 Suite, use our iPad’s for tours, and access your files from anywhere on our VPN. Technical difficulty? We’ve got you covered with our in-house IT support.</p>
+			<p>Get your own laptop, the Microsoft Office 365 Suite, use our iPad&#39;s for tours, and access your files from anywhere on our VPN. Technical difficulty? We’ve got you covered with our in-house IT support.</p>
 		</div>
 	
 		<div class="selling-point">

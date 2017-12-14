@@ -26,13 +26,13 @@
 		<?php // icons & favicons ?>
 		
 		<link rel="apple-touch-icon" sizes="180x180" href="/library/favicons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/library/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/library/favicons/favicon-16x16.png">
 		<link rel="manifest" href="/library/favicons/manifest.json">
 		<link rel="mask-icon" href="/library/favicons/safari-pinned-tab.svg" color="#75caca">
-		<link rel="shortcut icon" href="/library/favicons/favicon.ico">
+		<link rel="shortcut icon" href="/favicon.ico">
 		<meta name="msapplication-config" content="/library/favicons/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#75caca">
 
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
@@ -79,7 +79,7 @@
 		<script async defer src="https://www.google.com/recaptcha/api.js"></script>
 		<!-- end Salesforce Contact For ReCaptcha -->
 
-		<script>
+		<script async defer>
 			// timestamp for Recaptcha form
 				  function timestamp() {
 				     var response = document.getElementById("g-recaptcha-response");

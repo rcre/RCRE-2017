@@ -15,7 +15,23 @@ Author: Patrick Hanus
 
 *******************************************************************
 
-/* 1.6.0 */
+*1.6.2*
+
+- Changed some links to resolve a favicon misdirect
+- Added WP support from the title tagged
+- Added a feature that allows for async load for JS
+- Replaced apostrophes with ASCII symbols
+
+*1.6.1*
+
+- Fixed some links to icons in the header
+- Fixed a problem where “read time” was showing up with no #
+- Added a pdf download for Jobs in the header
+- Added jobs to the main careers page and changed the order
+- Created a page template for a new job
+- Fixed verbiage on employee page for past clients
+
+*1.6.0*
 
 - Added styles for dropdown mobile menu
 - Added JS for new mobile menu
@@ -26,7 +42,7 @@ Author: Patrick Hanus
 - Deleted Mobile menu slide function
 - Added the “made with heart” in the footer
 
-/* 1.5.1 */
+*1.5.1*
 
 - Removed listings page map
 - Changed the layout a bit for the listings page
@@ -36,7 +52,7 @@ Author: Patrick Hanus
 - Added shadow to case study icon
 - Added an icon to the “4 mins to read” section
 
-/* 1.5.0 */
+*1.5.0*
 
 - Moved all footer scripts from the footer to the scripts.js file
 - Moved the timestamp function from the header to the scripts.js file
@@ -54,7 +70,7 @@ Author: Patrick Hanus
 - Added CSS Grid functionality to the Case Study archive page
 - Increased number of Wernke Team closed listings
 
-/* 1.4.0 */
+*1.40*/
 
 - fixed some padding on the front page
 - Moved all our grid items to css grid, rather than floats
@@ -70,17 +86,17 @@ Author: Patrick Hanus
 - Cleaned up the look of blog posts and research posts
 - fixed a button for downloading the research report
 
-/* 1.3.3 */
+*1.3.3*
 
 - Fixed some codekit config stuff
 - Fixed some icons that were not showing up on the career page
 
-/* 1.3.2 */
+*1.3.2*
 
 - Home header buttons had the wrong class so was missing styles
 - Changed the header height to be auto, becuase I don't think it should be "vh"
 
-/* 1.3.1 */
+*1.3.1*
 
 - fixed links to icons
 - renamed some icons to be consistent
@@ -99,7 +115,7 @@ Author: Patrick Hanus
 - Added google map feature to listing page
 - Changed some of the case study things
 
-/* 1.3.0 */
+*1.3.0*
 
 - Add titles to a tags for when people hover over links
 - Created a partial for the careers page grid
@@ -111,7 +127,7 @@ Author: Patrick Hanus
 - Fixed the mobile overflow of the "Our Clients" section
 - Took out the requirement for phone pattern, it wasn't working on the mobile version
 
-/* 1.1.1 */
+*1.1.1*
 
 - Converted salesforce oid to JS
 - Added the form ID to the contact form
@@ -122,7 +138,7 @@ Author: Patrick Hanus
 - Disabled “Our Clients” bar on Mobile
 - Fixed a bug where case study icon border was collapsing
 
-/* 1.1.0 */
+*1.1.0*
 
 * New feature where wernke’s closed listings are sorted by year!
 
@@ -137,7 +153,7 @@ Author: Patrick Hanus
 - Added profile link to case study author title
 - Resolved Research report download button should open in a new tab, not the current one
 
-/* 1.0.9 */
+*1.0.9*
 
 - Removed if/else from submit enable JS
 - Removed debug mode from contact form
@@ -145,7 +161,7 @@ Author: Patrick Hanus
 
 Also, Patrick is stupid.
 
-/* 1.0.8 */
+*1.0.8*
 
 - Removed Cleabit Integration
 - Fixed Styles on footer social links
@@ -153,13 +169,13 @@ Also, Patrick is stupid.
 - Added some new fields to the main contact form
 - Bumped up the size of UVP text on desktop
 
-/* 1.0.7 */
+*1.0.7*
 
 - Deleted residual search button feature
 - Fixed UVP callout
 - Fixed a problem on page-team.php where I deleted the <?php endwhile; endif; ?> accidentally 
 
-/* 1.0.6 */
+*1.0.6*
 
 - Added Twitter Conversion JS
 - Fixed a problem on listings where the Property Description was white
@@ -169,7 +185,7 @@ Also, Patrick is stupid.
 - Fixed a problem where pdfs weren’t downloading in the header
 - Fixed a JS error that was thrown due to a timer/timestamp
 
-/* 1.0.5 */
+*1.0.5*
 
 - consolidated logos and icons into folder
 - deleted tile pngs
@@ -178,7 +194,7 @@ Also, Patrick is stupid.
 - Fixed address on the home page
 - Added sale price to the listing post view
 
-/* 1.0.4 */
+*1.0.4*
 
 - Add PHP server side verification for the Contact form
 - Added Clearbit Script for User visiting tracking w/ Google Analytics
@@ -188,7 +204,7 @@ Also, Patrick is stupid.
 - Added Social Media in the footer
 - Created a page for the Marketing Team
 
-/* 1.0.3 */
+*1.0.3*
 
 - comment out search form (For now)
 - Added Snazzy Maps Bower components
@@ -202,7 +218,7 @@ Also, Patrick is stupid.
 - fixed the format of client logos for broker profiles
 - added a class for “.cta-underline-gray”
 
-/* 1.0.2 */
+*1.0.2*
 
 - Added Bing Webmaster tools verification
 - Changed some default http://schema.org/ declarations
@@ -216,7 +232,7 @@ Also, Patrick is stupid.
 - Fixed the problem where the home page was showing up weird on smaller screens
 - Fixed a problem where case studies were showing up weird on the employee page
 
-/* 1.0.1 */
+*1.0.1*
 
 - Fixed some typos
 - Layout changes
@@ -225,6 +241,6 @@ Also, Patrick is stupid.
 - font size changes
 - added bottom margin to the broker profile pic
 
-/* 1.0.0 */
+*1.0.0*
 
 - First version of the new RESOURCE website

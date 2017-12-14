@@ -43,6 +43,9 @@ function bones_ahoy() {
   add_action( 'wp_enqueue_scripts', 'bones_scripts_and_styles', 999 );
   // ie conditional wrapper
 
+  // add the support for the title tag (needed since WP 4.0)
+  add_theme_support( 'title-tag' );
+
   // launching this stuff after theme setup
   bones_theme_support();
 
@@ -241,6 +244,22 @@ function item_description( $item_output, $item, $depth, $args ) {
     return $item_output;
 }
 
+
+// Async Load
+function rcre_async_scripts($url)
+{
+    if ( strpos( $url, '#asyncload') === false )
+        return $url;
+    else if ( is_admin() )
+        return str_replace( '#asyncload', '', $url );
+    else
+  return str_replace( '#asyncload', '', $url )."' async='async"; 
+    }
+    
+add_filter( 'clean_url', 'rcre_async_scripts', 11, 1 );
+
+
+// Nav menu
 add_filter( 'walker_nav_menu_start_el', 'item_description', 10, 4 );
 
 add_theme_support( 'post-formats', 'miniProfile' );
