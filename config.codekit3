@@ -52,6 +52,617 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/bower_components\/rrssb\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/rrssb\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/rrssb\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/rrssb\/css\/rrssb.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/css\/rrssb.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/rrssb\/Gulpfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/Gulpfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/rrssb\/icons\/at-symbol.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/at-symbol.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/at-symbol.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/at-symbol.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/delicious.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/delicious.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/delicious.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/delicious.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/facebook.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/facebook.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/github.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/github.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/github.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/github.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/google_plus.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/google_plus.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/google_plus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/google_plus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/hackernews.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/hackernews.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/hackernews.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/hackernews.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/instagram.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/instagram.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/linkedin.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/linkedin.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/mail.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/mail.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/mail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/mail.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/pinterest.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/pinterest.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/pinterest.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/pinterest.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/pocket.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/pocket.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/pocket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/pocket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/print.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/print.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/print.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/print.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/rrssb\/icons\/reddit.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/reddit.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/reddit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/reddit.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/tumblr.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/tumblr.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/tumblr.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/tumblr.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/twitter.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/twitter.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/vk.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/vk.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/vk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/vk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/whatsapp.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/whatsapp.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/whatsapp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/whatsapp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/youtube.min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/youtube.min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/icons\/youtube.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/icons\/youtube.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/rrssb\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/rrssb\/js\/rrssb.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/js\/rrssb.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/rrssb\/js\/rrssb.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/js\/rrssb.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/rrssb\/js\/vendor\/jquery.1.10.2.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/js\/vendor\/jquery.1.10.2.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/rrssb\/LICENSE.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/LICENSE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/rrssb\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/rrssb\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/rrssb\/scss\/rrssb.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/scss\/rrssb.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/snazzy-info-window\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/snazzy-info-window\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/dist\/_settings.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.css.map",
+		"oF": 0
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.min.js.map",
+		"oF": 0
+		},
+	"\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/bower_components\/snazzy-info-window\/dist\/snazzy-info-window.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -218,115 +829,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/library\/favicons\/android-chrome-192x192.png": {
-		"ft": 32768,
-		"iS": 4892,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/android-chrome-192x192.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/library\/favicons\/android-chrome-512x512.png": {
-		"ft": 32768,
-		"iS": 13361,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/android-chrome-512x512.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/library\/favicons\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 4597,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/library\/favicons\/browserconfig.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/browserconfig.xml",
-		"oF": 0
-		},
-	"\/library\/favicons\/favicon-16x16.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/favicon-16x16.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/library\/favicons\/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/favicon-32x32.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/library\/favicons\/favicon-96x96.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/favicon-96x96.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/library\/favicons\/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/favicon.ico",
-		"oF": 0
-		},
-	"\/library\/favicons\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/library\/favicons\/mstile-150x150.png": {
-		"ft": 32768,
-		"iS": 4122,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/mstile-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/library\/favicons\/safari-pinned-tab.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/favicons\/safari-pinned-tab.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/library\/fonts\/fontawesome-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -382,17 +884,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/bg\/section-services.png": {
-		"ft": 32768,
-		"iS": 1062511,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/bg\/section-services.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 85
-		},
 	"\/library\/images\/case-studies-desktop.jpg": {
 		"ft": 16384,
 		"iS": 965102,
@@ -401,17 +892,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/client-logos\/client-logo-klc-realty.png": {
-		"ft": 32768,
-		"iS": 16792,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/client-logos\/client-logo-klc-realty.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
 		"q": 85
 		},
 	"\/library\/images\/client-logos\/Coca-Cola.png": {
@@ -1222,6 +1702,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/library\/images\/logos\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 4892,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 13361,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/library\/images\/logos\/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -1409,6 +1911,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/library\/images\/logos\/apple-touch-icon copy.png": {
+		"ft": 32768,
+		"iS": 4597,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-touch-icon copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/library\/images\/logos\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 8439,
@@ -1420,26 +1933,52 @@
 		"oT": 1,
 		"q": 85
 		},
-	"\/library\/images\/logos\/login-logo.png": {
+	"\/library\/images\/logos\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/library\/images\/logos\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 4805,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/login-logo.png",
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 85
+		"q": 100
 		},
-	"\/library\/images\/logos\/logo-rcre-horiz-dark.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/logo-rcre-horiz-dark.svg",
+	"\/library\/images\/logos\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/favicon.ico",
+		"oF": 0
 		},
 	"\/library\/images\/logos\/logo-rcre-horiz-light.svg": {
 		"ft": 2097152,
@@ -1461,16 +2000,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/logos\/logo-rcre-square-dark.png": {
-		"ft": 32768,
-		"iS": 19726,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/logo-rcre-square-dark.png",
+	"\/library\/images\/logos\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/manifest-min.json",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 85
+		"oO": 0,
+		"oS": 1
 		},
 	"\/library\/images\/logos\/ms-icon-144x144.png": {
 		"ft": 32768,
@@ -1516,6 +2052,27 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/library\/images\/logos\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4122,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/library\/images\/logos\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/images\/logos\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/library\/images\/logos\/win8-tile-icon.png": {
 		"ft": 32768,
 		"iS": 8048,
@@ -1525,266 +2082,6 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 85
-		},
-	"\/library\/images\/research-desktop.jpg": {
-		"ft": 16384,
-		"iS": 293849,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/research-desktop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/brokerage\/service-brokerage-button.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/brokerage\/service-brokerage-button.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/brokerage\/service-brokerage-multimarket.jpg": {
-		"ft": 16384,
-		"iS": 1404649,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/brokerage\/service-brokerage-multimarket.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/brokerage\/service-brokerage-occupancy.jpg": {
-		"ft": 16384,
-		"iS": 504018,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/brokerage\/service-brokerage-occupancy.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/brokerage\/service-brokerage-portfolio-lease-administration.jpg": {
-		"ft": 16384,
-		"iS": 1543644,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/brokerage\/service-brokerage-portfolio-lease-administration.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/investments\/mobile-service-investments-capital-advisors.jpg": {
-		"ft": 16384,
-		"iS": 196148,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/investments\/mobile-service-investments-capital-advisors.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/investments\/mobile-service-investments-multifamily.jpg": {
-		"ft": 16384,
-		"iS": 200856,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/investments\/mobile-service-investments-multifamily.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/investments\/mobile-service-investments-netlease.jpg": {
-		"ft": 16384,
-		"iS": 376862,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/investments\/mobile-service-investments-netlease.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/investments\/service-investment-button.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/investments\/service-investment-button.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/investments\/service-investments-capital-advisors.jpg": {
-		"ft": 16384,
-		"iS": 603625,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/investments\/service-investments-capital-advisors.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/investments\/service-investments-header.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/investments\/service-investments-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/investments\/service-investments-multifamily.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/investments\/service-investments-multifamily.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/investments\/service-investments-net-lease.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/investments\/service-investments-net-lease.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/project-mgmt\/services-project-mgmt-button.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/project-mgmt\/services-project-mgmt-button.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-asset-management.jpg": {
-		"ft": 16384,
-		"iS": 130313,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-asset-management.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-facility-management.jpg": {
-		"ft": 16384,
-		"iS": 227987,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-facility-management.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-header.jpg": {
-		"ft": 16384,
-		"iS": 248008,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-maintainance-services.jpg": {
-		"ft": 16384,
-		"iS": 119976,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-maintainance-services.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-property-management.jpg": {
-		"ft": 16384,
-		"iS": 122834,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/mobile-service-property-mgmt-property-management.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-asset-management.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/service-property-mgmt-asset-management.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-facility-management.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/service-property-mgmt-facility-management.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-header.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/service-property-mgmt-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-maintainance-services.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/service-property-mgmt-maintainance-services.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/services\/property-mgmt\/service-property-mgmt-property-management.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/services\/property-mgmt\/service-property-mgmt-property-management.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/industrial\/cs-gti-interior.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/industrial\/cs-gti-interior.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/industrial\/specialty-industrial-header.jpg": {
-		"ft": 16384,
-		"iS": 494859,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/industrial\/specialty-industrial-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 85
 		},
 	"\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg": {
@@ -1797,16 +2094,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/specialties\/land\/specialty-land-header.jpg": {
-		"ft": 16384,
-		"iS": 374867,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/land\/specialty-land-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
 	"\/library\/images\/specialties\/land\/specialty-land-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1816,76 +2103,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/library\/images\/specialties\/multifamily\/industries\/apartments.jpg": {
-		"ft": 16384,
-		"iS": 137293,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/multifamily\/industries\/apartments.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/multifamily\/industries\/hotels.jpg": {
-		"ft": 16384,
-		"iS": 146468,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/multifamily\/industries\/hotels.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/multifamily\/industries\/resorts.jpg": {
-		"ft": 16384,
-		"iS": 135370,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/multifamily\/industries\/resorts.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/multifamily\/industries\/self-storage.jpg": {
-		"ft": 16384,
-		"iS": 177914,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/multifamily\/industries\/self-storage.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/multifamily\/industries\/senior-living.jpg": {
-		"ft": 16384,
-		"iS": 158652,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/multifamily\/industries\/senior-living.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/multifamily\/industries\/student-housing.jpg": {
-		"ft": 16384,
-		"iS": 242479,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/multifamily\/industries\/student-housing.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/multifamily\/specialty-multifamily-header.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/multifamily\/specialty-multifamily-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
 		},
 	"\/library\/images\/specialties\/multifamily\/specialty-multifamily-panel-1.svg": {
 		"ft": 2097152,
@@ -1897,96 +2114,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/images\/specialties\/office\/client-logo-hylant.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/client-logo-hylant.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/office\/industries\/corporate.jpg": {
-		"ft": 16384,
-		"iS": 146555,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/industries\/corporate.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/office\/industries\/education.jpg": {
-		"ft": 16384,
-		"iS": 68907,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/industries\/education.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/office\/industries\/government.jpg": {
-		"ft": 16384,
-		"iS": 74353,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/industries\/government.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/office\/industries\/healthcare.jpg": {
-		"ft": 16384,
-		"iS": 106859,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/industries\/healthcare.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/office\/industries\/lawfirm.jpg": {
-		"ft": 16384,
-		"iS": 188681,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/industries\/lawfirm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/office\/industries\/small-business.jpg": {
-		"ft": 16384,
-		"iS": 131962,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/industries\/small-business.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/office\/specialty-office-header.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/specialty-office-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/office\/specialty-office-panel-1.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/specialty-office-panel-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
 	"\/library\/images\/specialties\/office\/specialty-office-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1996,106 +2123,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/library\/images\/specialties\/office\/specialty-office-panel-2-graph.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/specialty-office-panel-2-graph.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/specialties\/office\/specialty-office-panel-2-lines.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/specialty-office-panel-2-lines.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/office\/specialty-office-panel-3.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/specialty-office-panel-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/retail\/industries\/convienience.jpg": {
-		"ft": 16384,
-		"iS": 89716,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/retail\/industries\/convienience.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/retail\/industries\/grocery.jpg": {
-		"ft": 16384,
-		"iS": 79100,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/retail\/industries\/grocery.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/retail\/industries\/merchandise.jpg": {
-		"ft": 16384,
-		"iS": 197456,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/retail\/industries\/merchandise.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/retail\/industries\/restaurant.jpg": {
-		"ft": 16384,
-		"iS": 133001,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/retail\/industries\/restaurant.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/retail\/industries\/shopping.jpg": {
-		"ft": 16384,
-		"iS": 79241,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/retail\/industries\/shopping.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/retail\/industries\/small-business.jpg": {
-		"ft": 16384,
-		"iS": 182172,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/retail\/industries\/small-business.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"\/library\/images\/specialties\/retail\/specialty-retail-header.jpg": {
-		"ft": 16384,
-		"iS": 495320,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/retail\/specialty-retail-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
 		},
 	"\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg": {
 		"ft": 2097152,
@@ -3544,7 +3571,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 534954619
+	"lastBuiltDate": 534958495
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3794,7 +3821,7 @@
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
+	"bowerInstallDevDependencies": 1,
 	"bowerSaveDependencies": 1,
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
@@ -5646,7 +5673,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {

@@ -28,7 +28,7 @@
 							<h2 class="header-dark"><?php the_title(); ?> Market Experience</h2>
 							<p><?php echo types_render_field( "specialty-point-2" , array( 'raw' => true ) ); ?></p>
 						</aside>
-						<div class="research-chart t-1of2 d-3of5 m-all"><img src="<?php echo get_template_directory_uri(); ?>/library/images/specialties/office/specialty-office-panel-2-graph.svg" alt="Graph Lines"></div>
+						<div class="research-chart t-1of2 d-3of5 m-all"><img src="<?php echo get_template_directory_uri(); ?>/library/images/specialties/specialty-panel-2-graph.svg" alt="Graph Lines"></div>
 					</section>
 					
 					<section id="Panel-3" class="panel cf m-padding">

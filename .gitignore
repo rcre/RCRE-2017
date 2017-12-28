@@ -38,6 +38,7 @@ nbproject/
 ## Misc
 ############
 
+bower_components/
 bin/
 tmp/
 *.tmp
@@ -58,4 +59,4 @@ temp/
 *.codekit3
 *.scssc
 
-*.codekit3
+config.codekit3

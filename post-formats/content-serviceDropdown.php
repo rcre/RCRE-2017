@@ -39,7 +39,7 @@
 
   <h3 class="tab_drawer_heading" rel="tab5">Development</h3>
   <div id="tab5" class="tab_content">
-  <img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-Land-Escavator.svg" alt="">
+  <img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-land-escavator.svg" alt="">
   <h4>Build Something Great.</h4>
     <p>Find and manage developers for a new site, buildout or building. We have relationships and connections to ensure you can get exactly what you need when you need it. We work to make sure every requirement is met on time and on spec.</p>
   </div>

@@ -14,10 +14,15 @@ MODULE: SERVICE DESCRIPTION
 	}
 
 	.selling-point {
+		text-align: center;
 
 		img {
 			width: 50px;
-			margin: 0 auto;
+			margin: 15px auto;
+		}
+
+		p {
+			text-align: left;
 		}
 	}
 

@@ -33,6 +33,7 @@
   ],
   "private": true,
   "dependencies": {
-    "snazzy-info-window": "^1.1.0"
+    "snazzy-info-window": "^1.1.0",
+    "rrssb": "^1.14.0"
   }
 }

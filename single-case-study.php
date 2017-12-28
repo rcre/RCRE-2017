@@ -58,11 +58,16 @@
 				<div class="m-all t-2of3 d-3of4">
 					<!-- Intro -->
 						<section class="cs-section cf">
-							<p><div class="cs-logo-on-page">
+							
+							<div class="cs-logo-on-page">
 								<div class="case-study-icon">
 									<img src="<?php echo types_render_field( "client-logo", array( 'output' => 'raw' ));  ?>" alt="<?php the_title(); ?> Logo">	
 								</div>
-							</div><?php echo types_render_field( "1-challenge", array( 'raw' => true)); ?></p>
+							</div>
+
+							<p>
+								<?php echo types_render_field( "1-challenge", array( 'raw' => true)); ?>
+							</p>
 						</section>
 
 					<!-- Strategy -->

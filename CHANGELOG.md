@@ -15,6 +15,17 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*1.6.3*
+
+- Fixed link to escalator icon for service dropdown
+- Fixed link to graph image on specialty templates
+- Deleted contact form section on the Careers page
+- Centered title and icon for selling points in the UVP sections
+- Added conditional icons in the UVP sections
+- Cleaned up images in the theme folder
+- Deleted “#asyncload” trick from the bones.php file
+- Replaced the homepage UVP section with the wordpress partial
+
 *1.6.2*
 
 - Changed some links to resolve a favicon misdirect
