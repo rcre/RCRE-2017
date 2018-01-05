@@ -7,7 +7,7 @@
 		
 		<div data-depth="0.30" class="callout cf">
 			<div class="m-all t-1of2 d-1of2 center text-center cf">
-				<h1 class="page-title" itemprop="headline">Get Things Done.</h1>
+				<h1 class="page-title" itemprop="headline">Start the New Year off right.</h1>
 				<p class="subtitle"><?php echo types_render_field( "tagline", array( 'raw' => true)); ?></p>
 				
 				<div class="header-buttons cf">

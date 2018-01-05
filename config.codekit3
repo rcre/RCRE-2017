@@ -670,13 +670,6 @@
 		"oAP": "\/..\/resource-2017\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/CHANGELOG.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/..\/resource-2017\/CHANGELOG.html",
-		"oF": 0
-		},
 	"\/CHANGELOG.md": {
 		"cB": 0,
 		"cS": 0,
@@ -686,8 +679,8 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/..\/rcre-2017-theme\/CHANGELOG.html",
-		"oF": 2,
+		"oAP": "\/..\/resource-2017\/CHANGELOG.html",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -3571,7 +3564,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 534958495
+	"lastBuiltDate": 536176030
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
