@@ -20,7 +20,7 @@
   <div id="tab2" class="tab_content">
   <img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-lease.svg" alt="">
   <h4>Occupier Representation</h4>
-    <p>RESOURCE helps you sell your property, buy a new property, find tenants for your building or manage the building you have. You have all the tools and people you need to get where you want to be. </p>
+    <p>At RESOURCE, you can be on top of the constantly changing market. We help you find your ideal location and customize it to your needs.</p>
   </div>
 
   <h3 class="tab_drawer_heading" rel="tab3">Advisory and Consultation</h3>
@@ -34,7 +34,7 @@
   <div id="tab4" class="tab_content">
   <img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-brokerage-sale.svg" alt="">
   <h4>Own Like a Pro.</h4>
-    <p>At RESOURCE, you can be on top of the constantly changing market. We help you find your ideal location and customize it to your needs.</p>
+    <p>RESOURCE helps you sell your property, buy a new property, find tenants for your building or manage the building you have. You have all the tools and people you need to get where you want to be.</p>
   </div>
 
   <h3 class="tab_drawer_heading" rel="tab5">Development</h3>

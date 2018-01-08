@@ -42,6 +42,11 @@ blockquote {
 HEADER STYLES
 *********************/
 
+video.header {
+  	height: auto !important;
+  	width: 100% !important;
+}
+
 #inner-header #logo {
 	max-width: 250px;
 	padding-top: 15px;

@@ -57,6 +57,7 @@
 			<?php endwhile; endif; ?>
 		</main>			
 	</div>
+	<?php get_template_part('library/partials/sectionMailChimpSmall'); ?>
 </div>
 
 <?php get_footer(); ?>

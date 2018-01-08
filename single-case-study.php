@@ -57,7 +57,7 @@
 
 				<div class="m-all t-2of3 d-3of4">
 					<!-- Intro -->
-						<section class="cs-section cf">
+						<section class="cs-section">
 							
 							<div class="cs-logo-on-page">
 								<div class="case-study-icon">

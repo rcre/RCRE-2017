@@ -81,6 +81,7 @@
 
 		<script async defer>
 			// timestamp for Recaptcha form
+				if ($("#contactUs").length != 0){
 				  function timestamp() {
 				     var response = document.getElementById("g-recaptcha-response");
 				     if (response == null || response.value.trim() == "") {
@@ -89,7 +90,8 @@
 				         document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems);
 				     }
 				  }
-				  setInterval(timestamp, 500);
+				  	setInterval(timestamp, 500);
+				 }
 		</script>
 	</head>
 

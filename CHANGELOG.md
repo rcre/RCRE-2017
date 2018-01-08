@@ -15,6 +15,19 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*1.7.0*
+
+- Changed styles for blockquotes
+- Fixed "read time" issue
+- Changed headline on the homepage to be new years themed
+- added blog social share buttons
+- customized social share buttons to auto-fill content
+- added a video to the homepage header
+- fixed service buttons on cs page to have proper top padding
+- fixed the mobile menu scrolling problem
+- fixed an issue where the cs icon was floating oddly in the intro paragraph
+- bumped the icon for the mobile menu down a bit
+
 *1.6.3*
 
 - Fixed link to escalator icon for service dropdown

@@ -84,3 +84,10 @@ PRINT STYLESHEET
 	@import "partials/print";
 
 }
+
+/*********************
+Bower Components
+*********************/
+
+// Import Social Icon Styles from Bower Components
+@import "../../bower_components/rrssb/scss/rrssb";

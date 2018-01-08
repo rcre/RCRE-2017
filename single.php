@@ -16,6 +16,8 @@
 							<a class="cta-border-green btn-minify" href="<?php echo types_render_field( "report-pdf", array( 'raw' => true ) ); ?>" target="_blank">Download the report</a>
 						</div>
 					<?php } 
+
+					get_template_part( 'library/partials/sectionSocialShare' );
 					get_template_part( 'post-formats/author-single' );
 				?>
 

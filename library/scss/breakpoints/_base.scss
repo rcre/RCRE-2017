@@ -70,7 +70,7 @@ header {
 	background-size: cover; // Fixed the size issue, but may have bugs
 	background-repeat: no-repeat;
 	position: absolute;
-	height: 650px;
+	// height: 650px;
 	display: block;
 	width: 120%;
     left: -5% !important;
@@ -84,11 +84,15 @@ header {
 	    position: absolute;
 	    display: block;
 	    content: "";
-	    height: 700px;
+	    // height: 700px;
 	    width: 110%;
     	left: -5%;
     	top: -5%;
     }
+}
+
+video.header {
+  	height: auto !important;
 }
 
 .header-default {
