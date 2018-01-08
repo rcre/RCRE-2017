@@ -81,7 +81,7 @@
 
 		<script async defer>
 			// timestamp for Recaptcha form
-				if ($("#contactUs").length != 0){
+				if (jquery("#contactUs").length != 0){
 				  function timestamp() {
 				     var response = document.getElementById("g-recaptcha-response");
 				     if (response == null || response.value.trim() == "") {

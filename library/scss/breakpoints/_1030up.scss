@@ -9,8 +9,10 @@ be seen on the Desktop.
 
 ******************************************************************/
 
-video.header {
-	width: 1030px;
+video.fullscreen {
+	width: 100%;
+  	height: auto !important;
+  	margin-bottom: -40px;
 }
 
 p {

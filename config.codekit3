@@ -975,11 +975,21 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/library\/images\/home-desktop.jpg": {
+	"\/library\/images\/header-desktop.jpg": {
 		"ft": 16384,
-		"iS": 489822,
+		"iS": 1957281,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/home-desktop.jpg",
+		"oAP": "\/..\/resource-2017\/library\/images\/header-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/library\/images\/home-header@0,25x.jpg": {
+		"ft": 16384,
+		"iS": 544680,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/home-header@0,25x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1702,7 +1712,7 @@
 		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-chrome-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1823,7 +1833,7 @@
 		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-152x152.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3571,7 +3581,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 537116306
+	"lastBuiltDate": 537138165
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

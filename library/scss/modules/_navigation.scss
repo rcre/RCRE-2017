@@ -28,7 +28,7 @@ a.meanmenu-reveal {
   a.meanmenu-reveal {
     width: 30px;
     height: 30px;
-    padding: 22px 13px 11px 13px;
+    padding: 14px 13px 11px 13px;
     position: absolute;
     top: -63px;
     right: 0;
@@ -48,6 +48,34 @@ a.meanmenu-reveal {
       background: #fff;
       height: 6px;
       margin-top: 6px;
+      transition: 0.5s;
+    }
+  }
+
+  a.meanmenu-reveal.meanclose {
+    span:first-child {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      margin-top: 14px;
+      transition: 0.5s;
+    }
+
+    span:nth-child(2) {
+      display: none;
+      transition: 0.5s;
+    }
+
+    span:last-child {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      margin-top: -6px;
+      transition: 0.5s;
     }
   }
   

@@ -375,8 +375,9 @@ function recaptcha_callback() {
                       menuOn = false;
                     }
                       $navreveal.toggleClass("meanclose");
-                      meanInner();
-                      jQuery(removeElements).addClass('mean-remove');
+                      //I commeted this out to make my own animated button
+                      //meanInner();
+                      //jQuery(removeElements).addClass('mean-remove');
                   });
 
                   // for one page websites, reset all variables...
