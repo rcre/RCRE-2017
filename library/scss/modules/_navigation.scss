@@ -28,9 +28,9 @@ a.meanmenu-reveal {
   a.meanmenu-reveal {
     width: 30px;
     height: 30px;
-    padding: 14px 13px 11px 13px;
-    position: absolute;
-    top: -63px;
+    padding: 14px 16px 11px 13px;
+    position: fixed;
+    top: -5px;
     right: 0;
     cursor: pointer;
     color: #fff;
@@ -42,6 +42,8 @@ a.meanmenu-reveal {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+    z-index: 102;
+
     
     span {
       display: block;
@@ -59,7 +61,7 @@ a.meanmenu-reveal {
       -o-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
-      margin-top: 14px;
+      margin-top: 20px;
       transition: 0.5s;
     }
 

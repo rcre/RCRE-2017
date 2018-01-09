@@ -42,18 +42,7 @@ blockquote {
 HEADER STYLES
 *********************/
 
-video.fullscreen {
-  	height: auto !important;
-  	width: 100% !important;
-}
-
-#inner-header #logo {
-	max-width: 250px;
-	padding-top: 15px;
-	padding-left: 13px;
-}
-
-#mobile-quick-nav {
+#inner-header {
 	
 	// Hide the menu burger
 	#menu-burger {
@@ -61,10 +50,8 @@ video.fullscreen {
 	}
 
 	// Hide the phone button
-	div {
-		&:first-child {
-			display: none;
-		}
+	#call {
+		display: none;
 	}
 }
 

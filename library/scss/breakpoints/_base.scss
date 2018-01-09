@@ -65,16 +65,15 @@ header {
 	overflow: hidden;
 }
 
-
 .header {
 	background-size: cover; // Fixed the size issue, but may have bugs
 	background-repeat: no-repeat;
 	position: absolute;
-	// height: 650px;
+	height: 750px;
 	display: block;
 	width: 120%;
     left: -5% !important;
-    top: -5% !important;
+    // top: -5% !important; working on positioning for the header video
     bottom: -15px;
     text-align: center;
     z-index: -5;
@@ -91,9 +90,11 @@ header {
     }
 }
 
+// styles for video background in the header
 video.fullscreen {
 	display: block;
   	height: auto !important;
+  	width:1427px;
 }
 
 .header-default {
@@ -131,38 +132,42 @@ video.fullscreen {
 	top: 0;
 	border-bottom: 3px solid $white;
 	position: fixed;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 	width: 100%;
 	background-color: darken($gray, 5%);
 	z-index: 100;
+	//align-items: center;
+	-webkit-flex-flow: row wrap;
+  	justify-content: flex-end;
 
 	#logo {
-		max-width: 300px;
-		padding-top: 18px;
-		padding-left: 18px;
+		width: 200px;
+  		height: 62px;
+  		align-self: left;
+  		padding-top: 18px;
+		padding-left: 13px;
 	}
-}
-
-// Search, Call or Menu
-#mobile-quick-nav {
-	background-color: $dgray;
-
-	div {
-		cursor: pointer;
-		text-align: center;
-		padding: 0.71em 0.5em;
-		width: 60px;
-		text-align: center;
-		margin-right: 63px;
-
-		a, img {
-			width: 30px;
-		}
+	
+	.space {
+		flex-grow: 1;
 	}
-}
 
-#menu-burger {
-	background-color: $green;
-	border: none;
+	#call {
+		width: 63px;
+  		height: 61px;
+  		padding: 15px;
+  		background-color: $gray;
+	}
+
+	#menu-burger {
+		width: 63px;
+  		height: 61px;
+		background-color: $green;
+	}
 }
 
 .callout {

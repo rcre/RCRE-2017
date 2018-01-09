@@ -184,7 +184,7 @@ function recaptcha_callback() {
     $.fn.meanmenu = function (options) {
         var defaults = {
             meanMenuTarget: jQuery(this), // Target the current HTML markup you wish to replace
-            meanMenuContainer: 'body', // Choose where meanmenu will be placed within the HTML
+            meanMenuContainer: 'header', // Choose where meanmenu will be placed within the HTML
             meanMenuClose: "X", // single character you want to represent the close menu button
             meanMenuCloseSize: "26px", // set font size of close button
             meanMenuOpen: "<span /><span /><span />", // text/markup you want when menu is closed
@@ -192,7 +192,7 @@ function recaptcha_callback() {
             meanRevealPositionDistance: "0", // Tweak the position of the menu
             meanRevealColour: "", // override CSS colours for the reveal background
             meanScreenWidth: "768", // set the screen width you want meanmenu to kick in at
-            meanNavPush: "", // set a height here in px, em or % if you want to budge your layout now the navigation is missing.
+            meanNavPush: "0px", // set a height here in px, em or % if you want to budge your layout now the navigation is missing.
             meanShowChildren: true, // true to show children in the menu, false to hide them
             meanExpandableChildren: true, // true to allow expand/collapse children
             meanExpand: "+", // single character you want to represent the expand for ULs
@@ -318,8 +318,8 @@ function recaptcha_callback() {
                   }
 
                   // push in a holder div (this can be used if removal of nav is causing layout issues)
-                  jQuery(meanMenu).before('<div class="mean-push" />');
-                  jQuery('.mean-push').css("margin-top",meanNavPush);
+                  //jQuery(meanMenu).before('<div class="mean-push" />');
+                  //jQuery('.mean-push').css("margin-top",meanNavPush);
 
                   // hide current navigation and reveal mean nav link
                   jQuery(meanMenu).hide();

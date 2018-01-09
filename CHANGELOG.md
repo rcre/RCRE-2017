@@ -15,6 +15,21 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*1.7.2*
+
+- Mobile menu fixes/clean-up
+- I think I finally resolved the video BG sizing problem
+- converted the inner header to flex box from a float methodology
+- added the green to the BG of the menu burger
+
+*1.7.1*
+
+- there might be a problem with the conditional Jquery at the top
+- added new home header picture
+- added in mobile menu open/close transition
+- fixed some of the social share link auto-filling
+- added more changes for getting the video formatted correctly.
+
 *1.7.0*
 
 - Changed styles for blockquotes

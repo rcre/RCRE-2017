@@ -29,9 +29,11 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/library/favicons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/library/favicons/favicon-16x16.png">
 		<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/library/favicons/manifest.json">
-		<link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/library/favicons/safari-pinned-tab.svg" color="#75caca">
+		
 		<link rel="shortcut icon" href="/favicon.ico">
 		<meta name="msapplication-config" content="<?php echo get_template_directory_uri(); ?>/library/favicons/browserconfig.xml">
+
+		<link rel="mask-icon" href="https://rcre.com/wp-content/uploads/2018/01/logo-rcre-safari-icon.svg" color="#75caca">
 		<meta name="theme-color" content="#75caca">
 
 		<!--[if IE]>
@@ -104,17 +106,23 @@
 
 			<header role="banner">
 
-				<div id="inner-header" class="cf">
-					<div id="logo" class="m-1of2 t-1of3 d-1of3" itemscope itemtype="http://schema.org/Organization">
+				<div id="inner-header">
+
+
+					<div id="logo" itemscope itemtype="http://schema.org/Organization">
 						<a title="Go to RESOURCE Homepage" itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
 					</div>
 					
-					<div id="mobile-quick-nav" class="last-col">
+					<div class="space"></div>
 					<!-- Call Button -->
-						<div class="m-1of3 t-1of3 d-1of3">
-							<a title="Call RESOURCE" itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
-						</div>
+					<div id="call">
+						<a title="Call RESOURCE" itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
 					</div>
+
+					<div id="menu-burger">
+						
+					</div>
+					
 
 					<!-- Top Navigation -->
 						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">

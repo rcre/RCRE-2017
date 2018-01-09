@@ -31,7 +31,8 @@ summary {
 audio,
 canvas,
 video {
-    display: inline-block;
+    // display: inline-block; 
+    // 01/8/18 - I disabled this becuase I'm having trouble getting a header video working. - PH
 }
 
 /**
