@@ -561,7 +561,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/..\/resource-2017\/bower_components\/rrssb\/scss\/rrssb.scss",
 		"oF": 0,
 		"oS": 3,
@@ -711,7 +711,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/footer.php": {
 		"cB": 0,
@@ -962,7 +962,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/custom-post-icon.png": {
 		"ft": 32768,
@@ -973,7 +973,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/header-desktop.jpg": {
 		"ft": 16384,
@@ -983,7 +983,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/home-header@0,25x.jpg": {
 		"ft": 16384,
@@ -993,7 +993,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/icons\/icon-auction-document.svg": {
 		"ft": 2097152,
@@ -1714,7 +1714,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/android-chrome-512x512.png": {
 		"ft": 32768,
@@ -1725,7 +1725,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/android-icon-144x144.png": {
 		"ft": 32768,
@@ -1736,7 +1736,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/android-icon-192x192.png": {
 		"ft": 32768,
@@ -1747,7 +1747,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/android-icon-36x36.png": {
 		"ft": 32768,
@@ -1758,7 +1758,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/android-icon-48x48.png": {
 		"ft": 32768,
@@ -1769,7 +1769,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/android-icon-72x72.png": {
 		"ft": 32768,
@@ -1780,7 +1780,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/android-icon-96x96.png": {
 		"ft": 32768,
@@ -1791,7 +1791,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-114x114.png": {
 		"ft": 32768,
@@ -1802,7 +1802,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-120x120.png": {
 		"ft": 32768,
@@ -1813,7 +1813,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-144x144.png": {
 		"ft": 32768,
@@ -1824,7 +1824,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-152x152.png": {
 		"ft": 32768,
@@ -1833,9 +1833,9 @@
 		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-152x152.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-180x180.png": {
 		"ft": 32768,
@@ -1846,7 +1846,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-57x57.png": {
 		"ft": 32768,
@@ -1857,7 +1857,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-60x60.png": {
 		"ft": 32768,
@@ -1868,7 +1868,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-72x72.png": {
 		"ft": 32768,
@@ -1879,7 +1879,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-76x76.png": {
 		"ft": 32768,
@@ -1890,7 +1890,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon-precomposed.png": {
 		"ft": 32768,
@@ -1901,7 +1901,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-icon.png": {
 		"ft": 32768,
@@ -1912,7 +1912,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-touch-icon copy.png": {
 		"ft": 32768,
@@ -1923,7 +1923,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -1952,7 +1952,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/favicon-32x32.png": {
 		"ft": 32768,
@@ -1963,7 +1963,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/favicon-96x96.png": {
 		"ft": 32768,
@@ -1974,7 +1974,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/favicon.ico": {
 		"cB": 0,
@@ -2020,7 +2020,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/ms-icon-150x150.png": {
 		"ft": 32768,
@@ -2031,7 +2031,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/ms-icon-310x310.png": {
 		"ft": 32768,
@@ -2042,7 +2042,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/ms-icon-70x70.png": {
 		"ft": 32768,
@@ -2053,7 +2053,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/mstile-150x150.png": {
 		"ft": 32768,
@@ -2064,7 +2064,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 85
 		},
 	"\/library\/images\/logos\/safari-pinned-tab.svg": {
 		"ft": 2097152,
@@ -2083,7 +2083,7 @@
 		"oAP": "\/..\/resource-2017\/library\/images\/logos\/win8-tile-icon.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 85
 		},
@@ -2170,7 +2170,7 @@
 	"\/library\/js\/libs\/modernizr.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/js\/libs\/modernizr.js",
 		"oF": 0,
@@ -2180,7 +2180,7 @@
 	"\/library\/js\/parallax.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/js\/parallax.js",
 		"oF": 0,
@@ -2190,7 +2190,7 @@
 	"\/library\/js\/scripts.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/js\/scripts.js",
 		"oF": 0,
@@ -2435,6 +2435,13 @@
 		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_variables.scssc",
 		"oF": 1
 		},
+	"\/library\/scss\/.sass-cache\/fb675618605753dd3eb8d995fa51047a98aec477\/admin.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/fb675618605753dd3eb8d995fa51047a98aec477\/admin.scssc",
+		"oF": 0
+		},
 	"\/library\/scss\/admin.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2445,7 +2452,7 @@
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/admin.css",
 		"oF": 4,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/library\/scss\/breakpoints\/_1030up.scss": {
@@ -2513,13 +2520,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/library\/scss\/config.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/config.rb",
-		"oF": 1
-		},
 	"\/library\/scss\/editor-style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2530,7 +2530,7 @@
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/editor-style.css",
 		"oF": 4,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/library\/scss\/font-awesome\/_animated.scss": {
@@ -2725,7 +2725,7 @@
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/ie.css",
 		"oF": 4,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/library\/scss\/login.scss": {
@@ -2738,7 +2738,7 @@
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/login.css",
 		"oF": 4,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/library\/scss\/modules\/_alerts.scss": {
@@ -2985,7 +2985,7 @@
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/style.css",
 		"oF": 4,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/library\/translation\/da_DK.mo": {
@@ -3496,7 +3496,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 75
+		"q": 85
 		},
 	"\/search.php": {
 		"cB": 0,
@@ -3581,7 +3581,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 537229336
+	"lastBuiltDate": 537290957
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -5379,7 +5379,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"quality": 100
+		"quality": 85
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -5468,7 +5468,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 85
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -5557,7 +5557,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules,",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

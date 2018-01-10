@@ -15,6 +15,13 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*1.7.3*
+
+- added code to hopefully clear caches
+- removed the div that was injected by mean menu
+- re-linked login logo
+- added an ID to the Wernke listings section
+
 *1.7.2*
 
 - Mobile menu fixes/clean-up

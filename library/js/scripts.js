@@ -317,10 +317,6 @@ function recaptcha_callback() {
                     });
                   }
 
-                  // push in a holder div (this can be used if removal of nav is causing layout issues)
-                  //jQuery(meanMenu).before('<div class="mean-push" />');
-                  //jQuery('.mean-push').css("margin-top",meanNavPush);
-
                   // hide current navigation and reveal mean nav link
                   jQuery(meanMenu).hide();
                   jQuery(".meanmenu-reveal").show();
