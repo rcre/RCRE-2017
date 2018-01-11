@@ -15,6 +15,12 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*1.7.4*
+
+- put the need help section in it’s own partial
+- deleted favicon that weren’t linking
+- put the mailchimp sign-up form on the homepage
+
 *1.7.3*
 
 - added code to hopefully clear caches

@@ -33,8 +33,6 @@
 		<?php // icons & favicons ?>
 		
 		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/library/favicons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/library/favicons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/library/favicons/favicon-16x16.png">
 		<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/library/favicons/manifest.json">
 		
 		<link rel="shortcut icon" href="/favicon.ico">
@@ -85,12 +83,11 @@
 		<?php wp_head(); ?>
 
 		<!-- Salesforce Contact For ReCaptcha -->
-		<script async defer src="https://www.google.com/recaptcha/api.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<!-- end Salesforce Contact For ReCaptcha -->
 
 		<script async defer>
 			// timestamp for Recaptcha form
-				if (jquery("#contactUs").length != 0){
 				  function timestamp() {
 				     var response = document.getElementById("g-recaptcha-response");
 				     if (response == null || response.value.trim() == "") {
@@ -100,7 +97,6 @@
 				     }
 				  }
 				  	setInterval(timestamp, 500);
-				 }
 		</script>
 	</head>
 
