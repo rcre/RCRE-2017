@@ -12,7 +12,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="msvalidate.01" content="DF45D5729702D2192315938E6E10F5DD" />
 		
-		<title>RESOURCE | <?php the_title(); ?></title>
+		<title><?php wp_title(); ?></title>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
 		
@@ -22,6 +22,10 @@
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
 		<meta name="keywords" content="<?php the_title(); ?>">
+
+		<!-- Salesforce Contact For ReCaptcha -->
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<!-- end Salesforce Contact For ReCaptcha -->
 		
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -31,7 +35,7 @@
 		})(window,document,'script','dataLayer','GTM-TSZKKGS');</script>
 		<!-- End Google Tag Manager -->
 		
-		<!-- Clear all the chaches -->
+		<!-- Clear all the caches -->
 		<meta http-equiv="cache-control" content="max-age=0" />
 		<meta http-equiv="cache-control" content="no-cache" />
 		<meta http-equiv="expires" content="0" />
@@ -89,10 +93,6 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
-
-		<!-- Salesforce Contact For ReCaptcha -->
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-		<!-- end Salesforce Contact For ReCaptcha -->
 
 		<script async defer>
 			// timestamp for Recaptcha form

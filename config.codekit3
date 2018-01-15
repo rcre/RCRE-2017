@@ -5,6 +5,22 @@
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
+		},
+	{
+		"name": "Compress into a Zip for WordPress",
+		"scriptSourceString": "# this badboy zips the resource-2017 folder into a zip file of the same name.\n# the first portion has the ..\/ in front to save it up one level from the root folder which is RCRE-2017\n# the second portion has the ..\/ in front becuase it's specifying the location the zip operation can find the file to compress\n\n# zip -r ..\/resource-2017 ..\/resource-2017\n\n# zip was not properly encoding for some reason...\n\nditto -ck --rsrc --sequesterRsrc ..\/resource-2017 ..\/resource-2017.zip",
+		"scriptType": 1,
+		"scriptUUIDString": "01AD7D39-A87C-4BF5-8D05-A4B3F9702EE3",
+		"stepType": 2,
+		"uuidString": "DA7099C0-ED08-4BA2-8A26-B5080CAE6C55"
+		},
+	{
+		"name": "SCP Zip to Godaddy Dev Server",
+		"scriptSourceString": "# Pending",
+		"scriptType": 1,
+		"scriptUUIDString": "C3C89A30-99AA-4AD3-AB69-F196C6504D39",
+		"stepType": 2,
+		"uuidString": "8FFEC362-797F-40D4-B37F-C724AFBE0E7C"
 		}
 	],
 "creatorBuild": "26148",
@@ -51,6 +67,12 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/bower_components": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/..\/resource-2017\/bower_components",
+		"oF": 0
 		},
 	"\/browserconfig.xml": {
 		"cB": 0,
@@ -189,16 +211,6 @@
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/css\/login.css",
 		"oF": 1,
-		"oS": 3
-		},
-	"\/library\/css\/meanmenu.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/css\/meanmenu.min.css",
-		"oF": 0,
 		"oS": 3
 		},
 	"\/library\/css\/style.css": {
@@ -1303,20 +1315,9 @@
 		"oT": 1,
 		"q": 85
 		},
-	"\/library\/images\/logos\/apple-touch-icon copy.png": {
-		"ft": 32768,
-		"iS": 4597,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-touch-icon copy.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 85
-		},
 	"\/library\/images\/logos\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 8439,
+		"iS": 4597,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-touch-icon.png",
 		"oF": 0,
@@ -1476,6 +1477,16 @@
 		"oT": 1,
 		"q": 85
 		},
+	"\/library\/images\/specialties\/grocery.jpg": {
+		"ft": 16384,
+		"iS": 79100,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/grocery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
 	"\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1516,6 +1527,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/library\/images\/specialties\/restaurant.jpg": {
+		"ft": 16384,
+		"iS": 133001,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/restaurant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
 	"\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1525,6 +1546,16 @@
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/library\/images\/specialties\/small-business.jpg": {
+		"ft": 16384,
+		"iS": 182172,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/small-business.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
 		},
 	"\/library\/images\/specialties\/specialty-panel-2-graph.svg": {
 		"ft": 2097152,
@@ -1556,32 +1587,32 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/library\/js\/libs\/modernizr.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/js\/libs\/modernizr.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/library\/js\/mobilemenu.js": {
+	"\/library\/js\/_mobilemenu.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/js\/mobilemenu.js",
-		"oF": 0,
+		"oAP": "\/..\/resource-2017\/library\/js\/_mobilemenu.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/library\/js\/parallax.js": {
+	"\/library\/js\/_parallax.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/js\/parallax.js",
+		"oAP": "\/..\/resource-2017\/library\/js\/_parallax.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/library\/js\/libs\/modernizr.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/js\/libs\/modernizr.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -1844,9 +1875,9 @@
 	"\/library\/scss\/.sass-cache\/fb675618605753dd3eb8d995fa51047a98aec477\/admin.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/fb675618605753dd3eb8d995fa51047a98aec477\/admin.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/library\/scss\/admin.scss": {
 		"aP": 1,
@@ -1857,7 +1888,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/admin.css",
-		"oF": 4,
+		"oF": 5,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1870,7 +1901,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_1030up.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1883,7 +1914,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_1500up.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1896,7 +1927,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_481up.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1909,7 +1940,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_768up.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1922,7 +1953,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_base.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1935,7 +1966,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/editor-style.css",
-		"oF": 4,
+		"oF": 5,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1948,7 +1979,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_animated.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1961,7 +1992,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_bordered-pulled.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1974,7 +2005,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_core.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1987,7 +2018,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_fixed-width.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2000,7 +2031,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_icons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2013,7 +2044,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_larger.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2026,7 +2057,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_list.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2039,7 +2070,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_mixins.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2052,7 +2083,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_path.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2065,7 +2096,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_rotated-flipped.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2078,7 +2109,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_screen-reader.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2091,7 +2122,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_stacked.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2104,7 +2135,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_variables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2117,7 +2148,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/font-awesome.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2130,7 +2161,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/ie.css",
-		"oF": 4,
+		"oF": 5,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2143,7 +2174,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/login.css",
-		"oF": 4,
+		"oF": 5,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2156,7 +2187,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_alerts.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2169,7 +2200,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_buttons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2182,7 +2213,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_forms.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2195,7 +2226,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_modules.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2208,7 +2239,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_navigation.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2221,7 +2252,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_broker.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2234,7 +2265,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_case-study.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2247,7 +2278,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_specialty.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2260,7 +2291,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_functions.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2273,7 +2304,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_global_images.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2286,7 +2317,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_grid.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2299,7 +2330,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_ie_grid.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2312,7 +2343,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_mixins.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2325,7 +2356,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_normalize.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2338,7 +2369,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_parallax.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2351,7 +2382,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_print.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2364,7 +2395,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_typography.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2377,7 +2408,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_variables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2390,7 +2421,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/style.css",
-		"oF": 4,
+		"oF": 5,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2987,7 +3018,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 537383078
+	"lastBuiltDate": 537745517
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4963,7 +4994,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules,",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, , \/bower_components",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

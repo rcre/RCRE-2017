@@ -3,9 +3,21 @@
 
 	<div class="pull-r-1of12 pull-l-1of12 cf">
 
-		<form id="contact-home" class="t-1of2 d-1of2 cf" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+		<div class="contact-copy t-1of2 d-5of12 left cf">
+		
+				<h2 class="text-center">Let's Get Started!</h2>
+				
+				<div class="contact-pic-container">
+					<div class="contact-pic industry--Grocery"></div>
+					<div class="contact-pic industry--Restaurant"></div>
+					<div class="contact-pic industry--Small-Business"></div>
+				</div>
 
-		<h2>Let's Get Started!</h2>
+				<p>Tackle your biggest commercial real estate challenges with a team that cares. Want to set up a meeting or simply talk with a professional? Out team is ready to help!</p>
+		</div>
+
+
+		<form id="contact-home" class="t-1of2 d-1of2 right cf" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 			<input type=hidden name='captcha_settings' value='{"keyname":"rcre_website_2016","fallback":"true","orgId":"00D15000000NClj","ts":""}'>
 			<input id="oid" type=hidden name="oid" value="">
@@ -46,7 +58,7 @@
 				<option value="Investor">Investor</option>
 				<option value="Seller">Seller</option>
 				<option value="Other">Other</option>
-				</select><br>
+				</select>
 			</div>
 
 			<div class="m-all t-1of2 d-1of2 last-col">
@@ -60,12 +72,12 @@
 				<option value="Property Management">Property Management</option>
 				<option value="Investments">Investments</option>
 				<option value="General Inquiry">General Inquiry</option>
-				</select><br>
+				</select>
 			</div>
 
-			<label for="description">Description</label><textarea name="description" tabindex="8" required ></textarea><br>
+			<label for="description">How can we help you?</label><textarea name="description" tabindex="8" required ></textarea>
 
-			<div class="g-recaptcha" data-sitekey="6LcbpyQUAAAAAKAjUdQypF-uVsjGbdR7VLD09QiK" data-callback="recaptcha_callback"></div><br>
+			<div class="g-recaptcha" data-theme="dark" data-sitekey="6LcbpyQUAAAAAKAjUdQypF-uVsjGbdR7VLD09QiK" data-callback="recaptcha_callback"></div>
 			
 			<input id="contact_submit" disabled="disabled" class="g-recaptcha cta-border-green" tabindex="9" type="submit" name="submit" value="Submit">
 

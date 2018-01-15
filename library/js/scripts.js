@@ -3,13 +3,6 @@
  * Author: Patrick Hanus
 */
 
-/* This is a special import line for Codekit, that pulls in bower components */
-
-// @codekit-prepend "../../bower_components/rrssb/js/rrssb.js";
-// @codekit-prepend "mobilemenu.js";
-// @codekit-prepend "parallax.js";
-
-
 /*************************
  * Get Viewport Dimensions
 **************************/
@@ -89,7 +82,7 @@ var viewport = updateViewportDimensions();
 **************************/
 
 function recaptcha_callback() {
-      jQuery('#contact_submit').removeAttr('disabled');
+  jQuery('#contact_submit').removeAttr('disabled');
 }       
 
   if( jQuery("#oid").length !== 0 ) {
@@ -103,5 +96,16 @@ function recaptcha_callback() {
 jQuery(document).ready(function() {
   jQuery('header nav').meanmenu();
   serviceTabs();
+  // Parallax activation script that kicks in on pages that have the #scene
+  if( jQuery("#scene").length !== 0 ) {
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+  }
 
 }); /* end of as page load scripts */
+
+/* This is a special import line for Codekit, that pulls in bower components */
+
+// @codekit-prepend "../../bower_components/rrssb/js/rrssb.js";
+// @codekit-prepend "_mobilemenu.js";
+// @codekit-prepend "_parallax.js";

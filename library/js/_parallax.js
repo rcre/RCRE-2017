@@ -597,9 +597,3 @@
 		}]
 	}, {}, [5])(5)
 });
-
-// Parallax activation script that kicks in on pages that have the #scene
-  if( jQuery("#scene").length !== 0 ) {
-    var scene = document.getElementById('scene');
-    var parallax = new Parallax(scene);
-  }
