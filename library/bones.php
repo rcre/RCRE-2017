@@ -27,7 +27,7 @@ function bones_head_cleanup() {
 	remove_action( 'wp_head', 'wp_generator' );
 	// remove WP version from css
 	// add_filter( 'style_loader_src', 'bones_remove_wp_ver_css_js', 9999 );
-	// remove Wp version from scripts
+	// // remove Wp version from scripts
 	// add_filter( 'script_loader_src', 'bones_remove_wp_ver_css_js', 9999 );
 
 } /* end bones head cleanup */
@@ -105,13 +105,13 @@ function bones_scripts_and_styles() {
   if (!is_admin()) {
 
 		// modernizr (without media query polyfill)
-		wp_register_script( 'resource-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.js', array(), '2.6.2', false );
+		wp_register_script( 'bones-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.js', array(), '2.6.2', false );
 
 		// register main stylesheet
-		wp_register_style( 'resource-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
+		wp_register_style( 'bones-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
 
 		// ie-only style sheet
-		wp_register_style( 'resource-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
+		wp_register_style( 'bones-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
 
     // comment reply script for threaded comments
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
@@ -122,9 +122,9 @@ function bones_scripts_and_styles() {
 		wp_register_script( 'scripts', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
-		wp_enqueue_script( 'resource-modernizr' );
-		wp_enqueue_style( 'resource-stylesheet' );
-		wp_enqueue_style( 'resource-ie-only' );
+		wp_enqueue_script( 'bones-modernizr' );
+		wp_enqueue_style( 'bones-stylesheet' );
+		wp_enqueue_style( 'bones-ie-only' );
 
 		$wp_styles->add_data( 'bones-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
