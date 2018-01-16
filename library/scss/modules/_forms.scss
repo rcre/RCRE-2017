@@ -110,7 +110,7 @@ input[type="password"] {
 // textareas
 textarea {
   max-width: 100%;
-  min-height: 120px;
+  min-height: 100px;
   line-height: 1.5em;
 }
 
@@ -277,12 +277,13 @@ form {
   }
 
   textarea {
-    height: 200px;
+    height: 150px;
   }
   
   select {
     max-width: none;
     color: $lgray;
+     margin-bottom: 7px;
   }
 
   option {
@@ -297,14 +298,14 @@ form {
   }
 
   input[type="submit"] {
-    margin-top: 10px;
+    margin-top: 7px;
     float: right;
     background-color: transparent;
   }
 
   input[type="submit"]:disabled {
-    margin-top: 10px;
-    float: right;
+    margin-top: 7px;
+    float: left;
     background-color: transparent;
     cursor: not-allowed;
     border-color: $gray;
@@ -317,8 +318,8 @@ form {
   }
 
   .g-recaptcha {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
 }
 

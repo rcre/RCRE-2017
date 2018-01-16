@@ -126,6 +126,20 @@ header#service {
 	}
 }
 
+.industry {
+	&--Grocery {
+		background-image: url('../images/specialties/grocery.jpg');
+	}
+	
+	&--Small-Business {
+		background-image: url('../images/specialties/small-business.jpg');
+	}
+	
+	&--Restaurant {
+		background-image: url('../images/specialties/restaurant.jpg');
+	}
+}
+
 body.post-type-archive-research-report #page-header {
 	background-image: url('../images/research-desktop.jpg');
 }

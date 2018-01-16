@@ -151,9 +151,9 @@ video.fullscreen {
 
 #logo {
 	width: 200px;
-		height: 62px;
-		align-self: left;
-		padding-top: 18px;
+	height: 62px;
+	align-self: left;
+	padding-top: 18px;
 	padding-left: 13px;
 }
 
@@ -299,6 +299,28 @@ section {
 	background: none;
 }
 
+.contact-copy {
+	margin-top: 6%;
+}
+
+.contact-pic-container {
+	margin: 40px 0px;
+}
+
+.contact-pic {
+	background-size: cover;
+	display: inline-block;
+	width: 40%;
+	height: 150px;
+	box-shadow: 13px 9px 35px 5px rgba(1, 1, 1, 0.35);
+	border-radius: 5px;
+}
+
+.contact-pic:nth-child(2) {
+	width: 40%;
+	margin: -5% -15% 5% -15%;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -313,7 +335,6 @@ footer {
 	}
 
 	.social {
-		//display: inline-block;
 		margin: 20px 10px 20px 0;
 		text-align: center;
 

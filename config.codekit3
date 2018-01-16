@@ -802,16 +802,6 @@
 		"oF": 1,
 		"oS": 3
 		},
-	"\/library\/css\/meanmenu.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/css\/meanmenu.min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/library\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1914,20 +1904,9 @@
 		"oT": 1,
 		"q": 85
 		},
-	"\/library\/images\/logos\/apple-touch-icon copy.png": {
-		"ft": 32768,
-		"iS": 4597,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-touch-icon copy.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 85
-		},
 	"\/library\/images\/logos\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 8439,
+		"iS": 4597,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-touch-icon.png",
 		"oF": 0,
@@ -2087,6 +2066,16 @@
 		"oT": 1,
 		"q": 85
 		},
+	"\/library\/images\/specialties\/grocery.jpg": {
+		"ft": 16384,
+		"iS": 79100,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/grocery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
 	"\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2127,6 +2116,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/library\/images\/specialties\/restaurant.jpg": {
+		"ft": 16384,
+		"iS": 133001,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/restaurant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
 	"\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2136,6 +2135,16 @@
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/library\/images\/specialties\/small-business.jpg": {
+		"ft": 16384,
+		"iS": 182172,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/small-business.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
 		},
 	"\/library\/images\/specialties\/specialty-panel-2-graph.svg": {
 		"ft": 2097152,
@@ -2167,22 +2176,32 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/library\/js\/_mobilemenu.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/..\/resource-2017\/library\/js\/_mobilemenu.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/library\/js\/_parallax.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/..\/resource-2017\/library\/js\/_parallax.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/library\/js\/libs\/modernizr.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/js\/libs\/modernizr.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/library\/js\/parallax.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/js\/parallax.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3588,7 +3607,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 537383078
+	"lastBuiltDate": 537805632
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

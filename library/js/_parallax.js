@@ -597,4 +597,3 @@
 		}]
 	}, {}, [5])(5)
 });
-//# sourceMappingURL=parallax.min.js.map

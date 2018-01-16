@@ -12,7 +12,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="msvalidate.01" content="DF45D5729702D2192315938E6E10F5DD" />
 		
-		<title>RESOURCE | <?php the_title(); ?></title>
+		<title><?php wp_title(); ?></title>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
 		
@@ -23,7 +23,19 @@
 		
 		<meta name="keywords" content="<?php the_title(); ?>">
 
-		<!-- Clear all the chaches -->
+		<!-- Salesforce Contact For ReCaptcha -->
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<!-- end Salesforce Contact For ReCaptcha -->
+		
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-TSZKKGS');</script>
+		<!-- End Google Tag Manager -->
+		
+		<!-- Clear all the caches -->
 		<meta http-equiv="cache-control" content="max-age=0" />
 		<meta http-equiv="cache-control" content="no-cache" />
 		<meta http-equiv="expires" content="0" />
@@ -82,10 +94,6 @@
 
 		<?php wp_head(); ?>
 
-		<!-- Salesforce Contact For ReCaptcha -->
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-		<!-- end Salesforce Contact For ReCaptcha -->
-
 		<script async defer>
 			// timestamp for Recaptcha form
 				  function timestamp() {
@@ -101,6 +109,14 @@
 	</head>
 
 	<body <?php body_class(); ?>">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSZKKGS" height="0" width="0" style="display:none;visibility:hidden">
+			</iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+		
 	 <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->

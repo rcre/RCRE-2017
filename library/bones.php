@@ -26,9 +26,9 @@ function bones_head_cleanup() {
 	// WP version
 	remove_action( 'wp_head', 'wp_generator' );
 	// remove WP version from css
-	add_filter( 'style_loader_src', 'bones_remove_wp_ver_css_js', 9999 );
-	// remove Wp version from scripts
-	add_filter( 'script_loader_src', 'bones_remove_wp_ver_css_js', 9999 );
+	// add_filter( 'style_loader_src', 'bones_remove_wp_ver_css_js', 9999 );
+	// // remove Wp version from scripts
+	// add_filter( 'script_loader_src', 'bones_remove_wp_ver_css_js', 9999 );
 
 } /* end bones head cleanup */
 
@@ -67,11 +67,11 @@ function rw_title( $title, $sep, $seplocation ) {
 function bones_rss_version() { return ''; }
 
 // remove WP version from scripts
-function bones_remove_wp_ver_css_js( $src ) {
-	if ( strpos( $src, 'ver=' ) )
-		$src = remove_query_arg( 'ver', $src );
-	return $src;
-}
+// function bones_remove_wp_ver_css_js( $src ) {
+// 	if ( strpos( $src, 'ver=' ) )
+// 		$src = remove_query_arg( 'ver', $src );
+// 	return $src;
+// }
 
 // remove injected CSS for recent comments widget
 function bones_remove_wp_widget_recent_comments_style() {
@@ -92,7 +92,6 @@ function bones_remove_recent_comments_style() {
 function bones_gallery_style($css) {
 	return preg_replace( "!<style type='text/css'>(.*?)</style>!s", '', $css );
 }
-
 
 /*********************
 SCRIPTS & ENQUEUEING
@@ -119,9 +118,8 @@ function bones_scripts_and_styles() {
 		  wp_enqueue_script( 'comment-reply' );
     }
 
-		// adding scripts file in the footer ( grabbing the minified version )
+		// adding scripts file in the footer
 		wp_register_script( 'scripts', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
-		wp_register_script( 'parallax', get_stylesheet_directory_uri() . '/library/js/parallax.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
 		wp_enqueue_script( 'bones-modernizr' );
@@ -130,13 +128,7 @@ function bones_scripts_and_styles() {
 
 		$wp_styles->add_data( 'bones-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
-		/*
-		I recommend using a plugin to call jQuery
-		using the google cdn. That way it stays cached
-		and your site will load faster.
-		*/
 		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'parallax' );
 		wp_enqueue_script( 'scripts' );
 	}
 }
