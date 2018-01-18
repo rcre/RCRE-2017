@@ -15,6 +15,18 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*1.8.0*
+
+- added arrows and borders to the service dropdown 
+- added auto icons for research reports
+- added padding to author section on posts
+- fixed profile pictures from scaling too big on service pages
+- created a partial for showing service buttons w/ icons
+- added title for social share section
+- added random case studies on the home page
+- removed parallaxing from the home header
+- added JS for smooth scrolling to contact form on homepage
+
 *1.7.4*
 
 - put the need help section in it’s own partial

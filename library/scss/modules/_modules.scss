@@ -52,6 +52,25 @@ MODULE: SERVICE GRID
 
 			
 // Individual Boxes
+
+.button-grid {
+	margin-top: 20px;
+	
+	.service-box {
+		padding: 5px;
+
+		img {
+			float: left;
+			width: 18%;
+		}
+	}
+
+	a {
+		text-decoration: none;
+		font-weight: 600;
+	}
+}
+
 .service-box {
 	border: 5px solid $lgray;
 	border-radius: 10px;
@@ -181,8 +200,8 @@ MODULE: LEARN MORE TABS
 .tab_drawer_heading {
 	background-color: lighten($lgray, 10%);
 	color: $gray;
-	margin: 0;
-	padding: 35px 20px;
+	margin: 0 15px;
+	padding: 15px 20px;
 	display: block;
 	cursor: pointer;
 	-webkit-touch-callout: none;
@@ -191,11 +210,19 @@ MODULE: LEARN MORE TABS
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	border-top: solid $lgray 1px;
+	border-bottom: solid $lgray 1px;
 }
 
 .d_active {
 	background-color: $lgray;
 	color: #fff;
+
+	i {
+		-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
 }
 
 /***********

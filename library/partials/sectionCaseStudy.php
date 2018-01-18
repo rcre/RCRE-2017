@@ -16,14 +16,24 @@
 						if ( has_term( '', 'specialty' )) {
 							$custom_taxterms = wp_get_object_terms( $post->ID, 'specialty', array('fields' => 'slugs'));
 							$tax = 'specialty';
+							$custom_field = 'slug';
 						
 						} elseif ( has_term( '', 'service' ) ) {
 							$custom_taxterms = wp_get_object_terms( $post->ID, 'service', array('fields' => 'slugs'));
 							$tax = 'service';
+							$custom_field = 'slug';
 						
 						} elseif ( has_term( '', 'teams' ) ) {
 							$custom_taxterms = wp_get_object_terms( $post->ID, 'teams', array('fields' => 'slugs'));
 							$tax = 'teams';
+							$custom_field = 'slug';
+
+						} elseif ( is_front_page() ) {
+							$all_specialties = get_terms( 'specialty' ); // Get all specialty terms.
+							$rand_specialty = $all_specialties[ array_rand( $all_specialties ) ]; // Select one at random.
+							$custom_taxterms = array( $rand_specialty->term_id );
+							$tax = 'specialty';
+							$custom_field = 'id';
 						}
 
 						$args = array(
@@ -32,17 +42,17 @@
 							'tax_query' => array(
 							    array(
 							        'taxonomy' => $tax,
-							        'field' => 'slug',
-							        'terms' => $custom_taxterms
+							        'field' => $custom_field,
+							        'terms' => $custom_taxterms,
 							    )
 							)						
 						);
-						
+
 						$custom_posts = new WP_Query( $args );
 					
 						// Start the Loop.
 						while ( $custom_posts->have_posts() ) : $custom_posts->the_post(); ?>
-
+							
 							<a title="Read the Case Study" class="m-1of3 t-1of3 d-1of3 pad-top" href="<?php echo esc_url( get_permalink() ); ?>">
 						<?php // Grab the image to the case study ?>
 							<div class="case-study-icon">

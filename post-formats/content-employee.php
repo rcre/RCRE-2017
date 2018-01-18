@@ -1,3 +1,5 @@
+<!-- content-employee.php -->
+
 <?php // This is the template for a broker's picture, name, title and link to profile only ?>
 	<?php // the div ID is the broker's name with dashes were needed ?>
 

@@ -1,3 +1,5 @@
+<!-- content-listing-closed.php -->
+
 <div class="m-all t-1of2 d-1of3">
 	
 	<div class="listing-box cf" itemscope itemtype="Product">

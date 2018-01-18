@@ -3,13 +3,13 @@
 <div class="section-pllx">
 	<div id="scene" class="layer-pllx pllx-back" data-relative-input="true" data-pointer-events="true" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15">
 		
-		<div data-depth="0.10" class="header header-video">
+		<div class="header header-video">
 			<video loop="" muted="" autoplay="" poster="<?php echo get_template_directory_uri(); ?>/library/images/header-desktop.jpg" class="fullscreen">
         		<source src="https://rcre.com/wp-content/uploads/2018/01/header.mp4" type="video/mp4">
 			</video>
 		</div>
 		
-		<div data-depth="0.30" class="callout cf">
+		<div class="callout cf">
 			<div class="m-all t-1of2 d-1of2 center text-center cf">
 				<h1 class="page-title" itemprop="headline">Start the New Year</br>off right.</h1>
 				<p class="subtitle"><?php echo types_render_field( "tagline", array( 'raw' => true)); ?></p>

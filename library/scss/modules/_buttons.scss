@@ -18,6 +18,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   text-decoration: none;
   text-align: center;
   font-weight: 600;
+  align-self: center;
   @include transition(background-color 0.14s ease-in-out);
 
   // hovering on the btn

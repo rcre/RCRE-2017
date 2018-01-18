@@ -109,3 +109,4 @@ jQuery(document).ready(function() {
 // @codekit-prepend "../../bower_components/rrssb/js/rrssb.js";
 // @codekit-prepend "_mobilemenu.js";
 // @codekit-prepend "_parallax.js";
+// @codekit-prepend "_smoothscroll.js";

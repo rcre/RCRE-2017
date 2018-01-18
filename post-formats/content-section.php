@@ -1,5 +1,6 @@
-<?php
+<!-- content-section.php -->
 
+<?php
 	global $style;
 	$style = 0; 
 	//echo '<ul>';
@@ -51,11 +52,16 @@
 				<div class="m-padding">
 					<p><?php echo types_render_field( "excerpt", array( "id"=> "$page->ID" )); ?>
 					</p>
-					<a href="<?php echo get_permalink("$page->ID"); ?>" class="cta-border-green"><?php echo types_render_field( "tagline", array( "id"=> "$page->ID" )); ?></a>
+
+					<a href="<?php echo get_permalink("$page->ID"); ?>" class="cta-border-green"><?php echo types_render_field( "tagline", array( "id"=> "$page->ID" )); ?>
+					</a>
+					
 				</div>
 			</aside>
 
-			<div class="slant slant--<?php echo $imgClass; ?>"></div>
+			<div class="slant slant--<?php echo $imgClass; ?>">
+				
+			</div>
 		</section>
 
 	<?php } } else { ?>

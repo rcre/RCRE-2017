@@ -15,6 +15,7 @@
 		<title><?php wp_title(); ?></title>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
+		<!-- <meta http-equiv="Content-Security-Policy" content="default-src http:"> -->
 		
 		<!-- Behavioral Meta Data -->
   		<meta name="apple-mobile-web-app-capable" content="yes">

@@ -6,18 +6,18 @@
 
 	<div class="section-pllx">
 		<div class="layer-pllx pllx-base">
-		<div class="our-clients cf">
-			<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
-				<ul>
-					<li class="Coca-Cola"><span>Coca-Cola</span></li>
-					<li class="eli-lilly"><span>PNC Bank</span></li>
-					<li class="indiana-members"><span>Omnisource</span></li>
-					<li class="omnisource"><span>Hylant</span></li>
-					<li class="PNC"><span>Indiana Members</span></li>
-					<li class="progressive"><span>Lilly</span></li>
-				</ul>
+			<div class="our-clients cf">
+				<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
+					<ul>
+						<li class="Coca-Cola"><span>Coca-Cola</span></li>
+						<li class="eli-lilly"><span>PNC Bank</span></li>
+						<li class="indiana-members"><span>Omnisource</span></li>
+						<li class="omnisource"><span>Hylant</span></li>
+						<li class="PNC"><span>Indiana Members</span></li>
+						<li class="progressive"><span>Lilly</span></li>
+					</ul>
+				</div>
 			</div>
-		</div>
 
 		<div id="inner-content" class="cf">
 

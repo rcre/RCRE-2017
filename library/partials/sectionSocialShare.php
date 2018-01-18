@@ -5,6 +5,7 @@ $socialYoastTitle = get_post_meta($post->ID, '_yoast_wpseo_title', true);
 $socialYoastTitleNoSpaces = str_replace(' ', '%20', $socialYoastTitle );
  ?>
 
+<h5 class="text-center">Found this helpful? Share it with your network.</h5>
 <ul class="rrssb-buttons">
 
       <li class="rrssb-email">

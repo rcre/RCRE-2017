@@ -5,7 +5,7 @@
 
 		<div class="contact-copy t-1of2 d-5of12 left cf">
 		
-				<h2 class="text-center">Let's Get Started!</h2>
+				<h2 id="contactTitle" class="text-center">Let's Get Started!</h2>
 				
 				<div class="contact-pic-container">
 					<div class="contact-pic industry--Grocery"></div>

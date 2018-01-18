@@ -337,4 +337,10 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+
+// Custom function to output buttons based on taxonomys
+
+
+
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>

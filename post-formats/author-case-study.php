@@ -1,4 +1,4 @@
-
+<!-- author-case-study.php -->
 <?php 
 	// Get the ID of the parent post, which belongs to the "Broker" post type
 		$parent_id = wpcf_pr_post_get_belongs( get_the_ID(), 'employee' );

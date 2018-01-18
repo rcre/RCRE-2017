@@ -1,4 +1,4 @@
-<!-- Child Section -->
+<!-- content-childSection.php -->
 	<?php 
 		$child_posts = types_child_posts( "section" ); // Load the contents of related posts in the array
 		foreach ($child_posts as $child_post) {  ?>

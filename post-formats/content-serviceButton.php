@@ -1,3 +1,5 @@
+<!-- content-serviceButton.php -->
+
 <?php // This is the template for a button to a service page, data is retrieved from the service ?>
 	<div id="<?php echo sanitize_title_with_dashes( $title ); ?>" class="button-service m-1of2 t-1of4 d-1of4">
 		

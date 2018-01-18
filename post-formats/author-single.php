@@ -1,3 +1,5 @@
+<!-- author-single.php -->
+
 <section id="authorSingle" class="m-all t-all d-all" itemprop="author" itemscope itemtype="http://schema.org/Person">
 	
 	<?php 
@@ -13,10 +15,10 @@
 			$broker_excerpt = $broker_post->post_excerpt;
 		?>
 
-	<div class="m-1of2 t-1of3 d-1of5">
-		<img class="broker-profile-picture" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>" itemprop="image" alt="<?php echo $broker_name; ?>">
+	<div class="m-all t-1of3 d-1of5 pad-right cf flex">
+		<img class="broker-profile-picture m-1of2" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>" itemprop="image" alt="<?php echo $broker_name; ?>">
 		
-		<a class="cta-border-green" href="mailto:<?php echo types_render_field( "profile-email-address", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>">Contact</a>
+		<a class="cta-border-green m-1of2" href="mailto:<?php echo types_render_field( "profile-email-address", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>">Contact</a>
 	</div> 
 
 	<div class="m-all t-2of3 d-4of5 cf">
