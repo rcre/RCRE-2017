@@ -25,7 +25,7 @@
 		<meta name="keywords" content="<?php the_title(); ?>">
 
 		<!-- Salesforce Contact For ReCaptcha -->
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 		<!-- end Salesforce Contact For ReCaptcha -->
 		
 		<!-- Google Tag Manager -->
@@ -94,19 +94,6 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
-
-		<script async defer>
-			// timestamp for Recaptcha form
-				  function timestamp() {
-				     var response = document.getElementById("g-recaptcha-response");
-				     if (response == null || response.value.trim() == "") {
-				         var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
-				         elems["ts"] = JSON.stringify(new Date().getTime());
-				         document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems);
-				     }
-				  }
-				  	setInterval(timestamp, 500);
-		</script>
 	</head>
 
 	<body <?php body_class(); ?>">

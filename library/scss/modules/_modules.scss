@@ -308,8 +308,25 @@ MODULE: Service Landing Page
 }
 
 /***********
-MODULE: Careers Upload Widget
+MODULE: Thank you page
 ***********/
-iframe #box-upload-widget-iframe-39ke2c7v2eo #mod-upload-widget-1 main {
-	height: 200px !important;
+
+#ThankYou {
+	text-align: center;
+
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	img {
+		margin: 60px;
+	}
+
+	a {
+		display: inline-block;
+		border: 2px solid #cfcfcf;
+		font-size: 3em;
+		padding: 15px 30px;
+		margin: 20px;
+	}
 }

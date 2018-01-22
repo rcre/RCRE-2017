@@ -1,3 +1,8 @@
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+ function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+</script>
+		
 
 <section id="contactUs" class="m-padding proposal-contact cf">
 
@@ -13,14 +18,15 @@
 					<div class="contact-pic industry--Small-Business"></div>
 				</div>
 
-				<p>Tackle your biggest commercial real estate challenges with a team that cares. Want to set up a meeting or simply talk with a professional? Out team is ready to help!</p>
+				<p>Tackle your biggest commercial real estate challenges with a team that cares. Want to set up a meeting or simply talk with a professional? Our team is ready to help!</p>
 		</div>
 
 
 		<form id="contact-home" class="t-1of2 d-1of2 right cf" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-			<input type=hidden name='captcha_settings' value='{"keyname":"rcre_website_2016","fallback":"true","orgId":"00D15000000NClj","ts":""}'>
-			<input id="oid" type=hidden name="oid" value="">
+			<input type=hidden name='captcha_settings' value='{"keyname":"rcre_2018","fallback":"true","orgId":"00D15000000NClj","ts":""}'>
+			
+			<input type=hidden name="oid" value="00D15000000NClj">
 			<input type=hidden name="retURL" value="https://rcre.com/thank-you">
 
 			<div class="m-all t-1of2 d-1of2">
@@ -77,12 +83,13 @@
 
 			<label for="description">How can we help you?</label><textarea name="description" tabindex="8" required ></textarea>
 
-			<div class="g-recaptcha" data-theme="dark" data-sitekey="6LcbpyQUAAAAAKAjUdQypF-uVsjGbdR7VLD09QiK" data-callback="recaptcha_callback"></div>
+			<div class="g-recaptcha" data-theme="dark" data-sitekey="6LeafEEUAAAAAFhCHxYHK_CIoOVKXS2Fqlp5wkBh" data-callback="recaptcha_callback"></div>
 			
-			<input id="contact_submit" disabled="disabled" class="g-recaptcha cta-border-green" tabindex="9" type="submit" name="submit" value="Submit">
+			<input id="contact_submit" disabled="disabled" class="cta-border-green" tabindex="9" type="submit" name="submit" value="Submit">
 
 		</form>	
 
 	</div>
 
 </section>
+
