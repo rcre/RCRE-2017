@@ -130,7 +130,7 @@
 		"oF": 1
 		},
 	"\/header.php": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/header.php",
@@ -3076,7 +3076,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 538522444
+	"lastBuiltDate": 538524837
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
