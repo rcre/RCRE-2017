@@ -165,6 +165,9 @@
 			} elseif( get_post_type() == "landing-page") {
 				get_template_part('library/partials/header-none');
 
+			} elseif ( is_page_template( 'page-landing-page.php' ) ) {
+				get_template_part('library/partials/header-none');
+
 			} elseif( is_404() ) {
 				get_template_part('library/partials/header-404');
 

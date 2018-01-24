@@ -16,8 +16,6 @@
 
 	<div class="cf">
 
-		<?php get_template_part('library/partials/contentThankYou'); ?>
-
 		<div class="contact-copy t-1of3 d-1of3 left cf text-center pad">
 		
 			<h2 id="contactTitle" class="text-center header-dark">

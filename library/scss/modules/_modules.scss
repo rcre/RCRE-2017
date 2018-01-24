@@ -354,7 +354,7 @@ MODULE: Selector Slider
 MODULE: Contact Landing
 ***********/
 
-.landing-page-template-default {
+body {
 
 	header, footer {
 		display: none;
@@ -364,35 +364,35 @@ MODULE: Contact Landing
 		padding: 0;
 		margin: 0;
 	}
-}
 
-article.landing-page {
-	height: 120vh;
-	background-size: cover;
-
-	img {
-		margin-top: 40px;
-		width: 250px;
-	}
-
-	&.hentry {
-		margin: 0;
-	}
-	
-	section {
-		background-color: white;
-		border-radius: 10px;
-		box-shadow: 1px 1px 35px rgba( $black, 0.3);
-	}
-
-	.contact-copy {
-		p {
-			text-align: left;
-		}
+	article.landing-page {
+		height: 115vh;
+		background-size: cover;
 
 		img {
-			width: 120px;
-			margin-top: 20px;
+			margin-top: 40px;
+			width: 250px;
+		}
+
+		&.hentry {
+			margin: 0;
+		}
+		
+		section {
+			background-color: white;
+			border-radius: 10px;
+			box-shadow: 1px 1px 35px rgba( $black, 0.3);
+		}
+
+		.contact-copy {
+			p {
+				text-align: left;
+			}
+
+			img {
+				width: 120px;
+				margin-top: 20px;
+			}
 		}
 	}
 }

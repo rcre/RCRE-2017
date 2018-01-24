@@ -1,11 +1,11 @@
-<div id="ThankYou" class="fadeOut">
+<section id="ThankYou" class="pull-r-1of12 pull-l-1of12 m-padding cf">
+
 	<div class="pad cf">
 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-thank-you.svg" alt="" />
 	</div>
 
 	<h2 class="header-dark">Message Sent!</h2>
 	<p>We've sent you a copy of your request for your records.</p>
-
 	<hr>
 
 	<div class="pad">
@@ -14,3 +14,5 @@
 		<?php get_template_part('library/partials/outputButtons-social'); ?>
 	</div>
 </div>	
+
+</section>
