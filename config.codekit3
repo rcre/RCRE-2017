@@ -2801,13 +2801,6 @@
 		"oAP": "\/..\/resource-2017\/page-case-studies.php",
 		"oF": 0
 		},
-	"\/page-landing-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/..\/resource-2017\/page-landing-page.php",
-		"oF": 0
-		},
 	"\/page-marketing.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3033,6 +3026,13 @@
 		"oAP": "\/..\/resource-2017\/single-employee.php",
 		"oF": 1
 		},
+	"\/single-landing-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/single-landing-page.php",
+		"oF": 0
+		},
 	"\/single-listing.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3076,7 +3076,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 538513136
+	"lastBuiltDate": 538522444
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

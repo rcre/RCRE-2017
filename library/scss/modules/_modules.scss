@@ -354,7 +354,7 @@ MODULE: Selector Slider
 MODULE: Contact Landing
 ***********/
 
-body {
+body.single-landing-page {
 
 	header, footer {
 		display: none;
@@ -413,6 +413,27 @@ body {
 
 	input.slider {
 		background-color: transparent;
+	}
+
+	input[type="submit"] {
+	    margin-top: 7px;
+	    float: left;
+	    background-color: $dblue;
+	    color: white;
+
+	    &:hover {
+			background-color: lighten($dblue, 10%);;
+	    }
+    }
+
+    input[type="submit"]:disabled {
+	    margin-top: 7px;
+	    float: left;
+	    background-color: $lgray;
+	    color: white;
+	    cursor: not-allowed;
+	    border-color: $lgray;
+	    color: $white;
 	}
 }
 

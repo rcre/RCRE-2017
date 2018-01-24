@@ -46,10 +46,11 @@
 				<?php 
 					if ( get_post_type() == "landing-page") {
 						get_template_part('library/partials/sectionCustomContact'); 
+					
+					} elseif ( is_page ("thank-you")) {
+						get_template_part('library/partials/contentThankYou');
 					}
 				?>
-
-				<?php get_template_part('library/partials/contentThankYou'); ?>
 
 			</article>
 			
