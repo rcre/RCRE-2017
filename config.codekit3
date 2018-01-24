@@ -56,7 +56,7 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/bower_components",
-		"oF": 0
+		"oF": 1
 		},
 	"\/browserconfig.xml": {
 		"cB": 0,
@@ -1050,6 +1050,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/library\/images\/icons\/icon-thank-you.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-thank-you.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/library\/images\/icons\/icon-tick-bad.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1591,6 +1601,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/library\/js\/_sliderselector.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/..\/resource-2017\/library\/js\/_sliderselector.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/library\/js\/_smoothscroll.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1614,12 +1634,19 @@
 	"\/library\/js\/scripts.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/js\/scripts.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/library\/partials\/contentThankYou.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/partials\/contentThankYou.php",
+		"oF": 0
 		},
 	"\/library\/partials\/header-404.php": {
 		"cB": 0,
@@ -1696,6 +1723,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionContact.php",
+		"oF": 0
+		},
+	"\/library\/partials\/sectionCustomContact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/partials\/sectionCustomContact.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionMailChimpSmall.php": {
@@ -2809,13 +2843,6 @@
 		"oAP": "\/..\/resource-2017\/page-team.php",
 		"oF": 0
 		},
-	"\/page-thank-you.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/..\/resource-2017\/page-thank-you.php",
-		"oF": 0
-		},
 	"\/page-wernke-team.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3049,7 +3076,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 538009507
+	"lastBuiltDate": 538438401
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4170,11 +4197,11 @@
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
 			},
 		"no-unused-labels": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-unused-vars": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
@@ -4442,7 +4469,7 @@
 	"externalServerAddress": "https:\/\/rcre.dev",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "{\n    \"globals\": {\n        \"$\": false\n    }\n}",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
@@ -4721,7 +4748,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"varstmt": {

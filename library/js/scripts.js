@@ -83,11 +83,7 @@ var viewport = updateViewportDimensions();
 
 function recaptcha_callback() {
   jQuery('#contact_submit').removeAttr('disabled');
-}       
-
-  if( jQuery("#oid").length !== 0 ) {
-    document.getElementById('oid').value = '00D15000000NClj';
-  }
+}     
 
 /*************************
  * Contact Form
@@ -110,3 +106,4 @@ jQuery(document).ready(function() {
 // @codekit-prepend "_mobilemenu.js";
 // @codekit-prepend "_parallax.js";
 // @codekit-prepend "_smoothscroll.js";
+// @codekit-prepend "_sliderselector.js";

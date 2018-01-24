@@ -14,14 +14,21 @@
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<article id="post-<?php the_ID(); ?>" <?php post_class('cf pull-r-1of12 pull-l-1of12'); ?> role="article">
+			<?php 
+				$terms = get_the_terms( $post->ID, 'specialty' );
+				$term = array_pop($terms);
+				$termId = $term->term_id;
+				$bannerimg = types_render_termmeta( "specialty-picture", array( "term_id" => $termId, "output" => "raw" ));
+				$icon = types_render_termmeta( "specialty-icon", array( "term_id" => $termId, "output" => "raw" ));
+			?>
 
-			
-				<header class="profile-header m-all t-all d-all cf">
-					<div id="logo" class="m-1of2 t-1of3 d-1of3">
-						<a itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
-					</div>
-				</header>
+			<article id="post-<?php the_ID(); ?>" <?php post_class(''); ?> role="article" style="background-image: url('<?php echo $bannerimg; ?>');">
+
+				<div class="text-center">
+					<a itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow">
+						<img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo">
+					</a>
+				</div>
 
 				<?php get_template_part('library/partials/sectionCustomContact'); ?>
 
