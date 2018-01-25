@@ -308,6 +308,146 @@ MODULE: Service Landing Page
 }
 
 /***********
+MODULE: Selector Slider
+***********/
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    // background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: $lgray; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: $lgray; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+/***********
+MODULE: Contact Landing
+***********/
+
+body {
+
+	&.single-landing-page, &.page-template-single-landing-page {
+
+		header, footer {
+			display: none;
+		}
+
+		#content #main {
+			padding: 0;
+			margin: 0;
+		}
+
+		article.landing-page {
+			height: 115vh;
+			background-size: cover;
+
+			img {
+				margin-top: 40px;
+				width: 250px;
+			}
+
+			&.hentry {
+				margin: 0;
+			}
+			
+			section {
+				background-color: white;
+				border-radius: 10px;
+				box-shadow: 1px 1px 35px rgba( $black, 0.3);
+			}
+
+			.contact-copy {
+				p {
+					text-align: left;
+				}
+
+				img {
+					width: 120px;
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+}
+
+#ContactLanding {
+	opacity: 100;
+	background-color: $lgreen;
+	padding: 30px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transition: 0.5s;
+
+	input, textarea {
+		background-color: white;
+		border-color: $lgray;
+		color: $gray;
+	}
+
+	input.slider {
+		background-color: transparent;
+	}
+
+	input[type="submit"] {
+	    margin-top: 7px;
+	    float: left;
+	    background-color: $dblue;
+	    color: white;
+
+	    &:hover {
+			background-color: lighten($dblue, 10%);;
+	    }
+    }
+
+    input[type="submit"]:disabled {
+	    margin-top: 7px;
+	    float: left;
+	    background-color: $lgray;
+	    color: white;
+	    cursor: not-allowed;
+	    border-color: $lgray;
+	    color: $white;
+	}
+}
+
+.fadeOut {
+	display: none;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+
+/***********
 MODULE: Thank you page
 ***********/
 
@@ -319,14 +459,20 @@ MODULE: Thank you page
 	}
 
 	img {
-		margin: 60px;
+		margin: 20px auto;
 	}
 
 	a {
 		display: inline-block;
-		border: 2px solid #cfcfcf;
-		font-size: 3em;
+		font-size: 2em;
 		padding: 15px 30px;
 		margin: 20px;
+	}
+
+	hr {
+		height: 1px;
+		margin: 80px auto 40px auto;
+		background-color: $lgray;
+		border: none;
 	}
 }

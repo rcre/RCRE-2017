@@ -1,8 +1,18 @@
-<script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
- function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+ function timestamp() { 
+ 	var response = document.getElementById("g-recaptcha-response"); 
+ 	if (response == null || response.value.trim() == "") {
+ 		var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
+ 		elems["ts"] = JSON.stringify(new Date().getTime());
+ 		document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); 
+ 	} 
+ } 
+ setInterval(timestamp, 500); 
 </script>
-		
+
+<script>
+	
+</script>	
 
 <section id="contactUs" class="m-padding proposal-contact cf">
 
@@ -26,7 +36,7 @@
 
 			<input type=hidden name='captcha_settings' value='{"keyname":"rcre_2018","fallback":"true","orgId":"00D15000000NClj","ts":""}'>
 			
-			<input type=hidden name="oid" value="00D15000000NClj">
+			<input id="oid" type="hidden" name="oid">
 			<input type=hidden name="retURL" value="https://rcre.com/thank-you">
 
 			<div class="m-all t-1of2 d-1of2">
@@ -83,7 +93,7 @@
 
 			<label for="description">How can we help you?</label><textarea name="description" tabindex="8" required ></textarea>
 
-			<div class="g-recaptcha" data-theme="dark" data-sitekey="6LeafEEUAAAAAFhCHxYHK_CIoOVKXS2Fqlp5wkBh" data-callback="recaptcha_callback"></div>
+			<div class="g-recaptcha" data-theme="dark" data-sitekey="6LeafEEUAAAAAFhCHxYHK_CIoOVKXS2Fqlp5wkBh" data-callback="onSuccess"></div>
 			
 			<input id="contact_submit" disabled="disabled" class="cta-border-green" tabindex="9" type="submit" name="submit" value="Submit">
 
@@ -92,4 +102,3 @@
 	</div>
 
 </section>
-
