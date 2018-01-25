@@ -1,7 +1,7 @@
 <!-- Header 3 - Frontpage Header -->
 
 <div class="section-pllx">
-	<div id="scene" class="layer-pllx pllx-back" data-relative-input="true" data-pointer-events="true" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15">
+	<div class="layer-pllx pllx-back">
 		
 		<div class="header header-video">
 			<video loop="" muted="" autoplay="" poster="<?php echo get_template_directory_uri(); ?>/library/images/header-desktop.jpg" class="fullscreen">

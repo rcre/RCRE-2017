@@ -3,6 +3,14 @@
  * Author: Patrick Hanus
 */
 
+/* This is a special import line for Codekit, that pulls in bower components */
+
+// @codekit-prepend "../../bower_components/rrssb/js/rrssb.js";
+// @codekit-prepend "_mobilemenu.js";
+// @codekit-prepend "_parallax.js";
+// @codekit-prepend "_smoothscroll.js";
+// @codekit-prepend "_sliderselector.js";
+
 /*************************
  * Get Viewport Dimensions
 **************************/
@@ -81,9 +89,25 @@ var viewport = updateViewportDimensions();
  * Google Recaptcha
 **************************/
 
-function recaptcha_callback() {
-  jQuery('#contact_submit').removeAttr('disabled');
-}     
+var onSuccess = function(response) {
+
+  var btnSubmit = document.getElementById("contact_submit");
+  if ( btnSubmit.hasAttribute("disabled") ) {
+          btnSubmit.removeAttribute("disabled");
+      }
+      
+  document.getElementById('oid').setAttribute("value", "00D15000000NClj");
+
+  var errorDivs = document.getElementsByClassName("recaptcha-error");
+    if (errorDivs.length) {
+      errorDivs[0].className = "";
+    }
+
+  var errorMsgs = document.getElementsByClassName("recaptcha-error-message");
+    if (errorMsgs.length) {
+      errorMsgs[0].parentNode.removeChild(errorMsgs[0]);
+    }
+}; 
 
 /*************************
  * Contact Form
@@ -92,6 +116,7 @@ function recaptcha_callback() {
 jQuery(document).ready(function() {
   jQuery('header nav').meanmenu();
   serviceTabs();
+  
   // Parallax activation script that kicks in on pages that have the #scene
   if( jQuery("#scene").length !== 0 ) {
     var scene = document.getElementById('scene');
@@ -99,11 +124,3 @@ jQuery(document).ready(function() {
   }
 
 }); /* end of as page load scripts */
-
-/* This is a special import line for Codekit, that pulls in bower components */
-
-// @codekit-prepend "../../bower_components/rrssb/js/rrssb.js";
-// @codekit-prepend "_mobilemenu.js";
-// @codekit-prepend "_parallax.js";
-// @codekit-prepend "_smoothscroll.js";
-// @codekit-prepend "_sliderselector.js";

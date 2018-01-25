@@ -1676,6 +1676,13 @@
 		"oAP": "\/..\/resource-2017\/library\/partials\/header-listing.php",
 		"oF": 1
 		},
+	"\/library\/partials\/header-none.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/partials\/header-none.php",
+		"oF": 0
+		},
 	"\/library\/partials\/header-single.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3076,7 +3083,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 538524837
+	"lastBuiltDate": 538599402
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

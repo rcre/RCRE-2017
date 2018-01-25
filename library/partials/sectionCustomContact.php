@@ -6,11 +6,9 @@
 	$icon = types_render_termmeta( "specialty-icon", array( "term_id" => $termId ));
 ?>
 
-<script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
  function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
 </script>
-<script>document.getElementById('oid').value = '00D15000000NClj';</script>
 		
 <section id="contactUs" class="pull-r-1of12 pull-l-1of12 m-padding cf">
 
@@ -30,7 +28,7 @@
 
 			<input type=hidden name='captcha_settings' value='{"keyname":"rcre_2018","fallback":"true","orgId":"00D15000000NClj","ts":""}'>
 			
-			<input type=hidden name="oid" value="">
+			<input id="oid" type="hidden" name="oid">
 			<input type=hidden name="retURL" value="https://rcre.com/thank-you">
 			
 			<label for="company">What's your challenge?</label>
@@ -66,7 +64,6 @@
 				<label for="square-footage">Square Footage: <span id="sfOutput"></span> SF</label>
 				<div class="slidecontainer">
 				  <input name="00N1C00000Iz7sn" type="range" min="500" max="1000000" value="10000" class="slider" id="squareFootage" tabindex="7" >
-				  
 				</div>
 			</div>
 		
@@ -79,7 +76,7 @@
 
 			<label for="description">Tell us more about your requirements</label><textarea name="description" tabindex="9" required ></textarea>
 
-			<div class="g-recaptcha" data-sitekey="6LeafEEUAAAAAFhCHxYHK_CIoOVKXS2Fqlp5wkBh" data-callback="recaptcha_callback"></div>
+			<div class="g-recaptcha" data-sitekey="6LeafEEUAAAAAFhCHxYHK_CIoOVKXS2Fqlp5wkBh" data-callback="onSuccess"></div>
 			
 			<input id="contact_submit" disabled="disabled" class="cta-border-green" tabindex="10" type="submit" name="submit" value="Submit">
 		</form>	
