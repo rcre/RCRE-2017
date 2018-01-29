@@ -6,14 +6,16 @@
 
 					<main id="main" class="cf pad-top" role="main">
 
-						<h1 class="archive-title"><span><?php _e( 'Search Results for:', 'bonestheme' ); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
+						<h1 class="header-dark archive-title"><span><?php _e( 'Search Results for:', 'bonestheme' ); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
 
 						<div class="selling-point-grid">
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article">
+								
 								<?php get_template_part( 'post-formats/content-search-result' ); ?>
+
 							</article>
 
 						<?php endwhile; ?>

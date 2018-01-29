@@ -7,7 +7,7 @@
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -121,24 +121,6 @@
 		"oA": 2,
 		"oAP": "\/..\/resource-2017\/front-page.php",
 		"oF": 1
-		},
-	"\/FRONTEND.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/FRONTEND.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/functions.php": {
 		"cB": 0,
@@ -1806,6 +1788,13 @@
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionUVP.php",
 		"oF": 0
 		},
+	"\/library\/partials\/sectionValues.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/partials\/sectionValues.php",
+		"oF": 0
+		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1953,6 +1942,19 @@
 		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/fb675618605753dd3eb8d995fa51047a98aec477\/admin.scssc",
 		"oF": 0
 		},
+	"\/library\/scss\/admin.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/css\/admin.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/library\/scss\/breakpoints\/_1030up.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2014,6 +2016,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_base.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/library\/scss\/editor-style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/css\/editor-style.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2196,6 +2211,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/font-awesome.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/library\/scss\/ie.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/css\/ie.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/library\/scss\/login.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/css\/login.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2441,9 +2482,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/style.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2749,14 +2790,6 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/..\/resource-2017\/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3071,7 +3104,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 538682423
+	"lastBuiltDate": 538951304
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3642,6 +3675,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

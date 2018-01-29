@@ -10,7 +10,7 @@
 
 				<section class="topic search">
 				
-						<p><?php // get_search_form(); ?></p>
+					<?php get_search_form(); ?>
 
 				</section>
 

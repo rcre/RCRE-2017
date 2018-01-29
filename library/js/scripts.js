@@ -115,8 +115,12 @@ var onSuccess = function(response) {
 
 
 jQuery("#searchButton").click(function() {
-    jQuery("header nav").hide();
-    jQuery("#searchform").addClass("visible");
+    jQuery("#searchform").toggleClass("visible");
+
+    jQuery("#searchButton i").toggleClass("fa-search").toggleClass("fa-close");
+
+    jQuery("#s").focus();
+    jQuery("#s").select();
   });
 
 
@@ -126,10 +130,11 @@ jQuery("#searchButton").click(function() {
 
 jQuery(document).ready(function() {
   jQuery('header nav').meanmenu();
+  
   serviceTabs();
   
   // Parallax activation script that kicks in on pages that have the #scene
-  if( jQuery("#scene").length !== 0 ) {
+  if( jQuery("#scene").length != 0 ) {
     var scene = jQuery('scene');
     var parallax = new Parallax(scene);
   }

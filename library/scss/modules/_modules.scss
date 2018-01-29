@@ -102,11 +102,15 @@ MODULE: SERVICE GRID
 	position: relative;
 	transition: 1.0s;
 
-	div {
+	.picture {
 		padding: 30px 20px;
 		background-repeat: no-repeat; 
 		background-size: cover;
 		background-position: center center;
+	}
+
+	.content {
+		padding: 30px 20px;
 	}
 
 	p {

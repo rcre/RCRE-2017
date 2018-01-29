@@ -59,10 +59,12 @@ HEADER STYLES
 
 header {
 	position: relative;
+	overflow: hidden;
 }
 
 #scene {
 	overflow: hidden;
+	position: relative;
 
 	.header {
 		left: -5% !important;
@@ -92,14 +94,20 @@ header {
 
 .header-video {
 	width: 100%;
-	left: 0;
+	position: absolute;
+	height: 750px;
+	display: block;
+    text-align: center;
+    z-index: -5;
+    left: 0; 
+    top: 40px;
 }
 
 // styles for video background in the header
 video.fullscreen {
 	display: block;
   	height: auto !important;
-  	width: 1327px;
+  	width: 1357px;
 }
 
 header.fullscreen {
@@ -139,6 +147,7 @@ header.fullscreen {
 }
 
 #inner-header {
+	height: 63px;
 	top: 0;
 	border-bottom: 3px solid $white;
 	position: fixed;
@@ -150,7 +159,6 @@ header.fullscreen {
 	width: 100%;
 	background-color: darken($gray, 5%);
 	z-index: 100;
-	//align-items: center;
 	-webkit-flex-flow: row wrap;
   	justify-content: flex-end;
 
@@ -161,35 +169,31 @@ header.fullscreen {
 
 #logo {
 	width: 200px;
-	height: 62px;
-	align-self: left;
 	padding-top: 18px;
 	padding-left: 13px;
 }
 
 #call {
 	width: 63px;
-	height: 61px;
 	padding: 15px;
 	background-color: $gray;
 }
 
 #menu-burger {
 	width: 63px;
-	height: 61px;
 	background-color: $green;
 }
 
 #searchButton {
-	display: block;
 	align-self: center;
 	color: white;
 	font-size: 1.5em;
 	width: 63px;
-	height: 65px;
 	padding: 15px;
 	background-color: $gray;
 	cursor: pointer;
+	text-align: center;
+	border-left: 1px solid $dgray;
 }
 
 .callout {
@@ -235,17 +239,8 @@ POSTS & CONTENT STYLES
 #content {
 	z-index: 5;
 	background-color: white;
-	
-	#main {
-		// margin-top: 10px; Why was this margin here?
-		margin-bottom: 0.5em;
-	}
 }
 
-iframe {
-	// border: 5px solid $lgray;
-	// border-radius: 5px;
-}
 .hentry {
 	background-color: $white;
 	margin-bottom: 0.5em;
@@ -319,6 +314,9 @@ section {
 	height: auto;
 	background: none;
 }
+
+
+// Contact form styles
 
 .contact-copy {
 	margin-top: 6%;

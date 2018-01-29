@@ -14,7 +14,7 @@
 
 	} else {
 		$iconLink = get_stylesheet_directory_uri() . '/library/images/icons/icon-sprouting-plant.svg';
-   		$icon = '<img src="'.$iconLink.'" alt="'.the_title().'">'; 
+   		$icon = '<img src="'.$iconLink.'">'; 
 	}
 
 
@@ -23,15 +23,29 @@
 	} else {
 		$bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
 	}
+
+
+	$postTag = get_post_type();
+		if ( $postTag == 'research-report' ) {
+			$postTag = "Research Report";
+		} elseif ( $postTag == 'employee') {
+			$postTag = "Employee";
+		} elseif ( $postTag == 'case-study') {
+			$postTag = "Case Study";
+		} elseif ( $postTag == 'post') {
+			$postTag = "Blog Post";
+		}
 ?>
 
 
+
 <div class="search-box">
-	<div style="background-image: url('<?php echo $bannerimg; ?>');">
+	<div class="picture" style="background-image: url('<?php echo $bannerimg; ?>');">
+		<div class="left tag-no-link pad pad-top"><?php echo $postTag; ?></div>
 		<div class="search-icon"><?php echo $icon; ?></div>
 	</div>
 	
-	<div>
+	<div class="content">
 		<h4><?php the_title(); ?></h3>
 	<?php wp_trim_excerpt( the_excerpt() ); ?>
 	<hr>

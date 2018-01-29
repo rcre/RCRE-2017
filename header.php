@@ -115,10 +115,6 @@
 						<a title="Call RESOURCE" itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
 					</div>
 
-					<div id="menu-burger">
-						
-					</div>
-					
 					<?php get_template_part('searchform'); ?>
 
 					<?php // Top Navigation ?>
@@ -136,6 +132,9 @@
 
 					<div id="searchButton">
 						<i class="fa fa-search" aria-hidden="true"></i>
+					</div>
+
+					<div id="menu-burger">
 					</div>
 
 				</div>

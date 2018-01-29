@@ -236,6 +236,39 @@ function bones_fonts() {
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
 
+
+
+
+
+/*************  RESOURCE Custom Search Parameters**************/
+
+add_action( 'pre_get_posts', 'rcre_modify_query' );
+
+function rcre_modify_query( $query ) {
+ 
+ // First, make sure this isn't the admin and is the main query, otherwise bail
+ if( is_admin() || ! $query->is_main_query() )
+ return;
+ 
+ // If this is a search result query
+ if( $query->is_search() ) {
+ // Gather all searchable post types
+ $in_search_post_types = get_post_types( array( 'exclude_from_search' => false ) );
+ // The post type you're removing, in this example 'page'
+ $post_type_to_remove = 'attachment';
+ // Make sure you got the proper results, and that your post type is in the results
+ if( is_array( $in_search_post_types ) && in_array( $post_type_to_remove, $in_search_post_types ) ) {
+ // Remove the post type from the array
+ unset( $in_search_post_types[ $post_type_to_remove ] );
+ // set the query to the remaining searchable post types
+ $query->set( 'post_type', $in_search_post_types );
+ }
+ }
+}
+
+
+/************* Add Descriptions to Menu Items ********************/
+
 // This bad boy is for adding descriptions on some of the nav menu items
 function item_description( $item_output, $item, $depth, $args ) {
     if ( property_exists($item, 'description') && strlen($item->description) ) {
@@ -244,7 +277,7 @@ function item_description( $item_output, $item, $depth, $args ) {
     return $item_output;
 }
 
-
+/************* Async Load Javascript  ********************/
 // Async Load
 function rcre_async_scripts($url)
 {
@@ -265,7 +298,8 @@ add_filter( 'walker_nav_menu_start_el', 'item_description', 10, 4 );
 add_theme_support( 'post-formats', 'miniProfile' );
 
 
-// Function to show children on parent pages
+/************* Show Children Pages on Top Level Pages ********************/
+
 function has_children() {
   global $post;
   $pages = get_pages('child_of=' . $post->ID);
@@ -279,10 +313,8 @@ function is_top_level() {
   return $current_page;
 }
 
-/*
-  Redirect Archives to Pages
-  i.e. retail taxonomy => retail page
-*/
+/************* Redirect Archives to Pages (i.e. retail taxonomy => retail page) ********************/
+
 
 add_action( 'template_redirect', 'my_redirect_term_to_post' );
 
@@ -309,6 +341,7 @@ function my_redirect_term_to_post() {
   }
 }
 
+
 function my_get_post_id_by_slug( $slug, $post_type ) {
   global $wpdb;
 
@@ -331,15 +364,14 @@ global $bannerimg;
 // For grabbing the post type from a page
 global $custom_post_type;
 
-// This shortens the excerpt link
+/************* This shortens the excerpt link *****/
 function custom_excerpt_length( $length ) {
   return 20;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 
-// Custom function to output buttons based on taxonomys
-
+/*************  **************/
 
 
 
