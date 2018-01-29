@@ -15,9 +15,11 @@ Author: Patrick Hanus
 
 *******************************************************************
 
-1.8.1
 
-- added a section for RESOURCE values
+*1.8.3*
+
+- added values section to the about page
+
 
 *1.8.0*
 
