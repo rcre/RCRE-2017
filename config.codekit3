@@ -7,7 +7,7 @@
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -1786,6 +1786,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionUVP.php",
+		"oF": 0
+		},
+	"\/library\/partials\/sectionValues.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/library\/partials\/sectionValues.php",
 		"oF": 0
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
@@ -3654,6 +3661,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
