@@ -15,20 +15,17 @@
 		<title><?php wp_title(); ?></title>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
-		<!-- <meta http-equiv="Content-Security-Policy" content="default-src http:"> -->
 		
-		<!-- Behavioral Meta Data -->
+		<?php // Behavioral Meta Data ?>
   		<meta name="apple-mobile-web-app-capable" content="yes">
   		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
 		<meta name="keywords" content="<?php the_title(); ?>">
 
-		<!-- Salesforce Contact For ReCaptcha -->
-		<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
-		<!-- end Salesforce Contact For ReCaptcha -->
-		
-		<!-- Google Tag Manager -->
+		<script src="https://www.google.com/recaptcha/api.js"></script>	
+
+		<?php // Google Tag Manager ?>
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -36,7 +33,8 @@
 		})(window,document,'script','dataLayer','GTM-TSZKKGS');</script>
 		<!-- End Google Tag Manager -->
 		
-		<!-- Clear all the caches -->
+		<?php // Clear all the caches ?>
+		
 		<meta http-equiv="cache-control" content="max-age=0" />
 		<meta http-equiv="cache-control" content="no-cache" />
 		<meta http-equiv="expires" content="0" />
@@ -44,7 +42,6 @@
 		<meta http-equiv="pragma" content="no-cache" />
 		
 		<?php // icons & favicons ?>
-		
 		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/library/favicons/apple-touch-icon.png">
 		<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/library/favicons/manifest.json">
 		
@@ -97,6 +94,7 @@
 	</head>
 
 	<body <?php body_class(); ?>">
+
 		<!-- Google Tag Manager (noscript) -->
 		<noscript>
 			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSZKKGS" height="0" width="0" style="display:none;visibility:hidden">
@@ -131,7 +129,7 @@
 					</div>
 					
 
-					<!-- Top Navigation -->
+					<?php // Top Navigation ?>
 						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 								<?php wp_nav_menu(array(
 		    					         'container' => false,                           // remove nav container
@@ -161,6 +159,12 @@
 
 			} elseif( get_post_type() == "listing") {
 				get_template_part('library/partials/header-listing');
+
+			} elseif( get_post_type() == "landing-page") {
+				get_template_part('library/partials/header-none');
+
+			} elseif ( is_page_template( 'single-landing-page.php' ) ) {
+				get_template_part('library/partials/header-none');
 
 			} elseif( is_404() ) {
 				get_template_part('library/partials/header-404');
