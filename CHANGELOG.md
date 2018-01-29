@@ -15,6 +15,10 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+1.8.1
+
+- added a section for RESOURCE values
+
 *1.8.0*
 
 - added arrows and borders to the service dropdown 
