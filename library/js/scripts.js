@@ -110,6 +110,17 @@ var onSuccess = function(response) {
 }; 
 
 /*************************
+ * Search Form
+**************************/
+
+
+jQuery("#searchButton").click(function() {
+    jQuery("header nav").hide();
+    jQuery("#searchform").addClass("visible");
+  });
+
+
+/*************************
  * Contact Form
 **************************/
 
@@ -119,7 +130,7 @@ jQuery(document).ready(function() {
   
   // Parallax activation script that kicks in on pages that have the #scene
   if( jQuery("#scene").length !== 0 ) {
-    var scene = document.getElementById('scene');
+    var scene = jQuery('scene');
     var parallax = new Parallax(scene);
   }
 

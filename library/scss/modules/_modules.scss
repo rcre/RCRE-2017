@@ -93,6 +93,47 @@ MODULE: SERVICE GRID
 }
 
 
+
+
+.search-box {
+	border: 5px solid $lgray;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	transition: 1.0s;
+
+	div {
+		padding: 30px 20px;
+		background-repeat: no-repeat; 
+		background-size: cover;
+		background-position: center center;
+	}
+
+	p {
+		text-align: left;
+	}
+
+	&:hover, &:focus {
+		box-shadow: 1px 1px 35px rgba( $black, 0.3);
+		transition: $trans;
+		border-color: darken($lgray, 5%);
+	}
+	
+	// Attempt to center the images later $revisit
+	img {
+		border-top-right-radius: 6px;
+		border-top-left-radius: 6px;
+		width: 100%;
+	}
+
+	hr {
+		height: 1px;
+		margin: 10px auto 10px auto;
+		background-color: $lgray;
+		border: none;
+	}
+}
+
 /***********
 MODULE: OUR CLIENTS
 ***********/

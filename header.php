@@ -23,7 +23,7 @@
 		
 		<meta name="keywords" content="<?php the_title(); ?>">
 
-		<script src="https://www.google.com/recaptcha/api.js"></script>	
+		<script async defer src="https://www.google.com/recaptcha/api.js"></script>	
 
 		<?php // Google Tag Manager ?>
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -32,14 +32,6 @@
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-TSZKKGS');</script>
 		<!-- End Google Tag Manager -->
-		
-		<?php // Clear all the caches ?>
-		
-		<meta http-equiv="cache-control" content="max-age=0" />
-		<meta http-equiv="cache-control" content="no-cache" />
-		<meta http-equiv="expires" content="0" />
-		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-		<meta http-equiv="pragma" content="no-cache" />
 		
 		<?php // icons & favicons ?>
 		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/library/favicons/apple-touch-icon.png">
@@ -119,7 +111,6 @@
 					</div>
 					
 					<div class="space"></div>
-					<!-- Call Button -->
 					<div id="call">
 						<a title="Call RESOURCE" itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
 					</div>
@@ -128,6 +119,7 @@
 						
 					</div>
 					
+					<?php get_template_part('searchform'); ?>
 
 					<?php // Top Navigation ?>
 						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -141,6 +133,11 @@
 		    					         'fallback_cb' => ''                            // fallback function (if there is one)
 								)); ?>
 						</nav>
+
+					<div id="searchButton">
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</div>
+
 				</div>
 			</header>
 
@@ -168,6 +165,9 @@
 
 			} elseif( is_404() ) {
 				get_template_part('library/partials/header-404');
+
+			} elseif( is_search() ) {
+				get_template_part('library/partials/header-none');
 
 			} elseif ( is_single() ) {
 				get_template_part('library/partials/header-single');
