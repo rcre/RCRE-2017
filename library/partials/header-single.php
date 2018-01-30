@@ -1,4 +1,4 @@
-<!-- Header 5 - Case Studies and Blog Post Headers -->
+<!-- Case Studies & Blog Post Headers -->
 
 	<?php 
 

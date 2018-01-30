@@ -5,11 +5,11 @@
 
 /* This is a special import line for Codekit, that pulls in bower components */
 
-// @codekit-prepend "_rrssb.js";
 // @codekit-prepend "_mobilemenu.js";
 // @codekit-prepend "_parallax.js";
 // @codekit-prepend "_smoothscroll.js";
 // @codekit-prepend "_sliderselector.js";
+// @codekit-prepend "_rrssb.js";
 
 /*************************
  * Get Viewport Dimensions
@@ -64,26 +64,6 @@ var viewport = updateViewportDimensions();
   jQuery('ul.tabs li').last().addClass("tab_last");
 }
 
-/*************************
- * Mobile Dropdowns
-**************************/
-
-  function mobileDropdowns() {
-    var acc = document.getElementsByClassName("li");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-      acc[i].onclick = function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight){
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        } 
-      };
-    }
-  }
 
 /*************************
  * Google Recaptcha
@@ -129,17 +109,15 @@ jQuery("#searchButton").click(function() {
 
 
 /*************************
- * Contact Form
+ * Ready Functions
 **************************/
 
 jQuery(document).ready(function() {
-  jQuery('header nav').meanmenu();
-  
+  jQuery("header nav").meanmenu();
   serviceTabs();
-  
-  // Parallax activation script that kicks in on pages that have the #scene
-  if( jQuery("#scene").length !== 0 ) {
-    var scene = jQuery('scene');
+
+  if(jQuery("#scene").length !== 0) {
+    var scene = document.getElementById("scene");
     var parallax = new Parallax(scene);
   }
 

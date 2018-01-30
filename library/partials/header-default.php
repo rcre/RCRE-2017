@@ -1,4 +1,4 @@
-<!-- Header 2 - Page, Post and other Headers -->
+<!-- Page & Post Headers -->
 <?php 
 if ( has_post_thumbnail() ) {
 	$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );

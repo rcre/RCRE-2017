@@ -44,14 +44,6 @@
 		"oAP": "\/..\/resource-2017\/BingSiteAuth.xml",
 		"oF": 0
 		},
-	"\/bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/..\/resource-2017\/bower-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -1649,8 +1641,8 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/partials\/contentThankYou.php",
-		"oF": 0
+		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/contentThankYou.php",
+		"oF": 6
 		},
 	"\/library\/partials\/header-404.php": {
 		"cB": 0,
@@ -1670,8 +1662,8 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/partials\/header-home.php",
-		"oF": 0
+		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/header-home.php",
+		"oF": 6
 		},
 	"\/library\/partials\/header-listing.php": {
 		"cB": 0,
@@ -1684,8 +1676,8 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/partials\/header-none.php",
-		"oF": 0
+		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/header-none.php",
+		"oF": 6
 		},
 	"\/library\/partials\/header-single.php": {
 		"cB": 0,
@@ -1698,22 +1690,22 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/partials\/outputButtons-services.php",
-		"oF": 0
+		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/outputButtons-services.php",
+		"oF": 6
 		},
 	"\/library\/partials\/outputButtons-social.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/partials\/outputButtons-social.php",
-		"oF": 0
+		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/outputButtons-social.php",
+		"oF": 6
 		},
 	"\/library\/partials\/outputButtons-specialty.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/partials\/outputButtons-specialty.php",
-		"oF": 0
+		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/outputButtons-specialty.php",
+		"oF": 6
 		},
 	"\/library\/partials\/sectionCareers.php": {
 		"cB": 0,
@@ -1740,8 +1732,8 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionCustomContact.php",
-		"oF": 0
+		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/sectionCustomContact.php",
+		"oF": 6
 		},
 	"\/library\/partials\/sectionMailChimpSmall.php": {
 		"cB": 0,
@@ -1796,8 +1788,8 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionValues.php",
-		"oF": 0
+		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/sectionValues.php",
+		"oF": 6
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
 		"cB": 0,
@@ -2818,13 +2810,6 @@
 		"oAP": "\/..\/resource-2017\/page-blank.php",
 		"oF": 0
 		},
-	"\/page-brand-guide.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/..\/resource-2017\/page-brand-guide.php",
-		"oF": 0
-		},
 	"\/page-careers.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3027,7 +3012,7 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
-		"q": 85
+		"q": 68
 		},
 	"\/search.php": {
 		"cB": 0,
@@ -3121,7 +3106,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 539016081
+	"lastBuiltDate": 539022598
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
