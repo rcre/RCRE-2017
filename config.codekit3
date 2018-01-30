@@ -54,7 +54,7 @@
 		},
 	"\/bower_components": {
 		"ft": 65536,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/..\/resource-2017\/bower_components",
 		"oF": 1
 		},
@@ -1951,8 +1951,8 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/admin.css",
-		"oF": 4,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/library\/scss\/breakpoints\/_1030up.scss": {
@@ -2029,8 +2029,8 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/editor-style.css",
-		"oF": 4,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/library\/scss\/font-awesome\/_animated.scss": {
@@ -2224,8 +2224,8 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/ie.css",
-		"oF": 4,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/library\/scss\/login.scss": {
@@ -2237,8 +2237,8 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/login.css",
-		"oF": 4,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/library\/scss\/modules\/_alerts.scss": {
@@ -2484,8 +2484,8 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/css\/style.css",
-		"oF": 4,
-		"oS": 0,
+		"oF": 1,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/library\/translation\/da_DK.mo": {
@@ -2801,6 +2801,13 @@
 		"oAP": "\/..\/resource-2017\/page-blank.php",
 		"oF": 0
 		},
+	"\/page-brand-guide.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/page-brand-guide.php",
+		"oF": 0
+		},
 	"\/page-careers.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2926,6 +2933,13 @@
 		"oA": 2,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-post.php",
 		"oF": 1
+		},
+	"\/post-formats\/content-search-result.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/resource-2017\/post-formats\/content-search-result.php",
+		"oF": 0
 		},
 	"\/post-formats\/content-section.php": {
 		"cB": 0,
@@ -3090,7 +3104,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 538953115
+	"lastBuiltDate": 538956046
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -5070,7 +5084,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, , \/bower_components",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, , \/bower_components, \/atomic-docs-master",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

@@ -12,7 +12,7 @@
 					<?php
 						get_template_part( 'post-formats/content-childSection' );
 
-						if ( is_page() == "about") {
+						if ( is_page('about')) {
 							get_template_part( 'library/partials/sectionValues' );
 						}
 						
