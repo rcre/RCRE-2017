@@ -26,18 +26,18 @@ p {
 }
 
 .nav {
-	> li {
+	> a {
 		font-size: 1.1em;
+	}
 
-		// Show "Search Properties" when you have more screen
-		&:last-child {
-			display: inline-block;
+	// Show "Search Properties" when you have more screen
+	> li:last-child {
+		display: inline-block;
 
-			a {
-				color: $green;	
-			}
-			
+		a {
+			color: $green;	
 		}
+		
 	}
 }
 

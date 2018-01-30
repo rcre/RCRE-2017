@@ -22,6 +22,7 @@ IMPORTING MODULES
 @import "modules/buttons";
 @import "modules/forms";
 @import "modules/modules";
+@import "modules/rrssb";
 
 /*********************
 BASE (MOBILE) SIZE
@@ -87,10 +88,3 @@ PRINT STYLESHEET
 	@import "partials/print";
 
 }
-
-/*********************
-Bower Components
-*********************/
-
-// Import Social Icon Styles from Bower Components
-@import "../../bower_components/rrssb/scss/rrssb";

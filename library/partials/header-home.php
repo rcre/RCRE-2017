@@ -1,6 +1,6 @@
 <!-- Header 3 - Frontpage Header -->
 
-<header>
+<div id="hero">
 	<div class="header-video">
 		<video loop="" muted="" autoplay="" poster="<?php echo get_template_directory_uri(); ?>/library/images/header-desktop.jpg" class="fullscreen">
 			<source src="https://rcre.com/wp-content/uploads/2018/01/header.mp4" type="video/mp4">
@@ -18,4 +18,5 @@
 			</div>
 		</div>
 	</div>	
-</header>
+</div>
+	

@@ -5,7 +5,7 @@
 
 /* This is a special import line for Codekit, that pulls in bower components */
 
-// @codekit-prepend "../../bower_components/rrssb/js/rrssb.js";
+// @codekit-prepend "_rrssb.js";
 // @codekit-prepend "_mobilemenu.js";
 // @codekit-prepend "_parallax.js";
 // @codekit-prepend "_smoothscroll.js";
@@ -119,9 +119,13 @@ jQuery("#searchButton").click(function() {
 
     jQuery("#searchButton i").toggleClass("fa-search").toggleClass("fa-close");
 
+    jQuery("#menu-burger").toggleClass("hide");
+    jQuery(".meanmenu-reveal").toggleClass("hide");
+    jQuery("#call").toggleClass("hide");
+
     jQuery("#s").focus();
     jQuery("#s").select();
-  });
+});
 
 
 /*************************
@@ -134,7 +138,7 @@ jQuery(document).ready(function() {
   serviceTabs();
   
   // Parallax activation script that kicks in on pages that have the #scene
-  if( jQuery("#scene").length != 0 ) {
+  if( jQuery("#scene").length !== 0 ) {
     var scene = jQuery('scene');
     var parallax = new Parallax(scene);
   }

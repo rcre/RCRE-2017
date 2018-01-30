@@ -2,11 +2,13 @@
 
 			<div id="content">
 
-				<div id="inner-content" class="pull-l-1of12 pull-r-1of12 cf">
+				<div id="inner-content" class="pull-l-1of12 pull-r-1of12 m-padding cf">
 
 					<main id="main" class="cf pad-top" role="main">
 
-						<h1 class="header-dark archive-title"><span><?php _e( 'Search Results for:', 'bonestheme' ); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
+						<h1 class="header-dark archive-title pad-top"><span><?php _e( 'Search Results for:', 'bonestheme' ); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
+
+						<hr>
 
 						<div class="selling-point-grid">
 
@@ -24,16 +26,14 @@
 
 							<?php else : ?>
 
-									<article id="post-not-found" class="cf">
+									<article id="post-not-found" class="cf pad-top">
 										<header class="article-header">
-											<h1><?php _e( 'Sorry, No Results.', 'bonestheme' ); ?></h1>
+											<h2 class="text-center header-dark"><?php _e( 'Sorry, we did not find any results for your search.', 'bonestheme' ); ?></h2>
 										</header>
+
 										<section class="entry-content">
-											<p><?php _e( 'Try your search again.', 'bonestheme' ); ?></p>
+											<p class="text-center"><?php _e( 'You can try your search again, or send us an email and we can make sure you get to the right place!', 'bonestheme' ); ?></p>
 										</section>
-										<footer class="article-footer">
-												<p><?php _e( 'This is the error message in the search.php template.', 'bonestheme' ); ?></p>
-										</footer>
 									</article>
 
 							<?php endif; ?>

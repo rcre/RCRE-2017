@@ -12,10 +12,6 @@ Stylesheet: Typography
 $sans-serif:        "Montserrat", Helvetica, Arial, sans-serif;
 $serif:             "Montserrat", Cambria, Times New Roman, Times, serif;
 
-// I can remove this:
-$lato:              'Montserrat', $sans-serif;
-
-
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   font-weight: 400;
@@ -177,4 +173,11 @@ a {
   &:hover {
     color: $blue;
   }
+}
+
+hr {
+  height: 1px;
+  margin: 30px auto 30px auto;
+  background-color: $lgray;
+  border: none;
 }

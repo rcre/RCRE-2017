@@ -42,6 +42,11 @@ blockquote {
 HEADER STYLES
 *********************/
 
+// Prevent the searhc bar from going full width
+#searchform.visible {
+	left: 25%;
+}
+
 // Hide the menu burger
 #menu-burger {
 	display: none;
@@ -377,6 +382,8 @@ ul.tabs {
 .tab_drawer_heading { 
 	display: none; 
 }
+
+
 
 /*********************
 FOOTER STYLES

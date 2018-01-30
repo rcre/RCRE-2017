@@ -52,12 +52,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/..\/resource-2017\/bower_components",
-		"oF": 1
-		},
 	"\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -1601,6 +1595,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/library\/js\/_rrssb.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/..\/resource-2017\/library\/js\/_rrssb.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/library\/js\/_sliderselector.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2302,6 +2306,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_navigation.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/library\/scss\/modules\/_rrssb.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_rrssb.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -3104,7 +3121,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 538951304
+	"lastBuiltDate": 539016081
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
