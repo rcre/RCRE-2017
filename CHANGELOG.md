@@ -15,6 +15,15 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*1.8.4*
+
+- Fixed an issue where values were showing up on pages they shouldn’t.
+
+*1.8.3*
+
+- added values section to the about page
+
+
 *1.8.0*
 
 - added arrows and borders to the service dropdown 
