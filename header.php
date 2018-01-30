@@ -166,6 +166,9 @@
 			} elseif ( is_single() ) {
 				get_template_part('library/partials/header-single');
 
+			} elseif ( is_search() ) {
+				get_template_part('library/partials/header-none');
+
 			} else {
 				get_template_part('library/partials/header-default');
 			} ?>
