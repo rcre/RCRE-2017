@@ -59,6 +59,12 @@ HEADER STYLES
 
 #searchButton {
 	margin-right: 15px;
+	transition: $trans;
+
+	&:hover {
+		background-color: $green;
+		transition: $trans;
+	}
 }
 
 .callout {

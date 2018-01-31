@@ -17,14 +17,6 @@
    		$icon = '<img src="'.$iconLink.'">'; 
 	}
 
-
-	if ( has_post_thumbnail() ) {
-		$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-	} else {
-		$bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
-	}
-
-
 	$postTag = get_post_type();
 		if ( $postTag == 'research-report' ) {
 			$postTag = "Research Report";
@@ -37,21 +29,18 @@
 		}
 ?>
 
-
-
 <div class="search-box">
-	<div class="picture" style="background-image: url('<?php echo $bannerimg; ?>');">
+	<div class="picture" style="background-image: url('<?php echo rcre_header_image($post); ?>');">
 		<div class="left tag-no-link pad pad-top"><?php echo $postTag; ?></div>
 		<div class="search-icon"><?php echo $icon; ?></div>
 	</div>
 	
 	<div class="content">
 		<h4><?php the_title(); ?></h3>
-	<?php wp_trim_excerpt( the_excerpt() ); ?>
-	<hr>
+		<?php wp_trim_excerpt( the_excerpt() ); ?>
+		<hr>
 
-	<a class="blue-link" href="<?php esc_url( the_permalink() ); ?>">Read More...</a>
-
+		<a class="blue-link" href="<?php esc_url( the_permalink() ); ?>">Read More...</a>
 	</div>
 	
 </div>
