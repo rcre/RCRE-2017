@@ -358,9 +358,6 @@ function my_get_post_id_by_slug( $slug, $post_type ) {
   return false;
 }
 
-// For Using Featured Images as header images
-global $bannerimg;
-
 // For grabbing the post type from a page
 global $custom_post_type;
 
@@ -371,8 +368,32 @@ function custom_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 
-/*************  **************/
+/************* Get Featured Image **************/
 
+function rcre_header_image($post) { 
+  if ( has_post_thumbnail() ) {
+    $bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+  
+  } else {
+    $bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
+  }
 
+  return $bannerimg;
+}
+
+/************* Set Admin post order to alphabetical **************/
+
+function set_post_order_in_admin( $wp_query ) {
+
+global $pagenow;
+
+if ( is_admin() && 'edit.php' == $pagenow && !isset($_GET['orderby'])) {
+
+    $wp_query->set( 'orderby', 'title' );
+    $wp_query->set( 'order', 'ASC' );       
+}
+}
+
+add_filter('pre_get_posts', 'set_post_order_in_admin', 5 );
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

@@ -10,7 +10,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf m-padding" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blogposting">
+		<main id="main" class="cf m-padding" role="main" tabindex="-1" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blogposting">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

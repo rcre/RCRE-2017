@@ -5,7 +5,7 @@
 	<div id="inner-content" class="cf">
 
 
-		<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" class="cf" tabindex="-1" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 		<?php get_template_part('library/partials/sectionUVP'); ?>
 

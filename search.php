@@ -10,7 +10,7 @@ Template Name: Search Page
 
 				<div id="inner-content" class="pull-l-1of12 pull-r-1of12 m-padding cf">
 
-					<main id="main" class="cf pad-top" role="main">
+					<main id="main" class="cf pad-top" tabindex="-1" role="main">
 
 						<h1 class="header-dark archive-title pad-top"><span><?php _e( 'Search Results for:', 'bonestheme' ); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
 

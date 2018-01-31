@@ -9,7 +9,7 @@ $socialYoastTitleNoSpaces = str_replace(' ', '%20', $socialYoastTitle );
 <ul class="rrssb-buttons">
 
       <li class="rrssb-email">
-        <a href="mailto:?Subject=Check%20out%20this%20post%20from%20RESOURCE&amp;body=<?php echo $socialTitle; ?>%20<?php echo $socialLink; ?>" target="_blank">
+        <a href="mailto:?Subject=Check%20out%20this%20post%20from%20RESOURCE&amp;body=<?php echo $socialTitle; ?>%20-%20<?php echo $socialLink; ?>" target="_blank">
 
           <span class="rrssb-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.386 2.614H2.614A2.345 2.345 0 0 0 .279 4.961l-.01 14.078a2.353 2.353 0 0 0 2.346 2.347h18.771a2.354 2.354 0 0 0 2.347-2.347V4.961a2.356 2.356 0 0 0-2.347-2.347zm0 4.694L12 13.174 2.614 7.308V4.961L12 10.827l9.386-5.866v2.347z"/></svg>
@@ -36,7 +36,7 @@ $socialYoastTitleNoSpaces = str_replace(' ', '%20', $socialYoastTitle );
         </a>
       </li>
       <li class="rrssb-twitter">
-        <a href="https://twitter.com/intent/tweet?text=<?php echo $socialYoastTitleNoSpaces; ?>%20<?php echo $socialLink; ?>%20via%20@RESOURCEcre"
+        <a href="https://twitter.com/intent/tweet?text=Great%20read%20-%20<?php echo $socialYoastTitleNoSpaces; ?>%20<?php echo $socialLink; ?>%20via%20@RESOURCEcre"
         class="popup">
           <span class="rrssb-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62a15.093 15.093 0 0 1-8.86-2.32c2.702.18 5.375-.648 7.507-2.32a5.417 5.417 0 0 1-4.49-3.64c.802.13 1.62.077 2.4-.154a5.416 5.416 0 0 1-4.412-5.11 5.43 5.43 0 0 0 2.168.387A5.416 5.416 0 0 1 2.89 4.498a15.09 15.09 0 0 0 10.913 5.573 5.185 5.185 0 0 1 3.434-6.48 5.18 5.18 0 0 1 5.546 1.682 9.076 9.076 0 0 0 3.33-1.317 5.038 5.038 0 0 1-2.4 2.942 9.068 9.068 0 0 0 3.02-.85 5.05 5.05 0 0 1-2.48 2.71z"/></svg>
@@ -46,7 +46,7 @@ $socialYoastTitleNoSpaces = str_replace(' ', '%20', $socialYoastTitle );
       </li>
 
       <li class="rrssb-pocket">
-        <a href="https://getpocket.com/save?url=<?php echo $socialLink; ?>">
+        <a target="_blank"> href="https://getpocket.com/save?url=<?php echo $socialLink; ?>">
           <span class="rrssb-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M28.782.002c2.03.002 3.193 1.12 3.182 3.106-.022 3.57.17 7.16-.158 10.7-1.09 11.773-14.588 18.092-24.6 11.573C2.72 22.458.197 18.313.057 12.937c-.09-3.36-.05-6.72-.026-10.08C.04 1.113 1.212.016 3.02.008 7.347-.006 11.678.004 16.006.002c4.258 0 8.518-.004 12.776 0zM8.65 7.856c-1.262.135-1.99.57-2.357 1.476-.392.965-.115 1.81.606 2.496a746.818 746.818 0 0 0 7.398 6.966c1.086 1.003 2.237.99 3.314-.013a700.448 700.448 0 0 0 7.17-6.747c1.203-1.148 1.32-2.468.365-3.426-1.01-1.014-2.302-.933-3.558.245-1.596 1.497-3.222 2.965-4.75 4.526-.706.715-1.12.627-1.783-.034a123.71 123.71 0 0 0-4.93-4.644c-.47-.42-1.123-.647-1.478-.844z"/></svg>
           </span>

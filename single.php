@@ -4,7 +4,7 @@
 
 		<div id="inner-content" class="m-padding pull-l-1of12 pull-r-1of12 cf">
 
-			<main id="main" class="pull-l-1of12 pull-r-1of12 m-all cf" role="main" itemscope itemType="http://schema.org/BlogPosting">
+			<main id="main" class="pull-l-1of12 pull-r-1of12 m-all cf" role="main" tabindex="-1" itemscope itemType="http://schema.org/BlogPosting">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

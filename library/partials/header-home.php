@@ -1,15 +1,15 @@
-<!-- Header 3 - Frontpage Header -->
+<!-- Frontpage Header -->
 
 <div id="hero">
 	<div class="header-video">
-		<video loop="" muted="" autoplay="" poster="<?php echo get_template_directory_uri(); ?>/library/images/header-desktop.jpg" class="fullscreen">
+		<video title="Massachusetts Avenue in Downtown Indianapolis" poster="<?php echo get_template_directory_uri(); ?>/library/images/header-desktop.jpg" class="fullscreen">
 			<source src="https://rcre.com/wp-content/uploads/2018/01/header.mp4" type="video/mp4">
 		</video>
 	</div>
 
 	<div class="callout cf">
 		<div class="m-all t-1of2 d-1of2 center text-center cf">
-			<h1 class="page-title" itemprop="headline">Start the New Year</br>off right.</h1>
+			<h1 class="page-title" itemprop="headline">Start the New Year<br>off right.</h1>
 			<p class="subtitle"><?php echo types_render_field( "tagline", array( 'raw' => true)); ?></p>
 			
 			<div class="header-buttons cf">

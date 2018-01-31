@@ -10,7 +10,7 @@
 
 	<div id="inner-content" class="cf" itemscope itemtype="http://schema.org/Organization">
 
-		<main id="main" class="cf m-padding" role="main" itemprop="employee" itemscope itemtype="http://schema.org/Person">
+		<main id="main" class="cf m-padding" role="main" tabindex="-1" itemprop="employee" itemscope itemtype="http://schema.org/Person">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

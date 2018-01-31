@@ -18,7 +18,7 @@
 		
 		<?php // Behavioral Meta Data ?>
   		<meta name="apple-mobile-web-app-capable" content="yes">
-  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
 		<meta name="keywords" content="<?php the_title(); ?>">
@@ -85,7 +85,7 @@
 		<?php wp_head(); ?>
 	</head>
 
-	<body <?php body_class(); ?>">
+	<body <?php body_class(); ?>>
 
 		<!-- Google Tag Manager (noscript) -->
 		<noscript>
@@ -98,20 +98,24 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-		<div id="container" class="parallax">
+		<div id="container">
 
-			<header role="banner">
+			<header>
 
 				<div id="inner-header">
 
 					<div id="logo" itemscope itemtype="http://schema.org/Organization">
-						<a title="Go to RESOURCE Homepage" itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
+						<a title="Go to RESOURCE Homepage" itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow">
+							<img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo">
+						</a>
 					</div>
 					
 					<div class="space"></div>
 
 					<div id="call">
-						<a title="Call RESOURCE" itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
+						<a title="Call RESOURCE" itemprop="telephone" href="tel:1-317-663-6000" role="telephone">
+							<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE">
+						</a>
 					</div>
 
 					<?php 
@@ -119,7 +123,7 @@
 					?>
 
 					<?php // Top Navigation ?>
-						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+						<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
 							<?php wp_nav_menu(array(
 	    					         'container' => false,                           // remove nav container
 	    					         'container_class' => 'cf',                 // class of container (should you choose to use it)
@@ -142,11 +146,6 @@
 			</header>
 
 		<?php 
-			if ( has_post_thumbnail() ) {
-				$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-			} else {
-				$bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
-			}
 			
 			if ( is_front_page() ) {
 				get_template_part( 'library/partials/header-home' );

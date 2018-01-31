@@ -10,7 +10,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="m-all t-all d-10of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Service">
+		<main id="main" tabindex="-1" class="m-all t-all d-10of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Service">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

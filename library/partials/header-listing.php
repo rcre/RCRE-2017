@@ -1,14 +1,6 @@
-<!-- Header 4 - Listings -->
+<!-- Listings -->
 
-<?php 
-	if ( has_post_thumbnail() ) {
-		$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-	} else {
-		$bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
-	} 
-?>
-
-<div id="listing-header" class="cs-header" role="banner" style="background-image: url('<?php echo $bannerimg; ?>'); background-repeat: no-repeat; background-size: cover;" itemscope itemtype="http://schema.org/WPHeader">
+<div id="listing-header" role="banner" style="background-image: url('<?php echo rcre_header_image($post); ?>'); background-repeat: no-repeat; background-size: cover;" itemscope itemtype="http://schema.org/WPHeader">
 	
 		<div class="pull-r-1of12 pull-l-1of12 m-padding">
 

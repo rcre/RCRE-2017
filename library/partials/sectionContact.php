@@ -10,10 +10,6 @@
  setInterval(timestamp, 500); 
 </script>
 
-<script>
-	
-</script>	
-
 <section id="contactUs" class="m-padding proposal-contact cf">
 
 	<div class="pull-r-1of12 pull-l-1of12 cf">
@@ -91,7 +87,8 @@
 				</select>
 			</div>
 
-			<label for="description">How can we help you?</label><textarea name="description" tabindex="8" required ></textarea>
+			<label for="description">How can we help you?</label>
+			<textarea id="description" maxlength="400" name="description" tabindex="8" required ></textarea>
 
 			<div class="g-recaptcha" data-theme="dark" data-sitekey="6LeafEEUAAAAAFhCHxYHK_CIoOVKXS2Fqlp5wkBh" data-callback="onSuccess"></div>
 			

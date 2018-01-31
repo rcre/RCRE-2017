@@ -10,7 +10,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="m-all t-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" class="m-all t-all cf" role="main" tabindex="-1" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 			
 			<?php get_template_part('library/partials/sectionUVP'); ?>
 
