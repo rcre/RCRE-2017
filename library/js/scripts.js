@@ -108,6 +108,14 @@ jQuery("#searchButton").click(function() {
 });
 
 
+jQuery("#moreInfo").click(function() {
+    jQuery(".listing-contact").toggleClass("active");
+});
+
+jQuery("#closeInfo").click(function() {
+    jQuery(".listing-contact").toggleClass("active");
+});
+
 /*************************
  * Ready Functions
 **************************/
