@@ -20,7 +20,7 @@
 				 	<section id="Listings" class="pull-r-1of12 pull-l-1of12 m-padding cf">
 						
 						<h3>Listings</h3>
-						<div class="cf">
+						<div class="selling-point-grid">
 					
 					<?php 
 						$args = array(

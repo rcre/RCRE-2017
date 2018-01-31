@@ -88,6 +88,14 @@
 			<?php get_template_part('library/partials/sectionContact'); ?>
 		</footer>
 
+		<div class="listing-contact">
+			<div id="closeInfo">
+				<i class="fa fa-close" aria-hidden="true"></i>
+			</div>
+			<a id="moreInfo" class="cta-border-gray btn-minify" href="#">Request more info</a>
+			<?php get_template_part('library/partials/sectionListingContact'); ?>
+		</div>
+
 	</div>
 
 </div>
