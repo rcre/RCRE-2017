@@ -61,6 +61,10 @@ Stylesheet: Grid Stylesheet
 @media (max-width: 767px) {
   
   // Global Mobile Padding
+  .m-hide {
+    display: none;
+  }
+
   .m-padding {
     margin-left: 25px;
     margin-right: 25px;

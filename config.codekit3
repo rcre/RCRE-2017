@@ -26,16 +26,16 @@
 	"\/404.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/404.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/archive.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/archive.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/BingSiteAuth.xml": {
 		"cB": 0,
@@ -99,49 +99,49 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/footer.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/front-page.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/front-page.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/functions.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/functions.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/header.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/index.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/admin.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/admin.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/bones.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/bones.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/css\/admin.css": {
 		"aP": 1,
@@ -1104,7 +1104,7 @@
 		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-chrome-512x512.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 85
 		},
@@ -1640,163 +1640,163 @@
 	"\/library\/partials\/contentThankYou.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/contentThankYou.php",
-		"oF": 5
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/partials\/contentThankYou.php",
+		"oF": 4
 		},
 	"\/library\/partials\/header-404.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/header-404.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/header-default.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/header-default.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/header-home.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/header-home.php",
-		"oF": 5
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/partials\/header-home.php",
+		"oF": 4
 		},
 	"\/library\/partials\/header-listing.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/header-listing.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/header-none.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/header-none.php",
-		"oF": 5
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/partials\/header-none.php",
+		"oF": 4
 		},
 	"\/library\/partials\/header-single.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/header-single.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/outputButtons-services.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/outputButtons-services.php",
-		"oF": 5
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/partials\/outputButtons-services.php",
+		"oF": 4
 		},
 	"\/library\/partials\/outputButtons-social.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/outputButtons-social.php",
-		"oF": 5
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/partials\/outputButtons-social.php",
+		"oF": 4
 		},
 	"\/library\/partials\/outputButtons-specialty.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/outputButtons-specialty.php",
-		"oF": 5
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/partials\/outputButtons-specialty.php",
+		"oF": 4
 		},
 	"\/library\/partials\/sectionCareers.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionCareers.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionCaseStudy.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionCaseStudy.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionContact.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionContact.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionCustomContact.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/sectionCustomContact.php",
-		"oF": 5
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/partials\/sectionCustomContact.php",
+		"oF": 4
 		},
 	"\/library\/partials\/sectionListingContact.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionListingContact.php",
 		"oF": 0
 		},
 	"\/library\/partials\/sectionMailChimpSmall.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionMailChimpSmall.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionNeedHelp.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionNeedHelp.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionServiceGrid.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionServiceGrid.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionSocialShare.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionSocialShare.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionSpecialties.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionSpecialties.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionTeam.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionTeam.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionUVP.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionUVP.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/library\/partials\/sectionValues.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Users\/patrickhanus\/Desktop\/Web Projects\/Sites\/rcre-dev\/wp-content\/themes\/resource-2017\/library\/partials\/sectionValues.php",
-		"oF": 7
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/library\/partials\/sectionValues.php",
+		"oF": 6
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
 		"cB": 0,
@@ -2348,6 +2348,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/library\/scss\/pages\/_listing.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_listing.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/library\/scss\/pages\/_specialty.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2787,177 +2800,191 @@
 	"\/page-blank.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-blank.php",
 		"oF": 0
 		},
 	"\/page-careers.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-careers.php",
 		"oF": 0
 		},
 	"\/page-case-studies.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-case-studies.php",
 		"oF": 0
 		},
 	"\/page-marketing.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-marketing.php",
 		"oF": 0
 		},
 	"\/page-research.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-research.php",
 		"oF": 0
 		},
 	"\/page-service.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-service.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/page-specialty-no-cs.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-specialty-no-cs.php",
 		"oF": 0
 		},
 	"\/page-specialty.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-specialty.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/page-team.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-team.php",
 		"oF": 0
 		},
 	"\/page-wernke-team.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page-wernke-team.php",
 		"oF": 0
 		},
 	"\/page.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/page.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/post-formats\/author-case-study.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/author-case-study.php",
-		"oF": 1
+		"oF": 0
+		},
+	"\/post-formats\/author-listing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/post-formats\/author-listing.php",
+		"oF": 0
 		},
 	"\/post-formats\/author-single.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/author-single.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/post-formats\/content-case-study.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-case-study.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/post-formats\/content-childSection.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-childSection.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-employee.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-employee.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/post-formats\/content-listing-closed.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-listing-closed.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-listing.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-listing.php",
+		"oF": 0
+		},
+	"\/post-formats\/content-pictures.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/post-formats\/content-pictures.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-post.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-post.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/post-formats\/content-search-result.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-search-result.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-section.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-section.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/post-formats\/content-serviceButton.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-serviceButton.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/post-formats\/content-serviceDropdown.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/content-serviceDropdown.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/post-formats\/format-aside.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/format-aside.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/post-formats\/format.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/post-formats\/format.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/readme.html": {
 		"cB": 0,
@@ -2998,65 +3025,65 @@
 	"\/search.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/search.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/searchform.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/searchform.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/sidebar.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/single-career.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/single-career.php",
 		"oF": 0
 		},
 	"\/single-case-study.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/single-case-study.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/single-employee.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/single-employee.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/single-landing-page.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/single-landing-page.php",
 		"oF": 0
 		},
 	"\/single-listing.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/single-listing.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/single.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/..\/resource-2017\/single.php",
-		"oF": 1
+		"oF": 0
 		},
 	"\/style.css": {
 		"aP": 1,
@@ -3087,7 +3114,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 539122679
+	"lastBuiltDate": 539219011
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -5064,6 +5091,16 @@
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
+		{
+			"autoOutputAction": 0,
+			"autoOutputPathFilenamePattern": "*.php",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "php",
+			"shouldRunCacheBuster": 0
+			}
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",

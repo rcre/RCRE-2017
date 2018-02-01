@@ -1,30 +1,29 @@
 
 	<div class="search-box">
 	<a href="<?php esc_url( the_permalink() ); ?>">
-	<div class="picture" style="background-image: url('<?php echo rcre_header_image($post); ?>');">
-		<div class="left tag-no-link">
-			<?php 
-				if( taxonomy_exists( 'specialty' ) ) {
-					echo strip_tags (
-				    	get_the_term_list( get_the_ID(), 'specialty', '','' )
-					);
+		<div class="picture" style="background-image: url('<?php echo rcre_header_image($post); ?>');">
+			<div class="left tag-no-link">
+				<?php 
+					if( taxonomy_exists( 'specialty' ) ) {
+						echo strip_tags (
+					    	get_the_term_list( get_the_ID(), 'specialty', '','' )
+						);
 
-				} ?>
+					} ?>
+			</div>
+
+			<div class="left tag-no-link">
+				<?php 
+					if( taxonomy_exists( 'listing-type' ) ) {
+
+						echo strip_tags (
+					    	get_the_term_list( get_the_ID(), 'listing-type', '','' )
+						);
+
+					} ?>
+			</div>
 		</div>
-
-		<div class="left tag-no-link">
-			<?php 
-				if( taxonomy_exists( 'listing-type' ) ) {
-
-					echo strip_tags (
-				    	get_the_term_list( get_the_ID(), 'listing-type', '','' )
-					);
-
-				} ?>
-		</div>
-	</div>
-	<a href="<?php esc_url( the_permalink() ); ?>">
-
+	</a>
 		<div class="content">
 			<h4><?php the_title(); ?></h4>
 				

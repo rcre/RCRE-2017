@@ -86,6 +86,20 @@ Call to Action Buttons
 Link Buttons
 ***************************/
 
+.cta-underline-gray {
+    color: $gray;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid $gray;
+    transition: 0.5s;
+
+  &:hover {
+    color: $blue;
+    transition: 0.5s;
+    border-bottom: 1px solid $blue;
+  }
+}
+
 .cta-underline-white {
     color: $white;
     text-decoration: none;

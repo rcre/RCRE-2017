@@ -135,9 +135,15 @@ MODULE: SERVICE GRID
 
 
 .listing-detail {
-
+	margin: 30px 0;
+	max-width: 200px;
+	
 	h5 { 
-		display: inline;
+		border: 2px solid #43505d;
+		display: block;
+		padding: 3px 5px;
+		border-radius: 10px;
+		margin-bottom: 10px;
 	}
 }
 
@@ -150,16 +156,34 @@ MODULE: SERVICE GRID
 	transition: $trans;
 	transform-origin: bottom;
 	transform: translateY(455px);
+	padding: 20px;
+
+	img.broker-profile-picture {
+		max-width: 75px;
+		float: left;
+		margin-right: 20px;
+	}
 
 	#closeInfo {
 		display: none;
-		padding: 10px 30px;
 		font-size: 2em;
+		float: left;
+		margin-right: 40px
 	}
 
 	#moreInfo {
+		float: right;
 		display: block;
 		cursor: pointer;
+		margin-top: 8px;
+	}
+
+	.broker-info {
+		width: 45%;
+		float: left;
+
+		h6 { margin: 0;}
+		h5 { margin: 0;}
 	}
 
 	&.active {
@@ -181,6 +205,37 @@ MODULE: SERVICE GRID
 	}
 }
 
+#inner-content {
+	position: relative;
+}
+
+
+#contactSidebar {
+	margin-top: 50px;
+    margin-left: 45px;
+    width: auto;
+    border: 5px solid $lgray;
+    border-radius: 5px;
+    padding: 20px;
+
+	img.broker-profile-picture {
+		width: 75px;
+	}
+
+	.broker-info {
+		width: 55%;
+		float: left;
+
+		h6 { margin: 0;}
+		h5 { margin: 0;}
+	}
+}
+
+.sticky {
+  position: fixed;
+  top: 100px;
+  width: auto;
+}
 
 /***********
 MODULE: OUR CLIENTS
