@@ -11,13 +11,13 @@
 	
 		<div class="pull-r-1of12 pull-l-1of12 m-padding">
 
-			<div class="tag">
+			<div class="tag blue">
 				<?php echo get_the_term_list( $post->ID, 'specialty', '', '', ''); ?>
 			</div>
 
 					
 			<?php if ( is_tax('service') ) { ?>
-				<div class="tag">
+				<div class="tag grey">
 					<?php echo get_the_term_list( $post->ID, 'service', '', '', ''); ?>
 				</div>
 			<?php } ?>

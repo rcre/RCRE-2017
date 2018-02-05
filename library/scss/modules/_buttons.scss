@@ -218,20 +218,20 @@ Tag Buttons
   transition: 0.8s;
   background-color: $lgray;
 
-  .red:hover {
+  .red {
     background-color: $pink;
   }
   
-  .green:hover {
+  .green {
     background-color: $green;
   }
 
-  .blue:hover {
+  .blue {
     background-color: $blue;
     color: white;
   }
   
-  .gray:hover {
+  .gray {
     background-color: $gray;
     color: $lgray;
   }
@@ -240,18 +240,35 @@ Tag Buttons
 // Tags for when you display taxonomy links
 
 .tag {
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 0px 2px;
+  border-radius: 3px;
+  display: inline-block;
+  color: white;
+
+  &.red {
+    background-color: $pink;
+  }
+  
+  &.green {
+    background-color: $green;
+  }
+
+  &.blue {
+    background-color: $blue; 
+  }
+  
+  &.gray {
+    background-color: $gray;
+  }
 
   a {
+    color: white;
     text-decoration: none;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    padding: 3px;
-    border-radius: 3px;
-    display: inline-block;
     font-weight: 600;
-    text-transform: capitalize;
+    text-transform: uppercase;
     transition: 0.8s;
-    background-color: $lgray;
   }
 }
 

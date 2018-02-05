@@ -1,3 +1,7 @@
+<?php 
+	$listing_closed = types_render_field( "closed-date", array( 'raw' => true) );
+ ?>
+
 
 <?php 
 	if ( types_render_field( "post-icon" ) != null ) {
@@ -28,16 +32,40 @@
 			$postTag = "Blog Post";
 		}
 ?>
+			
 
 <div class="search-box">
 	<div class="picture" style="background-image: url('<?php echo rcre_header_image($post); ?>');">
-		<div class="left tag-no-link pad pad-top"><?php echo $postTag; ?></div>
-		<div class="search-icon"><?php echo $icon; ?></div>
 	</div>
 	
 	<div class="content">
+
+		<div class="tag">
+			<?php echo get_the_term_list( $post->ID, 'specialty', '', '', ''); ?>
+		</div>
+
+		<?php if ( is_tax('service') ) { ?>
+			<div class="tag">
+				<?php echo get_the_term_list( $post->ID, 'service', '', '', ''); ?>
+			</div>
+		<?php } ?>
+
+		<div class="tag red">
+			<?php echo get_the_term_list( $post->ID, 'listing-type', '', '', ''); ?>
+		</div>
+
+		<div class="cf"></div>
+
+		<?php if ( $listing_closed != null ) { ?>
+				<div class="left red tag">
+					Closed: <?php echo date('m/d/Y', $listing_closed ); ?>
+				</div>
+			<?php } ?>
+
+		<div class="cf"></div>
 		<h4><?php the_title(); ?></h3>
-		<?php wp_trim_excerpt( the_excerpt() ); ?>
+
+		<?php //wp_trim_excerpt( the_excerpt() ); ?>
 		<hr>
 
 		<a class="blue-link" href="<?php esc_url( the_permalink() ); ?>">Read More...</a>

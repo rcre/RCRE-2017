@@ -1,3 +1,7 @@
+<?php 
+	$listing_closed = types_render_field( "closed-date", array( 'raw' => true) ); 
+?>
+
 
 	<div class="search-box">
 	<a href="<?php esc_url( the_permalink() ); ?>">
@@ -22,6 +26,7 @@
 
 					} ?>
 			</div>
+
 		</div>
 	</a>
 		<div class="content">

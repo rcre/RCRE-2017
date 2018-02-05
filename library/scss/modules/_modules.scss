@@ -124,26 +124,20 @@ MODULE: SERVICE GRID
 		transition: $trans;
 		border-color: darken($lgray, 5%);
 	}
-	
-	// Attempt to center the images later $revisit
+
 	img {
-		border-top-right-radius: 6px;
-		border-top-left-radius: 6px;
-		width: 100%;
+		width: 50%;
 	}
 }
 
 
 .listing-detail {
-	margin: 30px 0;
-	max-width: 200px;
+	margin: 10px 0;
+	background-color: lighten($lgray, 5%);
 	
 	h5 { 
-		border: 2px solid #43505d;
-		display: block;
-		padding: 3px 5px;
-		border-radius: 10px;
-		margin-bottom: 10px;
+		display: inline-block;
+		padding: 3px;
 	}
 }
 

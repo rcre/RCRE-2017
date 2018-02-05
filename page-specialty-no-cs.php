@@ -27,6 +27,7 @@
 						<aside class="m-all t-1of4 d-1of4 pull-r-1of12 left caption-top">
 							<h2 class="header-dark"><?php the_title(); ?> Market Experience</h2>
 							<p><?php echo types_render_field( "specialty-point-2" , array( 'raw' => true ) ); ?></p>
+							<a style="font-weight: 800;" class="right cta-border-gray" href="<?php echo home_url(); ?>/about/team/wernke-team/#Listings">View Investment Listings</a>
 						</aside>
 						<div class="research-chart t-1of2 d-3of5 m-all"><img src="<?php echo get_template_directory_uri(); ?>/library/images/specialties/specialty-panel-2-graph.svg" alt="Graph Lines"></div>
 					</section>

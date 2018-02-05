@@ -12,6 +12,8 @@
 	$listing_google_maps = types_render_field( "google-maps-url", array( 'raw' => true) );
 	$listing_flyer = types_render_field( "property-flyer", array( 'raw' => true) );
 	$listing_description = types_render_field( "listing-description", array( 'raw' => true) );
+
+	$listing_closed = types_render_field( "closed-date", array( 'raw' => true) );
 ?>
 
 <?php get_header(); ?>
@@ -20,11 +22,14 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf m-padding pull-r-1of12 pull-l-1of12" role="main" tabindex="-1" itemscope itemtype="http://schema.org/Product">
+		<main id="main" class="cf m-padding pull-r-1of12" role="main" tabindex="-1" itemscope itemtype="http://schema.org/Product">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<div class="m-all t-all d-2of3 left cf">
+				
+			<?php if ( $listing_closed == null ) { ?>
+
 				<section class="cf">
 					<?php if ( $listing_headline != null ) { ?>
 						<h3><?php echo $listing_headline; ?></h3>
@@ -50,18 +55,21 @@
 						<?php echo $listing_description; ?>
 					</p>
 
-					<?php if ( $listing_headline != null ) { ?>
+					<?php if ( $listing_features != null ) { ?>
 						<?php echo $listing_features; ?>
 					<?php } ?>
-	
-					<a href="<?php echo $listing_flyer; ?>" class="cta-underline-gray" target="_blank">
-						Property Flyer
-					</a>
-				
 
-					<a href="<?php echo $listing_google_maps; ?>" class="cta-underline-gray" target="_blank">
+					<?php if ( $listing_flyer != null ) { ?>
+						<a href="<?php echo $listing_flyer; ?>" class="cta-underline-gray" target="_blank">
+							Property Flyer
+						</a>
+					<?php } ?>
+
+					<?php if ( $listing_google_maps != null ) { ?>
+						<a href="<?php echo $listing_google_maps; ?>" class="cta-underline-gray" target="_blank">
 						Google Maps
-					</a>
+						</a>
+					<?php } ?>
 
 				</section>
 					
@@ -114,30 +122,28 @@
 					?>
 				</section>
 			</div>
-			<?php endwhile; ?>
-
-			<?php else : ?>
-
-				<article id="post-not-found" class="hentry cf">
-						<header class="article-header">
-							<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
-						</header>
-						<section class="entry-content">
-							<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-						</section>
-						<footer class="article-footer">
-								<p><?php _e( 'This is the error message in the single.php template.', 'bonestheme' ); ?></p>
-						</footer>
-				</article>
-
-			<?php endif; ?>
-
-
+			
 			<div class="cf d-1of3 m-hide">
 				<aside id="contactSidebar">
 					<?php get_template_part('library/partials/sectionListingContact'); ?>
 				</aside>
 			</div>
+
+			<?php } else { ?>
+				
+				<p>This listing closed on <?php echo date('m/d/Y', $listing_closed ); ?>. Please feel free to contact us for more information.</p>
+
+				<div class="cf left m-hide">
+					<aside id="contactSidebar">
+					<?php get_template_part('library/partials/sectionListingContact'); ?>
+					</aside>
+				</div>
+
+
+			<?php } ?>
+
+
+			<?php endwhile; endif; ?>
 		
 		</main>
 
