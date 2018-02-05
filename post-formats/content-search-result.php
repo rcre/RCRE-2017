@@ -1,7 +1,7 @@
+<!-- Search-result -->
 <?php 
 	$listing_closed = types_render_field( "closed-date", array( 'raw' => true) );
  ?>
-
 
 <?php 
 	if ( types_render_field( "post-icon" ) != null ) {
@@ -39,28 +39,18 @@
 	</div>
 	
 	<div class="content">
+		<?php // Get all the tags
+			echo get_the_term_list( $post->ID, 'specialty', '<div class="tag blue">', '</div><div class="tag blue">', '</div>');
+			echo get_the_term_list( $post->ID, 'service', '<div class="tag gray">', '</div><div class="tag gray">', '</div>');
+			echo get_the_term_list( $post->ID, 'listing-type', '<div class="tag green">', '</div><div class="tag green">', '</div>'); 
+		?>
 
-		<div class="tag">
-			<?php echo get_the_term_list( $post->ID, 'specialty', '', '', ''); ?>
-		</div>
-
-		<?php if ( is_tax('service') ) { ?>
-			<div class="tag">
-				<?php echo get_the_term_list( $post->ID, 'service', '', '', ''); ?>
-			</div>
-		<?php } ?>
-
-		<div class="tag red">
-			<?php echo get_the_term_list( $post->ID, 'listing-type', '', '', ''); ?>
-		</div>
-
-		<div class="cf"></div>
-
-		<?php if ( $listing_closed != null ) { ?>
+		<?php // If the listing is closed, show the close date
+			if ( $listing_closed != null ) { ?>
 				<div class="left red tag">
-					Closed: <?php echo date('m/d/Y', $listing_closed ); ?>
+					CLOSED: <?php echo date('m/d/Y', $listing_closed ); ?>
 				</div>
-			<?php } ?>
+		<?php } ?>
 
 		<div class="cf"></div>
 		<h4><?php the_title(); ?></h3>

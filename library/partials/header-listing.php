@@ -11,38 +11,25 @@
 	
 		<div class="pull-r-1of12 pull-l-1of12 m-padding">
 
-			<div class="tag blue">
-				<?php echo get_the_term_list( $post->ID, 'specialty', '', '', ''); ?>
-			</div>
-
-					
-			<?php if ( is_tax('service') ) { ?>
-				<div class="tag grey">
-					<?php echo get_the_term_list( $post->ID, 'service', '', '', ''); ?>
-				</div>
-			<?php } ?>
-
-				
-			<div class="tag red">
-				<?php echo get_the_term_list( $post->ID, 'listing-type', '', '', ''); ?>
-			</div>
-			
+			<?php // Get all the tags
+				echo get_the_term_list( $post->ID, 'specialty', '<div class="tag blue">', '</div><div class="tag blue">', '</div>');
+				echo get_the_term_list( $post->ID, 'service', '<div class="tag gray">', '</div><div class="tag gray">', '</div>');
+				echo get_the_term_list( $post->ID, 'listing-type', '<div class="tag green">', '</div><div class="tag green">', '</div>'); 
+			?>
 
 			<!-- Callout Section for the Average Page-->
-			<div class="cf">
-				<div class="cf">
-					<h1 itemprop="name"><?php the_title(); ?></h1>
-					
-					<div class="header-link">
-						<a class="header-light" href="<?php echo $listing_google_maps; ?>">
-							<?php echo $listing_address; ?>, <?php echo $listing_city; ?>, <?php echo $listing_state; ?>
-						</a>
-					</div>
-					
+				<h1 itemprop="name"><?php the_title(); ?></h1>
+				
+				<div class="header-link">
+					<a class="header-light" href="<?php echo $listing_google_maps; ?>">
+						<?php echo $listing_address; ?>, <?php echo $listing_city; ?>, <?php echo $listing_state; ?>
+					</a>
 				</div>
 
-				<a title="Download the PDF" class="m-1of2 download-icon pull-l-1of12" href="<?php echo $listing_flyer; ?>" target="_blank"></a>
-			</div>
+			<?php if ( $listing_flyer != null ) { ?>
+				<a title="Download the PDF" class="download-icon pull-r-1of12" href="<?php echo $listing_flyer; ?>" alt="Download the PDF" target="_blank"></a>
+			<?php } ?>
+
 		</div>
 	
 </div>

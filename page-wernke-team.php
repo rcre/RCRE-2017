@@ -20,6 +20,7 @@
 				 	<section id="Listings">
 						
 						<h3>Listings</h3>
+						<hr>
 						<div class="selling-point-grid">
 					
 							<?php 
@@ -47,10 +48,11 @@
 						</div>
 				 	</section>
 
-				 	<section>
+				 	<section id="wernkePending">
 						
 						<h3>Pending</h3>
-						<div class="cf">
+						<hr>
+						<div class="selling-point-grid">
 					
 						<?php 
 							$args = array(
@@ -71,14 +73,15 @@
 									
 								while ( $pending_listings->have_posts() ) : $pending_listings->the_post(); ?>
 									
-									<?php get_template_part( 'post-formats/content' , get_post_type() ); ?>
+									<?php get_template_part( 'post-formats/content-listing' ); ?>
 									
 								<?php endwhile;  wp_reset_postdata(); ?>
 							</div>
 				 	</section>
 
-				 	<section>
+				 	<section id="wernkeClosed">
 			    		<h3>Closed</h3>
+
 							<div>
 							<?php 
 								$args = array(

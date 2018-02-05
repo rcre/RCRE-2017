@@ -206,7 +206,7 @@ Tag Buttons
 
 // Tags for when you want to show taxonamies without links
 
-.tag-no-link {
+.tag {
   text-decoration: none;
   margin-bottom: 10px;
   margin-right: 5px;
@@ -217,50 +217,26 @@ Tag Buttons
   text-transform: capitalize;
   transition: 0.8s;
   background-color: $lgray;
-
-  .red {
-    background-color: $pink;
-  }
-  
-  .green {
-    background-color: $green;
-  }
-
-  .blue {
-    background-color: $blue;
-    color: white;
-  }
-  
-  .gray {
-    background-color: $gray;
-    color: $lgray;
-  }
-}
-
-// Tags for when you display taxonomy links
-
-.tag {
-  margin-bottom: 10px;
-  margin-right: 5px;
-  padding: 0px 2px;
-  border-radius: 3px;
-  display: inline-block;
-  color: white;
+  font-size: 0.8em;
 
   &.red {
     background-color: $pink;
+    color: white;
   }
   
   &.green {
     background-color: $green;
+    color: white;
   }
 
   &.blue {
-    background-color: $blue; 
+    background-color: $blue;
+    color: white;
   }
   
   &.gray {
     background-color: $gray;
+    color: $lgray;
   }
 
   a {

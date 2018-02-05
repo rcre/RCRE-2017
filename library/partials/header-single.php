@@ -5,16 +5,11 @@
 	<div class="m-padding cf">
 		<div class="m-all pull-r-1of12 pull-l-1of12 t-1of2 d-11of12 cf">
 			
-			<div class="tag blue">
-			<?php echo get_the_term_list( $post->ID, 'specialty', '', '', ''); ?>
-			</div>
+			<?php // Get all the tags
+				echo get_the_term_list( $post->ID, 'specialty', '<div class="tag blue">', '</div><div class="tag blue">', '</div>');
+				echo get_the_term_list( $post->ID, 'service', '<div class="tag gray">', '</div><div class="tag gray">', '</div>');
+			?>
 
-			<?php if ( is_tax('service') ) { ?>
-				<div class="tag gray">
-			<?php echo get_the_term_list( $post->ID, 'service', '', '', ''); ?>
-			</div>
-			<?php } ?>
-			
 			<h1><?php the_title(); ?></h1>
 			
 			<p class="subtitle">

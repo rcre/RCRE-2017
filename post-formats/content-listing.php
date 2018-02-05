@@ -1,3 +1,4 @@
+<!-- content-listing -->
 <?php 
 	$listing_closed = types_render_field( "closed-date", array( 'raw' => true) ); 
 ?>
@@ -6,30 +7,17 @@
 	<div class="search-box">
 	<a href="<?php esc_url( the_permalink() ); ?>">
 		<div class="picture" style="background-image: url('<?php echo rcre_header_image($post); ?>');">
-			<div class="left tag-no-link">
-				<?php 
-					if( taxonomy_exists( 'specialty' ) ) {
-						echo strip_tags (
-					    	get_the_term_list( get_the_ID(), 'specialty', '','' )
-						);
-
-					} ?>
-			</div>
-
-			<div class="left tag-no-link">
-				<?php 
-					if( taxonomy_exists( 'listing-type' ) ) {
-
-						echo strip_tags (
-					    	get_the_term_list( get_the_ID(), 'listing-type', '','' )
-						);
-
-					} ?>
-			</div>
-
 		</div>
 	</a>
 		<div class="content">
+			
+			<?php // Get all the tags
+				echo get_the_term_list( $post->ID, 'specialty', '<div class="tag blue">', '</div><div class="tag blue">', '</div>');
+				echo get_the_term_list( $post->ID, 'service', '<div class="tag gray">', '</div><div class="tag gray">', '</div>');
+				echo get_the_term_list( $post->ID, 'listing-type', '<div class="tag green">', '</div><div class="tag green">', '</div>'); 
+			?>
+	
+		<div class="cf"></div>
 			<h4><?php the_title(); ?></h4>
 				
 			<?php if ( has_term( 'retail' , 'specialty') && has_term( 'office' , 'service') ) { ?>
