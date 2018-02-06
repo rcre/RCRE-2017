@@ -136,6 +136,7 @@ header.fullscreen {
 	position: relative;
 	z-index: -5;
 	padding-top: 100px;
+	padding-bottom: 50px;
 
 	&:after {
 	    background-color:  rgba(0, 0, 0, 0.22);

@@ -1796,7 +1796,7 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/..\/resource-2017\/library\/partials\/sectionValues.php",
-		"oF": 6
+		"oF": 4
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
 		"cB": 0,
@@ -3107,7 +3107,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 539219011
+	"lastBuiltDate": 539645006
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

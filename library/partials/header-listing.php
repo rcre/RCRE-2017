@@ -17,8 +17,20 @@
 				echo get_the_term_list( $post->ID, 'listing-type', '<div class="tag green">', '</div><div class="tag green">', '</div>'); 
 			?>
 
+
+			<?php 
+
+			// if it's an archive page, we need to get the name of the taxonomy for the title
+			if ( is_archive() ) {
+				$tax = $wp_query->get_queried_object();
+				$archive_title = $tax->name;
+			} else {
+				$archive_title = get_the_title();
+			}
+				
+			 ?>
 			<!-- Callout Section for the Average Page-->
-				<h1 itemprop="name"><?php the_title(); ?></h1>
+				<h1 itemprop="name"><?php echo $archive_title; ?></h1>
 				
 				<div class="header-link">
 					<a class="header-light" href="<?php echo $listing_google_maps; ?>">

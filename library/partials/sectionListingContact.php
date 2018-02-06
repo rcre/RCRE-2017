@@ -55,6 +55,7 @@
 	<label for="description">Tell us more about your requirements</label><textarea name="description" tabindex="9" required ></textarea>
 
 	<input id="contact_submit" class="cta-border-green" tabindex="10" type="submit" name="submit" value="Request More Info">
+	<div class="cf"></div>
 </form>	
 
 
