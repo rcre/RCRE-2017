@@ -51,7 +51,7 @@
 			<hr>
 			
 			<div class="text-center">
-				<a class="blue-link" href="<?php esc_url( the_permalink() ); ?>">See Details</a>
+				<a class="cta-underline-blue" href="<?php esc_url( the_permalink() ); ?>" role="button">See Details</a>
 			</div>
 			
 		</div>	

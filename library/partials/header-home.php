@@ -13,8 +13,8 @@
 			<p class="subtitle"><?php echo types_render_field( "tagline", array( 'raw' => true)); ?></p>
 			
 			<div class="header-buttons cf">
-				<a title="Contact Us" href="/#contactUs" class="cta-border-green m-all t-all d-2of5">Contact Us</a>
-				<a title="Search Our Properties" href="<?php echo site_url().'/search-properties'; ?>" class="cta-solid-white m-all t-all d-2of5">Search Properties</a>
+				<a title="Contact Us" href="/#contactUs" class="cta-border-green m-all t-all d-2of5" role="button">Contact Us</a>
+				<a title="Search Our Properties" href="<?php echo site_url().'/search-properties'; ?>" class="cta-solid-white m-all t-all d-2of5" role="button">Search Properties</a>
 			</div>
 		</div>
 	</div>	

@@ -33,13 +33,13 @@
 				<h1 itemprop="name"><?php echo $archive_title; ?></h1>
 				
 				<div class="header-link">
-					<a class="header-light" href="<?php echo $listing_google_maps; ?>">
+					<a class="header-light" href="<?php echo $listing_google_maps; ?>" role="button">
 						<?php echo $listing_address; ?>, <?php echo $listing_city; ?>, <?php echo $listing_state; ?>
 					</a>
 				</div>
 
 			<?php if ( $listing_flyer != null ) { ?>
-				<a title="Download the PDF" class="download-icon pull-r-1of12" href="<?php echo $listing_flyer; ?>" alt="Download the PDF" target="_blank"></a>
+				<a title="Download the PDF" class="download-icon pull-r-1of12" href="<?php echo $listing_flyer; ?>" alt="Download the PDF" target="_blank" role="button"></a>
 			<?php } ?>
 
 		</div>

@@ -86,12 +86,14 @@ Call to Action Buttons
 Link Buttons
 ***************************/
 
-.cta-underline-gray {
+// Base
+%cta-underline {
     color: $gray;
     text-decoration: none;
     padding-bottom: 3px;
     border-bottom: 1px solid $gray;
     transition: 0.5s;
+    margin-right: 20px;
 
   &:hover {
     color: $blue;
@@ -100,6 +102,19 @@ Link Buttons
   }
 }
 
+// Gray
+.cta-underline-gray {
+    @extend %cta-underline;
+    color: $gray;
+    border-bottom: 1px solid $gray;
+
+  &:hover {
+    color: $blue;
+    border-color: $blue;
+  }
+}
+
+// White
 .cta-underline-white {
     color: $white;
     text-decoration: none;
@@ -111,6 +126,17 @@ Link Buttons
     color: $blue;
     transition: 0.5s;
     border-bottom: 1px solid $blue;
+  }
+}
+
+.cta-underline-blue {
+    @extend %cta-underline;
+    color: $blue;
+    border-bottom: 1px solid $blue;
+
+  &:hover {
+    color: lighten( $blue, 15% );
+    border-color: lighten( $blue, 15% );
   }
 }
 
@@ -152,20 +178,6 @@ Link Buttons
       transition: 0.5s;
       border-bottom: 1px solid $blue;
     }
-  }
-}
-
-.blue-link {
-  font-family: $serif;
-  color: $blue;
-  text-decoration: none;
-  padding-bottom: 3px;
-  border-bottom: 1px solid $blue;
-  transition: 0.5s;
-
-  &:hover {
-    color: lighten( $blue, 15% );
-    transition: 0.5s;
   }
 }
 

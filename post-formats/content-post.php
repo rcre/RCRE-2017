@@ -18,7 +18,5 @@
 			echo $icon; ?>
 
 		<h4><?php the_title(); ?></h3>
-		<?php // wp_trim_excerpt( the_excerpt() ); ?>
-
-		<a class="blue-link" href="<?php esc_url( the_permalink() ); ?>">Read More...</a>
+		<a class="cta-underline-blue" href="<?php esc_url( the_permalink() ); ?>" role="button">Read More</a>
 	</div>

@@ -60,13 +60,13 @@
 					<?php } ?>
 
 					<?php if ( $listing_flyer != null ) { ?>
-						<a href="<?php echo $listing_flyer; ?>" class="cta-underline-gray" target="_blank">
+						<a href="<?php echo $listing_flyer; ?>" class="cta-underline-gray" target="_blank" role="button">
 							Property Flyer
 						</a>
 					<?php } ?>
 
 					<?php if ( $listing_google_maps != null ) { ?>
-						<a href="<?php echo $listing_google_maps; ?>" class="cta-underline-gray" target="_blank">
+						<a href="<?php echo $listing_google_maps; ?>" class="cta-underline-gray" target="_blank" role="button">
 						Google Maps
 						</a>
 					<?php } ?>
@@ -154,7 +154,7 @@
 			<div id="closeInfo" class="left">
 				<i class="fa fa-close" aria-hidden="true"></i>
 			</div>
-			<a id="moreInfo" class="cta-border-gray">Request more info</a>
+			<a id="moreInfo" class="cta-border-gray" role="button">Request more info</a>
 			<?php get_template_part('library/partials/sectionListingContact'); ?>
 		</div>
 

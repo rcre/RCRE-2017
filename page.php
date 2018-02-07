@@ -11,6 +11,11 @@
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
 					<?php
 						get_template_part( 'post-formats/content-childSection' );
+					?>
+
+
+					<?php	
+						
 
 							if ( is_page('about')) {
 								get_template_part( 'library/partials/sectionValues' );

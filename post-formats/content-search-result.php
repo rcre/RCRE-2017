@@ -36,6 +36,7 @@
 
 <div class="search-box">
 	<div class="picture" style="background-image: url('<?php echo rcre_header_image($post); ?>');">
+		<div class="left tag"><?php echo $postTag; ?></div>
 	</div>
 	
 	<div class="content">
@@ -57,8 +58,10 @@
 
 		<?php //wp_trim_excerpt( the_excerpt() ); ?>
 		<hr>
-
-		<a class="blue-link" href="<?php esc_url( the_permalink() ); ?>">Read More...</a>
+		
+		<div class="text-center">
+			<a class="cta-underline-blue" href="<?php esc_url( the_permalink() ); ?>">Read More</a>
+		</div>
 	</div>
 	
 </div>
