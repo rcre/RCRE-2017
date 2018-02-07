@@ -88,12 +88,12 @@ Link Buttons
 
 // Base
 %cta-underline {
-    color: $gray;
-    text-decoration: none;
-    padding-bottom: 3px;
-    border-bottom: 1px solid $gray;
-    transition: 0.5s;
-    margin-right: 20px;
+  display: inline-block;
+  color: $gray;
+  text-decoration: none;
+  border-bottom: 1px solid $gray;
+  transition: 0.5s;
+  margin: 5px 0px;
 
   &:hover {
     color: $blue;
@@ -104,9 +104,9 @@ Link Buttons
 
 // Gray
 .cta-underline-gray {
-    @extend %cta-underline;
-    color: $gray;
-    border-bottom: 1px solid $gray;
+  @extend %cta-underline;
+  color: $gray;
+  border-bottom: 1px solid $gray;
 
   &:hover {
     color: $blue;
@@ -116,23 +116,21 @@ Link Buttons
 
 // White
 .cta-underline-white {
-    color: $white;
-    text-decoration: none;
-    padding-bottom: 3px;
-    border-bottom: 1px solid $white;
-    transition: 0.5s;
+  @extend %cta-underline;
+  color: $white;
+  border-color: $white;
 
   &:hover {
     color: $blue;
-    transition: 0.5s;
-    border-bottom: 1px solid $blue;
+    border-color: $blue;
   }
 }
 
+// Blue
 .cta-underline-blue {
     @extend %cta-underline;
     color: $blue;
-    border-bottom: 1px solid $blue;
+    border-color: $blue;
 
   &:hover {
     color: lighten( $blue, 15% );
@@ -327,4 +325,18 @@ Button Helper Classes
     background-color: $gray;
     color: $lgray;
   }
+}
+
+/***************************
+Download Icon
+***************************/
+
+.download-icon {
+  background-image: url('../images/icons/icon-download.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-bottom: 30px;
 }

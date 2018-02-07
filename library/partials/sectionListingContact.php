@@ -9,7 +9,8 @@
 	$page_link = get_page_link();
 ?>
 
-<h4>Contact:</h4>
+<h4>Contact</h4>
+<hr>
 <img class="broker-profile-picture left" src="<?php echo $profile_picture; ?>" itemprop="image" alt="<?php echo $broker_name; ?>">
 
 <div class="broker-info left">

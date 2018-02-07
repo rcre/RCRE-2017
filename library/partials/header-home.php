@@ -2,7 +2,7 @@
 
 <div id="hero">
 	<div class="header-video">
-		<video title="Massachusetts Avenue in Downtown Indianapolis" poster="<?php echo get_template_directory_uri(); ?>/library/images/header-desktop.jpg" class="fullscreen">
+		<video loop="" muted="" autoplay="" title="Massachusetts Avenue in Downtown Indianapolis" poster="<?php echo get_template_directory_uri(); ?>/library/images/header-desktop.jpg" class="fullscreen">
 			<source src="https://rcre.com/wp-content/uploads/2018/01/header.mp4" type="video/mp4">
 		</video>
 	</div>

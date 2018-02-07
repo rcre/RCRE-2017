@@ -3087,6 +3087,13 @@
 		"oAP": "\/..\/resource-2017\/style.css",
 		"oF": 1,
 		"oS": 0
+		},
+	"\/taxonomy-teams.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/..\/resource-2017\/taxonomy-teams.php",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -3107,7 +3114,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 539645006
+	"lastBuiltDate": 539731268
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

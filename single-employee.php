@@ -74,39 +74,39 @@
 
 							<a class="cta-underline-gray" itemprop="email" href="mailto:<?php echo $email; ?>">
 								<?php echo $email; ?>
-							</a><br>
+							</a>
 							
 							<a class="cta-underline-gray" href="tel:<?php echo $phone; ?>" role="telephone">
 								<strong>Phone:</strong> <span itemprop="telephone"><?php echo $phone; ?></span>
-							</a><br>
+							</a>
 						
 							
 							<?php if ( $cell != null ) { ?>
 								<a class="cta-underline-gray" href="tel:<?php echo $cell; ?>" role="telephone">
 									<strong>Cell:</strong> <?php echo $cell; ?>
-								</a><br>
+								</a>
 							<?php } ?>
 
 							<?php if ( $license != null ) { ?>
 								<div class="license-number">
 									<strong>License:</strong> <?php echo $license; ?>
-								</div><br>
+								</div>
 							<?php } ?>
 
 								<a class="cta-underline-gray" href="<?php echo $vcard; ?>">
 									Download vCard
-								</a><br>
+								</a>
 							
 							<?php if ( $twitter != null ) { ?>
 								<a class="cta-underline-gray" title="Twitter page" itemprop="sameAs" href="<?php echo $twitter ?>">
 									<i class="fa fa-twitter" aria-hidden="true"></i> Twitter
-								</a><br>
+								</a>
 							<?php } ?>
 							
 							<?php if ( $linkedin != null ) { ?>
 								<a class="cta-underline-gray" title="Linkedin page" itemprop="sameAs" href="<?php echo $linkedin; ?>">
 									<i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin
-								</a><br>
+								</a>
 
 								<div class="cf pad-top"></div>
 							<?php } ?>
@@ -119,7 +119,7 @@
 					</div>
 				</aside>
 			
-				<section class="profile-content text-left m-all t-1of2 d-2of3 pull-r-1of12 cf">
+				<section class="profile-content m-all t-1of2 d-2of3 pull-r-1of12 cf">
 					<h3>Duties</h3>
 					<p><?php echo $duties; ?></p>
 

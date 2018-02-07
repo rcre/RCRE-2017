@@ -13,16 +13,13 @@ body {
   	font-family: $sans-serif;
 }
 
-.div {
-	vertical-align: baseline;
-}
-
 ol, ul {
 	margin: 0;
 }
 
-
-// Mobile Font Sizes
+/*********************
+MOBILE TYPE SIZES
+*********************/
 
 h1, .h1 {
 	font-size: 2.1em;
@@ -48,10 +45,6 @@ p {
 LAYOUT & GRID STYLES
 *********************/
 
-.wrap {
-	width: 90%;
-	margin: 0 auto;
-}
 
 /*********************
 HEADER STYLES
@@ -85,6 +78,7 @@ header {
 	width: 120%;
     text-align: center;
     z-index: -5;
+    top: 20px !important;
 
 	&:after {
 	    background-color:  rgba(0, 0, 0, 0.22);
@@ -257,7 +251,7 @@ POSTS & CONTENT STYLES
 			margin: 0;
 		}
 	}
-} /* end .hentry */
+}
 
 .entry-content {
 	margin-right: 5%;
@@ -281,17 +275,6 @@ section#authorSingle {
 /*********************
 SECTION STYLES
 *********************/
-
-// Header BG if there is no picture loaded
-.default-bg {
-	background-image: url('../images/bg/pattern.svg');
-	background-size: 10%;
-	background-repeat: repeat;
-
-	h1, p {
-		color: $gray;
-	}
-}
 
 section {
 	// Don't show the slant on mobile
@@ -374,8 +357,6 @@ footer {
 		}
 	}
 }
-
-
 
 .footer-links {
 
