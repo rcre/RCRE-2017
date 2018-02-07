@@ -44,12 +44,14 @@
 
 						<div itemprop="jobTitle">
 							<?php echo $title; ?> 
-	
-							<?php if ( has_term( '' , 'specialty') && has_term( '' , 'service') ) { ?>
 
-								//&nbsp;<div class="header-link"> 
-									<?php echo get_the_term_list( $post->ID, 'specialty', '', ' & ', ''); ?>
-								</div> 
+							<?php // Get all the tags
+								echo get_the_term_list( $post->ID, 'specialty', '// <div class="header-link">', '</div><div class="header-link">', '</div>');
+							?>
+	
+							<?php if ( has_term( '' , 'specialty') == null ) { ?>
+
+								<?php echo get_the_term_list( $post->ID, 'service', '// <div class="header-link">', '</div><div class="header-link">', '</div>'); ?>
 								
 							<?php } ?>
 						</div>
