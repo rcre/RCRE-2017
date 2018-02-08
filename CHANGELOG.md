@@ -15,7 +15,85 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*2.0.0*
 
+- disabled the JS for the listing scroll sidebar
+- fixed header distance on video headers
+- fixed sidebar layout on case study pages
+- fixed the mobile menu problem
+- fixed the video autoplay issue
+- added a HR below the contact header
+- fixed the pocket link problem
+- deleted unnecessary css
+- cleaned up the research page
+- cleaned up the service page
+- cleaned up the case study page
+- fixed a few issues left on the employee page
+- accessibility => added role="button" to a bunch of links
+- Changed the error 404 page to take a custom header picture
+- fixed some forms that had the wrong “for” in the label
+- cleaned up the cta-underline button
+- cleaned up the broker page styles
+- cleaned up the case study page template
+- changed the post format of the case studies on the CS archive
+- added the new “get tag” layout to a bunch of pages
+- fixed some issues on the employee post view
+- Major cleaning on the employee template page
+- Added margin to the buttons on the listing template
+- Fixed the archive template to show search results
+- Fixed the archive title to say the taxonomy that it is
+- Added a clear fix to the contact form on listing pages
+- Added padding to the bottom of the listing address
+- Cleaned up the way I am calling tags on posts and pages
+- Made some more tweaks to Wernke’s page
+- added a function for displaying custom dropdown in wp admin
+- added correct colors to listing header tags
+- changed the header level of “contact” on listing page
+- changed base styles for tags
+- cleaned up styles for listing details
+- added a button on the multifamily page linking to wernke’s listings
+- fixed some layout issues on the wernke’s pages using css grid
+- added elements for the closed listing look on pages
+- Changed the search button to turn green on hover
+- more -1 tabs on main
+- more banner image functions
+- added a contact form for listing pages, on mobile view
+- converted the Wernke’s listings to css grid
+- deleted some “roles” that the html validator said were unnecessary
+- deleted old parallax html structures
+- added a php function for getting the header image
+- implemented new header picture function in header files
+- added a tab index of -1 to all main sections (accessibility)
+- removed extraneous `<p>` tags
+- deleted some extra css
+- added some spaces to the social share populated content
+- deleted bower.json file
+- some file commenting
+- added styles to the magnifying glass
+- added mobile padding to search results
+- added styles for social share into the main scss file
+- deleted the unused $lato variable
+- added universal styles for an `<hr>` element
+- added styles and JS for mobile search
+- added a universal style for hiding things
+- changed the second header into a hero ID
+- fixed styles on desktop search field
+- added search field to Error 404
+- renamed sections in functions.php file
+- added a search limitations, preventing attachments
+- cleaned up the home page header (no parallax)
+- created a values partial
+- fixed video header positioning issues.
+- tweaked search field layout
+- added category tags to the search result cards
+- removed label on search field.
+- Added button for search form activation
+- added the search form in the header
+- added the JS for the activating of the search field
+- Fixed a placement issue in the video header
+- reorganized the buttons styles
+- updated search form styles
+- edited search results page
 
 *1.8.4*
 
