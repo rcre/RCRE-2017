@@ -10,7 +10,7 @@
 
 		<div id="inner-content" class="cf">
 
-			<main id="main" class="m-all t-all d-10of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
+			<main id="main" tabindex="-1" class="m-all t-all d-10of12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -27,6 +27,43 @@
 						<aside class="m-all t-1of4 d-1of4 pull-r-1of12 left caption-top">
 							<h2 class="header-dark"><?php the_title(); ?> Market Experience</h2>
 							<p><?php echo types_render_field( "specialty-point-2" , array( 'raw' => true ) ); ?></p>
+							
+					<?php // This show the latest research report, if it exists.
+					
+					global $post;
+					$post_slug=$post->post_name; // this is for testing, I might use this to grab the page slug
+
+					if ( has_term( '', 'specialty' )) {
+						$custom_taxterms = wp_get_object_terms( $post->ID, 'specialty', array('fields' => 'slugs'));
+						$tax = 'specialty';
+						$custom_field = 'slug';
+					}
+
+					$args = array(
+						'post_type' => array('research-report'),
+						'showposts' => 1,
+						'tax_query' => array(
+						    array(
+						        'taxonomy' => $tax,
+						        'field' => $custom_field,
+						        'terms' => $custom_taxterms,
+						    )
+						)						
+					);
+
+					$custom_posts = new WP_Query( $args );
+				
+					// Start the Loop.
+					if ($custom_posts->have_posts()) : while ( $custom_posts->have_posts() ) : $custom_posts->the_post(); ?>
+					
+							<a title="Read the Latest Research Report" class="cta-border-gray" href="<?php echo esc_url( get_permalink() ); ?>">
+								Read the Latest Report
+							</a>
+						
+					<?php endwhile; endif;
+						wp_reset_postdata();
+					?>
+				
 						</aside>
 						<div class="research-chart t-1of2 d-3of5 m-all"><img src="<?php echo get_template_directory_uri(); ?>/library/images/specialties/specialty-panel-2-graph.svg" alt="Graph Lines"></div>
 					</section>

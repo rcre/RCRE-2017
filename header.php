@@ -18,12 +18,12 @@
 		
 		<?php // Behavioral Meta Data ?>
   		<meta name="apple-mobile-web-app-capable" content="yes">
-  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
 		<meta name="keywords" content="<?php the_title(); ?>">
 
-		<script src="https://www.google.com/recaptcha/api.js"></script>	
+		<script async defer src="https://www.google.com/recaptcha/api.js"></script>	
 
 		<?php // Google Tag Manager ?>
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -32,14 +32,6 @@
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-TSZKKGS');</script>
 		<!-- End Google Tag Manager -->
-		
-		<?php // Clear all the caches ?>
-		
-		<meta http-equiv="cache-control" content="max-age=0" />
-		<meta http-equiv="cache-control" content="no-cache" />
-		<meta http-equiv="expires" content="0" />
-		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-		<meta http-equiv="pragma" content="no-cache" />
 		
 		<?php // icons & favicons ?>
 		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/library/favicons/apple-touch-icon.png">
@@ -93,7 +85,7 @@
 		<?php wp_head(); ?>
 	</head>
 
-	<body <?php body_class(); ?>">
+	<body <?php body_class(); ?>>
 
 		<!-- Google Tag Manager (noscript) -->
 		<noscript>
@@ -101,76 +93,78 @@
 			</iframe>
 		</noscript>
 		<!-- End Google Tag Manager (noscript) -->
-
 		
 	 <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-		<div id="container" class="parallax">
-
-			<header role="banner">
+		<div id="container">
+			<header>
 
 				<div id="inner-header">
 
-
 					<div id="logo" itemscope itemtype="http://schema.org/Organization">
-						<a title="Go to RESOURCE Homepage" itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo"></a>
+						<a title="Go to RESOURCE Homepage" itemprop="url" href="<?php echo home_url(); ?>" aria-label="home" rel="nofollow">
+							<img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-rcre-horiz-light.svg" alt="RESOURCE Commercial Real Estate Logo">
+						</a>
 					</div>
 					
 					<div class="space"></div>
-					<!-- Call Button -->
+
 					<div id="call">
-						<a title="Call RESOURCE" itemprop="telephone" href="tel:317-663-6000" role="telephone"><img id="phone" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE"></a>
+						<a title="Call RESOURCE" itemprop="telephone" href="tel:1-317-663-6000" role="telephone">
+							<img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon-phone.svg" alt="Call RESOURCE">
+						</a>
+					</div>
+
+					<?php 
+						get_template_part( 'searchform' ); 
+					?>
+
+					<?php // Top Navigation ?>
+						<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+							<?php wp_nav_menu(array(
+	    					         'container' => false,                           // remove nav container
+	    					         'container_class' => 'cf',                 // class of container (should you choose to use it)
+	    					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
+	    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
+	    					         'theme_location' => 'main-nav',                 // where it's located in the theme
+	        			             'depth' => 0,                                   // limit the depth of the nav
+	    					         'fallback_cb' => ''                            // fallback function (if there is one)
+							)); ?>
+						</nav>
+
+					<div id="searchButton">
+						<i class="fa fa-search" aria-hidden="true"></i>
 					</div>
 
 					<div id="menu-burger">
-						
 					</div>
-					
 
-					<?php // Top Navigation ?>
-						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-								<?php wp_nav_menu(array(
-		    					         'container' => false,                           // remove nav container
-		    					         'container_class' => 'cf',                 // class of container (should you choose to use it)
-		    					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-		    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
-		    					         'theme_location' => 'main-nav',                 // where it's located in the theme
-		        			             'depth' => 0,                                   // limit the depth of the nav
-		    					         'fallback_cb' => ''                            // fallback function (if there is one)
-								)); ?>
-						</nav>
 				</div>
 			</header>
 
 		<?php 
-			if ( has_post_thumbnail() ) {
-				$bannerimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-			} else {
-				$bannerimg = get_stylesheet_directory_uri() . '/library/images/bg/pattern.svg';
-			}
 			
 			if ( is_front_page() ) {
 				get_template_part( 'library/partials/header-home' );
 			
-			} elseif( get_post_type() == "employee") {
+			} elseif ( get_post_type() == "employee" ) {
 				get_template_part('library/partials/header-none');
 
-			} elseif( get_post_type() == "listing") {
+			} elseif ( get_post_type() == "listing" ) {
 				get_template_part('library/partials/header-listing');
-
-			} elseif( get_post_type() == "landing-page") {
-				get_template_part('library/partials/header-none');
 
 			} elseif ( is_page_template( 'single-landing-page.php' ) ) {
 				get_template_part('library/partials/header-none');
 
-			} elseif( is_404() ) {
+			} elseif ( is_404() ) {
 				get_template_part('library/partials/header-404');
 
 			} elseif ( is_single() ) {
 				get_template_part('library/partials/header-single');
+
+			} elseif ( is_search() ) {
+				get_template_part('library/partials/header-none');
 
 			} else {
 				get_template_part('library/partials/header-default');

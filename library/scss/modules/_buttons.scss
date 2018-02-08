@@ -2,18 +2,11 @@
 Stylesheet: Button Styles
 ******************************************************************/
 
-/*********************
-BUTTON DEFAULTS
-Here's a quick video to show how it works:
-http://www.youtube.com/watch?v=hwdVpKiJzac
-*********************/
-
 %btn {
   display: block;
   border: 2px solid;
   border-radius: 10px;
   padding: 0.5em;
-  // margin: 0.5em;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
@@ -27,13 +20,13 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     text-decoration: none;
     outline: none;
   } // end hover
-
-  // clicking on the button
-  &:active {
-    top: 1px; // adds a tiny hop to the click
-  } // end active
-
 } // end .button
+
+
+/***************************
+Call to Action Buttons
+***************************/
+
 
 .cta-solid-white {
   @extend %btn;
@@ -58,7 +51,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 .cta-border-gray {
   @extend %btn;
   color: $gray;
-  background-color: none;
+  background-color: transparent;
   border-color: $gray;
 
   &:hover,
@@ -89,6 +82,186 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   } // end active
 }
 
+/***************************
+Link Buttons
+***************************/
+
+// Base
+%cta-underline {
+  display: inline-block;
+  color: $gray;
+  text-decoration: none;
+  border-bottom: 1px solid $gray;
+  transition: 0.5s;
+  margin: 5px 0px;
+
+  &:hover {
+    color: $blue;
+    transition: 0.5s;
+    border-bottom: 1px solid $blue;
+  }
+}
+
+// Gray
+.cta-underline-gray {
+  @extend %cta-underline;
+  color: $gray;
+  border-bottom: 1px solid $gray;
+
+  &:hover {
+    color: $blue;
+    border-color: $blue;
+  }
+}
+
+// White
+.cta-underline-white {
+  @extend %cta-underline;
+  color: $white;
+  border-color: $white;
+
+  &:hover {
+    color: $blue;
+    border-color: $blue;
+  }
+}
+
+// Blue
+.cta-underline-blue {
+    @extend %cta-underline;
+    color: $blue;
+    border-color: $blue;
+
+  &:hover {
+    color: lighten( $blue, 15% );
+    border-color: lighten( $blue, 15% );
+  }
+}
+
+.broker-title {
+  > a {
+    text-decoration: none;
+    padding-bottom: 3px;
+    color: $gray;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $gray;
+    font-weight: 600;
+
+    &:hover,
+    &:focus {
+      color: lighten($gray, 20%);
+      transition: 0.5s;
+    } // end hover
+
+    &:active {
+      color: darken($gray, 20%);
+    } // end active
+
+  }
+}
+
+.header-link {
+  display: inline-block;
+
+  > a {
+    display: inline-block;
+    color: $gray;
+    text-decoration: none;
+    border-bottom: 1px solid $gray;
+    transition: 0.5s;
+
+    &:hover {
+      color: $blue;
+      transition: 0.5s;
+      border-bottom: 1px solid $blue;
+    }
+  }
+}
+
+/*******************************
+Specialty and Service Buttons
+*******************************/
+
+.specialty-buttons {
+ a {
+    text-decoration: none;
+    padding: 5px;
+    color: $gray;
+    background-color: transparent;
+    border: 3px solid $lgray;
+    font-weight: 600;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    
+    &:hover,
+    &:focus {
+      color: lighten($gray, 20%);
+      transition: 0.5s;
+      background-color: $green;
+    } // end hover
+
+    &:active {
+      color: darken($gray, 20%);
+    } // end active
+  }
+}
+
+
+/***************************
+Tag Buttons
+***************************/
+
+// Tags for when you want to show taxonamies without links
+
+.tag {
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: 0.8s;
+  background-color: $lgray;
+  font-size: 0.8em;
+
+  &.red {
+    background-color: $pink;
+    color: white;
+  }
+  
+  &.green {
+    background-color: $green;
+    color: white;
+  }
+
+  &.blue {
+    background-color: $blue;
+    color: white;
+  }
+  
+  &.gray {
+    background-color: $gray;
+    color: $lgray;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.8s;
+  }
+}
+
+/***************************
+Time to read Button
+***************************/
+
 .time-to-read {
   @extend %btn;
   color: $white;
@@ -112,160 +285,20 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   } // end active
 }
 
-.cta-underline-white {
-    color: $white;
-    text-decoration: none;
-    padding-bottom: 3px;
-    border-bottom: 1px solid $white;
-    transition: 0.5s;
+/***************************
+Button Helper Classes
+***************************/
 
-  &:hover {
-    color: $blue;
-    transition: 0.5s;
-    border-bottom: 1px solid $blue;
-  }
-}
-
-.header-link {
-  display: inline-block;
-
-  > a {
-    display: inline-block;
-    color: $gray;
-    text-decoration: none;
-    border-bottom: 1px solid $gray;
-    transition: 0.5s;
-
-    &:hover {
-      color: $blue;
-      transition: 0.5s;
-      border-bottom: 1px solid $blue;
-    }
-  }
-}
-
-// This helper class is for buttons with a fixed width.
+// Gives buttons a fixed width.
 .btn-minify {
   width: 250px;
   margin: 10px auto;
 }
 
-.blue-link {
-  font-family: $serif;
-  color: $blue;
-  text-decoration: none;
-  padding-bottom: 3px;
-  border-bottom: 1px solid $blue;
-  transition: 0.5s;
 
-  &:hover {
-    color: lighten( $blue, 15% );
-    transition: 0.5s;
-  }
-}
-
-.specialty-buttons {
- a {
-    text-decoration: none;
-    padding: 5px;
-    color: $gray;
-    background-color: none;
-    border: 3px solid $lgray;
-    font-weight: 600;
-    border-radius: 10px;
-    display: block;
-    text-align: center;
-    margin-bottom: 5px;
-    
-    &:hover,
-    &:focus {
-      color: lighten($gray, 20%);
-      transition: 0.5s;
-      background-color: $green;
-    } // end hover
-
-    &:active {
-      color: darken($gray, 20%);
-    } // end active
-  }
-}
-
+// Changes the Color of the button
 .green {
   color: $green;
-}
-
-.broker-title {
-  > a {
-    text-decoration: none;
-    padding-bottom: 3px;
-    color: $gray;
-    background-color: none;
-    border: none;
-    border-bottom: 1px solid $gray;
-    font-weight: 600;
-
-    &:hover,
-    &:focus {
-      color: lighten($gray, 20%);
-      transition: 0.5s;
-    } // end hover
-
-    &:active {
-      color: darken($gray, 20%);
-    } // end active
-
-  }
-}
-
-// Tags for when you want to show taxonamies without links
-
-.tag-no-link {
-  text-decoration: none;
-  margin-bottom: 10px;
-  margin-right: 5px;
-  padding: 3px;
-  border-radius: 3px;
-  display: inline-block;
-  font-weight: 600;
-  text-transform: capitalize;
-  transition: 0.8s;
-  background-color: $lgray;
-
-  .red:hover {
-    background-color: $pink;
-  }
-  
-  .green:hover {
-    background-color: $green;
-  }
-
-  .blue:hover {
-    background-color: $blue;
-    color: white;
-  }
-  
-  .gray:hover {
-    background-color: $gray;
-    color: $lgray;
-  }
-}
-
-// Tags for when you display taxonomy links
-
-.tag {
-
-  a {
-    text-decoration: none;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    padding: 3px;
-    border-radius: 3px;
-    display: inline-block;
-    font-weight: 600;
-    text-transform: capitalize;
-    transition: 0.8s;
-    background-color: $lgray;
-  }
 }
 
 .red {
@@ -292,4 +325,18 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     background-color: $gray;
     color: $lgray;
   }
+}
+
+/***************************
+Download Icon
+***************************/
+
+.download-icon {
+  background-image: url('../images/icons/icon-download.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-bottom: 30px;
 }

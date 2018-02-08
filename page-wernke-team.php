@@ -4,12 +4,12 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="m-all t-all cf" role="main" itemscope itemprop="department" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" tabindex="-1" class="pull-r-1of12 pull-l-1of12 m-padding cf" role="main" itemscope itemprop="department" itemtype="http://schema.org/LocalBusiness">
 
 			<section id="SpecialtyTeam" class="pull-r-1of12 pull-l-1of12 cf m-padding pad-top">
 					<h2 class="header-dark pad-top">The Wernke Team</h2>
 					<?php get_template_part('library/partials/sectionTeam'); ?>
-				</section>
+			</section>
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -17,72 +17,72 @@
 			
 				<?php get_template_part('post-formats/content-section'); ?>
 
-				 	<section id="Listings" class="pull-r-1of12 pull-l-1of12 m-padding cf">
+				 	<section id="Listings">
 						
 						<h3>Listings</h3>
-						<div class="cf">
+						<hr>
+						<div class="selling-point-grid">
 					
-					<?php 
-						$args = array(
-							'post_type' => 'listing',
-							'post_status' => 'publish',
-							'posts_per_page' => 25,
-							'order' => 'ASC',
-							'tax_query' => array(
-							    array(
-							        'taxonomy' => 'listing-type',
-							        'field' => 'slug',
-							        'terms' => 'for-sale',
-			    				)
-							)
-						); ?>
-					
-						<?php $wernke_listings = new WP_Query( $args ); 
-								
-							while ( $wernke_listings->have_posts() ) : $wernke_listings->the_post(); ?>
-								
-								<?php get_template_part( 'post-formats/content' , get_post_type() ); ?>
-								
-							<?php endwhile;  wp_reset_postdata(); ?>
+							<?php 
+								$args = array(
+									'post_type' => 'listing',
+									'post_status' => 'publish',
+									'posts_per_page' => 25,
+									'order' => 'ASC',
+									'tax_query' => array(
+									    array(
+									        'taxonomy' => 'listing-type',
+									        'field' => 'slug',
+									        'terms' => 'for-sale',
+					    				)
+									)
+								); ?>
+							
+								<?php $wernke_listings = new WP_Query( $args ); 
+										
+									while ( $wernke_listings->have_posts() ) : $wernke_listings->the_post(); ?>
+										
+										<?php get_template_part( 'post-formats/content-listing' ); ?>
+										
+									<?php endwhile;  wp_reset_postdata(); ?>
 						</div>
 				 	</section>
 
-				 	<section class="pull-r-1of12 pull-l-1of12 m-padding cf">
+				 	<section id="wernkePending">
 						
 						<h3>Pending</h3>
-						<div class="cf">
+						<hr>
+						<div class="selling-point-grid">
 					
-					<?php 
-						$args = array(
-							'post_type' => 'listing',
-							'post_status' => 'publish',
-							'posts_per_page' => 25,
-							'order' => 'ASC',
-							'tax_query' => array(
-							    array(
-							        'taxonomy' => 'listing-type',
-							        'field' => 'slug',
-							        'terms' => 'under-contract',
-			    				)
-							)
-						); ?>
-					
-						<?php $pending_listings  = new WP_Query( $args ); 
-								
-							while ( $pending_listings->have_posts() ) : $pending_listings->the_post(); ?>
-								
-								<?php get_template_part( 'post-formats/content' , get_post_type() ); ?>
-								
-							<?php endwhile;  wp_reset_postdata(); ?>
-						</div>
+						<?php 
+							$args = array(
+								'post_type' => 'listing',
+								'post_status' => 'publish',
+								'posts_per_page' => 25,
+								'order' => 'ASC',
+								'tax_query' => array(
+								    array(
+								        'taxonomy' => 'listing-type',
+								        'field' => 'slug',
+								        'terms' => 'under-contract',
+				    				)
+								)
+							); ?>
+						
+							<?php $pending_listings  = new WP_Query( $args ); 
+									
+								while ( $pending_listings->have_posts() ) : $pending_listings->the_post(); ?>
+									
+									<?php get_template_part( 'post-formats/content-listing' ); ?>
+									
+								<?php endwhile;  wp_reset_postdata(); ?>
+							</div>
 				 	</section>
 
-				<!-- New closed Experiment-->
-				 	<section class="pull-r-1of12 pull-l-1of12 m-padding cf">
+				 	<section id="wernkeClosed">
 			    		<h3>Closed</h3>
 
-				 		<div class="cf">
-							
+							<div>
 							<?php 
 								$args = array(
 									'post_type' => 'listing',
@@ -104,7 +104,6 @@
 						   		$year_variable = '';
 								
 							while ( $closed_listings ->have_posts() ) : $closed_listings ->the_post();
-								echo '<div class="cf">';
 								// Load the custom_date meta field
 					    		$custom_date = get_post_meta( get_the_ID(), 'wpcf-closed-date', true );
 					    		
@@ -118,30 +117,34 @@
 							    if ( $year_variable !== $post_year ) {
 							    	// If the year is different than the post year output the closing div to the year
 							    	// Also output the new year title and a horizontal line
-							        echo '</div><h4>' . $post_year . '</h4><hr>';
+							        echo '</div><h4>' . $post_year . '</h4><hr><div class="selling-point-grid">';
 
 							        // Output the listing as a post
-							    	get_template_part( 'post-formats/content-listing-closed' );
+							    	get_template_part( 'post-formats/content-search-result' );
 
 								    // Update the $year_variable value
 								    $year_variable = $post_year;
 
-								} else {
-									// If year does equal post year, just output the listing as a post
-									get_template_part( 'post-formats/content-listing-closed' );
-								}
-					
-									wp_reset_postdata();
+									} else {
+										// If year does equal post year, just output the listing as a post
+										get_template_part( 'post-formats/content-search-result' );
+										
+									}
+		
+								wp_reset_postdata();
+
 								?>
 
 							<?php endwhile;   ?>
-							</div> <?php // This is the closing div for the last year section ?>
-						</div>
+							
+							</div>
+								
+							<?php // This is the closing div for the last year section ?>
 				 	</section>
 
 				 	<section class="cs-section cf">
-					<p class="d-all m-all t-all"><strong>Note:</strong> Additional past projects are available upon request.</p>
-				</section>
+						<p class="d-all m-all t-all"><strong>Note:</strong> Additional past projects are available upon request.</p>
+					</section>
 				
 			</article>
 
@@ -151,7 +154,7 @@
 
 		<footer class="cf">
 				<?php get_template_part('library/partials/sectionContact'); ?>
-			</footer>
+		</footer>
 				
 				
 	</div>

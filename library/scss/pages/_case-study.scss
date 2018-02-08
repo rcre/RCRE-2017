@@ -2,30 +2,6 @@
 PATRIAL CASE STUDY
 ******************************************************************/
 
-.cs-section {
-	margin: 20px auto;
-	padding-left: 20px;
-
-	aside {
-		float: right;
-	}
-}
-
-.cs-aside {
-
-	aside {
-		margin-bottom: 40px;
-	}
-
-	p {
-		font-size: 0.8em;
-	}
-
-	.header-link{
-		display: block;
-	}
-}
-
 .cs-broker-pic {
 	width: 100px;
 }
@@ -53,16 +29,6 @@ PATRIAL CASE STUDY
 	}
 }
 
-.download-icon {
-	background-image: url('../images/icons/icon-download.svg');
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 30px;
-	height: 30px;
-	float: right;
-	margin-bottom: 30px;
-}
-
 .cs-logo-on-page {
 	float: left;
 	padding-right: 25px;
@@ -72,34 +38,6 @@ PATRIAL CASE STUDY
 	width: 20px;
 	display: inline-block;
 	padding: 30px;
-}
-
-.client-quote {
-	font-size: 1em;
-	margin: 30px 0;
-	border: 2px solid $blue;
-	padding: 10px;
-	border-radius: 10px;
-	text-align: left;
-
-
-	> p {
-		&::before {
-			content:'"';
-			font-size: 4em;
-			line-height: 0.5em;
-			color: $gray;
-			font-family: Times;
-		}
-
-		&::after {
-			content:'"';
-			font-size: 4em;
-			line-height: 0.5em;
-			color: $gray;
-			font-family: Times;
-		}
-	}
 }
 
 .client-quote-person {

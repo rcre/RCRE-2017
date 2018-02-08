@@ -1,14 +1,10 @@
 /******************************************************************
-Site Name:
-Author:
-
-Stylesheet: Desktop Stylsheet
-
-This is the desktop size. It's larger than an iPad so it will only
-be seen on the Desktop.
-
+Stylesheet: 1500 and up - Desktop Stylsheet
 ******************************************************************/
 
+video.fullscreen {
+  	width: 100%;
+}
 
 .nav {
 	> li {

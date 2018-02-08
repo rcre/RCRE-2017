@@ -51,7 +51,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: $lato;
+  font-family: $sans-serif;
   background-color: $gray;
   @include transition(background-color 0.24s ease-in-out);
 
@@ -323,7 +323,56 @@ form {
   }
 }
 
+
+
+// Search Form Styles
 #searchform {
-  width: 50%;
+  display: none;
+  opacity: 0;
+  width: 0%;
+  transition: 0.5s;
   margin: 0 auto;
+  align-content: right;
+
+  div {
+    position: relative;
+  }
+
+  label {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: white;
+  }
+
+  input {
+    color: white;
+    font-size: 1.5em;
+    max-width: none;
+    padding: 5px;
+  }
+
+  button {
+    position: absolute;
+    right: -2.5px;
+    top: 2.5px;
+  }
+
+  &.visible {
+    position: fixed;
+    display: block;
+    opacity: 1;
+    width: auto;
+
+    margin: 8px;
+    margin-right: 63px;
+
+    transition: 0.5s;
+    left: 0px;
+    right: 32px;
+  }
+}
+
+.hide {
+  display: none !important;
 }

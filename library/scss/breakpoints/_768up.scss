@@ -2,11 +2,6 @@
 Stylesheet: 768px and up - Tablet & Small Desktop Stylesheet
 ******************************************************************/
 
-
-.wrap {
-	width: 100%;
-}
-
 // Desktop Font Sizes
 
 h1, .h1 {
@@ -42,6 +37,11 @@ blockquote {
 HEADER STYLES
 *********************/
 
+// Prevent the searhc bar from going full width
+#searchform.visible {
+	left: 25%;
+}
+
 // Hide the menu burger
 #menu-burger {
 	display: none;
@@ -50,6 +50,16 @@ HEADER STYLES
 // Hide the phone button
 #call {
 	display: none;
+}
+
+#searchButton {
+	margin-right: 15px;
+	transition: $trans;
+
+	&:hover {
+		background-color: $green;
+		transition: $trans;
+	}
 }
 
 .callout {
@@ -62,6 +72,7 @@ HEADER STYLES
 		}
 	}
 }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -247,11 +258,6 @@ NAVIGATION STYLES
 SECTION STYLES
 *********************/
 
-.entry-content {
-	// margin-right: 10.66666667%;
-	// margin-left: 10.66666667%;
-}
-
 section {
 	
 	.uvp {
@@ -380,6 +386,11 @@ ul.tabs {
 
 .tab_drawer_heading { 
 	display: none; 
+}
+
+
+.listing-contact {
+	display: none;
 }
 
 /*********************

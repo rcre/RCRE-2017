@@ -13,16 +13,13 @@ body {
   	font-family: $sans-serif;
 }
 
-.div {
-	vertical-align: baseline;
-}
-
 ol, ul {
 	margin: 0;
 }
 
-
-// Mobile Font Sizes
+/*********************
+MOBILE TYPE SIZES
+*********************/
 
 h1, .h1 {
 	font-size: 2.1em;
@@ -48,10 +45,6 @@ p {
 LAYOUT & GRID STYLES
 *********************/
 
-.wrap {
-	width: 90%;
-	margin: 0 auto;
-}
 
 /*********************
 HEADER STYLES
@@ -59,10 +52,17 @@ HEADER STYLES
 
 header {
 	position: relative;
+	overflow: hidden;
+}
+
+#hero {
+	position: relative;
+	overflow: hidden;
 }
 
 #scene {
 	overflow: hidden;
+	position: relative;
 
 	.header {
 		left: -5% !important;
@@ -76,9 +76,9 @@ header {
 	height: 750px;
 	display: block;
 	width: 120%;
-    bottom: -15px;
     text-align: center;
     z-index: -5;
+    top: 20px !important;
 
 	&:after {
 	    background-color:  rgba(0, 0, 0, 0.22);
@@ -93,15 +93,25 @@ header {
 
 .header-video {
 	width: 100%;
-	left: 0;
-    bottom: 20px;
+	position: absolute;
+	height: 750px;
+	display: block;
+    text-align: center;
+    z-index: -5;
+    left: 0; 
+    top: 0px;
 }
 
 // styles for video background in the header
 video.fullscreen {
 	display: block;
   	height: auto !important;
-  	width: 1927px;
+  	width: 1357px;
+}
+
+header.fullscreen {
+	width: 100%;
+	overflow: hidden;
 }
 
 .header-default {
@@ -109,7 +119,6 @@ video.fullscreen {
 }
 
 #single-header {
-	text-align: left;
 	padding-top: 90px;
 	padding-bottom: 20px;
 }
@@ -121,6 +130,7 @@ video.fullscreen {
 	position: relative;
 	z-index: -5;
 	padding-top: 100px;
+	padding-bottom: 50px;
 
 	&:after {
 	    background-color:  rgba(0, 0, 0, 0.22);
@@ -136,6 +146,7 @@ video.fullscreen {
 }
 
 #inner-header {
+	height: 63px;
 	top: 0;
 	border-bottom: 3px solid $white;
 	position: fixed;
@@ -147,7 +158,6 @@ video.fullscreen {
 	width: 100%;
 	background-color: darken($gray, 5%);
 	z-index: 100;
-	//align-items: center;
 	-webkit-flex-flow: row wrap;
   	justify-content: flex-end;
 
@@ -158,25 +168,34 @@ video.fullscreen {
 
 #logo {
 	width: 200px;
-	height: 62px;
-	align-self: left;
 	padding-top: 18px;
 	padding-left: 13px;
 }
 
 #call {
 	width: 63px;
-	height: 61px;
 	padding: 15px;
 	background-color: $gray;
 }
 
 #menu-burger {
 	width: 63px;
-	height: 61px;
 	background-color: $green;
 }
 
+#searchButton {
+	align-self: center;
+	color: white;
+	font-size: 1.5em;
+	width: 63px;
+	padding: 12px;
+	background-color: $gray;
+	cursor: pointer;
+	text-align: center;
+	border-left: 1px solid $dgray;
+	border-right: 1px solid $dgray;
+	margin-right: 1px;
+}
 
 .callout {
 	padding: 100px 20px 20px 20px;
@@ -221,17 +240,8 @@ POSTS & CONTENT STYLES
 #content {
 	z-index: 5;
 	background-color: white;
-	
-	#main {
-		// margin-top: 10px; Why was this margin here?
-		margin-bottom: 0.5em;
-	}
 }
 
-iframe {
-	// border: 5px solid $lgray;
-	// border-radius: 5px;
-}
 .hentry {
 	background-color: $white;
 	margin-bottom: 0.5em;
@@ -241,7 +251,7 @@ iframe {
 			margin: 0;
 		}
 	}
-} /* end .hentry */
+}
 
 .entry-content {
 	margin-right: 5%;
@@ -258,20 +268,13 @@ section#authorSingle {
 	padding-top: 60px;
 }
 
+
+#contactSidebar {
+	display: none;
+}
 /*********************
 SECTION STYLES
 *********************/
-
-// Header BG if there is no picture loaded
-.default-bg {
-	background-image: url('../images/bg/pattern.svg');
-	background-size: 10%;
-	background-repeat: repeat;
-
-	h1, p {
-		color: $gray;
-	}
-}
 
 section {
 	// Don't show the slant on mobile
@@ -305,6 +308,9 @@ section {
 	height: auto;
 	background: none;
 }
+
+
+// Contact form styles
 
 .contact-copy {
 	margin-top: 6%;
@@ -351,8 +357,6 @@ footer {
 		}
 	}
 }
-
-
 
 .footer-links {
 

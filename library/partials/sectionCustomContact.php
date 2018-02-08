@@ -61,20 +61,21 @@
 			<input type="hidden" id="00N1500000ImKf9" maxlength="255" name="00N1500000ImKf9" size="20" type="text" value="<?php echo get_page_link(); ?>" />
 
 			<div class="m-all t-1of2 d-1of2">
-				<label for="square-footage">Square Footage: <span id="sfOutput"></span> SF</label>
+				<label for="squareFootage">Square Footage: <span id="sfOutput"></span> SF</label>
 				<div class="slidecontainer">
 				  <input name="00N1C00000Iz7sn" type="range" min="500" max="1000000" value="10000" class="slider" id="squareFootage" tabindex="7" >
 				</div>
 			</div>
 		
 			<div class="m-all t-1of2 d-1of2">
-				<label for="dock-doors">Dock Doors: <span id="dockOutput"></span></label>
+				<label for="dockDoors">Dock Doors: <span id="dockOutput"></span></label>
 				<div class="slidecontainer">
 				  <input name="00N1C00000Iz7ss" type="range" min="0" max="10" value="0" class="slider" id="dockDoors" tabindex="8" >
 				</div>
 			</div>
 
-			<label for="description">Tell us more about your requirements</label><textarea name="description" tabindex="9" required ></textarea>
+			<label for="contactDescription">Tell us more about your requirements</label>
+			<textarea id="contactDescription" name="description" tabindex="9" required ></textarea>
 
 			<div class="g-recaptcha" data-sitekey="6LeafEEUAAAAAFhCHxYHK_CIoOVKXS2Fqlp5wkBh" data-callback="onSuccess"></div>
 			

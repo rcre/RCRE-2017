@@ -1,4 +1,4 @@
-			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+			<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
 				<div id="inner-footer" class="m-padding pull-l-1of12 pull-r-1of12 cf">
 					
 					<div itemscope itemtype="http://schema.org/PostalAddress" class="address left">
@@ -12,7 +12,7 @@
 					</div>
 
 					<div class="right">
-						<nav role="navigation">
+						<nav>
 							<?php wp_nav_menu(array(
 		    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
 		    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)

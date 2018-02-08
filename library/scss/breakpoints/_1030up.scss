@@ -1,18 +1,10 @@
 /******************************************************************
-Site Name:
-Author:
-
-Stylesheet: Desktop Stylsheet
-
-This is the desktop size. It's larger than an iPad so it will only
-be seen on the Desktop.
-
+Stylesheet: 1030px and up - Desktop Stylsheet
 ******************************************************************/
 
 // styles for video background in the header (desktop)
 video.fullscreen {
-	width:100%;
-	height:auto;
+  	width: 1430px;
 }
 
 p {
@@ -26,18 +18,18 @@ p {
 }
 
 .nav {
-	> li {
+	> a {
 		font-size: 1.1em;
+	}
 
-		// Show "Search Properties" when you have more screen
-		&:last-child {
-			display: inline-block;
+	// Show "Search Properties" when you have more screen
+	> li:last-child {
+		display: inline-block;
 
-			a {
-				color: $green;	
-			}
-			
+		a {
+			color: $green;	
 		}
+		
 	}
 }
 
@@ -57,3 +49,6 @@ section .slant {
 	width: 60%;
 }
 
+#contactSidebar {
+	display: block;
+}

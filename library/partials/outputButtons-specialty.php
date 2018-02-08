@@ -7,7 +7,7 @@
             $icon = types_render_termmeta( "specialty-icon", array( "term_id" => $termId ));
                 
                 ?>
-            <a href="<?php echo $term->slug; ?>">
+            <a href="<?php echo $term->slug; ?>" role="button">
                 <div class="service-box">
                     <?php echo $icon; ?>
                     <h5><?php echo $term->name; ?></h5>

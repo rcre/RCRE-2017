@@ -8,17 +8,20 @@
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf m-madding' ); ?> role="article">
 				
-				<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
-					<section class="selling-point-grid">
-						
-						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-								
-							<?php get_template_part( 'post-formats/content-search-result' ); ?>
-									
-						<?php endwhile; endif; ?>
+				<section id="SpecialtyTeam" class="pull-r-1of12 pull-l-1of12 cf pad-top m-padding">
+				<h2 class="header-dark pad-top"><?php the_title(); ?></h2>
+				<?php get_template_part('library/partials/sectionTeam'); ?>
+			</section>
 
-					</section>
-				</div>
+				<section class="selling-point-grid">
+					
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+							
+								
+					<?php endwhile; endif; ?>
+
+				</section>
+
 			</article>
 		</main>
 	

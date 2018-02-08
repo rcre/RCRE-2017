@@ -6,73 +6,6 @@
 
 /* --desktop */
 
-#specialties-and-industries {
-	background-image: url('../images/bg/header-home.jpg');
-}
-
-header#service {
-	background-image: url('../images/service/brokerage/service-brokerage-header.png');
-
-	&--brokerage {
-		background-image: url('../images/service/brokerage/service-brokerage-header.png');
-	}
-
-	&--investments {
-		background-image: url('../images/service/investments/service-investments-header.png');
-	}
-
-	&--contruction {
-		background-image: url('../images/service/construction/service-construction-header.png');
-	}
-
-	&--management {
-		background-image: url('../images/service/management/service-management-header.png');
-	}
-
-	&--valuation {
-		background-image: url('../images/service/valuation/service-valuation-header.png');
-	}
-
-	&--incentives {
-		background-image: url('../images/service/incentives/service-incentives-header.png');
-	}
-
-	&--capital-advisors {
-		background-image: url('../images/service/capital-advisors/service-capital-advisors-header.png');
-	}
-
-	&--owner-rep {
-		background-image: url('../images/service/owner-rep/service-owner-rep-header.png');
-	}
-
-	&--occupier-rep {
-		background-image: url('../images/service/occupier-rep/service-occupier-rep-header.png');
-	}
-}
-
-.specialty {
-
-	&--Office {
-		background-image: url('../images/specialties/office/specialty-office-header.jpg');
-	}
-
-	&--Retail {
-		background-image: url('../images/specialties/retail/specialty-retail-header.jpg');
-	}
-
-	&--Industrial {
-		background-image: url('../images/specialties/industrial/specialty-industrial-header.jpg');
-	}
-
-	&--Land {
-		background-image: url('../images/specialties/land/specialty-land-header.jpg');
-	}
-
-	&--Multifamily {
-		background-image: url('../images/specialties/multifamily/specialty-multifamily-header.jpg');
-	}
-}
-
 .specialty-drawing {
 
 	&--Office {
@@ -97,26 +30,6 @@ header#service {
 }
 
 .page {
-	&--Home {
-		background-image: url('../images/home-desktop.jpg') !important;
-	}
-
-	&--Blog {
-		background-image: url('../images/specialties/retail/specialty-retail-panel-1.svg');
-	}
-
-	&--About {
-		background-image: url('../images/specialties/industrial/specialty-industrial-panel-1.svg');
-	}
-
-	&--Land {
-		background-image: url('../images/specialties/land/specialty-land-panel-1.svg');
-	}
-
-	&--Multifamily {
-		background-image: url('../images/specialties/multifamily/specialty-multifamily-panel-1.svg');
-	}
-
 	&--Case-Studies {
 		background-image: url('../images/case-studies-desktop.jpg');
 		@media (max-width: 767px) {
@@ -140,9 +53,9 @@ header#service {
 	}
 }
 
-body.post-type-archive-research-report #page-header {
-	background-image: url('../images/research-desktop.jpg');
-}
+// body.post-type-archive-research-report #page-header {
+// 	background-image: url('../images/research-desktop.jpg');
+// }
 
 .header-pattern {
 	background-image: url('../images/bg/pattern.svg');
@@ -150,5 +63,3 @@ body.post-type-archive-research-report #page-header {
 	background-repeat: repeat;
 	background-position: center;
 }
-
-/* --mobile */

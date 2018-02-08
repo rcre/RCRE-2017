@@ -93,6 +93,144 @@ MODULE: SERVICE GRID
 }
 
 
+
+
+.search-box {
+	border: 5px solid $lgray;
+	border-radius: 10px;
+	position: relative;
+	transition: 1.0s;
+
+	.picture {
+		height: 200px;
+		padding: 10px 10px;
+		background-repeat: no-repeat; 
+		background-size: cover;
+		background-position: center center;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+
+	.content {
+		padding: 10px 10px 20px;
+	}
+
+	p {
+		text-align: left;
+	}
+
+	&:hover, &:focus {
+		box-shadow: 1px 1px 35px rgba( $black, 0.3);
+		transition: $trans;
+		border-color: darken($lgray, 5%);
+	}
+
+	img {
+		width: 50%;
+	}
+}
+
+
+.listing-detail {
+	margin: 10px 0;
+	background-color: lighten($lgray, 5%);
+	
+	h5 { 
+		display: inline-block;
+		padding: 3px;
+	}
+}
+
+.listing-contact {
+	border-top: 2px solid $lgray;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	bottom: 0px;
+	transition: $trans;
+	transform-origin: bottom;
+	transform: translateY(455px);
+	padding: 20px;
+
+	img.broker-profile-picture {
+		max-width: 50px;
+		float: left;
+		margin-right: 20px;
+	}
+
+	#closeInfo {
+		display: none;
+		font-size: 2em;
+		float: left;
+		margin-right: 40px
+	}
+
+	#moreInfo {
+		float: right;
+		display: block;
+		cursor: pointer;
+		margin-top: 8px;
+	}
+
+	.broker-info {
+		width: 45%;
+		float: left;
+
+		h6 { margin: 0;}
+		h5 { margin: 0;}
+	}
+
+	&.active {
+		transition: $trans;
+		transform: translateY(0px);
+
+		#closeInfo {
+			display: block;
+		}
+
+		#moreInfo {
+			display: none;
+		}
+	}
+
+	#ContactLanding {
+		background-color: white;
+		margin-bottom: 40px;
+	}
+}
+
+#inner-content {
+	position: relative;
+}
+
+
+#contactSidebar {
+	margin-top: 50px;
+    margin-left: 45px;
+    width: auto;
+    border: 5px solid $lgray;
+    border-radius: 5px;
+    padding: 20px;
+
+	img.broker-profile-picture {
+		width: 75px;
+	}
+
+	.broker-info {
+		width: 55%;
+		float: left;
+
+		h6 { margin: 0;}
+		h5 { margin: 0;}
+	}
+}
+
+.sticky {
+  position: fixed;
+  top: 100px;
+  width: auto;
+}
+
 /***********
 MODULE: OUR CLIENTS
 ***********/
@@ -242,58 +380,6 @@ MODULE: Specialty Overview
 		border-radius: 10px;
 		color: white;
 		font-weight: 800;
-	}
-}
-
-/***********
-MODULE: Listing Post format
-***********/
-
-.listing-box {
-	margin: 10px 10px 10px 0px;
-	border: 5px solid $lgray;
-	border-radius: 10px;
-	padding: 0px 0px;
-	text-align: left;
-	position: relative;
-	font-size: 0.8em;
-
-	&:hover {
-		border: 5px solid $blue;
-   		transition: 0.5s;
-	}
-
-	div.tag, a {
-		display: inline-block;
-		margin-bottom: 0px;
-		margin-left: 0px;
-	}
-
-	.listing-info {
-		padding: 5px 0px 0px 10px;
-	}
-
-	h4 {
-		font-size: 1.1em;
-	}
-}
-
-.listing-post-details {
-	vertical-align: bottom;
-	margin-bottom: 0px;
-
-	h4 {
-		font-size: 0.5em;
-	}
-}
-
-.listing-image {
-	overflow: hidden; // So the image stay's within it's  bounds
-	line-height: 0; // This gets rid of that annoying gap below the image
-
-	img { // Disabling these might fix the reflowing bug
-		//width: 100px;
-		//height: 100px;
 	}
 }
 
@@ -475,9 +561,6 @@ MODULE: Thank you page
 	}
 
 	hr {
-		height: 1px;
 		margin: 80px auto 40px auto;
-		background-color: $lgray;
-		border: none;
 	}
 }

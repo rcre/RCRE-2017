@@ -1,11 +1,6 @@
 <?php get_header(); ?>
 			
 	<div id="content">
-		
-	<?php // Bar that shows the past clients we have worked with ?>
-
-	<div class="section-pllx">
-		<div class="layer-pllx pllx-base">
 			<div class="our-clients cf">
 				<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
 					<ul>
@@ -27,12 +22,8 @@
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
-				<?php get_template_part('library/partials/sectionUVP'); ?>
-		
-		</div><!-- end layer-pllx -->
-	</div><!-- end section-pllx -->
-
 				<?php 
+					get_template_part('library/partials/sectionUVP'); 
 					get_template_part('library/partials/sectionServiceGrid');
 					get_template_part('post-formats/content-section');
 					get_template_part('library/partials/sectionCaseStudy');

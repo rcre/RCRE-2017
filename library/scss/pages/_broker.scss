@@ -1,51 +1,20 @@
 /******************************************************************
-Broker Page Styles
+Employee Page Styles
 ******************************************************************/
 
-.type-employee {
 
-	.profile-info {
-		font-size: 1em;
-		text-align: left;
+.profile-info {
+	text-align: left;
+}
 
-		div {
-			padding: 2px 0;
+.profile-header {
+	margin-bottom: 40px;
+	padding-top: 65px;
+	text-align: left;
 
-			a {
-				padding-top: 3px;
-				text-decoration: none;
-			}
-		}
-	}
-
-	h3 {
-		margin-top: 30px;
-	}
-
-	aside {
-
-		> div {
-			margin-bottom: 25px;
-		}
-
-		img {
-			width: 100%;
-		}
-	}
-
-	// Specific to broker/staff
-	.profile-header {
-		margin-bottom: 40px;
-		padding-top: 65px;
-		text-align: left;
-
-		h1 {
-			margin: 20px 0 0px 0;
-		}
-
-		a {
-			font-size: 1em;
-		}
+	h1 {
+		margin: 0;
+		margin-top: 20px;
 	}
 }
 
@@ -57,31 +26,13 @@ Broker Page Styles
 	}
 }
 
-.license-number {
-	font-size: 0.8em;
-	color: $gray;
-}
-
-.v-card {
-	margin-bottom: 5px;
-}
-
 // Post View
-.employee {
+.employee-post {
 	text-align: center;
-	display: inline-block;
 	padding: 10px;
-
-	&:last-child {
-		clear: both;
-	}
-
-	a {
-		font-size: 0.8em;
-	}
 }
 
-.broker-profile-picture {
+img.broker-profile-picture {
 	width: 100%;
 	margin-bottom: 10px;
 }

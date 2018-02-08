@@ -10,7 +10,7 @@
 					echo types_render_field( "feature-1-icon" );
 				} ?>
 				<h5><?php echo types_render_field( "feature-1-headline" ); ?></h5>
-				<p><?php echo types_render_field( "feature-1" ); ?></p>
+				<?php echo types_render_field( "feature-1" ); ?>
 			</div>
 			<div class="selling-point">
 				<?php if ( types_render_field( "feature-2-icon") != null ) {
@@ -18,7 +18,7 @@
 					echo types_render_field( "feature-2-icon" );
 				} ?>
 				<h5><?php echo types_render_field( "feature-2-headline" ); ?></h5>
-				<p><?php echo types_render_field( "feature-2" ); ?></p>
+				<?php echo types_render_field( "feature-2" ); ?>
 			</div>
 			<div class="selling-point">
 				<?php if ( types_render_field( "feature-3-icon") != null ) {
@@ -26,7 +26,7 @@
 					echo types_render_field( "feature-3-icon" );
 				} ?>
 				<h5><?php echo types_render_field( "feature-3-headline" ); ?></h5>
-				<p><?php echo types_render_field( "feature-3" ); ?></p>
+				<?php echo types_render_field( "feature-3" ); ?>
 			</div>
 		</div>
 	</div>
