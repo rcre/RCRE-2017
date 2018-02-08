@@ -14,7 +14,9 @@
 	<!-- Profile Picture -->
 	<img class="cs-broker-pic" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $parent_id, 'raw' => true )); ?>" alt="<?php echo $parent_name; ?>">
 
-	<h4 class="header-dark header-link"><a role="button" href="<?php echo esc_url( get_permalink( $parent_id ) ); ?>"><span itemprop="name"><?php echo $parent_name; ?></span></a></h4>
+	<h4 class="header-dark">
+		<a class="cta-underline-gray" role="button" href="<?php echo esc_url( get_permalink( $parent_id ) ); ?>"><span itemprop="name"><?php echo $parent_name; ?></span></a>
+	</h4>
 
 	<p><?php echo types_render_field( "profile-title", array( 'post_id' => $parent_id , 'raw' => true ) ); ?></p>
 </div> 

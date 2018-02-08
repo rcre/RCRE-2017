@@ -120,16 +120,16 @@ jQuery("#closeInfo").click(function() {
  * Search Form
 **************************/
 
-window.onscroll = function() { 
-  var sidebar = document.getElementById("contactSidebar");
-  var sticky = header.offsetTop + 500;
+// window.onscroll = function() { 
+//   var sidebar = document.getElementById("contactSidebar");
+//   var sticky = header.offsetTop + 500;
 
-  if (window.pageYOffset >= sticky) {
-    sidebar.classList.add("sticky");
-    } else {
-      sidebar.classList.remove("sticky");
-    }
-};
+//   if (window.pageYOffset >= sticky) {
+//     sidebar.classList.add("sticky");
+//     } else {
+//       sidebar.classList.remove("sticky");
+//     }
+// };
 
 /*************************
  * Ready Functions

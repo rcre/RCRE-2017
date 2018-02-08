@@ -14,17 +14,10 @@
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<article id="post-<?php the_ID(); ?>" <?php post_class('cf pull-r-1of12 pull-l-1of12'); ?> role="article">
+			<article id="post-<?php the_ID(); ?>" <?php post_class('cf pull-r-1of12 pull-l-1of12 pad-top'); ?> role="article">
 			
-
 				<aside class="m-all t-1of3 d-1of4 cf">
 					<?php get_template_part('post-formats/author' , get_post_type() ); ?>
-			
-					<h4>Services Provided</h4>
-
-					<div class="header-link">
-						<?php echo get_the_term_list( $post->ID, 'service', '', '</br>', ''); ?>
-					</div>
 		
 					<?php if ( types_render_field( "client-quick-facts" ) != null ) { ?>
 						<h4>Company Quick Facts</h4>
