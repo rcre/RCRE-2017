@@ -22,7 +22,7 @@
 			</p>
 
 			<?php if ( types_render_field( "time-to-read" ) != null ) { ?>
-				<div class="tag-no-link"><i class="fa fa-bookmark-o" aria-hidden="true"></i> <?php echo types_render_field( "time-to-read", array( $post->ID, 'raw' => true)); ?> Minute Read</div>
+				<div class="tag"><i class="fa fa-bookmark-o" aria-hidden="true"></i> <?php echo types_render_field( "time-to-read", array( $post->ID, 'raw' => true)); ?> Minute Read</div>
 			<?php } ?>
 
 

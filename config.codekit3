@@ -7,7 +7,7 @@
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -3114,7 +3114,7 @@
 	"displayValue": "RESOURCE 2017",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 539791366
+	"lastBuiltDate": 539796979
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3122,6 +3122,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

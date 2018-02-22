@@ -4,7 +4,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" tabindex="-1" class="pull-r-1of12 pull-l-1of12 m-padding cf" role="main" itemscope itemprop="department" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" class="pull-r-1of12 pull-l-1of12 m-padding cf" role="main" itemscope itemprop="department" itemtype="http://schema.org/LocalBusiness">
 
 			<section id="SpecialtyTeam" class="pull-r-1of12 pull-l-1of12 cf m-padding pad-top">
 					<h2 class="header-dark pad-top">The Wernke Team</h2>

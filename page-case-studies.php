@@ -5,7 +5,7 @@
 	<div id="inner-content" class="cf">
 
 
-		<main id="main" class="cf" role="main" tabindex="-1" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 			<section class="pad-top m-padding">
 			<div class="pull-l-1of12 pull-r-1of12 cf">

@@ -4,7 +4,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="m-all t-all d-all cf" role="main" tabindex="-1" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" class="m-all t-all d-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

@@ -198,7 +198,7 @@ header.fullscreen {
 }
 
 .callout {
-	padding: 100px 20px 20px 20px;
+	padding: 50px 20px 20px 20px;
 	display: block;
 	width: 100%;
     z-index: 5;
@@ -254,6 +254,7 @@ POSTS & CONTENT STYLES
 }
 
 .entry-content {
+	overflow: hidden;
 	margin-right: 5%;
 	margin-left: 5%;
 

@@ -1,6 +1,6 @@
 <!-- author-single.php -->
 
-<section id="authorSingle" class="m-all t-all d-all" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<section id="authorSingle" class="m-all t-all d-all cf" itemprop="author" itemscope itemtype="http://schema.org/Person">
 	
 	<?php 
 		// Get the ID of the parent post, which belongs to the "Employee" post type
@@ -15,16 +15,15 @@
 			$broker_excerpt = $broker_post->post_excerpt;
 		?>
 
-	<div class="m-all t-1of3 d-1of5 pad-right cf">
-		<img class="broker-profile-picture m-1of2 d-all block" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>" itemprop="image" alt="<?php echo $broker_name; ?>">
-		
-		<a class="cta-border-green m-1of2 d-all" href="mailto:<?php echo types_render_field( "profile-email-address", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>" role="button">Contact</a>
-	</div> 
+	<img class="m-1of3 t-1of3 d-1of5" src="<?php echo types_render_field( "profile-picture", array( 'post_id' => $broker_id, 'raw' => true ) ); ?>" itemprop="image" alt="<?php echo $broker_name; ?>">
+
+	<div class="m-2of3">
+		<h3 class="header-dark header-link"><a href="<?php echo esc_url( get_permalink( $broker_id ) ); ?>"><span itemprop="name"><?php echo $broker_name; ?></span></a></h3>
+	
+		<h5><?php echo types_render_field( "profile-title", array( 'post_id' => $broker_id, 'raw' => true ) ); ?></h5>
+	</div>
 
 	<div class="m-all t-2of3 d-4of5 cf">
-		<h3 class="header-dark header-link"><a href="<?php echo esc_url( get_permalink( $broker_id ) ); ?>"><span itemprop="name"><?php echo $broker_name; ?></span></a></h3>
-		
-		<h5><?php echo types_render_field( "profile-title", array( 'post_id' => $broker_id, 'raw' => true ) ); ?></h5>
 		
 		<p itempop="description"><?php echo $broker_excerpt; ?></p>
 

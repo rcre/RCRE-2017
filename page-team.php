@@ -4,7 +4,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" tabindex="-1" class="m-all t-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" class="m-all t-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 			<section id="SpecialtyTeam" class="pull-r-1of12 pull-l-1of12 cf pad-top m-padding">
 				<h2 class="header-dark pad-top">The RESOURCE Team</h2>

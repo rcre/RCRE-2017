@@ -18,7 +18,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf m-padding" role="main" tabindex="-1" itemprop="Department" itemscope itemtype="http://schema.org/Service">
+		<main id="main" class="cf m-padding" role="main" itemprop="Department" itemscope itemtype="http://schema.org/Service">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

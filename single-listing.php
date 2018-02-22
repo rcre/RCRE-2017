@@ -22,7 +22,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf m-padding pull-r-1of12" role="main" tabindex="-1" itemscope itemtype="http://schema.org/Product">
+		<main id="main" class="cf m-padding pull-r-1of12" role="main" itemscope itemtype="http://schema.org/Product">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

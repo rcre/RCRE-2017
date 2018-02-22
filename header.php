@@ -121,7 +121,7 @@
 					?>
 
 					<?php // Top Navigation ?>
-						<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+						<nav id="desktopNav" itemscope itemtype="http://schema.org/SiteNavigationElement">
 							<?php wp_nav_menu(array(
 	    					         'container' => false,                           // remove nav container
 	    					         'container_class' => 'cf',                 // class of container (should you choose to use it)
