@@ -30,6 +30,8 @@
 			$postTag = "Case Study";
 		} elseif ( $postTag == 'post') {
 			$postTag = "Blog Post";
+		} elseif ( $postTag == 'listing') {
+			$postTag = "Property";
 		}
 ?>
 			

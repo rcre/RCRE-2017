@@ -60,3 +60,7 @@ temp/
 *.scssc
 
 config.codekit3
+
+resource-2018/
+
+*.codekit3

@@ -24,7 +24,10 @@
 					<div class="contact-pic industry--Small-Business"></div>
 				</div>
 
-				<p>Tackle your biggest commercial real estate challenges with a team that cares. Want to set up a meeting or simply talk with a professional? Our team is ready to help!</p>
+				<p>Tackle your biggest commercial real estate challenges with a team that cares. Our team is ready to help!</p>
+				<br>
+				<a class="drift-open-chat cta-underline-white" href="#">Chat with us!</a>
+		
 		</div>
 
 

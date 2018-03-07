@@ -5,50 +5,58 @@
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
 		"uuidString": "A38BE5AF-84A5-4B79-A6A2-F0A6F0771D62"
+		},
+	{
+		"name": "New \"Run Script\" Step",
+		"scriptSourceString": "rm -rf ..\/resource-2018\nmv resource-2018 ..",
+		"scriptType": 1,
+		"scriptUUIDString": "1A685CFA-60C7-41A0-8846-CDC99444C6E8",
+		"stepType": 2,
+		"uuidString": "259DBFFE-C2E9-4E87-BCF4-88365C900D58"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/.gitattributes",
+		"oAP": "\/resource-2018\/.gitattributes",
 		"oF": 1
 		},
 	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/.gitignore",
+		"oAP": "\/resource-2018\/.gitignore",
 		"oF": 1
 		},
 	"\/404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/404.php",
+		"oAP": "\/resource-2018\/404.php",
 		"oF": 0
 		},
 	"\/archive.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/archive.php",
+		"oAP": "\/resource-2018\/archive.php",
 		"oF": 0
 		},
 	"\/BingSiteAuth.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/BingSiteAuth.xml",
+		"oAP": "\/resource-2018\/BingSiteAuth.xml",
 		"oF": 0
 		},
 	"\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/browserconfig.xml",
+		"oAP": "\/resource-2018\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/CHANGELOG.md": {
@@ -60,7 +68,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/CHANGELOG.html",
+		"oAP": "\/resource-2018\/CHANGELOG.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -73,21 +81,21 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/crossdomain.xml",
+		"oAP": "\/resource-2018\/crossdomain.xml",
 		"oF": 0
 		},
 	"\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/favicon.ico",
+		"oAP": "\/resource-2018\/favicon.ico",
 		"oF": 0
 		},
 	"\/favicon.png": {
 		"ft": 32768,
 		"iS": 996,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/favicon.png",
+		"oAP": "\/resource-2018\/favicon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -98,49 +106,49 @@
 		"cB": 1,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/footer.php",
+		"oAP": "\/resource-2018\/footer.php",
 		"oF": 0
 		},
 	"\/front-page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/front-page.php",
+		"oAP": "\/resource-2018\/front-page.php",
 		"oF": 0
 		},
 	"\/functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/functions.php",
+		"oAP": "\/resource-2018\/functions.php",
 		"oF": 0
 		},
 	"\/header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/header.php",
+		"oAP": "\/resource-2018\/header.php",
 		"oF": 0
 		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/index.php",
+		"oAP": "\/resource-2018\/index.php",
 		"oF": 0
 		},
 	"\/library\/admin.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/admin.php",
+		"oAP": "\/resource-2018\/library\/admin.php",
 		"oF": 0
 		},
 	"\/library\/bones.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/bones.php",
+		"oAP": "\/resource-2018\/library\/bones.php",
 		"oF": 0
 		},
 	"\/library\/css\/admin.css": {
@@ -149,7 +157,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/css\/admin.css",
+		"oAP": "\/resource-2018\/library\/css\/admin.css",
 		"oF": 1,
 		"oS": 3
 		},
@@ -159,7 +167,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/css\/editor-style.css",
+		"oAP": "\/resource-2018\/library\/css\/editor-style.css",
 		"oF": 1,
 		"oS": 3
 		},
@@ -169,7 +177,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/css\/ie.css",
+		"oAP": "\/resource-2018\/library\/css\/ie.css",
 		"oF": 1,
 		"oS": 3
 		},
@@ -179,7 +187,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/css\/login.css",
+		"oAP": "\/resource-2018\/library\/css\/login.css",
 		"oF": 1,
 		"oS": 3
 		},
@@ -189,7 +197,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/css\/style.css",
+		"oAP": "\/resource-2018\/library\/css\/style.css",
 		"oF": 1,
 		"oS": 3
 		},
@@ -197,14 +205,14 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/fonts\/fontawesome-webfont.eot",
+		"oAP": "\/resource-2018\/library\/fonts\/fontawesome-webfont.eot",
 		"oF": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/fonts\/fontawesome-webfont.svg",
+		"oAP": "\/resource-2018\/library\/fonts\/fontawesome-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -214,35 +222,65 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/fonts\/fontawesome-webfont.ttf",
+		"oAP": "\/resource-2018\/library\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/fonts\/fontawesome-webfont.woff",
+		"oAP": "\/resource-2018\/library\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/library\/fonts\/fontawesome-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/fonts\/fontawesome-webfont.woff2",
+		"oAP": "\/resource-2018\/library\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/library\/fonts\/FontAwesome.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/fonts\/FontAwesome.otf",
+		"oAP": "\/resource-2018\/library\/fonts\/FontAwesome.otf",
 		"oF": 0
+		},
+	"\/library\/images\/best-place-words-01-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/images\/best-place-words-01-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/best-place-words-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/images\/best-place-words-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/library\/images\/bg\/best-places-to-work-small-still.jpg": {
+		"ft": 16384,
+		"iS": 369182,
+		"oA": 0,
+		"oAP": "\/resource-2018\/library\/images\/bg\/best-places-to-work-small-still.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
 		},
 	"\/library\/images\/bg\/pattern.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/bg\/pattern.svg",
+		"oAP": "\/resource-2018\/library\/images\/bg\/pattern.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -252,7 +290,7 @@
 		"ft": 16384,
 		"iS": 965102,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/case-studies-desktop.jpg",
+		"oAP": "\/resource-2018\/library\/images\/case-studies-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -262,7 +300,7 @@
 		"ft": 32768,
 		"iS": 1924,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/client-logos\/Coca-Cola.png",
+		"oAP": "\/resource-2018\/library\/images\/client-logos\/Coca-Cola.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -273,7 +311,7 @@
 		"ft": 32768,
 		"iS": 2222,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/client-logos\/eli-lilly.png",
+		"oAP": "\/resource-2018\/library\/images\/client-logos\/eli-lilly.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -284,7 +322,7 @@
 		"ft": 32768,
 		"iS": 4292,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/client-logos\/indiana-members.png",
+		"oAP": "\/resource-2018\/library\/images\/client-logos\/indiana-members.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -295,7 +333,7 @@
 		"ft": 32768,
 		"iS": 2960,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/client-logos\/omnisource.png",
+		"oAP": "\/resource-2018\/library\/images\/client-logos\/omnisource.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -306,7 +344,7 @@
 		"ft": 32768,
 		"iS": 2482,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/client-logos\/PNC.png",
+		"oAP": "\/resource-2018\/library\/images\/client-logos\/PNC.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -317,7 +355,7 @@
 		"ft": 32768,
 		"iS": 1853,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/client-logos\/progressive-logo.png",
+		"oAP": "\/resource-2018\/library\/images\/client-logos\/progressive-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -328,7 +366,7 @@
 		"ft": 32768,
 		"iS": 32597,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/client-logos\/sprites.png",
+		"oAP": "\/resource-2018\/library\/images\/client-logos\/sprites.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -339,7 +377,7 @@
 		"ft": 32768,
 		"iS": 462,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/custom-post-icon.png",
+		"oAP": "\/resource-2018\/library\/images\/custom-post-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -350,7 +388,7 @@
 		"ft": 16384,
 		"iS": 1957281,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/header-desktop.jpg",
+		"oAP": "\/resource-2018\/library\/images\/header-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -360,7 +398,7 @@
 		"ft": 16384,
 		"iS": 544680,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/home-header@0,25x.jpg",
+		"oAP": "\/resource-2018\/library\/images\/home-header@0,25x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -370,7 +408,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-auction-document.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-auction-document.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -380,7 +418,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-auction-gavel.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-auction-gavel.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -390,7 +428,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-auction-paddle.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-auction-paddle.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -400,8 +438,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-balloon.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-balloon.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -410,7 +448,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-book-knowledge.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-book-knowledge.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -420,8 +458,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-book.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-book.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -430,7 +468,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-brokerage-contract.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-brokerage-contract.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -440,7 +478,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-brokerage-lease.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-brokerage-lease.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -450,7 +488,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-brokerage-sale.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-brokerage-sale.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -460,7 +498,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-cash.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-cash.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -470,7 +508,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-cell-phone.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-cell-phone.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -480,7 +518,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-close.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-close.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -490,7 +528,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-coffee-cup.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-coffee-cup.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -500,7 +538,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-computer-research.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-computer-research.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -510,7 +548,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-computer.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-computer.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -520,7 +558,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-download.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-download.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -530,7 +568,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-focused-on-you.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-focused-on-you.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -540,7 +578,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-football.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-football.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -550,8 +588,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-fruit.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-fruit.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -560,7 +598,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-handshake.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-handshake.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -570,8 +608,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-heart.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-heart.svg",
+		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
@@ -580,7 +618,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-indiana-with-heart.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-indiana-with-heart.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -590,7 +628,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-industrial-box-opened.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-industrial-box-opened.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -600,7 +638,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-industrial-box.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-industrial-box.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -610,7 +648,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-industrial-building.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-industrial-building.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -620,7 +658,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-industrial-forklift.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-industrial-forklift.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -630,7 +668,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-industrial-hardhat.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-industrial-hardhat.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -640,7 +678,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-industrial-life-sciences.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-industrial-life-sciences.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -650,7 +688,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-industrial-map.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-industrial-map.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -660,7 +698,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-industrial-truck.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-industrial-truck.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -670,7 +708,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-investments-calculator.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-investments-calculator.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -680,7 +718,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-investments-dollar-sign.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-investments-dollar-sign.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -690,7 +728,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-investments-graph.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-investments-graph.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -700,7 +738,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-land-escavator.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-land-escavator.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -710,7 +748,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-land-surveyor.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-land-surveyor.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -720,7 +758,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-land-trees-v2.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-land-trees-v2.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -730,7 +768,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-land-trees.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-land-trees.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -740,7 +778,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-lease.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-lease.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -750,7 +788,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-lightbulb-intelligence.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-lightbulb-intelligence.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -760,7 +798,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-menu-burger.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-menu-burger.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -770,7 +808,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-mini-skyline.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-mini-skyline.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -780,8 +818,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-newspaper.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-newspaper.svg",
+		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -790,7 +828,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-office-buildings.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-office-buildings.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -800,7 +838,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-office-corporate.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-office-corporate.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -810,7 +848,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-office-education.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-office-education.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -820,7 +858,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-office-government.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-office-government.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -830,7 +868,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-office-small-business.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-office-small-business.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -840,7 +878,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-phone.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-phone.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -850,7 +888,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-plane.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-plane.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -860,8 +898,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-printer.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-printer.svg",
+		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -870,7 +908,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-property-mgmt-mop-bucket.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -880,7 +918,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-property-mgmt-toolbox.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-property-mgmt-toolbox.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -890,7 +928,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-property-mgmt-tools.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-property-mgmt-tools.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -900,7 +938,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-property-mgmt-truck.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-property-mgmt-truck.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -910,7 +948,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-resource-logo-lines.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-resource-logo-lines.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -920,8 +958,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-retail-building.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-retail-building.svg",
+		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -930,7 +968,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-retail-credit-card.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-retail-credit-card.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -940,8 +978,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-retail-dining.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-retail-dining.svg",
+		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -950,8 +988,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-retail-grocery.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-retail-grocery.svg",
+		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -960,7 +998,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-retail-investments-arrows.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-retail-investments-arrows.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -970,8 +1008,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-retail-merchandise.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-retail-merchandise.svg",
+		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -980,7 +1018,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-sale.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-sale.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -990,8 +1028,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-sandwich.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-sandwich.svg",
+		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -1000,7 +1038,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-search.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-search.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1010,7 +1048,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-speech-consultation.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-speech-consultation.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1020,7 +1058,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-sprouting-plant.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-sprouting-plant.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1030,7 +1068,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-tablet.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-tablet.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1040,8 +1078,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-thank-you.svg",
-		"oF": 0,
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-thank-you.svg",
+		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -1050,7 +1088,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-tick-bad.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-tick-bad.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1060,7 +1098,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-tick-good.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-tick-good.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1070,7 +1108,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-us-map-love-indy.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-us-map-love-indy.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1080,7 +1118,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/icons\/icon-van.svg",
+		"oAP": "\/resource-2018\/library\/images\/icons\/icon-van.svg",
 		"oF": 2,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1090,7 +1128,7 @@
 		"ft": 32768,
 		"iS": 4892,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-chrome-192x192.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/android-chrome-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1101,7 +1139,7 @@
 		"ft": 32768,
 		"iS": 13361,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-chrome-512x512.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/android-chrome-512x512.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1112,7 +1150,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-icon-144x144.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/android-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1123,7 +1161,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-icon-192x192.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/android-icon-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1134,7 +1172,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-icon-36x36.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/android-icon-36x36.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1145,7 +1183,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-icon-48x48.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/android-icon-48x48.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1156,7 +1194,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-icon-72x72.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/android-icon-72x72.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1167,7 +1205,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/android-icon-96x96.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/android-icon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1178,7 +1216,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-114x114.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-114x114.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1189,7 +1227,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-120x120.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-120x120.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1200,7 +1238,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-144x144.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1211,7 +1249,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-152x152.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-152x152.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1222,7 +1260,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-180x180.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-180x180.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1233,7 +1271,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-57x57.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-57x57.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1244,7 +1282,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-60x60.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-60x60.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1255,7 +1293,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-72x72.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-72x72.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1266,7 +1304,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-76x76.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-76x76.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1277,7 +1315,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon-precomposed.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon-precomposed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1288,7 +1326,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-icon.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1299,7 +1337,7 @@
 		"ft": 32768,
 		"iS": 4597,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/apple-touch-icon.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1310,14 +1348,14 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/browserconfig.xml",
+		"oAP": "\/resource-2018\/library\/images\/logos\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/library\/images\/logos\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/favicon-16x16.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1328,7 +1366,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/favicon-32x32.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1339,7 +1377,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/favicon-96x96.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/favicon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1350,14 +1388,14 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/favicon.ico",
+		"oAP": "\/resource-2018\/library\/images\/logos\/favicon.ico",
 		"oF": 0
 		},
 	"\/library\/images\/logos\/logo-rcre-horiz-light.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/logo-rcre-horiz-light.svg",
+		"oAP": "\/resource-2018\/library\/images\/logos\/logo-rcre-horiz-light.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1367,7 +1405,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/logo-rcre-safari-icon.svg",
+		"oAP": "\/resource-2018\/library\/images\/logos\/logo-rcre-safari-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1376,7 +1414,7 @@
 	"\/library\/images\/logos\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/manifest-min.json",
+		"oAP": "\/resource-2018\/library\/images\/logos\/manifest-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -1385,7 +1423,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/ms-icon-144x144.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/ms-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1396,7 +1434,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/ms-icon-150x150.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/ms-icon-150x150.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1407,7 +1445,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/ms-icon-310x310.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/ms-icon-310x310.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1418,7 +1456,7 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/ms-icon-70x70.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/ms-icon-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1429,7 +1467,7 @@
 		"ft": 32768,
 		"iS": 4122,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/mstile-150x150.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/mstile-150x150.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1440,7 +1478,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/safari-pinned-tab.svg",
+		"oAP": "\/resource-2018\/library\/images\/logos\/safari-pinned-tab.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1450,7 +1488,7 @@
 		"ft": 32768,
 		"iS": 8048,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/logos\/win8-tile-icon.png",
+		"oAP": "\/resource-2018\/library\/images\/logos\/win8-tile-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1461,7 +1499,7 @@
 		"ft": 16384,
 		"iS": 79100,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/grocery.jpg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/grocery.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1471,7 +1509,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/industrial\/specialty-industrial-panel-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1481,7 +1519,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/land\/specialty-land-panel-1.svg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/land\/specialty-land-panel-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1491,7 +1529,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/multifamily\/specialty-multifamily-panel-1.svg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/multifamily\/specialty-multifamily-panel-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1501,7 +1539,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/office\/specialty-office-panel-1.svg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/office\/specialty-office-panel-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1511,7 +1549,7 @@
 		"ft": 16384,
 		"iS": 133001,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/restaurant.jpg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/restaurant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1521,7 +1559,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/retail\/specialty-retail-panel-1.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1531,7 +1569,7 @@
 		"ft": 16384,
 		"iS": 182172,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/small-business.jpg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/small-business.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1541,7 +1579,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/specialty-panel-2-graph.svg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/specialty-panel-2-graph.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1551,7 +1589,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/specialty-panel-2-lines.svg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/specialty-panel-2-lines.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
@@ -1561,18 +1599,28 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/images\/specialties\/specialty-panel-3.svg",
+		"oAP": "\/resource-2018\/library\/images\/specialties\/specialty-panel-3.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/library\/js\/_drift.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/resource-2018\/library\/js\/_drift.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/library\/js\/_mobilemenu.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/js\/_mobilemenu.js",
+		"oAP": "\/resource-2018\/library\/js\/_mobilemenu.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1582,7 +1630,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/js\/_parallax.js",
+		"oAP": "\/resource-2018\/library\/js\/_parallax.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1592,7 +1640,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/js\/_rrssb.js",
+		"oAP": "\/resource-2018\/library\/js\/_rrssb.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1602,7 +1650,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/js\/_sliderselector.js",
+		"oAP": "\/resource-2018\/library\/js\/_sliderselector.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1612,7 +1660,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/js\/_smoothscroll.js",
+		"oAP": "\/resource-2018\/library\/js\/_smoothscroll.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1622,7 +1670,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/js\/libs\/modernizr.js",
+		"oAP": "\/resource-2018\/library\/js\/libs\/modernizr.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1632,7 +1680,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/js\/scripts.js",
+		"oAP": "\/resource-2018\/library\/js\/scripts.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1640,309 +1688,309 @@
 	"\/library\/partials\/contentThankYou.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/contentThankYou.php",
-		"oF": 4
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/contentThankYou.php",
+		"oF": 3
 		},
 	"\/library\/partials\/header-404.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/header-404.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/header-404.php",
+		"oF": 3
 		},
 	"\/library\/partials\/header-default.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/header-default.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/header-default.php",
+		"oF": 3
 		},
 	"\/library\/partials\/header-home.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/header-home.php",
-		"oF": 4
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/header-home.php",
+		"oF": 3
 		},
 	"\/library\/partials\/header-listing.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/header-listing.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/header-listing.php",
+		"oF": 3
 		},
 	"\/library\/partials\/header-none.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/header-none.php",
-		"oF": 4
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/header-none.php",
+		"oF": 3
 		},
 	"\/library\/partials\/header-single.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/header-single.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/header-single.php",
+		"oF": 3
 		},
 	"\/library\/partials\/outputButtons-services.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/outputButtons-services.php",
-		"oF": 4
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/outputButtons-services.php",
+		"oF": 3
 		},
 	"\/library\/partials\/outputButtons-social.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/outputButtons-social.php",
-		"oF": 4
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/outputButtons-social.php",
+		"oF": 3
 		},
 	"\/library\/partials\/outputButtons-specialty.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/outputButtons-specialty.php",
-		"oF": 4
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/outputButtons-specialty.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionCareers.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionCareers.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionCareers.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionCaseStudy.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionCaseStudy.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionCaseStudy.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionContact.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionContact.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionContact.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionCustomContact.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionCustomContact.php",
-		"oF": 4
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionCustomContact.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionListingContact.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionListingContact.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionListingContact.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionMailChimpSmall.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionMailChimpSmall.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionMailChimpSmall.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionNeedHelp.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionNeedHelp.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionNeedHelp.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionServiceGrid.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionServiceGrid.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionServiceGrid.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionSocialShare.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionSocialShare.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionSocialShare.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionSpecialties.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionSpecialties.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionSpecialties.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionTeam.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionTeam.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionTeam.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionUVP.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionUVP.php",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionUVP.php",
+		"oF": 3
 		},
 	"\/library\/partials\/sectionValues.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/partials\/sectionValues.php",
-		"oF": 4
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/sectionValues.php",
+		"oF": 3
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_buttons.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_buttons.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_buttons.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_forms.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_forms.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_forms.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/editor-style.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/editor-style.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/editor-style.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/ie.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/ie.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/ie.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/style.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/ae0b115b7706c55e390e0b134b1698cd41b7501f\/style.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1030up.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1030up.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1030up.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1240up.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1240up.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_1240up.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_2x.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_2x.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_2x.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_481up.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_481up.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_481up.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_768up.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_768up.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_768up.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_base.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_base.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/da156487fc1e0a5264d1f1dd1fed19c5da8a02be\/_base.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_functions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_functions.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_functions.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_grid.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_grid.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_ie_grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_ie_grid.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_ie_grid.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_mixins.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_mixins.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_mixins.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_normalize.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_normalize.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_normalize.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_print.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_print.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_print.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_typography.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_typography.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_variables.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_variables.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/eb53bb192e6ffb6e343ea21b3f5f99a111baacbb\/_variables.scssc",
 		"oF": 1
 		},
 	"\/library\/scss\/.sass-cache\/fb675618605753dd3eb8d995fa51047a98aec477\/admin.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/scss\/.sass-cache\/fb675618605753dd3eb8d995fa51047a98aec477\/admin.scssc",
+		"oAP": "\/resource-2018\/library\/scss\/.sass-cache\/fb675618605753dd3eb8d995fa51047a98aec477\/admin.scssc",
 		"oF": 0
 		},
 	"\/library\/scss\/admin.scss": {
@@ -1953,7 +2001,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/css\/admin.css",
+		"oAP": "\/resource-2018\/library\/css\/admin.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1966,7 +2014,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_1030up.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_1030up.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1979,7 +2027,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_1500up.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_1500up.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1992,7 +2040,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_481up.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_481up.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2005,7 +2053,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_768up.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_768up.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2018,7 +2066,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_base.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_base.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2031,7 +2079,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/css\/editor-style.css",
+		"oAP": "\/resource-2018\/library\/css\/editor-style.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2044,7 +2092,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_animated.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_animated.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2057,7 +2105,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_bordered-pulled.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_bordered-pulled.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2070,7 +2118,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_core.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_core.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2083,7 +2131,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_fixed-width.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_fixed-width.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2096,7 +2144,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_icons.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_icons.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2109,7 +2157,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_larger.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_larger.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2122,7 +2170,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_list.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_list.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2135,7 +2183,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_mixins.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_mixins.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2148,7 +2196,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_path.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_path.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2161,7 +2209,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_rotated-flipped.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_rotated-flipped.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2174,7 +2222,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_screen-reader.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_screen-reader.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2187,7 +2235,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_stacked.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_stacked.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2200,7 +2248,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_variables.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_variables.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2213,7 +2261,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/font-awesome.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/font-awesome.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2226,7 +2274,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/css\/ie.css",
+		"oAP": "\/resource-2018\/library\/css\/ie.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2239,7 +2287,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/css\/login.css",
+		"oAP": "\/resource-2018\/library\/css\/login.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2252,7 +2300,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_alerts.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_alerts.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2265,7 +2313,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_buttons.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_buttons.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2278,7 +2326,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_forms.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_forms.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2291,7 +2339,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_modules.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_modules.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2304,7 +2352,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_navigation.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_navigation.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2317,7 +2365,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_rrssb.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_rrssb.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2330,7 +2378,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_broker.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_broker.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2343,7 +2391,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_case-study.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_case-study.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2356,7 +2404,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_listing.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_listing.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2369,7 +2417,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_specialty.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_specialty.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2382,7 +2430,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_functions.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_functions.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2395,7 +2443,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_global_images.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_global_images.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2408,7 +2456,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_grid.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_grid.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2421,7 +2469,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_mixins.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_mixins.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2434,7 +2482,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_normalize.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_normalize.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2447,7 +2495,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_print.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_print.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2460,7 +2508,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_typography.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_typography.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2473,7 +2521,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/library\/scss\/css\/_variables.css",
+		"oAP": "\/resource-2018\/library\/scss\/css\/_variables.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2486,7 +2534,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/css\/style.css",
+		"oAP": "\/resource-2018\/library\/css\/style.css",
 		"oF": 1,
 		"oS": 3,
 		"uL": 1
@@ -2495,224 +2543,224 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/da_DK.mo",
+		"oAP": "\/resource-2018\/library\/translation\/da_DK.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/da_DK.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/da_DK.po",
+		"oAP": "\/resource-2018\/library\/translation\/da_DK.po",
 		"oF": 0
 		},
 	"\/library\/translation\/de_DE.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/de_DE.mo",
+		"oAP": "\/resource-2018\/library\/translation\/de_DE.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/de_DE.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/de_DE.po",
+		"oAP": "\/resource-2018\/library\/translation\/de_DE.po",
 		"oF": 0
 		},
 	"\/library\/translation\/default.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/default.mo",
+		"oAP": "\/resource-2018\/library\/translation\/default.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/default.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/default.po",
+		"oAP": "\/resource-2018\/library\/translation\/default.po",
 		"oF": 0
 		},
 	"\/library\/translation\/es_ES.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/es_ES.mo",
+		"oAP": "\/resource-2018\/library\/translation\/es_ES.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/es_ES.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/es_ES.po",
+		"oAP": "\/resource-2018\/library\/translation\/es_ES.po",
 		"oF": 0
 		},
 	"\/library\/translation\/fi_FI.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/fi_FI.mo",
+		"oAP": "\/resource-2018\/library\/translation\/fi_FI.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/fi_FI.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/fi_FI.po",
+		"oAP": "\/resource-2018\/library\/translation\/fi_FI.po",
 		"oF": 0
 		},
 	"\/library\/translation\/fr_FR.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/fr_FR.mo",
+		"oAP": "\/resource-2018\/library\/translation\/fr_FR.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/fr_FR.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/fr_FR.po",
+		"oAP": "\/resource-2018\/library\/translation\/fr_FR.po",
 		"oF": 0
 		},
 	"\/library\/translation\/he_IL.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/he_IL.mo",
+		"oAP": "\/resource-2018\/library\/translation\/he_IL.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/he_IL.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/he_IL.po",
+		"oAP": "\/resource-2018\/library\/translation\/he_IL.po",
 		"oF": 0
 		},
 	"\/library\/translation\/hr.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/hr.mo",
+		"oAP": "\/resource-2018\/library\/translation\/hr.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/hr.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/hr.po",
+		"oAP": "\/resource-2018\/library\/translation\/hr.po",
 		"oF": 0
 		},
 	"\/library\/translation\/hu_HU.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/hu_HU.mo",
+		"oAP": "\/resource-2018\/library\/translation\/hu_HU.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/hu_HU.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/hu_HU.po",
+		"oAP": "\/resource-2018\/library\/translation\/hu_HU.po",
 		"oF": 0
 		},
 	"\/library\/translation\/it_IT.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/it_IT.mo",
+		"oAP": "\/resource-2018\/library\/translation\/it_IT.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/it_IT.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/it_IT.po",
+		"oAP": "\/resource-2018\/library\/translation\/it_IT.po",
 		"oF": 0
 		},
 	"\/library\/translation\/ja.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/ja.mo",
+		"oAP": "\/resource-2018\/library\/translation\/ja.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/ja.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/ja.po",
+		"oAP": "\/resource-2018\/library\/translation\/ja.po",
 		"oF": 0
 		},
 	"\/library\/translation\/lt_LT.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/lt_LT.mo",
+		"oAP": "\/resource-2018\/library\/translation\/lt_LT.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/lt_LT.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/lt_LT.po",
+		"oAP": "\/resource-2018\/library\/translation\/lt_LT.po",
 		"oF": 0
 		},
 	"\/library\/translation\/nb_NO.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/nb_NO.mo",
+		"oAP": "\/resource-2018\/library\/translation\/nb_NO.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/nb_NO.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/nb_NO.po",
+		"oAP": "\/resource-2018\/library\/translation\/nb_NO.po",
 		"oF": 0
 		},
 	"\/library\/translation\/nl_NL.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/nl_NL.mo",
+		"oAP": "\/resource-2018\/library\/translation\/nl_NL.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/nl_NL.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/nl_NL.po",
+		"oAP": "\/resource-2018\/library\/translation\/nl_NL.po",
 		"oF": 0
 		},
 	"\/library\/translation\/pl_PL.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/pl_PL.mo",
+		"oAP": "\/resource-2018\/library\/translation\/pl_PL.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/pl_PL.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/pl_PL.po",
+		"oAP": "\/resource-2018\/library\/translation\/pl_PL.po",
 		"oF": 0
 		},
 	"\/library\/translation\/pt_PT.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/pt_PT.mo",
+		"oAP": "\/resource-2018\/library\/translation\/pt_PT.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/pt_PT.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/pt_PT.po",
+		"oAP": "\/resource-2018\/library\/translation\/pt_PT.po",
 		"oF": 0
 		},
 	"\/library\/translation\/README.md": {
@@ -2724,7 +2772,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/library\/translation\/README.html",
+		"oAP": "\/resource-2018\/library\/translation\/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -2737,62 +2785,62 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/ro_RO.mo",
+		"oAP": "\/resource-2018\/library\/translation\/ro_RO.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/ro_RO.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/ro_RO.po",
+		"oAP": "\/resource-2018\/library\/translation\/ro_RO.po",
 		"oF": 0
 		},
 	"\/library\/translation\/ru_RU.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/ru_RU.mo",
+		"oAP": "\/resource-2018\/library\/translation\/ru_RU.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/ru_RU.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/ru_RU.po",
+		"oAP": "\/resource-2018\/library\/translation\/ru_RU.po",
 		"oF": 0
 		},
 	"\/library\/translation\/sv_SE.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/sv_SE.mo",
+		"oAP": "\/resource-2018\/library\/translation\/sv_SE.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/sv_SE.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/sv_SE.po",
+		"oAP": "\/resource-2018\/library\/translation\/sv_SE.po",
 		"oF": 0
 		},
 	"\/library\/translation\/zh_CN.mo": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/zh_CN.mo",
+		"oAP": "\/resource-2018\/library\/translation\/zh_CN.mo",
 		"oF": 0
 		},
 	"\/library\/translation\/zh_CN.po": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/library\/translation\/zh_CN.po",
+		"oAP": "\/resource-2018\/library\/translation\/zh_CN.po",
 		"oF": 0
 		},
 	"\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/manifest-min.json",
+		"oAP": "\/resource-2018\/manifest-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2801,189 +2849,189 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-blank.php",
+		"oAP": "\/resource-2018\/page-blank.php",
 		"oF": 0
 		},
 	"\/page-careers.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-careers.php",
+		"oAP": "\/resource-2018\/page-careers.php",
 		"oF": 0
 		},
 	"\/page-case-studies.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-case-studies.php",
+		"oAP": "\/resource-2018\/page-case-studies.php",
 		"oF": 0
 		},
 	"\/page-marketing.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-marketing.php",
+		"oAP": "\/resource-2018\/page-marketing.php",
 		"oF": 0
 		},
 	"\/page-research.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-research.php",
+		"oAP": "\/resource-2018\/page-research.php",
 		"oF": 0
 		},
 	"\/page-service.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-service.php",
+		"oAP": "\/resource-2018\/page-service.php",
 		"oF": 0
 		},
 	"\/page-specialty-no-cs.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-specialty-no-cs.php",
+		"oAP": "\/resource-2018\/page-specialty-no-cs.php",
 		"oF": 0
 		},
 	"\/page-specialty.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-specialty.php",
+		"oAP": "\/resource-2018\/page-specialty.php",
 		"oF": 0
 		},
 	"\/page-team.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-team.php",
+		"oAP": "\/resource-2018\/page-team.php",
 		"oF": 0
 		},
 	"\/page-wernke-team.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page-wernke-team.php",
+		"oAP": "\/resource-2018\/page-wernke-team.php",
 		"oF": 0
 		},
 	"\/page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/page.php",
+		"oAP": "\/resource-2018\/page.php",
 		"oF": 0
 		},
 	"\/post-formats\/author-case-study.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/author-case-study.php",
+		"oAP": "\/resource-2018\/post-formats\/author-case-study.php",
 		"oF": 0
 		},
 	"\/post-formats\/author-listing.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/author-listing.php",
+		"oAP": "\/resource-2018\/post-formats\/author-listing.php",
 		"oF": 0
 		},
 	"\/post-formats\/author-single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/author-single.php",
+		"oAP": "\/resource-2018\/post-formats\/author-single.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-case-study.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-case-study.php",
+		"oAP": "\/resource-2018\/post-formats\/content-case-study.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-childSection.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-childSection.php",
+		"oAP": "\/resource-2018\/post-formats\/content-childSection.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-employee.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-employee.php",
+		"oAP": "\/resource-2018\/post-formats\/content-employee.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-listing.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-listing.php",
+		"oAP": "\/resource-2018\/post-formats\/content-listing.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-pictures.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-pictures.php",
+		"oAP": "\/resource-2018\/post-formats\/content-pictures.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-post.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-post.php",
+		"oAP": "\/resource-2018\/post-formats\/content-post.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-search-result.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-search-result.php",
+		"oAP": "\/resource-2018\/post-formats\/content-search-result.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-section.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-section.php",
+		"oAP": "\/resource-2018\/post-formats\/content-section.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-serviceButton.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-serviceButton.php",
+		"oAP": "\/resource-2018\/post-formats\/content-serviceButton.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-serviceDropdown.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/content-serviceDropdown.php",
+		"oAP": "\/resource-2018\/post-formats\/content-serviceDropdown.php",
 		"oF": 0
 		},
 	"\/post-formats\/format-aside.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/format-aside.php",
+		"oAP": "\/resource-2018\/post-formats\/format-aside.php",
 		"oF": 0
 		},
 	"\/post-formats\/format.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/post-formats\/format.php",
+		"oAP": "\/resource-2018\/post-formats\/format.php",
 		"oF": 0
 		},
 	"\/readme.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/..\/resource-2017\/readme.html",
+		"oAP": "\/resource-2018\/readme.html",
 		"oF": 0
 		},
 	"\/readme.md": {
@@ -2995,7 +3043,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/readme.html",
+		"oAP": "\/resource-2018\/readme.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -3004,11 +3052,17 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/resource-2018": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/resource-2018\/resource-2018",
+		"oF": 0
+		},
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 450767,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/screenshot.png",
+		"oAP": "\/resource-2018\/screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -3019,63 +3073,63 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/search.php",
+		"oAP": "\/resource-2018\/search.php",
 		"oF": 0
 		},
 	"\/searchform.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/searchform.php",
+		"oAP": "\/resource-2018\/searchform.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/sidebar.php",
+		"oAP": "\/resource-2018\/sidebar.php",
 		"oF": 0
 		},
 	"\/single-career.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/single-career.php",
+		"oAP": "\/resource-2018\/single-career.php",
 		"oF": 0
 		},
 	"\/single-case-study.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/single-case-study.php",
+		"oAP": "\/resource-2018\/single-case-study.php",
 		"oF": 0
 		},
 	"\/single-employee.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/single-employee.php",
+		"oAP": "\/resource-2018\/single-employee.php",
 		"oF": 0
 		},
 	"\/single-landing-page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/single-landing-page.php",
+		"oAP": "\/resource-2018\/single-landing-page.php",
 		"oF": 0
 		},
 	"\/single-listing.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/single-listing.php",
+		"oAP": "\/resource-2018\/single-listing.php",
 		"oF": 0
 		},
 	"\/single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/single.php",
+		"oAP": "\/resource-2018\/single.php",
 		"oF": 0
 		},
 	"\/style.css": {
@@ -3084,7 +3138,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/..\/resource-2017\/style.css",
+		"oAP": "\/resource-2018\/style.css",
 		"oF": 1,
 		"oS": 0
 		},
@@ -3092,7 +3146,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/..\/resource-2017\/taxonomy-teams.php",
+		"oAP": "\/resource-2018\/taxonomy-teams.php",
 		"oF": 0
 		}
 	},
@@ -3111,10 +3165,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 511372480,
-	"displayValue": "RESOURCE 2017",
+	"displayValue": "RESOURCE 2018",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 539796979
+	"lastBuiltDate": 542143644
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3371,7 +3425,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 1,
-	"buildFolderName": "..\/resource-2017",
+	"buildFolderName": "resource-2018",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -5276,7 +5330,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/..\/resource-2017"
+	"websiteRelativeRoot": "\/resource-2018"
 	},
 "settingsFileVersion": "3"
 }

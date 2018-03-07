@@ -1,11 +1,8 @@
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-
 <section id="need-help">
 	
 	<div class="m-padding">
-		<h2>Know the market before your competition.</h2>
-		<p>Get the latest commercial real estate news, research reports, <br>drone tours, and much more with the RESOURCE newsletter. Free and delivered straight to your inbox.</p>
+		<h2>Get the 2018 CRE Outlook for Indiana.</h2>
+		<p>Plus + follow the latest commercial real estate news, research reports, <br>drone tours, and much more with the RESOURCE newsletter. <br>Free and delivered straight to your inbox.</p>
 	</div>
 
 	<div id="mc_embed_signup" class="m-padding">
@@ -18,8 +15,4 @@
 		    </div>
 		</form>
 	</div>
-
-<!--End mc_embed_signup-->
 </section>
-
-<!--End mc_embed_signup-->

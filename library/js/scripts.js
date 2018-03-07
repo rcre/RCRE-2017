@@ -3,13 +3,14 @@
  * Author: Patrick Hanus
 */
 
-/* This is a special import line for Codekit, that pulls in bower components */
+/* This is a special import line for Codekit, that pulls in components */
 
 // @codekit-prepend "_mobilemenu.js";
 // @codekit-prepend "_parallax.js";
 // @codekit-prepend "_smoothscroll.js";
 // @codekit-prepend "_sliderselector.js";
 // @codekit-prepend "_rrssb.js";
+// @codekit-prepend "_drift.js";
 
 /*************************
  * Get Viewport Dimensions

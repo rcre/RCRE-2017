@@ -1,4 +1,4 @@
-# RESOURCE CHANGE LOG & HISTORY
+# RESOURCE CHANGELOG & HISTORY
 
 This theme is meant to make development easier & take
 advantage of modern web development & design techniques.
@@ -14,6 +14,27 @@ Author: Patrick Hanus
 > 1.0.0 - Major Enhancements and Features are added (~ Monthly)
 
 *******************************************************************
+
+*2.0.2*
+
+- Changed "listing" tag to "property" tag
+- Added a drift chat open button on the contact section
+- Added JS to launch drift from a button
+- moved Mailchimp form styling inline, off of the CDN
+- added a more enticing sell for our newsletter list
+- removed the "include:subdomains" from the .htaccess file, it was preventing mail.rcre.com to load
+- Added a new header video to highlight BPTW
+
+*2.0.1*
+
+- fixed the issue where the mobile nav was showing up before the JS loaded
+- fixed the “time-to-read” button
+- fixed the blog picture overflow
+- fixed the top of the search results page
+- fixed the main blog page
+- fixed an issue where you could click on the team button on profile pg
+- deleted the dumb tab-1 thing
+- tweaked the layout on the author partial for blog posts
 
 *2.0.0*
 
