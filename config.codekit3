@@ -8,7 +8,7 @@
 		},
 	{
 		"name": "New \"Run Script\" Step",
-		"scriptSourceString": "rm -rf ..\/resource-2018\nmv resource-2018 ..",
+		"scriptSourceString": "rm -rf ..\/resource-2018\nmv resource-2018 ..\nditto -c -k --sequesterRsrc --keepParent ..\/resource-2018 ..\/resource-2018.zip",
 		"scriptType": 1,
 		"scriptUUIDString": "1A685CFA-60C7-41A0-8846-CDC99444C6E8",
 		"stepType": 2,
@@ -246,21 +246,11 @@
 		"oAP": "\/resource-2018\/library\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
-	"\/library\/images\/best-place-words-01-01.svg": {
+	"\/library\/images\/best-place-words.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/resource-2018\/library\/images\/best-place-words-01-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/library\/images\/best-place-words-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/images\/best-place-words-01.svg",
+		"oAP": "\/resource-2018\/library\/images\/best-place-words.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3168,7 +3158,7 @@
 	"displayValue": "RESOURCE 2018",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 542143644
+	"lastBuiltDate": 542155581
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

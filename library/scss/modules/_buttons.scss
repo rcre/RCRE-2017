@@ -27,6 +27,45 @@ Stylesheet: Button Styles
 Call to Action Buttons
 ***************************/
 
+.cta-solid-gray {
+  @extend %btn;
+  color: $white;
+  border-color: $gray;
+  background-color: $gray;
+  font-weight: 600;
+  transition: 0.5s;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($gray, 4%);
+    border-color: lighten($gray, 4%);
+    transition: 0.5s;
+  } // end hover
+
+  &:active {
+    background-color: lighten($gray, 4%);
+  } // end active
+}
+
+.cta-solid-green {
+  @extend %btn;
+  color: $white;
+  border-color: $green;
+  background-color: $green;
+  font-weight: 600;
+  transition: 0.5s;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($green, 4%);
+    border-color: lighten($green, 4%);
+    transition: 0.5s;
+  } // end hover
+
+  &:active {
+    background-color: lighten($green, 4%);
+  } // end active
+}
 
 .cta-solid-white {
   @extend %btn;
@@ -79,6 +118,23 @@ Call to Action Buttons
 
   &:active {
     background-color: darken($green, 5%);
+  } // end active
+}
+
+.cta-border-blue {
+  @extend %btn;
+  color: $blue;
+  background-color: transparent;
+  border-color: $blue;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($blue, 2%);
+    transition: 0.5s;
+  } // end hover
+
+  &:active {
+    background-color: darken($blue, 5%);
   } // end active
 }
 
@@ -312,4 +368,77 @@ Download Icon
   height: 30px;
   float: right;
   margin-bottom: 30px;
+}
+
+/***************************
+Cool Button
+***************************/
+
+.cool-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: perspective(800px);
+          transform: perspective(800px);
+          text-align: center;
+
+  a {
+      position: relative;
+      display: inline-block;
+      padding: 1em;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      color: white;
+    }
+
+    a::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(135deg, $green, $green);
+      border-radius: 4px;
+      -webkit-transition: -webkit-box-shadow .5s ease, -webkit-transform .2s ease;
+      transition: -webkit-box-shadow .5s ease, -webkit-transform .2s ease;
+      transition: box-shadow .5s ease, transform .2s ease;
+      transition: box-shadow .5s ease, transform .2s ease, -webkit-box-shadow .5s ease, -webkit-transform .2s ease;
+      will-change: transform;
+      -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      -webkit-transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
+              transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
+    }
+    a:hover::before {
+      -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+              box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+    a::after {
+      position: relative;
+      display: inline-block;
+      content: attr(data-title);
+      -webkit-transition: -webkit-transform .2s ease;
+      transition: -webkit-transform .2s ease;
+      transition: transform .2s ease;
+      transition: transform .2s ease, -webkit-transform .2s ease;
+      font-weight: bold;
+      letter-spacing: .01em;
+      will-change: transform;
+      -webkit-transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+              transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+    }
 }

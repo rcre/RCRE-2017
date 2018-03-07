@@ -12,7 +12,7 @@
 			<p class="subtitle"><?php echo types_render_field( "tagline", array( 'raw' => true)); ?></p>
 			
 			<?php if ( is_home() ) { ?>
-				<a title="Read More" class="cta-border-green btn-minify" href="<?php echo esc_url( get_permalink( ) ); ?>" role="button">Read More</a>
+				<a title="Read More" class="cta-solid-green btn-minify" href="<?php echo esc_url( get_permalink( ) ); ?>" role="button">Read More</a>
 			<?php } ?>
 			
 		</div>
