@@ -15,8 +15,20 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*2.0.3* 
+
+## 03.07.18
+- added JS for the cool button
+- added the Indiana icon to the front page
+- added a gradient and top color to header bar
+- changed search button style
+- added some additional button styles
+- added “chat with us” to the header
+- hardcoded drift into the JS files
+
 *2.0.2*
 
+## 03.07.18
 - Changed "listing" tag to "property" tag
 - Added a drift chat open button on the contact section
 - Added JS to launch drift from a button
