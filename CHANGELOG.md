@@ -15,6 +15,15 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*2.0.4* 
+
+## 04.27.18
+- updated values
+- added a background color to topic picture sections
+- added code for a skeleton (not public)
+- fixed layout issue on the service grid on the home page.
+- added margin below the blue bullets
+
 *2.0.3* 
 
 ## 03.07.18
