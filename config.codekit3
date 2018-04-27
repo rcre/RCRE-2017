@@ -15,7 +15,7 @@
 		"uuidString": "259DBFFE-C2E9-4E87-BCF4-88365C900D58"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -259,6 +259,7 @@
 	"\/library\/images\/bg\/best-places-to-work-small-still.jpg": {
 		"ft": 16384,
 		"iS": 369182,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/resource-2018\/library\/images\/bg\/best-places-to-work-small-still.jpg",
 		"oF": 0,
@@ -279,6 +280,7 @@
 	"\/library\/images\/case-studies-desktop.jpg": {
 		"ft": 16384,
 		"iS": 965102,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/resource-2018\/library\/images\/case-studies-desktop.jpg",
 		"oF": 0,
@@ -377,6 +379,7 @@
 	"\/library\/images\/header-desktop.jpg": {
 		"ft": 16384,
 		"iS": 1957281,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/resource-2018\/library\/images\/header-desktop.jpg",
 		"oF": 0,
@@ -387,6 +390,7 @@
 	"\/library\/images\/home-header@0,25x.jpg": {
 		"ft": 16384,
 		"iS": 544680,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/resource-2018\/library\/images\/home-header@0,25x.jpg",
 		"oF": 0,
@@ -1488,6 +1492,7 @@
 	"\/library\/images\/specialties\/grocery.jpg": {
 		"ft": 16384,
 		"iS": 79100,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/resource-2018\/library\/images\/specialties\/grocery.jpg",
 		"oF": 0,
@@ -1538,6 +1543,7 @@
 	"\/library\/images\/specialties\/restaurant.jpg": {
 		"ft": 16384,
 		"iS": 133001,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/resource-2018\/library\/images\/specialties\/restaurant.jpg",
 		"oF": 0,
@@ -1558,6 +1564,7 @@
 	"\/library\/images\/specialties\/small-business.jpg": {
 		"ft": 16384,
 		"iS": 182172,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/resource-2018\/library\/images\/specialties\/small-business.jpg",
 		"oF": 0,
@@ -2360,6 +2367,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/library\/scss\/modules\/_skeleton.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resource-2018\/library\/scss\/css\/_skeleton.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/library\/scss\/pages\/_broker.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -3157,8 +3177,9 @@
 	"creationDate": 511372480,
 	"displayValue": "RESOURCE 2018",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/library\/images\/logos\/android-chrome-192x192.png",
-	"lastBuiltDate": 542155581
+	"iconImageName": "\/library\/images\/logos\/apple-touch-icon.png",
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 546375510
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4961,6 +4982,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 85
 		},
 	"languageDefaultsJS": {

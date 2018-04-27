@@ -21,6 +21,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-decoration: none;
     font-family: $sans-serif;
   }
+
+  // Skeleton Frame
+  &:empty::after {
+    content:"";
+    display:block;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: 0 10px 45px rgba(0,0,0, .1);
+  }
 }
 
 h1, .h1 {
@@ -118,6 +128,7 @@ blockquote {
 
 .blue-bullets {
   margin-top: 15px;
+  margin-bottom: 15px;
   
   li:before {
     content: "+";
