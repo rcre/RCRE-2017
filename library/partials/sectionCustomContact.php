@@ -30,9 +30,6 @@
 			
 			<input id="oid" type="hidden" name="oid">
 			<input type=hidden name="retURL" value="https://rcre.com/thank-you">
-			
-			<label for="company">What's your challenge?</label>
-			<input  id="company" maxlength="40" tabindex="1" name="company" size="20" type="text" />
 
 			<div class="m-all t-1of2 d-1of2">
 				<label for="first_name">First Name</label>
@@ -44,22 +41,20 @@
 				<input  id="last_name" name="last_name" tabindex="3" type="text" required/>
 			</div>
 
-			<div class="m-all t-1of2 d-1of2">
+			<div class="m-all t-all d-all">
 				<label for="email">Email</label>
 				<input  id="email" name="email" tabindex="4" type="email" required/>
 			</div>
 
-			<div class="m-all t-1of2 d-1of2 last-col">
+			<div class="m-all t-all d-all">
 				<label for="phone">Phone</label>
 				<input id="phone" name="phone" tabindex="5" type="tel" required />
 			</div>
 
-			<label for="company">Company</label>
-			<input  id="company" maxlength="40" tabindex="6" name="company" size="20" type="text" />
-
 			<input type="hidden" name="lead_source" value="Web">
 			<input type="hidden" id="00N1500000ImKf9" maxlength="255" name="00N1500000ImKf9" size="20" type="text" value="<?php echo get_page_link(); ?>" />
 
+		
 			<div class="m-all t-1of2 d-1of2">
 				<label for="squareFootage">Square Footage: <span id="sfOutput"></span> SF</label>
 				<div class="slidecontainer">

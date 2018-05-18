@@ -4,11 +4,11 @@ MODULE: SERVICE DESCRIPTION
 
 	// Main Idea with three sub-ideas
 	.uvp {
+		margin-bottom: 50px;
 
 		p {
-			border: 2px solid $blue;
-			padding: 20px;
-			border-radius: 10px;
+			padding: 30px;
+			border-radius: 20px;
 			text-align: center;
 		}
 	}
@@ -32,12 +32,14 @@ MODULE: Full-width Callout Strip
 
 	// Main section that stretches accross the entire screen
 	#need-help {
-		margin: 0px;
-		background-color: $dblue;
-		color: white;
+		margin: 100px auto;
+		color: #43505d;
 		text-align: center;
-		padding: 40px 0;
-		
+		padding: 20px 0;
+		background-image: url("../images/bg/pattern.svg");
+		background-size: 20%;
+		width: 50%;
+		border-radius: 20px;
 		// Font awesome heart that needs to be pink
 		.fa-heart {
 			color: $pink;
@@ -47,11 +49,6 @@ MODULE: Full-width Callout Strip
 /***********
 MODULE: SERVICE GRID
 ***********/
-
-	// Grid section, I should $revisit and make this a css grid section
-
-			
-// Individual Boxes
 
 .button-grid {
 	margin-top: 20px;
@@ -91,9 +88,6 @@ MODULE: SERVICE GRID
 		width: 25%;
 	}
 }
-
-
-
 
 .search-box {
 	border: 5px solid $lgray;
@@ -140,6 +134,10 @@ MODULE: SERVICE GRID
 		padding: 3px;
 	}
 }
+
+/***********
+MODULE: Listing Contact Form
+***********/
 
 .listing-contact {
 	border-top: 2px solid $lgray;

@@ -26,7 +26,7 @@
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<div class="m-all t-all d-2of3 left cf">
+			<div class="m-all t-all d-1of2 left cf">
 				
 			<?php if ( $listing_closed == null ) { ?>
 

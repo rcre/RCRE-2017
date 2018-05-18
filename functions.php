@@ -313,8 +313,9 @@ function is_top_level() {
   return $current_page;
 }
 
-/************* Redirect Archives to Pages (i.e. retail taxonomy => retail page) ********************/
-
+/*************** CUSTOM FUNCTION  *************************/
+/************* Redirect Archives to Pages  ********************/
+// (i.e. retail taxonomy => retail page)
 
 add_action( 'template_redirect', 'my_redirect_term_to_post' );
 
@@ -368,7 +369,8 @@ function custom_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 
-/************* Get Featured Image **************/
+/************** CUSTOM FUNCTION  *******************/
+/*************** Get Featured Image ****************/
 
 function rcre_header_image($post) { 
   if ( has_post_thumbnail() ) {
@@ -397,6 +399,7 @@ if ( is_admin() && 'edit.php' == $pagenow && !isset($_GET['orderby'])) {
 add_filter('pre_get_posts', 'set_post_order_in_admin', 5 );
 
 
+/************************ CUSTOM FUNCTION  ******************************/
 /************* ADMIN - Custom Sorting Dropdown For Listings **************/
 
 
@@ -435,7 +438,85 @@ function rcre_convert_id_to_term_in_query($query) {
   }
 }
 
+/**************** CUSTOM FUNCTION  **********************/
+/************* Get the post icon ********************/
 
+function get_post_icon() {
+  // If there is a post icon, then store that as the icon
+  if ( types_render_field( "post-icon" ) != null ) {
 
+    $icon = types_render_field( "post-icon", array( 'raw' => false ) );
+  
+  // If there is a specialty associated with this post, then assign that icon
+  } elseif ( has_term() != null )  {
+    $terms = get_the_terms( $post->ID, 'specialty' );
+    if ( !empty( $terms ) ){
+        // get the first term
+        $term = array_shift( $terms );
+    }
+      $termId = $term->term_id;
+
+      // Assign the icon associated with the first term
+            $icon = types_render_termmeta( "specialty-icon", array( "term_id" => $termId ));
+
+    // If there isn't any icon, then just use the defaul icon.
+  } else {
+    $iconLink = get_stylesheet_directory_uri() . '/library/images/icons/icon-sprouting-plant.svg';
+      $icon = '<img src="'.$iconLink.'">'; 
+  }
+}
+
+/************************ CUSTOM FUNCTION  ******************************/
+/************* Get a tag that only has the post type ********************/
+
+function get_post_type_tag() {
+  // Create content for post type, based on the post type
+  $postTag = get_post_type();
+  
+  if ( $postTag == 'research-report' ) {
+    $postTag = "Research Report";
+  } elseif ( $postTag == 'employee') {
+    $postTag = "Employee";
+  } elseif ( $postTag == 'case-study') {
+    $postTag = "Case Study";
+  } elseif ( $postTag == 'post') {
+    $postTag = "Blog Post";
+  } elseif ( $postTag == 'listing') {
+    $postTag = "Property";
+  }
+
+  echo '<div class="left tag">' . $postTag .'</div>';
+}
+
+// /************** CUSTOM FUNCTION  ********************/
+// /************* Get All Post Tags ********************/
+
+function get_post_tags() {
+  // Specialty tags
+  echo get_the_term_list( $post->ID, 'specialty', '<div class="tag blue">', '</div><div class="tag blue">', '</div>');
+    
+  // Service tags
+  echo get_the_term_list( $post->ID, 'service', '<div class="tag gray">', '</div><div class="tag gray">', '</div>');
+
+  // Listing type tags
+  $listing_type = get_the_term_list( $post->ID, 'listing-type', '', '', ''); 
+
+  // Listing types that ARE NOT closed, get wrapped in a green tag.
+  if ( $listing_type != "Closed" ) {
+
+    echo '<div class="tag green">' . $listing_type . '</div>';
+  
+  // Listing types that ARE closed, get wrapped in red, with the date.
+  } else {
+    $listing_closed = types_render_field( "closed-date", array( 'raw' => true) );
+    
+    // If the listing is closed has the date, show the close date
+    if ( $listing_closed != null ) {
+      // Convert date to m/s/y from timestamps
+      $date_closed = date('m/d/Y', $listing_closed );
+      echo '<div class="left red tag">CLOSED:' . $date_closed . '</div>';
+    } 
+  }
+}
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

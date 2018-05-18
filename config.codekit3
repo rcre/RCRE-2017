@@ -2406,19 +2406,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/library\/scss\/pages\/_listing.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/resource-2018\/library\/scss\/css\/_listing.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
 	"\/library\/scss\/pages\/_specialty.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2939,13 +2926,6 @@
 		"oAP": "\/resource-2018\/post-formats\/author-case-study.php",
 		"oF": 0
 		},
-	"\/post-formats\/author-listing.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/author-listing.php",
-		"oF": 0
-		},
 	"\/post-formats\/author-single.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2972,13 +2952,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resource-2018\/post-formats\/content-employee.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-listing.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-listing.php",
 		"oF": 0
 		},
 	"\/post-formats\/content-pictures.php": {
@@ -3179,7 +3152,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 546375510
+	"lastBuiltDate": 548348981
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

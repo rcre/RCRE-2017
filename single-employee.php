@@ -110,11 +110,13 @@
 
 								<div class="cf pad-top"></div>
 							<?php } ?>
-							
-							<?php // Get all the tags
+
+							<div>
+								<?php // Get all the tags
 								echo get_the_term_list( $post->ID, 'specialty', '<div class="tag blue">', '</div><div class="tag blue">', '</div>');
 								echo get_the_term_list( $post->ID, 'service', '<div class="tag gray">', '</div><div class="tag gray">', '</div>');
-							?>
+								?>
+							</div>
 							
 					</div>
 				</aside>

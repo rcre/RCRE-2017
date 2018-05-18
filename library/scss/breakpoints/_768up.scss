@@ -87,7 +87,7 @@ NAVIGATION STYLES
  //    margin: 0;
 }
 
-.nav {
+header .nav {
 	display: flex;
 	border: 0;
 	text-align: right;
@@ -345,10 +345,6 @@ section {
 
 } // End Section Styles
 
-.proposal-contact {
-		margin: 40px auto;
-	}
-
 
 // MODULE Learn More Tabs
 ul.tabs {
@@ -398,60 +394,7 @@ ul.tabs {
 FOOTER STYLES
 *********************/
 
-.address {
- margin: 7px auto;
- display: inline-block;
-}
 
-p.copyright {
-	//display: inline-block;
-	margin: 2px auto;
-}
 
-footer {
-	.social {
-		margin: 0;
-		text-align: right;
 
-		.fa {
-			font-size: 1.2em;
-		}
-	}
-}
-
-.footer-links {
-	display: inline-block;
-	margin: 10px auto 0 auto;
-
-	.nav {
-		background: transparent;
-	}
-
-	ul { 
-		margin: 0;
-		padding: 0;
-		
-		li {
-			margin: 0;
-			padding: 0;
-
-			&:hover, &:focus {
-				background-color: $dgray;
-			}
-			
-			a {
-				margin: 0;
-				margin-right: 10px;
-				padding: 0;
-				color: $gray;
-				transition: 0.3s;
-
-				&:hover {
-					background: transparent;
-					transition: 0.3s;
-				}
-			}
-		}
-	}
-} /* end .footer-links */
 

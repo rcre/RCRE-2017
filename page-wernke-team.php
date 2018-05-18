@@ -42,7 +42,7 @@
 										
 									while ( $wernke_listings->have_posts() ) : $wernke_listings->the_post(); ?>
 										
-										<?php get_template_part( 'post-formats/content-listing' ); ?>
+										<?php get_template_part( 'post-formats/content-search-result' ); ?>
 										
 									<?php endwhile;  wp_reset_postdata(); ?>
 						</div>
@@ -73,7 +73,7 @@
 									
 								while ( $pending_listings->have_posts() ) : $pending_listings->the_post(); ?>
 									
-									<?php get_template_part( 'post-formats/content-listing' ); ?>
+									<?php get_template_part( 'post-formats/content-search-result' ); ?>
 									
 								<?php endwhile;  wp_reset_postdata(); ?>
 							</div>
@@ -152,11 +152,8 @@
 			
 		</main>
 
-		<footer class="cf">
-				<?php get_template_part('library/partials/sectionContact'); ?>
-		</footer>
-				
-				
+		<?php get_template_part('library/partials/sectionContact'); ?>
+		
 	</div>
 </div>
 

@@ -77,11 +77,8 @@
 			
 			<?php endwhile; endif; ?>
 		</main>
-
-		<footer class="cf">
 			<?php get_template_part('library/partials/sectionMailChimpSmall'); ?>
 			<?php get_template_part('library/partials/sectionContact'); ?>
-		</footer>
 	</div>
 </div>
 

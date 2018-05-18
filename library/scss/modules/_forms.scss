@@ -38,6 +38,7 @@ input[type="color"],
 select,
 textarea,
 .field {
+  font-family: $serif;
   display: block;
   height: 35px;
   line-height: 1em;
@@ -51,14 +52,13 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: $sans-serif;
-  background-color: $gray;
+  background-color: $lgray;
   @include transition(background-color 0.24s ease-in-out);
 
   // a focused input (or hovered on)
   &:focus,
   &:active {
-    background-color: lighten($gray, 4%);
+    background-color: lighten($lgreen, 4%);
     outline: none; 
   } // end hover or focus
 
@@ -109,6 +109,8 @@ input[type="password"] {
 
 // textareas
 textarea {
+  font-family: $serif;
+  line-height: 1em;
   max-width: 100%;
   min-height: 100px;
   line-height: 1.5em;
@@ -159,7 +161,7 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
+  //font-family: inherit;
   /* 1 */
   font-size: 100%;
   /* 2 */
@@ -262,17 +264,34 @@ textarea {
 ========================================================================== */
   
 // global input styles
+
+#contactHome {
+  border: solid $lgreen 3px;
+  border-radius: 10px;
+}
+
 form {
+  padding: 15px;
   display: block;
+  position: relative;
+
+  .form-title {
+    position:  absolute;
+    top: -15px;
+    left: 8px;
+    background-color:  white;
+    padding: 0px 5px;
+    font-family: $serif;
+  }
 
   input[type="text"], 
   input[type="email"], 
   input[type="tel"],
   textarea {
-    background-color: darken($gray, 5%);
-    border: 3px solid lighten($gray, 5%);
+    // background-color: darken($gray, 5%);
+    // border: 3px solid lighten($gray, 5%);
     border-radius: 5px;
-    color: $lgray;
+    // color: $lgray;
     max-width: none;
   }
 
@@ -282,8 +301,8 @@ form {
   
   select {
     max-width: none;
-    color: $lgray;
-     margin-bottom: 7px;
+    // color: $lgray;
+    margin-bottom: 7px;
   }
 
   option {
@@ -291,6 +310,7 @@ form {
   }
 
   label {
+    font-family: $sans-serif;
     text-transform: uppercase;
     font-size: 0.75em;
     font-weight: 700;
@@ -327,6 +347,7 @@ form {
 
 // Search Form Styles
 #searchform {
+  padding: 0;
   display: none;
   opacity: 0;
   width: 0%;
@@ -350,6 +371,7 @@ form {
     font-size: 1.5em;
     max-width: none;
     padding: 5px;
+    background-color: $gray;
   }
 
   button {

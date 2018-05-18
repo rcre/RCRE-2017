@@ -52,11 +52,9 @@
 					<h2 class="header-dark pad-top">The <?php the_title(); ?> Team</h2>
 					<?php get_template_part('library/partials/sectionTeam'); ?>
 				</section>
+				
 					
-					<footer class="article-footer cf">
-						<?php get_template_part('library/partials/sectionContact'); ?>
-					</footer>
-
+					<?php get_template_part('library/partials/sectionContact'); ?>
 				</article>
 
 				<?php endwhile; endif; ?>

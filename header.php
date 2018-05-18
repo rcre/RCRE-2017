@@ -154,14 +154,15 @@
 			} elseif ( get_post_type() == "listing" ) {
 				get_template_part('library/partials/header-listing');
 
-			} elseif ( is_page_template( 'single-landing-page.php' ) ) {
-				get_template_part('library/partials/header-none');
-
 			} elseif ( is_404() ) {
 				get_template_part('library/partials/header-404');
 
+			} elseif ( is_page_template('single-landing-page.php') ) {  
+				get_template_part('library/partials/header-none');
+
 			} elseif ( is_single() ) {
-				get_template_part('library/partials/header-single');
+				// This was preventing the landing age from wirkgin.
+				//get_template_part('library/partials/header-single');
 
 			} elseif ( is_search() ) {
 				get_template_part('library/partials/header-none');

@@ -117,6 +117,7 @@ video.fullscreen {
 	display: block;
   	height: auto !important;
   	width: 1357px;
+  	margin-top: 63px;
 }
 
 header.fullscreen {
@@ -321,12 +322,8 @@ section {
 
 // Contact form styles
 
-.contact-copy {
-	margin-top: 6%;
-}
-
 .contact-pic-container {
-	margin: 40px 0px;
+	margin: 60px 40px;
 }
 
 .contact-pic {
@@ -334,7 +331,6 @@ section {
 	display: inline-block;
 	width: 40%;
 	height: 150px;
-	box-shadow: 13px 9px 35px 5px rgba(1, 1, 1, 0.35);
 	border-radius: 5px;
 }
 
@@ -348,50 +344,122 @@ FOOTER STYLES
 *********************/
 
 footer {
-	clear: both;
-	background-color: $dgray;
+	font-family: $sans-serif;
+	background: $dgray;
 	color: $lgray;
+}
 
-	&.footer {
-		border-top: 5px solid white;
-	}
+#inner-footer {
+	margin: 10px 40px;
 
 	.social {
 		margin: 20px 10px 20px 0;
-		text-align: center;
+		text-align: left;
 
 		.fa {
 			margin: 5px 10px;
-			font-size: 2em;
+			font-size: 1em;
 		}
+
+		.fa:first-child {
+			margin-left: 0;
+		}
+	}
+}
+
+.info-block {
+	margin-bottom: 50px;
+}
+
+.footer-slant-container {
+	overflow: hidden;
+	position: relative;
+	height: 120px;
+
+	.footer-slant-back {
+		background: linear-gradient(135deg, $dgray, $gray);
+		position: absolute;
+		top: 50px;
+		width: 100%;
+		transform: skewY(-3deg);
+		height: 110px;
+	}
+
+	.footer-slant-front {
+		position: absolute;
+		top: 75px;
+		width: 100%;
+		transform: skewY(4deg);
+		background: $dgray;
+		height: 90px;
 	}
 }
 
 .footer-links {
+	padding: 0;
+	text-align: right;
+	
+	a {
+		font-weight: 600;
+		text-decoration: none;
+	}
 
-	ul {
+	> ul { 
+		width: 100%;
+  		display: grid;
+  		grid-template-columns: repeat(auto-fit, minmax(155px, 1fr) );
+  		grid-gap: 20px;
+  		grid-auto-rows: minmax(50px, auto);
+  		grid-row-gap: 50px;
+		margin: 0;
+		padding: 0;
+		
 		li {
-			padding: 10px 5px;
-			border-bottom: 2px solid $dgray;
-			transition: .5s;
+			text-align: left;
+			padding: 0;
+			display: inline-block;
+			border: none;
+			vertical-align: top;
+
+			> a {
+				padding: 0 0 10px 0;
+				font-size: 0.9em;
+				color: lighten($dgray, 15%);
+			}
 
 			&:hover, &:focus {
-				background-color: $gray;
-				transition: .5s;
+				background-color: transparent;
 			}
-			
-			a {
+
+			li {
+				margin: 0;
+				padding: 4px 0;
 				display: block;
-				padding: 1.2em;
-				color: $white;	
-				text-decoration: none;
-				text-transform: uppercase;
-				font-weight: 600;
+				font-size: 0.8em;
+
+				a {
+					display: inline-block;
+					margin-right: 10px;
+					padding: 2px;
+					color: $lgray;
+					transition: 0.3s;
+					background: transparent;
+					border-radius: 3px;
+
+					&:hover {
+						background: $gray;
+						transition: 0.3s;
+						box-shadow: 3px 3px 8px $dgray;
+					}
+				}
 			}
 		}
 	}
-}
+} /* end .footer-links */
 
 .copyright {
+	padding: 20px;
+	text-align: center;
+	border-top: 1px solid $gray;
 	font-size: 0.75em;
 }

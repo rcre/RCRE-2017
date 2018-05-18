@@ -9,8 +9,6 @@
 	$page_link = get_page_link();
 ?>
 
-<h4>Contact</h4>
-<hr>
 <img class="broker-profile-picture left" src="<?php echo $profile_picture; ?>" itemprop="image" alt="<?php echo $broker_name; ?>">
 
 <div class="broker-info left">
@@ -50,6 +48,7 @@
 		<input  id="email" name="email" tabindex="4" type="email" required/>
 	</div>
 
+	
 	<input type="hidden" name="lead_source" value="Web">
 	<input type="hidden" id="00N1500000ImKf9" maxlength="255" name="00N1500000ImKf9" size="20" type="text" value="<?php echo $page_link; ?>" />
 

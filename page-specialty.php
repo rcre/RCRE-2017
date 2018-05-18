@@ -90,11 +90,9 @@
 				</section>
 
 				<!-- This is a wp loop for Case Studies-->
-					<?php get_template_part('library/partials/sectionCaseStudy'); ?>
+				<?php get_template_part('library/partials/sectionCaseStudy'); ?>
+				<?php get_template_part('library/partials/sectionContact'); ?>
 					
-					<footer class="article-footer cf">
-						<?php get_template_part('library/partials/sectionContact'); ?>
-					</footer>
 
 				</article>
 

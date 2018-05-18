@@ -27,13 +27,9 @@
 					get_template_part('library/partials/sectionServiceGrid');
 					get_template_part('post-formats/content-section');
 					get_template_part('library/partials/sectionCaseStudy');
+					get_template_part('library/partials/sectionContact');
+					get_template_part('library/partials/sectionMailChimpSmall');
 				?>
-
-				<?php get_template_part('library/partials/sectionMailChimpSmall'); ?>
-
-				<footer class="cf">
-					<?php get_template_part('library/partials/sectionContact'); ?>
-				</footer>
 
 				</article>
 

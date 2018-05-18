@@ -26,9 +26,8 @@
 		
 				</article>
 
-				<footer class="cf">
-					<?php get_template_part('library/partials/sectionContact'); ?>
-				</footer>
+				<?php get_template_part('library/partials/sectionContact'); ?>
+				
 			<?php endwhile; endif; ?>
 		</main>			
 	</div>

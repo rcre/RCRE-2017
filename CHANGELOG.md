@@ -15,6 +15,28 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*2.1.0* 
+
+## 05.18.18
+We have alot of great new updates! Some freshening up of layouts, cleaner code on the back end and we solved some issues that had not been addressed.
+
+- Did a complete redesign of the footer, adding more links, and some angles—just for fun.
+- moved the mailchimp sign-up to be after the contact form.
+- created functions in order to retrieve tags, icons and labels for search results or any other place we might want to get the tags.
+- fixed an issue where a header was showing up on the landing pages.
+- overhauled the contact form, becuase people just don't use it like they used to. Mainly astetic changes.
+- cleaned up the listing contact form as well.
+- fixed the appearance of the values on the about page, they now appear as pretty little cards.
+- moved all footer styles to the base scss sheet.
+- fixed the white gap that was showing below the header image.
+- Changed our body copy to "merriweather" for better readablility.
+- restyled our default forms.
+- tweaked the UVP styles
+- fixed a grid layout issue for the search results
+- moved the contact section outside of the footer on a bunch of different page templates.
+- search results and listings both use the same template now.
+- tweaked the listing layout for single listings.
+
 *2.0.4* 
 
 ## 04.27.18

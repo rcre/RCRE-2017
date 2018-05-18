@@ -20,9 +20,10 @@
 					?>
 		
 				</article>
-
+				
+				<?php get_template_part('library/partials/sectionContact'); ?>
 				<footer class="cf">
-					<?php get_template_part('library/partials/sectionContact'); ?>
+					
 				</footer>
 			<?php endwhile; endif; ?>
 		</main>			

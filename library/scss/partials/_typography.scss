@@ -10,7 +10,7 @@ Stylesheet: Typography
 
 // font stacks
 $sans-serif:        "Montserrat", Helvetica, Arial, sans-serif;
-$serif:             "Montserrat", Cambria, Times New Roman, Times, serif;
+$serif:             "Merriweather", Cambria, Times New Roman, Times, serif;
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
@@ -53,7 +53,6 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  text-transform: uppercase;
   font-weight: 700;
   font-family: $sans-serif;
   text-align: left;
@@ -94,6 +93,7 @@ h5, .h5 {
 // General Paragraph Styles
 p {
   font-family: $serif;
+  font-weight: 300;
   font-size: 0.90em;
   -ms-word-wrap: keep-all;
   word-break: keep-all; //non-standart css for webkit

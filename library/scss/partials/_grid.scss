@@ -32,6 +32,17 @@ Stylesheet: Grid Stylesheet
   justify-content: space-around;
 }
 
+.search-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) );
+  grid-gap: 40px;
+  grid-auto-rows: minmax(50px, auto);
+
+  align-content: space-between;
+  justify-content: space-around;
+}
+
 .button-grid {
   width: 100%;
   display: grid;

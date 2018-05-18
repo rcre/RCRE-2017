@@ -19,19 +19,19 @@ Template Name: Search Page
 
 						<hr>
 
-						<div class="selling-point-grid">
+						<div class="search-grid">
 
-						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article">
-								
-								<?php get_template_part( 'post-formats/content-search-result' ); ?>
+								<article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article">
+									
+									<?php get_template_part( 'post-formats/content-search-result' ); ?>
 
-							</article>
+								</article>
 
-						<?php endwhile; ?>
+							<?php endwhile; ?>
 
-					</div>
+						</div>
 
 							<?php else : ?>
 
@@ -52,5 +52,7 @@ Template Name: Search Page
 					</div>
 
 			</div>
+
+			<?php get_template_part('library/partials/sectionMailChimpSmall'); ?>
 
 <?php get_footer(); ?>
