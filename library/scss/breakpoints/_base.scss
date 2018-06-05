@@ -167,10 +167,16 @@ header.fullscreen {
   	display: -webkit-flex;
   	display: flex;
 	width: 100%;
-	background: linear-gradient(135deg, $dgray, $gray);
+	background: linear-gradient(to bottom right, rgba(67, 80, 93, 0.8), rgba(87, 101, 113, 0.89));
 	z-index: 100;
 	-webkit-flex-flow: row wrap;
   	justify-content: flex-end;
+
+  	// This adds that cool blur effect.
+  	-webkit-backdrop-filter: blur(20px);
+  	backdrop-filter: blur(20px);
+  	-moz-backdrop-filter: blur(20px);
+  	-o-backdrop-filter: blur(20px);
 
   	.space {
 		flex-grow: 1;

@@ -1,8 +1,19 @@
-<?php
-/*
- * CAREER LAYOUT
-*/
-?>
+
+<?php 
+
+	// Variables
+
+	$status = types_render_field( "job-status");
+	$department = types_render_field( "job-department");
+	$reportsTo = types_render_field( "job-reports-to");
+	$reportees = types_render_field( "job-people-who-report-to-you" );
+	$summary = types_render_field( "job-summary", array( 'raw' => true));
+	$responsibilities = types_render_field( "job-responsibilities", array( 'raw' => false));
+	$requirements = types_render_field( "job-requirements", array( 'raw' => false));
+	$other = types_render_field( "job-other-fields", array( 'raw' => false));
+	$link = types_render_field( "job-typeform-link", array( 'raw' => true));
+
+ ?>
 
 <?php get_header(); ?>
 
@@ -23,23 +34,23 @@
 				
 					<aside>
 						<h5>Job Status</h5>
-						<p><?php echo types_render_field( "job-status") ?></p>
+						<p><?php echo $status; ?></p>
 					</aside>
 
 					<aside>
 						<h5>Department</h5>
-						<p><?php echo types_render_field( "job-department") ?></p>
+						<p><?php echo $department; ?></p>
 					</aside>
 
 					<aside>
 						<h5>Reports to:</h5>
-						<p><?php echo types_render_field( "job-reports-to") ?></p>
+						<p><?php echo reportsTo; ?></p>
 					</aside>
 
-				<?php if ( types_render_field( "job-people-who-report-to-you" ) != null ) { ?>
+				<?php if ( $reportees != null ) { ?>
 					<aside>
 						<h5>People who report to you:</h5>
-						<p><?php echo types_render_field( "job-people-who-report-to-you") ?></p>
+						<p><?php echo $reportees ?></p>
 					</aside>
 				<?php } ?>
 					
@@ -49,30 +60,29 @@
 
 						<section class="cs-section cf">
 							<h3>Summary</h3>
-							<p><?php echo types_render_field( "job-summary", array( 'raw' => true)); ?></p>
+							<p><?php echo $summary; ?></p>
 						</section>
 			
 						<section class="cs-section cf">
 							<h3>Responsibilities</h3>
-							<p><?php echo types_render_field( "job-responsibilities", array( 'raw' => false)); ?></p>
+							<p><?php echo $responsibilities; ?></p>
 						</section>
 					
 						<section class="cs-section cf">
 							<h3>Requirements</h3>
-							<p><?php echo types_render_field( "job-requirements", array( 'raw' => false)); ?></p>
+							<p><?php echo $requirements; ?></p>
 						</section>
 
 						<section class="cs-section cf">
 							<h3>Other Details</h3>
-							<p><?php echo types_render_field( "job-other-fields", array( 'raw' => false)); ?></p>
+							<p><?php echo $other; ?></p>
 						</section>
 
-						<a href="<?php echo types_render_field( "job-typeform-link", array( 'raw' => true)); ?>" class="cta-border-green btn-minify">Apply Now!</a>
+						<a href="<?php echo $link; ?>" class="cta-border-green btn-minify">Apply Now!</a>
 				</div>
 
 			</article>
 
-			
 			<?php endwhile; ?>
 
 

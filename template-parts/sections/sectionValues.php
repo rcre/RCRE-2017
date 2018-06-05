@@ -1,4 +1,4 @@
-<section class="pull-l-1of12 pull-r-1of12 m-padding cf">
+<section class="m-padding cf">
 	<h2 class="header-dark header-margin text-center">Our CORE Values — Growing Excellence</h2>
 
 	<div class="selling-point-grid">

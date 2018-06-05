@@ -33,12 +33,12 @@
 	<input id="oid" type="hidden" name="oid">
 	<input type=hidden name="retURL" value="https://rcre.com/thank-you">
 	
-	<div class="m-all t-1of2 d-1of2">
+	<div class="m-all t-all d-all">
 		<label for="first_name">First Name</label>
 		<input  id="first_name" name="first_name" tabindex="2" type="text" required />
 	</div>
 
-	<div class="m-all t-1of2 d-1of2 last-col">
+	<div class="m-all t-all d-all">
 		<label for="last_name">Last Name</label>
 		<input  id="last_name" name="last_name" tabindex="3" type="text" required/>
 	</div>

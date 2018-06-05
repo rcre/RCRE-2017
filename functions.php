@@ -427,7 +427,7 @@ function rcre_filter_post_type_by_taxonomy() {
 }
 
 add_filter('parse_query', 'rcre_convert_id_to_term_in_query');
-function rcre_convert_id_to_term_in_query($query) {
+function rcre_convert_id_to_term_in_query( $query ) {
   global $pagenow;
   $post_type = 'listing'; // change to your post type
   $taxonomy  = 'listing-type'; // change to your taxonomy
@@ -441,11 +441,14 @@ function rcre_convert_id_to_term_in_query($query) {
 /**************** CUSTOM FUNCTION  **********************/
 /************* Get the post icon ********************/
 
-function get_post_icon() {
+function rcre_get_post_icon() {
+  
   // If there is a post icon, then store that as the icon
   if ( types_render_field( "post-icon" ) != null ) {
 
     $icon = types_render_field( "post-icon", array( 'raw' => false ) );
+
+    echo $icon;
   
   // If there is a specialty associated with this post, then assign that icon
   } elseif ( has_term() != null )  {
@@ -462,16 +465,16 @@ function get_post_icon() {
     // If there isn't any icon, then just use the defaul icon.
   } else {
     $iconLink = get_stylesheet_directory_uri() . '/library/images/icons/icon-sprouting-plant.svg';
-      $icon = '<img src="'.$iconLink.'">'; 
+      echo '<img src="'.$iconLink.'">'; 
   }
 }
 
 /************************ CUSTOM FUNCTION  ******************************/
 /************* Get a tag that only has the post type ********************/
 
-function get_post_type_tag() {
+function rcre_get_post_type_tag($post) {
   // Create content for post type, based on the post type
-  $postTag = get_post_type();
+  $postTag = get_post_type($post);
   
   if ( $postTag == 'research-report' ) {
     $postTag = "Research Report";
@@ -491,7 +494,7 @@ function get_post_type_tag() {
 // /************** CUSTOM FUNCTION  ********************/
 // /************* Get All Post Tags ********************/
 
-function get_post_tags() {
+function rcre_get_tags($post) {
   // Specialty tags
   echo get_the_term_list( $post->ID, 'specialty', '<div class="tag blue">', '</div><div class="tag blue">', '</div>');
     
@@ -502,21 +505,65 @@ function get_post_tags() {
   $listing_type = get_the_term_list( $post->ID, 'listing-type', '', '', ''); 
 
   // Listing types that ARE NOT closed, get wrapped in a green tag.
-  if ( $listing_type != "Closed" ) {
-
-    echo '<div class="tag green">' . $listing_type . '</div>';
+  if ( has_term( '', 'listing-type' )) {
+    if ( $listing_type != "Closed" ) {
+      echo '<div class="tag green">' . $listing_type . '</div>';
   
-  // Listing types that ARE closed, get wrapped in red, with the date.
-  } else {
-    $listing_closed = types_render_field( "closed-date", array( 'raw' => true) );
-    
-    // If the listing is closed has the date, show the close date
-    if ( $listing_closed != null ) {
-      // Convert date to m/s/y from timestamps
-      $date_closed = date('m/d/Y', $listing_closed );
-      echo '<div class="left red tag">CLOSED:' . $date_closed . '</div>';
-    } 
+    // Listing types that ARE closed, get wrapped in red, with the date.
+    } else {
+      $listing_closed = types_render_field( "closed-date", array( 'raw' => true) );
+      
+      // If the listing is closed has the date, show the close date
+      if ( $listing_closed != null ) {
+        // Convert date to m/s/y from timestamps
+        $date_closed = date('m/d/Y', $listing_closed );
+        echo '<div class="left red tag">CLOSED:' . $date_closed . '</div>';
+      } 
+    }
   }
 }
+
+/************** CUSTOM FUNCTION  ********************/
+/************* Get the type of post I want ********************/
+
+
+function rcre_get_posts( $post_type, $number_of_posts ) {
+
+  global $post;
+  $post_slug=$post->post_name; // this is for testing, I might use this to grab the page slug
+
+  // Get the current specialty
+  if ( has_term( '', 'specialty' )) {
+    $custom_taxterms = wp_get_object_terms( $post->ID, 'specialty', array('fields' => 'slugs'));
+    $tax = 'specialty';
+  
+  // Get the current service
+  } elseif ( has_term( '', 'service' ) ) {
+    $custom_taxterms = wp_get_object_terms( $post->ID, 'service', array('fields' => 'slugs'));
+    $tax = 'service';
+  
+  // Get the current team
+  } elseif ( has_term( '', 'teams' ) ) {
+    $custom_taxterms = wp_get_object_terms( $post->ID, 'teams', array('fields' => 'slugs'));
+    $tax = 'teams';
+  }
+
+  $args = array(
+      'post_type' => $post_type,
+      'posts_per_page' => $number_of_posts,
+      'orderby' => 'post_title',
+      'order' => 'ASC',
+      'tax_query' => array(
+            array(
+                'taxonomy' => $tax,
+                'field' => 'slug',
+                'terms' => $custom_taxterms
+            )
+      )
+  );
+
+  $query = new WP_Query( $args ); 
+}
+
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

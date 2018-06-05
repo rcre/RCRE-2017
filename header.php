@@ -146,28 +146,28 @@
 		<?php 
 			
 			if ( is_front_page() ) {
-				get_template_part( 'library/partials/header-home' );
+				get_template_part( 'template-parts/header/header-home' );
 			
 			} elseif ( get_post_type() == "employee" ) {
-				get_template_part('library/partials/header-none');
+				get_template_part('template-parts/header/header-none');
 
 			} elseif ( get_post_type() == "listing" ) {
-				get_template_part('library/partials/header-listing');
+				get_template_part('template-parts/header/header-listing');
 
 			} elseif ( is_404() ) {
-				get_template_part('library/partials/header-404');
+				get_template_part('template-parts/header/header-404');
 
 			} elseif ( is_page_template('single-landing-page.php') ) {  
-				get_template_part('library/partials/header-none');
+				get_template_part('template-parts/header/header-none');
 
 			} elseif ( is_single() ) {
 				// This was preventing the landing age from wirkgin.
-				//get_template_part('library/partials/header-single');
+				get_template_part('template-parts/header/header-single');
 
 			} elseif ( is_search() ) {
-				get_template_part('library/partials/header-none');
+				get_template_part('template-parts/header/header-none');
 
 			} else {
-				get_template_part('library/partials/header-default');
+				get_template_part('template-parts/header/header-default');
 			} ?>
 				

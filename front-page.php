@@ -1,18 +1,18 @@
 <?php get_header(); ?>
 			
 	<div id="content">
-			<div class="our-clients cf">
-				<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
-					<ul>
-						<li class="Coca-Cola"><span>Coca-Cola</span></li>
-						<li class="eli-lilly"><span>PNC Bank</span></li>
-						<li class="indiana-members"><span>Omnisource</span></li>
-						<li class="omnisource"><span>Hylant</span></li>
-						<li class="PNC"><span>Indiana Members</span></li>
-						<li class="progressive"><span>Lilly</span></li>
-					</ul>
-				</div>
+		<div class="our-clients cf">
+			<div class="pull-l-1of12 pull-r-1of12 m-padding cf">
+				<ul>
+					<li class="Coca-Cola"><span>Coca-Cola</span></li>
+					<li class="eli-lilly"><span>PNC Bank</span></li>
+					<li class="indiana-members"><span>Omnisource</span></li>
+					<li class="omnisource"><span>Hylant</span></li>
+					<li class="PNC"><span>Indiana Members</span></li>
+					<li class="progressive"><span>Lilly</span></li>
+				</ul>
 			</div>
+		</div>
 
 		<div id="inner-content" class="cf">
 
@@ -23,12 +23,12 @@
 				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
 				<?php 
-					get_template_part('library/partials/sectionUVP'); 
-					get_template_part('library/partials/sectionServiceGrid');
-					get_template_part('post-formats/content-section');
-					get_template_part('library/partials/sectionCaseStudy');
-					get_template_part('library/partials/sectionContact');
-					get_template_part('library/partials/sectionMailChimpSmall');
+					get_template_part('template-parts/sections/sectionUVP'); 
+					get_template_part('template-parts/sections/sectionServiceGrid');
+					get_template_part('template-parts/post-formats/content-section');
+					get_template_part('template-parts/sections/sectionCaseStudy');
+					get_template_part('template-parts/sections/sectionContact');
+					get_template_part('template-parts/sections/sectionMailChimpSmall');
 				?>
 
 				</article>
@@ -40,3 +40,4 @@
 	</div><?php // End content ?>
 
 <?php get_footer(); ?>
+

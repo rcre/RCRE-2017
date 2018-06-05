@@ -22,10 +22,12 @@
 					<div class="contact-pic industry--Small-Business"></div>
 				</div>
 
-				<h3>Let's Get Started!</h3>
+				<div class="contact-pic-container">
+					<h3>Let's Get Started!</h3>
 
-				<p>Tackle your biggest commercial real estate challenges with a team that cares. Our team is ready to help!</p>
-				<p>Use our secure form or <a class="drift-open-chat cta-underline-gray" href="#">instant message us!</a></p>
+					<p>Tackle your biggest commercial real estate challenges with a team that cares. Our team is ready to help!</p>
+					<p>Use our secure form or <a class="drift-open-chat cta-underline-gray" href="#">instant message us!</a></p>
+				</div>
 		</div>
 
 

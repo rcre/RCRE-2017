@@ -4,33 +4,34 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="m-all t-all d-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
+		<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/LocalBusiness">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
+				<article class="cf" role="article" itemscope itemtype="http://schema.org/WebPage">
 					<?php
-						get_template_part( 'post-formats/content-childSection' );
-					?>
 
+						$page = basename(get_permalink());
+						get_template_part( 'template-parts/pages/page-', $page );
 
-					<?php	
-						
-
-							if ( is_page('about')) {
-								get_template_part( 'library/partials/sectionValues' );
+						if ( is_page('about')) {
+								get_template_part( 'template-parts/sections/sectionValues' );
 							}
-						
-						get_template_part( 'post-formats/content-section' ); 
+							
+						get_template_part( 'template-parts/post-formats/content-childSection' );
+						get_template_part( 'template-parts/post-formats/content-section' ); 
 					?>
 		
 				</article>
 
-				<?php get_template_part('library/partials/sectionContact'); ?>
+				<?php get_template_part('template-parts/sections/sectionContact'); ?>
 				
 			<?php endwhile; endif; ?>
+		
 		</main>			
 	</div>
+
+	<?php get_template_part('template-parts/sections/sectionMailChimpSmall'); ?>
 </div>
 
 <?php get_footer(); ?>

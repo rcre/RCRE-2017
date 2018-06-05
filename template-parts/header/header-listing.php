@@ -11,24 +11,19 @@
 	
 		<div class="pull-r-1of12 pull-l-1of12 m-padding">
 
-			<?php // Get all the tags
-				echo get_the_term_list( $post->ID, 'specialty', '<div class="tag blue">', '</div><div class="tag blue">', '</div>');
-				echo get_the_term_list( $post->ID, 'service', '<div class="tag gray">', '</div><div class="tag gray">', '</div>');
-				echo get_the_term_list( $post->ID, 'listing-type', '<div class="tag green">', '</div><div class="tag green">', '</div>'); 
-			?>
+			<?php rcre_get_tags($post); ?>
 
-
-			<?php 
-
-			// if it's an archive page, we need to get the name of the taxonomy for the title
-			if ( is_archive() ) {
-				$tax = $wp_query->get_queried_object();
-				$archive_title = $tax->name;
-			} else {
-				$archive_title = get_the_title();
-			}
+			<?php
 				
-			 ?>
+				// if it's an archive page, we need to get the name of the taxonomy for the title
+				if ( is_archive() ) {
+					$tax = $wp_query->get_queried_object();
+					$archive_title = $tax->name;
+				} else {
+					$archive_title = get_the_title();
+				}
+				
+			?>
 			<!-- Callout Section for the Average Page-->
 				<h1 itemprop="name"><?php echo $archive_title; ?></h1>
 				
@@ -38,6 +33,7 @@
 					</a>
 				</div>
 
+			
 			<?php if ( $listing_flyer != null ) { ?>
 				<a title="Download the PDF" class="download-icon pull-r-1of12" href="<?php echo $listing_flyer; ?>" alt="Download the PDF" target="_blank" role="button"></a>
 			<?php } ?>

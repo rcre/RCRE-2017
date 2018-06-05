@@ -1,9 +1,3 @@
-<?php
-/*
- * BROKER PROFILE LAYOUT
-*/
-?>
-
 <?php 
 	$title = types_render_field( "profile-title", array( 'raw' => false ) );
 	$email = types_render_field( "profile-email-address", array( 'raw' => true ) );
@@ -113,8 +107,7 @@
 
 							<div>
 								<?php // Get all the tags
-								echo get_the_term_list( $post->ID, 'specialty', '<div class="tag blue">', '</div><div class="tag blue">', '</div>');
-								echo get_the_term_list( $post->ID, 'service', '<div class="tag gray">', '</div><div class="tag gray">', '</div>');
+									rcre_get_tags();
 								?>
 							</div>
 							
@@ -177,9 +170,6 @@
 					);
 
 					$child_posts = get_posts( $childargs );
-
-					// $child_posts = types_child_posts( "post" );
-					//var_dump( $child_posts );
 
 						if ( $child_posts != null ) { ?>
 						

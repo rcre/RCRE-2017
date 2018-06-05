@@ -1,9 +1,3 @@
-<?php
-/*
- Template Name: Listing Template
-*/
-?>
-
 <?php 
 	$listing_headline = types_render_field( "flyer-headline" );
 	$listing_lease = types_render_field( "lease-rate" );
@@ -22,7 +16,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf m-padding pull-r-1of12" role="main" itemscope itemtype="http://schema.org/Product">
+		<main id="main" class="cf m-padding pull-r-1of12 pull-l-1of12" role="main" itemscope itemtype="http://schema.org/Product">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

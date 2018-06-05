@@ -1,9 +1,3 @@
-<?php
-/*
- * CASE STUDY LAYOUT
-*/
-?>
-
 <?php get_header(); ?>
 
 <div id="content">

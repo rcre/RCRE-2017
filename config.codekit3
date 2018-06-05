@@ -1682,167 +1682,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/library\/partials\/contentThankYou.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/contentThankYou.php",
-		"oF": 3
-		},
-	"\/library\/partials\/header-404.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/header-404.php",
-		"oF": 3
-		},
-	"\/library\/partials\/header-default.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/header-default.php",
-		"oF": 3
-		},
-	"\/library\/partials\/header-home.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/header-home.php",
-		"oF": 3
-		},
-	"\/library\/partials\/header-listing.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/header-listing.php",
-		"oF": 3
-		},
-	"\/library\/partials\/header-none.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/header-none.php",
-		"oF": 3
-		},
-	"\/library\/partials\/header-single.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/header-single.php",
-		"oF": 3
-		},
-	"\/library\/partials\/outputButtons-services.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/outputButtons-services.php",
-		"oF": 3
-		},
-	"\/library\/partials\/outputButtons-social.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/outputButtons-social.php",
-		"oF": 3
-		},
-	"\/library\/partials\/outputButtons-specialty.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/outputButtons-specialty.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionCareers.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionCareers.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionCaseStudy.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionCaseStudy.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionContact.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionContact.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionCustomContact.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionCustomContact.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionListingContact.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionListingContact.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionMailChimpSmall.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionMailChimpSmall.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionNeedHelp.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionNeedHelp.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionServiceGrid.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionServiceGrid.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionSocialShare.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionSocialShare.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionSpecialties.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionSpecialties.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionTeam.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionTeam.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionUVP.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionUVP.php",
-		"oF": 3
-		},
-	"\/library\/partials\/sectionValues.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resource-2018\/library\/partials\/sectionValues.php",
-		"oF": 3
-		},
 	"\/library\/scss\/.sass-cache\/6e7588f5a7357a6857c2d4c5f178cc8f910ca99b\/_alerts.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -2842,172 +2681,11 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/page-blank.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-blank.php",
-		"oF": 0
-		},
-	"\/page-careers.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-careers.php",
-		"oF": 0
-		},
-	"\/page-case-studies.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-case-studies.php",
-		"oF": 0
-		},
-	"\/page-marketing.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-marketing.php",
-		"oF": 0
-		},
-	"\/page-research.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-research.php",
-		"oF": 0
-		},
-	"\/page-service.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-service.php",
-		"oF": 0
-		},
-	"\/page-specialty-no-cs.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-specialty-no-cs.php",
-		"oF": 0
-		},
-	"\/page-specialty.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-specialty.php",
-		"oF": 0
-		},
-	"\/page-team.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-team.php",
-		"oF": 0
-		},
-	"\/page-wernke-team.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/page-wernke-team.php",
-		"oF": 0
-		},
 	"\/page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resource-2018\/page.php",
-		"oF": 0
-		},
-	"\/post-formats\/author-case-study.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/author-case-study.php",
-		"oF": 0
-		},
-	"\/post-formats\/author-single.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/author-single.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-case-study.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-case-study.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-childSection.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-childSection.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-employee.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-employee.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-pictures.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-pictures.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-post.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-post.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-search-result.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-search-result.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-section.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-section.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-serviceButton.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-serviceButton.php",
-		"oF": 0
-		},
-	"\/post-formats\/content-serviceDropdown.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/content-serviceDropdown.php",
-		"oF": 0
-		},
-	"\/post-formats\/format-aside.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/format-aside.php",
-		"oF": 0
-		},
-	"\/post-formats\/format.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/post-formats\/format.php",
 		"oF": 0
 		},
 	"\/readme.html": {
@@ -3034,12 +2712,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/resource-2018": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/resource-2018\/resource-2018",
-		"oF": 0
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
@@ -3125,12 +2797,313 @@
 		"oF": 1,
 		"oS": 0
 		},
-	"\/taxonomy-teams.php": {
+	"\/template-parts\/header\/header-404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/resource-2018\/taxonomy-teams.php",
+		"oAP": "\/resource-2018\/template-parts\/header\/header-404.php",
+		"oF": 2
+		},
+	"\/template-parts\/header\/header-default.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/header\/header-default.php",
+		"oF": 2
+		},
+	"\/template-parts\/header\/header-home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/header\/header-home.php",
+		"oF": 2
+		},
+	"\/template-parts\/header\/header-listing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/header\/header-listing.php",
+		"oF": 2
+		},
+	"\/template-parts\/header\/header-none.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/header\/header-none.php",
+		"oF": 2
+		},
+	"\/template-parts\/header\/header-single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/header\/header-single.php",
+		"oF": 2
+		},
+	"\/template-parts\/pages\/page-careers.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/pages\/page-careers.php",
 		"oF": 0
+		},
+	"\/template-parts\/pages\/page-case-studies.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/pages\/page-case-studies.php",
+		"oF": 0
+		},
+	"\/template-parts\/pages\/page-marketing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/pages\/page-marketing.php",
+		"oF": 0
+		},
+	"\/template-parts\/pages\/page-research.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/pages\/page-research.php",
+		"oF": 0
+		},
+	"\/template-parts\/pages\/page-service.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/pages\/page-service.php",
+		"oF": 0
+		},
+	"\/template-parts\/pages\/page-specialty-no-cs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/pages\/page-specialty-no-cs.php",
+		"oF": 0
+		},
+	"\/template-parts\/pages\/page-specialty.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/pages\/page-specialty.php",
+		"oF": 0
+		},
+	"\/template-parts\/pages\/page-team.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/pages\/page-team.php",
+		"oF": 0
+		},
+	"\/template-parts\/pages\/page-wernke-team.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/pages\/page-wernke-team.php",
+		"oF": 0
+		},
+	"\/template-parts\/partials\/contentThankYou.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/contentThankYou.php",
+		"oF": 3
+		},
+	"\/template-parts\/partials\/outputButtons-services.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/outputButtons-services.php",
+		"oF": 3
+		},
+	"\/template-parts\/partials\/outputButtons-social.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/outputButtons-social.php",
+		"oF": 3
+		},
+	"\/template-parts\/partials\/outputButtons-specialty.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resource-2018\/library\/partials\/outputButtons-specialty.php",
+		"oF": 3
+		},
+	"\/template-parts\/post-formats\/author-case-study.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/author-case-study.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/author-single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/author-single.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-case-study.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-case-study.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-childSection.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-childSection.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-employee.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-employee.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-pictures.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-pictures.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-post.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-post.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-search-result.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-search-result.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-section.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-section.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-serviceButton.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-serviceButton.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-serviceDropdown.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-serviceDropdown.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/format-aside.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/format-aside.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/format.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/format.php",
+		"oF": 0
+		},
+	"\/template-parts\/sections\/sectionCareers.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionCareers.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionCaseStudy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionCaseStudy.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionContact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionContact.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionCustomContact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionCustomContact.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionListingContact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionListingContact.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionMailChimpSmall.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionMailChimpSmall.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionServiceGrid.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionServiceGrid.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionSocialShare.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionSocialShare.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionSpecialties.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionSpecialties.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionTeam.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionTeam.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionUVP.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionUVP.php",
+		"oF": 2
+		},
+	"\/template-parts\/sections\/sectionValues.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionValues.php",
+		"oF": 2
 		}
 	},
 "hooks": [
@@ -3152,7 +3125,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 548348981
+	"lastBuiltDate": 548887050
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
