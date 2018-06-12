@@ -2713,6 +2713,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/resource-2018": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/resource-2018\/resource-2018",
+		"oF": 0
+		},
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 450767,
@@ -2853,13 +2859,6 @@
 		"oAP": "\/resource-2018\/template-parts\/pages\/page-case-studies.php",
 		"oF": 0
 		},
-	"\/template-parts\/pages\/page-marketing.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/template-parts\/pages\/page-marketing.php",
-		"oF": 0
-		},
 	"\/template-parts\/pages\/page-research.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2872,13 +2871,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resource-2018\/template-parts\/pages\/page-service.php",
-		"oF": 0
-		},
-	"\/template-parts\/pages\/page-specialty-no-cs.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resource-2018\/template-parts\/pages\/page-specialty-no-cs.php",
 		"oF": 0
 		},
 	"\/template-parts\/pages\/page-specialty.php": {
@@ -2942,6 +2934,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resource-2018\/template-parts\/post-formats\/author-single.php",
+		"oF": 0
+		},
+	"\/template-parts\/post-formats\/content-career.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/post-formats\/content-career.php",
 		"oF": 0
 		},
 	"\/template-parts\/post-formats\/content-case-study.php": {
@@ -3063,6 +3062,13 @@
 		"oAP": "\/resource-2018\/template-parts\/sections\/sectionMailChimpSmall.php",
 		"oF": 2
 		},
+	"\/template-parts\/sections\/sectionNewContact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resource-2018\/template-parts\/sections\/sectionNewContact.php",
+		"oF": 0
+		},
 	"\/template-parts\/sections\/sectionServiceGrid.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3125,7 +3131,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/library\/images\/logos\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 548887050
+	"lastBuiltDate": 550531068
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

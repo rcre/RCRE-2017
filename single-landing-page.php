@@ -45,10 +45,10 @@
 				
 				<?php 
 					if ( get_post_type() == "landing-page") {
-						get_template_part('library/partials/sectionCustomContact'); 
+						get_template_part('template-parts/sections/sectionCustomContact'); 
 					
 					} elseif ( is_page ("thank-you")) {
-						get_template_part('library/partials/contentThankYou');
+						get_template_part('template-parts/partials/contentThankYou');
 					}
 				?>
 

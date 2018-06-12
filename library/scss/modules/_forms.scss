@@ -318,6 +318,7 @@ form {
   }
 
   input[type="submit"] {
+    @extend %btn;
     margin-top: 7px;
     float: left;
     background-color: transparent;

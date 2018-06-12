@@ -9,7 +9,7 @@
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<?php
-					get_template_part( 'post-formats/format', get_post_format() );
+					get_template_part( 'template-parts/post-formats/format', get_post_format() );
 				
 					if ( types_render_field( "report-pdf" ) != null ) { ?>
 						<div class="pad-top cf">
@@ -17,8 +17,8 @@
 						</div>
 					<?php } 
 
-					get_template_part( 'library/partials/sectionSocialShare' );
-					get_template_part( 'post-formats/author-single' );
+					get_template_part( 'template-parts/sections/sectionSocialShare' );
+					get_template_part( 'template-parts/post-formats/author-single' );
 				?>
 
 				<?php endwhile; ?>
@@ -42,7 +42,7 @@
 			</main>
 	
 		</div>
-		<?php get_template_part('library/partials/sectionMailChimpSmall'); ?>
+		<?php get_template_part('template-parts/sections/sectionMailChimpSmall'); ?>
 	</div>
 
 <?php get_footer(); ?>

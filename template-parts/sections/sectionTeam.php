@@ -1,13 +1,10 @@
-<div class="team-grid">
+<section id="SpecialtyTeam" class="pad-top">
+	<h2 class="header-dark pad-top">The RESOURCE Team</h2>
+	<div class="team-grid">
+		<?php rcre_get_posts( "employee", "all" ); ?>
+	</div>
+</section>
 
-<?php if (have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
-
-	// magic here
-
-<?php wp_reset_postdata(); ?>
-<?php endwhile; endif; ?>
-
-</div>
 
 
 

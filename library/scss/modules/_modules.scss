@@ -378,6 +378,14 @@ MODULE: Specialty Overview
 		border-radius: 10px;
 		color: white;
 		font-weight: 800;
+		transition: 0.3s;
+		transition-timing-function: ease-out;
+	
+		&:hover {
+			transform: translatey(-15px);
+			transisition: 0.3s;
+			transition-timing-function: ease-out;
+		}
 	}
 }
 

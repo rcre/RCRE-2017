@@ -19,7 +19,7 @@
 
 								<article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article">
 									
-									<?php get_template_part( 'post-formats/content-search-result' ); ?>
+									<?php get_template_part( 'template-parts/post-formats/content-search-result' ); ?>
 
 								</article>
 

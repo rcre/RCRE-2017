@@ -45,8 +45,13 @@ header .nav {
 	}
 }
 
-section .slant {
-	width: 60%;
+section {
+	margin-left: 12.33%;
+	margin-right: 12.33%;
+
+	.slant {
+		width: 60%;
+	}
 }
 
 #contactSidebar {

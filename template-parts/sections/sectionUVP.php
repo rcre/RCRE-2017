@@ -1,5 +1,6 @@
 <?php 
 
+$description = types_render_field( "service-main-description" );
 $icon_1 = types_render_field( "feature-1-icon", array( 'raw' => false) ); 
 $icon_2 = types_render_field( "feature-2-icon", array( 'raw' => false) );
 $icon_3 = types_render_field( "feature-3-icon", array( 'raw' => false) );
@@ -12,9 +13,9 @@ $feature_3 = types_render_field( "feature-3", array( 'raw' => true));
 
 ?>
 
-<section class="pad-top m-padding">
+<section class="pad-top">
 	<div class="uvp">
-		<?php echo types_render_field( "service-main-description" ); ?>
+		<?php echo $description; ?>
 	</div>
 	<div class="selling-point-grid">
 		<div class="selling-point">

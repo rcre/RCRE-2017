@@ -58,6 +58,13 @@ header {
 #hero {
 	position: relative;
 	overflow: hidden;
+
+	// for the icon in the center of the header
+	img {
+    	margin: 30px;
+    	padding: 0;
+    	width: auto;
+    }
 }
 
 #scene {
@@ -78,7 +85,8 @@ header {
 	width: 120%;
     text-align: center;
     z-index: -5;
-    top: 20px !important;
+    top: 0px !important;
+    margin-bottom: -50px;
 
 	&:after {
 	    background-color:  rgba(0, 0, 0, 0.22);
@@ -117,7 +125,6 @@ video.fullscreen {
 	display: block;
   	height: auto !important;
   	width: 1357px;
-  	margin-top: 63px;
 }
 
 header.fullscreen {
@@ -126,12 +133,14 @@ header.fullscreen {
 }
 
 .header-default {
-	height: 450px;
+	height: 550px;
 }
 
 #single-header {
 	padding-top: 90px;
 	padding-bottom: 20px;
+	background-repeat: repeat;
+	background-size: 20%;
 }
 
 #listing-header {
@@ -241,7 +250,6 @@ header.fullscreen {
 	font-size: 1.5em;
 	color: white;
 	margin: 0 auto;
-	padding: 5px;
 	text-shadow: 5px 1px 10px rgba( $black, 0.5);
 }
 
@@ -293,7 +301,8 @@ SECTION STYLES
 *********************/
 
 section {
-	// Don't show the slant on mobile
+	margin-left: 25px;
+    margin-right: 25px;
 	padding: 0;
 	margin-top: 20px;
 	margin-bottom: 40px;
@@ -320,7 +329,12 @@ section {
 	}
 }
 
+.no-margin {
+	margin: 0px;
+}
+
 .panel {
+	margin: 0;
 	height: auto;
 	background: none;
 }

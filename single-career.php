@@ -25,55 +25,50 @@
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<article id="post-<?php the_ID(); ?>" <?php post_class('cf pull-r-1of12 pull-l-1of12'); ?> role="article">
+			<article id="post-<?php the_ID(); ?>" <?php post_class('cf pad-top pull-r-1of12 pull-l-1of12'); ?> role="article">
 			
 
-				<section class="cs-aside t-1of3 d-1of4 cf">
+				<aside class="cs-aside t-1of3 d-1of4 cf">
 				
 					<h3>Job Details</h3>
 				
-					<aside>
 						<h5>Job Status</h5>
 						<p><?php echo $status; ?></p>
-					</aside>
 
-					<aside>
+
 						<h5>Department</h5>
 						<p><?php echo $department; ?></p>
-					</aside>
 
-					<aside>
+
 						<h5>Reports to:</h5>
-						<p><?php echo reportsTo; ?></p>
-					</aside>
+						<p><?php echo $reportsTo; ?></p>
 
-				<?php if ( $reportees != null ) { ?>
-					<aside>
+
+					<?php if ( $reportees != null ) { ?>
 						<h5>People who report to you:</h5>
-						<p><?php echo $reportees ?></p>
-					</aside>
-				<?php } ?>
+						<p><?php echo $reportees; ?></p>
+					<?php } ?>
 					
-				</section>
+				</aside>
 
 				<div class="m-all t-2of3 d-3of4">
 
-						<section class="cs-section cf">
+						<section class="no-margin">
 							<h3>Summary</h3>
 							<p><?php echo $summary; ?></p>
 						</section>
 			
-						<section class="cs-section cf">
+						<section class="no-margin">
 							<h3>Responsibilities</h3>
 							<p><?php echo $responsibilities; ?></p>
 						</section>
 					
-						<section class="cs-section cf">
+						<section class="no-margin">
 							<h3>Requirements</h3>
 							<p><?php echo $requirements; ?></p>
 						</section>
 
-						<section class="cs-section cf">
+						<section class="no-margin">
 							<h3>Other Details</h3>
 							<p><?php echo $other; ?></p>
 						</section>

@@ -16,7 +16,7 @@
 
 	<div id="inner-content" class="cf">
 
-		<main id="main" class="cf m-padding pull-r-1of12 pull-l-1of12" role="main" itemscope itemtype="http://schema.org/Product">
+		<main id="main" class="cf" role="main" itemscope itemtype="http://schema.org/Product">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -24,7 +24,7 @@
 				
 			<?php if ( $listing_closed == null ) { ?>
 
-				<section class="cf">
+				<section class="cf no-margin">
 					<?php if ( $listing_headline != null ) { ?>
 						<h3><?php echo $listing_headline; ?></h3>
 					<?php } ?>
@@ -69,7 +69,7 @@
 					
 					<hr>
 
-				<section class="cf">
+				<section class="cf no-margin">
 					<h3 class="pad-top">Property Picture</h3>
 
 				<?php 
@@ -119,7 +119,7 @@
 			
 			<div class="cf d-1of3 m-hide">
 				<aside id="contactSidebar">
-					<?php get_template_part('library/partials/sectionListingContact'); ?>
+					<?php get_template_part('template-parts/sections/sectionListingContact'); ?>
 				</aside>
 			</div>
 
@@ -129,7 +129,7 @@
 
 				<div class="cf left m-hide">
 					<aside id="contactSidebar">
-					<?php get_template_part('library/partials/sectionListingContact'); ?>
+					<?php get_template_part('template-parts/sections/sectionListingContact'); ?>
 					</aside>
 				</div>
 
@@ -149,7 +149,7 @@
 				<i class="fa fa-close" aria-hidden="true"></i>
 			</div>
 			<a id="moreInfo" class="cta-border-gray" role="button">Request more info</a>
-			<?php get_template_part('library/partials/sectionListingContact'); ?>
+			<?php get_template_part('template-parts/sections/sectionListingContact'); ?>
 		</div>
 
 	</div>

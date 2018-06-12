@@ -3,12 +3,12 @@
 	
 	<a href="<?php esc_url( the_permalink() ); ?>">
 		<div class="picture" style="background-image: url('<?php echo rcre_header_image($post); ?>');">
-			<?php rcre_get_post_type_tag(); ?>
+			<?php rcre_get_post_type_tag($post); ?>
 		</div>
 	</a>
 	
 	<div class="content">
-		<?php rcre_get_post_tags(); ?>
+		<?php rcre_get_tags($post); ?>
 
 		<div class="cf"></div>
 		<h4><?php the_title(); ?></h3>

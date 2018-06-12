@@ -10,7 +10,7 @@
  function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
 </script>
 		
-<section id="contactUs" class="pull-r-1of12 pull-l-1of12 m-padding cf">
+<section id="contactUs">
 
 	<div class="cf">
 

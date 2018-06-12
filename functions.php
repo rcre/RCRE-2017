@@ -529,26 +529,35 @@ function rcre_get_tags($post) {
 
 function rcre_get_posts( $post_type, $number_of_posts ) {
 
-  global $post;
-  $post_slug=$post->post_name; // this is for testing, I might use this to grab the page slug
-
-  // Get the current specialty
-  if ( has_term( '', 'specialty' )) {
-    $custom_taxterms = wp_get_object_terms( $post->ID, 'specialty', array('fields' => 'slugs'));
-    $tax = 'specialty';
-  
-  // Get the current service
-  } elseif ( has_term( '', 'service' ) ) {
-    $custom_taxterms = wp_get_object_terms( $post->ID, 'service', array('fields' => 'slugs'));
-    $tax = 'service';
-  
-  // Get the current team
-  } elseif ( has_term( '', 'teams' ) ) {
-    $custom_taxterms = wp_get_object_terms( $post->ID, 'teams', array('fields' => 'slugs'));
-    $tax = 'teams';
+  if ( $number_of_posts == "all" ) {
+    $number_of_posts = 100;
   }
+  
+  $tax = '';
+  global $post;
 
-  $args = array(
+  if ( has_term( '', 'specialty', $post->ID )) {
+      $custom_taxterms = wp_get_object_terms( $post->ID, 'specialty', array('fields' => 'slugs'));
+      $tax = 'specialty';
+  
+  } elseif ( has_term( '', 'service', $post->ID ) ) {
+      $custom_taxterms = wp_get_object_terms( $post->ID, 'service', array('fields' => 'slugs'));
+      $tax = 'service';
+  
+  } elseif ( has_term( '', 'teams', $post->ID ) ) {
+      $custom_taxterms = wp_get_object_terms( $post->ID, 'teams', array('fields' => 'slugs'));
+      $tax = 'teams';
+
+  } elseif ( is_front_page() ) {
+      $all_specialties = get_terms( 'specialty' ); // Get all specialty terms.
+      $rand_specialty = $all_specialties[ array_rand( $all_specialties ) ]; // Select one at random.
+      $custom_taxterms = array( $rand_specialty->term_id );
+      $tax = 'specialty';
+      $custom_field = 'id';
+  }
+  
+  if ( $tax != null ) {
+      $args = array(
       'post_type' => $post_type,
       'posts_per_page' => $number_of_posts,
       'orderby' => 'post_title',
@@ -560,10 +569,30 @@ function rcre_get_posts( $post_type, $number_of_posts ) {
                 'terms' => $custom_taxterms
             )
       )
-  );
+    );
 
-  $query = new WP_Query( $args ); 
+  } else {
+      $args = array(
+        'post_type' => $post_type,
+        'posts_per_page' => $number_of_posts,
+        'orderby' => 'post_title',
+        'order' => 'ASC'
+      );
+  }
+
+  //var_dump($args);
+  $custom_posts = new WP_Query( $args );
+
+  if ($custom_posts->have_posts()) : while ( $custom_posts->have_posts() ) : $custom_posts->the_post();
+    
+    if (locate_template( array( 'template-parts/post-formats/content-' . get_post_type() . '.php' ) ) != '') {
+      get_template_part( 'template-parts/post-formats/content', get_post_type() );
+    } else {
+      get_template_part( 'template-parts/post-formats/content', 'search-result' );
+    }
+
+  endwhile; endif;
+  wp_reset_postdata();
 }
-
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

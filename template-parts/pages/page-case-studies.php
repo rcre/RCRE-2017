@@ -8,14 +8,7 @@
 	<h2 class="header-dark">Read the Latest Case Studies</h2>
 	
 	<div class="selling-point-grid">
-	
-		<?php if (have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
-
-			// magic here
-		
-		<?php wp_reset_postdata(); ?>
-		<?php endwhile; endif; ?>
-	
+		<?php rcre_get_posts( "case-study", "all" ); ?>
 	</div>
 	
 </section>

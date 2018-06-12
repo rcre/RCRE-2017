@@ -62,6 +62,14 @@ HEADER STYLES
 	}
 }
 
+#hero {
+	img {
+    	margin: 30px;
+    	padding: 40px;
+    	width: 70%;
+    }
+}
+
 .callout {
 
 	.header-buttons {
@@ -259,6 +267,8 @@ SECTION STYLES
 *********************/
 
 section {
+	margin-left: 8.33%;
+	margin-right: 8.33%;
 	
 	.uvp {
 		

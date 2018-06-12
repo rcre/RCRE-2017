@@ -10,9 +10,9 @@
  setInterval(timestamp, 500); 
 </script>
 
-<section id="contactUs" class="m-padding proposal-contact cf">
+<section id="contactUs" class="proposal-contact">
 
-	<div class="pad-top pull-r-1of12 pull-l-1of12 cf">
+	<div class="pad-top cf">
 
 		<div class="t-1of2 d-1of2 cf">
 		

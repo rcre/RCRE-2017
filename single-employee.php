@@ -107,14 +107,14 @@
 
 							<div>
 								<?php // Get all the tags
-									rcre_get_tags();
+									rcre_get_tags($post);
 								?>
 							</div>
 							
 					</div>
 				</aside>
 			
-				<section class="profile-content m-all t-1of2 d-2of3 pull-r-1of12 cf">
+				<div class="profile-content m-all t-1of2 d-2of3 pull-r-1of12 cf">
 					<h3>Duties</h3>
 					<p><?php echo $duties; ?></p>
 

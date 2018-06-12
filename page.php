@@ -10,16 +10,24 @@
 
 				<article class="cf" role="article" itemscope itemtype="http://schema.org/WebPage">
 					<?php
-
 						$page = basename(get_permalink());
-						get_template_part( 'template-parts/pages/page-', $page );
-
-						if ( is_page('about')) {
-								get_template_part( 'template-parts/sections/sectionValues' );
+						$parentID = wp_get_post_parent_id( $post->ID );
+						// echo $parentID;
+						
+						if ( $parentID == 101 ) {
+							get_template_part( 'template-parts/pages/page-specialty' );
+						} elseif ( $parentID == 82 ) {
+							get_template_part( 'template-parts/pages/page-service' );
+						} else {
+							if ( types_render_field( "feature-1-icon", array( 'raw' => false) ) != null ) {
+								get_template_part('template-parts/sections/sectionUVP');
 							}
 							
-						get_template_part( 'template-parts/post-formats/content-childSection' );
-						get_template_part( 'template-parts/post-formats/content-section' ); 
+							//get_template_part('template-parts/sections/sectionTeam');
+							get_template_part( 'template-parts/pages/page', $page );
+							get_template_part( 'template-parts/post-formats/content-childSection' );
+							get_template_part( 'template-parts/post-formats/content-section' ); 
+						}
 					?>
 		
 				</article>

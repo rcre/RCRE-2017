@@ -1,5 +1,4 @@
 <section id="need-help">
-	
 	<div class="m-padding">
 		<h4>Get the 2018 CRE Outlook for Indiana.</h4>
 		<p>Plus + follow the latest commercial real estate news, research reports, <br>drone tours, and much more with the RESOURCE newsletter. <br>Free and delivered straight to your inbox.</p>

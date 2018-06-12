@@ -1,6 +1,6 @@
 <?php // SECTION Service Grid ?>
 
-<section class="pull-l-1of12 pull-r-1of12 m-padding">
+<section>
 	<h2 class="header-dark text-center header-margin">Everything you need, all in one place.</h2>
 
 	<div class="selling-point-grid">

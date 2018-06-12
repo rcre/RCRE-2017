@@ -1,4 +1,4 @@
-<section class="m-padding cf">
+<section>
 	<h2 class="header-dark header-margin text-center">Our CORE Values — Growing Excellence</h2>
 
 	<div class="selling-point-grid">

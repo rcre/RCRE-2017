@@ -42,6 +42,13 @@ h1, .h1 {
   text-shadow: 5px 1px 15px rgba( $black, 0.4);
 }
 
+.single {
+  h1 {
+    margin-top: -15px;
+    margin-bottom: -10px;
+  }
+}
+
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.4em;

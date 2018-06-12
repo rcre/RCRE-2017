@@ -27,7 +27,7 @@
 					get_template_part('template-parts/sections/sectionServiceGrid');
 					get_template_part('template-parts/post-formats/content-section');
 					get_template_part('template-parts/sections/sectionCaseStudy');
-					get_template_part('template-parts/sections/sectionContact');
+					get_template_part('template-parts/sections/sectionNewContact');
 					get_template_part('template-parts/sections/sectionMailChimpSmall');
 				?>
 
