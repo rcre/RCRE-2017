@@ -15,6 +15,18 @@ Author: Patrick Hanus
 
 *******************************************************************
 
+*2.2.0* 
+
+## 06.12.18
+- Updated paths to new template folder
+- Added a new contact form based off of a contact form plugin.
+- Added a function that gets the posts I want based off of the tags on the page.
+- Sections now have the correct margins baked into them.
+- Fixed some issues with the mobile menu header that was not allowing for scrolling upon overflow
+- Added a php partial that outputs the specialties and their picture.
+- added conditional template parts to the main page template
+- extracted fucntions and declared php variables at the top of the page.
+
 *2.1.0* 
 
 ## 05.18.18

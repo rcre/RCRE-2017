@@ -12,7 +12,6 @@
 					<?php
 						$page = basename(get_permalink());
 						$parentID = wp_get_post_parent_id( $post->ID );
-						// echo $parentID;
 						
 						if ( $parentID == 101 ) {
 							get_template_part( 'template-parts/pages/page-specialty' );
@@ -21,6 +20,10 @@
 						} else {
 							if ( types_render_field( "feature-1-icon", array( 'raw' => false) ) != null ) {
 								get_template_part('template-parts/sections/sectionUVP');
+							}
+
+							if ( $page == "about" ) {
+								get_template_part( 'template-parts/sections/sectionValues' );
 							}
 							
 							//get_template_part('template-parts/sections/sectionTeam');
@@ -32,7 +35,7 @@
 		
 				</article>
 
-				<?php get_template_part('template-parts/sections/sectionContact'); ?>
+				<?php get_template_part('template-parts/sections/sectionNewContact'); ?>
 				
 			<?php endwhile; endif; ?>
 		

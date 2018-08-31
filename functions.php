@@ -585,11 +585,13 @@ function rcre_get_posts( $post_type, $number_of_posts ) {
 
   if ($custom_posts->have_posts()) : while ( $custom_posts->have_posts() ) : $custom_posts->the_post();
     
-    if (locate_template( array( 'template-parts/post-formats/content-' . get_post_type() . '.php' ) ) != '') {
+    if ( is_page('Case Studies')) {
+        get_template_part( 'template-parts/post-formats/content', 'search-result' );
+    } elseif (locate_template( array( 'template-parts/post-formats/content-' . get_post_type() . '.php' ) ) != '') {
       get_template_part( 'template-parts/post-formats/content', get_post_type() );
     } else {
-      get_template_part( 'template-parts/post-formats/content', 'search-result' );
-    }
+        get_template_part( 'template-parts/post-formats/content', 'search-result' );
+      }
 
   endwhile; endif;
   wp_reset_postdata();

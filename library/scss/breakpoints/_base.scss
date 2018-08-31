@@ -41,6 +41,11 @@ p {
 	font-size: 1.2em;
 }
 
+blockquote {
+	width: 100%;
+    margin: 20px 0px;
+}
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -334,9 +339,14 @@ section {
 }
 
 .panel {
-	margin: 0;
+	margin-left: 25px;
+    margin-right: 25px;
 	height: auto;
 	background: none;
+}
+
+#contactUs {
+	border-top: solid 2px #e4e4e4;
 }
 
 

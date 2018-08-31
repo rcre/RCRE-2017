@@ -6,7 +6,6 @@
 	$listing_google_maps = types_render_field( "google-maps-url", array( 'raw' => true) );
 	$listing_flyer = types_render_field( "property-flyer", array( 'raw' => true) );
 	$listing_description = types_render_field( "listing-description", array( 'raw' => true) );
-
 	$listing_closed = types_render_field( "closed-date", array( 'raw' => true) );
 ?>
 

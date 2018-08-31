@@ -1,9 +1,6 @@
 <section id="Specialties" class="cf">
 	<?php
 		$terms = get_terms( 'specialty' );
-
-
-
 		foreach ( $terms as $term ) {
 
 		    // The $term is an object, so we don't need to specify the $taxonomy.

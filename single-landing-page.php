@@ -46,8 +46,9 @@
 				<?php 
 					if ( get_post_type() == "landing-page") {
 						get_template_part('template-parts/sections/sectionCustomContact'); 
-					
-					} elseif ( is_page ("thank-you")) {
+					}
+
+					if ( is_page ("thank-you")) {
 						get_template_part('template-parts/partials/contentThankYou');
 					}
 				?>

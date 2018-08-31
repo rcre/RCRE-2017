@@ -137,7 +137,7 @@ jQuery("#closeInfo").click(function() {
 **************************/
 
 function coolButton() {
-  //var docStyle = document.documentElement.style;
+  var docStyle = document.documentElement.style;
   var aElem = document.querySelector('a');
   var boundingClientRect = aElem.getBoundingClientRect();
 

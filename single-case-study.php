@@ -5,7 +5,7 @@ $numbers = types_render_field( "numbers-to-remember", array( "separator" => " </
 $challenge = types_render_field( "1-challenge", array( 'raw' => true));
 $strategy = types_render_field( "2-strategy", array( 'raw' => true));
 $results = types_render_field( "3-results", array( 'raw' => true));
-$quote = types_render_field( "client-quote" );
+$quote = types_render_field( "client-quote", array( 'raw' => true));
 $client = types_render_field( "client-quote-person", array( 'raw' => true));
 $clientTitle = types_render_field( "client-quote-title", array( 'raw' => true));
 
